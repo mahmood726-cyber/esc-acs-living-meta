@@ -1,0 +1,3545 @@
+{
+  "generatedAt": "2026-02-24T10:38:55.868Z",
+  "areaKey": "pulmonary_hypertension",
+  "remediation": true,
+  "strategy": {
+    "id": "strat_1771929527964_xovvlbq27",
+    "name": "ESC remediation pulmonary_hypertension",
+    "created": "2026-02-24T10:38:47.964Z",
+    "lastRun": null,
+    "guidelineProfile": "cardiology",
+    "sources": [
+      "aact"
+    ],
+    "searchObjective": "balanced",
+    "queries": {
+      "pubmed": null,
+      "ctgov": null,
+      "embase": null,
+      "cochrane": null,
+      "aact": {
+        "guidelineProfile": "cardiology",
+        "guidelineArea": "pulmonary_hypertension",
+        "condition": "pulmonary hypertension",
+        "synonyms": [
+          "pulmonary arterial hypertension",
+          "PAH",
+          "CTEPH",
+          "right heart failure"
+        ],
+        "additionalTerms": [
+          "pulmonary hypertension",
+          "pulmonary arterial hypertension",
+          "PAH",
+          "CTEPH",
+          "right heart failure"
+        ],
+        "maxResults": 80,
+        "useAreaTerms": false,
+        "completedOnly": true,
+        "status": [
+          "COMPLETED"
+        ]
+      }
+    },
+    "ctgovStrategy": {
+      "mode": "single",
+      "primaryStrategyId": "S3",
+      "strategyIds": [
+        "S3"
+      ],
+      "strategyEvidence": [
+        {
+          "strategyId": "S3",
+          "preset": "Randomized Allocation Only",
+          "meanRecallPct": 99,
+          "minRecallPct": 85.7,
+          "retentionPct": 54
+        },
+        {
+          "strategyId": "S6",
+          "preset": "Completed Status",
+          "meanRecallPct": 85.4,
+          "minRecallPct": 50,
+          "retentionPct": 55
+        },
+        {
+          "strategyId": "S10",
+          "preset": "Treatment RCTs Only",
+          "meanRecallPct": 84.8,
+          "minRecallPct": 0,
+          "retentionPct": 36
+        }
+      ],
+      "strategyRationale": [
+        "Objective \"balanced\" selected default strategy bundle."
+      ],
+      "includeStatusFilter": true
+    },
+    "infrastructure": {
+      "aactGatewayUrl": "http://127.0.0.1:8787/aact/query",
+      "embaseApiKey": null
+    },
+    "filters": {
+      "dateRange": {
+        "from": null,
+        "to": null
+      },
+      "studyTypes": [
+        "RCT"
+      ],
+      "languages": [
+        "en"
+      ],
+      "humans": true,
+      "ctgovStatuses": [
+        "COMPLETED",
+        "ACTIVE_NOT_RECRUITING",
+        "RECRUITING"
+      ]
+    },
+    "inclusionCriteria": {
+      "requiredKeywords": [
+        "pulmonary hypertension"
+      ],
+      "preferredKeywords": [
+        "pulmonary arterial hypertension",
+        "PAH",
+        "CTEPH",
+        "right heart failure"
+      ],
+      "exclusionKeywords": [
+        "animal",
+        "in vitro"
+      ],
+      "acceptedDesigns": [
+        "RCT",
+        "Observational"
+      ]
+    },
+    "qualityTargets": {
+      "minCtgovRecallPct": 90,
+      "requireAACTForFinalReview": true,
+      "requireAACTIncrementalCapture": false,
+      "minAACTIncrementalNcts": 1,
+      "enforceLandmarkCoverage": true,
+      "minLandmarkCoveragePct": 70,
+      "landmarkGuidelineAreas": [
+        "pulmonary_hypertension"
+      ],
+      "minSourcesForHighConfidence": 2
+    },
+    "schedule": {
+      "enabled": false,
+      "interval": "weekly",
+      "lastCheck": null,
+      "nextCheck": null
+    },
+    "stats": {
+      "totalRuns": 0,
+      "totalFound": 0,
+      "totalIncluded": 0,
+      "totalExcluded": 0
+    }
+  },
+  "results": {
+    "timestamp": "2026-02-24T10:38:47.965Z",
+    "strategyId": "strat_1771929527964_xovvlbq27",
+    "guidelineProfile": "cardiology",
+    "sources": {
+      "aact": {
+        "count": 85,
+        "retrieved": 85,
+        "requiresGateway": false,
+        "error": null,
+        "guidelineProfile": "cardiology",
+        "termsUsed": [
+          "pulmonary hypertension",
+          "pulmonary arterial hypertension",
+          "PAH",
+          "CTEPH",
+          "right heart failure"
+        ],
+        "nctIds": [
+          "NCT00004497",
+          "NCT00046319",
+          "NCT00058929",
+          "NCT00080457",
+          "NCT00086463",
+          "NCT00091598",
+          "NCT00091715",
+          "NCT00109681",
+          "NCT00125918",
+          "NCT00139217",
+          "NCT00147199",
+          "NCT00159861",
+          "NCT00159874",
+          "NCT00159913",
+          "NCT00180713",
+          "NCT00190333",
+          "NCT00235521",
+          "NCT00257413",
+          "NCT00303459",
+          "NCT00313222",
+          "NCT00314548",
+          "NCT00317486",
+          "NCT00323297",
+          "NCT00325403",
+          "NCT00325442",
+          "NCT00334490",
+          "NCT00345774",
+          "NCT00423202",
+          "NCT00423748",
+          "NCT00432978",
+          "NCT00477269",
+          "NCT00491803",
+          "NCT00519870",
+          "NCT00578786",
+          "NCT00581607",
+          "NCT00617305",
+          "NCT00626028",
+          "NCT00660179",
+          "NCT00678821",
+          "NCT00709098",
+          "NCT00709956",
+          "NCT00718952",
+          "NCT00747045",
+          "NCT00808912",
+          "NCT00810693",
+          "NCT00855465",
+          "NCT00862043",
+          "NCT00878878",
+          "NCT00887978",
+          "NCT00902174",
+          "NCT00927654",
+          "NCT00952302",
+          "NCT00963001",
+          "NCT00989963",
+          "NCT00993408",
+          "NCT01055405",
+          "NCT01086540",
+          "NCT01100736",
+          "NCT01104870",
+          "NCT01105091",
+          "NCT01106014",
+          "NCT01153386",
+          "NCT01156636",
+          "NCT01165476",
+          "NCT01172496",
+          "NCT01179334",
+          "NCT01197469",
+          "NCT01223352",
+          "NCT01306292",
+          "NCT01310153",
+          "NCT01310751",
+          "NCT01313832",
+          "NCT01320878",
+          "NCT01352065",
+          "NCT01391104",
+          "NCT01393795",
+          "NCT01394367",
+          "NCT01409122",
+          "NCT01416636",
+          "NCT01427192",
+          "NCT00070590",
+          "NCT00149487",
+          "NCT00367770",
+          "NCT01106742",
+          "NCT02631980"
+        ],
+        "landmarkVerification": {
+          "requested": 6,
+          "found": 6,
+          "coveragePct": 100,
+          "missingNctIds": []
+        },
+        "gatewayUrl": "http://127.0.0.1:8787/aact/query"
+      }
+    },
+    "newStudies": [
+      {
+        "nctId": "NCT00004497",
+        "title": "Phase III Randomized Study of UT-15 in Patients With Primary Pulmonary Hypertension",
+        "briefSummary": null,
+        "status": "COMPLETED",
+        "startDate": "1998-10-31",
+        "completionDate": "2000-09-30",
+        "studyType": "INTERVENTIONAL",
+        "phases": [
+          "PHASE3"
+        ],
+        "enrollment": null,
+        "allocation": "RANDOMIZED",
+        "primaryPurpose": "TREATMENT",
+        "source": "aact",
+        "retrievedAt": "2026-02-24T10:38:50.440Z",
+        "isDuplicate": false,
+        "classification": "include",
+        "relevanceScore": 80,
+        "relevanceReasons": [
+          "Contains 1 required keywords",
+          "Accepted study design: RCT"
+        ],
+        "pico": {
+          "population": {
+            "text": "HYPERTENSION",
+            "confidence": 0.9,
+            "type": "condition",
+            "details": [
+              {
+                "text": "HYPERTENSION",
+                "type": "condition",
+                "confidence": 0.9
+              }
+            ]
+          },
+          "intervention": {
+            "text": null,
+            "confidence": 0,
+            "details": []
+          },
+          "comparator": {
+            "text": null,
+            "confidence": 0,
+            "details": []
+          },
+          "outcomes": [],
+          "studyDesign": {
+            "type": "RCT",
+            "confidence": 0.75
+          },
+          "sampleSize": null,
+          "followUp": null,
+          "setting": []
+        },
+        "needsReview": false,
+        "processedAt": "2026-02-24T10:38:51.292Z"
+      },
+      {
+        "nctId": "NCT00139217",
+        "title": "NO Need to Ventilate: A Trial of Non-invasive Inhaled Nitric Oxide in Persistent Pulmonary Hypertension of the Newborn",
+        "briefSummary": null,
+        "status": "COMPLETED",
+        "startDate": "2005-08-31",
+        "completionDate": "2007-09-30",
+        "studyType": "INTERVENTIONAL",
+        "phases": [
+          "NA"
+        ],
+        "enrollment": 400,
+        "allocation": "RANDOMIZED",
+        "primaryPurpose": "TREATMENT",
+        "source": "aact",
+        "retrievedAt": "2026-02-24T10:38:50.440Z",
+        "isDuplicate": false,
+        "classification": "maybe",
+        "relevanceScore": 45,
+        "relevanceReasons": [
+          "Contains 1 required keywords",
+          "Study design may not meet criteria: Unknown"
+        ],
+        "pico": {
+          "population": {
+            "text": "HYPERTENSION",
+            "confidence": 0.9,
+            "type": "condition",
+            "details": [
+              {
+                "text": "HYPERTENSION",
+                "type": "condition",
+                "confidence": 0.9
+              }
+            ]
+          },
+          "intervention": {
+            "text": null,
+            "confidence": 0,
+            "details": []
+          },
+          "comparator": {
+            "text": null,
+            "confidence": 0,
+            "details": []
+          },
+          "outcomes": [],
+          "studyDesign": {
+            "type": "Unknown",
+            "confidence": 0.3
+          },
+          "sampleSize": null,
+          "followUp": null,
+          "setting": []
+        },
+        "needsReview": true,
+        "processedAt": "2026-02-24T10:38:51.300Z"
+      },
+      {
+        "nctId": "NCT00180713",
+        "title": "Simvastatin as a Treatment for Pulmonary Hypertension",
+        "briefSummary": null,
+        "status": "COMPLETED",
+        "startDate": "2005-10-31",
+        "completionDate": "2009-05-31",
+        "studyType": "INTERVENTIONAL",
+        "phases": [
+          "PHASE1/PHASE2"
+        ],
+        "enrollment": 42,
+        "allocation": "RANDOMIZED",
+        "primaryPurpose": "TREATMENT",
+        "source": "aact",
+        "retrievedAt": "2026-02-24T10:38:50.440Z",
+        "isDuplicate": false,
+        "classification": "maybe",
+        "relevanceScore": 45,
+        "relevanceReasons": [
+          "Contains 1 required keywords",
+          "Study design may not meet criteria: Unknown"
+        ],
+        "pico": {
+          "population": {
+            "text": "HYPERTENSION",
+            "confidence": 0.9,
+            "type": "condition",
+            "details": [
+              {
+                "text": "HYPERTENSION",
+                "type": "condition",
+                "confidence": 0.9
+              }
+            ]
+          },
+          "intervention": {
+            "text": "Simvastatin",
+            "confidence": 0.9,
+            "type": "known_drug",
+            "details": [
+              {
+                "text": "Simvastatin",
+                "context": "Simvastatin as a Treatment for Pulmonary Hypertension",
+                "type": "known_drug",
+                "confidence": 0.9
+              },
+              {
+                "text": "Treatment for Pulmonary Hypertension",
+                "type": "drug_with_dose",
+                "confidence": 0.85
+              }
+            ]
+          },
+          "comparator": {
+            "text": null,
+            "confidence": 0,
+            "details": []
+          },
+          "outcomes": [],
+          "studyDesign": {
+            "type": "Unknown",
+            "confidence": 0.3
+          },
+          "sampleSize": null,
+          "followUp": null,
+          "setting": []
+        },
+        "needsReview": true,
+        "processedAt": "2026-02-24T10:38:51.321Z"
+      },
+      {
+        "nctId": "NCT00190333",
+        "title": "Serotonin Transporter Inhibitor Escitalopram in Pulmonary Hypertension",
+        "briefSummary": null,
+        "status": "COMPLETED",
+        "startDate": "2005-06-30",
+        "completionDate": "2008-12-31",
+        "studyType": "INTERVENTIONAL",
+        "phases": [
+          "PHASE3"
+        ],
+        "enrollment": 30,
+        "allocation": "RANDOMIZED",
+        "primaryPurpose": "TREATMENT",
+        "source": "aact",
+        "retrievedAt": "2026-02-24T10:38:50.440Z",
+        "isDuplicate": false,
+        "classification": "maybe",
+        "relevanceScore": 45,
+        "relevanceReasons": [
+          "Contains 1 required keywords",
+          "Study design may not meet criteria: Unknown"
+        ],
+        "pico": {
+          "population": {
+            "text": "HYPERTENSION",
+            "confidence": 0.9,
+            "type": "condition",
+            "details": [
+              {
+                "text": "HYPERTENSION",
+                "type": "condition",
+                "confidence": 0.9
+              }
+            ]
+          },
+          "intervention": {
+            "text": null,
+            "confidence": 0,
+            "details": []
+          },
+          "comparator": {
+            "text": "Escitalopram",
+            "confidence": 0.8,
+            "type": "comparator",
+            "details": [
+              {
+                "text": "Escitalopram",
+                "type": "comparator",
+                "confidence": 0.8
+              }
+            ]
+          },
+          "outcomes": [],
+          "studyDesign": {
+            "type": "Unknown",
+            "confidence": 0.3
+          },
+          "sampleSize": null,
+          "followUp": null,
+          "setting": []
+        },
+        "needsReview": true,
+        "processedAt": "2026-02-24T10:38:51.328Z"
+      },
+      {
+        "nctId": "NCT00235521",
+        "title": "Iloprost-Study: Comparison of Nitric Oxide to Iloprost (Ventavis) for Treatment of Pulmonary Hypertension in Children After Cardiopulmonary Bypass Surgery",
+        "briefSummary": null,
+        "status": "COMPLETED",
+        "startDate": "2005-05-31",
+        "completionDate": "2008-10-31",
+        "studyType": "INTERVENTIONAL",
+        "phases": [
+          "NA"
+        ],
+        "enrollment": 15,
+        "allocation": "RANDOMIZED",
+        "primaryPurpose": "TREATMENT",
+        "source": "aact",
+        "retrievedAt": "2026-02-24T10:38:50.440Z",
+        "isDuplicate": false,
+        "classification": "maybe",
+        "relevanceScore": 45,
+        "relevanceReasons": [
+          "Contains 1 required keywords",
+          "Study design may not meet criteria: Unknown"
+        ],
+        "pico": {
+          "population": {
+            "text": "HYPERTENSION",
+            "confidence": 0.9,
+            "type": "condition",
+            "details": [
+              {
+                "text": "HYPERTENSION",
+                "type": "condition",
+                "confidence": 0.9
+              }
+            ]
+          },
+          "intervention": {
+            "text": "Treatment of Pulmonary Hypertension in Children After Cardiopulmonary Bypass Surgery",
+            "confidence": 0.85,
+            "type": "drug_with_dose",
+            "details": [
+              {
+                "text": "Treatment of Pulmonary Hypertension in Children After Cardiopulmonary Bypass Surgery",
+                "type": "drug_with_dose",
+                "confidence": 0.85
+              }
+            ]
+          },
+          "comparator": {
+            "text": "Treatment of Pulmonary Hypertension",
+            "confidence": 0.8,
+            "type": "comparator",
+            "details": [
+              {
+                "text": "Treatment of Pulmonary Hypertension",
+                "type": "comparator",
+                "confidence": 0.8
+              },
+              {
+                "text": "of Nitric Oxide to Iloprost (Ventavis) for Treatment of Pulmonary Hypertension in Children After Cardiopulmonary Bypass Surgery",
+                "type": "comparator",
+                "confidence": 0.8
+              }
+            ]
+          },
+          "outcomes": [],
+          "studyDesign": {
+            "type": "Unknown",
+            "confidence": 0.3
+          },
+          "sampleSize": null,
+          "followUp": null,
+          "setting": []
+        },
+        "needsReview": true,
+        "processedAt": "2026-02-24T10:38:51.334Z"
+      },
+      {
+        "nctId": "NCT00313222",
+        "title": "Bosentan Effects in Inoperable Forms of Chronic Thromboembolic Pulmonary Hypertension",
+        "briefSummary": null,
+        "status": "COMPLETED",
+        "startDate": "2005-10-31",
+        "completionDate": "2007-03-31",
+        "studyType": "INTERVENTIONAL",
+        "phases": [
+          "PHASE3"
+        ],
+        "enrollment": 157,
+        "allocation": "RANDOMIZED",
+        "primaryPurpose": "TREATMENT",
+        "source": "aact",
+        "retrievedAt": "2026-02-24T10:38:50.440Z",
+        "isDuplicate": false,
+        "classification": "maybe",
+        "relevanceScore": 45,
+        "relevanceReasons": [
+          "Contains 1 required keywords",
+          "Study design may not meet criteria: Unknown"
+        ],
+        "pico": {
+          "population": {
+            "text": "HYPERTENSION",
+            "confidence": 0.9,
+            "type": "condition",
+            "details": [
+              {
+                "text": "HYPERTENSION",
+                "type": "condition",
+                "confidence": 0.9
+              }
+            ]
+          },
+          "intervention": {
+            "text": null,
+            "confidence": 0,
+            "details": []
+          },
+          "comparator": {
+            "text": null,
+            "confidence": 0,
+            "details": []
+          },
+          "outcomes": [],
+          "studyDesign": {
+            "type": "Unknown",
+            "confidence": 0.3
+          },
+          "sampleSize": null,
+          "followUp": null,
+          "setting": []
+        },
+        "needsReview": true,
+        "processedAt": "2026-02-24T10:38:51.363Z"
+      },
+      {
+        "nctId": "NCT00314548",
+        "title": "Inhaled Prostacyclin for Adult Respiratory Distress Syndrome (ARDS) and Pulmonary Hypertension",
+        "briefSummary": null,
+        "status": "COMPLETED",
+        "startDate": "2006-05-31",
+        "completionDate": "2009-07-31",
+        "studyType": "INTERVENTIONAL",
+        "phases": [
+          "NA"
+        ],
+        "enrollment": 67,
+        "allocation": "RANDOMIZED",
+        "primaryPurpose": "TREATMENT",
+        "source": "aact",
+        "retrievedAt": "2026-02-24T10:38:50.440Z",
+        "isDuplicate": false,
+        "classification": "maybe",
+        "relevanceScore": 45,
+        "relevanceReasons": [
+          "Contains 1 required keywords",
+          "Study design may not meet criteria: Unknown"
+        ],
+        "pico": {
+          "population": {
+            "text": "HYPERTENSION",
+            "confidence": 0.9,
+            "type": "condition",
+            "details": [
+              {
+                "text": "HYPERTENSION",
+                "type": "condition",
+                "confidence": 0.9
+              }
+            ]
+          },
+          "intervention": {
+            "text": null,
+            "confidence": 0,
+            "details": []
+          },
+          "comparator": {
+            "text": null,
+            "confidence": 0,
+            "details": []
+          },
+          "outcomes": [],
+          "studyDesign": {
+            "type": "Unknown",
+            "confidence": 0.3
+          },
+          "sampleSize": null,
+          "followUp": null,
+          "setting": []
+        },
+        "needsReview": true,
+        "processedAt": "2026-02-24T10:38:51.372Z"
+      },
+      {
+        "nctId": "NCT00519870",
+        "title": "Losartan Therapy in Pulmonary Hypertension",
+        "briefSummary": null,
+        "status": "COMPLETED",
+        "startDate": "2005-01-31",
+        "completionDate": "2005-07-31",
+        "studyType": "INTERVENTIONAL",
+        "phases": [
+          "PHASE3"
+        ],
+        "enrollment": null,
+        "allocation": "RANDOMIZED",
+        "primaryPurpose": "TREATMENT",
+        "source": "aact",
+        "retrievedAt": "2026-02-24T10:38:50.440Z",
+        "isDuplicate": false,
+        "classification": "maybe",
+        "relevanceScore": 45,
+        "relevanceReasons": [
+          "Contains 1 required keywords",
+          "Study design may not meet criteria: Unknown"
+        ],
+        "pico": {
+          "population": {
+            "text": "HYPERTENSION",
+            "confidence": 0.9,
+            "type": "condition",
+            "details": [
+              {
+                "text": "HYPERTENSION",
+                "type": "condition",
+                "confidence": 0.9
+              }
+            ]
+          },
+          "intervention": {
+            "text": "Losartan",
+            "confidence": 0.9,
+            "type": "known_drug",
+            "details": [
+              {
+                "text": "Losartan",
+                "context": "Losartan Therapy in Pulmonary Hypertension",
+                "type": "known_drug",
+                "confidence": 0.9
+              }
+            ]
+          },
+          "comparator": {
+            "text": null,
+            "confidence": 0,
+            "details": []
+          },
+          "outcomes": [],
+          "studyDesign": {
+            "type": "Unknown",
+            "confidence": 0.3
+          },
+          "sampleSize": null,
+          "followUp": null,
+          "setting": []
+        },
+        "needsReview": true,
+        "processedAt": "2026-02-24T10:38:51.577Z"
+      },
+      {
+        "nctId": "NCT00581607",
+        "title": "Double Blind, Randomized Trial of Bosentan for Sarcoidosis Associated Pulmonary Hypertension",
+        "briefSummary": null,
+        "status": "COMPLETED",
+        "startDate": "2008-04-30",
+        "completionDate": "2012-12-31",
+        "studyType": "INTERVENTIONAL",
+        "phases": [
+          "PHASE2/PHASE3"
+        ],
+        "enrollment": 43,
+        "allocation": "RANDOMIZED",
+        "primaryPurpose": "TREATMENT",
+        "source": "aact",
+        "retrievedAt": "2026-02-24T10:38:50.440Z",
+        "isDuplicate": false,
+        "classification": "maybe",
+        "relevanceScore": 45,
+        "relevanceReasons": [
+          "Contains 1 required keywords",
+          "Study design may not meet criteria: RCT (double-blind)"
+        ],
+        "pico": {
+          "population": {
+            "text": "HYPERTENSION",
+            "confidence": 0.9,
+            "type": "condition",
+            "details": [
+              {
+                "text": "HYPERTENSION",
+                "type": "condition",
+                "confidence": 0.9
+              }
+            ]
+          },
+          "intervention": {
+            "text": null,
+            "confidence": 0,
+            "details": []
+          },
+          "comparator": {
+            "text": null,
+            "confidence": 0,
+            "details": []
+          },
+          "outcomes": [],
+          "studyDesign": {
+            "type": "RCT (double-blind)",
+            "confidence": 0.95
+          },
+          "sampleSize": null,
+          "followUp": null,
+          "setting": []
+        },
+        "needsReview": true,
+        "processedAt": "2026-02-24T10:38:51.626Z"
+      },
+      {
+        "nctId": "NCT00678821",
+        "title": "Aerobic Exercise in Patients With Pulmonary Hypertension",
+        "briefSummary": null,
+        "status": "COMPLETED",
+        "startDate": "2008-06-12",
+        "completionDate": "2015-09-23",
+        "studyType": "INTERVENTIONAL",
+        "phases": [
+          "PHASE2"
+        ],
+        "enrollment": 97,
+        "allocation": "RANDOMIZED",
+        "primaryPurpose": "SUPPORTIVE_CARE",
+        "source": "aact",
+        "retrievedAt": "2026-02-24T10:38:50.440Z",
+        "isDuplicate": false,
+        "classification": "maybe",
+        "relevanceScore": 45,
+        "relevanceReasons": [
+          "Contains 1 required keywords",
+          "Study design may not meet criteria: Unknown"
+        ],
+        "pico": {
+          "population": {
+            "text": "HYPERTENSION",
+            "confidence": 0.9,
+            "type": "condition",
+            "details": [
+              {
+                "text": "HYPERTENSION",
+                "type": "condition",
+                "confidence": 0.9
+              }
+            ]
+          },
+          "intervention": {
+            "text": null,
+            "confidence": 0,
+            "details": []
+          },
+          "comparator": {
+            "text": null,
+            "confidence": 0,
+            "details": []
+          },
+          "outcomes": [],
+          "studyDesign": {
+            "type": "Unknown",
+            "confidence": 0.3
+          },
+          "sampleSize": null,
+          "followUp": null,
+          "setting": []
+        },
+        "needsReview": true,
+        "processedAt": "2026-02-24T10:38:51.741Z"
+      },
+      {
+        "nctId": "NCT00862043",
+        "title": "Sildenafil for Secondary Pulmonary Hypertension Due to Valvular Disease",
+        "briefSummary": null,
+        "status": "COMPLETED",
+        "startDate": "2009-04-30",
+        "completionDate": "2016-07-31",
+        "studyType": "INTERVENTIONAL",
+        "phases": [
+          "PHASE4"
+        ],
+        "enrollment": 200,
+        "allocation": "RANDOMIZED",
+        "primaryPurpose": "TREATMENT",
+        "source": "aact",
+        "retrievedAt": "2026-02-24T10:38:50.440Z",
+        "isDuplicate": false,
+        "classification": "maybe",
+        "relevanceScore": 45,
+        "relevanceReasons": [
+          "Contains 1 required keywords",
+          "Study design may not meet criteria: Unknown"
+        ],
+        "pico": {
+          "population": {
+            "text": "HYPERTENSION",
+            "confidence": 0.9,
+            "type": "condition",
+            "details": [
+              {
+                "text": "HYPERTENSION",
+                "type": "condition",
+                "confidence": 0.9
+              }
+            ]
+          },
+          "intervention": {
+            "text": null,
+            "confidence": 0,
+            "details": []
+          },
+          "comparator": {
+            "text": null,
+            "confidence": 0,
+            "details": []
+          },
+          "outcomes": [],
+          "studyDesign": {
+            "type": "Unknown",
+            "confidence": 0.3
+          },
+          "sampleSize": null,
+          "followUp": null,
+          "setting": []
+        },
+        "needsReview": true,
+        "processedAt": "2026-02-24T10:38:52.115Z"
+      },
+      {
+        "nctId": "NCT01055405",
+        "title": "Study of Sildenafil Effects in Combination With Rehabilitation in Patients With Chronic Obstructive Pulmonary Disease (COPD) and Associated Pulmonary Hypertension",
+        "briefSummary": null,
+        "status": "COMPLETED",
+        "startDate": "2008-08-31",
+        "completionDate": "2012-01-31",
+        "studyType": "INTERVENTIONAL",
+        "phases": [
+          "PHASE4"
+        ],
+        "enrollment": 65,
+        "allocation": "RANDOMIZED",
+        "primaryPurpose": "TREATMENT",
+        "source": "aact",
+        "retrievedAt": "2026-02-24T10:38:50.440Z",
+        "isDuplicate": false,
+        "classification": "maybe",
+        "relevanceScore": 45,
+        "relevanceReasons": [
+          "Contains 1 required keywords",
+          "Study design may not meet criteria: Unknown"
+        ],
+        "pico": {
+          "population": {
+            "text": "HYPERTENSION",
+            "confidence": 0.9,
+            "type": "condition",
+            "details": [
+              {
+                "text": "HYPERTENSION",
+                "type": "condition",
+                "confidence": 0.9
+              },
+              {
+                "text": "COPD",
+                "type": "condition",
+                "confidence": 0.9
+              }
+            ]
+          },
+          "intervention": {
+            "text": null,
+            "confidence": 0,
+            "details": []
+          },
+          "comparator": {
+            "text": null,
+            "confidence": 0,
+            "details": []
+          },
+          "outcomes": [],
+          "studyDesign": {
+            "type": "Unknown",
+            "confidence": 0.3
+          },
+          "sampleSize": null,
+          "followUp": null,
+          "setting": []
+        },
+        "needsReview": true,
+        "processedAt": "2026-02-24T10:38:52.624Z"
+      },
+      {
+        "nctId": "NCT01104870",
+        "title": "A Dose Response Study of UT-15C SR in Patients With Exercise-Induced Pulmonary Hypertension",
+        "briefSummary": null,
+        "status": "COMPLETED",
+        "startDate": "2010-04-30",
+        "completionDate": "2013-01-31",
+        "studyType": "INTERVENTIONAL",
+        "phases": [
+          "PHASE2"
+        ],
+        "enrollment": 50,
+        "allocation": "RANDOMIZED",
+        "primaryPurpose": "TREATMENT",
+        "source": "aact",
+        "retrievedAt": "2026-02-24T10:38:50.440Z",
+        "isDuplicate": false,
+        "classification": "maybe",
+        "relevanceScore": 45,
+        "relevanceReasons": [
+          "Contains 1 required keywords",
+          "Study design may not meet criteria: Unknown"
+        ],
+        "pico": {
+          "population": {
+            "text": "HYPERTENSION",
+            "confidence": 0.9,
+            "type": "condition",
+            "details": [
+              {
+                "text": "HYPERTENSION",
+                "type": "condition",
+                "confidence": 0.9
+              }
+            ]
+          },
+          "intervention": {
+            "text": null,
+            "confidence": 0,
+            "details": []
+          },
+          "comparator": {
+            "text": null,
+            "confidence": 0,
+            "details": []
+          },
+          "outcomes": [],
+          "studyDesign": {
+            "type": "Unknown",
+            "confidence": 0.3
+          },
+          "sampleSize": null,
+          "followUp": null,
+          "setting": []
+        },
+        "needsReview": true,
+        "processedAt": "2026-02-24T10:38:52.817Z"
+      },
+      {
+        "nctId": "NCT01156636",
+        "title": "Phosphodiesterase-5 (PDE5) Inhibition and Pulmonary Hypertension in Diastolic Heart Failure",
+        "briefSummary": null,
+        "status": "COMPLETED",
+        "startDate": "2006-01-31",
+        "completionDate": "2009-12-31",
+        "studyType": "INTERVENTIONAL",
+        "phases": [
+          "PHASE2/PHASE3"
+        ],
+        "enrollment": 44,
+        "allocation": "RANDOMIZED",
+        "primaryPurpose": "TREATMENT",
+        "source": "aact",
+        "retrievedAt": "2026-02-24T10:38:50.440Z",
+        "isDuplicate": false,
+        "classification": "maybe",
+        "relevanceScore": 45,
+        "relevanceReasons": [
+          "Contains 1 required keywords",
+          "Study design may not meet criteria: Unknown"
+        ],
+        "pico": {
+          "population": {
+            "text": "HEART FAILURE",
+            "confidence": 0.9,
+            "type": "condition",
+            "details": [
+              {
+                "text": "HEART FAILURE",
+                "type": "condition",
+                "confidence": 0.9
+              },
+              {
+                "text": "HYPERTENSION",
+                "type": "condition",
+                "confidence": 0.9
+              }
+            ]
+          },
+          "intervention": {
+            "text": null,
+            "confidence": 0,
+            "details": []
+          },
+          "comparator": {
+            "text": null,
+            "confidence": 0,
+            "details": []
+          },
+          "outcomes": [],
+          "studyDesign": {
+            "type": "Unknown",
+            "confidence": 0.3
+          },
+          "sampleSize": null,
+          "followUp": null,
+          "setting": []
+        },
+        "needsReview": true,
+        "processedAt": "2026-02-24T10:38:53.199Z"
+      },
+      {
+        "nctId": "NCT01197469",
+        "title": "Do Phosphodiesterase 5A Inhibitors Improve Exercise Capacity in Patients With Chronic Obstructive Pulmonary Disease (COPD) and Pulmonary Hypertension?",
+        "briefSummary": null,
+        "status": "COMPLETED",
+        "startDate": "2010-09-30",
+        "completionDate": "2012-09-30",
+        "studyType": "INTERVENTIONAL",
+        "phases": [
+          "PHASE2"
+        ],
+        "enrollment": 120,
+        "allocation": "RANDOMIZED",
+        "primaryPurpose": "TREATMENT",
+        "source": "aact",
+        "retrievedAt": "2026-02-24T10:38:50.440Z",
+        "isDuplicate": false,
+        "classification": "maybe",
+        "relevanceScore": 45,
+        "relevanceReasons": [
+          "Contains 1 required keywords",
+          "Study design may not meet criteria: Unknown"
+        ],
+        "pico": {
+          "population": {
+            "text": "HYPERTENSION",
+            "confidence": 0.9,
+            "type": "condition",
+            "details": [
+              {
+                "text": "HYPERTENSION",
+                "type": "condition",
+                "confidence": 0.9
+              },
+              {
+                "text": "COPD",
+                "type": "condition",
+                "confidence": 0.9
+              }
+            ]
+          },
+          "intervention": {
+            "text": null,
+            "confidence": 0,
+            "details": []
+          },
+          "comparator": {
+            "text": null,
+            "confidence": 0,
+            "details": []
+          },
+          "outcomes": [],
+          "studyDesign": {
+            "type": "Unknown",
+            "confidence": 0.3
+          },
+          "sampleSize": null,
+          "followUp": null,
+          "setting": []
+        },
+        "needsReview": true,
+        "processedAt": "2026-02-24T10:38:53.657Z"
+      },
+      {
+        "nctId": "NCT01310751",
+        "title": "Study of Inhaled Iloprost in Pediatric Pulmonary Hypertension (PH) After Surgery",
+        "briefSummary": null,
+        "status": "COMPLETED",
+        "startDate": "2011-01-31",
+        "completionDate": "2013-12-31",
+        "studyType": "INTERVENTIONAL",
+        "phases": [
+          "PHASE2/PHASE3"
+        ],
+        "enrollment": 36,
+        "allocation": "RANDOMIZED",
+        "primaryPurpose": "PREVENTION",
+        "source": "aact",
+        "retrievedAt": "2026-02-24T10:38:50.440Z",
+        "isDuplicate": false,
+        "classification": "maybe",
+        "relevanceScore": 45,
+        "relevanceReasons": [
+          "Contains 1 required keywords",
+          "Study design may not meet criteria: Unknown"
+        ],
+        "pico": {
+          "population": {
+            "text": "HYPERTENSION",
+            "confidence": 0.9,
+            "type": "condition",
+            "details": [
+              {
+                "text": "HYPERTENSION",
+                "type": "condition",
+                "confidence": 0.9
+              }
+            ]
+          },
+          "intervention": {
+            "text": null,
+            "confidence": 0,
+            "details": []
+          },
+          "comparator": {
+            "text": null,
+            "confidence": 0,
+            "details": []
+          },
+          "outcomes": [],
+          "studyDesign": {
+            "type": "Unknown",
+            "confidence": 0.3
+          },
+          "sampleSize": null,
+          "followUp": null,
+          "setting": []
+        },
+        "needsReview": true,
+        "processedAt": "2026-02-24T10:38:54.055Z"
+      },
+      {
+        "nctId": "NCT01313832",
+        "title": "The Effect of Remote Ischemic Preconditioning on the Ischemic Reperfusion Injury in Infants With Ventricular Septal Defect and Pulmonary Hypertension",
+        "briefSummary": null,
+        "status": "COMPLETED",
+        "startDate": "2010-12-31",
+        "completionDate": "2011-04-30",
+        "studyType": "INTERVENTIONAL",
+        "phases": [
+          "NA"
+        ],
+        "enrollment": 60,
+        "allocation": "RANDOMIZED",
+        "primaryPurpose": "PREVENTION",
+        "source": "aact",
+        "retrievedAt": "2026-02-24T10:38:50.440Z",
+        "isDuplicate": false,
+        "classification": "maybe",
+        "relevanceScore": 45,
+        "relevanceReasons": [
+          "Contains 1 required keywords",
+          "Study design may not meet criteria: Unknown"
+        ],
+        "pico": {
+          "population": {
+            "text": "HYPERTENSION",
+            "confidence": 0.9,
+            "type": "condition",
+            "details": [
+              {
+                "text": "HYPERTENSION",
+                "type": "condition",
+                "confidence": 0.9
+              }
+            ]
+          },
+          "intervention": {
+            "text": null,
+            "confidence": 0,
+            "details": []
+          },
+          "comparator": {
+            "text": null,
+            "confidence": 0,
+            "details": []
+          },
+          "outcomes": [],
+          "studyDesign": {
+            "type": "Unknown",
+            "confidence": 0.3
+          },
+          "sampleSize": null,
+          "followUp": null,
+          "setting": [
+            {
+              "type": "country",
+              "value": "us"
+            }
+          ]
+        },
+        "needsReview": true,
+        "processedAt": "2026-02-24T10:38:54.166Z"
+      },
+      {
+        "nctId": "NCT01394367",
+        "title": "Influence of Respiratory and Exercise Therapy on Oxygen Uptake, Quality of Life and Right Ventricular Function in Severe Pulmonary Hypertension",
+        "briefSummary": null,
+        "status": "COMPLETED",
+        "startDate": "2010-06-30",
+        "completionDate": "2015-05-31",
+        "studyType": "INTERVENTIONAL",
+        "phases": [
+          "NA"
+        ],
+        "enrollment": 90,
+        "allocation": "RANDOMIZED",
+        "primaryPurpose": "SUPPORTIVE_CARE",
+        "source": "aact",
+        "retrievedAt": "2026-02-24T10:38:50.440Z",
+        "isDuplicate": false,
+        "classification": "maybe",
+        "relevanceScore": 45,
+        "relevanceReasons": [
+          "Contains 1 required keywords",
+          "Study design may not meet criteria: Unknown"
+        ],
+        "pico": {
+          "population": {
+            "text": "HYPERTENSION",
+            "confidence": 0.9,
+            "type": "condition",
+            "details": [
+              {
+                "text": "HYPERTENSION",
+                "type": "condition",
+                "confidence": 0.9
+              }
+            ]
+          },
+          "intervention": {
+            "text": null,
+            "confidence": 0,
+            "details": []
+          },
+          "comparator": {
+            "text": null,
+            "confidence": 0,
+            "details": []
+          },
+          "outcomes": [],
+          "studyDesign": {
+            "type": "Unknown",
+            "confidence": 0.3
+          },
+          "sampleSize": null,
+          "followUp": null,
+          "setting": []
+        },
+        "needsReview": true,
+        "processedAt": "2026-02-24T10:38:54.776Z"
+      },
+      {
+        "nctId": "NCT01416636",
+        "title": "Efficacy and Tolerability of Subcutaneously Administered Treprostinil Sodium in Patients With Severe (Non-operable) Chronic Thromboembolic Pulmonary Hypertension (CTREPH)",
+        "briefSummary": null,
+        "status": "COMPLETED",
+        "startDate": "2009-03-31",
+        "completionDate": "2021-04-30",
+        "studyType": "INTERVENTIONAL",
+        "phases": [
+          "PHASE3"
+        ],
+        "enrollment": 105,
+        "allocation": "RANDOMIZED",
+        "primaryPurpose": "TREATMENT",
+        "source": "aact",
+        "retrievedAt": "2026-02-24T10:38:50.440Z",
+        "isDuplicate": false,
+        "classification": "maybe",
+        "relevanceScore": 45,
+        "relevanceReasons": [
+          "Contains 1 required keywords",
+          "Study design may not meet criteria: Unknown"
+        ],
+        "pico": {
+          "population": {
+            "text": "HYPERTENSION",
+            "confidence": 0.9,
+            "type": "condition",
+            "details": [
+              {
+                "text": "HYPERTENSION",
+                "type": "condition",
+                "confidence": 0.9
+              }
+            ]
+          },
+          "intervention": {
+            "text": null,
+            "confidence": 0,
+            "details": []
+          },
+          "comparator": {
+            "text": null,
+            "confidence": 0,
+            "details": []
+          },
+          "outcomes": [],
+          "studyDesign": {
+            "type": "Unknown",
+            "confidence": 0.3
+          },
+          "sampleSize": null,
+          "followUp": null,
+          "setting": [
+            {
+              "type": "country",
+              "value": "us"
+            }
+          ]
+        },
+        "needsReview": true,
+        "processedAt": "2026-02-24T10:38:55.050Z"
+      },
+      {
+        "nctId": "NCT01427192",
+        "title": "Treatment of Sleep Related Breathing Disorders in Patients With Pulmonary Hypertension",
+        "briefSummary": null,
+        "status": "COMPLETED",
+        "startDate": "2010-11-30",
+        "completionDate": "2012-12-31",
+        "studyType": "INTERVENTIONAL",
+        "phases": [
+          "PHASE2"
+        ],
+        "enrollment": 23,
+        "allocation": "RANDOMIZED",
+        "primaryPurpose": "TREATMENT",
+        "source": "aact",
+        "retrievedAt": "2026-02-24T10:38:50.440Z",
+        "isDuplicate": false,
+        "classification": "maybe",
+        "relevanceScore": 45,
+        "relevanceReasons": [
+          "Contains 1 required keywords",
+          "Study design may not meet criteria: Unknown"
+        ],
+        "pico": {
+          "population": {
+            "text": "HYPERTENSION",
+            "confidence": 0.9,
+            "type": "condition",
+            "details": [
+              {
+                "text": "HYPERTENSION",
+                "type": "condition",
+                "confidence": 0.9
+              }
+            ]
+          },
+          "intervention": {
+            "text": "Treatment of Sleep Related Breathing Disorders in Patients With Pulmonary Hypertension",
+            "confidence": 0.85,
+            "type": "drug_with_dose",
+            "details": [
+              {
+                "text": "Treatment of Sleep Related Breathing Disorders in Patients With Pulmonary Hypertension",
+                "type": "drug_with_dose",
+                "confidence": 0.85
+              }
+            ]
+          },
+          "comparator": {
+            "text": null,
+            "confidence": 0,
+            "details": []
+          },
+          "outcomes": [],
+          "studyDesign": {
+            "type": "Unknown",
+            "confidence": 0.3
+          },
+          "sampleSize": null,
+          "followUp": null,
+          "setting": []
+        },
+        "needsReview": true,
+        "processedAt": "2026-02-24T10:38:55.176Z"
+      }
+    ],
+    "duplicates": [
+      {
+        "nctId": "NCT00257413",
+        "title": "Safety and Efficacy Study of Transplantation of EPCs to Treat Idiopathic Pulmonary Arterial Hypertension",
+        "briefSummary": null,
+        "status": "COMPLETED",
+        "startDate": null,
+        "completionDate": null,
+        "studyType": "INTERVENTIONAL",
+        "phases": [
+          "NA"
+        ],
+        "enrollment": null,
+        "allocation": "RANDOMIZED",
+        "primaryPurpose": "TREATMENT",
+        "source": "aact",
+        "retrievedAt": "2026-02-24T10:38:50.440Z",
+        "isDuplicate": true,
+        "duplicateOf": {
+          "index": 3,
+          "title": "Safety and Efficacy Study of Sitaxentan Sodium (Thelin™) in Patients With Pulmonary Arterial Hypertension"
+        }
+      },
+      {
+        "nctId": "NCT00317486",
+        "title": "Effects of Tracleer (Bosentan) on Pulmonary Arterial Hypertension Related to Eisenmenger Physiology",
+        "briefSummary": null,
+        "status": "COMPLETED",
+        "startDate": "2003-09-30",
+        "completionDate": "2005-04-30",
+        "studyType": "INTERVENTIONAL",
+        "phases": [
+          "PHASE4"
+        ],
+        "enrollment": 54,
+        "allocation": "RANDOMIZED",
+        "primaryPurpose": "TREATMENT",
+        "source": "aact",
+        "retrievedAt": "2026-02-24T10:38:50.440Z",
+        "isDuplicate": true,
+        "duplicateOf": {
+          "index": 18,
+          "title": "Effects of the Combination of Bosentan and Sildenafil Versus Sildenafil Monotherapy on Pulmonary Arterial Hypertension (PAH)"
+        }
+      },
+      {
+        "nctId": "NCT00345774",
+        "title": "Safety and Effectiveness of PRX-08066 in Patients With Pulmonary Hypertension and Chronic Obstructive Pulmonary Disease",
+        "briefSummary": null,
+        "status": "COMPLETED",
+        "startDate": "2006-06-30",
+        "completionDate": "2007-06-30",
+        "studyType": "INTERVENTIONAL",
+        "phases": [
+          "PHASE2"
+        ],
+        "enrollment": 72,
+        "allocation": "RANDOMIZED",
+        "primaryPurpose": "TREATMENT",
+        "source": "aact",
+        "retrievedAt": "2026-02-24T10:38:50.440Z",
+        "isDuplicate": true,
+        "duplicateOf": {
+          "index": 3,
+          "title": "Safety and Efficacy Study of Sitaxentan Sodium (Thelin™) in Patients With Pulmonary Arterial Hypertension"
+        }
+      },
+      {
+        "nctId": "NCT00423748",
+        "title": "Study to Assess Safety and Efficacy of Ambrisentan in Subjects With Pulmonary Arterial Hypertension.",
+        "briefSummary": null,
+        "status": "COMPLETED",
+        "startDate": "2003-12-31",
+        "completionDate": "2006-02-28",
+        "studyType": "INTERVENTIONAL",
+        "phases": [
+          "PHASE3"
+        ],
+        "enrollment": 186,
+        "allocation": "RANDOMIZED",
+        "primaryPurpose": "TREATMENT",
+        "source": "aact",
+        "retrievedAt": "2026-02-24T10:38:50.440Z",
+        "isDuplicate": true,
+        "duplicateOf": {
+          "index": 1,
+          "title": "Study of BSF 208075 Evaluating Exercise Capacity in Patients With Pulmonary Arterial Hypertension"
+        }
+      },
+      {
+        "nctId": "NCT00477269",
+        "title": "Safety and Efficacy of Imatinib Mesylate in Patients With Pulmonary Arterial Hypertension",
+        "briefSummary": null,
+        "status": "COMPLETED",
+        "startDate": "2006-04-30",
+        "completionDate": "2014-01-31",
+        "studyType": "INTERVENTIONAL",
+        "phases": [
+          "PHASE2/PHASE3"
+        ],
+        "enrollment": 59,
+        "allocation": "RANDOMIZED",
+        "primaryPurpose": "TREATMENT",
+        "source": "aact",
+        "retrievedAt": "2026-02-24T10:38:50.440Z",
+        "isDuplicate": true,
+        "duplicateOf": {
+          "index": 3,
+          "title": "Safety and Efficacy Study of Sitaxentan Sodium (Thelin™) in Patients With Pulmonary Arterial Hypertension"
+        }
+      },
+      {
+        "nctId": "NCT00718952",
+        "title": "The Efficacy and Safety of Vardenafil in the Treatment of Pulmonary Arterial Hypertension",
+        "briefSummary": null,
+        "status": "COMPLETED",
+        "startDate": "2008-07-31",
+        "completionDate": "2010-02-28",
+        "studyType": "INTERVENTIONAL",
+        "phases": [
+          "PHASE3"
+        ],
+        "enrollment": 60,
+        "allocation": "RANDOMIZED",
+        "primaryPurpose": "TREATMENT",
+        "source": "aact",
+        "retrievedAt": "2026-02-24T10:38:50.440Z",
+        "isDuplicate": true,
+        "duplicateOf": {
+          "index": 11,
+          "title": "The Efficacy and Safety of Sildenafil Citrate Used in Combination With Intravenous Epoprostenol in PAH"
+        }
+      },
+      {
+        "nctId": "NCT00855465",
+        "title": "A Study to Evaluate Efficacy and Safety of Oral BAY63-2521 in Patients With CTEPH.",
+        "briefSummary": null,
+        "status": "COMPLETED",
+        "startDate": "2009-02-23",
+        "completionDate": "2012-06-27",
+        "studyType": "INTERVENTIONAL",
+        "phases": [
+          "PHASE3"
+        ],
+        "enrollment": 262,
+        "allocation": "RANDOMIZED",
+        "primaryPurpose": "TREATMENT",
+        "source": "aact",
+        "retrievedAt": "2026-02-24T10:38:50.440Z",
+        "isDuplicate": true,
+        "duplicateOf": {
+          "index": 44,
+          "title": "A Study to Evaluate Efficacy and Safety of Oral BAY63-2521 in Patients With Pulmonary Arterial Hypertension (PAH)"
+        }
+      },
+      {
+        "nctId": "NCT00887978",
+        "title": "Efficacy and Safety of Oral UT-15C Tablets to Treat Pulmonary Arterial Hypertension",
+        "briefSummary": null,
+        "status": "COMPLETED",
+        "startDate": "2009-06-30",
+        "completionDate": "2011-07-31",
+        "studyType": "INTERVENTIONAL",
+        "phases": [
+          "PHASE3"
+        ],
+        "enrollment": 310,
+        "allocation": "RANDOMIZED",
+        "primaryPurpose": "TREATMENT",
+        "source": "aact",
+        "retrievedAt": "2026-02-24T10:38:50.440Z",
+        "isDuplicate": true,
+        "duplicateOf": {
+          "index": 6,
+          "title": "Efficacy and Safety of Oral Bosentan in Pulmonary Arterial Hypertension Class II"
+        }
+      },
+      {
+        "nctId": "NCT01223352",
+        "title": "Effects of Two Dosing Regimens of Bosentan in Children With Pulmonary Arterial Hypertension",
+        "briefSummary": null,
+        "status": "COMPLETED",
+        "startDate": "2011-03-08",
+        "completionDate": "2013-08-19",
+        "studyType": "INTERVENTIONAL",
+        "phases": [
+          "PHASE3"
+        ],
+        "enrollment": 64,
+        "allocation": "RANDOMIZED",
+        "primaryPurpose": "TREATMENT",
+        "source": "aact",
+        "retrievedAt": "2026-02-24T10:38:50.440Z",
+        "isDuplicate": true,
+        "duplicateOf": {
+          "index": 18,
+          "title": "Effects of the Combination of Bosentan and Sildenafil Versus Sildenafil Monotherapy on Pulmonary Arterial Hypertension (PAH)"
+        }
+      },
+      {
+        "nctId": "NCT01320878",
+        "title": "Study of Inhaled Iloprost for the Treatment of Pulmonary Hypertension After Repair of Congenital Heart Disease",
+        "briefSummary": null,
+        "status": "COMPLETED",
+        "startDate": "2007-10-31",
+        "completionDate": "2009-12-31",
+        "studyType": "INTERVENTIONAL",
+        "phases": [
+          "PHASE2"
+        ],
+        "enrollment": 64,
+        "allocation": "RANDOMIZED",
+        "primaryPurpose": "TREATMENT",
+        "source": "aact",
+        "retrievedAt": "2026-02-24T10:38:50.440Z",
+        "isDuplicate": true,
+        "duplicateOf": {
+          "index": 35,
+          "title": "Study of Add-on Ambrisentan Therapy to Background Phosphodiesterase Type-5 Inhibitor (PDE5i) Therapy in Pulmonary Arterial Hypertension (ATHENA-1)"
+        }
+      },
+      {
+        "nctId": "NCT01409122",
+        "title": "Safety, Tolerability, and PK Parameters of Sodium Nitrite Inhalation Solution in Healthy Subjects",
+        "briefSummary": null,
+        "status": "COMPLETED",
+        "startDate": "2011-07-31",
+        "completionDate": "2012-01-31",
+        "studyType": "INTERVENTIONAL",
+        "phases": [
+          "PHASE1"
+        ],
+        "enrollment": 42,
+        "allocation": "RANDOMIZED",
+        "primaryPurpose": "TREATMENT",
+        "source": "aact",
+        "retrievedAt": "2026-02-24T10:38:50.440Z",
+        "isDuplicate": true,
+        "duplicateOf": {
+          "index": 3,
+          "title": "Safety and Efficacy Study of Sitaxentan Sodium (Thelin™) in Patients With Pulmonary Arterial Hypertension"
+        }
+      },
+      {
+        "nctId": "NCT00070590",
+        "title": "Efficacy and Safety of Oral Bosentan in Pulmonary Fibrosis Associated With Scleroderma",
+        "briefSummary": null,
+        "status": "COMPLETED",
+        "startDate": "2003-07-31",
+        "completionDate": "2005-09-30",
+        "studyType": "INTERVENTIONAL",
+        "phases": [
+          "PHASE2/PHASE3"
+        ],
+        "enrollment": 132,
+        "allocation": "RANDOMIZED",
+        "primaryPurpose": "TREATMENT",
+        "source": "aact",
+        "retrievedAt": "2026-02-24T10:38:51.289Z",
+        "isDuplicate": true,
+        "duplicateOf": {
+          "index": 6,
+          "title": "Efficacy and Safety of Oral Bosentan in Pulmonary Arterial Hypertension Class II"
+        }
+      }
+    ],
+    "excluded": [
+      {
+        "nctId": "NCT00046319",
+        "title": "Study of BSF 208075 Evaluating Exercise Capacity in Patients With Pulmonary Arterial Hypertension",
+        "briefSummary": null,
+        "status": "COMPLETED",
+        "startDate": "2002-09-30",
+        "completionDate": "2003-06-30",
+        "studyType": "INTERVENTIONAL",
+        "phases": [
+          "PHASE2"
+        ],
+        "enrollment": 60,
+        "allocation": "RANDOMIZED",
+        "primaryPurpose": "TREATMENT",
+        "source": "aact",
+        "retrievedAt": "2026-02-24T10:38:50.440Z",
+        "isDuplicate": false,
+        "classification": "exclude",
+        "relevanceScore": 0,
+        "relevanceReasons": [
+          "Missing required keywords",
+          "Contains 1 preferred keywords",
+          "Study design may not meet criteria: Unknown"
+        ],
+        "pico": null,
+        "needsReview": false,
+        "processedAt": "2026-02-24T10:38:51.292Z"
+      },
+      {
+        "nctId": "NCT00058929",
+        "title": "A Transition Study From Flolan® to Remodulin® in Patients With Pulmonary Arterial Hypertension",
+        "briefSummary": null,
+        "status": "COMPLETED",
+        "startDate": "2002-10-31",
+        "completionDate": "2005-08-31",
+        "studyType": "INTERVENTIONAL",
+        "phases": [
+          "PHASE4"
+        ],
+        "enrollment": 39,
+        "allocation": "RANDOMIZED",
+        "primaryPurpose": "TREATMENT",
+        "source": "aact",
+        "retrievedAt": "2026-02-24T10:38:50.440Z",
+        "isDuplicate": false,
+        "classification": "exclude",
+        "relevanceScore": 0,
+        "relevanceReasons": [
+          "Missing required keywords",
+          "Contains 1 preferred keywords",
+          "Study design may not meet criteria: Unknown"
+        ],
+        "pico": null,
+        "needsReview": false,
+        "processedAt": "2026-02-24T10:38:51.292Z"
+      },
+      {
+        "nctId": "NCT00080457",
+        "title": "Safety and Efficacy Study of Sitaxentan Sodium (Thelin™) in Patients With Pulmonary Arterial Hypertension",
+        "briefSummary": null,
+        "status": "COMPLETED",
+        "startDate": "2003-05-31",
+        "completionDate": "2005-01-31",
+        "studyType": "INTERVENTIONAL",
+        "phases": [
+          "PHASE3"
+        ],
+        "enrollment": 240,
+        "allocation": "RANDOMIZED",
+        "primaryPurpose": "TREATMENT",
+        "source": "aact",
+        "retrievedAt": "2026-02-24T10:38:50.440Z",
+        "isDuplicate": false,
+        "classification": "exclude",
+        "relevanceScore": 0,
+        "relevanceReasons": [
+          "Missing required keywords",
+          "Contains 1 preferred keywords",
+          "Study design may not meet criteria: Unknown"
+        ],
+        "pico": null,
+        "needsReview": false,
+        "processedAt": "2026-02-24T10:38:51.293Z"
+      },
+      {
+        "nctId": "NCT00086463",
+        "title": "Trial of Iloprost Inhaled Solution as Add-On Therapy With Bosentan in Subjects With Pulmonary Arterial Hypertension (PAH)",
+        "briefSummary": null,
+        "status": "COMPLETED",
+        "startDate": "2004-06-30",
+        "completionDate": "2006-01-31",
+        "studyType": "INTERVENTIONAL",
+        "phases": [
+          "PHASE2"
+        ],
+        "enrollment": 60,
+        "allocation": "RANDOMIZED",
+        "primaryPurpose": "TREATMENT",
+        "source": "aact",
+        "retrievedAt": "2026-02-24T10:38:50.440Z",
+        "isDuplicate": false,
+        "classification": "exclude",
+        "relevanceScore": 0,
+        "relevanceReasons": [
+          "Missing required keywords",
+          "Contains 2 preferred keywords",
+          "Study design may not meet criteria: Unknown"
+        ],
+        "pico": null,
+        "needsReview": false,
+        "processedAt": "2026-02-24T10:38:51.294Z"
+      },
+      {
+        "nctId": "NCT00091598",
+        "title": "ARIES - Ambrisentan in Patients With Moderate to Severe Pulmonary Arterial Hypertension (PAH)",
+        "briefSummary": null,
+        "status": "COMPLETED",
+        "startDate": "2004-01-31",
+        "completionDate": "2006-02-28",
+        "studyType": "INTERVENTIONAL",
+        "phases": [
+          "PHASE3"
+        ],
+        "enrollment": 372,
+        "allocation": "RANDOMIZED",
+        "primaryPurpose": "TREATMENT",
+        "source": "aact",
+        "retrievedAt": "2026-02-24T10:38:50.440Z",
+        "isDuplicate": false,
+        "classification": "exclude",
+        "relevanceScore": 0,
+        "relevanceReasons": [
+          "Missing required keywords",
+          "Contains 2 preferred keywords",
+          "Study design may not meet criteria: Unknown"
+        ],
+        "pico": null,
+        "needsReview": false,
+        "processedAt": "2026-02-24T10:38:51.294Z"
+      },
+      {
+        "nctId": "NCT00091715",
+        "title": "Efficacy and Safety of Oral Bosentan in Pulmonary Arterial Hypertension Class II",
+        "briefSummary": null,
+        "status": "COMPLETED",
+        "startDate": "2004-04-30",
+        "completionDate": "2011-02-28",
+        "studyType": "INTERVENTIONAL",
+        "phases": [
+          "PHASE3"
+        ],
+        "enrollment": 185,
+        "allocation": "RANDOMIZED",
+        "primaryPurpose": "TREATMENT",
+        "source": "aact",
+        "retrievedAt": "2026-02-24T10:38:50.440Z",
+        "isDuplicate": false,
+        "classification": "exclude",
+        "relevanceScore": 0,
+        "relevanceReasons": [
+          "Missing required keywords",
+          "Contains 1 preferred keywords",
+          "Study design may not meet criteria: Unknown"
+        ],
+        "pico": null,
+        "needsReview": false,
+        "processedAt": "2026-02-24T10:38:51.295Z"
+      },
+      {
+        "nctId": "NCT00109681",
+        "title": "Inhaled Iloprost in Adults With Abnormal Pulmonary Pressure and Associated With Idiopathic Pulmonary Fibrosis",
+        "briefSummary": null,
+        "status": "COMPLETED",
+        "startDate": "2005-04-30",
+        "completionDate": "2006-10-31",
+        "studyType": "INTERVENTIONAL",
+        "phases": [
+          "PHASE2"
+        ],
+        "enrollment": 50,
+        "allocation": "RANDOMIZED",
+        "primaryPurpose": "TREATMENT",
+        "source": "aact",
+        "retrievedAt": "2026-02-24T10:38:50.440Z",
+        "isDuplicate": false,
+        "classification": "exclude",
+        "relevanceScore": 0,
+        "relevanceReasons": [
+          "Missing required keywords",
+          "Study design may not meet criteria: Unknown"
+        ],
+        "pico": null,
+        "needsReview": false,
+        "processedAt": "2026-02-24T10:38:51.296Z"
+      },
+      {
+        "nctId": "NCT00125918",
+        "title": "PHIRST-1: Tadalafil in the Treatment of Pulmonary Arterial Hypertension",
+        "briefSummary": null,
+        "status": "COMPLETED",
+        "startDate": "2005-08-31",
+        "completionDate": "2007-08-31",
+        "studyType": "INTERVENTIONAL",
+        "phases": [
+          "PHASE3"
+        ],
+        "enrollment": 406,
+        "allocation": "RANDOMIZED",
+        "primaryPurpose": "TREATMENT",
+        "source": "aact",
+        "retrievedAt": "2026-02-24T10:38:50.440Z",
+        "isDuplicate": false,
+        "classification": "exclude",
+        "relevanceScore": 0,
+        "relevanceReasons": [
+          "Missing required keywords",
+          "Contains 1 preferred keywords",
+          "Study design may not meet criteria: Unknown"
+        ],
+        "pico": null,
+        "needsReview": false,
+        "processedAt": "2026-02-24T10:38:51.298Z"
+      },
+      {
+        "nctId": "NCT00147199",
+        "title": "Clinical Investigation Into Inhaled Treprostinil Sodium in Patients With Severe Pulmonary Arterial Hypertension (PAH)",
+        "briefSummary": null,
+        "status": "COMPLETED",
+        "startDate": "2005-06-30",
+        "completionDate": "2007-10-31",
+        "studyType": "INTERVENTIONAL",
+        "phases": [
+          "PHASE3"
+        ],
+        "enrollment": 235,
+        "allocation": "RANDOMIZED",
+        "primaryPurpose": "TREATMENT",
+        "source": "aact",
+        "retrievedAt": "2026-02-24T10:38:50.440Z",
+        "isDuplicate": false,
+        "classification": "exclude",
+        "relevanceScore": 0,
+        "relevanceReasons": [
+          "Missing required keywords",
+          "Contains 2 preferred keywords",
+          "Study design may not meet criteria: Unknown"
+        ],
+        "pico": null,
+        "needsReview": false,
+        "processedAt": "2026-02-24T10:38:51.302Z"
+      },
+      {
+        "nctId": "NCT00159861",
+        "title": "The Efficacy and Safety of Sildenafil Citrate Used in Combination With Intravenous Epoprostenol in PAH",
+        "briefSummary": null,
+        "status": "COMPLETED",
+        "startDate": "2003-07-31",
+        "completionDate": "2006-01-31",
+        "studyType": "INTERVENTIONAL",
+        "phases": [
+          "PHASE3"
+        ],
+        "enrollment": 267,
+        "allocation": "RANDOMIZED",
+        "primaryPurpose": "TREATMENT",
+        "source": "aact",
+        "retrievedAt": "2026-02-24T10:38:50.440Z",
+        "isDuplicate": false,
+        "classification": "exclude",
+        "relevanceScore": 0,
+        "relevanceReasons": [
+          "Missing required keywords",
+          "Contains 1 preferred keywords",
+          "Study design may not meet criteria: Unknown"
+        ],
+        "pico": null,
+        "needsReview": false,
+        "processedAt": "2026-02-24T10:38:51.307Z"
+      },
+      {
+        "nctId": "NCT00159874",
+        "title": "A Long Term Extension Study Evaluating Safety Of Sildenafil Citrate When Used To Treat Pulmonary Arterial Hypertension (PAH) In Children",
+        "briefSummary": null,
+        "status": "COMPLETED",
+        "startDate": "2004-01-31",
+        "completionDate": "2012-12-31",
+        "studyType": "INTERVENTIONAL",
+        "phases": [
+          "PHASE3"
+        ],
+        "enrollment": 234,
+        "allocation": "RANDOMIZED",
+        "primaryPurpose": "TREATMENT",
+        "source": "aact",
+        "retrievedAt": "2026-02-24T10:38:50.440Z",
+        "isDuplicate": false,
+        "classification": "exclude",
+        "relevanceScore": 0,
+        "relevanceReasons": [
+          "Missing required keywords",
+          "Contains 2 preferred keywords",
+          "Study design may not meet criteria: Unknown"
+        ],
+        "pico": null,
+        "needsReview": false,
+        "processedAt": "2026-02-24T10:38:51.311Z"
+      },
+      {
+        "nctId": "NCT00159913",
+        "title": "A Randomized, Double-Blind, Placebo-Controlled Study of Sildenafil in Children With Pulmonary Arterial Hypertension.",
+        "briefSummary": null,
+        "status": "COMPLETED",
+        "startDate": "2003-08-31",
+        "completionDate": "2008-06-30",
+        "studyType": "INTERVENTIONAL",
+        "phases": [
+          "PHASE3"
+        ],
+        "enrollment": 235,
+        "allocation": "RANDOMIZED",
+        "primaryPurpose": "TREATMENT",
+        "source": "aact",
+        "retrievedAt": "2026-02-24T10:38:50.440Z",
+        "isDuplicate": false,
+        "classification": "exclude",
+        "relevanceScore": 0,
+        "relevanceReasons": [
+          "Missing required keywords",
+          "Contains 1 preferred keywords",
+          "Study design may not meet criteria: RCT (double-blind)"
+        ],
+        "pico": null,
+        "needsReview": false,
+        "processedAt": "2026-02-24T10:38:51.315Z"
+      },
+      {
+        "nctId": "NCT00303459",
+        "title": "Effects of the Combination of Bosentan and Sildenafil Versus Sildenafil Monotherapy on Pulmonary Arterial Hypertension (PAH)",
+        "briefSummary": null,
+        "status": "COMPLETED",
+        "startDate": "2006-05-31",
+        "completionDate": "2013-12-31",
+        "studyType": "INTERVENTIONAL",
+        "phases": [
+          "PHASE4"
+        ],
+        "enrollment": 334,
+        "allocation": "RANDOMIZED",
+        "primaryPurpose": "TREATMENT",
+        "source": "aact",
+        "retrievedAt": "2026-02-24T10:38:50.440Z",
+        "isDuplicate": false,
+        "classification": "exclude",
+        "relevanceScore": 0,
+        "relevanceReasons": [
+          "Missing required keywords",
+          "Contains 2 preferred keywords",
+          "Study design may not meet criteria: Unknown"
+        ],
+        "pico": null,
+        "needsReview": false,
+        "processedAt": "2026-02-24T10:38:51.354Z"
+      },
+      {
+        "nctId": "NCT00323297",
+        "title": "Assess the Efficacy and Safety of Sildenafil When Added to Bosentan in the Treatment of Pulmonary Arterial Hypertension",
+        "briefSummary": null,
+        "status": "COMPLETED",
+        "startDate": "2006-09-30",
+        "completionDate": "2013-08-31",
+        "studyType": "INTERVENTIONAL",
+        "phases": [
+          "PHASE4"
+        ],
+        "enrollment": 105,
+        "allocation": "RANDOMIZED",
+        "primaryPurpose": "TREATMENT",
+        "source": "aact",
+        "retrievedAt": "2026-02-24T10:38:50.440Z",
+        "isDuplicate": false,
+        "classification": "exclude",
+        "relevanceScore": 0,
+        "relevanceReasons": [
+          "Missing required keywords",
+          "Contains 1 preferred keywords",
+          "Study design may not meet criteria: Unknown"
+        ],
+        "pico": null,
+        "needsReview": false,
+        "processedAt": "2026-02-24T10:38:51.394Z"
+      },
+      {
+        "nctId": "NCT00325403",
+        "title": "FREEDOM - M: Oral Treprostinil as Monotherapy for the Treatment of Pulmonary Arterial Hypertension (PAH)",
+        "briefSummary": null,
+        "status": "COMPLETED",
+        "startDate": "2006-10-31",
+        "completionDate": "2011-04-30",
+        "studyType": "INTERVENTIONAL",
+        "phases": [
+          "PHASE3"
+        ],
+        "enrollment": 349,
+        "allocation": "RANDOMIZED",
+        "primaryPurpose": "TREATMENT",
+        "source": "aact",
+        "retrievedAt": "2026-02-24T10:38:50.440Z",
+        "isDuplicate": false,
+        "classification": "exclude",
+        "relevanceScore": 0,
+        "relevanceReasons": [
+          "Missing required keywords",
+          "Contains 2 preferred keywords",
+          "Study design may not meet criteria: Unknown"
+        ],
+        "pico": null,
+        "needsReview": false,
+        "processedAt": "2026-02-24T10:38:51.404Z"
+      },
+      {
+        "nctId": "NCT00325442",
+        "title": "FREEDOM-C: Oral Treprostinil in Combination With an Endothelin Receptor Antagonist (ERA) and/or a Phosphodiesterase-5 (PDE-5) Inhibitor for the Treatment of Pulmonary Arterial Hypertension (PAH)",
+        "briefSummary": null,
+        "status": "COMPLETED",
+        "startDate": "2006-10-31",
+        "completionDate": "2010-12-31",
+        "studyType": "INTERVENTIONAL",
+        "phases": [
+          "PHASE3"
+        ],
+        "enrollment": 354,
+        "allocation": "RANDOMIZED",
+        "primaryPurpose": "TREATMENT",
+        "source": "aact",
+        "retrievedAt": "2026-02-24T10:38:50.440Z",
+        "isDuplicate": false,
+        "classification": "exclude",
+        "relevanceScore": 0,
+        "relevanceReasons": [
+          "Missing required keywords",
+          "Contains 2 preferred keywords",
+          "Study design may not meet criteria: Unknown"
+        ],
+        "pico": null,
+        "needsReview": false,
+        "processedAt": "2026-02-24T10:38:51.419Z"
+      },
+      {
+        "nctId": "NCT00334490",
+        "title": "Does Oral Sildenafil (Viagra) Decrease Mean Pulmonary Artery Pressure After Cardiac Surgery?",
+        "briefSummary": null,
+        "status": "COMPLETED",
+        "startDate": "2005-03-31",
+        "completionDate": "2009-05-31",
+        "studyType": "INTERVENTIONAL",
+        "phases": [
+          "PHASE2"
+        ],
+        "enrollment": 40,
+        "allocation": "RANDOMIZED",
+        "primaryPurpose": "TREATMENT",
+        "source": "aact",
+        "retrievedAt": "2026-02-24T10:38:50.440Z",
+        "isDuplicate": false,
+        "classification": "exclude",
+        "relevanceScore": 0,
+        "relevanceReasons": [
+          "Missing required keywords",
+          "Study design may not meet criteria: Unknown"
+        ],
+        "pico": null,
+        "needsReview": false,
+        "processedAt": "2026-02-24T10:38:51.444Z"
+      },
+      {
+        "nctId": "NCT00423202",
+        "title": "A Phase 3, Randomized, Double-Blind, Placebo-Controlled Study to Assess Safety and Efficacy of Ambrisentan in Subjects With Pulmonary Arterial Hypertension.",
+        "briefSummary": null,
+        "status": "COMPLETED",
+        "startDate": "2003-12-31",
+        "completionDate": "2005-10-31",
+        "studyType": "INTERVENTIONAL",
+        "phases": [
+          "PHASE3"
+        ],
+        "enrollment": 186,
+        "allocation": "RANDOMIZED",
+        "primaryPurpose": "TREATMENT",
+        "source": "aact",
+        "retrievedAt": "2026-02-24T10:38:50.440Z",
+        "isDuplicate": false,
+        "classification": "exclude",
+        "relevanceScore": 0,
+        "relevanceReasons": [
+          "Missing required keywords",
+          "Contains 1 preferred keywords",
+          "Study design may not meet criteria: RCT (double-blind)"
+        ],
+        "pico": null,
+        "needsReview": false,
+        "processedAt": "2026-02-24T10:38:51.480Z"
+      },
+      {
+        "nctId": "NCT00432978",
+        "title": "Effect of Bosentan on Exercise Capacity at High Altitude",
+        "briefSummary": null,
+        "status": "COMPLETED",
+        "startDate": "2006-07-31",
+        "completionDate": "2007-02-28",
+        "studyType": "INTERVENTIONAL",
+        "phases": [
+          "PHASE1"
+        ],
+        "enrollment": 20,
+        "allocation": "RANDOMIZED",
+        "primaryPurpose": "TREATMENT",
+        "source": "aact",
+        "retrievedAt": "2026-02-24T10:38:50.440Z",
+        "isDuplicate": false,
+        "classification": "exclude",
+        "relevanceScore": 0,
+        "relevanceReasons": [
+          "Missing required keywords",
+          "Study design may not meet criteria: Unknown"
+        ],
+        "pico": null,
+        "needsReview": false,
+        "processedAt": "2026-02-24T10:38:51.515Z"
+      },
+      {
+        "nctId": "NCT00491803",
+        "title": "Sildenafil Effects on Pulmonary Haemodynamics and Gas Exchange in Chronic Obstructive Pulmonary Disease (COPD)",
+        "briefSummary": null,
+        "status": "COMPLETED",
+        "startDate": "2007-06-30",
+        "completionDate": "2009-02-28",
+        "studyType": "INTERVENTIONAL",
+        "phases": [
+          "PHASE4"
+        ],
+        "enrollment": 20,
+        "allocation": "RANDOMIZED",
+        "primaryPurpose": "TREATMENT",
+        "source": "aact",
+        "retrievedAt": "2026-02-24T10:38:50.440Z",
+        "isDuplicate": false,
+        "classification": "exclude",
+        "relevanceScore": 0,
+        "relevanceReasons": [
+          "Missing required keywords",
+          "Study design may not meet criteria: Unknown"
+        ],
+        "pico": null,
+        "needsReview": false,
+        "processedAt": "2026-02-24T10:38:51.556Z"
+      },
+      {
+        "nctId": "NCT00578786",
+        "title": "A Long Term Study of Ambrisentan in Pulmonary Arterial Hypertension Subjects Having Completed AMB-320 (NCT00423748) or AMB-321 (NCT00423202)",
+        "briefSummary": null,
+        "status": "COMPLETED",
+        "startDate": "2004-02-29",
+        "completionDate": "2010-03-31",
+        "studyType": "INTERVENTIONAL",
+        "phases": [
+          "PHASE3"
+        ],
+        "enrollment": 383,
+        "allocation": "RANDOMIZED",
+        "primaryPurpose": "TREATMENT",
+        "source": "aact",
+        "retrievedAt": "2026-02-24T10:38:50.440Z",
+        "isDuplicate": false,
+        "classification": "exclude",
+        "relevanceScore": 0,
+        "relevanceReasons": [
+          "Missing required keywords",
+          "Contains 1 preferred keywords",
+          "Study design may not meet criteria: Unknown"
+        ],
+        "pico": null,
+        "needsReview": false,
+        "processedAt": "2026-02-24T10:38:51.601Z"
+      },
+      {
+        "nctId": "NCT00617305",
+        "title": "Study of Add-on Ambrisentan Therapy to Background Phosphodiesterase Type-5 Inhibitor (PDE5i) Therapy in Pulmonary Arterial Hypertension (ATHENA-1)",
+        "briefSummary": null,
+        "status": "COMPLETED",
+        "startDate": "2008-04-30",
+        "completionDate": "2011-07-31",
+        "studyType": "INTERVENTIONAL",
+        "phases": [
+          "PHASE4"
+        ],
+        "enrollment": 38,
+        "allocation": "RANDOMIZED",
+        "primaryPurpose": "TREATMENT",
+        "source": "aact",
+        "retrievedAt": "2026-02-24T10:38:50.440Z",
+        "isDuplicate": false,
+        "classification": "exclude",
+        "relevanceScore": 0,
+        "relevanceReasons": [
+          "Missing required keywords",
+          "Contains 1 preferred keywords",
+          "Study design may not meet criteria: Unknown"
+        ],
+        "pico": null,
+        "needsReview": false,
+        "processedAt": "2026-02-24T10:38:51.649Z"
+      },
+      {
+        "nctId": "NCT00626028",
+        "title": "Comparison of Inhaled Nitric Oxide and Oxygen in Participants Reactivity During Acute Pulmonary Vasodilator Testing",
+        "briefSummary": null,
+        "status": "COMPLETED",
+        "startDate": "2004-09-30",
+        "completionDate": "2010-02-28",
+        "studyType": "INTERVENTIONAL",
+        "phases": [
+          "PHASE3"
+        ],
+        "enrollment": 136,
+        "allocation": "RANDOMIZED",
+        "primaryPurpose": "DIAGNOSTIC",
+        "source": "aact",
+        "retrievedAt": "2026-02-24T10:38:50.440Z",
+        "isDuplicate": false,
+        "classification": "exclude",
+        "relevanceScore": 0,
+        "relevanceReasons": [
+          "Missing required keywords",
+          "Study design may not meet criteria: Unknown"
+        ],
+        "pico": null,
+        "needsReview": false,
+        "processedAt": "2026-02-24T10:38:51.679Z"
+      },
+      {
+        "nctId": "NCT00660179",
+        "title": "Study of Macitentan (ACT-064992) on Morbidity and Mortality in Patients With Symptomatic Pulmonary Arterial Hypertension",
+        "briefSummary": null,
+        "status": "COMPLETED",
+        "startDate": "2008-05-31",
+        "completionDate": "2012-04-30",
+        "studyType": "INTERVENTIONAL",
+        "phases": [
+          "PHASE3"
+        ],
+        "enrollment": 742,
+        "allocation": "RANDOMIZED",
+        "primaryPurpose": "TREATMENT",
+        "source": "aact",
+        "retrievedAt": "2026-02-24T10:38:50.440Z",
+        "isDuplicate": false,
+        "classification": "exclude",
+        "relevanceScore": 0,
+        "relevanceReasons": [
+          "Missing required keywords",
+          "Contains 1 preferred keywords",
+          "Study design may not meet criteria: Unknown"
+        ],
+        "pico": null,
+        "needsReview": false,
+        "processedAt": "2026-02-24T10:38:51.706Z"
+      },
+      {
+        "nctId": "NCT00709098",
+        "title": "Safety Study Extension of Iloprost Power 15 in Pulmonary Arterial Hypertension",
+        "briefSummary": null,
+        "status": "COMPLETED",
+        "startDate": "2008-09-30",
+        "completionDate": "2010-06-30",
+        "studyType": "INTERVENTIONAL",
+        "phases": [
+          "PHASE3"
+        ],
+        "enrollment": 49,
+        "allocation": "RANDOMIZED",
+        "primaryPurpose": "TREATMENT",
+        "source": "aact",
+        "retrievedAt": "2026-02-24T10:38:50.440Z",
+        "isDuplicate": false,
+        "classification": "exclude",
+        "relevanceScore": 0,
+        "relevanceReasons": [
+          "Missing required keywords",
+          "Contains 1 preferred keywords",
+          "Study design may not meet criteria: Unknown"
+        ],
+        "pico": null,
+        "needsReview": false,
+        "processedAt": "2026-02-24T10:38:51.780Z"
+      },
+      {
+        "nctId": "NCT00709956",
+        "title": "Iloprost Power 15 in Pulmonary Arterial Hypertension",
+        "briefSummary": null,
+        "status": "COMPLETED",
+        "startDate": "2008-07-31",
+        "completionDate": "2009-08-31",
+        "studyType": "INTERVENTIONAL",
+        "phases": [
+          "PHASE3"
+        ],
+        "enrollment": 64,
+        "allocation": "RANDOMIZED",
+        "primaryPurpose": "TREATMENT",
+        "source": "aact",
+        "retrievedAt": "2026-02-24T10:38:50.440Z",
+        "isDuplicate": false,
+        "classification": "exclude",
+        "relevanceScore": 0,
+        "relevanceReasons": [
+          "Missing required keywords",
+          "Contains 1 preferred keywords",
+          "Study design may not meet criteria: Unknown"
+        ],
+        "pico": null,
+        "needsReview": false,
+        "processedAt": "2026-02-24T10:38:51.829Z"
+      },
+      {
+        "nctId": "NCT00747045",
+        "title": "Lung Protective Ventilation in Pulmonary Thromboendarterectomy (PTE) Patients",
+        "briefSummary": null,
+        "status": "COMPLETED",
+        "startDate": "2008-08-31",
+        "completionDate": "2011-03-31",
+        "studyType": "INTERVENTIONAL",
+        "phases": [
+          "NA"
+        ],
+        "enrollment": 128,
+        "allocation": "RANDOMIZED",
+        "primaryPurpose": "PREVENTION",
+        "source": "aact",
+        "retrievedAt": "2026-02-24T10:38:50.440Z",
+        "isDuplicate": false,
+        "classification": "exclude",
+        "relevanceScore": 0,
+        "relevanceReasons": [
+          "Missing required keywords",
+          "Study design may not meet criteria: Unknown"
+        ],
+        "pico": null,
+        "needsReview": false,
+        "processedAt": "2026-02-24T10:38:51.938Z"
+      },
+      {
+        "nctId": "NCT00808912",
+        "title": "Does Sildenafil Increase Exercise Performance in Air Pollution?",
+        "briefSummary": null,
+        "status": "COMPLETED",
+        "startDate": "2008-12-31",
+        "completionDate": "2010-02-28",
+        "studyType": "INTERVENTIONAL",
+        "phases": [
+          "NA"
+        ],
+        "enrollment": 24,
+        "allocation": "RANDOMIZED",
+        "primaryPurpose": "BASIC_SCIENCE",
+        "source": "aact",
+        "retrievedAt": "2026-02-24T10:38:50.440Z",
+        "isDuplicate": false,
+        "classification": "exclude",
+        "relevanceScore": 0,
+        "relevanceReasons": [
+          "Missing required keywords",
+          "Study design may not meet criteria: Unknown"
+        ],
+        "pico": null,
+        "needsReview": false,
+        "processedAt": "2026-02-24T10:38:51.981Z"
+      },
+      {
+        "nctId": "NCT00810693",
+        "title": "A Study to Evaluate Efficacy and Safety of Oral BAY63-2521 in Patients With Pulmonary Arterial Hypertension (PAH)",
+        "briefSummary": null,
+        "status": "COMPLETED",
+        "startDate": "2008-12-17",
+        "completionDate": "2012-05-14",
+        "studyType": "INTERVENTIONAL",
+        "phases": [
+          "PHASE3"
+        ],
+        "enrollment": 445,
+        "allocation": "RANDOMIZED",
+        "primaryPurpose": "TREATMENT",
+        "source": "aact",
+        "retrievedAt": "2026-02-24T10:38:50.440Z",
+        "isDuplicate": false,
+        "classification": "exclude",
+        "relevanceScore": 0,
+        "relevanceReasons": [
+          "Missing required keywords",
+          "Contains 2 preferred keywords",
+          "Study design may not meet criteria: Unknown"
+        ],
+        "pico": null,
+        "needsReview": false,
+        "processedAt": "2026-02-24T10:38:52.021Z"
+      },
+      {
+        "nctId": "NCT00878878",
+        "title": "Evaluate Effect of Optison on Pulmonary Artery Systolic Pressure (PASP) and Pulmonary Vascular Resistance (PVR).",
+        "briefSummary": null,
+        "status": "COMPLETED",
+        "startDate": "2009-03-31",
+        "completionDate": "2010-07-31",
+        "studyType": "INTERVENTIONAL",
+        "phases": [
+          "PHASE4"
+        ],
+        "enrollment": 30,
+        "allocation": "RANDOMIZED",
+        "primaryPurpose": "DIAGNOSTIC",
+        "source": "aact",
+        "retrievedAt": "2026-02-24T10:38:50.440Z",
+        "isDuplicate": false,
+        "classification": "exclude",
+        "relevanceScore": 0,
+        "relevanceReasons": [
+          "Missing required keywords",
+          "Study design may not meet criteria: Unknown"
+        ],
+        "pico": null,
+        "needsReview": false,
+        "processedAt": "2026-02-24T10:38:52.167Z"
+      },
+      {
+        "nctId": "NCT00902174",
+        "title": "Imatinib (QTI571) in Pulmonary Arterial Hypertension",
+        "briefSummary": null,
+        "status": "COMPLETED",
+        "startDate": "2009-09-30",
+        "completionDate": "2011-05-31",
+        "studyType": "INTERVENTIONAL",
+        "phases": [
+          "PHASE3"
+        ],
+        "enrollment": 202,
+        "allocation": "RANDOMIZED",
+        "primaryPurpose": "TREATMENT",
+        "source": "aact",
+        "retrievedAt": "2026-02-24T10:38:50.440Z",
+        "isDuplicate": false,
+        "classification": "exclude",
+        "relevanceScore": 0,
+        "relevanceReasons": [
+          "Missing required keywords",
+          "Contains 1 preferred keywords",
+          "Study design may not meet criteria: Unknown"
+        ],
+        "pico": null,
+        "needsReview": false,
+        "processedAt": "2026-02-24T10:38:52.287Z"
+      },
+      {
+        "nctId": "NCT00927654",
+        "title": "Iloprost in High Risk Cardiac Surgical Patients",
+        "briefSummary": null,
+        "status": "COMPLETED",
+        "startDate": "2009-06-30",
+        "completionDate": "2012-03-31",
+        "studyType": "INTERVENTIONAL",
+        "phases": [
+          "PHASE3"
+        ],
+        "enrollment": 253,
+        "allocation": "RANDOMIZED",
+        "primaryPurpose": "TREATMENT",
+        "source": "aact",
+        "retrievedAt": "2026-02-24T10:38:50.440Z",
+        "isDuplicate": false,
+        "classification": "exclude",
+        "relevanceScore": 0,
+        "relevanceReasons": [
+          "Missing required keywords",
+          "Study design may not meet criteria: Unknown"
+        ],
+        "pico": null,
+        "needsReview": false,
+        "processedAt": "2026-02-24T10:38:52.351Z"
+      },
+      {
+        "nctId": "NCT00952302",
+        "title": "Study of the Effects of Iron Levels on the Lungs at High Altitude",
+        "briefSummary": null,
+        "status": "COMPLETED",
+        "startDate": "2008-10-31",
+        "completionDate": "2008-11-30",
+        "studyType": "INTERVENTIONAL",
+        "phases": [
+          "NA"
+        ],
+        "enrollment": 33,
+        "allocation": "RANDOMIZED",
+        "primaryPurpose": "BASIC_SCIENCE",
+        "source": "aact",
+        "retrievedAt": "2026-02-24T10:38:50.440Z",
+        "isDuplicate": false,
+        "classification": "exclude",
+        "relevanceScore": 0,
+        "relevanceReasons": [
+          "Missing required keywords",
+          "Study design may not meet criteria: Unknown"
+        ],
+        "pico": null,
+        "needsReview": false,
+        "processedAt": "2026-02-24T10:38:52.409Z"
+      },
+      {
+        "nctId": "NCT00963001",
+        "title": "Effect of Food on the Pharmacokinetics of Oral Treprostinil",
+        "briefSummary": null,
+        "status": "COMPLETED",
+        "startDate": "2009-09-30",
+        "completionDate": "2009-11-30",
+        "studyType": "INTERVENTIONAL",
+        "phases": [
+          "PHASE1"
+        ],
+        "enrollment": 32,
+        "allocation": "RANDOMIZED",
+        "primaryPurpose": "TREATMENT",
+        "source": "aact",
+        "retrievedAt": "2026-02-24T10:38:50.440Z",
+        "isDuplicate": false,
+        "classification": "exclude",
+        "relevanceScore": 0,
+        "relevanceReasons": [
+          "Missing required keywords",
+          "Study design may not meet criteria: Unknown"
+        ],
+        "pico": null,
+        "needsReview": false,
+        "processedAt": "2026-02-24T10:38:52.454Z"
+      },
+      {
+        "nctId": "NCT00989963",
+        "title": "Dose-response Study of the Safety and Efficacy of Beraprost Sodium Modified Release (BPS-MR) in Patients With Pulmonary Arterial Hypertension (PAH)",
+        "briefSummary": null,
+        "status": "COMPLETED",
+        "startDate": "2010-02-01",
+        "completionDate": "2011-09-13",
+        "studyType": "INTERVENTIONAL",
+        "phases": [
+          "PHASE2"
+        ],
+        "enrollment": 36,
+        "allocation": "RANDOMIZED",
+        "primaryPurpose": "TREATMENT",
+        "source": "aact",
+        "retrievedAt": "2026-02-24T10:38:50.440Z",
+        "isDuplicate": false,
+        "classification": "exclude",
+        "relevanceScore": 0,
+        "relevanceReasons": [
+          "Missing required keywords",
+          "Contains 2 preferred keywords",
+          "Study design may not meet criteria: Unknown"
+        ],
+        "pico": null,
+        "needsReview": false,
+        "processedAt": "2026-02-24T10:38:52.516Z"
+      },
+      {
+        "nctId": "NCT00993408",
+        "title": "Study of ACT-293987 (NS-304) in Pulmonary Arterial Hypertension (PAH)",
+        "briefSummary": null,
+        "status": "COMPLETED",
+        "startDate": "2008-04-30",
+        "completionDate": "2009-06-30",
+        "studyType": "INTERVENTIONAL",
+        "phases": [
+          "PHASE2"
+        ],
+        "enrollment": 43,
+        "allocation": "RANDOMIZED",
+        "primaryPurpose": "OTHER",
+        "source": "aact",
+        "retrievedAt": "2026-02-24T10:38:50.440Z",
+        "isDuplicate": false,
+        "classification": "exclude",
+        "relevanceScore": 0,
+        "relevanceReasons": [
+          "Missing required keywords",
+          "Contains 2 preferred keywords",
+          "Study design may not meet criteria: Unknown"
+        ],
+        "pico": null,
+        "needsReview": false,
+        "processedAt": "2026-02-24T10:38:52.567Z"
+      },
+      {
+        "nctId": "NCT01086540",
+        "title": "Rituximab for Treatment of Systemic Sclerosis-Associated Pulmonary Arterial Hypertension (SSc-PAH)",
+        "briefSummary": null,
+        "status": "COMPLETED",
+        "startDate": "2011-06-24",
+        "completionDate": "2019-12-15",
+        "studyType": "INTERVENTIONAL",
+        "phases": [
+          "PHASE2"
+        ],
+        "enrollment": 57,
+        "allocation": "RANDOMIZED",
+        "primaryPurpose": "TREATMENT",
+        "source": "aact",
+        "retrievedAt": "2026-02-24T10:38:50.440Z",
+        "isDuplicate": false,
+        "classification": "exclude",
+        "relevanceScore": 0,
+        "relevanceReasons": [
+          "Missing required keywords",
+          "Contains 2 preferred keywords",
+          "Study design may not meet criteria: Unknown"
+        ],
+        "pico": null,
+        "needsReview": false,
+        "processedAt": "2026-02-24T10:38:52.687Z"
+      },
+      {
+        "nctId": "NCT01100736",
+        "title": "Role of Endothelin-A (ETA) and Endothelin-B (ETB) Receptors in the Vasodilatory Response to Endothelin-3 (ET-3)",
+        "briefSummary": null,
+        "status": "COMPLETED",
+        "startDate": "2009-01-31",
+        "completionDate": "2010-01-31",
+        "studyType": "INTERVENTIONAL",
+        "phases": [
+          "EARLY_PHASE1"
+        ],
+        "enrollment": 10,
+        "allocation": "RANDOMIZED",
+        "primaryPurpose": "BASIC_SCIENCE",
+        "source": "aact",
+        "retrievedAt": "2026-02-24T10:38:50.440Z",
+        "isDuplicate": false,
+        "classification": "exclude",
+        "relevanceScore": 0,
+        "relevanceReasons": [
+          "Missing required keywords",
+          "Study design may not meet criteria: Unknown"
+        ],
+        "pico": null,
+        "needsReview": false,
+        "processedAt": "2026-02-24T10:38:52.751Z"
+      },
+      {
+        "nctId": "NCT01105091",
+        "title": "Epoprostenol for Injection in Pulmonary Arterial Hypertension",
+        "briefSummary": null,
+        "status": "COMPLETED",
+        "startDate": "2010-03-31",
+        "completionDate": "2011-07-31",
+        "studyType": "INTERVENTIONAL",
+        "phases": [
+          "PHASE4"
+        ],
+        "enrollment": 30,
+        "allocation": "RANDOMIZED",
+        "primaryPurpose": "TREATMENT",
+        "source": "aact",
+        "retrievedAt": "2026-02-24T10:38:50.440Z",
+        "isDuplicate": false,
+        "classification": "exclude",
+        "relevanceScore": 0,
+        "relevanceReasons": [
+          "Missing required keywords",
+          "Contains 1 preferred keywords",
+          "Study design may not meet criteria: Unknown"
+        ],
+        "pico": null,
+        "needsReview": false,
+        "processedAt": "2026-02-24T10:38:52.888Z"
+      },
+      {
+        "nctId": "NCT01106014",
+        "title": "Selexipag (ACT-293987) in Pulmonary Arterial Hypertension",
+        "briefSummary": null,
+        "status": "COMPLETED",
+        "startDate": "2009-12-01",
+        "completionDate": "2014-10-01",
+        "studyType": "INTERVENTIONAL",
+        "phases": [
+          "PHASE3"
+        ],
+        "enrollment": 1156,
+        "allocation": "RANDOMIZED",
+        "primaryPurpose": "TREATMENT",
+        "source": "aact",
+        "retrievedAt": "2026-02-24T10:38:50.440Z",
+        "isDuplicate": false,
+        "classification": "exclude",
+        "relevanceScore": 0,
+        "relevanceReasons": [
+          "Missing required keywords",
+          "Contains 1 preferred keywords",
+          "Study design may not meet criteria: Unknown"
+        ],
+        "pico": null,
+        "needsReview": false,
+        "processedAt": "2026-02-24T10:38:52.968Z"
+      },
+      {
+        "nctId": "NCT01153386",
+        "title": "Pharmacokinetic Linearity and Comparative Bioavailability of Treprostinil Diethanolamine",
+        "briefSummary": null,
+        "status": "COMPLETED",
+        "startDate": "2010-07-31",
+        "completionDate": "2010-08-31",
+        "studyType": "INTERVENTIONAL",
+        "phases": [
+          "PHASE1"
+        ],
+        "enrollment": 36,
+        "allocation": "RANDOMIZED",
+        "primaryPurpose": "TREATMENT",
+        "source": "aact",
+        "retrievedAt": "2026-02-24T10:38:50.440Z",
+        "isDuplicate": false,
+        "classification": "exclude",
+        "relevanceScore": 0,
+        "relevanceReasons": [
+          "Missing required keywords",
+          "Study design may not meet criteria: Unknown"
+        ],
+        "pico": null,
+        "needsReview": false,
+        "processedAt": "2026-02-24T10:38:53.076Z"
+      },
+      {
+        "nctId": "NCT01165476",
+        "title": "Comparative Bioavailability of Treprostinil Diethanolamine Manufactured by Two Independent Facilities",
+        "briefSummary": null,
+        "status": "COMPLETED",
+        "startDate": "2010-07-31",
+        "completionDate": "2010-08-31",
+        "studyType": "INTERVENTIONAL",
+        "phases": [
+          "PHASE1"
+        ],
+        "enrollment": 64,
+        "allocation": "RANDOMIZED",
+        "primaryPurpose": "TREATMENT",
+        "source": "aact",
+        "retrievedAt": "2026-02-24T10:38:50.440Z",
+        "isDuplicate": false,
+        "classification": "exclude",
+        "relevanceScore": 0,
+        "relevanceReasons": [
+          "Missing required keywords",
+          "Study design may not meet criteria: Unknown"
+        ],
+        "pico": null,
+        "needsReview": false,
+        "processedAt": "2026-02-24T10:38:53.294Z"
+      },
+      {
+        "nctId": "NCT01172496",
+        "title": "A Bioavailability Study Comparing Treprostinil Diethanolamine Oral Tablets and Oral Solution in Healthy Volunteers",
+        "briefSummary": null,
+        "status": "COMPLETED",
+        "startDate": "2010-08-31",
+        "completionDate": null,
+        "studyType": "INTERVENTIONAL",
+        "phases": [
+          "PHASE1"
+        ],
+        "enrollment": 24,
+        "allocation": "RANDOMIZED",
+        "primaryPurpose": "TREATMENT",
+        "source": "aact",
+        "retrievedAt": "2026-02-24T10:38:50.440Z",
+        "isDuplicate": false,
+        "classification": "exclude",
+        "relevanceScore": 0,
+        "relevanceReasons": [
+          "Missing required keywords",
+          "Study design may not meet criteria: Unknown"
+        ],
+        "pico": null,
+        "needsReview": false,
+        "processedAt": "2026-02-24T10:38:53.410Z"
+      },
+      {
+        "nctId": "NCT01179334",
+        "title": "Evaluation of the Pharmacodynamic Effect of the Combination of Sildenafil and Riociguat on Blood Pressure and Other Safety Parameters.",
+        "briefSummary": null,
+        "status": "COMPLETED",
+        "startDate": "2010-08-31",
+        "completionDate": "2013-05-31",
+        "studyType": "INTERVENTIONAL",
+        "phases": [
+          "PHASE2"
+        ],
+        "enrollment": 18,
+        "allocation": "RANDOMIZED",
+        "primaryPurpose": "TREATMENT",
+        "source": "aact",
+        "retrievedAt": "2026-02-24T10:38:50.440Z",
+        "isDuplicate": false,
+        "classification": "exclude",
+        "relevanceScore": 0,
+        "relevanceReasons": [
+          "Missing required keywords",
+          "Study design may not meet criteria: Unknown"
+        ],
+        "pico": null,
+        "needsReview": false,
+        "processedAt": "2026-02-24T10:38:53.519Z"
+      },
+      {
+        "nctId": "NCT01306292",
+        "title": "Safety of SonoVue on Pulmonary Hemodynamics",
+        "briefSummary": null,
+        "status": "COMPLETED",
+        "startDate": "2011-04-30",
+        "completionDate": "2011-11-30",
+        "studyType": "INTERVENTIONAL",
+        "phases": [
+          "PHASE2"
+        ],
+        "enrollment": 36,
+        "allocation": "RANDOMIZED",
+        "primaryPurpose": null,
+        "source": "aact",
+        "retrievedAt": "2026-02-24T10:38:50.440Z",
+        "isDuplicate": false,
+        "classification": "exclude",
+        "relevanceScore": 0,
+        "relevanceReasons": [
+          "Missing required keywords",
+          "Study design may not meet criteria: Unknown"
+        ],
+        "pico": null,
+        "needsReview": false,
+        "processedAt": "2026-02-24T10:38:53.864Z"
+      },
+      {
+        "nctId": "NCT01310153",
+        "title": "Effect of Supine or Prone Position After Caesarean Birth",
+        "briefSummary": null,
+        "status": "COMPLETED",
+        "startDate": "2006-09-30",
+        "completionDate": "2009-02-28",
+        "studyType": "INTERVENTIONAL",
+        "phases": [
+          "NA"
+        ],
+        "enrollment": 65,
+        "allocation": "RANDOMIZED",
+        "primaryPurpose": "PREVENTION",
+        "source": "aact",
+        "retrievedAt": "2026-02-24T10:38:50.440Z",
+        "isDuplicate": false,
+        "classification": "exclude",
+        "relevanceScore": 0,
+        "relevanceReasons": [
+          "Missing required keywords",
+          "Study design may not meet criteria: Unknown"
+        ],
+        "pico": null,
+        "needsReview": false,
+        "processedAt": "2026-02-24T10:38:53.952Z"
+      },
+      {
+        "nctId": "NCT01352065",
+        "title": "Characterization and Detection of Prolonged Endothelin Receptors Antagonists Administration",
+        "briefSummary": null,
+        "status": "COMPLETED",
+        "startDate": "2011-01-31",
+        "completionDate": "2013-05-31",
+        "studyType": "INTERVENTIONAL",
+        "phases": [
+          "PHASE2/PHASE3"
+        ],
+        "enrollment": 30,
+        "allocation": "RANDOMIZED",
+        "primaryPurpose": "BASIC_SCIENCE",
+        "source": "aact",
+        "retrievedAt": "2026-02-24T10:38:50.440Z",
+        "isDuplicate": false,
+        "classification": "exclude",
+        "relevanceScore": 0,
+        "relevanceReasons": [
+          "Missing required keywords",
+          "Study design may not meet criteria: Unknown"
+        ],
+        "pico": null,
+        "needsReview": false,
+        "processedAt": "2026-02-24T10:38:54.406Z"
+      },
+      {
+        "nctId": "NCT01391104",
+        "title": "Responsiveness of Exercise Tests in Pulmonary Arterial Hypertension",
+        "briefSummary": null,
+        "status": "COMPLETED",
+        "startDate": "2009-04-30",
+        "completionDate": "2011-11-30",
+        "studyType": "INTERVENTIONAL",
+        "phases": [
+          "NA"
+        ],
+        "enrollment": 22,
+        "allocation": "RANDOMIZED",
+        "primaryPurpose": "TREATMENT",
+        "source": "aact",
+        "retrievedAt": "2026-02-24T10:38:50.440Z",
+        "isDuplicate": false,
+        "classification": "exclude",
+        "relevanceScore": 0,
+        "relevanceReasons": [
+          "Missing required keywords",
+          "Contains 1 preferred keywords",
+          "Study design may not meet criteria: Unknown"
+        ],
+        "pico": null,
+        "needsReview": false,
+        "processedAt": "2026-02-24T10:38:54.540Z"
+      },
+      {
+        "nctId": "NCT01393795",
+        "title": "Qutenza®-Remodulin® in Pulmonary Arterial Hypertension Patients",
+        "briefSummary": null,
+        "status": "COMPLETED",
+        "startDate": "2011-08-31",
+        "completionDate": "2012-07-31",
+        "studyType": "INTERVENTIONAL",
+        "phases": [
+          "PHASE2"
+        ],
+        "enrollment": 11,
+        "allocation": "RANDOMIZED",
+        "primaryPurpose": "TREATMENT",
+        "source": "aact",
+        "retrievedAt": "2026-02-24T10:38:50.440Z",
+        "isDuplicate": false,
+        "classification": "exclude",
+        "relevanceScore": 0,
+        "relevanceReasons": [
+          "Missing required keywords",
+          "Contains 1 preferred keywords",
+          "Study design may not meet criteria: Unknown"
+        ],
+        "pico": null,
+        "needsReview": false,
+        "processedAt": "2026-02-24T10:38:54.655Z"
+      },
+      {
+        "nctId": "NCT00149487",
+        "title": "Enhancing Treatment Adherence in Pediatric Asthma With a Problem Solving Intervention",
+        "briefSummary": null,
+        "status": "COMPLETED",
+        "startDate": "2001-01-22",
+        "completionDate": "2005-07-31",
+        "studyType": "INTERVENTIONAL",
+        "phases": [
+          "NA"
+        ],
+        "enrollment": 120,
+        "allocation": "RANDOMIZED",
+        "primaryPurpose": "OTHER",
+        "source": "aact",
+        "retrievedAt": "2026-02-24T10:38:51.289Z",
+        "isDuplicate": false,
+        "classification": "exclude",
+        "relevanceScore": 0,
+        "relevanceReasons": [
+          "Missing required keywords",
+          "Study design may not meet criteria: Unknown"
+        ],
+        "pico": null,
+        "needsReview": false,
+        "processedAt": "2026-02-24T10:38:55.421Z"
+      },
+      {
+        "nctId": "NCT00367770",
+        "title": "BREATHE 5-OL: Tracleer (Bosentan) in Patients With Pulmonary Arterial Hypertension Related to Eisenmenger Physiology",
+        "briefSummary": null,
+        "status": "COMPLETED",
+        "startDate": "2004-01-31",
+        "completionDate": "2005-12-31",
+        "studyType": "INTERVENTIONAL",
+        "phases": [
+          "PHASE4"
+        ],
+        "enrollment": 37,
+        "allocation": "NON_RANDOMIZED",
+        "primaryPurpose": "TREATMENT",
+        "source": "aact",
+        "retrievedAt": "2026-02-24T10:38:51.289Z",
+        "isDuplicate": false,
+        "classification": "exclude",
+        "relevanceScore": 0,
+        "relevanceReasons": [
+          "Missing required keywords",
+          "Contains 1 preferred keywords",
+          "Study design may not meet criteria: Unknown"
+        ],
+        "pico": null,
+        "needsReview": false,
+        "processedAt": "2026-02-24T10:38:55.556Z"
+      },
+      {
+        "nctId": "NCT01106742",
+        "title": "Agaricus Blazei Murill (ABM) in Patients With Inflammatory Bowel Disease (IBD)",
+        "briefSummary": null,
+        "status": "COMPLETED",
+        "startDate": "2009-03-31",
+        "completionDate": "2011-07-31",
+        "studyType": "INTERVENTIONAL",
+        "phases": [
+          "PHASE2"
+        ],
+        "enrollment": 20,
+        "allocation": "NON_RANDOMIZED",
+        "primaryPurpose": "TREATMENT",
+        "source": "aact",
+        "retrievedAt": "2026-02-24T10:38:51.289Z",
+        "isDuplicate": false,
+        "classification": "exclude",
+        "relevanceScore": 0,
+        "relevanceReasons": [
+          "Missing required keywords",
+          "Study design may not meet criteria: Unknown"
+        ],
+        "pico": null,
+        "needsReview": false,
+        "processedAt": "2026-02-24T10:38:55.722Z"
+      },
+      {
+        "nctId": "NCT02631980",
+        "title": "HepciFer Study: Hepcidin Overexpression After Hepatectomy : Does Iron Supplementation Make Sense ?",
+        "briefSummary": null,
+        "status": "COMPLETED",
+        "startDate": "2015-10-31",
+        "completionDate": "2016-10-31",
+        "studyType": "INTERVENTIONAL",
+        "phases": [
+          "PHASE3"
+        ],
+        "enrollment": 50,
+        "allocation": "RANDOMIZED",
+        "primaryPurpose": "SUPPORTIVE_CARE",
+        "source": "aact",
+        "retrievedAt": "2026-02-24T10:38:51.289Z",
+        "isDuplicate": false,
+        "classification": "exclude",
+        "relevanceScore": 0,
+        "relevanceReasons": [
+          "Missing required keywords",
+          "Study design may not meet criteria: Unknown"
+        ],
+        "pico": null,
+        "needsReview": false,
+        "processedAt": "2026-02-24T10:38:55.867Z"
+      }
+    ],
+    "summary": {
+      "totalFound": 85,
+      "newPotentialInclusions": 1,
+      "newMaybes": 19,
+      "duplicatesDetected": 12,
+      "autoExcluded": 53,
+      "trialUniverseWithoutPICO": 85,
+      "trialUniverseWithPICO": 22,
+      "trialUniverseRetainedPct": 25.9
+    },
+    "trialUniverse": {
+      "decision": "PASS",
+      "withoutPICO": {
+        "totalStudies": 85,
+        "uniqueNctCount": 85,
+        "studyIds": [
+          "NCT00004497",
+          "NCT00046319",
+          "NCT00058929",
+          "NCT00080457",
+          "NCT00086463",
+          "NCT00091598",
+          "NCT00091715",
+          "NCT00109681",
+          "NCT00125918",
+          "NCT00139217",
+          "NCT00147199",
+          "NCT00159861",
+          "NCT00159874",
+          "NCT00159913",
+          "NCT00180713",
+          "NCT00190333",
+          "NCT00235521",
+          "NCT00257413",
+          "NCT00303459",
+          "NCT00313222",
+          "NCT00314548",
+          "NCT00317486",
+          "NCT00323297",
+          "NCT00325403",
+          "NCT00325442",
+          "NCT00334490",
+          "NCT00345774",
+          "NCT00423202",
+          "NCT00423748",
+          "NCT00432978",
+          "NCT00477269",
+          "NCT00491803",
+          "NCT00519870",
+          "NCT00578786",
+          "NCT00581607",
+          "NCT00617305",
+          "NCT00626028",
+          "NCT00660179",
+          "NCT00678821",
+          "NCT00709098",
+          "NCT00709956",
+          "NCT00718952",
+          "NCT00747045",
+          "NCT00808912",
+          "NCT00810693",
+          "NCT00855465",
+          "NCT00862043",
+          "NCT00878878",
+          "NCT00887978",
+          "NCT00902174",
+          "NCT00927654",
+          "NCT00952302",
+          "NCT00963001",
+          "NCT00989963",
+          "NCT00993408",
+          "NCT01055405",
+          "NCT01086540",
+          "NCT01100736",
+          "NCT01104870",
+          "NCT01105091",
+          "NCT01106014",
+          "NCT01153386",
+          "NCT01156636",
+          "NCT01165476",
+          "NCT01172496",
+          "NCT01179334",
+          "NCT01197469",
+          "NCT01223352",
+          "NCT01306292",
+          "NCT01310153",
+          "NCT01310751",
+          "NCT01313832",
+          "NCT01320878",
+          "NCT01352065",
+          "NCT01391104",
+          "NCT01393795",
+          "NCT01394367",
+          "NCT01409122",
+          "NCT01416636",
+          "NCT01427192",
+          "NCT00070590",
+          "NCT00149487",
+          "NCT00367770",
+          "NCT01106742",
+          "NCT02631980"
+        ],
+        "duplicateCount": 0,
+        "duplicateStudyIds": []
+      },
+      "withPICO": {
+        "totalStudies": 22,
+        "includeCount": 1,
+        "maybeCount": 21,
+        "excludeCount": 63,
+        "studyIds": [
+          "NCT00004497",
+          "NCT00139217",
+          "NCT00180713",
+          "NCT00190333",
+          "NCT00235521",
+          "NCT00313222",
+          "NCT00314548",
+          "NCT00345774",
+          "NCT00519870",
+          "NCT00581607",
+          "NCT00678821",
+          "NCT00862043",
+          "NCT01055405",
+          "NCT01104870",
+          "NCT01156636",
+          "NCT01197469",
+          "NCT01310751",
+          "NCT01313832",
+          "NCT01320878",
+          "NCT01394367",
+          "NCT01416636",
+          "NCT01427192"
+        ],
+        "includeStudyIds": [
+          "NCT00004497"
+        ],
+        "maybeStudyIds": [
+          "NCT00139217",
+          "NCT00180713",
+          "NCT00190333",
+          "NCT00235521",
+          "NCT00313222",
+          "NCT00314548",
+          "NCT00345774",
+          "NCT00519870",
+          "NCT00581607",
+          "NCT00678821",
+          "NCT00862043",
+          "NCT01055405",
+          "NCT01104870",
+          "NCT01156636",
+          "NCT01197469",
+          "NCT01310751",
+          "NCT01313832",
+          "NCT01320878",
+          "NCT01394367",
+          "NCT01416636",
+          "NCT01427192"
+        ],
+        "excludeStudyIds": [
+          "NCT00046319",
+          "NCT00058929",
+          "NCT00080457",
+          "NCT00086463",
+          "NCT00091598",
+          "NCT00091715",
+          "NCT00109681",
+          "NCT00125918",
+          "NCT00147199",
+          "NCT00159861",
+          "NCT00159874",
+          "NCT00159913",
+          "NCT00257413",
+          "NCT00303459",
+          "NCT00317486",
+          "NCT00323297",
+          "NCT00325403",
+          "NCT00325442",
+          "NCT00334490",
+          "NCT00423202",
+          "NCT00423748",
+          "NCT00432978",
+          "NCT00477269",
+          "NCT00491803",
+          "NCT00578786",
+          "NCT00617305",
+          "NCT00626028",
+          "NCT00660179",
+          "NCT00709098",
+          "NCT00709956",
+          "NCT00718952",
+          "NCT00747045",
+          "NCT00808912",
+          "NCT00810693",
+          "NCT00855465",
+          "NCT00878878",
+          "NCT00887978",
+          "NCT00902174",
+          "NCT00927654",
+          "NCT00952302",
+          "NCT00963001",
+          "NCT00989963",
+          "NCT00993408",
+          "NCT01086540",
+          "NCT01100736",
+          "NCT01105091",
+          "NCT01106014",
+          "NCT01153386",
+          "NCT01165476",
+          "NCT01172496",
+          "NCT01179334",
+          "NCT01223352",
+          "NCT01306292",
+          "NCT01310153",
+          "NCT01352065",
+          "NCT01391104",
+          "NCT01393795",
+          "NCT01409122",
+          "NCT00070590",
+          "NCT00149487",
+          "NCT00367770",
+          "NCT01106742",
+          "NCT02631980"
+        ]
+      },
+      "comparison": {
+        "removedByPICO": 63,
+        "retainedPct": 25.9,
+        "excludedPct": 74.1
+      }
+    },
+    "landmarkCoverage": {
+      "decision": "PASS",
+      "guidelineProfile": "cardiology",
+      "overallCoveragePct": 100,
+      "totalExpected": 6,
+      "totalFound": 6,
+      "minCoveragePct": 70,
+      "areas": {
+        "pulmonary_hypertension": {
+          "expected": 6,
+          "found": 6,
+          "missing": 0,
+          "coveragePct": 100,
+          "foundNctIds": [
+            "NCT00149487",
+            "NCT01106014",
+            "NCT01106742",
+            "NCT02631980",
+            "NCT00367770",
+            "NCT00070590"
+          ],
+          "missingNctIds": []
+        }
+      }
+    },
+    "robustness": {
+      "decision": "PASS",
+      "score": 100,
+      "metrics": {
+        "aactIncrementalNctCount": 85,
+        "knownGapRecovered": 0,
+        "knownGapRecoveryPct": 0,
+        "landmarkCoveragePct": 100,
+        "picoRetentionPct": 25.9,
+        "trialUniverseCount": 85
+      },
+      "checks": [
+        {
+          "id": "source_coverage",
+          "label": "Required source coverage",
+          "pass": true,
+          "value": 1
+        },
+        {
+          "id": "ctgov_strategy_depth",
+          "label": "CT.gov strategy depth",
+          "pass": true,
+          "value": 0
+        },
+        {
+          "id": "ctgov_error_free",
+          "label": "CT.gov execution without errors",
+          "pass": true,
+          "value": 1
+        },
+        {
+          "id": "aact_available",
+          "label": "AACT availability",
+          "pass": true,
+          "value": 1
+        },
+        {
+          "id": "aact_incremental_capture",
+          "label": "AACT incremental capture over CT.gov",
+          "pass": true,
+          "value": 85
+        },
+        {
+          "id": "landmark_coverage",
+          "label": "ESC landmark coverage",
+          "pass": true,
+          "value": 100
+        },
+        {
+          "id": "trial_universe_pico",
+          "label": "Trial universe with and without PICO",
+          "pass": true,
+          "value": 25.9
+        }
+      ],
+      "actionItems": []
+    }
+  }
+}

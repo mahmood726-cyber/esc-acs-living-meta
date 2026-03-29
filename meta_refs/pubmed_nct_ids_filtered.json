@@ -1,0 +1,3442 @@
+{
+  "source": "PubMed NCTs filtered by CT.gov conditions/interventions",
+  "input_count": 274,
+  "acs_count": 42,
+  "non_acs_count": 232,
+  "errors": [],
+  "acs": [
+    {
+      "nctId": "NCT00000620",
+      "title": "Action to Control Cardiovascular Risk in Diabetes (ACCORD)",
+      "conditions": [
+        "Atherosclerosis",
+        "Cardiovascular Diseases",
+        "Hypercholesterolemia",
+        "Hypertension",
+        "Diabetes Mellitus, Type 2",
+        "Diabetes Mellitus",
+        "Coronary Disease"
+      ],
+      "interventions": [
+        "Anti-hyperglycemic Agents",
+        "Anti-hypertensive Agents",
+        "Blinded fenofibrate or placebo plus simvastatin"
+      ]
+    },
+    {
+      "nctId": "NCT00262275",
+      "title": "Optimum Platelet Inhibition After Coronary Bypass Surgery",
+      "conditions": [
+        "Ischemic Heart Disease"
+      ],
+      "interventions": [
+        "Aspirin, Clopidogrel"
+      ]
+    },
+    {
+      "nctId": "NCT00835848",
+      "title": "Pharmacological Postconditioning to Reduce Infarct Size Following Primary PCI",
+      "conditions": [
+        "Myocardial Infarction"
+      ],
+      "interventions": [
+        "Exenatide",
+        "Saline"
+      ]
+    },
+    {
+      "nctId": "NCT00968708",
+      "title": "Cardiovascular Outcomes Study of Alogliptin in Patients With Type 2 Diabetes and Acute Coronary Syndrome",
+      "conditions": [
+        "Diabetes Mellitus, Type 2",
+        "Acute Coronary Syndrome"
+      ],
+      "interventions": [
+        "Alogliptin",
+        "Placebo"
+      ]
+    },
+    {
+      "nctId": "NCT01147250",
+      "title": "Evaluation of Cardiovascular Outcomes in Patients With Type 2 Diabetes After Acute Coronary Syndrome During Treatment With AVE0010 (Lixisenatide)",
+      "conditions": [
+        "Acute Coronary Syndrome"
+      ],
+      "interventions": [
+        "Lixisenatide (AVE0010)",
+        "Placebo"
+      ]
+    },
+    {
+      "nctId": "NCT01254123",
+      "title": "Effect of Additional Treatment With EXenatide in Patients With an Acute Myocardial Infarction (the EXAMI Trial)",
+      "conditions": [
+        "Patients With a First Acute Myocardial Infarction to be Treated With Primary Percutaneous Coronary Intervention (PCI)."
+      ],
+      "interventions": [
+        "Exenatide infusion",
+        "Placebo infusion."
+      ]
+    },
+    {
+      "nctId": "NCT01399736",
+      "title": "Comparison Between FFR Guided Revascularization Versus Conventional Strategy in Acute STEMI Patients With MVD.",
+      "conditions": [
+        "Myocardial Infarction",
+        "Multivessel Coronary Artery Disease"
+      ],
+      "interventions": [
+        "FFR-guided revascularisation strategy",
+        "randomised to guidelines group"
+      ]
+    },
+    {
+      "nctId": "NCT01580514",
+      "title": "Myocardial Protection of Exenatide in AMI",
+      "conditions": [
+        "Myocardial Infarction"
+      ],
+      "interventions": [
+        "exenatide BYETTA\u00ae (Amylin-Lilly)",
+        "Saline"
+      ]
+    },
+    {
+      "nctId": "NCT01700075",
+      "title": "Physical and Chemical Study of Atherosclerosis Mechanisms",
+      "conditions": [
+        "Myocardial Infarction",
+        "Coronary Artery Diseases",
+        "Diabetes Mellitus, Type 2",
+        "Atherosclerosis of Femoral Artery"
+      ],
+      "interventions": [
+        "Conventional treatment",
+        "Weight loss treatment"
+      ]
+    },
+    {
+      "nctId": "NCT01740479",
+      "title": "Complete vs Culprit-only Revascularization to Treat Multi-vessel Disease After Early PCI for STEMI",
+      "conditions": [
+        "Acute Myocardial Infarction",
+        "Coronary Artery Disease"
+      ],
+      "interventions": [
+        "Complete Revascularization Strategy"
+      ]
+    },
+    {
+      "nctId": "NCT01906749",
+      "title": "Colchicine for Acute Coronary Syndromes",
+      "conditions": [
+        "Acute Coronary Syndrome"
+      ],
+      "interventions": [
+        "Colchicine",
+        "Placebo"
+      ]
+    },
+    {
+      "nctId": "NCT01960933",
+      "title": "Primary PCI in Patients With ST-elevation Myocardial Infarction and Multivessel Disease: Treatment of Culprit Lesion Only or Complete Revascularization",
+      "conditions": [
+        "ST-elevation Myocardial Infarction",
+        "Multi Vessel Disease"
+      ],
+      "interventions": [
+        "Percutaneous coronary intervention",
+        "FFR"
+      ]
+    },
+    {
+      "nctId": "NCT02001363",
+      "title": "Efficacy Study of Glucagonlike Peptide-1 to Treat Reperfusion Injury",
+      "conditions": [
+        "Acute Myocardial Infarction"
+      ],
+      "interventions": [
+        "liraglutide (Novo Nordisk, Bagsv\u00e6rd, Denmark)",
+        "liraglutide placebo (Novo Nordisk)"
+      ]
+    },
+    {
+      "nctId": "NCT02201667",
+      "title": "Efficacy of Ticagrelor vs Clopidogrel in High-risk NSTE-ACS Patients Undergoing Early PCI",
+      "conditions": [
+        "Acute Coronary Syndrome"
+      ],
+      "interventions": [
+        "Ticagrelor",
+        "clopidogrel",
+        "Aspirin",
+        "PCI"
+      ]
+    },
+    {
+      "nctId": "NCT02336919",
+      "title": "The Use of Texting Messaging to Improve the Hospital-to-community Transition Period in Cardiovascular Disease Patients",
+      "conditions": [
+        "Cardiovascular Disease",
+        "Acute Coronary Syndrome"
+      ],
+      "interventions": [
+        "Txt2Prevent"
+      ]
+    },
+    {
+      "nctId": "NCT02551094",
+      "title": "Colchicine Cardiovascular Outcomes Trial (COLCOT)",
+      "conditions": [
+        "Coronary Artery Disease",
+        "Myocardial Infarction"
+      ],
+      "interventions": [
+        "colchicine",
+        "colchicine placebo"
+      ]
+    },
+    {
+      "nctId": "NCT02715518",
+      "title": "FFR Versus Angiography-Guided Strategy for Management of AMI With Multivessel Disease",
+      "conditions": [
+        "Acute Myocardial Infarction"
+      ],
+      "interventions": [
+        "PCI using 2nd generation drug-eluting stent"
+      ]
+    },
+    {
+      "nctId": "NCT02783287",
+      "title": "The Impact of Text Messaging on Medication Adherence and Exercise Regimen Among Post-myocardial Infarction Patients",
+      "conditions": [
+        "Myocardial Infarction"
+      ],
+      "interventions": [
+        "Text message reminder for medication adherence",
+        "Text message reminder for exercise regimen"
+      ]
+    },
+    {
+      "nctId": "NCT02862119",
+      "title": "Ffr-gUidance for compLete Non-cuLprit REVASCularization",
+      "conditions": [
+        "Coronary Artery Disease",
+        "ST-elevation Myocardial Infarction"
+      ],
+      "interventions": [
+        "FFR Treatment Arm",
+        "Conservative Treatment Arm"
+      ]
+    },
+    {
+      "nctId": "NCT02883842",
+      "title": "Cardiovascular Health and Text Messaging-Diabetes Mellitus (CHAT-DM) Study",
+      "conditions": [
+        "Coronary Artery Disease",
+        "Diabetes"
+      ],
+      "interventions": [
+        "Text messaging"
+      ]
+    },
+    {
+      "nctId": "NCT03010683",
+      "title": "Effects of Agonists of Glucagon Like Peptide - 1 Receptors (GLP-1R) on Arterial Stiffness, Endothelial Glycocalyx and Coronary Flow Reserve in Patients With Coronary Artery Disease and Patients With Diabetes Mellitus",
+      "conditions": [
+        "Type 2 Diabetes Mellitus",
+        "Coronary Artery Disease"
+      ],
+      "interventions": [
+        "Liraglutide",
+        "Metformin"
+      ]
+    },
+    {
+      "nctId": "NCT03022669",
+      "title": "Mobile Health Strategies for Veterans",
+      "conditions": [
+        "Coronary Heart Disease"
+      ],
+      "interventions": [
+        "Text Message",
+        "Mobile Application",
+        "Website"
+      ]
+    },
+    {
+      "nctId": "NCT03087773",
+      "title": "Impact of EMpagliflozin on Cardiac Function and Biomarkers of Heart Failure in Patients With Acute MYocardial Infarction",
+      "conditions": [
+        "Acute Myocardial Infarction"
+      ],
+      "interventions": [
+        "Empagliflozin 10 mg",
+        "Placebo Oral Tablet"
+      ]
+    },
+    {
+      "nctId": "NCT03414190",
+      "title": "Impact of Text Messages to Promote Secondary Prevention After Acute Coronary Syndrome",
+      "conditions": [
+        "Cardiovascular Disease"
+      ],
+      "interventions": [
+        "Mobile phone text message"
+      ]
+    },
+    {
+      "nctId": "NCT03562572",
+      "title": "FFR Driven Complete Revascularization Versus Usual Care in NSTEMI Patients and Multivessel Disease",
+      "conditions": [
+        "Coronary Artery Disease",
+        "NSTEMI - Non-ST Segment Elevation MI",
+        "Fractional Flow Reserve, Myocardial",
+        "Myocardial Revascularization",
+        "Percutaneous Coronary Intervention"
+      ],
+      "interventions": [
+        "Ischemia driven revascularization",
+        "Usual care group"
+      ]
+    },
+    {
+      "nctId": "NCT03568890",
+      "title": "Short-Term Anticoagulation Versus Antiplatelet Therapy for Preventing Device Thrombosis Following Left Atrial Appendage Closure",
+      "conditions": [
+        "Left Atrial Appendage Closure",
+        "Thrombosis",
+        "Stroke",
+        "TIA",
+        "Bleeding"
+      ],
+      "interventions": [
+        "Rivaroxaban, dabigatran, apixaban, or edoxaban",
+        "Clopidogrel -75 mg/day",
+        "Low dose aspirin -80 to 125 mg/day-"
+      ]
+    },
+    {
+      "nctId": "NCT03596385",
+      "title": "TREatment With Beta-blockers After myOcardial Infarction withOut Reduced Ejection fracTion\"",
+      "conditions": [
+        "Myocardial Infarction"
+      ],
+      "interventions": [
+        "Beta blocker"
+      ]
+    },
+    {
+      "nctId": "NCT03602638",
+      "title": "Effects of a Dipeptidyl Peptidase-4 Inhibitor Sitagliptininsulin on the Progression of Coronary Atherosclerosis in Patients With Type 2 Diabetes",
+      "conditions": [
+        "Atherosclerosis Type 2 Diabetes Mellitus Dipeptidyl Peptidase-4 Inhibitor GLP-1"
+      ],
+      "interventions": [
+        "Sitagliptin",
+        "Acarbose"
+      ]
+    },
+    {
+      "nctId": "NCT03621501",
+      "title": "Direct Complete Versus Staged Complete Revascularization in Patients Presenting With Acute Coronary Syndromes and Multivessel Disease",
+      "conditions": [
+        "Acute Coronary Syndrome"
+      ],
+      "interventions": [
+        "Percutaneous coronary intervention"
+      ]
+    },
+    {
+      "nctId": "NCT03646357",
+      "title": "BEtablocker Treatment After Acute Myocardial Infarction in Patients Without Reduced Left Ventricular Systolic Function",
+      "conditions": [
+        "Acute Myocardial Infarction",
+        "Non-ST Elevation Myocardial Infarction",
+        "ST Elevation Myocardial Infarction"
+      ],
+      "interventions": [
+        "Non-betablocker",
+        "Betablocker"
+      ]
+    },
+    {
+      "nctId": "NCT03778554",
+      "title": "Danish Trial of Beta Blocker Treatment After Myocardial Infarction Without Reduced Ejection Fraction",
+      "conditions": [
+        "Acute Myocardial Infarction",
+        "Non-ST Elevation Myocardial Infarction (nSTEMI)",
+        "ST Elevation Myocardial Infarction"
+      ],
+      "interventions": [
+        "Metoprolol Succinate",
+        "Bisoprolol",
+        "Carvedilol",
+        "Nebivolol"
+      ]
+    },
+    {
+      "nctId": "NCT03874338",
+      "title": "CLEAR SYNERGY Neutrophil Substudy",
+      "conditions": [
+        "Neutrophils.Hypersegmented &#X7C; Bld-Ser-Plas",
+        "STEMI - ST Elevation Myocardial Infarction"
+      ],
+      "interventions": [
+        "Colchicine Pill"
+      ]
+    },
+    {
+      "nctId": "NCT03939624",
+      "title": "Sodium-glucose Cotransporter 2 (SGLT2) Inhibitors and Risk of Cardiovascular Events",
+      "conditions": [
+        "Type2 Diabetes",
+        "Myocardial Infarction",
+        "Ischemic Stroke",
+        "Cardiovascular Death",
+        "Heart Failure",
+        "All-Cause Mortality"
+      ],
+      "interventions": [
+        "Sodium-glucose cotransporter 2 (SGLT2) inhibitors",
+        "Dipeptidyl peptidase-4 (DPP-4) inhibitors"
+      ]
+    },
+    {
+      "nctId": "NCT04308551",
+      "title": "Effect of Indobufen and Aspirin on Platelet Aggregation and Long Term Prognosis in Patients With Coronary Heart Disease",
+      "conditions": [
+        "Stable Coronary Heart Disease"
+      ],
+      "interventions": [
+        "Indobufen",
+        "Aspirin"
+      ]
+    },
+    {
+      "nctId": "NCT04626882",
+      "title": "Timing of FFR-guided PCI for Non-IRA in STEMI and MVD (OPTION-STEMI)",
+      "conditions": [
+        "Myocardial Infarction, Acute",
+        "Multi-Vessel Coronary Artery Stenosis"
+      ],
+      "interventions": [
+        "Staged in-hospital or Immediate complete revascularization"
+      ]
+    },
+    {
+      "nctId": "NCT04783870",
+      "title": "Effect of Dapagliflozin on LV Remodeling Post AMI",
+      "conditions": [
+        "Myocardial Infarction"
+      ],
+      "interventions": [
+        "Dapagliflozin",
+        "Placebo"
+      ]
+    },
+    {
+      "nctId": "NCT04899479",
+      "title": "Peri-treatment of SGLT-2 Inhibitor on Myocardial Infarct Size and Remodeling Index in Patients With Acute Myocardial Infarction and High Risk of Heart Failure Undergoing Percutaneous Coronary Intervention",
+      "conditions": [
+        "Acute Myocardial Infarction",
+        "Heart Failure"
+      ],
+      "interventions": [
+        "SGLT2 inhibitor",
+        "Control"
+      ]
+    },
+    {
+      "nctId": "NCT04968808",
+      "title": "Timing of FFR-guided PCI for Non-IRA in NSTEMI and MVD (OPTION-NSTEMI)",
+      "conditions": [
+        "Myocardial Infarction, Acute",
+        "Multi-Vessel Coronary Artery Stenosis",
+        "Multi Vessel Coronary Artery Disease"
+      ],
+      "interventions": [
+        "Staged in-hospital complete revascularization",
+        "Immediate complete revascularization"
+      ]
+    },
+    {
+      "nctId": "NCT05045274",
+      "title": "The Effect of Early Administration of Dapagliflozin in STEMI Patients With LV Systolic Dysfunction",
+      "conditions": [
+        "STEMI - ST Elevation Myocardial Infarction",
+        "Left Ventricular Systolic Dysfunction"
+      ],
+      "interventions": [
+        "Dapagliflozin 10Mg Tab",
+        "Placebo"
+      ]
+    },
+    {
+      "nctId": "NCT05231226",
+      "title": "Timing of Complete Revascularization in Patients With ST-segment Elevation Myocardial Infarction And Multivessel Disease",
+      "conditions": [
+        "ST-elevation Myocardial Infarction",
+        "Multivessel Coronary Disease"
+      ],
+      "interventions": [
+        "Immediately CR",
+        "Staged (within 45 days) CR"
+      ]
+    },
+    {
+      "nctId": "NCT05701358",
+      "title": "Physiology-guided vs Angiography-guided Non-culprit Lesion Complete Revascularization for Acute MI & Multivessel Disease",
+      "conditions": [
+        "Acute Myocardial Infarction",
+        "Coronary Artery Disease"
+      ],
+      "interventions": [
+        "Physiology-guided NCL PCI",
+        "Angiography-guided NCL PCI"
+      ]
+    },
+    {
+      "nctId": "NCT05764057",
+      "title": "DAPAgliflozine to Attenuate Cardiac RemOdeling afTEr aCuTe myOcardial Infarction",
+      "conditions": [
+        "AMI",
+        "STEMI",
+        "NSTEMI",
+        "Left Ventricular Dysfunction"
+      ],
+      "interventions": [
+        "Dapagliflozin propanediol (FORXIGA\u2122/FARXIGA\u21221)",
+        "Placebo comparator"
+      ]
+    }
+  ],
+  "non_acs": [
+    {
+      "nctId": "NCT00035568",
+      "title": "A Research Study to Assess the Mechanism By Which Glucovance, Metformin, and Glyburide Work To Control Glucose Levels In Patients With Type 2 Diabetes",
+      "conditions": [
+        "Diabetes Mellitus, Non-Insulin-Dependent"
+      ],
+      "interventions": [
+        "Glucovance (metformin HCl/glyburide)",
+        "or Metformin HCl alone",
+        "or Glyburide alone."
+      ]
+    },
+    {
+      "nctId": "NCT00086515",
+      "title": "Metformin Add-on Study in Patients With Type 2 Diabetes Mellitus (0431-020)(COMPLETED)",
+      "conditions": [
+        "Diabetes Mellitus, Type II"
+      ],
+      "interventions": [
+        "Sitagliptin (MK0431)",
+        "Placebo/Glipizide 5 mg",
+        "Metformin",
+        "Pioglitazone"
+      ]
+    },
+    {
+      "nctId": "NCT00094770",
+      "title": "An Investigational Drug Study in Patients With Type 2 Diabetes Mellitus (0431-024)",
+      "conditions": [
+        "Diabetes Mellitus, Type 2"
+      ],
+      "interventions": [
+        "sitagliptin (MK0431)",
+        "Comparator: glipizide"
+      ]
+    },
+    {
+      "nctId": "NCT00095030",
+      "title": "Study Comparing Muraglitazar With Glimepiride in Type 2 Diabetics Who Are Not Controlled With Metformin Alone",
+      "conditions": [
+        "Diabetes Mellitus, Type 2"
+      ],
+      "interventions": [
+        "muraglitazar"
+      ]
+    },
+    {
+      "nctId": "NCT00097500",
+      "title": "Effects of Exenatide and Insulin Glargine in Subjects With Type 2 Diabetes",
+      "conditions": [
+        "Type 2 Diabetes Mellitus"
+      ],
+      "interventions": [
+        "exenatide",
+        "Insulin glargine",
+        "Metformin"
+      ]
+    },
+    {
+      "nctId": "NCT00099866",
+      "title": "Efficacy and Safety of Vildagliptin Compared to Metformin in Drug Naive Patients With Type 2 Diabetes",
+      "conditions": [
+        "Diabetes Mellitus, Type 2"
+      ],
+      "interventions": [
+        "vildagliptin",
+        "Metformin Comparator"
+      ]
+    },
+    {
+      "nctId": "NCT00103857",
+      "title": "MK0431 (Sitagliptin) and Metformin Co-Administration Factorial Study in Patients With Type 2 Diabetes Mellitus (0431-036)",
+      "conditions": [
+        "Type 2 Diabetes Mellitus"
+      ],
+      "interventions": [
+        "Comparator: MK0431 50 mg b.i.d. (b.i.d. = twice daily)",
+        "Comparator: MK0431 100 mg q.d. (q.d. = once daily)",
+        "Comparator: Placebo (Phase A)/Metformin (Phase B)",
+        "Comparator: Metformin 500 mg b.i.d.",
+        "Comparator: Open-Label MK0431/Metformin 50/1000 mg b.i.d.",
+        "Comparator: Metformin 1000 mg b.i.d."
+      ]
+    },
+    {
+      "nctId": "NCT00106340",
+      "title": "Vildagliptin Compared to Glimepiride in Combination With Metformin in Patients With Type 2 Diabetes",
+      "conditions": [
+        "Diabetes Mellitus, Type 2"
+      ],
+      "interventions": [
+        "vildagliptin",
+        "glimepiride",
+        "Metformin",
+        "Vildagliptin matching placebo",
+        "Glimepiride matching placebo"
+      ]
+    },
+    {
+      "nctId": "NCT00133718",
+      "title": "A 2 Year Trial of Patients With Type 2 Diabetes Focusing on Cardiovascular Diagnostics and Metabolic Control",
+      "conditions": [
+        "Type 2 Diabetes Mellitus"
+      ],
+      "interventions": [
+        "Combined lifestyle intervention and optimisation of pharmacological treatment"
+      ]
+    },
+    {
+      "nctId": "NCT00138567",
+      "title": "Extension to a Study on the Efficacy and Safety of Vildagliptin Compared to Metformin in Drug Naive Patients With Type 2 Diabetes",
+      "conditions": [
+        "Diabetes Mellitus, Type 2"
+      ],
+      "interventions": [
+        "vildagliptin"
+      ]
+    },
+    {
+      "nctId": "NCT00214591",
+      "title": "GALLANT 5 Tesaglitazar Versus Metformin",
+      "conditions": [
+        "Diabetes Mellitus, Type 2"
+      ],
+      "interventions": [
+        "GALIDA"
+      ]
+    },
+    {
+      "nctId": "NCT00269061",
+      "title": "Study In Patients With Type 2 Diabetes Who Are Taking Metformin And Sulfonylurea, Metformin And Insulin, Or Insulin",
+      "conditions": [
+        "Non-Insulin-Dependent Diabetes Mellitus"
+      ],
+      "interventions": [
+        "pioglitazone"
+      ]
+    },
+    {
+      "nctId": "NCT00279045",
+      "title": "Diabetes Study With Rosiglitazone Monotherapy Versus Metformin Or Glyburide/Glibenclamide",
+      "conditions": [
+        "Diabetes Mellitus, Type 2"
+      ],
+      "interventions": [
+        "Rosiglitazone",
+        "glyburide",
+        "metformin"
+      ]
+    },
+    {
+      "nctId": "NCT00282945",
+      "title": "Beta Cell Function Tests Over Time In Patients With T2dm Randomized To Metformin Or Rosiglitazone",
+      "conditions": [
+        "Type 2 Diabetes Mellitus"
+      ],
+      "interventions": [
+        "Rosiglitazone",
+        "Metformin"
+      ]
+    },
+    {
+      "nctId": "NCT00308373",
+      "title": "Effects of Fats on Blood Glucose in People With and Without Type 2 Diabetes Mellitus",
+      "conditions": [
+        "Diabetes Mellitus, Type 2"
+      ],
+      "interventions": [
+        "Metformin vs Thiazolidinedione (Pioglitazone)"
+      ]
+    },
+    {
+      "nctId": "NCT00318461",
+      "title": "To Compare the Effect of Liraglutide When Given Together With Metformin With the Effect of Metformin Given Alone and With the Effect of Glimepiride and Metformin Given Together",
+      "conditions": [
+        "Diabetes",
+        "Diabetes Mellitus, Type 2"
+      ],
+      "interventions": [
+        "liraglutide",
+        "metformin",
+        "glimepiride",
+        "placebo",
+        "placebo",
+        "liraglutide",
+        "liraglutide"
+      ]
+    },
+    {
+      "nctId": "NCT00327015",
+      "title": "A Phase 3 Study of BMS-477118 in Combination With Metformin in Subjects With Type 2 Diabetes Who Are Not Controlled With Diet and Exercise",
+      "conditions": [
+        "Diabetes"
+      ],
+      "interventions": [
+        "Saxagliptin",
+        "Saxagliptin",
+        "Metformin",
+        "Placebo",
+        "pioglitazone"
+      ]
+    },
+    {
+      "nctId": "NCT00359112",
+      "title": "AVANDAMET Versus Metformin And Sulphonylurea In People With Poorly Controlled Type 2 Diabetes",
+      "conditions": [
+        "Non-Insulin-Dependent Diabetes Mellitus"
+      ],
+      "interventions": [
+        "metformin",
+        "sulphonylurea",
+        "Avandamet"
+      ]
+    },
+    {
+      "nctId": "NCT00359762",
+      "title": "Exenatide Versus Glimepiride in Patients With Type 2 Diabetes",
+      "conditions": [
+        "Type 2 Diabetes Mellitus"
+      ],
+      "interventions": [
+        "exenatide",
+        "glimepiride"
+      ]
+    },
+    {
+      "nctId": "NCT00367055",
+      "title": "Rosiglitazone-Metformin Combination Versus Metformin-Sulfonylurea Combination On Beta-Cell Function In Type 2 Diabetes",
+      "conditions": [
+        "Type 2 Diabetes Mellitus"
+      ],
+      "interventions": [
+        "rosiglitazone-metformin",
+        "Metformin",
+        "metformin+ gliclazide"
+      ]
+    },
+    {
+      "nctId": "NCT00373178",
+      "title": "Metabolic Effects of Treatment in Patients With Recently Diagnosed Type 2 Diabetes",
+      "conditions": [
+        "Type 2 Diabetes Mellitus"
+      ],
+      "interventions": [
+        "rosiglitazone",
+        "metformin",
+        "Anti-diabetic medications"
+      ]
+    },
+    {
+      "nctId": "NCT00379769",
+      "title": "RECORD: Rosiglitazone Evaluated for Cardiac Outcomes and Regulation of Glycaemia in Diabetes",
+      "conditions": [
+        "Diabetes Mellitus, Type 2"
+      ],
+      "interventions": [
+        "Rosiglitazone",
+        "Sulfonylurea",
+        "Metformin"
+      ]
+    },
+    {
+      "nctId": "NCT00396851",
+      "title": "Double Blind Randomized Trial to Compare Gurmar (Gymnema Sylvestre) With Metformin in Type 2 Diabetes",
+      "conditions": [
+        "Type 2 Diabetes Mellitus"
+      ],
+      "interventions": [
+        "Gurmar",
+        "Metformin"
+      ]
+    },
+    {
+      "nctId": "NCT00399204",
+      "title": "Comparison of Cardiovascular Outcomes of Pioglitazone and Metformin in Type 2 Diabetes Patients",
+      "conditions": [
+        "Type 2 Diabetes"
+      ],
+      "interventions": [
+        "Pioglitazone vs Metformin"
+      ]
+    },
+    {
+      "nctId": "NCT00449605",
+      "title": "A Glycemic Control Evaluation of Glimepiride Versus Rimonabant on Top of Metformin in Type 2 Diabetes",
+      "conditions": [
+        "Diabetes Mellitus, Type 2"
+      ],
+      "interventions": [
+        "Rimonabant",
+        "Glimepiride",
+        "Metformin"
+      ]
+    },
+    {
+      "nctId": "NCT00481663",
+      "title": "A Study of Different Doses of Sitagliptin (MK-0431) in Participants With Type 2 Diabetes Mellitus (MK-0431-014)",
+      "conditions": [
+        "Type II Diabetes Mellitus"
+      ],
+      "interventions": [
+        "Sitagliptin",
+        "Placebo to sitagliptin",
+        "Metformin",
+        "Rescue"
+      ]
+    },
+    {
+      "nctId": "NCT00494312",
+      "title": "Safety Study of Pioglitazone Compared To Glyburide on Liver Function",
+      "conditions": [
+        "Diabetes Mellitus",
+        "Liver"
+      ],
+      "interventions": [
+        "Pioglitazone",
+        "Glyburide"
+      ]
+    },
+    {
+      "nctId": "NCT00518882",
+      "title": "Effect of Liraglutide or Exenatide Added to an Ongoing Treatment on Blood Glucose Control in Subjects With Type 2 Diabetes",
+      "conditions": [
+        "Diabetes",
+        "Diabetes Mellitus, Type 2"
+      ],
+      "interventions": [
+        "liraglutide",
+        "exenatide"
+      ]
+    },
+    {
+      "nctId": "NCT00528372",
+      "title": "A Phase III Study of BMS-512148 (Dapagliflozin) in Patients With Type 2 Diabetes Who Are Not Well Controlled With Diet and Exercise",
+      "conditions": [
+        "Type 2 Diabetes"
+      ],
+      "interventions": [
+        "Dapagliflozin",
+        "Dapagliflozin placebo",
+        "Metformin"
+      ]
+    },
+    {
+      "nctId": "NCT00528879",
+      "title": "A Phase III Study of BMS-512148 (Dapagliflozin) in Patients With Type 2 Diabetes Who Are Not Well Controlled on Metformin Alone",
+      "conditions": [
+        "Type 2 Diabetes"
+      ],
+      "interventions": [
+        "Dapagliflozin",
+        "Placebo",
+        "Metformin"
+      ]
+    },
+    {
+      "nctId": "NCT00543361",
+      "title": "Study MK0767 and Metformin in Type 2 Diabetic Patients (0767-020)",
+      "conditions": [
+        "Diabetes Mellitus, Type 2"
+      ],
+      "interventions": [
+        "MK0767",
+        "Comparator: placebo (unspecified)",
+        "Comparator: metformin"
+      ]
+    },
+    {
+      "nctId": "NCT00543751",
+      "title": "Placebo Controlled Metformin and Sulfonylurea Combination Study in Patients With Type 2 Diabetes (0767-025)",
+      "conditions": [
+        "Diabetes Mellitus, Type 2"
+      ],
+      "interventions": [
+        "MK0767"
+      ]
+    },
+    {
+      "nctId": "NCT00562172",
+      "title": "Insulin Glargine (Lantus) vs Sulfonylurea (SU) for BETA Cell Function (BETA Study)",
+      "conditions": [
+        "Type 2 Diabetes Mellitus"
+      ],
+      "interventions": [
+        "Insulin glargine",
+        "Glimepiride",
+        "Metformin"
+      ]
+    },
+    {
+      "nctId": "NCT00575588",
+      "title": "52-week add-on to Metformin Comparison of Saxagliptin and Sulphonylurea, With a 52-week Extension Period",
+      "conditions": [
+        "Type 2 Diabetes"
+      ],
+      "interventions": [
+        "Metformin",
+        "Sulphonylurea",
+        "Saxagliptin"
+      ]
+    },
+    {
+      "nctId": "NCT00622284",
+      "title": "Efficacy and Safety of BI 1356 in Combination With Metformin in Patients With Type 2 Diabetes",
+      "conditions": [
+        "Diabetes Mellitus, Type 2"
+      ],
+      "interventions": [
+        "Placebo identical to BI 1356 5mg",
+        "Placebo identical to Glimepiride 1mg or 2mg or 3mg or 4 mg",
+        "BI 1356",
+        "Glimepiride"
+      ]
+    },
+    {
+      "nctId": "NCT00660907",
+      "title": "Efficacy and Safety of Dapagliflozin in Combination With Metformin in Type 2 Diabetes Patients",
+      "conditions": [
+        "Type 2 Diabetes"
+      ],
+      "interventions": [
+        "dapagliflozin",
+        "glipizide",
+        "metformin hydrochloride"
+      ]
+    },
+    {
+      "nctId": "NCT00663260",
+      "title": "Glycemic Efficacy and Renal Safety Study of Dapagliflozin in Subjects With Type 2 Diabetes Mellitus and Moderate Renal Impairment",
+      "conditions": [
+        "Diabetes Mellitus, Type 2"
+      ],
+      "interventions": [
+        "Dapagliflozin",
+        "Dapagliflozin",
+        "Placebo"
+      ]
+    },
+    {
+      "nctId": "NCT00673231",
+      "title": "Efficacy and Safety of Dapagliflozin, Added to Therapy of Patients With Type 2 Diabetes With Inadequate Glycemic Control on Insulin",
+      "conditions": [
+        "Type 2 Diabetes"
+      ],
+      "interventions": [
+        "Dapagliflozin",
+        "Dapagliflozin",
+        "Dapagliflozin",
+        "Placebo",
+        "Dapagliflozin",
+        "Dapagliflozin"
+      ]
+    },
+    {
+      "nctId": "NCT00679939",
+      "title": "Study In Postmenopausal Women With Type 2 Diabetes Looking At Approved Diabetes Drugs And How They Affect Bone Health",
+      "conditions": [
+        "Diabetes Mellitus, Type 2"
+      ],
+      "interventions": [
+        "Rosiglitazone",
+        "Metformin"
+      ]
+    },
+    {
+      "nctId": "NCT00683878",
+      "title": "Add-on to Thiazolidinedione (TZD) Failures",
+      "conditions": [
+        "Type 2 Diabetes"
+      ],
+      "interventions": [
+        "Dapagliflozin",
+        "Dapagliflozin",
+        "Placebo matching Dapagliflozin",
+        "Thiazolidinedione (Pioglitazone)"
+      ]
+    },
+    {
+      "nctId": "NCT00688701",
+      "title": "GLP-1 Receptor Agonist Lixisenatide in Patients With Type 2 Diabetes for Glycemic Control and Safety Evaluation in Monotherapy",
+      "conditions": [
+        "Diabetes Mellitus, Type 2"
+      ],
+      "interventions": [
+        "Lixisenatide (AVE0010)",
+        "Placebo",
+        "Pen auto-injector"
+      ]
+    },
+    {
+      "nctId": "NCT00700856",
+      "title": "Thiazolidinediones Or Sulphonylureas and Cardiovascular Accidents.Intervention Trial",
+      "conditions": [
+        "Type 2 Diabetes Mellitus",
+        "Cardiovascular Disease"
+      ],
+      "interventions": [
+        "add-on pioglitazone",
+        "add-on sulphonylurea"
+      ]
+    },
+    {
+      "nctId": "NCT00707031",
+      "title": "GLP-1 Receptor Agonist Lixisenatide Versus Exenatide in Patients With Type 2 Diabetes for Glycemic Control and Safety Evaluation, on Top of Metformin",
+      "conditions": [
+        "Diabetes Mellitus, Type 2"
+      ],
+      "interventions": [
+        "Lixisenatide (AVE0010)",
+        "Pen auto-injector",
+        "Exenatide",
+        "Prefilled pen injector",
+        "Metformin"
+      ]
+    },
+    {
+      "nctId": "NCT00712673",
+      "title": "GLP-1 Receptor Agonist Lixisenatide (Morning or Evening) in Patients With Type 2 Diabetes for Glycemic Control and Safety Evaluation, on Top of Metformin",
+      "conditions": [
+        "Diabetes Mellitus, Type 2"
+      ],
+      "interventions": [
+        "Lixisenatide (AVE0010)",
+        "Placebo",
+        "Pen auto-injector",
+        "Metformin"
+      ]
+    },
+    {
+      "nctId": "NCT00754689",
+      "title": "Study of Rimonabant/Metformin Combinations to Investigate Diabetes (Blood Sugar) Control in Patients With Type 2 Diabetes",
+      "conditions": [
+        "Diabetes Mellitus, Type 2"
+      ],
+      "interventions": [
+        "Rimonabant",
+        "Metformin",
+        "placebo"
+      ]
+    },
+    {
+      "nctId": "NCT00763451",
+      "title": "GLP-1 Receptor Agonist Lixisenatide in Patients With Type 2 Diabetes for Glycemic Control and Safety Evaluation, on Top of Metformin",
+      "conditions": [
+        "Diabetes Mellitus, Type 2"
+      ],
+      "interventions": [
+        "Lixisenatide (AVE0010)",
+        "Placebo",
+        "Pen auto-injector",
+        "Metformin"
+      ]
+    },
+    {
+      "nctId": "NCT00790205",
+      "title": "Sitagliptin Cardiovascular Outcomes Study (MK-0431-082)",
+      "conditions": [
+        "Type 2 Diabetes Mellitus"
+      ],
+      "interventions": [
+        "Sitagliptin",
+        "Placebo"
+      ]
+    },
+    {
+      "nctId": "NCT00838903",
+      "title": "Efficacy and Safety of Albiglutide in Treatment of Type 2 Diabetes",
+      "conditions": [
+        "Diabetes Mellitus, Type 2"
+      ],
+      "interventions": [
+        "albiglutide",
+        "sitagliptin",
+        "glimepiride",
+        "metformin",
+        "placebo albiglutide",
+        "placebo sitagliptin",
+        "placebo glimepiride"
+      ]
+    },
+    {
+      "nctId": "NCT00839527",
+      "title": "A Study to Determine the Safety and Efficacy of Albiglutide in Subjects With Type 2 Diabetes",
+      "conditions": [
+        "Diabetes Mellitus, Type 2"
+      ],
+      "interventions": [
+        "placebo to match albiglutide",
+        "albiglutide",
+        "metformin",
+        "glimepiride",
+        "pioglitazone",
+        "placebo to match pioglitazone"
+      ]
+    },
+    {
+      "nctId": "NCT00855166",
+      "title": "Evaluation of the Effect of Dapagliflozin in Combination With Metformin on Body Weight in Subjects With Type 2 Diabetes",
+      "conditions": [
+        "Type 2 Diabetes Mellitus"
+      ],
+      "interventions": [
+        "Dapagliflozin",
+        "Metformin",
+        "Sitagliptin",
+        "Placebo"
+      ]
+    },
+    {
+      "nctId": "NCT00856284",
+      "title": "Efficacy and Safety of Alogliptin Plus Metformin Compared to Glipizide Plus Metformin in Patients With Type 2 Diabetes Mellitus",
+      "conditions": [
+        "Type 2 Diabetes Mellitus"
+      ],
+      "interventions": [
+        "Alogliptin",
+        "Metformin",
+        "Glipizide"
+      ]
+    },
+    {
+      "nctId": "NCT00881530",
+      "title": "Empagliflozin (BI 10773) in Type Two Diabetes (T2D) Patients, Open Label Extension",
+      "conditions": [
+        "Diabetes Mellitus, Type 2"
+      ],
+      "interventions": [
+        "BI 10773",
+        "Metformin",
+        "BI 10773",
+        "Sitagliptin"
+      ]
+    },
+    {
+      "nctId": "NCT00894868",
+      "title": "Effect of Vildagliptin on Left Ventricular Function in Patients With Type 2 Diabetes and Congestive Heart Failure",
+      "conditions": [
+        "Congestive Heart Failure",
+        "Type II Diabetes Mellitus"
+      ],
+      "interventions": [
+        "vildagliptin",
+        "placebo of vildagliptin"
+      ]
+    },
+    {
+      "nctId": "NCT00909597",
+      "title": "A Study of Taspoglutide Versus Pioglitazone in Patients With Type 2 Diabetes",
+      "conditions": [
+        "Diabetes Mellitus Type 2"
+      ],
+      "interventions": [
+        "pioglitazone",
+        "taspoglutide",
+        "taspoglutide"
+      ]
+    },
+    {
+      "nctId": "NCT00947557",
+      "title": "Safety and Efficacy of Dutogliptin in Patients With Type 2 Diabetes Mellitus (T2DM) on Background Therapy With Glimepiride With or Without Metformin",
+      "conditions": [
+        "Diabetes Mellitus, Type II"
+      ],
+      "interventions": [
+        "Dutogliptin",
+        "Placebo"
+      ]
+    },
+    {
+      "nctId": "NCT00968812",
+      "title": "CANagliflozin Treatment And Trial Analysis-Sulfonylurea (CANTATA-SU) SGLT2 Add-on to Metformin Versus Glimepiride",
+      "conditions": [
+        "Diabetes Mellitus, Type 2"
+      ],
+      "interventions": [
+        "Glimepiride",
+        "Canagliflozin (JNJ-28431754)",
+        "Metformin"
+      ]
+    },
+    {
+      "nctId": "NCT00984867",
+      "title": "Dapagliflozin DPPIV Inhibitor add-on Study",
+      "conditions": [
+        "Type 2 Diabetes"
+      ],
+      "interventions": [
+        "Dapagliflozin",
+        "Placebo"
+      ]
+    },
+    {
+      "nctId": "NCT01001962",
+      "title": "Double Blind Placebo Study of JARDIANCE\u00ae (Empagliflozin) in Prehypertensives Type II Diabetics",
+      "conditions": [
+        "Hypertension",
+        "Type II Diabetes"
+      ],
+      "interventions": [
+        "empagliflozin",
+        "Metformin"
+      ]
+    },
+    {
+      "nctId": "NCT01006603",
+      "title": "Saxagliptin Compared to Glimepiride in Elderly Type 2 Diabetes Patients, With Inadequate Glycemic Control on Metformin",
+      "conditions": [
+        "Type 2 Diabetes Mellitus"
+      ],
+      "interventions": [
+        "Saxagliptin",
+        "Glimepiride"
+      ]
+    },
+    {
+      "nctId": "NCT01031680",
+      "title": "Efficacy and Safety in Patients With Type 2 Diabetes Mellitus, Cardiovascular Disease and Hypertension",
+      "conditions": [
+        "Type 2 Diabetes Mellitus",
+        "Cardiovascular Disease",
+        "Hypertension",
+        "Inadequate Glycaemic Control"
+      ],
+      "interventions": [
+        "Dapagliflozin",
+        "Placebo"
+      ]
+    },
+    {
+      "nctId": "NCT01032629",
+      "title": "CANVAS - CANagliflozin cardioVascular Assessment Study",
+      "conditions": [
+        "Diabetes Mellitus, Type 2",
+        "Cardiovascular Diseases",
+        "Risk Factors"
+      ],
+      "interventions": [
+        "Placebo",
+        "Canagliflozin (JNJ-28431754) 100 mg",
+        "Canagliflozin (JNJ-28431754) 300 mg"
+      ]
+    },
+    {
+      "nctId": "NCT01042977",
+      "title": "Efficacy and Safety in Patients With Type 2 Diabetes Mellitus and Cardiovascular Disease",
+      "conditions": [
+        "Type 2 Diabetes Mellitus",
+        "Cardiovascular Disease",
+        "Inadequate Glycaemic Control"
+      ],
+      "interventions": [
+        "Dapagliflozin",
+        "Placebo"
+      ]
+    },
+    {
+      "nctId": "NCT01087567",
+      "title": "INSPIRE Diabetes Study: Basal Bolus Insulin as Primary Treatment of Type 2 Diabetes",
+      "conditions": [
+        "Type 2 Diabetes"
+      ],
+      "interventions": [
+        "Intensive insulin",
+        "Routine Care"
+      ]
+    },
+    {
+      "nctId": "NCT01098539",
+      "title": "A Study of the Efficacy and Safety of Albiglutide in Subjects With Type 2 Diabetes With Renal Impairment.",
+      "conditions": [
+        "Diabetes Mellitus, Type 2"
+      ],
+      "interventions": [
+        "albiglutide",
+        "sitagliptin"
+      ]
+    },
+    {
+      "nctId": "NCT01099618",
+      "title": "Ketosis-Prone Diabetes Mellitus (KPDM): Metformin Versus Sitagliptin Treatment",
+      "conditions": [
+        "Ketosis Prone Diabetes",
+        "Diabetes Ketoacidosis",
+        "Hyperglycemia"
+      ],
+      "interventions": [
+        "metformin",
+        "placebo",
+        "Sitagliptin"
+      ]
+    },
+    {
+      "nctId": "NCT01106625",
+      "title": "The CANTATA-MSU Trial (CANagliflozin Treatment And Trial Analysis - Metformin and SUlphonylurea)",
+      "conditions": [
+        "Diabetes Mellitus, Type 2"
+      ],
+      "interventions": [
+        "Canagliflozin",
+        "Placebo",
+        "Metformin",
+        "Sulphonylruea"
+      ]
+    },
+    {
+      "nctId": "NCT01106651",
+      "title": "A Safety and Efficacy Study of Canagliflozin in Older Patients (55 to 80 Years of Age) With Type 2 Diabetes Mellitus",
+      "conditions": [
+        "Diabetes Mellitus, Type 2"
+      ],
+      "interventions": [
+        "Canagliflozin 100 mg",
+        "Canagliflozin 300 mg",
+        "Antihyperglycemic agent(s)",
+        "Placebo"
+      ]
+    },
+    {
+      "nctId": "NCT01107886",
+      "title": "Does Saxagliptin Reduce the Risk of Cardiovascular Events When Used Alone or Added to Other Diabetes Medications",
+      "conditions": [
+        "Type 2 Diabetes Mellitus"
+      ],
+      "interventions": [
+        "Saxagliptin",
+        "Placebo"
+      ]
+    },
+    {
+      "nctId": "NCT01126580",
+      "title": "A Study in Participants With Type 2 Diabetes Mellitus (AWARD-3)",
+      "conditions": [
+        "Diabetes Mellitus, Type 2"
+      ],
+      "interventions": [
+        "Metformin",
+        "LY2189265",
+        "Placebo (oral)",
+        "Placebo (subcutaneous)"
+      ]
+    },
+    {
+      "nctId": "NCT01131676",
+      "title": "BI 10773 (Empagliflozin) Cardiovascular Outcome Event Trial in Type 2 Diabetes Mellitus Patients (EMPA-REG OUTCOME).",
+      "conditions": [
+        "Diabetes Mellitus, Type 2"
+      ],
+      "interventions": [
+        "BI 10773 low dose",
+        "Placebo BI 10773 high dose",
+        "BI 10773 high dose",
+        "Placebo BI 10773 low dose",
+        "Placebo BI 10773 low dose",
+        "Placebo BI 10773 high dose"
+      ]
+    },
+    {
+      "nctId": "NCT01137474",
+      "title": "A Study of BMS-512148 (Dapagliflozin) in Patients With Type 2 Diabetes and Inadequately Controlled Hypertension on an Angiotensin-Converting Enzyme Inhibitor or Angiotensin Receptor Blocker",
+      "conditions": [
+        "Type 2 Diabetes"
+      ],
+      "interventions": [
+        "Dapagliflozin",
+        "Placebo-matching dapagliflozin"
+      ]
+    },
+    {
+      "nctId": "NCT01144338",
+      "title": "Exenatide Study of Cardiovascular Event Lowering Trial (EXSCEL): A Trial To Evaluate Cardiovascular Outcomes After Treatment With Exenatide Once Weekly In Patients With Type 2 Diabetes Mellitus",
+      "conditions": [
+        "Type 2 Diabetes Mellitus"
+      ],
+      "interventions": [
+        "Exenatide Once Weekly",
+        "Placebo"
+      ]
+    },
+    {
+      "nctId": "NCT01159600",
+      "title": "Efficacy and Safety Study With Empagliflozin (BI 10773) vs. Placebo as add-on to Metformin or Metformin Plus Sulfonylurea Over 24 Weeks in Patients With Type 2 Diabetes",
+      "conditions": [
+        "Diabetes Mellitus, Type 2"
+      ],
+      "interventions": [
+        "Placebo identical to BI 10773 high dose",
+        "Placebo identical to BI 10773 low dose",
+        "BI 10773",
+        "BI 10773",
+        "Placebo identical to BI 10773 low dose",
+        "BI 10773",
+        "Placebo identical to BI 10773 high dose"
+      ]
+    },
+    {
+      "nctId": "NCT01164501",
+      "title": "Efficacy and Safety of Empagliflozin (BI 10773) in Patients With Type 2 Diabetes and Renal Impairment",
+      "conditions": [
+        "Diabetes Mellitus, Type 2",
+        "Renal Insufficiency"
+      ],
+      "interventions": [
+        "BI 10773",
+        "Placebo",
+        "Placebo",
+        "BI 10773",
+        "Placebo",
+        "Placebo"
+      ]
+    },
+    {
+      "nctId": "NCT01167881",
+      "title": "Efficacy and Safety of Empagliflozin (BI 10773) With Metformin in Patients With Type 2 Diabetes",
+      "conditions": [
+        "Diabetes Mellitus, Type 2"
+      ],
+      "interventions": [
+        "BI 10773",
+        "Glimepiride",
+        "Placebo",
+        "Placebo"
+      ]
+    },
+    {
+      "nctId": "NCT01177813",
+      "title": "Efficacy and Safety of Empagliflozin (BI 10773) Versus Placebo and Sitagliptin Over 24 Weeks in Patients With Type 2 Diabetes",
+      "conditions": [
+        "Diabetes Mellitus, Type 2"
+      ],
+      "interventions": [
+        "Placebo identical to BI10773 high dose",
+        "BI 10773",
+        "BI 10773 open label",
+        "Placebo identical to BI10773 low dose",
+        "Placebo identical to BI10773 low dose",
+        "Placebo identical to BI10773 high dose",
+        "Placebo identical to Sitagliptin 100mg",
+        "Placebo identical to Sitagliptin 100mg",
+        "BI10773",
+        "Sitagliptin",
+        "Placebo identical to Sitagliptin 100mg",
+        "Placebo identical to BI10773 low dose",
+        "Placebo identical to BI10773 high dose"
+      ]
+    },
+    {
+      "nctId": "NCT01179048",
+      "title": "Liraglutide Effect and Action in Diabetes: Evaluation of Cardiovascular Outcome Results",
+      "conditions": [
+        "Diabetes",
+        "Diabetes Mellitus, Type 2"
+      ],
+      "interventions": [
+        "liraglutide",
+        "placebo"
+      ]
+    },
+    {
+      "nctId": "NCT01193218",
+      "title": "Empagliflozin (BI 10773) Dose Finder Study in Japanese Patients With Type 2 Diabetes Mellitus",
+      "conditions": [
+        "Diabetes Mellitus, Type 2"
+      ],
+      "interventions": [
+        "Placebo (low dose)",
+        "Placebo (low dose)",
+        "Placebo (mid dose)",
+        "Placebo (high dose)",
+        "BI 10773",
+        "Placebo (mid dose)",
+        "Placebo (high dose)",
+        "Placebo (high dose)",
+        "BI 10773",
+        "BI 10773",
+        "Placebo (mid dose)",
+        "Placebo (high dose)",
+        "Placebo (low dose)",
+        "Placebo (low dose)",
+        "BI 10773",
+        "Placebo (mid dose)"
+      ]
+    },
+    {
+      "nctId": "NCT01195662",
+      "title": "A Study of BMS-512148 (Dapagliflozin) in Patients With Type 2 Diabetes With Inadequately Controlled Hypertension on an ACEI or ARB and an Additional Antihypertensive Medication",
+      "conditions": [
+        "Type 2 Diabetes"
+      ],
+      "interventions": [
+        "Dapagliflozin",
+        "Placebo matching Dapagliflozin"
+      ]
+    },
+    {
+      "nctId": "NCT01204294",
+      "title": "Comprehensive Add on Study in Japan",
+      "conditions": [
+        "Diabetes Mellitus, Type 2"
+      ],
+      "interventions": [
+        "Linagliptin",
+        "Linagliptin",
+        "Metformin",
+        "Metformin",
+        "Linagliptin",
+        "Linagliptin",
+        "Linagliptin"
+      ]
+    },
+    {
+      "nctId": "NCT01210001",
+      "title": "Efficacy and Safety of Empagliflozin (BI 10773) in Type 2 Diabetes Patients on a Background of Pioglitazone Alone or With Metformin",
+      "conditions": [
+        "Diabetes Mellitus, Type 2"
+      ],
+      "interventions": [
+        "Placebo",
+        "BI 10773",
+        "Placebo",
+        "Placebo",
+        "Placebo",
+        "BI 10773"
+      ]
+    },
+    {
+      "nctId": "NCT01217073",
+      "title": "A Dose-Range Finding Study in Participants With Type 2 Diabetes (MK-3102-006)",
+      "conditions": [
+        "Type 2 Diabetes Mellitus"
+      ],
+      "interventions": [
+        "Omarigliptin",
+        "Placebo to omarigliptin",
+        "Pioglitazone",
+        "Metformin",
+        "Placebo to metformin"
+      ]
+    },
+    {
+      "nctId": "NCT01243424",
+      "title": "CAROLINA: Cardiovascular Outcome Study of Linagliptin Versus Glimepiride in Patients With Type 2 Diabetes",
+      "conditions": [
+        "Diabetes Mellitus, Type 2"
+      ],
+      "interventions": [
+        "linagliptin",
+        "glimepiride",
+        "linagliptin placebo",
+        "glimepiride placebo"
+      ]
+    },
+    {
+      "nctId": "NCT01289990",
+      "title": "Safety and Efficacy of Empagliflozin (BI 10773) and Sitagliptin Versus Placebo Over 76 Weeks in Patients With Type 2 Diabetes",
+      "conditions": [
+        "Diabetes Mellitus, Type 2"
+      ],
+      "interventions": [
+        "BI 10773",
+        "Placebo",
+        "Placebo",
+        "Placebo",
+        "Placebo",
+        "Placebo",
+        "BI 10773",
+        "Placebo",
+        "Placebo",
+        "BI 10773",
+        "Placebo",
+        "Placebo",
+        "Placebo",
+        "BI 10773",
+        "BI 10773",
+        "BI 10773",
+        "Placebo",
+        "BI 10773",
+        "Placebo",
+        "Placebo",
+        "Placebo",
+        "Sitagliptin 100mg",
+        "BI 10773",
+        "Placebo",
+        "Placebo",
+        "Placebo",
+        "Placebo",
+        "Placebo",
+        "Placebo",
+        "Placebo"
+      ]
+    },
+    {
+      "nctId": "NCT01294423",
+      "title": "Evaluate Efficacy and Safety in Japanese Subjects With Type 2 Diabetes Mellitus",
+      "conditions": [
+        "Type 2 Diabetes",
+        "High Blood Sugar"
+      ],
+      "interventions": [
+        "Dapagliflozin",
+        "Dapagliflozin",
+        "Placebo"
+      ]
+    },
+    {
+      "nctId": "NCT01303055",
+      "title": "Effects of Alogliptin on Pancreatic Beta Cell Function",
+      "conditions": [
+        "Diabetes Mellitus, Type 2"
+      ],
+      "interventions": [
+        "Alogliptin",
+        "Metformin 750 mg"
+      ]
+    },
+    {
+      "nctId": "NCT01316094",
+      "title": "A Study to Assess Efficacy and Safety of ASP1941 in Diabetic Patients With Renal Impairment",
+      "conditions": [
+        "Type 2 Diabetes Mellitus"
+      ],
+      "interventions": [
+        "ASP1941",
+        "placebo"
+      ]
+    },
+    {
+      "nctId": "NCT01336023",
+      "title": "Dual Action of Liraglutide and Insulin Degludec in Type 2 Diabetes: A Trial Comparing the Efficacy and Safety of Insulin Degludec/Liraglutide, Insulin Degludec and Liraglutide in Subjects With Type 2 Diabetes",
+      "conditions": [
+        "Diabetes",
+        "Diabetes Mellitus, Type 2"
+      ],
+      "interventions": [
+        "insulin degludec/liraglutide",
+        "insulin degludec",
+        "liraglutide"
+      ]
+    },
+    {
+      "nctId": "NCT01368081",
+      "title": "Empagliflozin (BI 10773) Comprehensive add-on Study in Japanese Subjects With Type 2 Diabetes Mellitus",
+      "conditions": [
+        "Diabetes Mellitus, Type 2"
+      ],
+      "interventions": [
+        "Metformin",
+        "BI 10773",
+        "Placebo (low dose)",
+        "BI 10773",
+        "Placebo (high dose)"
+      ]
+    },
+    {
+      "nctId": "NCT01370005",
+      "title": "12 Week Efficacy and Safety Study of Empagliflozin (BI 10773) in Hypertensive Patients With Type 2 Diabetes Mellitus",
+      "conditions": [
+        "Diabetes Mellitus, Type 2",
+        "Hypertension"
+      ],
+      "interventions": [
+        "Placebo",
+        "BI 10773",
+        "Placebo",
+        "BI 10773",
+        "Placebo",
+        "Placebo"
+      ]
+    },
+    {
+      "nctId": "NCT01381887",
+      "title": "A Study to Evaluate the Effect of JNJ-28431754 (Canagliflozin) on Post-Meal Glucose in Patients With Type 2 Diabetes Mellitus",
+      "conditions": [
+        "Diabetes Mellitus, Type 2"
+      ],
+      "interventions": [
+        "Placebo",
+        "Canagliflozin 300mg/Placebo",
+        "Canagliflozin 300mg/Canagliflozin 150mg",
+        "Canagliflozin 300mg"
+      ]
+    },
+    {
+      "nctId": "NCT01392573",
+      "title": "A Trial Comparing the Efficacy and Safety of Insulin Degludec/Liraglutide and Insulin Degludec in Subjects With Type 2 Diabetes",
+      "conditions": [
+        "Diabetes",
+        "Diabetes Mellitus, Type 2"
+      ],
+      "interventions": [
+        "insulin degludec/liraglutide",
+        "insulin degludec"
+      ]
+    },
+    {
+      "nctId": "NCT01394341",
+      "title": "Liraglutide Treatment to Patients With Severe Renal Insufficiency",
+      "conditions": [
+        "Type 2 Diabetes Mellitus",
+        "End-stage Renal Disease"
+      ],
+      "interventions": [
+        "Liraglutide"
+      ]
+    },
+    {
+      "nctId": "NCT01394952",
+      "title": "Researching Cardiovascular Events With a Weekly Incretin in Diabetes (REWIND)",
+      "conditions": [
+        "Cardiovascular Disease",
+        "Diabetes Mellitus, Type 2"
+      ],
+      "interventions": [
+        "Dulaglutide",
+        "Placebo"
+      ]
+    },
+    {
+      "nctId": "NCT01426737",
+      "title": "The Swiss Glucose Variability Study",
+      "conditions": [
+        "Type 2 Diabetes"
+      ],
+      "interventions": [
+        "Vildagliptin"
+      ]
+    },
+    {
+      "nctId": "NCT01455883",
+      "title": "A Study to Evaluate ITCA 650 Compared to Glimepiride for the Treatment of Type 2 Diabetes",
+      "conditions": [
+        "Type 2 Diabetes"
+      ],
+      "interventions": [
+        "ITCA 650 60 mcg/day",
+        "glimepiride"
+      ]
+    },
+    {
+      "nctId": "NCT01455896",
+      "title": "A Study to Evaluate Cardiovascular Outcomes in Patients With Type 2 Diabetes Treated With ITCA 650",
+      "conditions": [
+        "Type 2 Diabetes"
+      ],
+      "interventions": [
+        "ITCA 650",
+        "ITCA placebo"
+      ]
+    },
+    {
+      "nctId": "NCT01472640",
+      "title": "The Effect of Liraglutide on Left Ventricular Function in Chronic Heart Failure Patients With and Without Type 2 Diabetes Mellitus",
+      "conditions": [
+        "Hyperglycemia",
+        "Chronic Heart Failure"
+      ],
+      "interventions": [
+        "liraglutide",
+        "placebo"
+      ]
+    },
+    {
+      "nctId": "NCT01481116",
+      "title": "Efficacy and Safety of TAK-875 Compared to Glimepiride When Used With Metformin in Participants With Type 2 Diabetes",
+      "conditions": [
+        "Diabetes Mellitus, Type 2"
+      ],
+      "interventions": [
+        "TAK-875",
+        "TAK-875",
+        "Glimepiride"
+      ]
+    },
+    {
+      "nctId": "NCT01511172",
+      "title": "Effect of Liraglutide as add-on to Metformin Compared to Either Liraglutide or Metformin Alone, or to a Combination of Metformin and a SU (Sulphonylurea) Agent in Subjects With Type 2 Diabetes",
+      "conditions": [
+        "Diabetes",
+        "Diabetes Mellitus, Type 2"
+      ],
+      "interventions": [
+        "liraglutide",
+        "metformin",
+        "placebo",
+        "placebo",
+        "glimepiride"
+      ]
+    },
+    {
+      "nctId": "NCT01512849",
+      "title": "A Study to Evaluate the PK/PD and Safety of TA-7284 in Patients With Type 2 Diabetes Mellitus Who Have Moderate Renal Impairment",
+      "conditions": [
+        "Type 2 Diabetes Mellitus"
+      ],
+      "interventions": [
+        "TA-7284 Low",
+        "TA-7284 High"
+      ]
+    },
+    {
+      "nctId": "NCT01555008",
+      "title": "Study to Evaluate the Pharmacodynamic and Pharmacokinetic Effects of LX4211 in Subjects With Type 2 Diabetes and Renal Impairment",
+      "conditions": [
+        "Type 2 Diabetes Mellitus",
+        "Renal Impairment"
+      ],
+      "interventions": [
+        "LX4211",
+        "LX4211 Placebo"
+      ]
+    },
+    {
+      "nctId": "NCT01565096",
+      "title": "Effect of Adding Vildagliptin on Beta Cell Function and Cardiovascular Risk Markers in Patients With Moderate Metabolic Control During Metformin Monotherapy",
+      "conditions": [
+        "Diabetes Mellitus Type II"
+      ],
+      "interventions": [
+        "Metformin",
+        "Metformin",
+        "Vildagliptin",
+        "Glimepiride"
+      ]
+    },
+    {
+      "nctId": "NCT01593137",
+      "title": "A Long-term Trial to Compare the Effects of Liraglutide and Sulphonylurea (Glimepiride) Both in Combination With Metformin on Clinical, Endothelial and Image Markers of Cardiovascular Risk in Patients With Type 2 Diabetes",
+      "conditions": [
+        "Type 2 Diabetes"
+      ],
+      "interventions": [
+        "Liraglutide + metformin",
+        "Glimepiride + metformin"
+      ]
+    },
+    {
+      "nctId": "NCT01618162",
+      "title": "The Efficacy of Insulin Degludec/Liraglutide as add-on Therapy in Controlling Glycaemia in Adults With Type 2 Diabetes Inadequately Controlled on Sulphonylurea With or Without Metformin Therapy",
+      "conditions": [
+        "Diabetes",
+        "Diabetes Mellitus, Type 2"
+      ],
+      "interventions": [
+        "insulin degludec/liraglutide",
+        "placebo"
+      ]
+    },
+    {
+      "nctId": "NCT01620489",
+      "title": "Efficacy and Safety of Liraglutide Versus Placebo as add-on to Existing Diabetes Medication in Subjects With Type 2 Diabetes and Moderate Renal Impairment",
+      "conditions": [
+        "Diabetes",
+        "Diabetes Mellitus, Type 2"
+      ],
+      "interventions": [
+        "liraglutide",
+        "placebo"
+      ]
+    },
+    {
+      "nctId": "NCT01621178",
+      "title": "A Study Comparing Dulaglutide With Insulin Glargine on Glycemic Control in Participants With Type 2 Diabetes (T2D) and Moderate or Severe Chronic Kidney Disease (CKD)",
+      "conditions": [
+        "Type 2 Diabetes",
+        "Chronic Kidney Disease"
+      ],
+      "interventions": [
+        "Dulaglutide",
+        "Insulin glargine",
+        "Insulin lispro"
+      ]
+    },
+    {
+      "nctId": "NCT01646320",
+      "title": "Safety and Efficacy of Dapagliflozin in Triple Therapy to Treat Subjects With Type 2 Diabetes",
+      "conditions": [
+        "Type 2 Diabetes"
+      ],
+      "interventions": [
+        "Dapagliflozin",
+        "Placebo matching with Dapagliflozin",
+        "Saxagliptin",
+        "Metformin immediate release (IR)"
+      ]
+    },
+    {
+      "nctId": "NCT01676116",
+      "title": "The Efficacy of Insulin Degludec/Liraglutide in Controlling Glycaemia in Adults With Type 2 Diabetes Inadequately Controlled on GLP-1 Receptor Agonist and OAD Therapy",
+      "conditions": [
+        "Diabetes",
+        "Diabetes Mellitus, Type 2"
+      ],
+      "interventions": [
+        "insulin degludec/liraglutide",
+        "liraglutide",
+        "exenatide"
+      ]
+    },
+    {
+      "nctId": "NCT01682759",
+      "title": "A Study of the Safety and Efficacy of Omarigliptin (MK-3102) Compared With Glimepiride in Participants With Type 2 Diabetes Mellitus With Inadequate Glycemic Control on Metformin (MK-3102-016)",
+      "conditions": [
+        "Type 2 Diabetes Mellitus"
+      ],
+      "interventions": [
+        "Omarigliptin",
+        "Placebo to Omarigliptin",
+        "Glimepiride",
+        "Glimepiride Placebo",
+        "Metformin",
+        "Insulin Glargine"
+      ]
+    },
+    {
+      "nctId": "NCT01703208",
+      "title": "A Study to Assess Cardiovascular Outcomes Following Treatment With Omarigliptin (MK-3102) in Participants With Type 2 Diabetes Mellitus (MK-3102-018)",
+      "conditions": [
+        "Type 2 Diabetes Mellitus"
+      ],
+      "interventions": [
+        "Omarigliptin",
+        "Placebo"
+      ]
+    },
+    {
+      "nctId": "NCT01720446",
+      "title": "Trial to Evaluate Cardiovascular and Other Long-term Outcomes With Semaglutide in Subjects With Type 2 Diabetes",
+      "conditions": [
+        "Diabetes",
+        "Diabetes Mellitus, Type 2"
+      ],
+      "interventions": [
+        "semaglutide",
+        "semaglutide",
+        "placebo"
+      ]
+    },
+    {
+      "nctId": "NCT01730534",
+      "title": "Multicenter Trial to Evaluate the Effect of Dapagliflozin on the Incidence of Cardiovascular Events",
+      "conditions": [
+        "Diabetes Mellitus, Non-Insulin-Dependent",
+        "High Risk for Cardiovascular Event"
+      ],
+      "interventions": [
+        "Dapagliflozin 10 mg",
+        "Placebo tablet"
+      ]
+    },
+    {
+      "nctId": "NCT01734785",
+      "title": "Safety and Efficacy of the Combination of Empagliflozin and Linagliptin Compared to Linagliptin Alone Over 24 Weeks in Patients With Type 2 Diabetes",
+      "conditions": [
+        "Diabetes Mellitus, Type 2"
+      ],
+      "interventions": [
+        "Linagliptin",
+        "Empagliflozin + Linagliptin",
+        "Empagliflozin + Linagliptin",
+        "Empagliflozin + Linagliptin",
+        "Empagliflozin placebo + Linagliptin placebo",
+        "Empagliflozin + Linagliptin"
+      ]
+    },
+    {
+      "nctId": "NCT01755156",
+      "title": "A Study to Evaluate the Safety, Tolerability, and Efficacy of the Addition of Omarigliptin (MK-3102) to Participants With Type 2 Diabetes Mellitus Who Have Inadequate Glycemic Control on Metformin Therapy (MK-3102-024)",
+      "conditions": [
+        "Type 2 Diabetes Mellitus"
+      ],
+      "interventions": [
+        "Omarigliptin",
+        "Matching placebo to omarigliptin",
+        "Glimepiride",
+        "Matching placebo to glimepiride",
+        "Insulin glargine",
+        "Metformin"
+      ]
+    },
+    {
+      "nctId": "NCT01761318",
+      "title": "Effect of Liraglutide on Cardiovascular Endpoints in Diabetes Mellitus Type 2 Patients",
+      "conditions": [
+        "Diabetes Mellitus Type 2",
+        "Metabolic Syndrome",
+        "Cardiovascular Disease",
+        "Diastolic Dysfunction",
+        "Fatty Liver"
+      ],
+      "interventions": [
+        "Liraglutide",
+        "Liraglutide - Placebo"
+      ]
+    },
+    {
+      "nctId": "NCT01779362",
+      "title": "RISE Adult Medication Study",
+      "conditions": [
+        "Prediabetes",
+        "Type 2 Diabetes"
+      ],
+      "interventions": [
+        "Metformin",
+        "Liraglutide",
+        "Glargine",
+        "Placebo"
+      ]
+    },
+    {
+      "nctId": "NCT01794143",
+      "title": "A Comparative Effectiveness Study of Major Glycemia-lowering Medications for Treatment of Type 2 Diabetes",
+      "conditions": [
+        "Type 2 Diabetes",
+        "Comparative Effectiveness of Glycemia-lowering Medications"
+      ],
+      "interventions": [
+        "Sulfonylurea (glimepiride)",
+        "DPP-4 inhibitor (sitagliptin)",
+        "GLP-1 receptor agonist (liraglutide)",
+        "Insulin (glargine)"
+      ]
+    },
+    {
+      "nctId": "NCT01798706",
+      "title": "Efficacy and Safety of Lixisenatide Versus Placebo on Top of Basal Insulin and/or Oral Antidiabetic Treatment in Older Type 2 Diabetic Patients",
+      "conditions": [
+        "Type 2 Diabetes"
+      ],
+      "interventions": [
+        "Lixisenatide (AVE0010)",
+        "Placebo",
+        "Antidiabetic background therapy"
+      ]
+    },
+    {
+      "nctId": "NCT01800968",
+      "title": "Functional Impact of GLP-1 for Heart Failure Treatment (FIGHT)",
+      "conditions": [
+        "Acute Heart Failure"
+      ],
+      "interventions": [
+        "Liraglutide",
+        "Placebo"
+      ]
+    },
+    {
+      "nctId": "NCT01822548",
+      "title": "Effect of Vildagliptin vs. Glibenclamide on Circulating Endothelial Progenitor Cell Number Type 2 Diabetes",
+      "conditions": [
+        "Type 2 Diabetes"
+      ],
+      "interventions": [
+        "Vildagliptin",
+        "Glibenclamide",
+        "Metformin"
+      ]
+    },
+    {
+      "nctId": "NCT01847313",
+      "title": "The Effect of Glucagon-like-peptide 1 (GLP-1) Receptor Agonism on Diabetic Kidney Disease",
+      "conditions": [
+        "Diabetic Kidney Disease"
+      ],
+      "interventions": [
+        "Liraglutide"
+      ]
+    },
+    {
+      "nctId": "NCT01848639",
+      "title": "ALdosterone Antagonist Chronic HEModialysis Interventional Survival Trial",
+      "conditions": [
+        "End Stage Renal Failure on Dialysis"
+      ],
+      "interventions": [
+        "Spironolactone",
+        "Placebo"
+      ]
+    },
+    {
+      "nctId": "NCT01897532",
+      "title": "Cardiovascular and Renal Microvascular Outcome Study With Linagliptin in Patients With Type 2 Diabetes Mellitus (CARMELINA)",
+      "conditions": [
+        "Diabetes Mellitus, Type 2"
+      ],
+      "interventions": [
+        "Placebo",
+        "Linagliptin"
+      ]
+    },
+    {
+      "nctId": "NCT01935804",
+      "title": "Effect of Pioglitazone Versus Metformin on Bone Health in Postmenopausal Women With Type 2 Diabetes",
+      "conditions": [
+        "Diabetes Mellitus",
+        "Diabetes Mellitus, Type 2",
+        "Glucose Metabolism Disorders"
+      ],
+      "interventions": [
+        "Pioglitazone",
+        "Metformin"
+      ]
+    },
+    {
+      "nctId": "NCT01952145",
+      "title": "A Trial Comparing the Efficacy and Safety of Insulin Degludec/Liraglutide Versus Insulin Glargine in Subjects With Type 2 Diabetes Mellitus",
+      "conditions": [
+        "Diabetes",
+        "Diabetes Mellitus, Type 2"
+      ],
+      "interventions": [
+        "insulin degludec/liraglutide",
+        "insulin glargine"
+      ]
+    },
+    {
+      "nctId": "NCT01958671",
+      "title": "A Study of the Efficacy and Safety of Ertugliflozin Monotherapy in the Treatment of Participants With Type 2 Diabetes Mellitus and Inadequate Glycemic Control Despite Diet and Exercise (MK-8835-003, VERTIS MONO)",
+      "conditions": [
+        "Type 2 Diabetes Mellitus"
+      ],
+      "interventions": [
+        "Ertugliflozin 5 mg",
+        "Ertugliflozin 10 mg",
+        "Placebo to Ertugliflozin",
+        "Metformin",
+        "Placebo to Metformin",
+        "Glimepiride"
+      ]
+    },
+    {
+      "nctId": "NCT01986855",
+      "title": "A Study of the Efficacy and Safety of Ertugliflozin in Participants With Type 2 Diabetes Mellitus With Stage 3 Chronic Kidney Disease Who Have Inadequate Glycemic Control on Antihyperglycemic Therapy (MK-8835-001)",
+      "conditions": [
+        "Type 2 Diabetes Mellitus"
+      ],
+      "interventions": [
+        "Ertugliflozin 5 mg",
+        "Placebo 5 mg",
+        "Ertugliflozin 10 mg",
+        "Placebo 10 mg"
+      ]
+    },
+    {
+      "nctId": "NCT01986881",
+      "title": "Cardiovascular Outcomes Following Ertugliflozin Treatment in Type 2 Diabetes Mellitus Participants With Vascular Disease, The VERTIS CV Study (MK-8835-004)",
+      "conditions": [
+        "Type 2 Diabetes Mellitus"
+      ],
+      "interventions": [
+        "Ertugliflozin",
+        "Placebo",
+        "Glycemic Rescue"
+      ]
+    },
+    {
+      "nctId": "NCT01989754",
+      "title": "A Study of the Effects of Canagliflozin (JNJ-28431754) on Renal Endpoints in Adult Participants With Type 2 Diabetes Mellitus",
+      "conditions": [
+        "Diabetes Mellitus, Type 2",
+        "Albuminuria"
+      ],
+      "interventions": [
+        "Placebo",
+        "Canagliflozin, 100 mg",
+        "Canagliflozin, 300 mg"
+      ]
+    },
+    {
+      "nctId": "NCT01999218",
+      "title": "Ertugliflozin vs. Glimepiride in Type 2 Diabetes Mellitus (T2DM) Participants on Metformin (MK-8835-002)",
+      "conditions": [
+        "Type 2 Diabetes Mellitus"
+      ],
+      "interventions": [
+        "Ertugliflozin 5 mg",
+        "Ertugliflozin 10 mg",
+        "Glimerpiride",
+        "Placebo to Ertugliflozin",
+        "Placebo to Glimepiride",
+        "Metformin",
+        "Sitagliptin"
+      ]
+    },
+    {
+      "nctId": "NCT02033889",
+      "title": "A Study To Evaluate The Efficacy And Safety Of Ertugliflozin In Participants With Type 2 Diabetes Mellitus And Inadequate Glycemic Control On Metformin Monotherapy (MK-8835-007).",
+      "conditions": [
+        "Type 2 Diabetes Mellitus"
+      ],
+      "interventions": [
+        "Ertugliflozin 5 mg",
+        "Ertugliflozin 15 mg",
+        "Placebo to Ertugliflozin",
+        "Glimepiride",
+        "Placebo to Glimepiride",
+        "Basal Insulin",
+        "Metformin"
+      ]
+    },
+    {
+      "nctId": "NCT02065791",
+      "title": "Evaluation of the Effects of Canagliflozin on Renal and Cardiovascular Outcomes in Participants With Diabetic Nephropathy",
+      "conditions": [
+        "Diabetes Mellitus, Type 2",
+        "Diabetic Nephropathy"
+      ],
+      "interventions": [
+        "Canagliflozin",
+        "Placebo"
+      ]
+    },
+    {
+      "nctId": "NCT02072096",
+      "title": "A Comparison of Two Treatment Strategies in Older Participants With Type 2 Diabetes Mellitus (T2DM)",
+      "conditions": [
+        "Diabetes Mellitus, Type 2"
+      ],
+      "interventions": [
+        "Glimepiride",
+        "Metformin",
+        "Pioglitazone",
+        "Acarbose",
+        "Linagliptin",
+        "Sitagliptin",
+        "Liraglutide",
+        "Insulin Glargine",
+        "Exenatide once weekly (QW)",
+        "Exenatide twice daily (BID)"
+      ]
+    },
+    {
+      "nctId": "NCT02096705",
+      "title": "Phase III Insulin Add-On Asia Regional Program - ST",
+      "conditions": [
+        "Diabetes"
+      ],
+      "interventions": [
+        "Dapagliflozin",
+        "Dapagliflozin Placebo"
+      ]
+    },
+    {
+      "nctId": "NCT02142309",
+      "title": "Glycemic Durability After Metformin Failure",
+      "conditions": [
+        "Type 2 Diabetes"
+      ],
+      "interventions": [
+        "Glimepiride",
+        "Vildagliptin",
+        "Pioglitazone",
+        "Canagliflozin"
+      ]
+    },
+    {
+      "nctId": "NCT02234440",
+      "title": "Effect of Metformin on Disease Progression in Patients With Cryptogenic Cirrhosis (NASH-related Cirrhosis) With Diabetes or Impaired Glucose Tolerance or Insulin Resistance",
+      "conditions": [
+        "NASH Related Cirrhosis"
+      ],
+      "interventions": [
+        "Metformin",
+        "Insulin"
+      ]
+    },
+    {
+      "nctId": "NCT02244164",
+      "title": "Pathophysiological Study of the Increase in Pancreatic Volume in Type 2 Diabetes Treatments.",
+      "conditions": [
+        "Type 2 Diabetes",
+        "Incretinomimetics",
+        "Pancreas"
+      ],
+      "interventions": [
+        "Incretinomimetics",
+        "DPP-4 inhibitors"
+      ]
+    },
+    {
+      "nctId": "NCT02268214",
+      "title": "Dapagliflozin Evaluation in Patients With Inadequately Controlled Type 1 Diabetes",
+      "conditions": [
+        "Type 1 Diabetes Mellitus"
+      ],
+      "interventions": [
+        "Dapagliflozin",
+        "Placebo for dapagliflozin"
+      ]
+    },
+    {
+      "nctId": "NCT02397421",
+      "title": "Safety and Effectiveness of SGLT-2 Inhibitors in Patients With Heart Failure and Diabetes",
+      "conditions": [
+        "Heart Failure",
+        "Diabetes"
+      ],
+      "interventions": [
+        "Dapagliflozin",
+        "Placebo"
+      ]
+    },
+    {
+      "nctId": "NCT02409238",
+      "title": "Insulin Resistance and Mild Cognitive Impairment (IRMCI) Study",
+      "conditions": [
+        "Mild Cognitive Impairment",
+        "Insulin Resistance",
+        "Diabetes Mellitus, Type 2"
+      ],
+      "interventions": [
+        "Metformin",
+        "Intensive Lifestyle Intervention",
+        "Standard LIfestyle Recommendation"
+      ]
+    },
+    {
+      "nctId": "NCT02413398",
+      "title": "A Study to Evaluate the Effect of Dapagliflozin on Blood Glucose Level and Renal Safety in Patients With Type 2 Diabetes",
+      "conditions": [
+        "Type 2 Diabetes Mellitus"
+      ],
+      "interventions": [
+        "Dapagliflozin 10 mg",
+        "Matching Placebo for Dapagliflozin"
+      ]
+    },
+    {
+      "nctId": "NCT02460978",
+      "title": "Dapagliflozin Evaluation in Patients With Inadequately Controlled Type 1 Diabetes",
+      "conditions": [
+        "Type 1 Diabetes Mellitus"
+      ],
+      "interventions": [
+        "Dapagliflozin",
+        "Placebo for dapagliflozin"
+      ]
+    },
+    {
+      "nctId": "NCT02462369",
+      "title": "Saxagliptin's Effects on Microalbuminuria Improvement in Type 2 Diabetic Patients",
+      "conditions": [
+        "Microalbuminuria",
+        "Microalbuminuria /Creatinine Ratios ACR"
+      ],
+      "interventions": [
+        "Saxagliptin",
+        "glimepiride"
+      ]
+    },
+    {
+      "nctId": "NCT02465515",
+      "title": "Effect of Albiglutide, When Added to Standard Blood Glucose Lowering Therapies, on Major Cardiovascular Events in Subjects With Type 2 Diabetes Mellitus",
+      "conditions": [
+        "Diabetes Mellitus"
+      ],
+      "interventions": [
+        "Albiglutide 30 mg",
+        "Albiglutide 50 mg",
+        "Albiglutide matching placebo"
+      ]
+    },
+    {
+      "nctId": "NCT02471404",
+      "title": "Efficacy and Safety of Dapagliflozin and Dapagliflozin Plus Saxagliptin in Combination With Metformin in Type 2 Diabetes Patients Compared With Sulphonylurea",
+      "conditions": [
+        "Type 2 Diabetes Mellitus",
+        "Inadequate Glycaemic Control"
+      ],
+      "interventions": [
+        "Dapagliflozin",
+        "Saxagliptin",
+        "Glimepiride",
+        "Placebo for dapagliflozin",
+        "Placebo for saxagliptin",
+        "Placebo for glimepiride"
+      ]
+    },
+    {
+      "nctId": "NCT02532855",
+      "title": "A Study to Assess the Addition of Sitagliptin to Metformin Compared With the Addition of Dapagliflozin to Metformin in Participants With Type 2 Diabetes Mellitus (T2DM) and Mild Renal Impairment Who Have Inadequate Glycemic Control on Metformin With or Without a Sulfonylurea (MK-0431-838)",
+      "conditions": [
+        "Type 2 Diabetes Mellitus"
+      ],
+      "interventions": [
+        "Sitagliptin",
+        "Dapagliflozin",
+        "Metformin",
+        "Matching placebo to sitagliptin",
+        "Matching placebo to dapagliflozin",
+        "Sulfonylurea"
+      ]
+    },
+    {
+      "nctId": "NCT02545738",
+      "title": "Antiproteinuric Effects of Liraglutide Treatment",
+      "conditions": [
+        "Diabetic Kidney Disease"
+      ],
+      "interventions": [
+        "Liraglutide",
+        "placebo"
+      ]
+    },
+    {
+      "nctId": "NCT02547935",
+      "title": "A Study to Evaluate the Effect of Dapagliflozin With and Without Saxagliptin on Albuminuria, and to Investigate the Effect of Dapagliflozin and Saxagliptin on HbA1c in Patients With Type 2 Diabetes and CKD",
+      "conditions": [
+        "Type 2 Diabetes Mellitus, CKD and Albuminuria"
+      ],
+      "interventions": [
+        "Dapagliflozin 10 mg",
+        "Saxagliptin 2.5 mg",
+        "Matching Placebo for Dapagliflozin 10 mg and Saxagliptin 2.5mg"
+      ]
+    },
+    {
+      "nctId": "NCT02564926",
+      "title": "Foxiga Korea Local Phase 4 Study",
+      "conditions": [
+        "Diabetes Mellitus, Type 2"
+      ],
+      "interventions": [
+        "Dapagliflozin",
+        "Glimepiride"
+      ]
+    },
+    {
+      "nctId": "NCT02587741",
+      "title": "Comparison of Diabetes Retinopathy Among Type 2 Diabetic Patients Treated With Different Regimens",
+      "conditions": [
+        "Diabetic Retinopathy"
+      ],
+      "interventions": [
+        "Metformin",
+        "Lantus",
+        "Novomix30"
+      ]
+    },
+    {
+      "nctId": "NCT02616666",
+      "title": "A Pragmatic Randomized Trial to Evaluate the Comparative Effectiveness Between Dapagliflozin and Standard of Care in Type 2 Diabetes Patients",
+      "conditions": [
+        "Type 2 Diabetes Mellitus"
+      ],
+      "interventions": [
+        "Dapagliflozin",
+        "Standard of Care"
+      ]
+    },
+    {
+      "nctId": "NCT02660047",
+      "title": "Effect of Liraglutide on Cardiovascular Endpoints in Diabetes Mellitus Type 2 Patients of South Asian Descent",
+      "conditions": [
+        "Diabetes Mellitus Type 2",
+        "Metabolic Syndrome",
+        "Cardiovascular Disease",
+        "Diastolic Dysfunction",
+        "Fatty Liver"
+      ],
+      "interventions": [
+        "Liraglutide",
+        "Liraglutide - Placebo"
+      ]
+    },
+    {
+      "nctId": "NCT02682563",
+      "title": "Renoprotective Effects of Dapagliflozin in Type 2 Diabetes",
+      "conditions": [
+        "Diabetes Mellitus, Type 2",
+        "Diabetic Nephropathies"
+      ],
+      "interventions": [
+        "Dapagliflozin 10mg QD",
+        "Gliclazide 30mg QD"
+      ]
+    },
+    {
+      "nctId": "NCT02690883",
+      "title": "Effect of Exenatide on 24h-UAER in Patients With Diabetic Nephropathy",
+      "conditions": [
+        "Diabetic Nephropathies"
+      ],
+      "interventions": [
+        "Exenatide",
+        "Lispro"
+      ]
+    },
+    {
+      "nctId": "NCT02692716",
+      "title": "A Trial Investigating the Cardiovascular Safety of Oral Semaglutide in Subjects With Type 2 Diabetes",
+      "conditions": [
+        "Diabetes",
+        "Diabetes Mellitus, Type 2"
+      ],
+      "interventions": [
+        "semaglutide",
+        "placebo"
+      ]
+    },
+    {
+      "nctId": "NCT02694289",
+      "title": "Effects of Metformin in Heart Failure Patients",
+      "conditions": [
+        "Type 2 Diabetes Mellitus"
+      ],
+      "interventions": [
+        "Metformin",
+        "Subcutaneous (sliding scale) Insulin"
+      ]
+    },
+    {
+      "nctId": "NCT02730377",
+      "title": "Efficacy in Controlling Glycaemia With Victoza\u00ae (Liraglutide) as add-on to Metformin vs. OADs as add-on to Metformin After up to 104 Weeks of Treatment in Subjects With Type 2 Diabetes",
+      "conditions": [
+        "Diabetes",
+        "Diabetes Mellitus, Type 2"
+      ],
+      "interventions": [
+        "liraglutide",
+        "alpha-glucosidase inhibitors",
+        "DPP-4 inhibitors",
+        "meglitinides",
+        "SGLT-2 inhibitors",
+        "sulphonylurea",
+        "thiazolidinediones"
+      ]
+    },
+    {
+      "nctId": "NCT02769481",
+      "title": "Safety and Efficacy of Bexagliflozin Compared to Glimepiride as Add-on Therapy to Metformin in Type 2 Diabetes Subjects",
+      "conditions": [
+        "Type 2 Diabetes Mellitus"
+      ],
+      "interventions": [
+        "Bexagliflozin",
+        "Placebo for Bexagliflozin",
+        "Glimepiride",
+        "Placebo for Glimepiride"
+      ]
+    },
+    {
+      "nctId": "NCT02793830",
+      "title": "A Mobile Phone Based Medication Reminder Program",
+      "conditions": [
+        "Medication Adherence"
+      ],
+      "interventions": [
+        "Daily reminders of taking medications",
+        "Educational materials"
+      ]
+    },
+    {
+      "nctId": "NCT02827708",
+      "title": "Efficacy and Safety of Oral Semaglutide Versus Placebo in Subjects With Type 2 Diabetes and Moderate Renal Impairment",
+      "conditions": [
+        "Diabetes",
+        "Diabetes Mellitus, Type 2"
+      ],
+      "interventions": [
+        "semaglutide",
+        "placebo"
+      ]
+    },
+    {
+      "nctId": "NCT02836873",
+      "title": "Safety and Efficacy of Bexagliflozin in Type 2 Diabetes Mellitus Patients With Moderate Renal Impairment",
+      "conditions": [
+        "Type 2 Diabetes Mellitus"
+      ],
+      "interventions": [
+        "Bexagliflozin",
+        "Placebo"
+      ]
+    },
+    {
+      "nctId": "NCT02853630",
+      "title": "A Clinical Trial to Study the Effects of Two Drugs, Vildagliptin and Metformin in Patients With Type 2 Diabetes Mellitus",
+      "conditions": [
+        "TYpe 2 Diabetes Mellitus"
+      ],
+      "interventions": [
+        "Metformin",
+        "Vildagliptin"
+      ]
+    },
+    {
+      "nctId": "NCT02917031",
+      "title": "Mechanistic Evaluation of Glucose-lowering Strategies in Patients With Heart Failure",
+      "conditions": [
+        "Type 2 Diabetes Mellitus",
+        "Heart Failure"
+      ],
+      "interventions": [
+        "Saxagliptin",
+        "Sitagliptin",
+        "Placebo to match saxagliptin",
+        "Placebo to match sitagliptin"
+      ]
+    },
+    {
+      "nctId": "NCT02963766",
+      "title": "A Study of Dulaglutide (LY2189265) in Children and Adolescents With Type 2 Diabetes",
+      "conditions": [
+        "Type 2 Diabetes"
+      ],
+      "interventions": [
+        "Dulaglutide",
+        "Placebo"
+      ]
+    },
+    {
+      "nctId": "NCT02998970",
+      "title": "Effects of Empagliflozin on Cardiac Structure in Patients With Type 2 Diabetes",
+      "conditions": [
+        "Diabetes",
+        "Cardiovascular Disease"
+      ],
+      "interventions": [
+        "Empagliflozin",
+        "Placebo"
+      ]
+    },
+    {
+      "nctId": "NCT03036124",
+      "title": "Study to Evaluate the Effect of Dapagliflozin on the Incidence of Worsening Heart Failure or Cardiovascular Death in Patients With Chronic Heart Failure",
+      "conditions": [
+        "Chronic Heart Failure With Reduced Ejection Fraction (HFrEF)"
+      ],
+      "interventions": [
+        "Dapagliflozin",
+        "Placebo"
+      ]
+    },
+    {
+      "nctId": "NCT03036150",
+      "title": "A Study to Evaluate the Effect of Dapagliflozin on Renal Outcomes and Cardiovascular Mortality in Patients With Chronic Kidney Disease",
+      "conditions": [
+        "Chronic Kidney Disease"
+      ],
+      "interventions": [
+        "Dapagliflozin",
+        "Placebo"
+      ]
+    },
+    {
+      "nctId": "NCT03057951",
+      "title": "EMPagliflozin outcomE tRial in Patients With chrOnic heaRt Failure With Preserved Ejection Fraction (EMPEROR-Preserved)",
+      "conditions": [
+        "Heart Failure"
+      ],
+      "interventions": [
+        "Empagliflozin",
+        "Placebo"
+      ]
+    },
+    {
+      "nctId": "NCT03057977",
+      "title": "EMPagliflozin outcomE tRial in Patients With chrOnic heaRt Failure With Reduced Ejection Fraction (EMPEROR-Reduced)",
+      "conditions": [
+        "Heart Failure"
+      ],
+      "interventions": [
+        "Empagliflozin",
+        "Placebo"
+      ]
+    },
+    {
+      "nctId": "NCT03060980",
+      "title": "Comparison of Efficacy, Safety, and Tolerability of ITCA 650 to Empagliflozin and Glimepiride as add-on Metformin",
+      "conditions": [
+        "Diabetes Mellitus, Type 2"
+      ],
+      "interventions": [
+        "ITCA 650 20/60 mcg/day",
+        "Empagliflozin (oral)",
+        "Glimepiride (oral)"
+      ]
+    },
+    {
+      "nctId": "NCT03078101",
+      "title": "EMPRA (EMPagliflozin and RAs in Kidney Disease)",
+      "conditions": [
+        "Diabetic Kidney Disease",
+        "Diabetes Mellitus, Type 2",
+        "Chronic Kidney Disease stage3",
+        "Chronic Kidney Disease stage4"
+      ],
+      "interventions": [
+        "Empagliflozin 10 MG [Jardiance]",
+        "Placebo Oral Tablet"
+      ]
+    },
+    {
+      "nctId": "NCT03098186",
+      "title": "TXT2HEART COLOMBIA: Evaluation of the Efficacy and Safety of Text Messages to Improve Adherence to Cardiovascular Medications in Secondary Prevention",
+      "conditions": [
+        "Cardiovascular Disease"
+      ],
+      "interventions": [
+        "Intervention SMS",
+        "Control SMS"
+      ]
+    },
+    {
+      "nctId": "NCT03131687",
+      "title": "A Study of Tirzepatide (LY3298176) in Participants With Type 2 Diabetes Mellitus",
+      "conditions": [
+        "Type 2 Diabetes Mellitus"
+      ],
+      "interventions": [
+        "tirzepatide",
+        "Dulaglutide",
+        "Placebo"
+      ]
+    },
+    {
+      "nctId": "NCT03136484",
+      "title": "Efficacy and Safety of Semaglutide Versus Canagliflozin as add-on to Metformin in Subjects With Type 2 Diabetes",
+      "conditions": [
+        "Diabetes",
+        "Diabetes Mellitus, Type 2"
+      ],
+      "interventions": [
+        "Semaglutide",
+        "Canagliflozin",
+        "Placebo (canagliflozin)",
+        "Placebo (semaglutide)"
+      ]
+    },
+    {
+      "nctId": "NCT03178591",
+      "title": "Effects of DPP4 Inhibitor Versus SGLT2 Inhibitor",
+      "conditions": [
+        "Diabetes Mellitus, Type 2",
+        "Ischemic Heart Disease"
+      ],
+      "interventions": [
+        "vildagliptin",
+        "Dapagliflozin"
+      ]
+    },
+    {
+      "nctId": "NCT03242018",
+      "title": "A Study to Evaluate Safety and Effects of Sotagliflozin 400 and 200 mg on Glucose Control in Participants With Type 2 Diabetes, Severe Impairment of Kidney Function and Inadequate Blood Sugar Control",
+      "conditions": [
+        "Type 2 Diabetes Mellitus",
+        "Chronic Kidney Disease Stage 4"
+      ],
+      "interventions": [
+        "Placebo",
+        "Sotagliflozin"
+      ]
+    },
+    {
+      "nctId": "NCT03315143",
+      "title": "Effect of Sotagliflozin on Cardiovascular and Renal Events in Participants With Type 2 Diabetes and Moderate Renal Impairment Who Are at Cardiovascular Risk",
+      "conditions": [
+        "Heart Failure",
+        "Type 2 Diabetes Mellitus",
+        "Chronic Kidney Diseases"
+      ],
+      "interventions": [
+        "Sotagliflozin",
+        "Placebo"
+      ]
+    },
+    {
+      "nctId": "NCT03332771",
+      "title": "Efficacy and Safety of Sotagliflozin Versus Glimepiride and Placebo in Participants With Type 2 Diabetes Mellitus That Are Taking Metformin Monotherapy",
+      "conditions": [
+        "Type 2 Diabetes Mellitus"
+      ],
+      "interventions": [
+        "Sotagliflozin (SAR439954)",
+        "Glimepiride",
+        "Metformin",
+        "Placebo",
+        "Placebo"
+      ]
+    },
+    {
+      "nctId": "NCT03436693",
+      "title": "Efficacy and Safety of Canagliflozin (TA-7284) in Patients With Diabetic Nephropathy",
+      "conditions": [
+        "Diabetic Nephropathy"
+      ],
+      "interventions": [
+        "Canagliflozin",
+        "Placebo"
+      ]
+    },
+    {
+      "nctId": "NCT03485092",
+      "title": "Studies of Empagliflozin and Its Cardiovascular, Renal and Metabolic Effects",
+      "conditions": [
+        "Heart Failure",
+        "Diabetes Mellitus"
+      ],
+      "interventions": [
+        "Empagliflozin 10 MG",
+        "Placebo Oral Tablet"
+      ]
+    },
+    {
+      "nctId": "NCT03485222",
+      "title": "Are the \"Cardiac Benefits\" of Empagliflozin Independent of Its Hypoglycemic Activity? (ATRU-4).",
+      "conditions": [
+        "Cardiovascular Diseases"
+      ],
+      "interventions": [
+        "Empagliflozin",
+        "Placebos"
+      ]
+    },
+    {
+      "nctId": "NCT03496298",
+      "title": "Effect of Efpeglenatide on Cardiovascular Outcomes",
+      "conditions": [
+        "Type 2 Diabetes Mellitus"
+      ],
+      "interventions": [
+        "Efpeglenatide (SAR439977)",
+        "Placebo"
+      ]
+    },
+    {
+      "nctId": "NCT03521934",
+      "title": "Effect of Sotagliflozin on Cardiovascular Events in Participants With Type 2 Diabetes Post Worsening Heart Failure (SOLOIST-WHF Trial)",
+      "conditions": [
+        "Heart Failure",
+        "Type 2 Diabetes Mellitus"
+      ],
+      "interventions": [
+        "Sotagliflozin",
+        "Placebo"
+      ]
+    },
+    {
+      "nctId": "NCT03550378",
+      "title": "A Study to Look at the Effect MEDI0382 Has on Blood Sugar in People With Type 2 Diabetes and Kidney Problems and Also to Check That MEDI0382 is Well Tolerated",
+      "conditions": [
+        "Type II Diabetes Mellitus",
+        "Renal Insufficiency"
+      ],
+      "interventions": [
+        "MEDI0382",
+        "Placebo"
+      ]
+    },
+    {
+      "nctId": "NCT03574597",
+      "title": "Semaglutide Effects on Heart Disease and Stroke in Patients With Overweight or Obesity",
+      "conditions": [
+        "Overweight",
+        "Obesity"
+      ],
+      "interventions": [
+        "Semaglutide",
+        "Placebo (semaglutide)"
+      ]
+    },
+    {
+      "nctId": "NCT03594110",
+      "title": "EMPA-KIDNEY (The Study of Heart and Kidney Protection With Empagliflozin)",
+      "conditions": [
+        "Chronic Kidney Disease"
+      ],
+      "interventions": [
+        "Empagliflozin",
+        "Matching placebo"
+      ]
+    },
+    {
+      "nctId": "NCT03619213",
+      "title": "Dapagliflozin Evaluation to Improve the LIVEs of Patients With PReserved Ejection Fraction Heart Failure.",
+      "conditions": [
+        "Heart Failure With Preserved Ejection Fraction"
+      ],
+      "interventions": [
+        "Dapagliflozin",
+        "Placebo"
+      ]
+    },
+    {
+      "nctId": "NCT03730662",
+      "title": "A Study of Tirzepatide (LY3298176) Once a Week Versus Insulin Glargine Once a Day in Participants With Type 2 Diabetes and Increased Cardiovascular Risk",
+      "conditions": [
+        "Type 2 Diabetes Mellitus"
+      ],
+      "interventions": [
+        "Tirzepatide",
+        "Insulin Glargine"
+      ]
+    },
+    {
+      "nctId": "NCT03819153",
+      "title": "A Research Study to See How Semaglutide Works Compared to Placebo in People With Type 2 Diabetes and Chronic Kidney Disease",
+      "conditions": [
+        "Diabetes Mellitus, Type 2"
+      ],
+      "interventions": [
+        "Semaglutide",
+        "Placebo (semaglutide)"
+      ]
+    },
+    {
+      "nctId": "NCT03824002",
+      "title": "Dulaglutide in Diabetic Patients, Relationship Between Arterial Stiffness, Endothelial Function, Clinical and Laboratory Variables",
+      "conditions": [
+        "Diabetes Mellitus"
+      ],
+      "interventions": [
+        "Dulaglutide",
+        "Aspart insulin",
+        "Glargine",
+        "Metformin",
+        "Repaglinide"
+      ]
+    },
+    {
+      "nctId": "NCT03861052",
+      "title": "A Study of Tirzepatide (LY3298176) Compared to Dulaglutide in Participants With Type 2 Diabetes",
+      "conditions": [
+        "Type 2 Diabetes"
+      ],
+      "interventions": [
+        "Tirzepatide",
+        "Dulaglutide"
+      ]
+    },
+    {
+      "nctId": "NCT03882970",
+      "title": "A Study of Tirzepatide (LY3298176) Versus Insulin Degludec in Participants With Type 2 Diabetes",
+      "conditions": [
+        "Type 2 Diabetes Mellitus"
+      ],
+      "interventions": [
+        "Tirzepatide",
+        "Insulin Degludec"
+      ]
+    },
+    {
+      "nctId": "NCT03914326",
+      "title": "A Heart Disease Study of Semaglutide in Patients With Type 2 Diabetes",
+      "conditions": [
+        "Diabetes Mellitus, Type 2"
+      ],
+      "interventions": [
+        "Semaglutide",
+        "Placebo (semaglutide)"
+      ]
+    },
+    {
+      "nctId": "NCT03954834",
+      "title": "A Study of Tirzepatide (LY3298176) in Participants With Type 2 Diabetes Not Controlled With Diet and Exercise Alone",
+      "conditions": [
+        "Type 2 Diabetes Mellitus"
+      ],
+      "interventions": [
+        "Tirzepatide",
+        "Placebo"
+      ]
+    },
+    {
+      "nctId": "NCT03982381",
+      "title": "SGLT2 Inhibitor or Metformin As Standard Treatment of Early Stage Type 2 Diabetes",
+      "conditions": [
+        "Type 2 Diabetes"
+      ],
+      "interventions": [
+        "Metformin",
+        "Dapagliflozin 10 MG"
+      ]
+    },
+    {
+      "nctId": "NCT03987919",
+      "title": "A Study of Tirzepatide (LY3298176) Versus Semaglutide Once Weekly as Add-on Therapy to Metformin in Participants With Type 2 Diabetes",
+      "conditions": [
+        "Type 2 Diabetes"
+      ],
+      "interventions": [
+        "Tirzepatide",
+        "Semaglutide"
+      ]
+    },
+    {
+      "nctId": "NCT04039503",
+      "title": "A Study of Tirzepatide (LY3298176) Versus Placebo in Participants With Type 2 Diabetes Inadequately Controlled on Insulin Glargine With or Without Metformin",
+      "conditions": [
+        "Type 2 Diabetes"
+      ],
+      "interventions": [
+        "Tirzepatide",
+        "Placebo"
+      ]
+    },
+    {
+      "nctId": "NCT04061200",
+      "title": "Renal Effects of Treatment With Empagliflozin Alone or in Combination With Semaglutide in Patients With Type 2 Diabetes and Albuminuria",
+      "conditions": [
+        "Type 2 Diabetes With Renal Manifestations"
+      ],
+      "interventions": [
+        "Semaglutide, 1.34 mg/mL",
+        "Placebo, 1,34 mg/mL",
+        "Empagliflozin 25 MG"
+      ]
+    },
+    {
+      "nctId": "NCT04146155",
+      "title": "Efficacy and Safety of Liraglutide in Type 2 Diabetes With Lower Extremity Arterial Disease",
+      "conditions": [
+        "Type 2 Diabetes",
+        "Peripheral Vascular Disorder Due to Diabetes Mellitus"
+      ],
+      "interventions": [
+        "Liraglutide+standard-of-care treatment",
+        "standard-of-care treatment"
+      ]
+    },
+    {
+      "nctId": "NCT04238702",
+      "title": "Renohemodynamic Effects of Combined empagliflOzin and LosARtan",
+      "conditions": [
+        "Diabetes Mellitus, Type 2",
+        "Diabetic Kidney Disease"
+      ],
+      "interventions": [
+        "Empagliflozin 10 MG",
+        "Losartan 50Mg Tab",
+        "Placebo"
+      ]
+    },
+    {
+      "nctId": "NCT04243850",
+      "title": "REGROUP: Renohemodynamic Effects empaGliflozin in vaRiOUs Populations",
+      "conditions": [
+        "Diabetes Mellitus, Type 2",
+        "Chronic Kidney Diseases"
+      ],
+      "interventions": [
+        "Empagliflozin 10 MG",
+        "Placebo oral tablet",
+        "Caffeine"
+      ]
+    },
+    {
+      "nctId": "NCT04255433",
+      "title": "A Study of Tirzepatide (LY3298176) Compared With Dulaglutide on Major Cardiovascular Events in Participants With Type 2 Diabetes",
+      "conditions": [
+        "Type 2 Diabetes Mellitus"
+      ],
+      "interventions": [
+        "Tirzepatide",
+        "Dulaglutide"
+      ]
+    },
+    {
+      "nctId": "NCT04350593",
+      "title": "Dapagliflozin in Respiratory Failure in Patients With COVID-19",
+      "conditions": [
+        "COVID-19"
+      ],
+      "interventions": [
+        "Dapagliflozin 10 milligram (mg)",
+        "Placebo"
+      ]
+    },
+    {
+      "nctId": "NCT04435626",
+      "title": "Study to Evaluate the Efficacy (Effect on Disease) and Safety of Finerenone in Participants With Heart Failure and Left Ventricular Ejection Fraction (Proportion of Blood Expelled Per Heart Stroke) Greater or Equal to 40%",
+      "conditions": [
+        "Heart Failure"
+      ],
+      "interventions": [
+        "Finerenone (BAY94-8862)",
+        "Placebo"
+      ]
+    },
+    {
+      "nctId": "NCT04461041",
+      "title": "Empagliflozin and Cardiac Remodelling in People Without Diabetes",
+      "conditions": [
+        "Cardiovascular Diseases",
+        "Left Ventricular Hypertrophy"
+      ],
+      "interventions": [
+        "Empagliflozin",
+        "Placebo"
+      ]
+    },
+    {
+      "nctId": "NCT04515849",
+      "title": "A Study of Cotadutide in Participants Who Have Chronic Kidney Disease With Type 2 Diabetes Mellitus",
+      "conditions": [
+        "Type 2 Diabetes Mellitus",
+        "Chronic Kidney Diseases"
+      ],
+      "interventions": [
+        "Cotadutide 100 micrograms",
+        "Cotadutide 300 micrograms",
+        "Cotadutide 600 micrograms",
+        "Semaglutide",
+        "Placebo"
+      ]
+    },
+    {
+      "nctId": "NCT04662723",
+      "title": "Multicentre Clinical Study to Evaluate the Effect of Personalized Therapy on Patients With Immunoglobulin A Nephropathy.",
+      "conditions": [
+        "Glomerulonephritis",
+        "Immunoglobulin A Nephropathy"
+      ],
+      "interventions": [
+        "Corticosteroid",
+        "Renin-angiotensin sytem blockers",
+        "Sodium-glucose cotransporter 2 inhibitor"
+      ]
+    },
+    {
+      "nctId": "NCT04741074",
+      "title": "Effect of Subcutaneous Semaglutide on Kidney Transplant Candidacy",
+      "conditions": [
+        "CKD",
+        "Diabetic Kidney Disease",
+        "Type 2 Diabetes Mellitus in Obese",
+        "Obesity",
+        "Severe Obesity"
+      ],
+      "interventions": [
+        "Semaglutide 2 mg/1.5 ml (1.34 mg/ml), prefilled pen-injector for subcutaneous injection solution",
+        "Placebo 1.5 ml, prefilled pen-injector for subcutaneous injection solution"
+      ]
+    },
+    {
+      "nctId": "NCT04770389",
+      "title": "Randomized Study of Obicetrapib in Combination With Ezetimibe",
+      "conditions": [
+        "Dyslipidemias",
+        "High Cholesterol",
+        "Hypercholesterolemia"
+      ],
+      "interventions": [
+        "Obicetrapib 5mg",
+        "Ezetimibe 10mg",
+        "Placebo"
+      ]
+    },
+    {
+      "nctId": "NCT04847557",
+      "title": "A Study of Tirzepatide (LY3298176) in Participants With Heart Failure With Preserved Ejection Fraction (HFpEF) and Obesity: The SUMMIT Trial",
+      "conditions": [
+        "Obesity",
+        "Heart Failure With Preserved Ejection Fraction (HFpEF)"
+      ],
+      "interventions": [
+        "Tirzepatide",
+        "Placebo"
+      ]
+    },
+    {
+      "nctId": "NCT04865770",
+      "title": "A Research Study to Find Out How Semaglutide Works in the Kidneys Compared to Placebo, in People With Type 2 Diabetes and Chronic Kidney Disease (the REMODEL Trial)",
+      "conditions": [
+        "Diabetes Mellitus, Type 2",
+        "Chronic Kidney Disease"
+      ],
+      "interventions": [
+        "Semaglutide",
+        "Placebo (Semaglutide)"
+      ]
+    },
+    {
+      "nctId": "NCT05142722",
+      "title": "Randomized Study to Evaluate the Effect of Obicetrapib on Top of Maximum Tolerated Lipid-Modifying Therapies",
+      "conditions": [
+        "Dyslipidemias",
+        "High Cholesterol",
+        "Hypercholesterolemia",
+        "Familial Hypercholesterolemia",
+        "Atherosclerotic Cardiovascular Disease"
+      ],
+      "interventions": [
+        "Placebo",
+        "Obicetrapib"
+      ]
+    },
+    {
+      "nctId": "NCT05202509",
+      "title": "Cardiovascular Outcome Study to Evaluate the Effect of Obicetrapib in Patients With Cardiovascular Disease",
+      "conditions": [
+        "Atherosclerotic Cardiovascular Disease"
+      ],
+      "interventions": [
+        "Obicetrapib",
+        "Placebo"
+      ]
+    },
+    {
+      "nctId": "NCT05359263",
+      "title": "Effects of Dapagliflozin on EChOcardiographic Measures of CarDiac StructurE and Function in Patients with CKD",
+      "conditions": [
+        "Chronic Kidney Diseases"
+      ],
+      "interventions": [
+        "Dapagliflozin 10 mg",
+        "Placebo"
+      ]
+    },
+    {
+      "nctId": "NCT05371496",
+      "title": "Cardiac and Metabolic Effects of Semaglutide in Heart Failure With Preserved Ejection Fraction",
+      "conditions": [
+        "Cardiomyopathy",
+        "Heart Failure With Preserved Ejection Fraction (HFpEF)",
+        "Obesity"
+      ],
+      "interventions": [
+        "Semaglutide",
+        "Placebo",
+        "Counselling on healthy lifestyle intervention"
+      ]
+    },
+    {
+      "nctId": "NCT05374291",
+      "title": "The RENAL LIFECYCLE Trial: A RCT to Assess the Effect of Dapagliflozin on Renal and Cardiovascular Outcomes in Patients With Severe CKD",
+      "conditions": [
+        "Kidney Disease, Chronic",
+        "Renal Transplant Failure",
+        "Heart Failure",
+        "Kidney Failure",
+        "Death"
+      ],
+      "interventions": [
+        "Dapagliflozin 10 mg/day (oral)",
+        "Placebo"
+      ]
+    },
+    {
+      "nctId": "NCT05394519",
+      "title": "A Research Study to See How Well CagriSema Helps People With Type 2 Diabetes and Excess Body Weight Lose Weight",
+      "conditions": [
+        "Overweight",
+        "Obesity",
+        "Type 2 Diabetes Mellitus"
+      ],
+      "interventions": [
+        "Cagrilintide",
+        "Semaglutide",
+        "Placebo cagrilintide",
+        "Placebo semaglutide"
+      ]
+    },
+    {
+      "nctId": "NCT05425745",
+      "title": "Evaluate the Effect of Obicetrapib in Patients With HeFH on Top of Maximum Tolerated Lipid-Modifying Therapies.",
+      "conditions": [
+        "Dyslipidemias",
+        "High Cholesterol",
+        "Hypercholesterolemia",
+        "Familial Hypercholesterolemia",
+        "Lipid Metabolism Disorder",
+        "Metabolic Disease",
+        "Lipid Metabolism, Inborn Errors",
+        "Genetic Disease, Inborn",
+        "Hyperlipoproteinemias"
+      ],
+      "interventions": [
+        "Obicetrapib",
+        "Placebo"
+      ]
+    },
+    {
+      "nctId": "NCT05486065",
+      "title": "A Research Study to Look Into How Well Semaglutide Medicine Works at Different Doses in People With Type 2 Diabetes and Overweight",
+      "conditions": [
+        "Diabetes Mellitus, Type 2"
+      ],
+      "interventions": [
+        "Semaglutide",
+        "Placebo"
+      ]
+    },
+    {
+      "nctId": "NCT05510115",
+      "title": "Feasibility of Study of Empagliflozin in Patients With Autosomal Dominant Polycystic Kidney Disease",
+      "conditions": [
+        "Polycystic Kidney, Autosomal Dominant"
+      ],
+      "interventions": [
+        "Empagliflozin",
+        "Placebo"
+      ]
+    },
+    {
+      "nctId": "NCT05536804",
+      "title": "A Study of Tirzepatide (LY3298176) in Participants With Overweight or Obesity and Chronic Kidney Disease With or Without Type 2 Diabetes",
+      "conditions": [
+        "Overweight",
+        "Obesity",
+        "Chronic Kidney Disease",
+        "Type 2 Diabetes",
+        "T2D"
+      ],
+      "interventions": [
+        "Tirzepatide",
+        "Placebo"
+      ]
+    },
+    {
+      "nctId": "NCT05567796",
+      "title": "A Research Study to See How Well CagriSema Helps People With Excess Body Weight Lose Weight",
+      "conditions": [
+        "Obesity"
+      ],
+      "interventions": [
+        "Cagrilintide",
+        "Semaglutide",
+        "Placebo cagrilintide",
+        "Placebo semaglutide"
+      ]
+    },
+    {
+      "nctId": "NCT05669755",
+      "title": "REDEFINE 3: A Research Study to See the Effects of CagriSema in People Living With Diseases in the Heart and Blood Vessels",
+      "conditions": [
+        "Cardiovascular Disease"
+      ],
+      "interventions": [
+        "Cagrilintide",
+        "Semaglutide",
+        "Placebo"
+      ]
+    },
+    {
+      "nctId": "NCT05996848",
+      "title": "A Research Study to See How Well CagriSema Helps People in China With Excess Body Weight Lose Weight",
+      "conditions": [
+        "Obesity or Overweight"
+      ],
+      "interventions": [
+        "Cagrilintide",
+        "Semaglutide",
+        "Placebo Semaglutide",
+        "Placebo Cagrilintide"
+      ]
+    },
+    {
+      "nctId": "NCT06024746",
+      "title": "A Study to Determine the Efficacy and Safety of Finerenone and SGLT2i in Combination in Hospitalized Patients with Heart Failure (CONFIRMATION-HF)",
+      "conditions": [
+        "Heart Failure"
+      ],
+      "interventions": [
+        "Finerenone",
+        "Empagliflozin"
+      ]
+    },
+    {
+      "nctId": "NCT06065540",
+      "title": "A Research Study to See How Well CagriSema Compared to Semaglutide, Cagrilintide and Placebo Lowers Blood Sugar and Body Weight in People With Type 2 Diabetes Treated With Metformin With or Without an SGLT2 Inhibitor",
+      "conditions": [
+        "Type 2 Diabetes Mellitus"
+      ],
+      "interventions": [
+        "Cagrilintide",
+        "Semaglutide",
+        "Placebo cagrilintide",
+        "Placebo semaglutide"
+      ]
+    },
+    {
+      "nctId": "NCT06131437",
+      "title": "A Research Study to See How Well CagriSema Compared to Tirzepatide Helps People With Obesity Lose Weight",
+      "conditions": [
+        "Obesity"
+      ],
+      "interventions": [
+        "Cagrilintide",
+        "Semaglutide",
+        "Tirzepatide"
+      ]
+    },
+    {
+      "nctId": "NCT06182891",
+      "title": "Renoprotective Effects of Dulaglutide in Patients With Type 2 Diabetic Nephropathy",
+      "conditions": [
+        "Type 2 Diabetic Nephropathy"
+      ],
+      "interventions": [
+        "Dulaglutide Injection"
+      ]
+    },
+    {
+      "nctId": "NCT06260722",
+      "title": "Effect of Retatrutide Compared With Semaglutide in Adult Participants With Type 2 Diabetes and Inadequate Glycemic Control With Metformin With or Without SGLT2 Inhibitor (TRANSCEND-T2D-2)",
+      "conditions": [
+        "Diabetes Mellitus, Type 2"
+      ],
+      "interventions": [
+        "Retatrutide",
+        "Semaglutide"
+      ]
+    },
+    {
+      "nctId": "NCT06555146",
+      "title": "Semaglutide's Effect on Renal Hemodynamics and Function in Patients With Type 2 Diabetes Mellitus and Nephropathy",
+      "conditions": [
+        "Diabetes Mellitus, Type 2",
+        "Kidney Disease, Chronic"
+      ],
+      "interventions": [
+        "Semaglutide, 0.5 mg/mL",
+        "Placebo, Saline"
+      ]
+    },
+    {
+      "nctId": "NCT06858878",
+      "title": "Efficacy and Safety of Maridebart Cafraglutide in Adult Participants With Type 2 Diabetes Mellitus Who Have Obesity or Are Overweight",
+      "conditions": [
+        "Type 2 Diabetes Mellitus (T2DM), Obesity, Overweight"
+      ],
+      "interventions": [
+        "Maridebart cafraglutide",
+        "Placebo"
+      ]
+    }
+  ]
+}

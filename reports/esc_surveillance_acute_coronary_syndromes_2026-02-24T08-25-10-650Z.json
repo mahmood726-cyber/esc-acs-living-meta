@@ -1,0 +1,308 @@
+{
+  "generatedAt": "2026-02-24T08:25:16.828Z",
+  "areaKey": "acute_coronary_syndromes",
+  "guidelineProfile": "cardiology",
+  "strategy": {
+    "id": "strat_1771921515244_wg241edsx",
+    "name": "ESC acute_coronary_syndromes surveillance",
+    "created": "2026-02-24T08:25:15.245Z",
+    "lastRun": null,
+    "guidelineProfile": "cardiology",
+    "sources": [
+      "aact"
+    ],
+    "searchObjective": "balanced",
+    "queries": {
+      "pubmed": null,
+      "ctgov": null,
+      "embase": null,
+      "cochrane": null,
+      "aact": {
+        "guidelineProfile": "cardiology",
+        "guidelineArea": "acute_coronary_syndromes",
+        "maxResults": 300
+      }
+    },
+    "ctgovStrategy": {
+      "mode": "single",
+      "primaryStrategyId": "S3",
+      "strategyIds": [
+        "S3"
+      ],
+      "strategyEvidence": [
+        {
+          "strategyId": "S3",
+          "preset": "Randomized Allocation Only",
+          "meanRecallPct": 99,
+          "minRecallPct": 85.7,
+          "retentionPct": 54
+        },
+        {
+          "strategyId": "S6",
+          "preset": "Completed Status",
+          "meanRecallPct": 85.4,
+          "minRecallPct": 50,
+          "retentionPct": 55
+        },
+        {
+          "strategyId": "S10",
+          "preset": "Treatment RCTs Only",
+          "meanRecallPct": 84.8,
+          "minRecallPct": 0,
+          "retentionPct": 36
+        }
+      ],
+      "strategyRationale": [
+        "Objective \"balanced\" selected default strategy bundle."
+      ],
+      "includeStatusFilter": true
+    },
+    "infrastructure": {
+      "aactGatewayUrl": "http://127.0.0.1:8787/aact/query",
+      "embaseApiKey": null
+    },
+    "filters": {
+      "dateRange": {
+        "from": null,
+        "to": null
+      },
+      "studyTypes": [
+        "RCT"
+      ],
+      "languages": [
+        "en"
+      ],
+      "humans": true,
+      "ctgovStatuses": [
+        "COMPLETED",
+        "ACTIVE_NOT_RECRUITING",
+        "RECRUITING"
+      ]
+    },
+    "inclusionCriteria": {
+      "requiredKeywords": [
+        "acute coronary syndrome",
+        "myocardial infarction"
+      ],
+      "preferredKeywords": [
+        "stemi",
+        "nstemi",
+        "unstable angina",
+        "heart attack",
+        "randomized",
+        "trial",
+        "double blind"
+      ],
+      "exclusionKeywords": [
+        "protocol",
+        "retrospective",
+        "animal",
+        "in vitro"
+      ],
+      "acceptedDesigns": [
+        "RCT",
+        "Observational"
+      ]
+    },
+    "qualityTargets": {
+      "minCtgovRecallPct": 90,
+      "requireAACTForFinalReview": true,
+      "requireAACTIncrementalCapture": false,
+      "minAACTIncrementalNcts": 1,
+      "enforceLandmarkCoverage": true,
+      "minLandmarkCoveragePct": 70,
+      "landmarkGuidelineAreas": [
+        "acute_coronary_syndromes"
+      ],
+      "minSourcesForHighConfidence": 2
+    },
+    "schedule": {
+      "enabled": false,
+      "interval": "weekly",
+      "lastCheck": null,
+      "nextCheck": null
+    },
+    "stats": {
+      "totalRuns": 0,
+      "totalFound": 0,
+      "totalIncluded": 0,
+      "totalExcluded": 0
+    }
+  },
+  "results": {
+    "timestamp": "2026-02-24T08:25:15.245Z",
+    "strategyId": "strat_1771921515244_wg241edsx",
+    "guidelineProfile": "cardiology",
+    "sources": {
+      "aact": {
+        "count": 0,
+        "retrieved": 0,
+        "requiresGateway": false,
+        "error": "AACT gateway request failed: 500",
+        "guidelineProfile": "cardiology",
+        "termsUsed": [
+          "acute coronary syndrome",
+          "myocardial infarction",
+          "stemi",
+          "nstemi",
+          "unstable angina",
+          "heart attack"
+        ],
+        "nctIds": [],
+        "landmarkVerification": {
+          "requested": 13,
+          "found": 0,
+          "coveragePct": 0,
+          "missingNctIds": [
+            "NCT00391872",
+            "NCT00528411",
+            "NCT01187134",
+            "NCT02548650",
+            "NCT03234114",
+            "NCT01305993",
+            "NCT02079636",
+            "NCT01764633",
+            "NCT01663402",
+            "NCT00469729",
+            "NCT00127517",
+            "NCT00428961",
+            "NCT00610532"
+          ]
+        },
+        "gatewayUrl": "http://127.0.0.1:8787/aact/query"
+      }
+    },
+    "newStudies": [],
+    "duplicates": [],
+    "excluded": [],
+    "summary": {
+      "totalFound": 0,
+      "newPotentialInclusions": 0,
+      "newMaybes": 0,
+      "duplicatesDetected": 0,
+      "autoExcluded": 0,
+      "trialUniverseWithoutPICO": 0,
+      "trialUniverseWithPICO": 0,
+      "trialUniverseRetainedPct": 0
+    },
+    "trialUniverse": {
+      "decision": "FLAG",
+      "withoutPICO": {
+        "totalStudies": 0,
+        "uniqueNctCount": 0,
+        "studyIds": [],
+        "duplicateCount": 0,
+        "duplicateStudyIds": []
+      },
+      "withPICO": {
+        "totalStudies": 0,
+        "includeCount": 0,
+        "maybeCount": 0,
+        "excludeCount": 0,
+        "studyIds": [],
+        "includeStudyIds": [],
+        "maybeStudyIds": [],
+        "excludeStudyIds": []
+      },
+      "comparison": {
+        "removedByPICO": 0,
+        "retainedPct": 0,
+        "excludedPct": 100
+      }
+    },
+    "landmarkCoverage": {
+      "decision": "FLAG",
+      "guidelineProfile": "cardiology",
+      "overallCoveragePct": 0,
+      "totalExpected": 13,
+      "totalFound": 0,
+      "minCoveragePct": 70,
+      "areas": {
+        "acute_coronary_syndromes": {
+          "expected": 13,
+          "found": 0,
+          "missing": 13,
+          "coveragePct": 0,
+          "foundNctIds": [],
+          "missingNctIds": [
+            "NCT00391872",
+            "NCT00528411",
+            "NCT01187134",
+            "NCT02548650",
+            "NCT03234114",
+            "NCT01305993",
+            "NCT02079636",
+            "NCT01764633",
+            "NCT01663402",
+            "NCT00469729",
+            "NCT00127517",
+            "NCT00428961",
+            "NCT00610532"
+          ]
+        }
+      }
+    },
+    "robustness": {
+      "decision": "FLAG",
+      "score": 42.9,
+      "metrics": {
+        "aactIncrementalNctCount": 0,
+        "knownGapRecovered": 0,
+        "knownGapRecoveryPct": 0,
+        "landmarkCoveragePct": 0,
+        "picoRetentionPct": 0,
+        "trialUniverseCount": 0
+      },
+      "checks": [
+        {
+          "id": "source_coverage",
+          "label": "Required source coverage",
+          "pass": false,
+          "value": 0
+        },
+        {
+          "id": "ctgov_strategy_depth",
+          "label": "CT.gov strategy depth",
+          "pass": false,
+          "value": 0
+        },
+        {
+          "id": "ctgov_error_free",
+          "label": "CT.gov execution without errors",
+          "pass": true,
+          "value": 1
+        },
+        {
+          "id": "aact_available",
+          "label": "AACT availability",
+          "pass": false,
+          "value": 0
+        },
+        {
+          "id": "aact_incremental_capture",
+          "label": "AACT incremental capture over CT.gov",
+          "pass": true,
+          "value": 0
+        },
+        {
+          "id": "landmark_coverage",
+          "label": "ESC landmark coverage",
+          "pass": false,
+          "value": 0
+        },
+        {
+          "id": "trial_universe_pico",
+          "label": "Trial universe with and without PICO",
+          "pass": true,
+          "value": 0
+        }
+      ],
+      "actionItems": [
+        "Run missing required sources: aact",
+        "Increase CT.gov strategy set to at least 1 presets (recommended: S1+S3+S10).",
+        "Configure a secure AACT SQL gateway and rerun surveillance.",
+        "Landmark trial coverage is 0.0%, below required 70.0%."
+      ]
+    }
+  }
+}

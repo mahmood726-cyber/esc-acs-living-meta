@@ -1,0 +1,13 @@
+{
+  "primaryReviewers": [
+    "reviewer1",
+    "reviewer2"
+  ],
+  "protocolRegistrationId": "",
+  "protocolUrl": "",
+  "dataAvailabilityStatement": "",
+  "dataAvailabilityUrl": "",
+  "prismaChecklistUrl": "",
+  "searchStrategyAppendixUrl": "",
+  "screeningLogPath": "reports/plos_one_screening_log.csv"
+}

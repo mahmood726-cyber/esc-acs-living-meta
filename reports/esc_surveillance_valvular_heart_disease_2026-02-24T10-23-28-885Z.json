@@ -1,0 +1,2090 @@
+{
+  "generatedAt": "2026-02-24T10:24:42.238Z",
+  "areaKey": "valvular_heart_disease",
+  "guidelineProfile": "cardiology",
+  "strategy": {
+    "id": "strat_1771928675291_m2f4yvfnf",
+    "name": "ESC valvular_heart_disease surveillance",
+    "created": "2026-02-24T10:24:35.291Z",
+    "lastRun": null,
+    "guidelineProfile": "cardiology",
+    "sources": [
+      "aact"
+    ],
+    "searchObjective": "balanced",
+    "queries": {
+      "pubmed": null,
+      "ctgov": null,
+      "embase": null,
+      "cochrane": null,
+      "aact": {
+        "guidelineProfile": "cardiology",
+        "guidelineArea": "valvular_heart_disease",
+        "condition": "aortic stenosis",
+        "useAreaTerms": false,
+        "completedOnly": true,
+        "status": [
+          "COMPLETED"
+        ],
+        "maxResults": 80
+      }
+    },
+    "ctgovStrategy": {
+      "mode": "single",
+      "primaryStrategyId": "S3",
+      "strategyIds": [
+        "S3"
+      ],
+      "strategyEvidence": [
+        {
+          "strategyId": "S3",
+          "preset": "Randomized Allocation Only",
+          "meanRecallPct": 99,
+          "minRecallPct": 85.7,
+          "retentionPct": 54
+        },
+        {
+          "strategyId": "S6",
+          "preset": "Completed Status",
+          "meanRecallPct": 85.4,
+          "minRecallPct": 50,
+          "retentionPct": 55
+        },
+        {
+          "strategyId": "S10",
+          "preset": "Treatment RCTs Only",
+          "meanRecallPct": 84.8,
+          "minRecallPct": 0,
+          "retentionPct": 36
+        }
+      ],
+      "strategyRationale": [
+        "Objective \"balanced\" selected default strategy bundle."
+      ],
+      "includeStatusFilter": true
+    },
+    "infrastructure": {
+      "aactGatewayUrl": "http://127.0.0.1:8787/aact/query",
+      "embaseApiKey": null
+    },
+    "filters": {
+      "dateRange": {
+        "from": null,
+        "to": null
+      },
+      "studyTypes": [
+        "RCT"
+      ],
+      "languages": [
+        "en"
+      ],
+      "humans": true,
+      "ctgovStatuses": [
+        "COMPLETED",
+        "ACTIVE_NOT_RECRUITING",
+        "RECRUITING"
+      ]
+    },
+    "inclusionCriteria": {
+      "requiredKeywords": [
+        "aortic stenosis",
+        "aortic regurgitation"
+      ],
+      "preferredKeywords": [
+        "mitral regurgitation",
+        "mitral stenosis",
+        "tricuspid regurgitation",
+        "valvular heart disease",
+        "randomized",
+        "trial",
+        "double blind"
+      ],
+      "exclusionKeywords": [
+        "protocol",
+        "retrospective",
+        "animal",
+        "in vitro"
+      ],
+      "acceptedDesigns": [
+        "RCT",
+        "Observational"
+      ]
+    },
+    "qualityTargets": {
+      "minCtgovRecallPct": 90,
+      "requireAACTForFinalReview": true,
+      "requireAACTIncrementalCapture": false,
+      "minAACTIncrementalNcts": 1,
+      "enforceLandmarkCoverage": true,
+      "minLandmarkCoveragePct": 70,
+      "landmarkGuidelineAreas": [
+        "valvular_heart_disease"
+      ],
+      "minSourcesForHighConfidence": 2
+    },
+    "schedule": {
+      "enabled": false,
+      "interval": "weekly",
+      "lastCheck": null,
+      "nextCheck": null
+    },
+    "stats": {
+      "totalRuns": 0,
+      "totalFound": 0,
+      "totalIncluded": 0,
+      "totalExcluded": 0
+    }
+  },
+  "results": {
+    "timestamp": "2026-02-24T10:24:35.291Z",
+    "strategyId": "strat_1771928675291_m2f4yvfnf",
+    "guidelineProfile": "cardiology",
+    "sources": {
+      "aact": {
+        "count": 48,
+        "retrieved": 48,
+        "requiresGateway": false,
+        "error": null,
+        "guidelineProfile": "cardiology",
+        "termsUsed": [
+          "aortic stenosis"
+        ],
+        "nctIds": [
+          "NCT00092677",
+          "NCT00348920",
+          "NCT00530894",
+          "NCT00788242",
+          "NCT00800800",
+          "NCT01144039",
+          "NCT01161732",
+          "NCT01187329",
+          "NCT01240902",
+          "NCT01314313",
+          "NCT01404975",
+          "NCT01539746",
+          "NCT01645202",
+          "NCT01651780",
+          "NCT01672268",
+          "NCT01755338",
+          "NCT01994330",
+          "NCT02053818",
+          "NCT02076711",
+          "NCT02132026",
+          "NCT02184442",
+          "NCT02389894",
+          "NCT02390102",
+          "NCT02436655",
+          "NCT02486367",
+          "NCT02536196",
+          "NCT02597985",
+          "NCT02664649",
+          "NCT02672553",
+          "NCT02688153",
+          "NCT02921880",
+          "NCT03088098",
+          "NCT03424941",
+          "NCT03666351",
+          "NCT03831087",
+          "NCT04466787",
+          "NCT04696185",
+          "NCT04996693",
+          "NCT05625269",
+          "NCT05860452",
+          "NCT05958537",
+          "NCT06121921",
+          "NCT06418555",
+          "NCT00688207",
+          "NCT01057173",
+          "NCT01626079",
+          "NCT02371512",
+          "NCT02675114"
+        ],
+        "landmarkVerification": {
+          "requested": 8,
+          "found": 8,
+          "coveragePct": 100,
+          "missingNctIds": []
+        },
+        "gatewayUrl": "http://127.0.0.1:8787/aact/query"
+      }
+    },
+    "newStudies": [
+      {
+        "nctId": "NCT00092677",
+        "title": "An Investigational Drug on Clinical Outcomes in Patients With Aortic Stenosis (Narrowing of the Major Blood Vessel of the Heart)(MK-0653A-043 AM4)(COMPLETED)",
+        "briefSummary": null,
+        "status": "COMPLETED",
+        "startDate": "2001-01-31",
+        "completionDate": "2008-04-30",
+        "studyType": "INTERVENTIONAL",
+        "phases": [
+          "PHASE3"
+        ],
+        "enrollment": 1873,
+        "allocation": "RANDOMIZED",
+        "primaryPurpose": "TREATMENT",
+        "source": "aact",
+        "retrievedAt": "2026-02-24T10:24:38.743Z",
+        "isDuplicate": false,
+        "classification": "maybe",
+        "relevanceScore": 45,
+        "relevanceReasons": [
+          "Contains 1 required keywords",
+          "Study design may not meet criteria: Unknown"
+        ],
+        "pico": {
+          "population": {
+            "text": null,
+            "confidence": 0,
+            "details": []
+          },
+          "intervention": {
+            "text": null,
+            "confidence": 0,
+            "details": []
+          },
+          "comparator": {
+            "text": null,
+            "confidence": 0,
+            "details": []
+          },
+          "outcomes": [],
+          "studyDesign": {
+            "type": "Unknown",
+            "confidence": 0.3
+          },
+          "sampleSize": null,
+          "followUp": null,
+          "setting": []
+        },
+        "needsReview": true,
+        "processedAt": "2026-02-24T10:24:40.493Z"
+      },
+      {
+        "nctId": "NCT00800800",
+        "title": "Effects of Rosuvastatin on Aortic Stenosis Progression",
+        "briefSummary": null,
+        "status": "COMPLETED",
+        "startDate": "2002-11-30",
+        "completionDate": "2008-09-30",
+        "studyType": "INTERVENTIONAL",
+        "phases": [
+          "PHASE3"
+        ],
+        "enrollment": 378,
+        "allocation": "RANDOMIZED",
+        "primaryPurpose": "TREATMENT",
+        "source": "aact",
+        "retrievedAt": "2026-02-24T10:24:38.743Z",
+        "isDuplicate": false,
+        "classification": "maybe",
+        "relevanceScore": 45,
+        "relevanceReasons": [
+          "Contains 1 required keywords",
+          "Study design may not meet criteria: Unknown"
+        ],
+        "pico": {
+          "population": {
+            "text": null,
+            "confidence": 0,
+            "details": []
+          },
+          "intervention": {
+            "text": "Rosuvastatin",
+            "confidence": 0.9,
+            "type": "known_drug",
+            "details": [
+              {
+                "text": "Rosuvastatin",
+                "context": "Effects of Rosuvastatin on Aortic Stenosis Progression",
+                "type": "known_drug",
+                "confidence": 0.9
+              }
+            ]
+          },
+          "comparator": {
+            "text": null,
+            "confidence": 0,
+            "details": []
+          },
+          "outcomes": [],
+          "studyDesign": {
+            "type": "Unknown",
+            "confidence": 0.3
+          },
+          "sampleSize": null,
+          "followUp": null,
+          "setting": []
+        },
+        "needsReview": true,
+        "processedAt": "2026-02-24T10:24:40.495Z"
+      },
+      {
+        "nctId": "NCT01161732",
+        "title": "Early Surgery Versus Conventional Treatment in Very Severe Aortic Stenosis",
+        "briefSummary": null,
+        "status": "COMPLETED",
+        "startDate": "2010-07-31",
+        "completionDate": "2025-05-30",
+        "studyType": "INTERVENTIONAL",
+        "phases": [
+          "NA"
+        ],
+        "enrollment": 145,
+        "allocation": "RANDOMIZED",
+        "primaryPurpose": "TREATMENT",
+        "source": "aact",
+        "retrievedAt": "2026-02-24T10:24:38.743Z",
+        "isDuplicate": false,
+        "classification": "maybe",
+        "relevanceScore": 45,
+        "relevanceReasons": [
+          "Contains 1 required keywords",
+          "Study design may not meet criteria: Unknown"
+        ],
+        "pico": {
+          "population": {
+            "text": null,
+            "confidence": 0,
+            "details": []
+          },
+          "intervention": {
+            "text": "Treatment in Very Severe Aortic Stenosis",
+            "confidence": 0.85,
+            "type": "drug_with_dose",
+            "details": [
+              {
+                "text": "Treatment in Very Severe Aortic Stenosis",
+                "type": "drug_with_dose",
+                "confidence": 0.85
+              }
+            ]
+          },
+          "comparator": {
+            "text": "Conventional Treatment",
+            "confidence": 0.8,
+            "type": "comparator",
+            "details": [
+              {
+                "text": "Conventional Treatment",
+                "type": "comparator",
+                "confidence": 0.8
+              }
+            ]
+          },
+          "outcomes": [],
+          "studyDesign": {
+            "type": "Unknown",
+            "confidence": 0.3
+          },
+          "sampleSize": null,
+          "followUp": null,
+          "setting": [
+            {
+              "type": "country",
+              "value": "us"
+            }
+          ]
+        },
+        "needsReview": true,
+        "processedAt": "2026-02-24T10:24:40.499Z"
+      },
+      {
+        "nctId": "NCT01240902",
+        "title": "Safety and Efficacy Study of the Medtronic CoreValve® System in the Treatment of Symptomatic Severe Aortic Stenosis in High Risk and Very High Risk Subjects Who Need Aortic Valve Replacement",
+        "briefSummary": null,
+        "status": "COMPLETED",
+        "startDate": "2010-12-10",
+        "completionDate": "2019-05-15",
+        "studyType": "INTERVENTIONAL",
+        "phases": [
+          "NA"
+        ],
+        "enrollment": 1453,
+        "allocation": "RANDOMIZED",
+        "primaryPurpose": "TREATMENT",
+        "source": "aact",
+        "retrievedAt": "2026-02-24T10:24:38.743Z",
+        "isDuplicate": false,
+        "classification": "maybe",
+        "relevanceScore": 45,
+        "relevanceReasons": [
+          "Contains 1 required keywords",
+          "Study design may not meet criteria: Unknown"
+        ],
+        "pico": {
+          "population": {
+            "text": null,
+            "confidence": 0,
+            "details": []
+          },
+          "intervention": {
+            "text": "Treatment of Symptomatic Severe Aortic Stenosis in High Risk and Very High Risk Subjects Who Need Aortic Valve Replacement",
+            "confidence": 0.85,
+            "type": "drug_with_dose",
+            "details": [
+              {
+                "text": "Treatment of Symptomatic Severe Aortic Stenosis in High Risk and Very High Risk Subjects Who Need Aortic Valve Replacement",
+                "type": "drug_with_dose",
+                "confidence": 0.85
+              }
+            ]
+          },
+          "comparator": {
+            "text": null,
+            "confidence": 0,
+            "details": []
+          },
+          "outcomes": [],
+          "studyDesign": {
+            "type": "Unknown",
+            "confidence": 0.3
+          },
+          "sampleSize": null,
+          "followUp": null,
+          "setting": []
+        },
+        "needsReview": true,
+        "processedAt": "2026-02-24T10:24:40.505Z"
+      },
+      {
+        "nctId": "NCT01645202",
+        "title": "A Comparison of Transcatheter Heart Valves in High Risk Patients With Severe Aortic Stenosis: The CHOICE Trial",
+        "briefSummary": null,
+        "status": "COMPLETED",
+        "startDate": "2012-03-31",
+        "completionDate": "2018-12-31",
+        "studyType": "INTERVENTIONAL",
+        "phases": [
+          "NA"
+        ],
+        "enrollment": 241,
+        "allocation": "RANDOMIZED",
+        "primaryPurpose": "TREATMENT",
+        "source": "aact",
+        "retrievedAt": "2026-02-24T10:24:38.743Z",
+        "isDuplicate": false,
+        "classification": "maybe",
+        "relevanceScore": 50,
+        "relevanceReasons": [
+          "Contains 1 required keywords",
+          "Contains 1 preferred keywords",
+          "Study design may not meet criteria: Unknown"
+        ],
+        "pico": {
+          "population": {
+            "text": null,
+            "confidence": 0,
+            "details": []
+          },
+          "intervention": {
+            "text": null,
+            "confidence": 0,
+            "details": []
+          },
+          "comparator": {
+            "text": "of Transcatheter Heart Valves in High Risk Patients With Severe Aortic Stenosis: The CHOICE Trial",
+            "confidence": 0.8,
+            "type": "comparator",
+            "details": [
+              {
+                "text": "of Transcatheter Heart Valves in High Risk Patients With Severe Aortic Stenosis: The CHOICE Trial",
+                "type": "comparator",
+                "confidence": 0.8
+              }
+            ]
+          },
+          "outcomes": [],
+          "studyDesign": {
+            "type": "Unknown",
+            "confidence": 0.3
+          },
+          "sampleSize": null,
+          "followUp": null,
+          "setting": []
+        },
+        "needsReview": true,
+        "processedAt": "2026-02-24T10:24:40.518Z"
+      },
+      {
+        "nctId": "NCT01994330",
+        "title": "Severe Aortic Stenosis and Acquired Von Willebrand´s Disease: The Impact of Desmopressin in Valve-Replacement Surgery",
+        "briefSummary": null,
+        "status": "COMPLETED",
+        "startDate": "2009-06-30",
+        "completionDate": "2010-02-28",
+        "studyType": "INTERVENTIONAL",
+        "phases": [
+          "PHASE4"
+        ],
+        "enrollment": 13,
+        "allocation": "RANDOMIZED",
+        "primaryPurpose": "TREATMENT",
+        "source": "aact",
+        "retrievedAt": "2026-02-24T10:24:38.743Z",
+        "isDuplicate": false,
+        "classification": "maybe",
+        "relevanceScore": 45,
+        "relevanceReasons": [
+          "Contains 1 required keywords",
+          "Study design may not meet criteria: Unknown"
+        ],
+        "pico": {
+          "population": {
+            "text": null,
+            "confidence": 0,
+            "details": []
+          },
+          "intervention": {
+            "text": null,
+            "confidence": 0,
+            "details": []
+          },
+          "comparator": {
+            "text": null,
+            "confidence": 0,
+            "details": []
+          },
+          "outcomes": [],
+          "studyDesign": {
+            "type": "Unknown",
+            "confidence": 0.3
+          },
+          "sampleSize": null,
+          "followUp": null,
+          "setting": []
+        },
+        "needsReview": true,
+        "processedAt": "2026-02-24T10:24:40.563Z"
+      },
+      {
+        "nctId": "NCT02132026",
+        "title": "Study Investigating the Effect of Drugs Used to Treat Osteoporosis on the Progression of Calcific Aortic Stenosis.",
+        "briefSummary": null,
+        "status": "COMPLETED",
+        "startDate": "2014-11-12",
+        "completionDate": "2019-11-28",
+        "studyType": "INTERVENTIONAL",
+        "phases": [
+          "PHASE2"
+        ],
+        "enrollment": 152,
+        "allocation": "RANDOMIZED",
+        "primaryPurpose": "TREATMENT",
+        "source": "aact",
+        "retrievedAt": "2026-02-24T10:24:38.743Z",
+        "isDuplicate": false,
+        "classification": "maybe",
+        "relevanceScore": 45,
+        "relevanceReasons": [
+          "Contains 1 required keywords",
+          "Study design may not meet criteria: Unknown"
+        ],
+        "pico": {
+          "population": {
+            "text": null,
+            "confidence": 0,
+            "details": []
+          },
+          "intervention": {
+            "text": null,
+            "confidence": 0,
+            "details": []
+          },
+          "comparator": {
+            "text": null,
+            "confidence": 0,
+            "details": []
+          },
+          "outcomes": [],
+          "studyDesign": {
+            "type": "Unknown",
+            "confidence": 0.3
+          },
+          "sampleSize": null,
+          "followUp": null,
+          "setting": [
+            {
+              "type": "country",
+              "value": "us"
+            }
+          ]
+        },
+        "needsReview": true,
+        "processedAt": "2026-02-24T10:24:40.601Z"
+      },
+      {
+        "nctId": "NCT02436655",
+        "title": "Aortic Valve Replacement Versus Conservative Treatment in Asymptomatic Severe Aortic Stenosis",
+        "briefSummary": null,
+        "status": "COMPLETED",
+        "startDate": "2015-06-30",
+        "completionDate": "2021-05-31",
+        "studyType": "INTERVENTIONAL",
+        "phases": [
+          "NA"
+        ],
+        "enrollment": 157,
+        "allocation": "RANDOMIZED",
+        "primaryPurpose": "TREATMENT",
+        "source": "aact",
+        "retrievedAt": "2026-02-24T10:24:38.743Z",
+        "isDuplicate": false,
+        "classification": "maybe",
+        "relevanceScore": 45,
+        "relevanceReasons": [
+          "Contains 1 required keywords",
+          "Study design may not meet criteria: Unknown"
+        ],
+        "pico": {
+          "population": {
+            "text": null,
+            "confidence": 0,
+            "details": []
+          },
+          "intervention": {
+            "text": "Treatment in Asymptomatic Severe Aortic Stenosis",
+            "confidence": 0.85,
+            "type": "drug_with_dose",
+            "details": [
+              {
+                "text": "Treatment in Asymptomatic Severe Aortic Stenosis",
+                "type": "drug_with_dose",
+                "confidence": 0.85
+              }
+            ]
+          },
+          "comparator": {
+            "text": "Conservative Treatment",
+            "confidence": 0.8,
+            "type": "comparator",
+            "details": [
+              {
+                "text": "Conservative Treatment",
+                "type": "comparator",
+                "confidence": 0.8
+              }
+            ]
+          },
+          "outcomes": [],
+          "studyDesign": {
+            "type": "Unknown",
+            "confidence": 0.3
+          },
+          "sampleSize": null,
+          "followUp": null,
+          "setting": [
+            {
+              "type": "country",
+              "value": "us"
+            }
+          ]
+        },
+        "needsReview": true,
+        "processedAt": "2026-02-24T10:24:40.681Z"
+      },
+      {
+        "nctId": "NCT02486367",
+        "title": "Inflammation and Thrombosis in Patients With Severe Aortic Stenosis After Transcatheter Aortic Valve Replacement (TAVR)",
+        "briefSummary": null,
+        "status": "COMPLETED",
+        "startDate": "2015-06-30",
+        "completionDate": "2019-01-31",
+        "studyType": "INTERVENTIONAL",
+        "phases": [
+          "PHASE4"
+        ],
+        "enrollment": 60,
+        "allocation": "RANDOMIZED",
+        "primaryPurpose": "BASIC_SCIENCE",
+        "source": "aact",
+        "retrievedAt": "2026-02-24T10:24:38.743Z",
+        "isDuplicate": false,
+        "classification": "maybe",
+        "relevanceScore": 45,
+        "relevanceReasons": [
+          "Contains 1 required keywords",
+          "Study design may not meet criteria: Unknown"
+        ],
+        "pico": {
+          "population": {
+            "text": null,
+            "confidence": 0,
+            "details": []
+          },
+          "intervention": {
+            "text": null,
+            "confidence": 0,
+            "details": []
+          },
+          "comparator": {
+            "text": null,
+            "confidence": 0,
+            "details": []
+          },
+          "outcomes": [],
+          "studyDesign": {
+            "type": "Unknown",
+            "confidence": 0.3
+          },
+          "sampleSize": null,
+          "followUp": null,
+          "setting": []
+        },
+        "needsReview": true,
+        "processedAt": "2026-02-24T10:24:40.698Z"
+      },
+      {
+        "nctId": "NCT02597985",
+        "title": "Prehabilitation to Improve Functional and Clinical Outcomes in Patients With Aortic Stenosis",
+        "briefSummary": null,
+        "status": "COMPLETED",
+        "startDate": "2015-10-31",
+        "completionDate": "2019-09-10",
+        "studyType": "INTERVENTIONAL",
+        "phases": [
+          "NA"
+        ],
+        "enrollment": 13,
+        "allocation": "RANDOMIZED",
+        "primaryPurpose": "TREATMENT",
+        "source": "aact",
+        "retrievedAt": "2026-02-24T10:24:38.743Z",
+        "isDuplicate": false,
+        "classification": "maybe",
+        "relevanceScore": 45,
+        "relevanceReasons": [
+          "Contains 1 required keywords",
+          "Study design may not meet criteria: Unknown"
+        ],
+        "pico": {
+          "population": {
+            "text": null,
+            "confidence": 0,
+            "details": []
+          },
+          "intervention": {
+            "text": null,
+            "confidence": 0,
+            "details": []
+          },
+          "comparator": {
+            "text": null,
+            "confidence": 0,
+            "details": []
+          },
+          "outcomes": [],
+          "studyDesign": {
+            "type": "Unknown",
+            "confidence": 0.3
+          },
+          "sampleSize": null,
+          "followUp": null,
+          "setting": []
+        },
+        "needsReview": true,
+        "processedAt": "2026-02-24T10:24:40.796Z"
+      },
+      {
+        "nctId": "NCT02664649",
+        "title": "Anti-Thrombotic Strategy After Trans-Aortic Valve Implantation for Aortic Stenosis",
+        "briefSummary": null,
+        "status": "COMPLETED",
+        "startDate": "2016-08-26",
+        "completionDate": "2020-10-15",
+        "studyType": "INTERVENTIONAL",
+        "phases": [
+          "PHASE3"
+        ],
+        "enrollment": 1510,
+        "allocation": "RANDOMIZED",
+        "primaryPurpose": "TREATMENT",
+        "source": "aact",
+        "retrievedAt": "2026-02-24T10:24:38.743Z",
+        "isDuplicate": false,
+        "classification": "maybe",
+        "relevanceScore": 45,
+        "relevanceReasons": [
+          "Contains 1 required keywords",
+          "Study design may not meet criteria: Unknown"
+        ],
+        "pico": {
+          "population": {
+            "text": null,
+            "confidence": 0,
+            "details": []
+          },
+          "intervention": {
+            "text": null,
+            "confidence": 0,
+            "details": []
+          },
+          "comparator": {
+            "text": null,
+            "confidence": 0,
+            "details": []
+          },
+          "outcomes": [],
+          "studyDesign": {
+            "type": "Unknown",
+            "confidence": 0.3
+          },
+          "sampleSize": null,
+          "followUp": null,
+          "setting": []
+        },
+        "needsReview": true,
+        "processedAt": "2026-02-24T10:24:40.829Z"
+      },
+      {
+        "nctId": "NCT02675114",
+        "title": "PARTNER 3 Trial: Safety and Effectiveness of the SAPIEN 3 Transcatheter Heart Valve in Low Risk Patients With Aortic Stenosis",
+        "briefSummary": null,
+        "status": "ACTIVE_NOT_RECRUITING",
+        "startDate": "2016-03-31",
+        "completionDate": "2029-12-31",
+        "studyType": "INTERVENTIONAL",
+        "phases": [
+          "NA"
+        ],
+        "enrollment": 1000,
+        "allocation": "RANDOMIZED",
+        "primaryPurpose": "TREATMENT",
+        "source": "aact",
+        "retrievedAt": "2026-02-24T10:24:40.492Z",
+        "isDuplicate": false,
+        "classification": "maybe",
+        "relevanceScore": 50,
+        "relevanceReasons": [
+          "Contains 1 required keywords",
+          "Contains 1 preferred keywords",
+          "Study design may not meet criteria: Unknown"
+        ],
+        "pico": {
+          "population": {
+            "text": null,
+            "confidence": 0,
+            "details": []
+          },
+          "intervention": {
+            "text": null,
+            "confidence": 0,
+            "details": []
+          },
+          "comparator": {
+            "text": null,
+            "confidence": 0,
+            "details": []
+          },
+          "outcomes": [],
+          "studyDesign": {
+            "type": "Unknown",
+            "confidence": 0.3
+          },
+          "sampleSize": null,
+          "followUp": null,
+          "setting": []
+        },
+        "needsReview": true,
+        "processedAt": "2026-02-24T10:24:42.219Z"
+      }
+    ],
+    "duplicates": [
+      {
+        "nctId": "NCT01187329",
+        "title": "The Effect of the Hyperinsulinemic Normoglycemic Clamp on Myocardial Function and Utilization of Glucose",
+        "briefSummary": null,
+        "status": "COMPLETED",
+        "startDate": "2010-10-31",
+        "completionDate": "2013-12-31",
+        "studyType": "INTERVENTIONAL",
+        "phases": [
+          "NA"
+        ],
+        "enrollment": 100,
+        "allocation": "RANDOMIZED",
+        "primaryPurpose": "TREATMENT",
+        "source": "aact",
+        "retrievedAt": "2026-02-24T10:24:38.743Z",
+        "isDuplicate": true,
+        "duplicateOf": {
+          "index": 3,
+          "title": "The Effect of Glucose-Insulin-Potassium Infusion in Patients Undergoing Cardiac Surgery"
+        }
+      },
+      {
+        "nctId": "NCT02184442",
+        "title": "The PARTNER II Trial: Placement of AoRTic TraNscathetER Valves - PII B",
+        "briefSummary": null,
+        "status": "COMPLETED",
+        "startDate": "2011-03-09",
+        "completionDate": "2017-05-30",
+        "studyType": "INTERVENTIONAL",
+        "phases": [
+          "NA"
+        ],
+        "enrollment": 560,
+        "allocation": "RANDOMIZED",
+        "primaryPurpose": "TREATMENT",
+        "source": "aact",
+        "retrievedAt": "2026-02-24T10:24:38.743Z",
+        "isDuplicate": true,
+        "duplicateOf": {
+          "index": 2,
+          "title": "THE PARTNER TRIAL: Placement of AoRTic TraNscathetER Valve Trial"
+        }
+      },
+      {
+        "nctId": "NCT02688153",
+        "title": "EDWARDS INTUITY Valve System CADENCE Study",
+        "briefSummary": null,
+        "status": "COMPLETED",
+        "startDate": "2012-10-31",
+        "completionDate": "2016-04-30",
+        "studyType": "INTERVENTIONAL",
+        "phases": [
+          "NA"
+        ],
+        "enrollment": 120,
+        "allocation": "RANDOMIZED",
+        "primaryPurpose": "TREATMENT",
+        "source": "aact",
+        "retrievedAt": "2026-02-24T10:24:38.743Z",
+        "isDuplicate": true,
+        "duplicateOf": {
+          "index": 28,
+          "title": "EDWARDS INTUITY Valve System CADENCE-MIS Study"
+        }
+      },
+      {
+        "nctId": "NCT05625269",
+        "title": "The Effect of Education and Follow-up Program in Patients Undergoing TAVI",
+        "briefSummary": null,
+        "status": "COMPLETED",
+        "startDate": "2022-12-18",
+        "completionDate": "2023-12-15",
+        "studyType": "INTERVENTIONAL",
+        "phases": [
+          "NA"
+        ],
+        "enrollment": 60,
+        "allocation": "RANDOMIZED",
+        "primaryPurpose": "SUPPORTIVE_CARE",
+        "source": "aact",
+        "retrievedAt": "2026-02-24T10:24:38.743Z",
+        "isDuplicate": true,
+        "duplicateOf": {
+          "index": 3,
+          "title": "The Effect of Glucose-Insulin-Potassium Infusion in Patients Undergoing Cardiac Surgery"
+        }
+      }
+    ],
+    "excluded": [
+      {
+        "nctId": "NCT00348920",
+        "title": "The Effects of High Spinal Anesthesia on Heart Function, Stress Response and Pain Control in Aortic Valve Surgery",
+        "briefSummary": null,
+        "status": "COMPLETED",
+        "startDate": "2007-02-28",
+        "completionDate": "2013-07-31",
+        "studyType": "INTERVENTIONAL",
+        "phases": [
+          "NA"
+        ],
+        "enrollment": 14,
+        "allocation": "RANDOMIZED",
+        "primaryPurpose": "PREVENTION",
+        "source": "aact",
+        "retrievedAt": "2026-02-24T10:24:38.743Z",
+        "isDuplicate": false,
+        "classification": "exclude",
+        "relevanceScore": 0,
+        "relevanceReasons": [
+          "Missing required keywords",
+          "Study design may not meet criteria: Unknown"
+        ],
+        "pico": null,
+        "needsReview": false,
+        "processedAt": "2026-02-24T10:24:40.493Z"
+      },
+      {
+        "nctId": "NCT00530894",
+        "title": "THE PARTNER TRIAL: Placement of AoRTic TraNscathetER Valve Trial",
+        "briefSummary": null,
+        "status": "COMPLETED",
+        "startDate": "2007-04-30",
+        "completionDate": "2017-07-31",
+        "studyType": "INTERVENTIONAL",
+        "phases": [
+          "NA"
+        ],
+        "enrollment": 1057,
+        "allocation": "RANDOMIZED",
+        "primaryPurpose": "TREATMENT",
+        "source": "aact",
+        "retrievedAt": "2026-02-24T10:24:38.743Z",
+        "isDuplicate": false,
+        "classification": "exclude",
+        "relevanceScore": 0,
+        "relevanceReasons": [
+          "Missing required keywords",
+          "Contains 1 preferred keywords",
+          "Study design may not meet criteria: Unknown"
+        ],
+        "pico": null,
+        "needsReview": false,
+        "processedAt": "2026-02-24T10:24:40.494Z"
+      },
+      {
+        "nctId": "NCT00788242",
+        "title": "The Effect of Glucose-Insulin-Potassium Infusion in Patients Undergoing Cardiac Surgery",
+        "briefSummary": null,
+        "status": "COMPLETED",
+        "startDate": "2009-01-31",
+        "completionDate": "2013-12-31",
+        "studyType": "INTERVENTIONAL",
+        "phases": [
+          "NA"
+        ],
+        "enrollment": 200,
+        "allocation": "RANDOMIZED",
+        "primaryPurpose": "TREATMENT",
+        "source": "aact",
+        "retrievedAt": "2026-02-24T10:24:38.743Z",
+        "isDuplicate": false,
+        "classification": "exclude",
+        "relevanceScore": 0,
+        "relevanceReasons": [
+          "Missing required keywords",
+          "Study design may not meet criteria: Unknown"
+        ],
+        "pico": null,
+        "needsReview": false,
+        "processedAt": "2026-02-24T10:24:40.494Z"
+      },
+      {
+        "nctId": "NCT01144039",
+        "title": "Glutamate and Diastolic Function in Patients Undergoing Aortic Valve Repair",
+        "briefSummary": null,
+        "status": "COMPLETED",
+        "startDate": "2006-02-28",
+        "completionDate": "2008-09-30",
+        "studyType": "INTERVENTIONAL",
+        "phases": [
+          "PHASE4"
+        ],
+        "enrollment": 27,
+        "allocation": "RANDOMIZED",
+        "primaryPurpose": "TREATMENT",
+        "source": "aact",
+        "retrievedAt": "2026-02-24T10:24:38.743Z",
+        "isDuplicate": false,
+        "classification": "exclude",
+        "relevanceScore": 0,
+        "relevanceReasons": [
+          "Missing required keywords",
+          "Study design may not meet criteria: Unknown"
+        ],
+        "pico": null,
+        "needsReview": false,
+        "processedAt": "2026-02-24T10:24:40.497Z"
+      },
+      {
+        "nctId": "NCT01314313",
+        "title": "PARTNER II Trial: Placement of AoRTic TraNscathetER Valves II - XT Intermediate and High Risk",
+        "briefSummary": null,
+        "status": "COMPLETED",
+        "startDate": "2011-03-31",
+        "completionDate": "2024-01-17",
+        "studyType": "INTERVENTIONAL",
+        "phases": [
+          "NA"
+        ],
+        "enrollment": 2032,
+        "allocation": "RANDOMIZED",
+        "primaryPurpose": "TREATMENT",
+        "source": "aact",
+        "retrievedAt": "2026-02-24T10:24:38.743Z",
+        "isDuplicate": false,
+        "classification": "exclude",
+        "relevanceScore": 0,
+        "relevanceReasons": [
+          "Missing required keywords",
+          "Contains 1 preferred keywords",
+          "Study design may not meet criteria: Unknown"
+        ],
+        "pico": null,
+        "needsReview": false,
+        "processedAt": "2026-02-24T10:24:40.508Z"
+      },
+      {
+        "nctId": "NCT01404975",
+        "title": "TAVI Protocol - Paravertebral Block Study",
+        "briefSummary": null,
+        "status": "COMPLETED",
+        "startDate": "2011-06-30",
+        "completionDate": "2016-08-31",
+        "studyType": "INTERVENTIONAL",
+        "phases": [
+          "NA"
+        ],
+        "enrollment": 44,
+        "allocation": "RANDOMIZED",
+        "primaryPurpose": "TREATMENT",
+        "source": "aact",
+        "retrievedAt": "2026-02-24T10:24:38.743Z",
+        "isDuplicate": false,
+        "classification": "exclude",
+        "relevanceScore": 0,
+        "relevanceReasons": [
+          "Missing required keywords",
+          "Contains exclusion terms: protocol",
+          "Study design may not meet criteria: Unknown"
+        ],
+        "pico": null,
+        "needsReview": false,
+        "processedAt": "2026-02-24T10:24:40.510Z"
+      },
+      {
+        "nctId": "NCT01539746",
+        "title": "Transcatheter Aortic Valve Implantation Without Predilation",
+        "briefSummary": null,
+        "status": "COMPLETED",
+        "startDate": "2013-01-09",
+        "completionDate": "2019-11-22",
+        "studyType": "INTERVENTIONAL",
+        "phases": [
+          "NA"
+        ],
+        "enrollment": 110,
+        "allocation": "RANDOMIZED",
+        "primaryPurpose": "TREATMENT",
+        "source": "aact",
+        "retrievedAt": "2026-02-24T10:24:38.743Z",
+        "isDuplicate": false,
+        "classification": "exclude",
+        "relevanceScore": 0,
+        "relevanceReasons": [
+          "Missing required keywords",
+          "Study design may not meet criteria: Unknown"
+        ],
+        "pico": null,
+        "needsReview": false,
+        "processedAt": "2026-02-24T10:24:40.514Z"
+      },
+      {
+        "nctId": "NCT01651780",
+        "title": "Open-label, Randomized Trial in Participants Undergoing TAVR to Determine Safety & Efficacy of Bivalirudin vs UFH",
+        "briefSummary": null,
+        "status": "COMPLETED",
+        "startDate": "2012-10-31",
+        "completionDate": "2015-06-30",
+        "studyType": "INTERVENTIONAL",
+        "phases": [
+          "PHASE3"
+        ],
+        "enrollment": 803,
+        "allocation": "RANDOMIZED",
+        "primaryPurpose": "TREATMENT",
+        "source": "aact",
+        "retrievedAt": "2026-02-24T10:24:38.743Z",
+        "isDuplicate": false,
+        "classification": "exclude",
+        "relevanceScore": 0,
+        "relevanceReasons": [
+          "Missing required keywords",
+          "Contains 2 preferred keywords",
+          "Study design may not meet criteria: RCT (open-label)"
+        ],
+        "pico": null,
+        "needsReview": false,
+        "processedAt": "2026-02-24T10:24:40.523Z"
+      },
+      {
+        "nctId": "NCT01672268",
+        "title": "Interest of Cardiac Computed Tomography to Optimize and Improve the Procedure of TAVI",
+        "briefSummary": null,
+        "status": "COMPLETED",
+        "startDate": "2012-02-29",
+        "completionDate": "2014-11-30",
+        "studyType": "INTERVENTIONAL",
+        "phases": [
+          "PHASE3"
+        ],
+        "enrollment": 70,
+        "allocation": "RANDOMIZED",
+        "primaryPurpose": "TREATMENT",
+        "source": "aact",
+        "retrievedAt": "2026-02-24T10:24:38.743Z",
+        "isDuplicate": false,
+        "classification": "exclude",
+        "relevanceScore": 0,
+        "relevanceReasons": [
+          "Missing required keywords",
+          "Study design may not meet criteria: Unknown"
+        ],
+        "pico": null,
+        "needsReview": false,
+        "processedAt": "2026-02-24T10:24:40.528Z"
+      },
+      {
+        "nctId": "NCT01755338",
+        "title": "Effect of Steroids on Cerebral Inflammation and Neuronal Damage After Surgical Aortic Valve Replacement",
+        "briefSummary": null,
+        "status": "COMPLETED",
+        "startDate": "2012-12-31",
+        "completionDate": "2017-02-28",
+        "studyType": "INTERVENTIONAL",
+        "phases": [
+          "NA"
+        ],
+        "enrollment": 30,
+        "allocation": "RANDOMIZED",
+        "primaryPurpose": "TREATMENT",
+        "source": "aact",
+        "retrievedAt": "2026-02-24T10:24:38.743Z",
+        "isDuplicate": false,
+        "classification": "exclude",
+        "relevanceScore": 0,
+        "relevanceReasons": [
+          "Missing required keywords",
+          "Study design may not meet criteria: Unknown"
+        ],
+        "pico": null,
+        "needsReview": false,
+        "processedAt": "2026-02-24T10:24:40.534Z"
+      },
+      {
+        "nctId": "NCT02053818",
+        "title": "Remifentanil/Sufentanil for CABG+/-AVR Evaluated by Recovery, Cognitive Function, Haemodynamics and Biochemical Markers.",
+        "briefSummary": null,
+        "status": "COMPLETED",
+        "startDate": "2011-08-31",
+        "completionDate": "2015-08-31",
+        "studyType": "INTERVENTIONAL",
+        "phases": [
+          "PHASE4"
+        ],
+        "enrollment": 60,
+        "allocation": "RANDOMIZED",
+        "primaryPurpose": "PREVENTION",
+        "source": "aact",
+        "retrievedAt": "2026-02-24T10:24:38.743Z",
+        "isDuplicate": false,
+        "classification": "exclude",
+        "relevanceScore": 0,
+        "relevanceReasons": [
+          "Missing required keywords",
+          "Study design may not meet criteria: Unknown"
+        ],
+        "pico": null,
+        "needsReview": false,
+        "processedAt": "2026-02-24T10:24:40.575Z"
+      },
+      {
+        "nctId": "NCT02076711",
+        "title": "Myocardial Efficiency of the Left Ventricle in Asymptomatic Patients With Aortic Valve Stenosis - a Prognostic Marker and a Target for Intervention?",
+        "briefSummary": null,
+        "status": "COMPLETED",
+        "startDate": "2013-06-30",
+        "completionDate": "2015-09-30",
+        "studyType": "INTERVENTIONAL",
+        "phases": [
+          "PHASE2"
+        ],
+        "enrollment": 40,
+        "allocation": "RANDOMIZED",
+        "primaryPurpose": "TREATMENT",
+        "source": "aact",
+        "retrievedAt": "2026-02-24T10:24:38.743Z",
+        "isDuplicate": false,
+        "classification": "exclude",
+        "relevanceScore": 0,
+        "relevanceReasons": [
+          "Missing required keywords",
+          "Study design may not meet criteria: Unknown"
+        ],
+        "pico": null,
+        "needsReview": false,
+        "processedAt": "2026-02-24T10:24:40.587Z"
+      },
+      {
+        "nctId": "NCT02389894",
+        "title": "Neuroprotection in Patients Undergoing Aortic Valve Replacement",
+        "briefSummary": null,
+        "status": "COMPLETED",
+        "startDate": "2015-03-31",
+        "completionDate": "2017-01-31",
+        "studyType": "INTERVENTIONAL",
+        "phases": [
+          "NA"
+        ],
+        "enrollment": 383,
+        "allocation": "RANDOMIZED",
+        "primaryPurpose": "PREVENTION",
+        "source": "aact",
+        "retrievedAt": "2026-02-24T10:24:38.743Z",
+        "isDuplicate": false,
+        "classification": "exclude",
+        "relevanceScore": 0,
+        "relevanceReasons": [
+          "Missing required keywords",
+          "Study design may not meet criteria: Unknown"
+        ],
+        "pico": null,
+        "needsReview": false,
+        "processedAt": "2026-02-24T10:24:40.651Z"
+      },
+      {
+        "nctId": "NCT02390102",
+        "title": "Erythropoietin + Iron Therapy for Anemic Patients Undergoing Aortic Valve Replacement",
+        "briefSummary": null,
+        "status": "COMPLETED",
+        "startDate": "2012-06-30",
+        "completionDate": "2016-06-30",
+        "studyType": "INTERVENTIONAL",
+        "phases": [
+          "PHASE3"
+        ],
+        "enrollment": 117,
+        "allocation": "RANDOMIZED",
+        "primaryPurpose": "TREATMENT",
+        "source": "aact",
+        "retrievedAt": "2026-02-24T10:24:38.743Z",
+        "isDuplicate": false,
+        "classification": "exclude",
+        "relevanceScore": 0,
+        "relevanceReasons": [
+          "Missing required keywords",
+          "Study design may not meet criteria: Unknown"
+        ],
+        "pico": null,
+        "needsReview": false,
+        "processedAt": "2026-02-24T10:24:40.665Z"
+      },
+      {
+        "nctId": "NCT02536196",
+        "title": "The REFLECT Trial: Cerebral Protection to Reduce Cerebral Embolic Lesions After Transcatheter Aortic Valve Implantation",
+        "briefSummary": null,
+        "status": "COMPLETED",
+        "startDate": "2016-06-30",
+        "completionDate": "2019-06-30",
+        "studyType": "INTERVENTIONAL",
+        "phases": [
+          "NA"
+        ],
+        "enrollment": 478,
+        "allocation": "RANDOMIZED",
+        "primaryPurpose": "PREVENTION",
+        "source": "aact",
+        "retrievedAt": "2026-02-24T10:24:38.743Z",
+        "isDuplicate": false,
+        "classification": "exclude",
+        "relevanceScore": 0,
+        "relevanceReasons": [
+          "Missing required keywords",
+          "Contains 1 preferred keywords",
+          "Study design may not meet criteria: Unknown"
+        ],
+        "pico": null,
+        "needsReview": false,
+        "processedAt": "2026-02-24T10:24:40.748Z"
+      },
+      {
+        "nctId": "NCT02672553",
+        "title": "EDWARDS INTUITY Valve System CADENCE-MIS Study",
+        "briefSummary": null,
+        "status": "COMPLETED",
+        "startDate": "2012-05-31",
+        "completionDate": "2015-08-31",
+        "studyType": "INTERVENTIONAL",
+        "phases": [
+          "NA"
+        ],
+        "enrollment": 100,
+        "allocation": "RANDOMIZED",
+        "primaryPurpose": "TREATMENT",
+        "source": "aact",
+        "retrievedAt": "2026-02-24T10:24:38.743Z",
+        "isDuplicate": false,
+        "classification": "exclude",
+        "relevanceScore": 0,
+        "relevanceReasons": [
+          "Missing required keywords",
+          "Study design may not meet criteria: Unknown"
+        ],
+        "pico": null,
+        "needsReview": false,
+        "processedAt": "2026-02-24T10:24:40.854Z"
+      },
+      {
+        "nctId": "NCT02921880",
+        "title": "Does Cardiac REhabilitation Improve Functional, Independence, Frailty and Emotional outCOmes Following Trans Catheter Aortic ValvE Replacement?",
+        "briefSummary": null,
+        "status": "COMPLETED",
+        "startDate": "2016-05-31",
+        "completionDate": "2017-09-13",
+        "studyType": "INTERVENTIONAL",
+        "phases": [
+          "NA"
+        ],
+        "enrollment": 30,
+        "allocation": "RANDOMIZED",
+        "primaryPurpose": "SUPPORTIVE_CARE",
+        "source": "aact",
+        "retrievedAt": "2026-02-24T10:24:38.743Z",
+        "isDuplicate": false,
+        "classification": "exclude",
+        "relevanceScore": 0,
+        "relevanceReasons": [
+          "Missing required keywords",
+          "Study design may not meet criteria: Unknown"
+        ],
+        "pico": null,
+        "needsReview": false,
+        "processedAt": "2026-02-24T10:24:40.942Z"
+      },
+      {
+        "nctId": "NCT03088098",
+        "title": "Comparison of Left Atrial Appendage Occlusion vs Standard Medical Therapy in Patients in AF Undergoing TAVI",
+        "briefSummary": null,
+        "status": "COMPLETED",
+        "startDate": "2016-05-02",
+        "completionDate": "2025-02-05",
+        "studyType": "INTERVENTIONAL",
+        "phases": [
+          "NA"
+        ],
+        "enrollment": 81,
+        "allocation": "RANDOMIZED",
+        "primaryPurpose": "TREATMENT",
+        "source": "aact",
+        "retrievedAt": "2026-02-24T10:24:38.743Z",
+        "isDuplicate": false,
+        "classification": "exclude",
+        "relevanceScore": 0,
+        "relevanceReasons": [
+          "Missing required keywords",
+          "Contains 1 preferred keywords",
+          "Study design may not meet criteria: Unknown"
+        ],
+        "pico": null,
+        "needsReview": false,
+        "processedAt": "2026-02-24T10:24:40.990Z"
+      },
+      {
+        "nctId": "NCT03424941",
+        "title": "The TransCatheter Valve and Vessels Trial",
+        "briefSummary": null,
+        "status": "COMPLETED",
+        "startDate": "2018-05-31",
+        "completionDate": "2024-06-26",
+        "studyType": "INTERVENTIONAL",
+        "phases": [
+          "NA"
+        ],
+        "enrollment": 172,
+        "allocation": "RANDOMIZED",
+        "primaryPurpose": "TREATMENT",
+        "source": "aact",
+        "retrievedAt": "2026-02-24T10:24:38.743Z",
+        "isDuplicate": false,
+        "classification": "exclude",
+        "relevanceScore": 0,
+        "relevanceReasons": [
+          "Missing required keywords",
+          "Contains 1 preferred keywords",
+          "Study design may not meet criteria: Unknown"
+        ],
+        "pico": null,
+        "needsReview": false,
+        "processedAt": "2026-02-24T10:24:41.056Z"
+      },
+      {
+        "nctId": "NCT03666351",
+        "title": "Study to Evaluate the Effect on Improvement of LVH by the Control of BP in Hypertension Patients With AV Disease",
+        "briefSummary": null,
+        "status": "COMPLETED",
+        "startDate": "2018-10-18",
+        "completionDate": "2022-07-25",
+        "studyType": "INTERVENTIONAL",
+        "phases": [
+          "PHASE4"
+        ],
+        "enrollment": 128,
+        "allocation": "RANDOMIZED",
+        "primaryPurpose": "TREATMENT",
+        "source": "aact",
+        "retrievedAt": "2026-02-24T10:24:38.743Z",
+        "isDuplicate": false,
+        "classification": "exclude",
+        "relevanceScore": 0,
+        "relevanceReasons": [
+          "Missing required keywords",
+          "Study design may not meet criteria: Unknown"
+        ],
+        "pico": null,
+        "needsReview": false,
+        "processedAt": "2026-02-24T10:24:41.126Z"
+      },
+      {
+        "nctId": "NCT03831087",
+        "title": "Cardiac Magnetic Resonance Imaging Versus Computed Tomography to Guide Transcatheter Aortic Valve Replacement",
+        "briefSummary": null,
+        "status": "COMPLETED",
+        "startDate": "2017-10-30",
+        "completionDate": "2023-08-05",
+        "studyType": "INTERVENTIONAL",
+        "phases": [
+          "NA"
+        ],
+        "enrollment": 267,
+        "allocation": "RANDOMIZED",
+        "primaryPurpose": "DIAGNOSTIC",
+        "source": "aact",
+        "retrievedAt": "2026-02-24T10:24:38.743Z",
+        "isDuplicate": false,
+        "classification": "exclude",
+        "relevanceScore": 0,
+        "relevanceReasons": [
+          "Missing required keywords",
+          "Study design may not meet criteria: Unknown"
+        ],
+        "pico": null,
+        "needsReview": false,
+        "processedAt": "2026-02-24T10:24:41.196Z"
+      },
+      {
+        "nctId": "NCT04466787",
+        "title": "Comparison of Spectral Photon Counting CT (SPCCT) With Dual Energy CT (DECT) and Magnetic Resonance Imaging (MRI) for Plaque and Lumen Carotid Arteries Evaluation",
+        "briefSummary": null,
+        "status": "COMPLETED",
+        "startDate": "2019-06-20",
+        "completionDate": "2021-11-24",
+        "studyType": "INTERVENTIONAL",
+        "phases": [
+          "NA"
+        ],
+        "enrollment": 22,
+        "allocation": "RANDOMIZED",
+        "primaryPurpose": "DIAGNOSTIC",
+        "source": "aact",
+        "retrievedAt": "2026-02-24T10:24:38.743Z",
+        "isDuplicate": false,
+        "classification": "exclude",
+        "relevanceScore": 0,
+        "relevanceReasons": [
+          "Missing required keywords",
+          "Study design may not meet criteria: Unknown"
+        ],
+        "pico": null,
+        "needsReview": false,
+        "processedAt": "2026-02-24T10:24:41.253Z"
+      },
+      {
+        "nctId": "NCT04696185",
+        "title": "Dapagliflozin After Transcatheter Aortic Valve Implantation",
+        "briefSummary": null,
+        "status": "COMPLETED",
+        "startDate": "2021-01-27",
+        "completionDate": "2024-12-30",
+        "studyType": "INTERVENTIONAL",
+        "phases": [
+          "PHASE4"
+        ],
+        "enrollment": 1257,
+        "allocation": "RANDOMIZED",
+        "primaryPurpose": "TREATMENT",
+        "source": "aact",
+        "retrievedAt": "2026-02-24T10:24:38.743Z",
+        "isDuplicate": false,
+        "classification": "exclude",
+        "relevanceScore": 0,
+        "relevanceReasons": [
+          "Missing required keywords",
+          "Study design may not meet criteria: Unknown"
+        ],
+        "pico": null,
+        "needsReview": false,
+        "processedAt": "2026-02-24T10:24:41.325Z"
+      },
+      {
+        "nctId": "NCT04996693",
+        "title": "On Dose Efficiency of Modern CT-scanners in Chest Scans",
+        "briefSummary": null,
+        "status": "COMPLETED",
+        "startDate": "2021-10-07",
+        "completionDate": "2023-05-31",
+        "studyType": "INTERVENTIONAL",
+        "phases": [
+          "NA"
+        ],
+        "enrollment": 958,
+        "allocation": "RANDOMIZED",
+        "primaryPurpose": "DIAGNOSTIC",
+        "source": "aact",
+        "retrievedAt": "2026-02-24T10:24:38.743Z",
+        "isDuplicate": false,
+        "classification": "exclude",
+        "relevanceScore": 0,
+        "relevanceReasons": [
+          "Missing required keywords",
+          "Study design may not meet criteria: Unknown"
+        ],
+        "pico": null,
+        "needsReview": false,
+        "processedAt": "2026-02-24T10:24:41.392Z"
+      },
+      {
+        "nctId": "NCT05860452",
+        "title": "Effectiveness of TAP (Transversus Abdominis Plane) Block for Abdominal Aortic Surgery",
+        "briefSummary": null,
+        "status": "COMPLETED",
+        "startDate": "2023-06-01",
+        "completionDate": "2024-12-30",
+        "studyType": "INTERVENTIONAL",
+        "phases": [
+          "NA"
+        ],
+        "enrollment": 30,
+        "allocation": "RANDOMIZED",
+        "primaryPurpose": "TREATMENT",
+        "source": "aact",
+        "retrievedAt": "2026-02-24T10:24:38.743Z",
+        "isDuplicate": false,
+        "classification": "exclude",
+        "relevanceScore": 0,
+        "relevanceReasons": [
+          "Missing required keywords",
+          "Study design may not meet criteria: Unknown"
+        ],
+        "pico": null,
+        "needsReview": false,
+        "processedAt": "2026-02-24T10:24:41.477Z"
+      },
+      {
+        "nctId": "NCT05958537",
+        "title": "High Flow Nasal Oxygen Cannula in Transcatheter Aortic Valve Replacement: Complications and Biomarkers",
+        "briefSummary": null,
+        "status": "COMPLETED",
+        "startDate": "2023-11-01",
+        "completionDate": "2024-07-01",
+        "studyType": "INTERVENTIONAL",
+        "phases": [
+          "NA"
+        ],
+        "enrollment": 132,
+        "allocation": "RANDOMIZED",
+        "primaryPurpose": "TREATMENT",
+        "source": "aact",
+        "retrievedAt": "2026-02-24T10:24:38.743Z",
+        "isDuplicate": false,
+        "classification": "exclude",
+        "relevanceScore": 0,
+        "relevanceReasons": [
+          "Missing required keywords",
+          "Study design may not meet criteria: Unknown"
+        ],
+        "pico": null,
+        "needsReview": false,
+        "processedAt": "2026-02-24T10:24:41.524Z"
+      },
+      {
+        "nctId": "NCT06121921",
+        "title": "RESTORE-TAVI Pilot",
+        "briefSummary": null,
+        "status": "COMPLETED",
+        "startDate": "2024-06-07",
+        "completionDate": "2025-05-01",
+        "studyType": "INTERVENTIONAL",
+        "phases": [
+          "NA"
+        ],
+        "enrollment": 40,
+        "allocation": "RANDOMIZED",
+        "primaryPurpose": "SUPPORTIVE_CARE",
+        "source": "aact",
+        "retrievedAt": "2026-02-24T10:24:38.743Z",
+        "isDuplicate": false,
+        "classification": "exclude",
+        "relevanceScore": 0,
+        "relevanceReasons": [
+          "Missing required keywords",
+          "Study design may not meet criteria: Unknown"
+        ],
+        "pico": null,
+        "needsReview": false,
+        "processedAt": "2026-02-24T10:24:41.608Z"
+      },
+      {
+        "nctId": "NCT06418555",
+        "title": "Construction and Application Plan of Home Cardiac Rehabilitation for Patients Undergoing TAVR",
+        "briefSummary": null,
+        "status": "COMPLETED",
+        "startDate": "2024-01-18",
+        "completionDate": "2024-08-10",
+        "studyType": "INTERVENTIONAL",
+        "phases": [
+          "NA"
+        ],
+        "enrollment": 70,
+        "allocation": "RANDOMIZED",
+        "primaryPurpose": "PREVENTION",
+        "source": "aact",
+        "retrievedAt": "2026-02-24T10:24:38.743Z",
+        "isDuplicate": false,
+        "classification": "exclude",
+        "relevanceScore": 0,
+        "relevanceReasons": [
+          "Missing required keywords",
+          "Study design may not meet criteria: Unknown"
+        ],
+        "pico": null,
+        "needsReview": false,
+        "processedAt": "2026-02-24T10:24:41.661Z"
+      },
+      {
+        "nctId": "NCT00688207",
+        "title": "Mild Alzheimer''s Disease to Assess the of Extended Release Formulation of Rosiglitazone (RSG XR)",
+        "briefSummary": null,
+        "status": "COMPLETED",
+        "startDate": "2008-04-30",
+        "completionDate": "2008-09-30",
+        "studyType": "INTERVENTIONAL",
+        "phases": [
+          "PHASE1"
+        ],
+        "enrollment": 14,
+        "allocation": "NON_RANDOMIZED",
+        "primaryPurpose": "TREATMENT",
+        "source": "aact",
+        "retrievedAt": "2026-02-24T10:24:40.492Z",
+        "isDuplicate": false,
+        "classification": "exclude",
+        "relevanceScore": 0,
+        "relevanceReasons": [
+          "Missing required keywords",
+          "Study design may not meet criteria: Unknown"
+        ],
+        "pico": null,
+        "needsReview": false,
+        "processedAt": "2026-02-24T10:24:41.748Z"
+      },
+      {
+        "nctId": "NCT01057173",
+        "title": "The Nordic Aortic Valve Intervention Trial",
+        "briefSummary": null,
+        "status": "ACTIVE_NOT_RECRUITING",
+        "startDate": "2009-12-31",
+        "completionDate": "2033-04-30",
+        "studyType": "INTERVENTIONAL",
+        "phases": [
+          "NA"
+        ],
+        "enrollment": 280,
+        "allocation": "RANDOMIZED",
+        "primaryPurpose": "TREATMENT",
+        "source": "aact",
+        "retrievedAt": "2026-02-24T10:24:40.492Z",
+        "isDuplicate": false,
+        "classification": "exclude",
+        "relevanceScore": 0,
+        "relevanceReasons": [
+          "Missing required keywords",
+          "Contains 1 preferred keywords",
+          "Study design may not meet criteria: Unknown"
+        ],
+        "pico": null,
+        "needsReview": false,
+        "processedAt": "2026-02-24T10:24:41.887Z"
+      },
+      {
+        "nctId": "NCT01626079",
+        "title": "Cardiovascular Outcomes Assessment of the MitraClip Percutaneous Therapy for Heart Failure Patients With Functional Mitral Regurgitation (The COAPT Trial) and COAPT CAS",
+        "briefSummary": null,
+        "status": "UNKNOWN",
+        "startDate": "2012-08-31",
+        "completionDate": "2024-07-31",
+        "studyType": "INTERVENTIONAL",
+        "phases": [
+          "NA"
+        ],
+        "enrollment": 776,
+        "allocation": "RANDOMIZED",
+        "primaryPurpose": "TREATMENT",
+        "source": "aact",
+        "retrievedAt": "2026-02-24T10:24:40.492Z",
+        "isDuplicate": false,
+        "classification": "exclude",
+        "relevanceScore": 0,
+        "relevanceReasons": [
+          "Missing required keywords",
+          "Contains 2 preferred keywords",
+          "Study design may not meet criteria: Unknown"
+        ],
+        "pico": null,
+        "needsReview": false,
+        "processedAt": "2026-02-24T10:24:41.976Z"
+      },
+      {
+        "nctId": "NCT02371512",
+        "title": "A Multicenter, Randomized, Controlled Study to Assess Mitral vAlve reconsTrucTion for advancEd Insufficiency of Functional or iscHemic ORigiN",
+        "briefSummary": null,
+        "status": "UNKNOWN",
+        "startDate": "2015-02-28",
+        "completionDate": "2019-12-31",
+        "studyType": "INTERVENTIONAL",
+        "phases": [
+          "NA"
+        ],
+        "enrollment": 210,
+        "allocation": "RANDOMIZED",
+        "primaryPurpose": "TREATMENT",
+        "source": "aact",
+        "retrievedAt": "2026-02-24T10:24:40.492Z",
+        "isDuplicate": false,
+        "classification": "exclude",
+        "relevanceScore": 30,
+        "relevanceReasons": [
+          "Missing required keywords",
+          "Contains 1 preferred keywords",
+          "Accepted study design: RCT"
+        ],
+        "pico": null,
+        "needsReview": true,
+        "processedAt": "2026-02-24T10:24:42.069Z"
+      }
+    ],
+    "summary": {
+      "totalFound": 48,
+      "newPotentialInclusions": 0,
+      "newMaybes": 12,
+      "duplicatesDetected": 4,
+      "autoExcluded": 32,
+      "trialUniverseWithoutPICO": 48,
+      "trialUniverseWithPICO": 12,
+      "trialUniverseRetainedPct": 25
+    },
+    "trialUniverse": {
+      "decision": "PASS",
+      "withoutPICO": {
+        "totalStudies": 48,
+        "uniqueNctCount": 48,
+        "studyIds": [
+          "NCT00092677",
+          "NCT00348920",
+          "NCT00530894",
+          "NCT00788242",
+          "NCT00800800",
+          "NCT01144039",
+          "NCT01161732",
+          "NCT01187329",
+          "NCT01240902",
+          "NCT01314313",
+          "NCT01404975",
+          "NCT01539746",
+          "NCT01645202",
+          "NCT01651780",
+          "NCT01672268",
+          "NCT01755338",
+          "NCT01994330",
+          "NCT02053818",
+          "NCT02076711",
+          "NCT02132026",
+          "NCT02184442",
+          "NCT02389894",
+          "NCT02390102",
+          "NCT02436655",
+          "NCT02486367",
+          "NCT02536196",
+          "NCT02597985",
+          "NCT02664649",
+          "NCT02672553",
+          "NCT02688153",
+          "NCT02921880",
+          "NCT03088098",
+          "NCT03424941",
+          "NCT03666351",
+          "NCT03831087",
+          "NCT04466787",
+          "NCT04696185",
+          "NCT04996693",
+          "NCT05625269",
+          "NCT05860452",
+          "NCT05958537",
+          "NCT06121921",
+          "NCT06418555",
+          "NCT00688207",
+          "NCT01057173",
+          "NCT01626079",
+          "NCT02371512",
+          "NCT02675114"
+        ],
+        "duplicateCount": 0,
+        "duplicateStudyIds": []
+      },
+      "withPICO": {
+        "totalStudies": 12,
+        "includeCount": 0,
+        "maybeCount": 12,
+        "excludeCount": 36,
+        "studyIds": [
+          "NCT00092677",
+          "NCT00800800",
+          "NCT01161732",
+          "NCT01240902",
+          "NCT01645202",
+          "NCT01994330",
+          "NCT02132026",
+          "NCT02436655",
+          "NCT02486367",
+          "NCT02597985",
+          "NCT02664649",
+          "NCT02675114"
+        ],
+        "includeStudyIds": [],
+        "maybeStudyIds": [
+          "NCT00092677",
+          "NCT00800800",
+          "NCT01161732",
+          "NCT01240902",
+          "NCT01645202",
+          "NCT01994330",
+          "NCT02132026",
+          "NCT02436655",
+          "NCT02486367",
+          "NCT02597985",
+          "NCT02664649",
+          "NCT02675114"
+        ],
+        "excludeStudyIds": [
+          "NCT00348920",
+          "NCT00530894",
+          "NCT00788242",
+          "NCT01144039",
+          "NCT01187329",
+          "NCT01314313",
+          "NCT01404975",
+          "NCT01539746",
+          "NCT01651780",
+          "NCT01672268",
+          "NCT01755338",
+          "NCT02053818",
+          "NCT02076711",
+          "NCT02184442",
+          "NCT02389894",
+          "NCT02390102",
+          "NCT02536196",
+          "NCT02672553",
+          "NCT02688153",
+          "NCT02921880",
+          "NCT03088098",
+          "NCT03424941",
+          "NCT03666351",
+          "NCT03831087",
+          "NCT04466787",
+          "NCT04696185",
+          "NCT04996693",
+          "NCT05625269",
+          "NCT05860452",
+          "NCT05958537",
+          "NCT06121921",
+          "NCT06418555",
+          "NCT00688207",
+          "NCT01057173",
+          "NCT01626079",
+          "NCT02371512"
+        ]
+      },
+      "comparison": {
+        "removedByPICO": 36,
+        "retainedPct": 25,
+        "excludedPct": 75
+      }
+    },
+    "landmarkCoverage": {
+      "decision": "PASS",
+      "guidelineProfile": "cardiology",
+      "overallCoveragePct": 100,
+      "totalExpected": 8,
+      "totalFound": 8,
+      "minCoveragePct": 70,
+      "areas": {
+        "valvular_heart_disease": {
+          "expected": 8,
+          "found": 8,
+          "missing": 0,
+          "coveragePct": 100,
+          "foundNctIds": [
+            "NCT00530894",
+            "NCT00688207",
+            "NCT01314313",
+            "NCT02675114",
+            "NCT01057173",
+            "NCT01240902",
+            "NCT01626079",
+            "NCT02371512"
+          ],
+          "missingNctIds": []
+        }
+      }
+    },
+    "robustness": {
+      "decision": "PASS",
+      "score": 100,
+      "metrics": {
+        "aactIncrementalNctCount": 48,
+        "knownGapRecovered": 0,
+        "knownGapRecoveryPct": 0,
+        "landmarkCoveragePct": 100,
+        "picoRetentionPct": 25,
+        "trialUniverseCount": 48
+      },
+      "checks": [
+        {
+          "id": "source_coverage",
+          "label": "Required source coverage",
+          "pass": true,
+          "value": 1
+        },
+        {
+          "id": "ctgov_strategy_depth",
+          "label": "CT.gov strategy depth",
+          "pass": true,
+          "value": 0
+        },
+        {
+          "id": "ctgov_error_free",
+          "label": "CT.gov execution without errors",
+          "pass": true,
+          "value": 1
+        },
+        {
+          "id": "aact_available",
+          "label": "AACT availability",
+          "pass": true,
+          "value": 1
+        },
+        {
+          "id": "aact_incremental_capture",
+          "label": "AACT incremental capture over CT.gov",
+          "pass": true,
+          "value": 48
+        },
+        {
+          "id": "landmark_coverage",
+          "label": "ESC landmark coverage",
+          "pass": true,
+          "value": 100
+        },
+        {
+          "id": "trial_universe_pico",
+          "label": "Trial universe with and without PICO",
+          "pass": true,
+          "value": 25
+        }
+      ],
+      "actionItems": []
+    }
+  }
+}

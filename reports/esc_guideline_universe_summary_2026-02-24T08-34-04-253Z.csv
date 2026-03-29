@@ -1,0 +1,11 @@
+areaKey,aactCount,aactRetrieved,aactError,landmarkCoveragePct,trialUniverseWithoutPICO,trialUniverseWithPICO,picoRetainedPct,robustnessDecision,robustnessScore
+heart_failure,92,92,,94.1,92,61,66.3,FLAG,85.7
+atrial_fibrillation,88,88,,76.9,88,70,79.5,FLAG,85.7
+acute_coronary_syndromes,86,86,,53.8,86,50,58.1,FLAG,71.4
+chronic_coronary_syndromes,9,9,,75,9,0,0,FLAG,85.7
+cardiovascular_prevention,36,36,,90.9,36,4,11.1,FLAG,85.7
+valvular_heart_disease,47,47,,87.5,47,12,25.5,FLAG,85.7
+ventricular_arrhythmias,59,59,,83.3,59,29,49.2,FLAG,85.7
+pulmonary_hypertension,84,84,,66.7,84,59,70.2,FLAG,71.4
+cardiomyopathies,83,83,,75,83,38,45.8,FLAG,85.7
+peripheral_arterial_disease,82,82,,66.7,82,37,45.1,FLAG,71.4

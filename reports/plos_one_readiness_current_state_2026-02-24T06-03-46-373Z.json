@@ -1,0 +1,277 @@
+{
+  "generatedAt": "2026-02-24T06:03:46.372Z",
+  "standard": "PLOS ONE multi-person systematic review readiness",
+  "profile": "PLOS_ONE",
+  "thresholds": {
+    "minDualReviewCoverage": 0.98,
+    "minKappa": 0.6,
+    "maxUnresolvedConflicts": 0,
+    "maxPendingRate": 0.02,
+    "minAuditTrailCompleteness": 1,
+    "minDecisionNoteCoverage": 0.95,
+    "minAdjudicatorIndependence": 1,
+    "requireResolutionNotes": true,
+    "requireProtocolRegistration": true,
+    "requireDataAvailabilityStatement": true,
+    "requirePrismaChecklist": true,
+    "requireSearchStrategyAppendix": true,
+    "requireScreeningLogExport": true
+  },
+  "reviewers": {
+    "primary": [
+      "reviewer1",
+      "reviewer2"
+    ],
+    "adjudicatorRequired": true
+  },
+  "declarations": {
+    "protocolRegistrationId": null,
+    "protocolUrl": null,
+    "dataAvailabilityStatement": null,
+    "dataAvailabilityUrl": null,
+    "prismaChecklistUrl": null,
+    "searchStrategyAppendixUrl": null,
+    "screeningLogPath": null
+  },
+  "overall": {
+    "decision": "FAIL",
+    "score": 38.5,
+    "checksPassed": 5,
+    "checksTotal": 13
+  },
+  "metrics": {
+    "totalStudies": 15,
+    "dualReviewed": 0,
+    "dualReviewCoverage": 0,
+    "pendingRate": 1,
+    "agreement": {
+      "reviewerA": "reviewer1",
+      "reviewerB": "reviewer2",
+      "categories": [
+        "include",
+        "exclude",
+        "maybe"
+      ],
+      "compared": 0,
+      "matrix": {
+        "include": {
+          "include": 0,
+          "exclude": 0,
+          "maybe": 0
+        },
+        "exclude": {
+          "include": 0,
+          "exclude": 0,
+          "maybe": 0
+        },
+        "maybe": {
+          "include": 0,
+          "exclude": 0,
+          "maybe": 0
+        }
+      },
+      "rowTotals": {
+        "include": 0,
+        "exclude": 0,
+        "maybe": 0
+      },
+      "colTotals": {
+        "include": 0,
+        "exclude": 0,
+        "maybe": 0
+      },
+      "observedAgreement": 0,
+      "expectedAgreement": 0,
+      "kappa": null,
+      "interpretation": "Not estimable"
+    },
+    "conflicts": {
+      "unresolvedCount": 0,
+      "resolvedCount": 0,
+      "missingResolverCount": 0,
+      "missingResolutionNotesCount": 0,
+      "unresolvedStudies": [],
+      "resolvedStudies": []
+    },
+    "auditTrailCompleteness": 1,
+    "decisionNoteCoverage": 1,
+    "adjudicatorIndependence": 1,
+    "prismaChecklistDeclared": false,
+    "searchStrategyAppendixDeclared": false,
+    "screeningLogExported": false
+  },
+  "checks": [
+    {
+      "id": "dual_review_coverage",
+      "label": "Dual-review coverage",
+      "value": 0,
+      "threshold": 0.98,
+      "operator": ">=",
+      "pass": false,
+      "severity": "critical",
+      "recommendation": "Ensure each study has decisions from two independent reviewers."
+    },
+    {
+      "id": "inter_rater_reliability",
+      "label": "Inter-rater reliability (Cohen kappa)",
+      "value": null,
+      "threshold": 0.6,
+      "operator": ">=",
+      "pass": false,
+      "severity": "critical",
+      "recommendation": "Recalibrate screening criteria before final inclusion decisions."
+    },
+    {
+      "id": "unresolved_conflicts",
+      "label": "Unresolved screening conflicts",
+      "value": 0,
+      "threshold": 0,
+      "operator": "<=",
+      "pass": true,
+      "severity": "critical",
+      "recommendation": "Resolve all conflicts with explicit adjudication before synthesis."
+    },
+    {
+      "id": "audit_trail_completeness",
+      "label": "Decision audit trail completeness",
+      "value": 1,
+      "threshold": 1,
+      "operator": ">=",
+      "pass": true,
+      "severity": "critical",
+      "recommendation": "Log every screening decision to maintain full traceability."
+    },
+    {
+      "id": "decision_rationale_coverage",
+      "label": "Decision rationale coverage",
+      "value": 1,
+      "threshold": 0.95,
+      "operator": ">=",
+      "pass": true,
+      "severity": "critical",
+      "recommendation": "Add concise rationale notes for reviewer decisions."
+    },
+    {
+      "id": "adjudicator_independence",
+      "label": "Adjudicator independence",
+      "value": 1,
+      "threshold": 1,
+      "operator": ">=",
+      "pass": true,
+      "severity": "critical",
+      "recommendation": "Use an independent adjudicator for manual conflict resolution."
+    },
+    {
+      "id": "resolution_documentation",
+      "label": "Conflict resolution documentation",
+      "value": 0,
+      "threshold": 0,
+      "operator": "<=",
+      "pass": true,
+      "severity": "critical",
+      "recommendation": "Document resolver identity and rationale for each manual resolution."
+    },
+    {
+      "id": "protocol_registration",
+      "label": "Protocol registration/declaration",
+      "value": 0,
+      "threshold": 1,
+      "operator": ">=",
+      "pass": false,
+      "severity": "critical",
+      "recommendation": "Declare protocol registration ID or provide protocol URL."
+    },
+    {
+      "id": "data_availability_statement",
+      "label": "Data availability declaration",
+      "value": 0,
+      "threshold": 1,
+      "operator": ">=",
+      "pass": false,
+      "severity": "critical",
+      "recommendation": "Add a data availability statement covering screening decisions and conflict logs."
+    },
+    {
+      "id": "prisma_checklist",
+      "label": "PRISMA checklist declaration",
+      "value": 0,
+      "threshold": 1,
+      "operator": ">=",
+      "pass": false,
+      "severity": "critical",
+      "recommendation": "Provide PRISMA 2020 checklist link or file reference."
+    },
+    {
+      "id": "search_strategy_appendix",
+      "label": "Search strategy appendix availability",
+      "value": 0,
+      "threshold": 1,
+      "operator": ">=",
+      "pass": false,
+      "severity": "critical",
+      "recommendation": "Share full reproducible search strategy in supplementary material."
+    },
+    {
+      "id": "screening_log_export",
+      "label": "Screening log export available",
+      "value": 0,
+      "threshold": 1,
+      "operator": ">=",
+      "pass": false,
+      "severity": "critical",
+      "recommendation": "Export and archive screening/adjudication logs for editorial verification."
+    },
+    {
+      "id": "pending_screening_rate",
+      "label": "Pending screening rate",
+      "value": 1,
+      "threshold": 0.02,
+      "operator": "<=",
+      "pass": false,
+      "severity": "warning",
+      "recommendation": "Complete screening queue before manuscript lock."
+    }
+  ],
+  "actionItems": [
+    {
+      "id": "dual_review_coverage",
+      "severity": "critical",
+      "recommendation": "Ensure each study has decisions from two independent reviewers."
+    },
+    {
+      "id": "inter_rater_reliability",
+      "severity": "critical",
+      "recommendation": "Recalibrate screening criteria before final inclusion decisions."
+    },
+    {
+      "id": "protocol_registration",
+      "severity": "critical",
+      "recommendation": "Declare protocol registration ID or provide protocol URL."
+    },
+    {
+      "id": "data_availability_statement",
+      "severity": "critical",
+      "recommendation": "Add a data availability statement covering screening decisions and conflict logs."
+    },
+    {
+      "id": "prisma_checklist",
+      "severity": "critical",
+      "recommendation": "Provide PRISMA 2020 checklist link or file reference."
+    },
+    {
+      "id": "search_strategy_appendix",
+      "severity": "critical",
+      "recommendation": "Share full reproducible search strategy in supplementary material."
+    },
+    {
+      "id": "screening_log_export",
+      "severity": "critical",
+      "recommendation": "Export and archive screening/adjudication logs for editorial verification."
+    },
+    {
+      "id": "pending_screening_rate",
+      "severity": "warning",
+      "recommendation": "Complete screening queue before manuscript lock."
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+areaKey,aactCount,aactRetrieved,aactError,landmarkCoveragePct,trialUniverseWithoutPICO,trialUniverseWithPICO,picoRetainedPct,robustnessDecision,robustnessScore
+heart_failure,0,0,AACT gateway request failed: 500,0,0,0,0,FLAG,42.9
+atrial_fibrillation,0,0,AACT gateway request failed: 500,0,0,0,0,FLAG,42.9
+acute_coronary_syndromes,0,0,AACT gateway request failed: 500,0,0,0,0,FLAG,42.9
+chronic_coronary_syndromes,0,0,AACT gateway request failed: 500,0,0,0,0,FLAG,42.9
+cardiovascular_prevention,0,0,AACT gateway request failed: 500,0,0,0,0,FLAG,42.9
+valvular_heart_disease,0,0,AACT gateway request failed: 500,0,0,0,0,FLAG,42.9
+ventricular_arrhythmias,0,0,AACT gateway request failed: 500,0,0,0,0,FLAG,42.9
+pulmonary_hypertension,0,0,AACT gateway request failed: 500,0,0,0,0,FLAG,42.9
+cardiomyopathies,0,0,AACT gateway request failed: 500,0,0,0,0,FLAG,42.9
+peripheral_arterial_disease,0,0,AACT gateway request failed: 500,0,0,0,0,FLAG,42.9

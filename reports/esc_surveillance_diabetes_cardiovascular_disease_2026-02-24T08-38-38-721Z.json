@@ -1,0 +1,3973 @@
+{
+  "generatedAt": "2026-02-24T08:40:43.761Z",
+  "areaKey": "diabetes_cardiovascular_disease",
+  "guidelineProfile": "cardiology",
+  "strategy": {
+    "id": "strat_1771922429963_w0fdescfz",
+    "name": "ESC diabetes_cardiovascular_disease surveillance",
+    "created": "2026-02-24T08:40:29.963Z",
+    "lastRun": null,
+    "guidelineProfile": "cardiology",
+    "sources": [
+      "aact"
+    ],
+    "searchObjective": "balanced",
+    "queries": {
+      "pubmed": null,
+      "ctgov": null,
+      "embase": null,
+      "cochrane": null,
+      "aact": {
+        "guidelineProfile": "cardiology",
+        "guidelineArea": "diabetes_cardiovascular_disease",
+        "condition": "type 2 diabetes",
+        "useAreaTerms": false,
+        "completedOnly": true,
+        "status": [
+          "COMPLETED"
+        ],
+        "maxResults": 80
+      }
+    },
+    "ctgovStrategy": {
+      "mode": "single",
+      "primaryStrategyId": "S3",
+      "strategyIds": [
+        "S3"
+      ],
+      "strategyEvidence": [
+        {
+          "strategyId": "S3",
+          "preset": "Randomized Allocation Only",
+          "meanRecallPct": 99,
+          "minRecallPct": 85.7,
+          "retentionPct": 54
+        },
+        {
+          "strategyId": "S6",
+          "preset": "Completed Status",
+          "meanRecallPct": 85.4,
+          "minRecallPct": 50,
+          "retentionPct": 55
+        },
+        {
+          "strategyId": "S10",
+          "preset": "Treatment RCTs Only",
+          "meanRecallPct": 84.8,
+          "minRecallPct": 0,
+          "retentionPct": 36
+        }
+      ],
+      "strategyRationale": [
+        "Objective \"balanced\" selected default strategy bundle."
+      ],
+      "includeStatusFilter": true
+    },
+    "infrastructure": {
+      "aactGatewayUrl": "http://127.0.0.1:8787/aact/query",
+      "embaseApiKey": null
+    },
+    "filters": {
+      "dateRange": {
+        "from": null,
+        "to": null
+      },
+      "studyTypes": [
+        "RCT"
+      ],
+      "languages": [
+        "en"
+      ],
+      "humans": true,
+      "ctgovStatuses": [
+        "COMPLETED",
+        "ACTIVE_NOT_RECRUITING",
+        "RECRUITING"
+      ]
+    },
+    "inclusionCriteria": {
+      "requiredKeywords": [
+        "type 2 diabetes",
+        "cardiovascular outcomes"
+      ],
+      "preferredKeywords": [
+        "diabetic cardiovascular disease",
+        "cardiometabolic",
+        "glp-1",
+        "sglt2",
+        "randomized",
+        "trial",
+        "double blind"
+      ],
+      "exclusionKeywords": [
+        "protocol",
+        "retrospective",
+        "animal",
+        "in vitro"
+      ],
+      "acceptedDesigns": [
+        "RCT",
+        "Observational"
+      ]
+    },
+    "qualityTargets": {
+      "minCtgovRecallPct": 90,
+      "requireAACTForFinalReview": true,
+      "requireAACTIncrementalCapture": false,
+      "minAACTIncrementalNcts": 1,
+      "enforceLandmarkCoverage": true,
+      "minLandmarkCoveragePct": 70,
+      "landmarkGuidelineAreas": [
+        "diabetes_cardiovascular_disease"
+      ],
+      "minSourcesForHighConfidence": 2
+    },
+    "schedule": {
+      "enabled": false,
+      "interval": "weekly",
+      "lastCheck": null,
+      "nextCheck": null
+    },
+    "stats": {
+      "totalRuns": 0,
+      "totalFound": 0,
+      "totalIncluded": 0,
+      "totalExcluded": 0
+    }
+  },
+  "results": {
+    "timestamp": "2026-02-24T08:40:29.963Z",
+    "strategyId": "strat_1771922429963_w0fdescfz",
+    "guidelineProfile": "cardiology",
+    "sources": {
+      "aact": {
+        "count": 85,
+        "retrieved": 85,
+        "requiresGateway": false,
+        "error": null,
+        "guidelineProfile": "cardiology",
+        "termsUsed": [
+          "type 2 diabetes"
+        ],
+        "nctIds": [
+          "NCT00032474",
+          "NCT00032487",
+          "NCT00036504",
+          "NCT00097500",
+          "NCT00099320",
+          "NCT00099333",
+          "NCT00099619",
+          "NCT00103857",
+          "NCT00103935",
+          "NCT00106808",
+          "NCT00108459",
+          "NCT00108901",
+          "NCT00109720",
+          "NCT00110435",
+          "NCT00110851",
+          "NCT00110864",
+          "NCT00121966",
+          "NCT00123604",
+          "NCT00123643",
+          "NCT00124397",
+          "NCT00127192",
+          "NCT00128336",
+          "NCT00129233",
+          "NCT00130481",
+          "NCT00131664",
+          "NCT00133718",
+          "NCT00141453",
+          "NCT00141492",
+          "NCT00142922",
+          "NCT00143520",
+          "NCT00147719",
+          "NCT00147745",
+          "NCT00147758",
+          "NCT00147836",
+          "NCT00149331",
+          "NCT00151749",
+          "NCT00153179",
+          "NCT00157482",
+          "NCT00157586",
+          "NCT00160160",
+          "NCT00163683",
+          "NCT00167115",
+          "NCT00177398",
+          "NCT00179400",
+          "NCT00189774",
+          "NCT00191178",
+          "NCT00194896",
+          "NCT00198757",
+          "NCT00198913",
+          "NCT00198926",
+          "NCT00200018",
+          "NCT00202033",
+          "NCT00205660",
+          "NCT00207233",
+          "NCT00212290",
+          "NCT00212303",
+          "NCT00213070",
+          "NCT00220961",
+          "NCT00221234",
+          "NCT00223574",
+          "NCT00230464",
+          "NCT00232583",
+          "NCT00237549",
+          "NCT00239187",
+          "NCT00239707",
+          "NCT00240253",
+          "NCT00240370",
+          "NCT00241085",
+          "NCT00241423",
+          "NCT00251680",
+          "NCT00252694",
+          "NCT00253786",
+          "NCT00254124",
+          "NCT00254254",
+          "NCT00254800",
+          "NCT00256256",
+          "NCT00257257",
+          "NCT00259896",
+          "NCT00263276",
+          "NCT00268541",
+          "NCT01032629",
+          "NCT01131676",
+          "NCT01243424",
+          "NCT01720446",
+          "NCT01730534"
+        ],
+        "landmarkVerification": {
+          "requested": 5,
+          "found": 5,
+          "coveragePct": 100,
+          "missingNctIds": []
+        },
+        "gatewayUrl": "http://127.0.0.1:8787/aact/query"
+      }
+    },
+    "newStudies": [
+      {
+        "nctId": "NCT00097500",
+        "title": "Effects of Exenatide and Insulin Glargine in Subjects With Type 2 Diabetes",
+        "briefSummary": null,
+        "status": "COMPLETED",
+        "startDate": "2004-09-30",
+        "completionDate": "2009-12-31",
+        "studyType": "INTERVENTIONAL",
+        "phases": [
+          "PHASE3"
+        ],
+        "enrollment": 69,
+        "allocation": "RANDOMIZED",
+        "primaryPurpose": "TREATMENT",
+        "source": "aact",
+        "retrievedAt": "2026-02-24T08:40:33.607Z",
+        "isDuplicate": false,
+        "classification": "maybe",
+        "relevanceScore": 45,
+        "relevanceReasons": [
+          "Contains 1 required keywords",
+          "Study design may not meet criteria: Unknown"
+        ],
+        "pico": {
+          "population": {
+            "text": "DIABETES",
+            "confidence": 0.9,
+            "type": "condition",
+            "details": [
+              {
+                "text": "DIABETES",
+                "type": "condition",
+                "confidence": 0.9
+              }
+            ]
+          },
+          "intervention": {
+            "text": null,
+            "confidence": 0,
+            "details": []
+          },
+          "comparator": {
+            "text": null,
+            "confidence": 0,
+            "details": []
+          },
+          "outcomes": [],
+          "studyDesign": {
+            "type": "Unknown",
+            "confidence": 0.3
+          },
+          "sampleSize": null,
+          "followUp": null,
+          "setting": []
+        },
+        "needsReview": true,
+        "processedAt": "2026-02-24T08:40:36.598Z"
+      },
+      {
+        "nctId": "NCT00099320",
+        "title": "Safety and Efficacy of Exenatide in Patients With Type 2 Diabetes Using Thiazolidinediones or Thiazolidinediones and Metformin",
+        "briefSummary": null,
+        "status": "COMPLETED",
+        "startDate": "2004-05-31",
+        "completionDate": "2005-08-31",
+        "studyType": "INTERVENTIONAL",
+        "phases": [
+          "PHASE3"
+        ],
+        "enrollment": 182,
+        "allocation": "RANDOMIZED",
+        "primaryPurpose": "TREATMENT",
+        "source": "aact",
+        "retrievedAt": "2026-02-24T08:40:33.607Z",
+        "isDuplicate": false,
+        "classification": "maybe",
+        "relevanceScore": 45,
+        "relevanceReasons": [
+          "Contains 1 required keywords",
+          "Study design may not meet criteria: Unknown"
+        ],
+        "pico": {
+          "population": {
+            "text": "DIABETES",
+            "confidence": 0.9,
+            "type": "condition",
+            "details": [
+              {
+                "text": "DIABETES",
+                "type": "condition",
+                "confidence": 0.9
+              }
+            ]
+          },
+          "intervention": {
+            "text": null,
+            "confidence": 0,
+            "details": []
+          },
+          "comparator": {
+            "text": null,
+            "confidence": 0,
+            "details": []
+          },
+          "outcomes": [],
+          "studyDesign": {
+            "type": "Unknown",
+            "confidence": 0.3
+          },
+          "sampleSize": null,
+          "followUp": null,
+          "setting": [
+            {
+              "type": "country",
+              "value": "us"
+            }
+          ]
+        },
+        "needsReview": true,
+        "processedAt": "2026-02-24T08:40:36.599Z"
+      },
+      {
+        "nctId": "NCT00099619",
+        "title": "Comparing Exenatide and Insulin Glargine in Type 2 Diabetes Patients for Whom Insulin is the Next Appropriate Therapy",
+        "briefSummary": null,
+        "status": "COMPLETED",
+        "startDate": "2004-09-30",
+        "completionDate": "2005-08-31",
+        "studyType": "INTERVENTIONAL",
+        "phases": [
+          "PHASE3"
+        ],
+        "enrollment": 138,
+        "allocation": "RANDOMIZED",
+        "primaryPurpose": "TREATMENT",
+        "source": "aact",
+        "retrievedAt": "2026-02-24T08:40:33.607Z",
+        "isDuplicate": false,
+        "classification": "maybe",
+        "relevanceScore": 45,
+        "relevanceReasons": [
+          "Contains 1 required keywords",
+          "Study design may not meet criteria: Unknown"
+        ],
+        "pico": {
+          "population": {
+            "text": "DIABETES",
+            "confidence": 0.9,
+            "type": "condition",
+            "details": [
+              {
+                "text": "DIABETES",
+                "type": "condition",
+                "confidence": 0.9
+              }
+            ]
+          },
+          "intervention": {
+            "text": null,
+            "confidence": 0,
+            "details": []
+          },
+          "comparator": {
+            "text": "Whom",
+            "confidence": 0.8,
+            "type": "comparator",
+            "details": [
+              {
+                "text": "Whom",
+                "type": "comparator",
+                "confidence": 0.8
+              }
+            ]
+          },
+          "outcomes": [],
+          "studyDesign": {
+            "type": "Unknown",
+            "confidence": 0.3
+          },
+          "sampleSize": null,
+          "followUp": null,
+          "setting": []
+        },
+        "needsReview": true,
+        "processedAt": "2026-02-24T08:40:36.603Z"
+      },
+      {
+        "nctId": "NCT00103857",
+        "title": "MK0431 (Sitagliptin) and Metformin Co-Administration Factorial Study in Patients With Type 2 Diabetes Mellitus (0431-036)",
+        "briefSummary": null,
+        "status": "COMPLETED",
+        "startDate": "2005-03-17",
+        "completionDate": "2008-02-21",
+        "studyType": "INTERVENTIONAL",
+        "phases": [
+          "PHASE3"
+        ],
+        "enrollment": 1208,
+        "allocation": "RANDOMIZED",
+        "primaryPurpose": "TREATMENT",
+        "source": "aact",
+        "retrievedAt": "2026-02-24T08:40:33.607Z",
+        "isDuplicate": false,
+        "classification": "maybe",
+        "relevanceScore": 45,
+        "relevanceReasons": [
+          "Contains 1 required keywords",
+          "Study design may not meet criteria: Unknown"
+        ],
+        "pico": {
+          "population": {
+            "text": "DIABETES",
+            "confidence": 0.9,
+            "type": "condition",
+            "details": [
+              {
+                "text": "DIABETES",
+                "type": "condition",
+                "confidence": 0.9
+              }
+            ]
+          },
+          "intervention": {
+            "text": null,
+            "confidence": 0,
+            "details": []
+          },
+          "comparator": {
+            "text": null,
+            "confidence": 0,
+            "details": []
+          },
+          "outcomes": [],
+          "studyDesign": {
+            "type": "Unknown",
+            "confidence": 0.3
+          },
+          "sampleSize": null,
+          "followUp": null,
+          "setting": [
+            {
+              "type": "country",
+              "value": "us"
+            }
+          ]
+        },
+        "needsReview": true,
+        "processedAt": "2026-02-24T08:40:36.606Z"
+      },
+      {
+        "nctId": "NCT00103935",
+        "title": "Study Examining Exenatide Long-Acting Release in Subjects With Type 2 Diabetes",
+        "briefSummary": null,
+        "status": "COMPLETED",
+        "startDate": "2005-02-28",
+        "completionDate": "2005-10-31",
+        "studyType": "INTERVENTIONAL",
+        "phases": [
+          "PHASE2"
+        ],
+        "enrollment": 45,
+        "allocation": "RANDOMIZED",
+        "primaryPurpose": "TREATMENT",
+        "source": "aact",
+        "retrievedAt": "2026-02-24T08:40:33.607Z",
+        "isDuplicate": false,
+        "classification": "maybe",
+        "relevanceScore": 45,
+        "relevanceReasons": [
+          "Contains 1 required keywords",
+          "Study design may not meet criteria: Unknown"
+        ],
+        "pico": {
+          "population": {
+            "text": "DIABETES",
+            "confidence": 0.9,
+            "type": "condition",
+            "details": [
+              {
+                "text": "DIABETES",
+                "type": "condition",
+                "confidence": 0.9
+              }
+            ]
+          },
+          "intervention": {
+            "text": null,
+            "confidence": 0,
+            "details": []
+          },
+          "comparator": {
+            "text": null,
+            "confidence": 0,
+            "details": []
+          },
+          "outcomes": [],
+          "studyDesign": {
+            "type": "Unknown",
+            "confidence": 0.3
+          },
+          "sampleSize": null,
+          "followUp": null,
+          "setting": []
+        },
+        "needsReview": true,
+        "processedAt": "2026-02-24T08:40:36.610Z"
+      },
+      {
+        "nctId": "NCT00106808",
+        "title": "Study of Muraglitazar Versus Pioglitazone in Type 2 Diabetes",
+        "briefSummary": null,
+        "status": "COMPLETED",
+        "startDate": "2005-08-31",
+        "completionDate": "2006-08-31",
+        "studyType": "INTERVENTIONAL",
+        "phases": [
+          "PHASE3"
+        ],
+        "enrollment": 1440,
+        "allocation": "RANDOMIZED",
+        "primaryPurpose": "TREATMENT",
+        "source": "aact",
+        "retrievedAt": "2026-02-24T08:40:33.607Z",
+        "isDuplicate": false,
+        "classification": "maybe",
+        "relevanceScore": 45,
+        "relevanceReasons": [
+          "Contains 1 required keywords",
+          "Study design may not meet criteria: Unknown"
+        ],
+        "pico": {
+          "population": {
+            "text": "DIABETES",
+            "confidence": 0.9,
+            "type": "condition",
+            "details": [
+              {
+                "text": "DIABETES",
+                "type": "condition",
+                "confidence": 0.9
+              }
+            ]
+          },
+          "intervention": {
+            "text": null,
+            "confidence": 0,
+            "details": []
+          },
+          "comparator": {
+            "text": "Pioglitazone",
+            "confidence": 0.8,
+            "type": "comparator",
+            "details": [
+              {
+                "text": "Pioglitazone",
+                "type": "comparator",
+                "confidence": 0.8
+              }
+            ]
+          },
+          "outcomes": [],
+          "studyDesign": {
+            "type": "Unknown",
+            "confidence": 0.3
+          },
+          "sampleSize": null,
+          "followUp": null,
+          "setting": [
+            {
+              "type": "country",
+              "value": "us"
+            }
+          ]
+        },
+        "needsReview": true,
+        "processedAt": "2026-02-24T08:40:36.615Z"
+      },
+      {
+        "nctId": "NCT00110435",
+        "title": "A Multicenter Study to Evaluate the Cholesterol Lowering Effects of Two Marketed Products in Patients With Type 2 Diabetes Mellitus and Hypercholesterolemia (MK-0653A-077)",
+        "briefSummary": null,
+        "status": "COMPLETED",
+        "startDate": "2005-05-31",
+        "completionDate": "2005-12-31",
+        "studyType": "INTERVENTIONAL",
+        "phases": [
+          "PHASE3"
+        ],
+        "enrollment": 1229,
+        "allocation": "RANDOMIZED",
+        "primaryPurpose": "TREATMENT",
+        "source": "aact",
+        "retrievedAt": "2026-02-24T08:40:33.607Z",
+        "isDuplicate": false,
+        "classification": "maybe",
+        "relevanceScore": 45,
+        "relevanceReasons": [
+          "Contains 1 required keywords",
+          "Study design may not meet criteria: Unknown"
+        ],
+        "pico": {
+          "population": {
+            "text": "DIABETES",
+            "confidence": 0.9,
+            "type": "condition",
+            "details": [
+              {
+                "text": "DIABETES",
+                "type": "condition",
+                "confidence": 0.9
+              }
+            ]
+          },
+          "intervention": {
+            "text": null,
+            "confidence": 0,
+            "details": []
+          },
+          "comparator": {
+            "text": null,
+            "confidence": 0,
+            "details": []
+          },
+          "outcomes": [],
+          "studyDesign": {
+            "type": "Unknown",
+            "confidence": 0.3
+          },
+          "sampleSize": null,
+          "followUp": null,
+          "setting": [
+            {
+              "type": "country",
+              "value": "us"
+            },
+            {
+              "type": "design",
+              "value": "Multicenter"
+            }
+          ]
+        },
+        "needsReview": true,
+        "processedAt": "2026-02-24T08:40:36.653Z"
+      },
+      {
+        "nctId": "NCT00121966",
+        "title": "South Danish Diabetes Study: Evaluation of the Antidiabetic Treatment of Type 2 Diabetes Mellitus",
+        "briefSummary": null,
+        "status": "COMPLETED",
+        "startDate": "2003-01-31",
+        "completionDate": "2007-07-31",
+        "studyType": "INTERVENTIONAL",
+        "phases": [
+          "PHASE4"
+        ],
+        "enrollment": 400,
+        "allocation": "RANDOMIZED",
+        "primaryPurpose": "TREATMENT",
+        "source": "aact",
+        "retrievedAt": "2026-02-24T08:40:33.607Z",
+        "isDuplicate": false,
+        "classification": "maybe",
+        "relevanceScore": 45,
+        "relevanceReasons": [
+          "Contains 1 required keywords",
+          "Study design may not meet criteria: Unknown"
+        ],
+        "pico": {
+          "population": {
+            "text": "DIABETES",
+            "confidence": 0.9,
+            "type": "condition",
+            "details": [
+              {
+                "text": "DIABETES",
+                "type": "condition",
+                "confidence": 0.9
+              }
+            ]
+          },
+          "intervention": {
+            "text": "Treatment of Type 2 Diabetes Mellitus",
+            "confidence": 0.85,
+            "type": "drug_with_dose",
+            "details": [
+              {
+                "text": "Treatment of Type 2 Diabetes Mellitus",
+                "type": "drug_with_dose",
+                "confidence": 0.85
+              }
+            ]
+          },
+          "comparator": {
+            "text": null,
+            "confidence": 0,
+            "details": []
+          },
+          "outcomes": [],
+          "studyDesign": {
+            "type": "Unknown",
+            "confidence": 0.3
+          },
+          "sampleSize": null,
+          "followUp": null,
+          "setting": [
+            {
+              "type": "country",
+              "value": "us"
+            }
+          ]
+        },
+        "needsReview": true,
+        "processedAt": "2026-02-24T08:40:36.693Z"
+      },
+      {
+        "nctId": "NCT00123604",
+        "title": "Vascular Effects of Carvedilol Versus Metoprolol in Hypertensive Patients With Type 2 Diabetes",
+        "briefSummary": null,
+        "status": "COMPLETED",
+        "startDate": "2004-06-30",
+        "completionDate": "2006-06-30",
+        "studyType": "INTERVENTIONAL",
+        "phases": [
+          "PHASE4"
+        ],
+        "enrollment": 36,
+        "allocation": "RANDOMIZED",
+        "primaryPurpose": "PREVENTION",
+        "source": "aact",
+        "retrievedAt": "2026-02-24T08:40:33.607Z",
+        "isDuplicate": false,
+        "classification": "maybe",
+        "relevanceScore": 45,
+        "relevanceReasons": [
+          "Contains 1 required keywords",
+          "Study design may not meet criteria: Unknown"
+        ],
+        "pico": {
+          "population": {
+            "text": "DIABETES",
+            "confidence": 0.9,
+            "type": "condition",
+            "details": [
+              {
+                "text": "DIABETES",
+                "type": "condition",
+                "confidence": 0.9
+              }
+            ]
+          },
+          "intervention": {
+            "text": "Metoprolol",
+            "confidence": 0.9,
+            "type": "known_drug",
+            "details": [
+              {
+                "text": "Metoprolol",
+                "context": "Vascular Effects of Carvedilol Versus Metoprolol in Hypertensive Patients With Type 2 Diabetes",
+                "type": "known_drug",
+                "confidence": 0.9
+              },
+              {
+                "text": "Carvedilol",
+                "context": "Vascular Effects of Carvedilol Versus Metoprolol in Hypertensive Patients With Type 2 Diabetes",
+                "type": "known_drug",
+                "confidence": 0.9
+              }
+            ]
+          },
+          "comparator": {
+            "text": "Metoprolol",
+            "confidence": 0.8,
+            "type": "comparator",
+            "details": [
+              {
+                "text": "Metoprolol",
+                "type": "comparator",
+                "confidence": 0.8
+              }
+            ]
+          },
+          "outcomes": [],
+          "studyDesign": {
+            "type": "Unknown",
+            "confidence": 0.3
+          },
+          "sampleSize": null,
+          "followUp": null,
+          "setting": [
+            {
+              "type": "country",
+              "value": "us"
+            }
+          ]
+        },
+        "needsReview": true,
+        "processedAt": "2026-02-24T08:40:36.708Z"
+      },
+      {
+        "nctId": "NCT00124397",
+        "title": "Atorvastatin and Endothelial Function in Type 2 Diabetes Mellitus (ATTEND-Study)",
+        "briefSummary": null,
+        "status": "COMPLETED",
+        "startDate": "2001-07-31",
+        "completionDate": "2004-12-31",
+        "studyType": "INTERVENTIONAL",
+        "phases": [
+          "PHASE4"
+        ],
+        "enrollment": 186,
+        "allocation": "RANDOMIZED",
+        "primaryPurpose": "PREVENTION",
+        "source": "aact",
+        "retrievedAt": "2026-02-24T08:40:33.607Z",
+        "isDuplicate": false,
+        "classification": "maybe",
+        "relevanceScore": 45,
+        "relevanceReasons": [
+          "Contains 1 required keywords",
+          "Study design may not meet criteria: Unknown"
+        ],
+        "pico": {
+          "population": {
+            "text": "DIABETES",
+            "confidence": 0.9,
+            "type": "condition",
+            "details": [
+              {
+                "text": "DIABETES",
+                "type": "condition",
+                "confidence": 0.9
+              }
+            ]
+          },
+          "intervention": {
+            "text": "Atorvastatin",
+            "confidence": 0.9,
+            "type": "known_drug",
+            "details": [
+              {
+                "text": "Atorvastatin",
+                "context": "Atorvastatin and Endothelial Function in Type 2 Diabetes Mellitus (ATTEND-Study)",
+                "type": "known_drug",
+                "confidence": 0.9
+              }
+            ]
+          },
+          "comparator": {
+            "text": null,
+            "confidence": 0,
+            "details": []
+          },
+          "outcomes": [],
+          "studyDesign": {
+            "type": "Unknown",
+            "confidence": 0.3
+          },
+          "sampleSize": null,
+          "followUp": null,
+          "setting": [
+            {
+              "type": "country",
+              "value": "us"
+            }
+          ]
+        },
+        "needsReview": true,
+        "processedAt": "2026-02-24T08:40:36.747Z"
+      },
+      {
+        "nctId": "NCT00127192",
+        "title": "A Study of an Investigational Drug Sitagliptin for Type 2 Diabetes Mellitus (0431-044)",
+        "briefSummary": null,
+        "status": "COMPLETED",
+        "startDate": "2005-07-31",
+        "completionDate": "2006-03-31",
+        "studyType": "INTERVENTIONAL",
+        "phases": [
+          "PHASE2"
+        ],
+        "enrollment": 363,
+        "allocation": "RANDOMIZED",
+        "primaryPurpose": "TREATMENT",
+        "source": "aact",
+        "retrievedAt": "2026-02-24T08:40:33.607Z",
+        "isDuplicate": false,
+        "classification": "maybe",
+        "relevanceScore": 45,
+        "relevanceReasons": [
+          "Contains 1 required keywords",
+          "Study design may not meet criteria: Unknown"
+        ],
+        "pico": {
+          "population": {
+            "text": "DIABETES",
+            "confidence": 0.9,
+            "type": "condition",
+            "details": [
+              {
+                "text": "DIABETES",
+                "type": "condition",
+                "confidence": 0.9
+              }
+            ]
+          },
+          "intervention": {
+            "text": null,
+            "confidence": 0,
+            "details": []
+          },
+          "comparator": {
+            "text": null,
+            "confidence": 0,
+            "details": []
+          },
+          "outcomes": [],
+          "studyDesign": {
+            "type": "Unknown",
+            "confidence": 0.3
+          },
+          "sampleSize": null,
+          "followUp": null,
+          "setting": [
+            {
+              "type": "country",
+              "value": "us"
+            }
+          ]
+        },
+        "needsReview": true,
+        "processedAt": "2026-02-24T08:40:36.768Z"
+      },
+      {
+        "nctId": "NCT00133718",
+        "title": "A 2 Year Trial of Patients With Type 2 Diabetes Focusing on Cardiovascular Diagnostics and Metabolic Control",
+        "briefSummary": null,
+        "status": "COMPLETED",
+        "startDate": "2002-01-31",
+        "completionDate": "2012-05-29",
+        "studyType": "INTERVENTIONAL",
+        "phases": [
+          "PHASE4"
+        ],
+        "enrollment": 120,
+        "allocation": "RANDOMIZED",
+        "primaryPurpose": "PREVENTION",
+        "source": "aact",
+        "retrievedAt": "2026-02-24T08:40:33.607Z",
+        "isDuplicate": false,
+        "classification": "maybe",
+        "relevanceScore": 50,
+        "relevanceReasons": [
+          "Contains 1 required keywords",
+          "Contains 1 preferred keywords",
+          "Study design may not meet criteria: Unknown"
+        ],
+        "pico": {
+          "population": {
+            "text": "DIABETES",
+            "confidence": 0.9,
+            "type": "condition",
+            "details": [
+              {
+                "text": "DIABETES",
+                "type": "condition",
+                "confidence": 0.9
+              }
+            ]
+          },
+          "intervention": {
+            "text": null,
+            "confidence": 0,
+            "details": []
+          },
+          "comparator": {
+            "text": "Control",
+            "confidence": 0.8,
+            "type": "comparator",
+            "details": [
+              {
+                "text": "Control",
+                "type": "comparator",
+                "confidence": 0.8
+              }
+            ]
+          },
+          "outcomes": [],
+          "studyDesign": {
+            "type": "Unknown",
+            "confidence": 0.3
+          },
+          "sampleSize": null,
+          "followUp": null,
+          "setting": [
+            {
+              "type": "country",
+              "value": "us"
+            }
+          ]
+        },
+        "needsReview": true,
+        "processedAt": "2026-02-24T08:40:36.930Z"
+      },
+      {
+        "nctId": "NCT00141492",
+        "title": "Efficacy and Safety of Androgel in the Treatment of Hypogonadal and Low Testosterone Men With Type 2 Diabetes",
+        "briefSummary": null,
+        "status": "COMPLETED",
+        "startDate": "2004-10-31",
+        "completionDate": "2007-06-30",
+        "studyType": "INTERVENTIONAL",
+        "phases": [
+          "PHASE2"
+        ],
+        "enrollment": null,
+        "allocation": "RANDOMIZED",
+        "primaryPurpose": "TREATMENT",
+        "source": "aact",
+        "retrievedAt": "2026-02-24T08:40:33.607Z",
+        "isDuplicate": false,
+        "classification": "maybe",
+        "relevanceScore": 45,
+        "relevanceReasons": [
+          "Contains 1 required keywords",
+          "Study design may not meet criteria: Unknown"
+        ],
+        "pico": {
+          "population": {
+            "text": "DIABETES",
+            "confidence": 0.9,
+            "type": "condition",
+            "details": [
+              {
+                "text": "DIABETES",
+                "type": "condition",
+                "confidence": 0.9
+              }
+            ]
+          },
+          "intervention": {
+            "text": "Treatment of Hypogonadal and Low Testosterone Men With Type 2 Diabetes",
+            "confidence": 0.85,
+            "type": "drug_with_dose",
+            "details": [
+              {
+                "text": "Treatment of Hypogonadal and Low Testosterone Men With Type 2 Diabetes",
+                "type": "drug_with_dose",
+                "confidence": 0.85
+              }
+            ]
+          },
+          "comparator": {
+            "text": null,
+            "confidence": 0,
+            "details": []
+          },
+          "outcomes": [],
+          "studyDesign": {
+            "type": "Unknown",
+            "confidence": 0.3
+          },
+          "sampleSize": null,
+          "followUp": null,
+          "setting": []
+        },
+        "needsReview": true,
+        "processedAt": "2026-02-24T08:40:36.979Z"
+      },
+      {
+        "nctId": "NCT00143520",
+        "title": "Placebo and Active Controlled Study of Rivoglitazone in Type 2 Diabetes",
+        "briefSummary": null,
+        "status": "COMPLETED",
+        "startDate": "2004-12-31",
+        "completionDate": "2005-12-31",
+        "studyType": "INTERVENTIONAL",
+        "phases": [
+          "PHASE2/PHASE3"
+        ],
+        "enrollment": 441,
+        "allocation": "RANDOMIZED",
+        "primaryPurpose": "TREATMENT",
+        "source": "aact",
+        "retrievedAt": "2026-02-24T08:40:33.607Z",
+        "isDuplicate": false,
+        "classification": "maybe",
+        "relevanceScore": 45,
+        "relevanceReasons": [
+          "Contains 1 required keywords",
+          "Study design may not meet criteria: Unknown"
+        ],
+        "pico": {
+          "population": {
+            "text": "DIABETES",
+            "confidence": 0.9,
+            "type": "condition",
+            "details": [
+              {
+                "text": "DIABETES",
+                "type": "condition",
+                "confidence": 0.9
+              }
+            ]
+          },
+          "intervention": {
+            "text": null,
+            "confidence": 0,
+            "details": []
+          },
+          "comparator": {
+            "text": "Placebo",
+            "confidence": 0.8,
+            "type": "comparator",
+            "details": [
+              {
+                "text": "Placebo",
+                "type": "comparator",
+                "confidence": 0.8
+              },
+              {
+                "text": "Control",
+                "type": "comparator",
+                "confidence": 0.8
+              }
+            ]
+          },
+          "outcomes": [],
+          "studyDesign": {
+            "type": "Unknown",
+            "confidence": 0.3
+          },
+          "sampleSize": null,
+          "followUp": null,
+          "setting": []
+        },
+        "needsReview": true,
+        "processedAt": "2026-02-24T08:40:37.044Z"
+      },
+      {
+        "nctId": "NCT00147719",
+        "title": "WelChol® With Metformin in Treating Patients With Type 2 Diabetes",
+        "briefSummary": null,
+        "status": "COMPLETED",
+        "startDate": "2004-06-30",
+        "completionDate": "2006-07-31",
+        "studyType": "INTERVENTIONAL",
+        "phases": [
+          "PHASE3"
+        ],
+        "enrollment": 300,
+        "allocation": "RANDOMIZED",
+        "primaryPurpose": "TREATMENT",
+        "source": "aact",
+        "retrievedAt": "2026-02-24T08:40:33.607Z",
+        "isDuplicate": false,
+        "classification": "maybe",
+        "relevanceScore": 45,
+        "relevanceReasons": [
+          "Contains 1 required keywords",
+          "Study design may not meet criteria: Unknown"
+        ],
+        "pico": {
+          "population": {
+            "text": "DIABETES",
+            "confidence": 0.9,
+            "type": "condition",
+            "details": [
+              {
+                "text": "DIABETES",
+                "type": "condition",
+                "confidence": 0.9
+              }
+            ]
+          },
+          "intervention": {
+            "text": null,
+            "confidence": 0,
+            "details": []
+          },
+          "comparator": {
+            "text": null,
+            "confidence": 0,
+            "details": []
+          },
+          "outcomes": [],
+          "studyDesign": {
+            "type": "Unknown",
+            "confidence": 0.3
+          },
+          "sampleSize": null,
+          "followUp": null,
+          "setting": []
+        },
+        "needsReview": true,
+        "processedAt": "2026-02-24T08:40:37.064Z"
+      },
+      {
+        "nctId": "NCT00198926",
+        "title": "Type 2 Diabetes Controlled Eating Experiment",
+        "briefSummary": null,
+        "status": "COMPLETED",
+        "startDate": "2000-05-31",
+        "completionDate": "2001-08-31",
+        "studyType": "INTERVENTIONAL",
+        "phases": [
+          "NA"
+        ],
+        "enrollment": 100,
+        "allocation": "RANDOMIZED",
+        "primaryPurpose": "ECT",
+        "source": "aact",
+        "retrievedAt": "2026-02-24T08:40:33.607Z",
+        "isDuplicate": false,
+        "classification": "maybe",
+        "relevanceScore": 45,
+        "relevanceReasons": [
+          "Contains 1 required keywords",
+          "Study design may not meet criteria: Unknown"
+        ],
+        "pico": {
+          "population": {
+            "text": "DIABETES",
+            "confidence": 0.9,
+            "type": "condition",
+            "details": [
+              {
+                "text": "DIABETES",
+                "type": "condition",
+                "confidence": 0.9
+              }
+            ]
+          },
+          "intervention": {
+            "text": null,
+            "confidence": 0,
+            "details": []
+          },
+          "comparator": {
+            "text": "Control",
+            "confidence": 0.8,
+            "type": "comparator",
+            "details": [
+              {
+                "text": "Control",
+                "type": "comparator",
+                "confidence": 0.8
+              }
+            ]
+          },
+          "outcomes": [],
+          "studyDesign": {
+            "type": "Unknown",
+            "confidence": 0.3
+          },
+          "sampleSize": null,
+          "followUp": null,
+          "setting": []
+        },
+        "needsReview": true,
+        "processedAt": "2026-02-24T08:40:37.865Z"
+      },
+      {
+        "nctId": "NCT00200018",
+        "title": "Study of Weight Loss Using Gastric Stimulation in Obese Patients With Type 2 Diabetes",
+        "briefSummary": null,
+        "status": "COMPLETED",
+        "startDate": "2005-06-30",
+        "completionDate": "2007-12-31",
+        "studyType": "INTERVENTIONAL",
+        "phases": [
+          "NA"
+        ],
+        "enrollment": 46,
+        "allocation": "RANDOMIZED",
+        "primaryPurpose": "TREATMENT",
+        "source": "aact",
+        "retrievedAt": "2026-02-24T08:40:33.607Z",
+        "isDuplicate": false,
+        "classification": "maybe",
+        "relevanceScore": 45,
+        "relevanceReasons": [
+          "Contains 1 required keywords",
+          "Study design may not meet criteria: Unknown"
+        ],
+        "pico": {
+          "population": {
+            "text": "DIABETES",
+            "confidence": 0.9,
+            "type": "condition",
+            "details": [
+              {
+                "text": "DIABETES",
+                "type": "condition",
+                "confidence": 0.9
+              }
+            ]
+          },
+          "intervention": {
+            "text": null,
+            "confidence": 0,
+            "details": []
+          },
+          "comparator": {
+            "text": null,
+            "confidence": 0,
+            "details": []
+          },
+          "outcomes": [],
+          "studyDesign": {
+            "type": "Unknown",
+            "confidence": 0.3
+          },
+          "sampleSize": null,
+          "followUp": null,
+          "setting": [
+            {
+              "type": "country",
+              "value": "us"
+            }
+          ]
+        },
+        "needsReview": true,
+        "processedAt": "2026-02-24T08:40:37.977Z"
+      },
+      {
+        "nctId": "NCT00202033",
+        "title": "Impact of Self-Monitoring Blood Glucose Frequency on Glycemic Control in Patients With Type 2 Diabetes",
+        "briefSummary": null,
+        "status": "COMPLETED",
+        "startDate": "2004-09-30",
+        "completionDate": "2009-05-31",
+        "studyType": "INTERVENTIONAL",
+        "phases": [
+          "PHASE4"
+        ],
+        "enrollment": 150,
+        "allocation": "RANDOMIZED",
+        "primaryPurpose": "TREATMENT",
+        "source": "aact",
+        "retrievedAt": "2026-02-24T08:40:33.607Z",
+        "isDuplicate": false,
+        "classification": "maybe",
+        "relevanceScore": 45,
+        "relevanceReasons": [
+          "Contains 1 required keywords",
+          "Study design may not meet criteria: Unknown"
+        ],
+        "pico": {
+          "population": {
+            "text": "DIABETES",
+            "confidence": 0.9,
+            "type": "condition",
+            "details": [
+              {
+                "text": "DIABETES",
+                "type": "condition",
+                "confidence": 0.9
+              }
+            ]
+          },
+          "intervention": {
+            "text": null,
+            "confidence": 0,
+            "details": []
+          },
+          "comparator": {
+            "text": "Control",
+            "confidence": 0.8,
+            "type": "comparator",
+            "details": [
+              {
+                "text": "Control",
+                "type": "comparator",
+                "confidence": 0.8
+              }
+            ]
+          },
+          "outcomes": [],
+          "studyDesign": {
+            "type": "Unknown",
+            "confidence": 0.3
+          },
+          "sampleSize": null,
+          "followUp": null,
+          "setting": []
+        },
+        "needsReview": true,
+        "processedAt": "2026-02-24T08:40:38.076Z"
+      },
+      {
+        "nctId": "NCT00212290",
+        "title": "Insulin Resistance and Central Nervous System (CNS) Function in Type 2 Diabetes",
+        "briefSummary": null,
+        "status": "COMPLETED",
+        "startDate": "2002-11-30",
+        "completionDate": "2006-12-31",
+        "studyType": "INTERVENTIONAL",
+        "phases": [
+          "PHASE4"
+        ],
+        "enrollment": 140,
+        "allocation": "RANDOMIZED",
+        "primaryPurpose": "TREATMENT",
+        "source": "aact",
+        "retrievedAt": "2026-02-24T08:40:33.607Z",
+        "isDuplicate": false,
+        "classification": "maybe",
+        "relevanceScore": 45,
+        "relevanceReasons": [
+          "Contains 1 required keywords",
+          "Study design may not meet criteria: Unknown"
+        ],
+        "pico": {
+          "population": {
+            "text": "DIABETES",
+            "confidence": 0.9,
+            "type": "condition",
+            "details": [
+              {
+                "text": "DIABETES",
+                "type": "condition",
+                "confidence": 0.9
+              }
+            ]
+          },
+          "intervention": {
+            "text": null,
+            "confidence": 0,
+            "details": []
+          },
+          "comparator": {
+            "text": null,
+            "confidence": 0,
+            "details": []
+          },
+          "outcomes": [],
+          "studyDesign": {
+            "type": "Unknown",
+            "confidence": 0.3
+          },
+          "sampleSize": null,
+          "followUp": null,
+          "setting": [
+            {
+              "type": "country",
+              "value": "us"
+            }
+          ]
+        },
+        "needsReview": true,
+        "processedAt": "2026-02-24T08:40:38.431Z"
+      },
+      {
+        "nctId": "NCT00212303",
+        "title": "Exercise Training in Type 2 Diabetes and Hypertension",
+        "briefSummary": null,
+        "status": "COMPLETED",
+        "startDate": "2004-05-31",
+        "completionDate": "2010-12-31",
+        "studyType": "INTERVENTIONAL",
+        "phases": [
+          "PHASE4"
+        ],
+        "enrollment": 115,
+        "allocation": "RANDOMIZED",
+        "primaryPurpose": "TREATMENT",
+        "source": "aact",
+        "retrievedAt": "2026-02-24T08:40:33.607Z",
+        "isDuplicate": false,
+        "classification": "maybe",
+        "relevanceScore": 45,
+        "relevanceReasons": [
+          "Contains 1 required keywords",
+          "Study design may not meet criteria: Unknown"
+        ],
+        "pico": {
+          "population": {
+            "text": "HYPERTENSION",
+            "confidence": 0.9,
+            "type": "condition",
+            "details": [
+              {
+                "text": "HYPERTENSION",
+                "type": "condition",
+                "confidence": 0.9
+              },
+              {
+                "text": "DIABETES",
+                "type": "condition",
+                "confidence": 0.9
+              }
+            ]
+          },
+          "intervention": {
+            "text": null,
+            "confidence": 0,
+            "details": []
+          },
+          "comparator": {
+            "text": null,
+            "confidence": 0,
+            "details": []
+          },
+          "outcomes": [],
+          "studyDesign": {
+            "type": "Unknown",
+            "confidence": 0.3
+          },
+          "sampleSize": null,
+          "followUp": null,
+          "setting": []
+        },
+        "needsReview": true,
+        "processedAt": "2026-02-24T08:40:38.514Z"
+      },
+      {
+        "nctId": "NCT00232583",
+        "title": "Preservation of Beta-cell Function in Type 2 Diabetes Mellitus",
+        "briefSummary": null,
+        "status": "COMPLETED",
+        "startDate": "2003-11-30",
+        "completionDate": "2011-12-31",
+        "studyType": "INTERVENTIONAL",
+        "phases": [
+          "NA"
+        ],
+        "enrollment": 58,
+        "allocation": "RANDOMIZED",
+        "primaryPurpose": "TREATMENT",
+        "source": "aact",
+        "retrievedAt": "2026-02-24T08:40:33.607Z",
+        "isDuplicate": false,
+        "classification": "maybe",
+        "relevanceScore": 45,
+        "relevanceReasons": [
+          "Contains 1 required keywords",
+          "Study design may not meet criteria: Unknown"
+        ],
+        "pico": {
+          "population": {
+            "text": "DIABETES",
+            "confidence": 0.9,
+            "type": "condition",
+            "details": [
+              {
+                "text": "DIABETES",
+                "type": "condition",
+                "confidence": 0.9
+              }
+            ]
+          },
+          "intervention": {
+            "text": null,
+            "confidence": 0,
+            "details": []
+          },
+          "comparator": {
+            "text": null,
+            "confidence": 0,
+            "details": []
+          },
+          "outcomes": [],
+          "studyDesign": {
+            "type": "Unknown",
+            "confidence": 0.3
+          },
+          "sampleSize": null,
+          "followUp": null,
+          "setting": [
+            {
+              "type": "country",
+              "value": "us"
+            }
+          ]
+        },
+        "needsReview": true,
+        "processedAt": "2026-02-24T08:40:39.066Z"
+      },
+      {
+        "nctId": "NCT00240253",
+        "title": "A Study Evaluating the Efficacy and Safety of Adding Symlin® to Lantus® (Insulin Glargine) in Subjects With Type 2 Diabetes",
+        "briefSummary": null,
+        "status": "COMPLETED",
+        "startDate": "2005-10-31",
+        "completionDate": "2006-06-30",
+        "studyType": "INTERVENTIONAL",
+        "phases": [
+          "PHASE4"
+        ],
+        "enrollment": 200,
+        "allocation": "RANDOMIZED",
+        "primaryPurpose": "TREATMENT",
+        "source": "aact",
+        "retrievedAt": "2026-02-24T08:40:33.607Z",
+        "isDuplicate": false,
+        "classification": "maybe",
+        "relevanceScore": 45,
+        "relevanceReasons": [
+          "Contains 1 required keywords",
+          "Study design may not meet criteria: Unknown"
+        ],
+        "pico": {
+          "population": {
+            "text": "DIABETES",
+            "confidence": 0.9,
+            "type": "condition",
+            "details": [
+              {
+                "text": "DIABETES",
+                "type": "condition",
+                "confidence": 0.9
+              }
+            ]
+          },
+          "intervention": {
+            "text": null,
+            "confidence": 0,
+            "details": []
+          },
+          "comparator": {
+            "text": null,
+            "confidence": 0,
+            "details": []
+          },
+          "outcomes": [],
+          "studyDesign": {
+            "type": "Unknown",
+            "confidence": 0.3
+          },
+          "sampleSize": null,
+          "followUp": null,
+          "setting": [
+            {
+              "type": "country",
+              "value": "us"
+            }
+          ]
+        },
+        "needsReview": true,
+        "processedAt": "2026-02-24T08:40:39.661Z"
+      },
+      {
+        "nctId": "NCT00241423",
+        "title": "Effect of Exenatide on 24-Hour Blood Glucose Profile Compared With Placebo in Patients With Type 2 Diabetes",
+        "briefSummary": null,
+        "status": "COMPLETED",
+        "startDate": "2005-10-31",
+        "completionDate": "2007-06-30",
+        "studyType": "INTERVENTIONAL",
+        "phases": [
+          "PHASE2"
+        ],
+        "enrollment": 30,
+        "allocation": "RANDOMIZED",
+        "primaryPurpose": "TREATMENT",
+        "source": "aact",
+        "retrievedAt": "2026-02-24T08:40:33.607Z",
+        "isDuplicate": false,
+        "classification": "maybe",
+        "relevanceScore": 45,
+        "relevanceReasons": [
+          "Contains 1 required keywords",
+          "Study design may not meet criteria: Unknown"
+        ],
+        "pico": {
+          "population": {
+            "text": "DIABETES",
+            "confidence": 0.9,
+            "type": "condition",
+            "details": [
+              {
+                "text": "DIABETES",
+                "type": "condition",
+                "confidence": 0.9
+              }
+            ]
+          },
+          "intervention": {
+            "text": null,
+            "confidence": 0,
+            "details": []
+          },
+          "comparator": {
+            "text": "Placebo",
+            "confidence": 0.8,
+            "type": "comparator",
+            "details": [
+              {
+                "text": "Placebo",
+                "type": "comparator",
+                "confidence": 0.8
+              },
+              {
+                "text": "Placebo",
+                "type": "comparator",
+                "confidence": 0.8
+              }
+            ]
+          },
+          "outcomes": [],
+          "studyDesign": {
+            "type": "Unknown",
+            "confidence": 0.3
+          },
+          "sampleSize": null,
+          "followUp": null,
+          "setting": []
+        },
+        "needsReview": true,
+        "processedAt": "2026-02-24T08:40:40.172Z"
+      },
+      {
+        "nctId": "NCT00254254",
+        "title": "A Study to Evaluate the Pharmacokinetics, Pharmacodynamics, and Tolerability of Exenatide in Adolescent Subjects With Type 2 Diabetes Mellitus",
+        "briefSummary": null,
+        "status": "COMPLETED",
+        "startDate": "2006-02-28",
+        "completionDate": "2007-02-28",
+        "studyType": "INTERVENTIONAL",
+        "phases": [
+          "PHASE2"
+        ],
+        "enrollment": 13,
+        "allocation": "RANDOMIZED",
+        "primaryPurpose": "TREATMENT",
+        "source": "aact",
+        "retrievedAt": "2026-02-24T08:40:33.607Z",
+        "isDuplicate": false,
+        "classification": "maybe",
+        "relevanceScore": 45,
+        "relevanceReasons": [
+          "Contains 1 required keywords",
+          "Study design may not meet criteria: Unknown"
+        ],
+        "pico": {
+          "population": {
+            "text": "DIABETES",
+            "confidence": 0.9,
+            "type": "condition",
+            "details": [
+              {
+                "text": "DIABETES",
+                "type": "condition",
+                "confidence": 0.9
+              }
+            ]
+          },
+          "intervention": {
+            "text": null,
+            "confidence": 0,
+            "details": []
+          },
+          "comparator": {
+            "text": null,
+            "confidence": 0,
+            "details": []
+          },
+          "outcomes": [],
+          "studyDesign": {
+            "type": "Unknown",
+            "confidence": 0.3
+          },
+          "sampleSize": null,
+          "followUp": null,
+          "setting": [
+            {
+              "type": "country",
+              "value": "us"
+            }
+          ]
+        },
+        "needsReview": true,
+        "processedAt": "2026-02-24T08:40:41.178Z"
+      },
+      {
+        "nctId": "NCT00259896",
+        "title": "In-patient Study in Patients With Type 2 Diabetes Mellitus",
+        "briefSummary": null,
+        "status": "COMPLETED",
+        "startDate": "2005-10-31",
+        "completionDate": null,
+        "studyType": "INTERVENTIONAL",
+        "phases": [
+          "PHASE1"
+        ],
+        "enrollment": 30,
+        "allocation": "RANDOMIZED",
+        "primaryPurpose": "TREATMENT",
+        "source": "aact",
+        "retrievedAt": "2026-02-24T08:40:33.607Z",
+        "isDuplicate": false,
+        "classification": "maybe",
+        "relevanceScore": 45,
+        "relevanceReasons": [
+          "Contains 1 required keywords",
+          "Study design may not meet criteria: Unknown"
+        ],
+        "pico": {
+          "population": {
+            "text": "DIABETES",
+            "confidence": 0.9,
+            "type": "condition",
+            "details": [
+              {
+                "text": "DIABETES",
+                "type": "condition",
+                "confidence": 0.9
+              }
+            ]
+          },
+          "intervention": {
+            "text": null,
+            "confidence": 0,
+            "details": []
+          },
+          "comparator": {
+            "text": null,
+            "confidence": 0,
+            "details": []
+          },
+          "outcomes": [],
+          "studyDesign": {
+            "type": "Unknown",
+            "confidence": 0.3
+          },
+          "sampleSize": null,
+          "followUp": null,
+          "setting": [
+            {
+              "type": "country",
+              "value": "us"
+            }
+          ]
+        },
+        "needsReview": true,
+        "processedAt": "2026-02-24T08:40:42.044Z"
+      },
+      {
+        "nctId": "NCT00263276",
+        "title": "A Trial of BMS-512148 in Patients With Type 2 Diabetes Mellitus",
+        "briefSummary": null,
+        "status": "COMPLETED",
+        "startDate": "2005-12-31",
+        "completionDate": "2007-02-28",
+        "studyType": "INTERVENTIONAL",
+        "phases": [
+          "PHASE2"
+        ],
+        "enrollment": 389,
+        "allocation": "RANDOMIZED",
+        "primaryPurpose": "TREATMENT",
+        "source": "aact",
+        "retrievedAt": "2026-02-24T08:40:33.607Z",
+        "isDuplicate": false,
+        "classification": "maybe",
+        "relevanceScore": 50,
+        "relevanceReasons": [
+          "Contains 1 required keywords",
+          "Contains 1 preferred keywords",
+          "Study design may not meet criteria: Unknown"
+        ],
+        "pico": {
+          "population": {
+            "text": "DIABETES",
+            "confidence": 0.9,
+            "type": "condition",
+            "details": [
+              {
+                "text": "DIABETES",
+                "type": "condition",
+                "confidence": 0.9
+              }
+            ]
+          },
+          "intervention": {
+            "text": null,
+            "confidence": 0,
+            "details": []
+          },
+          "comparator": {
+            "text": null,
+            "confidence": 0,
+            "details": []
+          },
+          "outcomes": [],
+          "studyDesign": {
+            "type": "Unknown",
+            "confidence": 0.3
+          },
+          "sampleSize": null,
+          "followUp": null,
+          "setting": [
+            {
+              "type": "country",
+              "value": "us"
+            }
+          ]
+        },
+        "needsReview": true,
+        "processedAt": "2026-02-24T08:40:42.245Z"
+      },
+      {
+        "nctId": "NCT00268541",
+        "title": "Physical Activity, Insulin Resistance and Function of Fat Tissue in the Offspring of Patients With Type 2 Diabetes",
+        "briefSummary": null,
+        "status": "COMPLETED",
+        "startDate": "2004-09-30",
+        "completionDate": "2007-02-28",
+        "studyType": "INTERVENTIONAL",
+        "phases": [
+          "NA"
+        ],
+        "enrollment": 80,
+        "allocation": "RANDOMIZED",
+        "primaryPurpose": "TREATMENT",
+        "source": "aact",
+        "retrievedAt": "2026-02-24T08:40:33.607Z",
+        "isDuplicate": false,
+        "classification": "maybe",
+        "relevanceScore": 45,
+        "relevanceReasons": [
+          "Contains 1 required keywords",
+          "Study design may not meet criteria: Unknown"
+        ],
+        "pico": {
+          "population": {
+            "text": "DIABETES",
+            "confidence": 0.9,
+            "type": "condition",
+            "details": [
+              {
+                "text": "DIABETES",
+                "type": "condition",
+                "confidence": 0.9
+              }
+            ]
+          },
+          "intervention": {
+            "text": null,
+            "confidence": 0,
+            "details": []
+          },
+          "comparator": {
+            "text": null,
+            "confidence": 0,
+            "details": []
+          },
+          "outcomes": [],
+          "studyDesign": {
+            "type": "Unknown",
+            "confidence": 0.3
+          },
+          "sampleSize": null,
+          "followUp": null,
+          "setting": []
+        },
+        "needsReview": true,
+        "processedAt": "2026-02-24T08:40:42.534Z"
+      },
+      {
+        "nctId": "NCT01131676",
+        "title": "BI 10773 (Empagliflozin) Cardiovascular Outcome Event Trial in Type 2 Diabetes Mellitus Patients (EMPA-REG OUTCOME).",
+        "briefSummary": null,
+        "status": "COMPLETED",
+        "startDate": "2010-07-31",
+        "completionDate": "2015-04-30",
+        "studyType": "INTERVENTIONAL",
+        "phases": [
+          "PHASE3"
+        ],
+        "enrollment": 7064,
+        "allocation": "RANDOMIZED",
+        "primaryPurpose": "TREATMENT",
+        "source": "aact",
+        "retrievedAt": "2026-02-24T08:40:36.597Z",
+        "isDuplicate": false,
+        "classification": "maybe",
+        "relevanceScore": 50,
+        "relevanceReasons": [
+          "Contains 1 required keywords",
+          "Contains 1 preferred keywords",
+          "Study design may not meet criteria: Unknown"
+        ],
+        "pico": {
+          "population": {
+            "text": "DIABETES",
+            "confidence": 0.9,
+            "type": "condition",
+            "details": [
+              {
+                "text": "DIABETES",
+                "type": "condition",
+                "confidence": 0.9
+              }
+            ]
+          },
+          "intervention": {
+            "text": null,
+            "confidence": 0,
+            "details": []
+          },
+          "comparator": {
+            "text": null,
+            "confidence": 0,
+            "details": []
+          },
+          "outcomes": [],
+          "studyDesign": {
+            "type": "Unknown",
+            "confidence": 0.3
+          },
+          "sampleSize": null,
+          "followUp": null,
+          "setting": [
+            {
+              "type": "country",
+              "value": "us"
+            }
+          ]
+        },
+        "needsReview": true,
+        "processedAt": "2026-02-24T08:40:43.011Z"
+      },
+      {
+        "nctId": "NCT01243424",
+        "title": "CAROLINA: Cardiovascular Outcome Study of Linagliptin Versus Glimepiride in Patients With Type 2 Diabetes",
+        "briefSummary": null,
+        "status": "COMPLETED",
+        "startDate": "2010-11-11",
+        "completionDate": "2018-08-21",
+        "studyType": "INTERVENTIONAL",
+        "phases": [
+          "PHASE3"
+        ],
+        "enrollment": 6103,
+        "allocation": "RANDOMIZED",
+        "primaryPurpose": "TREATMENT",
+        "source": "aact",
+        "retrievedAt": "2026-02-24T08:40:36.597Z",
+        "isDuplicate": false,
+        "classification": "maybe",
+        "relevanceScore": 45,
+        "relevanceReasons": [
+          "Contains 1 required keywords",
+          "Study design may not meet criteria: Unknown"
+        ],
+        "pico": {
+          "population": {
+            "text": "DIABETES",
+            "confidence": 0.9,
+            "type": "condition",
+            "details": [
+              {
+                "text": "DIABETES",
+                "type": "condition",
+                "confidence": 0.9
+              }
+            ]
+          },
+          "intervention": {
+            "text": null,
+            "confidence": 0,
+            "details": []
+          },
+          "comparator": {
+            "text": "Glimepiride",
+            "confidence": 0.8,
+            "type": "comparator",
+            "details": [
+              {
+                "text": "Glimepiride",
+                "type": "comparator",
+                "confidence": 0.8
+              }
+            ]
+          },
+          "outcomes": [],
+          "studyDesign": {
+            "type": "Unknown",
+            "confidence": 0.3
+          },
+          "sampleSize": null,
+          "followUp": null,
+          "setting": [
+            {
+              "type": "country",
+              "value": "us"
+            }
+          ]
+        },
+        "needsReview": true,
+        "processedAt": "2026-02-24T08:40:43.272Z"
+      },
+      {
+        "nctId": "NCT01720446",
+        "title": "Trial to Evaluate Cardiovascular and Other Long-term Outcomes With Semaglutide in Subjects With Type 2 Diabetes",
+        "briefSummary": null,
+        "status": "COMPLETED",
+        "startDate": "2013-02-21",
+        "completionDate": "2016-03-15",
+        "studyType": "INTERVENTIONAL",
+        "phases": [
+          "PHASE3"
+        ],
+        "enrollment": 3297,
+        "allocation": "RANDOMIZED",
+        "primaryPurpose": "TREATMENT",
+        "source": "aact",
+        "retrievedAt": "2026-02-24T08:40:36.597Z",
+        "isDuplicate": false,
+        "classification": "maybe",
+        "relevanceScore": 50,
+        "relevanceReasons": [
+          "Contains 1 required keywords",
+          "Contains 1 preferred keywords",
+          "Study design may not meet criteria: Unknown"
+        ],
+        "pico": {
+          "population": {
+            "text": "DIABETES",
+            "confidence": 0.9,
+            "type": "condition",
+            "details": [
+              {
+                "text": "DIABETES",
+                "type": "condition",
+                "confidence": 0.9
+              }
+            ]
+          },
+          "intervention": {
+            "text": null,
+            "confidence": 0,
+            "details": []
+          },
+          "comparator": {
+            "text": null,
+            "confidence": 0,
+            "details": []
+          },
+          "outcomes": [],
+          "studyDesign": {
+            "type": "Unknown",
+            "confidence": 0.3
+          },
+          "sampleSize": null,
+          "followUp": null,
+          "setting": []
+        },
+        "needsReview": true,
+        "processedAt": "2026-02-24T08:40:43.508Z"
+      }
+    ],
+    "duplicates": [
+      {
+        "nctId": "NCT00110851",
+        "title": "Safety and Efficacy Study of PN2034 in Type 2 Diabetes Patients on Concomitant Rosiglitazone and Metformin (or Avandamet)",
+        "briefSummary": null,
+        "status": "COMPLETED",
+        "startDate": "2005-04-30",
+        "completionDate": "2007-08-31",
+        "studyType": "INTERVENTIONAL",
+        "phases": [
+          "PHASE2"
+        ],
+        "enrollment": 90,
+        "allocation": "RANDOMIZED",
+        "primaryPurpose": "TREATMENT",
+        "source": "aact",
+        "retrievedAt": "2026-02-24T08:40:33.607Z",
+        "isDuplicate": true,
+        "duplicateOf": {
+          "index": 4,
+          "title": "Safety and Efficacy of Exenatide in Patients With Type 2 Diabetes Using Thiazolidinediones or Thiazolidinediones and Metformin"
+        }
+      },
+      {
+        "nctId": "NCT00110864",
+        "title": "Effects of PN2034 in Insulin-Dependent Patients With Type 2 Diabetes",
+        "briefSummary": null,
+        "status": "COMPLETED",
+        "startDate": "2005-05-31",
+        "completionDate": "2007-04-30",
+        "studyType": "INTERVENTIONAL",
+        "phases": [
+          "PHASE2"
+        ],
+        "enrollment": 90,
+        "allocation": "RANDOMIZED",
+        "primaryPurpose": "TREATMENT",
+        "source": "aact",
+        "retrievedAt": "2026-02-24T08:40:33.607Z",
+        "isDuplicate": true,
+        "duplicateOf": {
+          "index": 3,
+          "title": "Effects of Exenatide and Insulin Glargine in Subjects With Type 2 Diabetes"
+        }
+      },
+      {
+        "nctId": "NCT00123643",
+        "title": "Vascular Effects of Rosiglitazone Versus Glyburide in Type 2 Diabetic Patients",
+        "briefSummary": null,
+        "status": "COMPLETED",
+        "startDate": "2003-05-31",
+        "completionDate": "2005-12-31",
+        "studyType": "INTERVENTIONAL",
+        "phases": [
+          "PHASE4"
+        ],
+        "enrollment": 36,
+        "allocation": "RANDOMIZED",
+        "primaryPurpose": "PREVENTION",
+        "source": "aact",
+        "retrievedAt": "2026-02-24T08:40:33.607Z",
+        "isDuplicate": true,
+        "duplicateOf": {
+          "index": 17,
+          "title": "Vascular Effects of Carvedilol Versus Metoprolol in Hypertensive Patients With Type 2 Diabetes"
+        }
+      },
+      {
+        "nctId": "NCT00147745",
+        "title": "Effects of Colesevelam on How the Body Responds to Insulin in Patients With Type 2 Diabetes",
+        "briefSummary": null,
+        "status": "COMPLETED",
+        "startDate": "2005-06-30",
+        "completionDate": "2008-01-31",
+        "studyType": "INTERVENTIONAL",
+        "phases": [
+          "PHASE2"
+        ],
+        "enrollment": 36,
+        "allocation": "RANDOMIZED",
+        "primaryPurpose": "TREATMENT",
+        "source": "aact",
+        "retrievedAt": "2026-02-24T08:40:33.607Z",
+        "isDuplicate": true,
+        "duplicateOf": {
+          "index": 3,
+          "title": "Effects of Exenatide and Insulin Glargine in Subjects With Type 2 Diabetes"
+        }
+      },
+      {
+        "nctId": "NCT00147758",
+        "title": "WelChol® and Sulfonylurea in Treating Patients With Type 2 Diabetes",
+        "briefSummary": null,
+        "status": "COMPLETED",
+        "startDate": "2004-06-30",
+        "completionDate": "2006-08-31",
+        "studyType": "INTERVENTIONAL",
+        "phases": [
+          "PHASE3"
+        ],
+        "enrollment": 400,
+        "allocation": "RANDOMIZED",
+        "primaryPurpose": "TREATMENT",
+        "source": "aact",
+        "retrievedAt": "2026-02-24T08:40:33.607Z",
+        "isDuplicate": true,
+        "duplicateOf": {
+          "index": 30,
+          "title": "WelChol® With Metformin in Treating Patients With Type 2 Diabetes"
+        }
+      },
+      {
+        "nctId": "NCT00151749",
+        "title": "WelChol® and Insulin in Treating Patients With Type 2 Diabetes",
+        "briefSummary": null,
+        "status": "COMPLETED",
+        "startDate": "2004-06-30",
+        "completionDate": "2005-12-31",
+        "studyType": "INTERVENTIONAL",
+        "phases": [
+          "PHASE3"
+        ],
+        "enrollment": 260,
+        "allocation": "RANDOMIZED",
+        "primaryPurpose": "TREATMENT",
+        "source": "aact",
+        "retrievedAt": "2026-02-24T08:40:33.607Z",
+        "isDuplicate": true,
+        "duplicateOf": {
+          "index": 30,
+          "title": "WelChol® With Metformin in Treating Patients With Type 2 Diabetes"
+        }
+      },
+      {
+        "nctId": "NCT00160160",
+        "title": "Comparison of Eprosartan/HCT Versus Enalapril/HCT in Hypertensives With Type II Diabetes",
+        "briefSummary": null,
+        "status": "COMPLETED",
+        "startDate": "2004-10-31",
+        "completionDate": null,
+        "studyType": "INTERVENTIONAL",
+        "phases": [
+          "NA"
+        ],
+        "enrollment": 440,
+        "allocation": "RANDOMIZED",
+        "primaryPurpose": "TREATMENT",
+        "source": "aact",
+        "retrievedAt": "2026-02-24T08:40:33.607Z",
+        "isDuplicate": true,
+        "duplicateOf": {
+          "index": 22,
+          "title": "Comparison of Valsartan With Amlodipine in Hypertensive Patients With Glucose Intolerance"
+        }
+      },
+      {
+        "nctId": "NCT00163683",
+        "title": "Effects of a Mediterranean Style Diet on Vascular Health in Type 2 Diabetes",
+        "briefSummary": null,
+        "status": "COMPLETED",
+        "startDate": "2003-01-31",
+        "completionDate": "2006-05-31",
+        "studyType": "INTERVENTIONAL",
+        "phases": [
+          "NA"
+        ],
+        "enrollment": 24,
+        "allocation": "RANDOMIZED",
+        "primaryPurpose": null,
+        "source": "aact",
+        "retrievedAt": "2026-02-24T08:40:33.607Z",
+        "isDuplicate": true,
+        "duplicateOf": {
+          "index": 3,
+          "title": "Effects of Exenatide and Insulin Glargine in Subjects With Type 2 Diabetes"
+        }
+      },
+      {
+        "nctId": "NCT00191178",
+        "title": "Effects of Insulin in Perceived Mood Symptoms in Patients With Type 2 Diabetes",
+        "briefSummary": null,
+        "status": "COMPLETED",
+        "startDate": "2003-08-31",
+        "completionDate": "2005-07-31",
+        "studyType": "INTERVENTIONAL",
+        "phases": [
+          "PHASE4"
+        ],
+        "enrollment": 60,
+        "allocation": "RANDOMIZED",
+        "primaryPurpose": "TREATMENT",
+        "source": "aact",
+        "retrievedAt": "2026-02-24T08:40:33.607Z",
+        "isDuplicate": true,
+        "duplicateOf": {
+          "index": 3,
+          "title": "Effects of Exenatide and Insulin Glargine in Subjects With Type 2 Diabetes"
+        }
+      },
+      {
+        "nctId": "NCT00198757",
+        "title": "Efficacy of 2 Diet Plans Designed for People With Type II Diabetes on Weight and Health Measures",
+        "briefSummary": null,
+        "status": "COMPLETED",
+        "startDate": "2002-07-31",
+        "completionDate": "2005-01-31",
+        "studyType": "INTERVENTIONAL",
+        "phases": [
+          "NA"
+        ],
+        "enrollment": 120,
+        "allocation": "RANDOMIZED",
+        "primaryPurpose": "TREATMENT",
+        "source": "aact",
+        "retrievedAt": "2026-02-24T08:40:33.607Z",
+        "isDuplicate": true,
+        "duplicateOf": {
+          "index": 27,
+          "title": "Efficacy and Safety of Androgel in the Treatment of Hypogonadal and Low Testosterone Men With Type 2 Diabetes"
+        }
+      },
+      {
+        "nctId": "NCT00254124",
+        "title": "Use of a Portion Control Food Tool to Induce Weight Loss in Obese Type 2 Diabetics.",
+        "briefSummary": null,
+        "status": "COMPLETED",
+        "startDate": "2004-04-30",
+        "completionDate": "2004-12-31",
+        "studyType": "INTERVENTIONAL",
+        "phases": [
+          "NA"
+        ],
+        "enrollment": 130,
+        "allocation": "RANDOMIZED",
+        "primaryPurpose": "TREATMENT",
+        "source": "aact",
+        "retrievedAt": "2026-02-24T08:40:33.607Z",
+        "isDuplicate": true,
+        "duplicateOf": {
+          "index": 53,
+          "title": "Use of MCT Oil for Enhancement of Weight Loss and Glycemic Control in Obese Diabetic Patients"
+        }
+      }
+    ],
+    "excluded": [
+      {
+        "nctId": "NCT00032474",
+        "title": "Ginkgo Biloba Extract and the Insulin Resistance Syndrome",
+        "briefSummary": null,
+        "status": "COMPLETED",
+        "startDate": "2001-12-31",
+        "completionDate": "2005-05-31",
+        "studyType": "INTERVENTIONAL",
+        "phases": [
+          "PHASE1/PHASE2"
+        ],
+        "enrollment": 150,
+        "allocation": "RANDOMIZED",
+        "primaryPurpose": "TREATMENT",
+        "source": "aact",
+        "retrievedAt": "2026-02-24T08:40:33.606Z",
+        "isDuplicate": false,
+        "classification": "exclude",
+        "relevanceScore": 0,
+        "relevanceReasons": [
+          "Missing required keywords",
+          "Study design may not meet criteria: Unknown"
+        ],
+        "pico": null,
+        "needsReview": false,
+        "processedAt": "2026-02-24T08:40:36.597Z"
+      },
+      {
+        "nctId": "NCT00032487",
+        "title": "Glycemic Control and Complications in Diabetes Mellitus Type 2 (VADT)",
+        "briefSummary": null,
+        "status": "COMPLETED",
+        "startDate": "2000-12-01",
+        "completionDate": "2008-05-30",
+        "studyType": "INTERVENTIONAL",
+        "phases": [
+          "PHASE3"
+        ],
+        "enrollment": 1791,
+        "allocation": "RANDOMIZED",
+        "primaryPurpose": "TREATMENT",
+        "source": "aact",
+        "retrievedAt": "2026-02-24T08:40:33.606Z",
+        "isDuplicate": false,
+        "classification": "exclude",
+        "relevanceScore": 0,
+        "relevanceReasons": [
+          "Missing required keywords",
+          "Study design may not meet criteria: Unknown"
+        ],
+        "pico": null,
+        "needsReview": false,
+        "processedAt": "2026-02-24T08:40:36.597Z"
+      },
+      {
+        "nctId": "NCT00036504",
+        "title": "Efficacy and Safety of Twice-Daily Insulin Lispro Low Mixture Compared to a Once-Daily Long Acting Insulin Comparator in Patients Who Have Been Using One or More Oral Antihyperglycemic Agents Without Insulin",
+        "briefSummary": null,
+        "status": "COMPLETED",
+        "startDate": "2001-08-31",
+        "completionDate": "2002-08-31",
+        "studyType": "INTERVENTIONAL",
+        "phases": [
+          "PHASE4"
+        ],
+        "enrollment": 100,
+        "allocation": "RANDOMIZED",
+        "primaryPurpose": "TREATMENT",
+        "source": "aact",
+        "retrievedAt": "2026-02-24T08:40:33.607Z",
+        "isDuplicate": false,
+        "classification": "exclude",
+        "relevanceScore": 0,
+        "relevanceReasons": [
+          "Missing required keywords",
+          "Study design may not meet criteria: Unknown"
+        ],
+        "pico": null,
+        "needsReview": false,
+        "processedAt": "2026-02-24T08:40:36.597Z"
+      },
+      {
+        "nctId": "NCT00099333",
+        "title": "Study of the Safety of Substituting Exenatide for Insulin in Patients Using Insulin and Oral Antidiabetic Agents",
+        "briefSummary": null,
+        "status": "COMPLETED",
+        "startDate": "2004-02-29",
+        "completionDate": "2005-08-31",
+        "studyType": "INTERVENTIONAL",
+        "phases": [
+          "PHASE2"
+        ],
+        "enrollment": 49,
+        "allocation": "RANDOMIZED",
+        "primaryPurpose": "TREATMENT",
+        "source": "aact",
+        "retrievedAt": "2026-02-24T08:40:33.607Z",
+        "isDuplicate": false,
+        "classification": "exclude",
+        "relevanceScore": 0,
+        "relevanceReasons": [
+          "Missing required keywords",
+          "Study design may not meet criteria: Unknown"
+        ],
+        "pico": null,
+        "needsReview": false,
+        "processedAt": "2026-02-24T08:40:36.601Z"
+      },
+      {
+        "nctId": "NCT00108459",
+        "title": "Low Carbohydrate Diet Compared to Calorie and Fat Restricted Diet in Patients With Obesity and Type II Diabetes",
+        "briefSummary": null,
+        "status": "COMPLETED",
+        "startDate": "2004-09-30",
+        "completionDate": "2007-12-31",
+        "studyType": "INTERVENTIONAL",
+        "phases": [
+          "PHASE3"
+        ],
+        "enrollment": 156,
+        "allocation": "RANDOMIZED",
+        "primaryPurpose": "TREATMENT",
+        "source": "aact",
+        "retrievedAt": "2026-02-24T08:40:33.607Z",
+        "isDuplicate": false,
+        "classification": "exclude",
+        "relevanceScore": 0,
+        "relevanceReasons": [
+          "Missing required keywords",
+          "Study design may not meet criteria: Unknown"
+        ],
+        "pico": null,
+        "needsReview": false,
+        "processedAt": "2026-02-24T08:40:36.626Z"
+      },
+      {
+        "nctId": "NCT00108901",
+        "title": "The Medical College of Georgia PLAY Project: Exercise Dose and Insulin Sensitivity in Obese Children",
+        "briefSummary": null,
+        "status": "COMPLETED",
+        "startDate": "2003-06-30",
+        "completionDate": "2007-01-31",
+        "studyType": "INTERVENTIONAL",
+        "phases": [
+          "PHASE2"
+        ],
+        "enrollment": 222,
+        "allocation": "RANDOMIZED",
+        "primaryPurpose": "PREVENTION",
+        "source": "aact",
+        "retrievedAt": "2026-02-24T08:40:33.607Z",
+        "isDuplicate": false,
+        "classification": "exclude",
+        "relevanceScore": 0,
+        "relevanceReasons": [
+          "Missing required keywords",
+          "Study design may not meet criteria: Unknown"
+        ],
+        "pico": null,
+        "needsReview": false,
+        "processedAt": "2026-02-24T08:40:36.637Z"
+      },
+      {
+        "nctId": "NCT00109720",
+        "title": "Evaluation of Diabetes Self-Management Consultant Care",
+        "briefSummary": null,
+        "status": "COMPLETED",
+        "startDate": "2002-08-31",
+        "completionDate": "2007-07-31",
+        "studyType": "INTERVENTIONAL",
+        "phases": [
+          "NA"
+        ],
+        "enrollment": 310,
+        "allocation": "RANDOMIZED",
+        "primaryPurpose": "TREATMENT",
+        "source": "aact",
+        "retrievedAt": "2026-02-24T08:40:33.607Z",
+        "isDuplicate": false,
+        "classification": "exclude",
+        "relevanceScore": 0,
+        "relevanceReasons": [
+          "Missing required keywords",
+          "Study design may not meet criteria: Unknown"
+        ],
+        "pico": null,
+        "needsReview": false,
+        "processedAt": "2026-02-24T08:40:36.645Z"
+      },
+      {
+        "nctId": "NCT00128336",
+        "title": "The Heat Study: 2 Year Lifestyle Intervention in Overweight Women to Encourage Weight Management",
+        "briefSummary": null,
+        "status": "COMPLETED",
+        "startDate": "2004-05-31",
+        "completionDate": "2006-10-31",
+        "studyType": "INTERVENTIONAL",
+        "phases": [
+          "PHASE3"
+        ],
+        "enrollment": 200,
+        "allocation": "RANDOMIZED",
+        "primaryPurpose": "TREATMENT",
+        "source": "aact",
+        "retrievedAt": "2026-02-24T08:40:33.607Z",
+        "isDuplicate": false,
+        "classification": "exclude",
+        "relevanceScore": 0,
+        "relevanceReasons": [
+          "Missing required keywords",
+          "Study design may not meet criteria: Unknown"
+        ],
+        "pico": null,
+        "needsReview": false,
+        "processedAt": "2026-02-24T08:40:36.794Z"
+      },
+      {
+        "nctId": "NCT00129233",
+        "title": "Comparison of Valsartan With Amlodipine in Hypertensive Patients With Glucose Intolerance",
+        "briefSummary": null,
+        "status": "COMPLETED",
+        "startDate": "2004-10-31",
+        "completionDate": "2013-04-30",
+        "studyType": "INTERVENTIONAL",
+        "phases": [
+          "PHASE4"
+        ],
+        "enrollment": 1150,
+        "allocation": "RANDOMIZED",
+        "primaryPurpose": "PREVENTION",
+        "source": "aact",
+        "retrievedAt": "2026-02-24T08:40:33.607Z",
+        "isDuplicate": false,
+        "classification": "exclude",
+        "relevanceScore": 0,
+        "relevanceReasons": [
+          "Missing required keywords",
+          "Study design may not meet criteria: Unknown"
+        ],
+        "pico": null,
+        "needsReview": false,
+        "processedAt": "2026-02-24T08:40:36.823Z"
+      },
+      {
+        "nctId": "NCT00130481",
+        "title": "Pediatric Atorvastatin in Diabetes Intervention Trial (PADIT)",
+        "briefSummary": null,
+        "status": "COMPLETED",
+        "startDate": "2005-04-30",
+        "completionDate": "2007-04-30",
+        "studyType": "INTERVENTIONAL",
+        "phases": [
+          "NA"
+        ],
+        "enrollment": 100,
+        "allocation": "RANDOMIZED",
+        "primaryPurpose": "PREVENTION",
+        "source": "aact",
+        "retrievedAt": "2026-02-24T08:40:33.607Z",
+        "isDuplicate": false,
+        "classification": "exclude",
+        "relevanceScore": 0,
+        "relevanceReasons": [
+          "Missing required keywords",
+          "Contains 1 preferred keywords",
+          "Study design may not meet criteria: Unknown"
+        ],
+        "pico": null,
+        "needsReview": false,
+        "processedAt": "2026-02-24T08:40:36.848Z"
+      },
+      {
+        "nctId": "NCT00131664",
+        "title": "Avandia™ + Amaryl™ or Avandamet™ Compared With Metformin (AVALANCHE™ Study)",
+        "briefSummary": null,
+        "status": "COMPLETED",
+        "startDate": "2005-09-30",
+        "completionDate": "2008-01-31",
+        "studyType": "INTERVENTIONAL",
+        "phases": [
+          "PHASE3"
+        ],
+        "enrollment": 391,
+        "allocation": "RANDOMIZED",
+        "primaryPurpose": "TREATMENT",
+        "source": "aact",
+        "retrievedAt": "2026-02-24T08:40:33.607Z",
+        "isDuplicate": false,
+        "classification": "exclude",
+        "relevanceScore": 0,
+        "relevanceReasons": [
+          "Missing required keywords",
+          "Study design may not meet criteria: Unknown"
+        ],
+        "pico": null,
+        "needsReview": false,
+        "processedAt": "2026-02-24T08:40:36.880Z"
+      },
+      {
+        "nctId": "NCT00141453",
+        "title": "ORIENT: Olmesartan Reducing Incidence of End Stage Renal Disease in Diabetic Nephropathy Trial",
+        "briefSummary": null,
+        "status": "COMPLETED",
+        "startDate": "2003-04-30",
+        "completionDate": "2009-01-31",
+        "studyType": "INTERVENTIONAL",
+        "phases": [
+          "PHASE3"
+        ],
+        "enrollment": 577,
+        "allocation": "RANDOMIZED",
+        "primaryPurpose": "TREATMENT",
+        "source": "aact",
+        "retrievedAt": "2026-02-24T08:40:33.607Z",
+        "isDuplicate": false,
+        "classification": "exclude",
+        "relevanceScore": 0,
+        "relevanceReasons": [
+          "Missing required keywords",
+          "Contains 1 preferred keywords",
+          "Study design may not meet criteria: Unknown"
+        ],
+        "pico": null,
+        "needsReview": false,
+        "processedAt": "2026-02-24T08:40:36.954Z"
+      },
+      {
+        "nctId": "NCT00142922",
+        "title": "Breaking Down Barriers to Diabetes Self-Care",
+        "briefSummary": null,
+        "status": "COMPLETED",
+        "startDate": "2002-10-31",
+        "completionDate": "2007-10-31",
+        "studyType": "INTERVENTIONAL",
+        "phases": [
+          "NA"
+        ],
+        "enrollment": 222,
+        "allocation": "RANDOMIZED",
+        "primaryPurpose": null,
+        "source": "aact",
+        "retrievedAt": "2026-02-24T08:40:33.607Z",
+        "isDuplicate": false,
+        "classification": "exclude",
+        "relevanceScore": 0,
+        "relevanceReasons": [
+          "Missing required keywords",
+          "Study design may not meet criteria: Unknown"
+        ],
+        "pico": null,
+        "needsReview": false,
+        "processedAt": "2026-02-24T08:40:37.015Z"
+      },
+      {
+        "nctId": "NCT00147836",
+        "title": "Evaluation of the Effects of Different Interventions on Glycemic Control in Newly-Diagnosed Type 2 Diabetic Patients",
+        "briefSummary": null,
+        "status": "COMPLETED",
+        "startDate": "2004-09-30",
+        "completionDate": "2007-10-31",
+        "studyType": "INTERVENTIONAL",
+        "phases": [
+          "NA"
+        ],
+        "enrollment": 436,
+        "allocation": "RANDOMIZED",
+        "primaryPurpose": "TREATMENT",
+        "source": "aact",
+        "retrievedAt": "2026-02-24T08:40:33.607Z",
+        "isDuplicate": false,
+        "classification": "exclude",
+        "relevanceScore": 0,
+        "relevanceReasons": [
+          "Missing required keywords",
+          "Study design may not meet criteria: Unknown"
+        ],
+        "pico": null,
+        "needsReview": false,
+        "processedAt": "2026-02-24T08:40:37.132Z"
+      },
+      {
+        "nctId": "NCT00149331",
+        "title": "The Effects of Two Education Strategies About Insulin on Patient Preferences and Perceptions About Insulin Therapy",
+        "briefSummary": null,
+        "status": "COMPLETED",
+        "startDate": "2005-07-31",
+        "completionDate": "2006-03-31",
+        "studyType": "INTERVENTIONAL",
+        "phases": [
+          "PHASE4"
+        ],
+        "enrollment": 86,
+        "allocation": "RANDOMIZED",
+        "primaryPurpose": "ECT",
+        "source": "aact",
+        "retrievedAt": "2026-02-24T08:40:33.607Z",
+        "isDuplicate": false,
+        "classification": "exclude",
+        "relevanceScore": 0,
+        "relevanceReasons": [
+          "Missing required keywords",
+          "Study design may not meet criteria: Unknown"
+        ],
+        "pico": null,
+        "needsReview": false,
+        "processedAt": "2026-02-24T08:40:37.159Z"
+      },
+      {
+        "nctId": "NCT00153179",
+        "title": "Free Fatty Acids and Vascular Function in Subjects With Diabetes",
+        "briefSummary": null,
+        "status": "COMPLETED",
+        "startDate": "2005-09-30",
+        "completionDate": "2013-03-31",
+        "studyType": "INTERVENTIONAL",
+        "phases": [
+          "PHASE1/PHASE2"
+        ],
+        "enrollment": 40,
+        "allocation": "RANDOMIZED",
+        "primaryPurpose": "TREATMENT",
+        "source": "aact",
+        "retrievedAt": "2026-02-24T08:40:33.607Z",
+        "isDuplicate": false,
+        "classification": "exclude",
+        "relevanceScore": 0,
+        "relevanceReasons": [
+          "Missing required keywords",
+          "Study design may not meet criteria: Unknown"
+        ],
+        "pico": null,
+        "needsReview": false,
+        "processedAt": "2026-02-24T08:40:37.244Z"
+      },
+      {
+        "nctId": "NCT00157482",
+        "title": "Ezetimibe and Simvastatin in Dyslipidemia of Diabetes",
+        "briefSummary": null,
+        "status": "COMPLETED",
+        "startDate": "2005-01-31",
+        "completionDate": "2006-12-31",
+        "studyType": "INTERVENTIONAL",
+        "phases": [
+          "PHASE2"
+        ],
+        "enrollment": 108,
+        "allocation": "RANDOMIZED",
+        "primaryPurpose": "DIAGNOSTIC",
+        "source": "aact",
+        "retrievedAt": "2026-02-24T08:40:33.607Z",
+        "isDuplicate": false,
+        "classification": "exclude",
+        "relevanceScore": 0,
+        "relevanceReasons": [
+          "Missing required keywords",
+          "Study design may not meet criteria: Unknown"
+        ],
+        "pico": null,
+        "needsReview": false,
+        "processedAt": "2026-02-24T08:40:37.284Z"
+      },
+      {
+        "nctId": "NCT00157586",
+        "title": "Delapril and Manidipine for Nephroprotection in Diabetes (DEMAND)",
+        "briefSummary": null,
+        "status": "COMPLETED",
+        "startDate": "2002-02-28",
+        "completionDate": "2008-06-30",
+        "studyType": "INTERVENTIONAL",
+        "phases": [
+          "PHASE3"
+        ],
+        "enrollment": 342,
+        "allocation": "RANDOMIZED",
+        "primaryPurpose": "DIAGNOSTIC",
+        "source": "aact",
+        "retrievedAt": "2026-02-24T08:40:33.607Z",
+        "isDuplicate": false,
+        "classification": "exclude",
+        "relevanceScore": 0,
+        "relevanceReasons": [
+          "Missing required keywords",
+          "Study design may not meet criteria: Unknown"
+        ],
+        "pico": null,
+        "needsReview": false,
+        "processedAt": "2026-02-24T08:40:37.318Z"
+      },
+      {
+        "nctId": "NCT00167115",
+        "title": "Metabolic Effects of Alcohol",
+        "briefSummary": null,
+        "status": "COMPLETED",
+        "startDate": "2004-12-31",
+        "completionDate": "2005-09-30",
+        "studyType": "INTERVENTIONAL",
+        "phases": [
+          "NA"
+        ],
+        "enrollment": 20,
+        "allocation": "RANDOMIZED",
+        "primaryPurpose": "TREATMENT",
+        "source": "aact",
+        "retrievedAt": "2026-02-24T08:40:33.607Z",
+        "isDuplicate": false,
+        "classification": "exclude",
+        "relevanceScore": 0,
+        "relevanceReasons": [
+          "Missing required keywords",
+          "Study design may not meet criteria: Unknown"
+        ],
+        "pico": null,
+        "needsReview": false,
+        "processedAt": "2026-02-24T08:40:37.427Z"
+      },
+      {
+        "nctId": "NCT00177398",
+        "title": "Effect of Glargine Insulin on Glucose Control in Hospitalized Patients Who Receive Tube Feedings",
+        "briefSummary": null,
+        "status": "COMPLETED",
+        "startDate": "2005-02-28",
+        "completionDate": "2006-08-31",
+        "studyType": "INTERVENTIONAL",
+        "phases": [
+          "PHASE4"
+        ],
+        "enrollment": 50,
+        "allocation": "RANDOMIZED",
+        "primaryPurpose": "TREATMENT",
+        "source": "aact",
+        "retrievedAt": "2026-02-24T08:40:33.607Z",
+        "isDuplicate": false,
+        "classification": "exclude",
+        "relevanceScore": 0,
+        "relevanceReasons": [
+          "Missing required keywords",
+          "Study design may not meet criteria: Unknown"
+        ],
+        "pico": null,
+        "needsReview": false,
+        "processedAt": "2026-02-24T08:40:37.473Z"
+      },
+      {
+        "nctId": "NCT00179400",
+        "title": "The Role of Acute Combined PPAR Alpha and Gamma Stimulation on Insulin Action in Humans",
+        "briefSummary": null,
+        "status": "COMPLETED",
+        "startDate": "2000-12-31",
+        "completionDate": "2011-07-31",
+        "studyType": "INTERVENTIONAL",
+        "phases": [
+          "PHASE4"
+        ],
+        "enrollment": 26,
+        "allocation": "RANDOMIZED",
+        "primaryPurpose": "TREATMENT",
+        "source": "aact",
+        "retrievedAt": "2026-02-24T08:40:33.607Z",
+        "isDuplicate": false,
+        "classification": "exclude",
+        "relevanceScore": 0,
+        "relevanceReasons": [
+          "Missing required keywords",
+          "Study design may not meet criteria: Unknown"
+        ],
+        "pico": null,
+        "needsReview": false,
+        "processedAt": "2026-02-24T08:40:37.509Z"
+      },
+      {
+        "nctId": "NCT00189774",
+        "title": "Nateglinide: a Double Blind Add-on Study With Pioglitazone for Type 2 Diabetic Patients",
+        "briefSummary": null,
+        "status": "COMPLETED",
+        "startDate": null,
+        "completionDate": null,
+        "studyType": "INTERVENTIONAL",
+        "phases": [
+          "PHASE2/PHASE3"
+        ],
+        "enrollment": null,
+        "allocation": "RANDOMIZED",
+        "primaryPurpose": "TREATMENT",
+        "source": "aact",
+        "retrievedAt": "2026-02-24T08:40:33.607Z",
+        "isDuplicate": false,
+        "classification": "exclude",
+        "relevanceScore": 0,
+        "relevanceReasons": [
+          "Missing required keywords",
+          "Contains 1 preferred keywords",
+          "Study design may not meet criteria: Unknown"
+        ],
+        "pico": null,
+        "needsReview": false,
+        "processedAt": "2026-02-24T08:40:37.547Z"
+      },
+      {
+        "nctId": "NCT00194896",
+        "title": "Preferred Treatment of Type 1.5 Diabetes",
+        "briefSummary": null,
+        "status": "COMPLETED",
+        "startDate": "2000-02-29",
+        "completionDate": "2008-12-31",
+        "studyType": "INTERVENTIONAL",
+        "phases": [
+          "NA"
+        ],
+        "enrollment": 64,
+        "allocation": "RANDOMIZED",
+        "primaryPurpose": "TREATMENT",
+        "source": "aact",
+        "retrievedAt": "2026-02-24T08:40:33.607Z",
+        "isDuplicate": false,
+        "classification": "exclude",
+        "relevanceScore": 0,
+        "relevanceReasons": [
+          "Missing required keywords",
+          "Study design may not meet criteria: Unknown"
+        ],
+        "pico": null,
+        "needsReview": false,
+        "processedAt": "2026-02-24T08:40:37.629Z"
+      },
+      {
+        "nctId": "NCT00198913",
+        "title": "Long Term Free Living Study With Modified Foods and Type 2 Diabetics",
+        "briefSummary": null,
+        "status": "COMPLETED",
+        "startDate": "2002-06-30",
+        "completionDate": "2003-02-28",
+        "studyType": "INTERVENTIONAL",
+        "phases": [
+          "NA"
+        ],
+        "enrollment": 100,
+        "allocation": "RANDOMIZED",
+        "primaryPurpose": "TREATMENT",
+        "source": "aact",
+        "retrievedAt": "2026-02-24T08:40:33.607Z",
+        "isDuplicate": false,
+        "classification": "exclude",
+        "relevanceScore": 0,
+        "relevanceReasons": [
+          "Missing required keywords",
+          "Study design may not meet criteria: Unknown"
+        ],
+        "pico": null,
+        "needsReview": false,
+        "processedAt": "2026-02-24T08:40:37.763Z"
+      },
+      {
+        "nctId": "NCT00205660",
+        "title": "Changes in Adiposity, Metabolic Measures From Atypicals to Aripiprazole",
+        "briefSummary": null,
+        "status": "COMPLETED",
+        "startDate": "2005-02-28",
+        "completionDate": "2009-08-31",
+        "studyType": "INTERVENTIONAL",
+        "phases": [
+          "PHASE4"
+        ],
+        "enrollment": 51,
+        "allocation": "RANDOMIZED",
+        "primaryPurpose": "TREATMENT",
+        "source": "aact",
+        "retrievedAt": "2026-02-24T08:40:33.607Z",
+        "isDuplicate": false,
+        "classification": "exclude",
+        "relevanceScore": 0,
+        "relevanceReasons": [
+          "Missing required keywords",
+          "Study design may not meet criteria: Unknown"
+        ],
+        "pico": null,
+        "needsReview": false,
+        "processedAt": "2026-02-24T08:40:38.178Z"
+      },
+      {
+        "nctId": "NCT00207233",
+        "title": "Use of MCT Oil for Enhancement of Weight Loss and Glycemic Control in Obese Diabetic Patients",
+        "briefSummary": null,
+        "status": "COMPLETED",
+        "startDate": "2004-07-31",
+        "completionDate": "2009-07-31",
+        "studyType": "INTERVENTIONAL",
+        "phases": [
+          "PHASE1/PHASE2"
+        ],
+        "enrollment": 42,
+        "allocation": "RANDOMIZED",
+        "primaryPurpose": "TREATMENT",
+        "source": "aact",
+        "retrievedAt": "2026-02-24T08:40:33.607Z",
+        "isDuplicate": false,
+        "classification": "exclude",
+        "relevanceScore": 0,
+        "relevanceReasons": [
+          "Missing required keywords",
+          "Study design may not meet criteria: Unknown"
+        ],
+        "pico": null,
+        "needsReview": false,
+        "processedAt": "2026-02-24T08:40:38.332Z"
+      },
+      {
+        "nctId": "NCT00213070",
+        "title": "Double-Blind Trial of Miglitol in Type 2 Diabetic Patients With Insulin Treatment",
+        "briefSummary": null,
+        "status": "COMPLETED",
+        "startDate": null,
+        "completionDate": null,
+        "studyType": "INTERVENTIONAL",
+        "phases": [
+          "PHASE3"
+        ],
+        "enrollment": null,
+        "allocation": "RANDOMIZED",
+        "primaryPurpose": "TREATMENT",
+        "source": "aact",
+        "retrievedAt": "2026-02-24T08:40:33.607Z",
+        "isDuplicate": false,
+        "classification": "exclude",
+        "relevanceScore": 0,
+        "relevanceReasons": [
+          "Missing required keywords",
+          "Contains 1 preferred keywords",
+          "Study design may not meet criteria: Unknown"
+        ],
+        "pico": null,
+        "needsReview": false,
+        "processedAt": "2026-02-24T08:40:38.593Z"
+      },
+      {
+        "nctId": "NCT00220961",
+        "title": "Actos Now for Prevention of Diabetes (ACT NOW)",
+        "briefSummary": null,
+        "status": "COMPLETED",
+        "startDate": "2004-01-31",
+        "completionDate": "2010-04-30",
+        "studyType": "INTERVENTIONAL",
+        "phases": [
+          "PHASE3"
+        ],
+        "enrollment": 602,
+        "allocation": "RANDOMIZED",
+        "primaryPurpose": "PREVENTION",
+        "source": "aact",
+        "retrievedAt": "2026-02-24T08:40:33.607Z",
+        "isDuplicate": false,
+        "classification": "exclude",
+        "relevanceScore": 0,
+        "relevanceReasons": [
+          "Missing required keywords",
+          "Study design may not meet criteria: Unknown"
+        ],
+        "pico": null,
+        "needsReview": false,
+        "processedAt": "2026-02-24T08:40:38.673Z"
+      },
+      {
+        "nctId": "NCT00221234",
+        "title": "Alberta Diabetes and Physical Activity Trial",
+        "briefSummary": null,
+        "status": "COMPLETED",
+        "startDate": "2005-09-30",
+        "completionDate": "2007-07-31",
+        "studyType": "INTERVENTIONAL",
+        "phases": [
+          "PHASE2"
+        ],
+        "enrollment": 300,
+        "allocation": "RANDOMIZED",
+        "primaryPurpose": "TREATMENT",
+        "source": "aact",
+        "retrievedAt": "2026-02-24T08:40:33.607Z",
+        "isDuplicate": false,
+        "classification": "exclude",
+        "relevanceScore": 0,
+        "relevanceReasons": [
+          "Missing required keywords",
+          "Contains 1 preferred keywords",
+          "Study design may not meet criteria: Unknown"
+        ],
+        "pico": null,
+        "needsReview": false,
+        "processedAt": "2026-02-24T08:40:38.780Z"
+      },
+      {
+        "nctId": "NCT00223574",
+        "title": "Canadian Trial of Dietary Carbohydrates in Diabetes",
+        "briefSummary": null,
+        "status": "COMPLETED",
+        "startDate": "2002-01-31",
+        "completionDate": "2004-10-31",
+        "studyType": "INTERVENTIONAL",
+        "phases": [
+          "NA"
+        ],
+        "enrollment": 168,
+        "allocation": "RANDOMIZED",
+        "primaryPurpose": "TREATMENT",
+        "source": "aact",
+        "retrievedAt": "2026-02-24T08:40:33.607Z",
+        "isDuplicate": false,
+        "classification": "exclude",
+        "relevanceScore": 0,
+        "relevanceReasons": [
+          "Missing required keywords",
+          "Contains 1 preferred keywords",
+          "Study design may not meet criteria: Unknown"
+        ],
+        "pico": null,
+        "needsReview": false,
+        "processedAt": "2026-02-24T08:40:38.883Z"
+      },
+      {
+        "nctId": "NCT00230464",
+        "title": "Acute Metabolic Effects of LAF 237 in Type 2 Diabetics",
+        "briefSummary": null,
+        "status": "COMPLETED",
+        "startDate": "2004-11-30",
+        "completionDate": "2005-09-30",
+        "studyType": "INTERVENTIONAL",
+        "phases": [
+          "PHASE3"
+        ],
+        "enrollment": 16,
+        "allocation": "RANDOMIZED",
+        "primaryPurpose": "TREATMENT",
+        "source": "aact",
+        "retrievedAt": "2026-02-24T08:40:33.607Z",
+        "isDuplicate": false,
+        "classification": "exclude",
+        "relevanceScore": 0,
+        "relevanceReasons": [
+          "Missing required keywords",
+          "Study design may not meet criteria: Unknown"
+        ],
+        "pico": null,
+        "needsReview": false,
+        "processedAt": "2026-02-24T08:40:38.970Z"
+      },
+      {
+        "nctId": "NCT00237549",
+        "title": "The ADDITION Study. Intensive Treatment in People With Screen Detected Diabetes in Primary Care.",
+        "briefSummary": null,
+        "status": "COMPLETED",
+        "startDate": "2001-01-31",
+        "completionDate": "2009-12-31",
+        "studyType": "INTERVENTIONAL",
+        "phases": [
+          "NA"
+        ],
+        "enrollment": 3057,
+        "allocation": "RANDOMIZED",
+        "primaryPurpose": "PREVENTION",
+        "source": "aact",
+        "retrievedAt": "2026-02-24T08:40:33.607Z",
+        "isDuplicate": false,
+        "classification": "exclude",
+        "relevanceScore": 0,
+        "relevanceReasons": [
+          "Missing required keywords",
+          "Study design may not meet criteria: Unknown"
+        ],
+        "pico": null,
+        "needsReview": false,
+        "processedAt": "2026-02-24T08:40:39.193Z"
+      },
+      {
+        "nctId": "NCT00239187",
+        "title": "A Study in Type 2 Diabetic Patients With Repeated Doses of E1 in Combination With G1",
+        "briefSummary": null,
+        "status": "COMPLETED",
+        "startDate": "2005-09-30",
+        "completionDate": "2007-01-31",
+        "studyType": "INTERVENTIONAL",
+        "phases": [
+          "PHASE1"
+        ],
+        "enrollment": 30,
+        "allocation": "RANDOMIZED",
+        "primaryPurpose": "TREATMENT",
+        "source": "aact",
+        "retrievedAt": "2026-02-24T08:40:33.607Z",
+        "isDuplicate": false,
+        "classification": "exclude",
+        "relevanceScore": 0,
+        "relevanceReasons": [
+          "Missing required keywords",
+          "Study design may not meet criteria: Unknown"
+        ],
+        "pico": null,
+        "needsReview": false,
+        "processedAt": "2026-02-24T08:40:39.371Z"
+      },
+      {
+        "nctId": "NCT00239707",
+        "title": "GIP: Glucose-dependent Insulinotropic Peptide",
+        "briefSummary": null,
+        "status": "COMPLETED",
+        "startDate": "2003-02-28",
+        "completionDate": "2006-12-31",
+        "studyType": "INTERVENTIONAL",
+        "phases": [
+          "PHASE1"
+        ],
+        "enrollment": 41,
+        "allocation": "RANDOMIZED",
+        "primaryPurpose": "TREATMENT",
+        "source": "aact",
+        "retrievedAt": "2026-02-24T08:40:33.607Z",
+        "isDuplicate": false,
+        "classification": "exclude",
+        "relevanceScore": 0,
+        "relevanceReasons": [
+          "Missing required keywords",
+          "Study design may not meet criteria: Unknown"
+        ],
+        "pico": null,
+        "needsReview": false,
+        "processedAt": "2026-02-24T08:40:39.516Z"
+      },
+      {
+        "nctId": "NCT00240370",
+        "title": "A Study to Evaluate Combining Metformin With Muraglitazar or Pioglitazone in Type 2 Diabetics",
+        "briefSummary": null,
+        "status": "COMPLETED",
+        "startDate": "2003-10-31",
+        "completionDate": null,
+        "studyType": "INTERVENTIONAL",
+        "phases": [
+          "PHASE3"
+        ],
+        "enrollment": 1159,
+        "allocation": "RANDOMIZED",
+        "primaryPurpose": "TREATMENT",
+        "source": "aact",
+        "retrievedAt": "2026-02-24T08:40:33.607Z",
+        "isDuplicate": false,
+        "classification": "exclude",
+        "relevanceScore": 0,
+        "relevanceReasons": [
+          "Missing required keywords",
+          "Study design may not meet criteria: Unknown"
+        ],
+        "pico": null,
+        "needsReview": false,
+        "processedAt": "2026-02-24T08:40:39.863Z"
+      },
+      {
+        "nctId": "NCT00241085",
+        "title": "Effect of Valsartan on Proteinuria in Patients With Hypertension and Diabetes Mellitus",
+        "briefSummary": null,
+        "status": "COMPLETED",
+        "startDate": "2002-11-30",
+        "completionDate": "2005-08-31",
+        "studyType": "INTERVENTIONAL",
+        "phases": [
+          "PHASE4"
+        ],
+        "enrollment": 392,
+        "allocation": "RANDOMIZED",
+        "primaryPurpose": "TREATMENT",
+        "source": "aact",
+        "retrievedAt": "2026-02-24T08:40:33.607Z",
+        "isDuplicate": false,
+        "classification": "exclude",
+        "relevanceScore": 0,
+        "relevanceReasons": [
+          "Missing required keywords",
+          "Study design may not meet criteria: Unknown"
+        ],
+        "pico": null,
+        "needsReview": false,
+        "processedAt": "2026-02-24T08:40:39.991Z"
+      },
+      {
+        "nctId": "NCT00251680",
+        "title": "Efficacy of Lapaquistat Acetate in Subjects Currently Treated With Lipid-Lowering Therapy.",
+        "briefSummary": null,
+        "status": "COMPLETED",
+        "startDate": "2005-10-31",
+        "completionDate": "2007-05-31",
+        "studyType": "INTERVENTIONAL",
+        "phases": [
+          "PHASE3"
+        ],
+        "enrollment": 400,
+        "allocation": "RANDOMIZED",
+        "primaryPurpose": "TREATMENT",
+        "source": "aact",
+        "retrievedAt": "2026-02-24T08:40:33.607Z",
+        "isDuplicate": false,
+        "classification": "exclude",
+        "relevanceScore": 0,
+        "relevanceReasons": [
+          "Missing required keywords",
+          "Study design may not meet criteria: Unknown"
+        ],
+        "pico": null,
+        "needsReview": false,
+        "processedAt": "2026-02-24T08:40:40.369Z"
+      },
+      {
+        "nctId": "NCT00252694",
+        "title": "DIabetic Retinopathy Candesartan Trials",
+        "briefSummary": null,
+        "status": "COMPLETED",
+        "startDate": "2001-08-31",
+        "completionDate": "2008-04-30",
+        "studyType": "INTERVENTIONAL",
+        "phases": [
+          "PHASE3"
+        ],
+        "enrollment": 4717,
+        "allocation": "RANDOMIZED",
+        "primaryPurpose": "TREATMENT",
+        "source": "aact",
+        "retrievedAt": "2026-02-24T08:40:33.607Z",
+        "isDuplicate": false,
+        "classification": "exclude",
+        "relevanceScore": 0,
+        "relevanceReasons": [
+          "Missing required keywords",
+          "Contains 1 preferred keywords",
+          "Study design may not meet criteria: Unknown"
+        ],
+        "pico": null,
+        "needsReview": false,
+        "processedAt": "2026-02-24T08:40:40.559Z"
+      },
+      {
+        "nctId": "NCT00253786",
+        "title": "Study for the Effectiveness of Intensive Therapy Aiming at a Remission of Diabetic Nephropathy",
+        "briefSummary": null,
+        "status": "COMPLETED",
+        "startDate": "2005-11-11",
+        "completionDate": "2014-11-27",
+        "studyType": "INTERVENTIONAL",
+        "phases": [
+          "NA"
+        ],
+        "enrollment": 312,
+        "allocation": "RANDOMIZED",
+        "primaryPurpose": "TREATMENT",
+        "source": "aact",
+        "retrievedAt": "2026-02-24T08:40:33.607Z",
+        "isDuplicate": false,
+        "classification": "exclude",
+        "relevanceScore": 0,
+        "relevanceReasons": [
+          "Missing required keywords",
+          "Study design may not meet criteria: Unknown"
+        ],
+        "pico": null,
+        "needsReview": false,
+        "processedAt": "2026-02-24T08:40:40.758Z"
+      },
+      {
+        "nctId": "NCT00254800",
+        "title": "The Effects of Exenatide on Oral Contraceptive Pharmacokinetics in Healthy Females",
+        "briefSummary": null,
+        "status": "COMPLETED",
+        "startDate": "2005-11-30",
+        "completionDate": "2006-08-31",
+        "studyType": "INTERVENTIONAL",
+        "phases": [
+          "PHASE1"
+        ],
+        "enrollment": 38,
+        "allocation": "RANDOMIZED",
+        "primaryPurpose": "TREATMENT",
+        "source": "aact",
+        "retrievedAt": "2026-02-24T08:40:33.607Z",
+        "isDuplicate": false,
+        "classification": "exclude",
+        "relevanceScore": 0,
+        "relevanceReasons": [
+          "Missing required keywords",
+          "Study design may not meet criteria: Unknown"
+        ],
+        "pico": null,
+        "needsReview": false,
+        "processedAt": "2026-02-24T08:40:41.385Z"
+      },
+      {
+        "nctId": "NCT00256256",
+        "title": "The Effect of GLP-1 on Glucose Uptake in the Brain and Heart in Healthy Men",
+        "briefSummary": null,
+        "status": "COMPLETED",
+        "startDate": "2005-11-30",
+        "completionDate": "2007-01-31",
+        "studyType": "INTERVENTIONAL",
+        "phases": [
+          "NA"
+        ],
+        "enrollment": 10,
+        "allocation": "RANDOMIZED",
+        "primaryPurpose": "PREVENTION",
+        "source": "aact",
+        "retrievedAt": "2026-02-24T08:40:33.607Z",
+        "isDuplicate": false,
+        "classification": "exclude",
+        "relevanceScore": 0,
+        "relevanceReasons": [
+          "Missing required keywords",
+          "Contains 1 preferred keywords",
+          "Study design may not meet criteria: Unknown"
+        ],
+        "pico": null,
+        "needsReview": false,
+        "processedAt": "2026-02-24T08:40:41.586Z"
+      },
+      {
+        "nctId": "NCT00257257",
+        "title": "Study Evaluating Rimonabant Efficacy in Drug-NAive DiabEtic Patients",
+        "briefSummary": null,
+        "status": "COMPLETED",
+        "startDate": "2005-03-31",
+        "completionDate": "2006-06-30",
+        "studyType": "INTERVENTIONAL",
+        "phases": [
+          "PHASE3"
+        ],
+        "enrollment": 281,
+        "allocation": "RANDOMIZED",
+        "primaryPurpose": "TREATMENT",
+        "source": "aact",
+        "retrievedAt": "2026-02-24T08:40:33.607Z",
+        "isDuplicate": false,
+        "classification": "exclude",
+        "relevanceScore": 0,
+        "relevanceReasons": [
+          "Missing required keywords",
+          "Study design may not meet criteria: Unknown"
+        ],
+        "pico": null,
+        "needsReview": false,
+        "processedAt": "2026-02-24T08:40:41.815Z"
+      },
+      {
+        "nctId": "NCT01032629",
+        "title": "CANVAS - CANagliflozin cardioVascular Assessment Study",
+        "briefSummary": null,
+        "status": "COMPLETED",
+        "startDate": "2009-12-09",
+        "completionDate": "2017-02-22",
+        "studyType": "INTERVENTIONAL",
+        "phases": [
+          "PHASE3"
+        ],
+        "enrollment": 4330,
+        "allocation": "RANDOMIZED",
+        "primaryPurpose": "TREATMENT",
+        "source": "aact",
+        "retrievedAt": "2026-02-24T08:40:36.597Z",
+        "isDuplicate": false,
+        "classification": "exclude",
+        "relevanceScore": 0,
+        "relevanceReasons": [
+          "Missing required keywords",
+          "Study design may not meet criteria: Unknown"
+        ],
+        "pico": null,
+        "needsReview": false,
+        "processedAt": "2026-02-24T08:40:42.769Z"
+      },
+      {
+        "nctId": "NCT01730534",
+        "title": "Multicenter Trial to Evaluate the Effect of Dapagliflozin on the Incidence of Cardiovascular Events",
+        "briefSummary": null,
+        "status": "COMPLETED",
+        "startDate": "2013-04-25",
+        "completionDate": "2018-09-11",
+        "studyType": "INTERVENTIONAL",
+        "phases": [
+          "PHASE3"
+        ],
+        "enrollment": 17190,
+        "allocation": "RANDOMIZED",
+        "primaryPurpose": "TREATMENT",
+        "source": "aact",
+        "retrievedAt": "2026-02-24T08:40:36.597Z",
+        "isDuplicate": false,
+        "classification": "exclude",
+        "relevanceScore": 0,
+        "relevanceReasons": [
+          "Missing required keywords",
+          "Contains 1 preferred keywords",
+          "Study design may not meet criteria: Unknown"
+        ],
+        "pico": null,
+        "needsReview": false,
+        "processedAt": "2026-02-24T08:40:43.758Z"
+      }
+    ],
+    "summary": {
+      "totalFound": 85,
+      "newPotentialInclusions": 0,
+      "newMaybes": 30,
+      "duplicatesDetected": 11,
+      "autoExcluded": 44,
+      "trialUniverseWithoutPICO": 85,
+      "trialUniverseWithPICO": 37,
+      "trialUniverseRetainedPct": 43.5
+    },
+    "trialUniverse": {
+      "decision": "PASS",
+      "withoutPICO": {
+        "totalStudies": 85,
+        "uniqueNctCount": 85,
+        "studyIds": [
+          "NCT00032474",
+          "NCT00032487",
+          "NCT00036504",
+          "NCT00097500",
+          "NCT00099320",
+          "NCT00099333",
+          "NCT00099619",
+          "NCT00103857",
+          "NCT00103935",
+          "NCT00106808",
+          "NCT00108459",
+          "NCT00108901",
+          "NCT00109720",
+          "NCT00110435",
+          "NCT00110851",
+          "NCT00110864",
+          "NCT00121966",
+          "NCT00123604",
+          "NCT00123643",
+          "NCT00124397",
+          "NCT00127192",
+          "NCT00128336",
+          "NCT00129233",
+          "NCT00130481",
+          "NCT00131664",
+          "NCT00133718",
+          "NCT00141453",
+          "NCT00141492",
+          "NCT00142922",
+          "NCT00143520",
+          "NCT00147719",
+          "NCT00147745",
+          "NCT00147758",
+          "NCT00147836",
+          "NCT00149331",
+          "NCT00151749",
+          "NCT00153179",
+          "NCT00157482",
+          "NCT00157586",
+          "NCT00160160",
+          "NCT00163683",
+          "NCT00167115",
+          "NCT00177398",
+          "NCT00179400",
+          "NCT00189774",
+          "NCT00191178",
+          "NCT00194896",
+          "NCT00198757",
+          "NCT00198913",
+          "NCT00198926",
+          "NCT00200018",
+          "NCT00202033",
+          "NCT00205660",
+          "NCT00207233",
+          "NCT00212290",
+          "NCT00212303",
+          "NCT00213070",
+          "NCT00220961",
+          "NCT00221234",
+          "NCT00223574",
+          "NCT00230464",
+          "NCT00232583",
+          "NCT00237549",
+          "NCT00239187",
+          "NCT00239707",
+          "NCT00240253",
+          "NCT00240370",
+          "NCT00241085",
+          "NCT00241423",
+          "NCT00251680",
+          "NCT00252694",
+          "NCT00253786",
+          "NCT00254124",
+          "NCT00254254",
+          "NCT00254800",
+          "NCT00256256",
+          "NCT00257257",
+          "NCT00259896",
+          "NCT00263276",
+          "NCT00268541",
+          "NCT01032629",
+          "NCT01131676",
+          "NCT01243424",
+          "NCT01720446",
+          "NCT01730534"
+        ],
+        "duplicateCount": 0,
+        "duplicateStudyIds": []
+      },
+      "withPICO": {
+        "totalStudies": 37,
+        "includeCount": 0,
+        "maybeCount": 37,
+        "excludeCount": 48,
+        "studyIds": [
+          "NCT00097500",
+          "NCT00099320",
+          "NCT00099619",
+          "NCT00103857",
+          "NCT00103935",
+          "NCT00106808",
+          "NCT00110435",
+          "NCT00110851",
+          "NCT00110864",
+          "NCT00121966",
+          "NCT00123604",
+          "NCT00124397",
+          "NCT00127192",
+          "NCT00133718",
+          "NCT00141492",
+          "NCT00143520",
+          "NCT00147719",
+          "NCT00147745",
+          "NCT00147758",
+          "NCT00151749",
+          "NCT00163683",
+          "NCT00191178",
+          "NCT00198926",
+          "NCT00200018",
+          "NCT00202033",
+          "NCT00212290",
+          "NCT00212303",
+          "NCT00232583",
+          "NCT00240253",
+          "NCT00241423",
+          "NCT00254254",
+          "NCT00259896",
+          "NCT00263276",
+          "NCT00268541",
+          "NCT01131676",
+          "NCT01243424",
+          "NCT01720446"
+        ],
+        "includeStudyIds": [],
+        "maybeStudyIds": [
+          "NCT00097500",
+          "NCT00099320",
+          "NCT00099619",
+          "NCT00103857",
+          "NCT00103935",
+          "NCT00106808",
+          "NCT00110435",
+          "NCT00110851",
+          "NCT00110864",
+          "NCT00121966",
+          "NCT00123604",
+          "NCT00124397",
+          "NCT00127192",
+          "NCT00133718",
+          "NCT00141492",
+          "NCT00143520",
+          "NCT00147719",
+          "NCT00147745",
+          "NCT00147758",
+          "NCT00151749",
+          "NCT00163683",
+          "NCT00191178",
+          "NCT00198926",
+          "NCT00200018",
+          "NCT00202033",
+          "NCT00212290",
+          "NCT00212303",
+          "NCT00232583",
+          "NCT00240253",
+          "NCT00241423",
+          "NCT00254254",
+          "NCT00259896",
+          "NCT00263276",
+          "NCT00268541",
+          "NCT01131676",
+          "NCT01243424",
+          "NCT01720446"
+        ],
+        "excludeStudyIds": [
+          "NCT00032474",
+          "NCT00032487",
+          "NCT00036504",
+          "NCT00099333",
+          "NCT00108459",
+          "NCT00108901",
+          "NCT00109720",
+          "NCT00123643",
+          "NCT00128336",
+          "NCT00129233",
+          "NCT00130481",
+          "NCT00131664",
+          "NCT00141453",
+          "NCT00142922",
+          "NCT00147836",
+          "NCT00149331",
+          "NCT00153179",
+          "NCT00157482",
+          "NCT00157586",
+          "NCT00160160",
+          "NCT00167115",
+          "NCT00177398",
+          "NCT00179400",
+          "NCT00189774",
+          "NCT00194896",
+          "NCT00198757",
+          "NCT00198913",
+          "NCT00205660",
+          "NCT00207233",
+          "NCT00213070",
+          "NCT00220961",
+          "NCT00221234",
+          "NCT00223574",
+          "NCT00230464",
+          "NCT00237549",
+          "NCT00239187",
+          "NCT00239707",
+          "NCT00240370",
+          "NCT00241085",
+          "NCT00251680",
+          "NCT00252694",
+          "NCT00253786",
+          "NCT00254124",
+          "NCT00254800",
+          "NCT00256256",
+          "NCT00257257",
+          "NCT01032629",
+          "NCT01730534"
+        ]
+      },
+      "comparison": {
+        "removedByPICO": 48,
+        "retainedPct": 43.5,
+        "excludedPct": 56.5
+      }
+    },
+    "landmarkCoverage": {
+      "decision": "PASS",
+      "guidelineProfile": "cardiology",
+      "overallCoveragePct": 100,
+      "totalExpected": 5,
+      "totalFound": 5,
+      "minCoveragePct": 70,
+      "areas": {
+        "diabetes_cardiovascular_disease": {
+          "expected": 5,
+          "found": 5,
+          "missing": 0,
+          "coveragePct": 100,
+          "foundNctIds": [
+            "NCT01243424",
+            "NCT01032629",
+            "NCT01720446",
+            "NCT01730534",
+            "NCT01131676"
+          ],
+          "missingNctIds": []
+        }
+      }
+    },
+    "robustness": {
+      "decision": "PASS",
+      "score": 100,
+      "metrics": {
+        "aactIncrementalNctCount": 85,
+        "knownGapRecovered": 0,
+        "knownGapRecoveryPct": 0,
+        "landmarkCoveragePct": 100,
+        "picoRetentionPct": 43.5,
+        "trialUniverseCount": 85
+      },
+      "checks": [
+        {
+          "id": "source_coverage",
+          "label": "Required source coverage",
+          "pass": true,
+          "value": 1
+        },
+        {
+          "id": "ctgov_strategy_depth",
+          "label": "CT.gov strategy depth",
+          "pass": true,
+          "value": 0
+        },
+        {
+          "id": "ctgov_error_free",
+          "label": "CT.gov execution without errors",
+          "pass": true,
+          "value": 1
+        },
+        {
+          "id": "aact_available",
+          "label": "AACT availability",
+          "pass": true,
+          "value": 1
+        },
+        {
+          "id": "aact_incremental_capture",
+          "label": "AACT incremental capture over CT.gov",
+          "pass": true,
+          "value": 85
+        },
+        {
+          "id": "landmark_coverage",
+          "label": "ESC landmark coverage",
+          "pass": true,
+          "value": 100
+        },
+        {
+          "id": "trial_universe_pico",
+          "label": "Trial universe with and without PICO",
+          "pass": true,
+          "value": 43.5
+        }
+      ],
+      "actionItems": []
+    }
+  }
+}

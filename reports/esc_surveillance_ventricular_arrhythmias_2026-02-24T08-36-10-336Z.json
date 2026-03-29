@@ -1,0 +1,2819 @@
+{
+  "generatedAt": "2026-02-24T08:37:06.326Z",
+  "areaKey": "ventricular_arrhythmias",
+  "guidelineProfile": "cardiology",
+  "strategy": {
+    "id": "strat_1771922219812_isk9ttamr",
+    "name": "ESC ventricular_arrhythmias surveillance",
+    "created": "2026-02-24T08:36:59.812Z",
+    "lastRun": null,
+    "guidelineProfile": "cardiology",
+    "sources": [
+      "aact"
+    ],
+    "searchObjective": "balanced",
+    "queries": {
+      "pubmed": null,
+      "ctgov": null,
+      "embase": null,
+      "cochrane": null,
+      "aact": {
+        "guidelineProfile": "cardiology",
+        "guidelineArea": "ventricular_arrhythmias",
+        "condition": "ventricular tachycardia",
+        "useAreaTerms": false,
+        "completedOnly": true,
+        "status": [
+          "COMPLETED"
+        ],
+        "maxResults": 80
+      }
+    },
+    "ctgovStrategy": {
+      "mode": "single",
+      "primaryStrategyId": "S3",
+      "strategyIds": [
+        "S3"
+      ],
+      "strategyEvidence": [
+        {
+          "strategyId": "S3",
+          "preset": "Randomized Allocation Only",
+          "meanRecallPct": 99,
+          "minRecallPct": 85.7,
+          "retentionPct": 54
+        },
+        {
+          "strategyId": "S6",
+          "preset": "Completed Status",
+          "meanRecallPct": 85.4,
+          "minRecallPct": 50,
+          "retentionPct": 55
+        },
+        {
+          "strategyId": "S10",
+          "preset": "Treatment RCTs Only",
+          "meanRecallPct": 84.8,
+          "minRecallPct": 0,
+          "retentionPct": 36
+        }
+      ],
+      "strategyRationale": [
+        "Objective \"balanced\" selected default strategy bundle."
+      ],
+      "includeStatusFilter": true
+    },
+    "infrastructure": {
+      "aactGatewayUrl": "http://127.0.0.1:8787/aact/query",
+      "embaseApiKey": null
+    },
+    "filters": {
+      "dateRange": {
+        "from": null,
+        "to": null
+      },
+      "studyTypes": [
+        "RCT"
+      ],
+      "languages": [
+        "en"
+      ],
+      "humans": true,
+      "ctgovStatuses": [
+        "COMPLETED",
+        "ACTIVE_NOT_RECRUITING",
+        "RECRUITING"
+      ]
+    },
+    "inclusionCriteria": {
+      "requiredKeywords": [
+        "ventricular tachycardia",
+        "ventricular fibrillation"
+      ],
+      "preferredKeywords": [
+        "sudden cardiac death",
+        "arrhythmia",
+        "randomized",
+        "trial",
+        "double blind"
+      ],
+      "exclusionKeywords": [
+        "protocol",
+        "retrospective",
+        "animal",
+        "in vitro"
+      ],
+      "acceptedDesigns": [
+        "RCT",
+        "Observational"
+      ]
+    },
+    "qualityTargets": {
+      "minCtgovRecallPct": 90,
+      "requireAACTForFinalReview": true,
+      "requireAACTIncrementalCapture": false,
+      "minAACTIncrementalNcts": 1,
+      "enforceLandmarkCoverage": true,
+      "minLandmarkCoveragePct": 70,
+      "landmarkGuidelineAreas": [
+        "ventricular_arrhythmias"
+      ],
+      "minSourcesForHighConfidence": 2
+    },
+    "schedule": {
+      "enabled": false,
+      "interval": "weekly",
+      "lastCheck": null,
+      "nextCheck": null
+    },
+    "stats": {
+      "totalRuns": 0,
+      "totalFound": 0,
+      "totalIncluded": 0,
+      "totalExcluded": 0
+    }
+  },
+  "results": {
+    "timestamp": "2026-02-24T08:36:59.812Z",
+    "strategyId": "strat_1771922219812_isk9ttamr",
+    "guidelineProfile": "cardiology",
+    "sources": {
+      "aact": {
+        "count": 59,
+        "retrieved": 59,
+        "requiresGateway": false,
+        "error": null,
+        "guidelineProfile": "cardiology",
+        "termsUsed": [
+          "ventricular tachycardia"
+        ],
+        "nctIds": [
+          "NCT00157820",
+          "NCT00180297",
+          "NCT00187187",
+          "NCT00257959",
+          "NCT00390546",
+          "NCT00401466",
+          "NCT00413712",
+          "NCT00534300",
+          "NCT00538356",
+          "NCT00617578",
+          "NCT00729235",
+          "NCT00730548",
+          "NCT00745745",
+          "NCT00787800",
+          "NCT00800384",
+          "NCT00833352",
+          "NCT00905853",
+          "NCT00919373",
+          "NCT00979303",
+          "NCT01045668",
+          "NCT01117454",
+          "NCT01132274",
+          "NCT01182389",
+          "NCT01446965",
+          "NCT01747837",
+          "NCT01858194",
+          "NCT01898221",
+          "NCT02083016",
+          "NCT02095405",
+          "NCT02216240",
+          "NCT02274168",
+          "NCT02296190",
+          "NCT02624765",
+          "NCT02666742",
+          "NCT02743325",
+          "NCT02830360",
+          "NCT02848781",
+          "NCT03348436",
+          "NCT03421834",
+          "NCT03490201",
+          "NCT03734562",
+          "NCT04043312",
+          "NCT04134845",
+          "NCT04203368",
+          "NCT04215640",
+          "NCT04235881",
+          "NCT04392362",
+          "NCT04612140",
+          "NCT04657705",
+          "NCT04694079",
+          "NCT05225935",
+          "NCT05410860",
+          "NCT06622772",
+          "NCT07130175",
+          "NCT00000558",
+          "NCT00000609",
+          "NCT00004488",
+          "NCT00271154",
+          "NCT02130765"
+        ],
+        "landmarkVerification": {
+          "requested": 6,
+          "found": 5,
+          "coveragePct": 83.3,
+          "missingNctIds": [
+            "NCT01045070"
+          ]
+        },
+        "gatewayUrl": "http://127.0.0.1:8787/aact/query"
+      }
+    },
+    "newStudies": [
+      {
+        "nctId": "NCT00390546",
+        "title": "Multicenter Study of Antiarrhythmic Medications for Treatment of Infants With Supraventricular Tachycardia",
+        "briefSummary": null,
+        "status": "COMPLETED",
+        "startDate": "2006-10-31",
+        "completionDate": "2011-08-31",
+        "studyType": "INTERVENTIONAL",
+        "phases": [
+          "PHASE3"
+        ],
+        "enrollment": 72,
+        "allocation": "RANDOMIZED",
+        "primaryPurpose": "TREATMENT",
+        "source": "aact",
+        "retrievedAt": "2026-02-24T08:37:02.133Z",
+        "isDuplicate": false,
+        "classification": "maybe",
+        "relevanceScore": 45,
+        "relevanceReasons": [
+          "Contains 1 required keywords",
+          "Study design may not meet criteria: Unknown"
+        ],
+        "pico": {
+          "population": {
+            "text": null,
+            "confidence": 0,
+            "details": []
+          },
+          "intervention": {
+            "text": "Treatment of Infants With Supraventricular Tachycardia",
+            "confidence": 0.85,
+            "type": "drug_with_dose",
+            "details": [
+              {
+                "text": "Treatment of Infants With Supraventricular Tachycardia",
+                "type": "drug_with_dose",
+                "confidence": 0.85
+              }
+            ]
+          },
+          "comparator": {
+            "text": "Treatment of",
+            "confidence": 0.8,
+            "type": "comparator",
+            "details": [
+              {
+                "text": "Treatment of",
+                "type": "comparator",
+                "confidence": 0.8
+              }
+            ]
+          },
+          "outcomes": [],
+          "studyDesign": {
+            "type": "Unknown",
+            "confidence": 0.3
+          },
+          "sampleSize": null,
+          "followUp": null,
+          "setting": [
+            {
+              "type": "design",
+              "value": "Multicenter"
+            }
+          ]
+        },
+        "needsReview": true,
+        "processedAt": "2026-02-24T08:37:02.979Z"
+      },
+      {
+        "nctId": "NCT00534300",
+        "title": "Intravenous n-3 Fatty Acids and Ventricular Tachycardia in Patients With Implantable Cardioverter Defibrillator (ICD)-Pacemaker",
+        "briefSummary": null,
+        "status": "COMPLETED",
+        "startDate": "2007-10-31",
+        "completionDate": "2008-06-30",
+        "studyType": "INTERVENTIONAL",
+        "phases": [
+          "PHASE1/PHASE2"
+        ],
+        "enrollment": 8,
+        "allocation": "RANDOMIZED",
+        "primaryPurpose": null,
+        "source": "aact",
+        "retrievedAt": "2026-02-24T08:37:02.133Z",
+        "isDuplicate": false,
+        "classification": "maybe",
+        "relevanceScore": 45,
+        "relevanceReasons": [
+          "Contains 1 required keywords",
+          "Study design may not meet criteria: Unknown"
+        ],
+        "pico": {
+          "population": {
+            "text": null,
+            "confidence": 0,
+            "details": []
+          },
+          "intervention": {
+            "text": null,
+            "confidence": 0,
+            "details": []
+          },
+          "comparator": {
+            "text": null,
+            "confidence": 0,
+            "details": []
+          },
+          "outcomes": [],
+          "studyDesign": {
+            "type": "Unknown",
+            "confidence": 0.3
+          },
+          "sampleSize": null,
+          "followUp": null,
+          "setting": [
+            {
+              "type": "country",
+              "value": "us"
+            }
+          ]
+        },
+        "needsReview": true,
+        "processedAt": "2026-02-24T08:37:03.003Z"
+      },
+      {
+        "nctId": "NCT00729235",
+        "title": "Biventricular Tachycardias Outcome Trial",
+        "briefSummary": null,
+        "status": "COMPLETED",
+        "startDate": "2006-05-31",
+        "completionDate": "2011-11-30",
+        "studyType": "INTERVENTIONAL",
+        "phases": [
+          "PHASE4"
+        ],
+        "enrollment": 481,
+        "allocation": "RANDOMIZED",
+        "primaryPurpose": "TREATMENT",
+        "source": "aact",
+        "retrievedAt": "2026-02-24T08:37:02.133Z",
+        "isDuplicate": false,
+        "classification": "maybe",
+        "relevanceScore": 50,
+        "relevanceReasons": [
+          "Contains 1 required keywords",
+          "Contains 1 preferred keywords",
+          "Study design may not meet criteria: Unknown"
+        ],
+        "pico": {
+          "population": {
+            "text": null,
+            "confidence": 0,
+            "details": []
+          },
+          "intervention": {
+            "text": null,
+            "confidence": 0,
+            "details": []
+          },
+          "comparator": {
+            "text": null,
+            "confidence": 0,
+            "details": []
+          },
+          "outcomes": [],
+          "studyDesign": {
+            "type": "Unknown",
+            "confidence": 0.3
+          },
+          "sampleSize": null,
+          "followUp": null,
+          "setting": []
+        },
+        "needsReview": true,
+        "processedAt": "2026-02-24T08:37:03.018Z"
+      },
+      {
+        "nctId": "NCT00905853",
+        "title": "Ventricular Tachycardia (VT) Ablation or Escalated Drug Therapy",
+        "briefSummary": null,
+        "status": "COMPLETED",
+        "startDate": "2009-05-31",
+        "completionDate": "2015-12-31",
+        "studyType": "INTERVENTIONAL",
+        "phases": [
+          "PHASE4"
+        ],
+        "enrollment": 260,
+        "allocation": "RANDOMIZED",
+        "primaryPurpose": "TREATMENT",
+        "source": "aact",
+        "retrievedAt": "2026-02-24T08:37:02.133Z",
+        "isDuplicate": false,
+        "classification": "maybe",
+        "relevanceScore": 45,
+        "relevanceReasons": [
+          "Contains 1 required keywords",
+          "Study design may not meet criteria: Unknown"
+        ],
+        "pico": {
+          "population": {
+            "text": null,
+            "confidence": 0,
+            "details": []
+          },
+          "intervention": {
+            "text": null,
+            "confidence": 0,
+            "details": []
+          },
+          "comparator": {
+            "text": null,
+            "confidence": 0,
+            "details": []
+          },
+          "outcomes": [],
+          "studyDesign": {
+            "type": "Unknown",
+            "confidence": 0.3
+          },
+          "sampleSize": null,
+          "followUp": null,
+          "setting": []
+        },
+        "needsReview": true,
+        "processedAt": "2026-02-24T08:37:03.072Z"
+      },
+      {
+        "nctId": "NCT00919373",
+        "title": "Substrate Modification in Stable Ventricular Tachycardia in Addition to Implantable Cardioverter Defibrillator (ICD) Therapy",
+        "briefSummary": null,
+        "status": "COMPLETED",
+        "startDate": "2002-07-31",
+        "completionDate": "2006-01-31",
+        "studyType": "INTERVENTIONAL",
+        "phases": [
+          "NA"
+        ],
+        "enrollment": 110,
+        "allocation": "RANDOMIZED",
+        "primaryPurpose": "TREATMENT",
+        "source": "aact",
+        "retrievedAt": "2026-02-24T08:37:02.133Z",
+        "isDuplicate": false,
+        "classification": "maybe",
+        "relevanceScore": 45,
+        "relevanceReasons": [
+          "Contains 1 required keywords",
+          "Study design may not meet criteria: Unknown"
+        ],
+        "pico": {
+          "population": {
+            "text": null,
+            "confidence": 0,
+            "details": []
+          },
+          "intervention": {
+            "text": null,
+            "confidence": 0,
+            "details": []
+          },
+          "comparator": {
+            "text": null,
+            "confidence": 0,
+            "details": []
+          },
+          "outcomes": [],
+          "studyDesign": {
+            "type": "Unknown",
+            "confidence": 0.3
+          },
+          "sampleSize": null,
+          "followUp": null,
+          "setting": []
+        },
+        "needsReview": true,
+        "processedAt": "2026-02-24T08:37:03.081Z"
+      },
+      {
+        "nctId": "NCT00979303",
+        "title": "Using Non-Fluoroscopic Imaging Devices to Decrease Radiation Exposure During Ablation of Supraventricular Tachycardia",
+        "briefSummary": null,
+        "status": "COMPLETED",
+        "startDate": "2009-01-09",
+        "completionDate": "2010-05-28",
+        "studyType": "INTERVENTIONAL",
+        "phases": [
+          "NA"
+        ],
+        "enrollment": 74,
+        "allocation": "RANDOMIZED",
+        "primaryPurpose": "TREATMENT",
+        "source": "aact",
+        "retrievedAt": "2026-02-24T08:37:02.133Z",
+        "isDuplicate": false,
+        "classification": "maybe",
+        "relevanceScore": 45,
+        "relevanceReasons": [
+          "Contains 1 required keywords",
+          "Study design may not meet criteria: Unknown"
+        ],
+        "pico": {
+          "population": {
+            "text": null,
+            "confidence": 0,
+            "details": []
+          },
+          "intervention": {
+            "text": null,
+            "confidence": 0,
+            "details": []
+          },
+          "comparator": {
+            "text": null,
+            "confidence": 0,
+            "details": []
+          },
+          "outcomes": [],
+          "studyDesign": {
+            "type": "Unknown",
+            "confidence": 0.3
+          },
+          "sampleSize": null,
+          "followUp": null,
+          "setting": [
+            {
+              "type": "country",
+              "value": "us"
+            }
+          ]
+        },
+        "needsReview": true,
+        "processedAt": "2026-02-24T08:37:03.096Z"
+      },
+      {
+        "nctId": "NCT01045668",
+        "title": "Ablation of Clinical Ventricular Tachycardia Versus Addition of Substrate Ablation on the Long Term Success Rate of VT Ablation",
+        "briefSummary": null,
+        "status": "COMPLETED",
+        "startDate": "2010-01-31",
+        "completionDate": "2014-07-31",
+        "studyType": "INTERVENTIONAL",
+        "phases": [
+          "PHASE3"
+        ],
+        "enrollment": 120,
+        "allocation": "RANDOMIZED",
+        "primaryPurpose": "TREATMENT",
+        "source": "aact",
+        "retrievedAt": "2026-02-24T08:37:02.133Z",
+        "isDuplicate": false,
+        "classification": "maybe",
+        "relevanceScore": 45,
+        "relevanceReasons": [
+          "Contains 1 required keywords",
+          "Study design may not meet criteria: Unknown"
+        ],
+        "pico": {
+          "population": {
+            "text": null,
+            "confidence": 0,
+            "details": []
+          },
+          "intervention": {
+            "text": null,
+            "confidence": 0,
+            "details": []
+          },
+          "comparator": {
+            "text": null,
+            "confidence": 0,
+            "details": []
+          },
+          "outcomes": [],
+          "studyDesign": {
+            "type": "Unknown",
+            "confidence": 0.3
+          },
+          "sampleSize": null,
+          "followUp": null,
+          "setting": [
+            {
+              "type": "country",
+              "value": "us"
+            }
+          ]
+        },
+        "needsReview": true,
+        "processedAt": "2026-02-24T08:37:03.113Z"
+      },
+      {
+        "nctId": "NCT01117454",
+        "title": "Flecainide for Catecholaminergic Polymorphic Ventricular Tachycardia",
+        "briefSummary": null,
+        "status": "COMPLETED",
+        "startDate": "2011-12-31",
+        "completionDate": "2015-12-31",
+        "studyType": "INTERVENTIONAL",
+        "phases": [
+          "NA"
+        ],
+        "enrollment": 14,
+        "allocation": "RANDOMIZED",
+        "primaryPurpose": "TREATMENT",
+        "source": "aact",
+        "retrievedAt": "2026-02-24T08:37:02.133Z",
+        "isDuplicate": false,
+        "classification": "maybe",
+        "relevanceScore": 45,
+        "relevanceReasons": [
+          "Contains 1 required keywords",
+          "Study design may not meet criteria: Unknown"
+        ],
+        "pico": {
+          "population": {
+            "text": null,
+            "confidence": 0,
+            "details": []
+          },
+          "intervention": {
+            "text": null,
+            "confidence": 0,
+            "details": []
+          },
+          "comparator": {
+            "text": null,
+            "confidence": 0,
+            "details": []
+          },
+          "outcomes": [],
+          "studyDesign": {
+            "type": "Unknown",
+            "confidence": 0.3
+          },
+          "sampleSize": null,
+          "followUp": null,
+          "setting": []
+        },
+        "needsReview": true,
+        "processedAt": "2026-02-24T08:37:03.128Z"
+      },
+      {
+        "nctId": "NCT01132274",
+        "title": "Radiation Exposure Reduction in Supraventricular Tachycardia Ablation",
+        "briefSummary": null,
+        "status": "COMPLETED",
+        "startDate": "2009-12-31",
+        "completionDate": "2013-03-31",
+        "studyType": "INTERVENTIONAL",
+        "phases": [
+          "PHASE4"
+        ],
+        "enrollment": 210,
+        "allocation": "RANDOMIZED",
+        "primaryPurpose": "TREATMENT",
+        "source": "aact",
+        "retrievedAt": "2026-02-24T08:37:02.133Z",
+        "isDuplicate": false,
+        "classification": "maybe",
+        "relevanceScore": 45,
+        "relevanceReasons": [
+          "Contains 1 required keywords",
+          "Study design may not meet criteria: Unknown"
+        ],
+        "pico": {
+          "population": {
+            "text": null,
+            "confidence": 0,
+            "details": []
+          },
+          "intervention": {
+            "text": null,
+            "confidence": 0,
+            "details": []
+          },
+          "comparator": {
+            "text": null,
+            "confidence": 0,
+            "details": []
+          },
+          "outcomes": [],
+          "studyDesign": {
+            "type": "Unknown",
+            "confidence": 0.3
+          },
+          "sampleSize": null,
+          "followUp": null,
+          "setting": []
+        },
+        "needsReview": true,
+        "processedAt": "2026-02-24T08:37:03.143Z"
+      },
+      {
+        "nctId": "NCT01182389",
+        "title": "A Study of Early Robotic Ablation by Substrate Elimination of Ventricular Tachycardia",
+        "briefSummary": null,
+        "status": "COMPLETED",
+        "startDate": "2011-10-31",
+        "completionDate": "2016-02-29",
+        "studyType": "INTERVENTIONAL",
+        "phases": [
+          "NA"
+        ],
+        "enrollment": 51,
+        "allocation": "RANDOMIZED",
+        "primaryPurpose": "TREATMENT",
+        "source": "aact",
+        "retrievedAt": "2026-02-24T08:37:02.133Z",
+        "isDuplicate": false,
+        "classification": "maybe",
+        "relevanceScore": 45,
+        "relevanceReasons": [
+          "Contains 1 required keywords",
+          "Study design may not meet criteria: Unknown"
+        ],
+        "pico": {
+          "population": {
+            "text": null,
+            "confidence": 0,
+            "details": []
+          },
+          "intervention": {
+            "text": null,
+            "confidence": 0,
+            "details": []
+          },
+          "comparator": {
+            "text": null,
+            "confidence": 0,
+            "details": []
+          },
+          "outcomes": [],
+          "studyDesign": {
+            "type": "Unknown",
+            "confidence": 0.3
+          },
+          "sampleSize": null,
+          "followUp": null,
+          "setting": []
+        },
+        "needsReview": true,
+        "processedAt": "2026-02-24T08:37:03.158Z"
+      },
+      {
+        "nctId": "NCT02083016",
+        "title": "Ultra-high Density Mapping With Multielectrode Catheter vs Conventional Point by Point Mapping for Ventricular Tachycardia Substrate Ablation",
+        "briefSummary": null,
+        "status": "COMPLETED",
+        "startDate": "2014-04-30",
+        "completionDate": "2017-01-31",
+        "studyType": "INTERVENTIONAL",
+        "phases": [
+          "PHASE4"
+        ],
+        "enrollment": 20,
+        "allocation": "RANDOMIZED",
+        "primaryPurpose": "TREATMENT",
+        "source": "aact",
+        "retrievedAt": "2026-02-24T08:37:02.133Z",
+        "isDuplicate": false,
+        "classification": "maybe",
+        "relevanceScore": 45,
+        "relevanceReasons": [
+          "Contains 1 required keywords",
+          "Study design may not meet criteria: Unknown"
+        ],
+        "pico": {
+          "population": {
+            "text": null,
+            "confidence": 0,
+            "details": []
+          },
+          "intervention": {
+            "text": null,
+            "confidence": 0,
+            "details": []
+          },
+          "comparator": {
+            "text": "Conventional Point by Point Mapping",
+            "confidence": 0.8,
+            "type": "comparator",
+            "details": [
+              {
+                "text": "Conventional Point by Point Mapping",
+                "type": "comparator",
+                "confidence": 0.8
+              }
+            ]
+          },
+          "outcomes": [],
+          "studyDesign": {
+            "type": "Unknown",
+            "confidence": 0.3
+          },
+          "sampleSize": null,
+          "followUp": null,
+          "setting": []
+        },
+        "needsReview": true,
+        "processedAt": "2026-02-24T08:37:03.279Z"
+      },
+      {
+        "nctId": "NCT02216240",
+        "title": "Safety and Efficacy of Paramedic Treatment of Regular Supraventricular Tachycardia",
+        "briefSummary": null,
+        "status": "COMPLETED",
+        "startDate": "2010-12-05",
+        "completionDate": "2015-01-01",
+        "studyType": "INTERVENTIONAL",
+        "phases": [
+          "NA"
+        ],
+        "enrollment": 86,
+        "allocation": "RANDOMIZED",
+        "primaryPurpose": "TREATMENT",
+        "source": "aact",
+        "retrievedAt": "2026-02-24T08:37:02.133Z",
+        "isDuplicate": false,
+        "classification": "maybe",
+        "relevanceScore": 45,
+        "relevanceReasons": [
+          "Contains 1 required keywords",
+          "Study design may not meet criteria: Unknown"
+        ],
+        "pico": {
+          "population": {
+            "text": null,
+            "confidence": 0,
+            "details": []
+          },
+          "intervention": {
+            "text": "Treatment of Regular Supraventricular Tachycardia",
+            "confidence": 0.85,
+            "type": "drug_with_dose",
+            "details": [
+              {
+                "text": "Treatment of Regular Supraventricular Tachycardia",
+                "type": "drug_with_dose",
+                "confidence": 0.85
+              }
+            ]
+          },
+          "comparator": {
+            "text": null,
+            "confidence": 0,
+            "details": []
+          },
+          "outcomes": [],
+          "studyDesign": {
+            "type": "Unknown",
+            "confidence": 0.3
+          },
+          "sampleSize": null,
+          "followUp": null,
+          "setting": []
+        },
+        "needsReview": true,
+        "processedAt": "2026-02-24T08:37:03.353Z"
+      },
+      {
+        "nctId": "NCT02274168",
+        "title": "Utility of ICD Electrograms During Ventricular Tachycardia Ablation",
+        "briefSummary": null,
+        "status": "COMPLETED",
+        "startDate": "2011-04-30",
+        "completionDate": "2022-03-31",
+        "studyType": "INTERVENTIONAL",
+        "phases": [
+          "NA"
+        ],
+        "enrollment": 260,
+        "allocation": "RANDOMIZED",
+        "primaryPurpose": "TREATMENT",
+        "source": "aact",
+        "retrievedAt": "2026-02-24T08:37:02.133Z",
+        "isDuplicate": false,
+        "classification": "maybe",
+        "relevanceScore": 45,
+        "relevanceReasons": [
+          "Contains 1 required keywords",
+          "Study design may not meet criteria: Unknown"
+        ],
+        "pico": {
+          "population": {
+            "text": null,
+            "confidence": 0,
+            "details": []
+          },
+          "intervention": {
+            "text": null,
+            "confidence": 0,
+            "details": []
+          },
+          "comparator": {
+            "text": null,
+            "confidence": 0,
+            "details": []
+          },
+          "outcomes": [],
+          "studyDesign": {
+            "type": "Unknown",
+            "confidence": 0.3
+          },
+          "sampleSize": null,
+          "followUp": null,
+          "setting": []
+        },
+        "needsReview": true,
+        "processedAt": "2026-02-24T08:37:03.400Z"
+      },
+      {
+        "nctId": "NCT02624765",
+        "title": "Prospective Randomized Clinical Trial of Fetal Atrial Flutter & Supraventricular Tachycardia Therapy (FAST RCT)",
+        "briefSummary": null,
+        "status": "COMPLETED",
+        "startDate": "2016-02-29",
+        "completionDate": "2024-03-31",
+        "studyType": "INTERVENTIONAL",
+        "phases": [
+          "PHASE3"
+        ],
+        "enrollment": 105,
+        "allocation": "RANDOMIZED",
+        "primaryPurpose": "TREATMENT",
+        "source": "aact",
+        "retrievedAt": "2026-02-24T08:37:02.133Z",
+        "isDuplicate": false,
+        "classification": "include",
+        "relevanceScore": 90,
+        "relevanceReasons": [
+          "Contains 1 required keywords",
+          "Contains 2 preferred keywords",
+          "Accepted study design: RCT"
+        ],
+        "pico": {
+          "population": {
+            "text": null,
+            "confidence": 0,
+            "details": []
+          },
+          "intervention": {
+            "text": null,
+            "confidence": 0,
+            "details": []
+          },
+          "comparator": {
+            "text": null,
+            "confidence": 0,
+            "details": []
+          },
+          "outcomes": [],
+          "studyDesign": {
+            "type": "RCT",
+            "confidence": 0.8999999999999999
+          },
+          "sampleSize": null,
+          "followUp": null,
+          "setting": []
+        },
+        "needsReview": false,
+        "processedAt": "2026-02-24T08:37:03.507Z"
+      },
+      {
+        "nctId": "NCT02666742",
+        "title": "DOACs for Stroke Prevention Post Ventricular Tachycardia Ablation",
+        "briefSummary": null,
+        "status": "COMPLETED",
+        "startDate": "2017-02-16",
+        "completionDate": "2021-04-30",
+        "studyType": "INTERVENTIONAL",
+        "phases": [
+          "PHASE4"
+        ],
+        "enrollment": 246,
+        "allocation": "RANDOMIZED",
+        "primaryPurpose": "PREVENTION",
+        "source": "aact",
+        "retrievedAt": "2026-02-24T08:37:02.133Z",
+        "isDuplicate": false,
+        "classification": "maybe",
+        "relevanceScore": 45,
+        "relevanceReasons": [
+          "Contains 1 required keywords",
+          "Study design may not meet criteria: Unknown"
+        ],
+        "pico": {
+          "population": {
+            "text": "ACS",
+            "confidence": 0.9,
+            "type": "condition",
+            "details": [
+              {
+                "text": "ACS",
+                "type": "condition",
+                "confidence": 0.9
+              },
+              {
+                "text": "STROKE",
+                "type": "condition",
+                "confidence": 0.9
+              }
+            ]
+          },
+          "intervention": {
+            "text": null,
+            "confidence": 0,
+            "details": []
+          },
+          "comparator": {
+            "text": null,
+            "confidence": 0,
+            "details": []
+          },
+          "outcomes": [
+            {
+              "text": "Stroke",
+              "type": "clinical_outcome",
+              "confidence": 0.85
+            }
+          ],
+          "studyDesign": {
+            "type": "Unknown",
+            "confidence": 0.3
+          },
+          "sampleSize": null,
+          "followUp": null,
+          "setting": []
+        },
+        "needsReview": true,
+        "processedAt": "2026-02-24T08:37:03.562Z"
+      },
+      {
+        "nctId": "NCT02830360",
+        "title": "Antiarrhythmics or Ablation for Ventricular Tachycardia 2",
+        "briefSummary": null,
+        "status": "COMPLETED",
+        "startDate": "2016-10-31",
+        "completionDate": "2024-06-30",
+        "studyType": "INTERVENTIONAL",
+        "phases": [
+          "PHASE4"
+        ],
+        "enrollment": 416,
+        "allocation": "RANDOMIZED",
+        "primaryPurpose": "TREATMENT",
+        "source": "aact",
+        "retrievedAt": "2026-02-24T08:37:02.133Z",
+        "isDuplicate": false,
+        "classification": "maybe",
+        "relevanceScore": 45,
+        "relevanceReasons": [
+          "Contains 1 required keywords",
+          "Study design may not meet criteria: Unknown"
+        ],
+        "pico": {
+          "population": {
+            "text": null,
+            "confidence": 0,
+            "details": []
+          },
+          "intervention": {
+            "text": null,
+            "confidence": 0,
+            "details": []
+          },
+          "comparator": {
+            "text": "Ablation",
+            "confidence": 0.8,
+            "type": "comparator",
+            "details": [
+              {
+                "text": "Ablation",
+                "type": "comparator",
+                "confidence": 0.8
+              }
+            ]
+          },
+          "outcomes": [],
+          "studyDesign": {
+            "type": "Unknown",
+            "confidence": 0.3
+          },
+          "sampleSize": null,
+          "followUp": null,
+          "setting": []
+        },
+        "needsReview": true,
+        "processedAt": "2026-02-24T08:37:03.668Z"
+      },
+      {
+        "nctId": "NCT03348436",
+        "title": "Study on Left Atrial Function of Paroxysmal Supraventricular Tachycardia After Radiofrequency Ablation",
+        "briefSummary": null,
+        "status": "COMPLETED",
+        "startDate": "2017-01-01",
+        "completionDate": "2020-03-01",
+        "studyType": "INTERVENTIONAL",
+        "phases": [
+          "NA"
+        ],
+        "enrollment": 100,
+        "allocation": "RANDOMIZED",
+        "primaryPurpose": "TREATMENT",
+        "source": "aact",
+        "retrievedAt": "2026-02-24T08:37:02.133Z",
+        "isDuplicate": false,
+        "classification": "maybe",
+        "relevanceScore": 50,
+        "relevanceReasons": [
+          "Contains 1 required keywords",
+          "Contains 1 preferred keywords",
+          "Study design may not meet criteria: Unknown"
+        ],
+        "pico": {
+          "population": {
+            "text": null,
+            "confidence": 0,
+            "details": []
+          },
+          "intervention": {
+            "text": null,
+            "confidence": 0,
+            "details": []
+          },
+          "comparator": {
+            "text": null,
+            "confidence": 0,
+            "details": []
+          },
+          "outcomes": [],
+          "studyDesign": {
+            "type": "Unknown",
+            "confidence": 0.3
+          },
+          "sampleSize": null,
+          "followUp": null,
+          "setting": []
+        },
+        "needsReview": true,
+        "processedAt": "2026-02-24T08:37:03.787Z"
+      },
+      {
+        "nctId": "NCT03734562",
+        "title": "Trial to Evaluate the Efficacy and Safety of Substrate Ablation of Monomorphic Ventricular Tachycardia",
+        "briefSummary": null,
+        "status": "COMPLETED",
+        "startDate": "2010-07-31",
+        "completionDate": "2017-09-30",
+        "studyType": "INTERVENTIONAL",
+        "phases": [
+          "NA"
+        ],
+        "enrollment": 180,
+        "allocation": "RANDOMIZED",
+        "primaryPurpose": "TREATMENT",
+        "source": "aact",
+        "retrievedAt": "2026-02-24T08:37:02.133Z",
+        "isDuplicate": false,
+        "classification": "maybe",
+        "relevanceScore": 50,
+        "relevanceReasons": [
+          "Contains 1 required keywords",
+          "Contains 1 preferred keywords",
+          "Study design may not meet criteria: Unknown"
+        ],
+        "pico": {
+          "population": {
+            "text": null,
+            "confidence": 0,
+            "details": []
+          },
+          "intervention": {
+            "text": null,
+            "confidence": 0,
+            "details": []
+          },
+          "comparator": {
+            "text": null,
+            "confidence": 0,
+            "details": []
+          },
+          "outcomes": [],
+          "studyDesign": {
+            "type": "Unknown",
+            "confidence": 0.3
+          },
+          "sampleSize": null,
+          "followUp": null,
+          "setting": []
+        },
+        "needsReview": true,
+        "processedAt": "2026-02-24T08:37:04.035Z"
+      },
+      {
+        "nctId": "NCT04203368",
+        "title": "Adenosine Versus Verapamil for Management of Supraventricular Tachycardia Post- Coronary Artery Bypass Grafting",
+        "briefSummary": null,
+        "status": "COMPLETED",
+        "startDate": "2020-02-01",
+        "completionDate": "2020-11-22",
+        "studyType": "INTERVENTIONAL",
+        "phases": [
+          "NA"
+        ],
+        "enrollment": 268,
+        "allocation": "RANDOMIZED",
+        "primaryPurpose": "TREATMENT",
+        "source": "aact",
+        "retrievedAt": "2026-02-24T08:37:02.133Z",
+        "isDuplicate": false,
+        "classification": "maybe",
+        "relevanceScore": 45,
+        "relevanceReasons": [
+          "Contains 1 required keywords",
+          "Study design may not meet criteria: Unknown"
+        ],
+        "pico": {
+          "population": {
+            "text": null,
+            "confidence": 0,
+            "details": []
+          },
+          "intervention": {
+            "text": "Verapamil",
+            "confidence": 0.9,
+            "type": "known_drug",
+            "details": [
+              {
+                "text": "Verapamil",
+                "context": "Adenosine Versus Verapamil for Management of Supraventricular Tachycardia Post- Coronary Artery Bypass Grafting",
+                "type": "known_drug",
+                "confidence": 0.9
+              }
+            ]
+          },
+          "comparator": {
+            "text": "Verapamil",
+            "confidence": 0.8,
+            "type": "comparator",
+            "details": [
+              {
+                "text": "Verapamil",
+                "type": "comparator",
+                "confidence": 0.8
+              }
+            ]
+          },
+          "outcomes": [],
+          "studyDesign": {
+            "type": "Unknown",
+            "confidence": 0.3
+          },
+          "sampleSize": null,
+          "followUp": null,
+          "setting": [
+            {
+              "type": "country",
+              "value": "us"
+            }
+          ]
+        },
+        "needsReview": true,
+        "processedAt": "2026-02-24T08:37:04.309Z"
+      },
+      {
+        "nctId": "NCT04215640",
+        "title": "Radiofrequency Ablation of Paroxysmal Supraventricular Tachycardia Using a Novel Catheter Equipped With Mini Electrodes",
+        "briefSummary": null,
+        "status": "COMPLETED",
+        "startDate": "2020-01-13",
+        "completionDate": "2021-11-01",
+        "studyType": "INTERVENTIONAL",
+        "phases": [
+          "NA"
+        ],
+        "enrollment": 136,
+        "allocation": "RANDOMIZED",
+        "primaryPurpose": "TREATMENT",
+        "source": "aact",
+        "retrievedAt": "2026-02-24T08:37:02.133Z",
+        "isDuplicate": false,
+        "classification": "maybe",
+        "relevanceScore": 45,
+        "relevanceReasons": [
+          "Contains 1 required keywords",
+          "Study design may not meet criteria: Unknown"
+        ],
+        "pico": {
+          "population": {
+            "text": null,
+            "confidence": 0,
+            "details": []
+          },
+          "intervention": {
+            "text": null,
+            "confidence": 0,
+            "details": []
+          },
+          "comparator": {
+            "text": null,
+            "confidence": 0,
+            "details": []
+          },
+          "outcomes": [],
+          "studyDesign": {
+            "type": "Unknown",
+            "confidence": 0.3
+          },
+          "sampleSize": null,
+          "followUp": null,
+          "setting": [
+            {
+              "type": "country",
+              "value": "us"
+            }
+          ]
+        },
+        "needsReview": true,
+        "processedAt": "2026-02-24T08:37:04.409Z"
+      },
+      {
+        "nctId": "NCT04392362",
+        "title": "A Trial to Compare American Heart Association (AHA) and Simple (SIM)Method to Give Adenosine to Treat Supra-ventricular Tachycardia (SVT)",
+        "briefSummary": null,
+        "status": "COMPLETED",
+        "startDate": "2018-04-01",
+        "completionDate": "2020-12-16",
+        "studyType": "INTERVENTIONAL",
+        "phases": [
+          "PHASE3"
+        ],
+        "enrollment": 30,
+        "allocation": "RANDOMIZED",
+        "primaryPurpose": "TREATMENT",
+        "source": "aact",
+        "retrievedAt": "2026-02-24T08:37:02.133Z",
+        "isDuplicate": false,
+        "classification": "maybe",
+        "relevanceScore": 50,
+        "relevanceReasons": [
+          "Contains 1 required keywords",
+          "Contains 1 preferred keywords",
+          "Study design may not meet criteria: Unknown"
+        ],
+        "pico": {
+          "population": {
+            "text": null,
+            "confidence": 0,
+            "details": []
+          },
+          "intervention": {
+            "text": null,
+            "confidence": 0,
+            "details": []
+          },
+          "comparator": {
+            "text": null,
+            "confidence": 0,
+            "details": []
+          },
+          "outcomes": [],
+          "studyDesign": {
+            "type": "Unknown",
+            "confidence": 0.3
+          },
+          "sampleSize": null,
+          "followUp": null,
+          "setting": [
+            {
+              "type": "country",
+              "value": "america"
+            }
+          ]
+        },
+        "needsReview": true,
+        "processedAt": "2026-02-24T08:37:04.645Z"
+      },
+      {
+        "nctId": "NCT04612140",
+        "title": "STereotactic Ablative Radiosurgery of Recurrent Ventricular Tachycardia in Structural Heart Disease",
+        "briefSummary": null,
+        "status": "COMPLETED",
+        "startDate": "2020-10-01",
+        "completionDate": "2024-06-30",
+        "studyType": "INTERVENTIONAL",
+        "phases": [
+          "NA"
+        ],
+        "enrollment": 22,
+        "allocation": "RANDOMIZED",
+        "primaryPurpose": "TREATMENT",
+        "source": "aact",
+        "retrievedAt": "2026-02-24T08:37:02.133Z",
+        "isDuplicate": false,
+        "classification": "maybe",
+        "relevanceScore": 45,
+        "relevanceReasons": [
+          "Contains 1 required keywords",
+          "Study design may not meet criteria: Unknown"
+        ],
+        "pico": {
+          "population": {
+            "text": null,
+            "confidence": 0,
+            "details": []
+          },
+          "intervention": {
+            "text": null,
+            "confidence": 0,
+            "details": []
+          },
+          "comparator": {
+            "text": null,
+            "confidence": 0,
+            "details": []
+          },
+          "outcomes": [],
+          "studyDesign": {
+            "type": "Unknown",
+            "confidence": 0.3
+          },
+          "sampleSize": null,
+          "followUp": null,
+          "setting": []
+        },
+        "needsReview": true,
+        "processedAt": "2026-02-24T08:37:04.752Z"
+      },
+      {
+        "nctId": "NCT04657705",
+        "title": "Application of High Power Radio Frequency Energy in the Ventricular Tachycardia Treatment",
+        "briefSummary": null,
+        "status": "COMPLETED",
+        "startDate": "2020-12-05",
+        "completionDate": "2023-01-27",
+        "studyType": "INTERVENTIONAL",
+        "phases": [
+          "NA"
+        ],
+        "enrollment": 119,
+        "allocation": "RANDOMIZED",
+        "primaryPurpose": "TREATMENT",
+        "source": "aact",
+        "retrievedAt": "2026-02-24T08:37:02.133Z",
+        "isDuplicate": false,
+        "classification": "maybe",
+        "relevanceScore": 45,
+        "relevanceReasons": [
+          "Contains 1 required keywords",
+          "Study design may not meet criteria: Unknown"
+        ],
+        "pico": {
+          "population": {
+            "text": null,
+            "confidence": 0,
+            "details": []
+          },
+          "intervention": {
+            "text": null,
+            "confidence": 0,
+            "details": []
+          },
+          "comparator": {
+            "text": null,
+            "confidence": 0,
+            "details": []
+          },
+          "outcomes": [],
+          "studyDesign": {
+            "type": "Unknown",
+            "confidence": 0.3
+          },
+          "sampleSize": null,
+          "followUp": null,
+          "setting": []
+        },
+        "needsReview": true,
+        "processedAt": "2026-02-24T08:37:04.869Z"
+      },
+      {
+        "nctId": "NCT05225935",
+        "title": "Computed Tomography-Guided Catheter Ablation for Ventricular Tachycardia",
+        "briefSummary": null,
+        "status": "COMPLETED",
+        "startDate": "2022-06-29",
+        "completionDate": "2024-12-20",
+        "studyType": "INTERVENTIONAL",
+        "phases": [
+          "NA"
+        ],
+        "enrollment": 119,
+        "allocation": "RANDOMIZED",
+        "primaryPurpose": "TREATMENT",
+        "source": "aact",
+        "retrievedAt": "2026-02-24T08:37:02.133Z",
+        "isDuplicate": false,
+        "classification": "maybe",
+        "relevanceScore": 45,
+        "relevanceReasons": [
+          "Contains 1 required keywords",
+          "Study design may not meet criteria: Unknown"
+        ],
+        "pico": {
+          "population": {
+            "text": null,
+            "confidence": 0,
+            "details": []
+          },
+          "intervention": {
+            "text": null,
+            "confidence": 0,
+            "details": []
+          },
+          "comparator": {
+            "text": null,
+            "confidence": 0,
+            "details": []
+          },
+          "outcomes": [],
+          "studyDesign": {
+            "type": "Unknown",
+            "confidence": 0.3
+          },
+          "sampleSize": null,
+          "followUp": null,
+          "setting": []
+        },
+        "needsReview": true,
+        "processedAt": "2026-02-24T08:37:05.123Z"
+      },
+      {
+        "nctId": "NCT05410860",
+        "title": "Efficacy and Safety Study of Etripamil Nasal Spray Self-Administration for the Termination of Spontaneous Episodes of Paroxysmal Supraventricular Tachycardia",
+        "briefSummary": null,
+        "status": "COMPLETED",
+        "startDate": "2022-06-30",
+        "completionDate": "2024-12-10",
+        "studyType": "INTERVENTIONAL",
+        "phases": [
+          "PHASE3"
+        ],
+        "enrollment": 500,
+        "allocation": "RANDOMIZED",
+        "primaryPurpose": "TREATMENT",
+        "source": "aact",
+        "retrievedAt": "2026-02-24T08:37:02.133Z",
+        "isDuplicate": false,
+        "classification": "maybe",
+        "relevanceScore": 45,
+        "relevanceReasons": [
+          "Contains 1 required keywords",
+          "Study design may not meet criteria: Unknown"
+        ],
+        "pico": {
+          "population": {
+            "text": null,
+            "confidence": 0,
+            "details": []
+          },
+          "intervention": {
+            "text": null,
+            "confidence": 0,
+            "details": []
+          },
+          "comparator": {
+            "text": null,
+            "confidence": 0,
+            "details": []
+          },
+          "outcomes": [],
+          "studyDesign": {
+            "type": "Unknown",
+            "confidence": 0.3
+          },
+          "sampleSize": null,
+          "followUp": null,
+          "setting": [
+            {
+              "type": "country",
+              "value": "us"
+            }
+          ]
+        },
+        "needsReview": true,
+        "processedAt": "2026-02-24T08:37:05.249Z"
+      },
+      {
+        "nctId": "NCT06622772",
+        "title": "A Novel Valsalva Assist Device for Terminating Supraventricular Tachycardia",
+        "briefSummary": null,
+        "status": "COMPLETED",
+        "startDate": "2022-03-01",
+        "completionDate": "2024-05-30",
+        "studyType": "INTERVENTIONAL",
+        "phases": [
+          "NA"
+        ],
+        "enrollment": 212,
+        "allocation": "RANDOMIZED",
+        "primaryPurpose": "TREATMENT",
+        "source": "aact",
+        "retrievedAt": "2026-02-24T08:37:02.133Z",
+        "isDuplicate": false,
+        "classification": "maybe",
+        "relevanceScore": 45,
+        "relevanceReasons": [
+          "Contains 1 required keywords",
+          "Study design may not meet criteria: Unknown"
+        ],
+        "pico": {
+          "population": {
+            "text": null,
+            "confidence": 0,
+            "details": []
+          },
+          "intervention": {
+            "text": null,
+            "confidence": 0,
+            "details": []
+          },
+          "comparator": {
+            "text": null,
+            "confidence": 0,
+            "details": []
+          },
+          "outcomes": [],
+          "studyDesign": {
+            "type": "Unknown",
+            "confidence": 0.3
+          },
+          "sampleSize": null,
+          "followUp": null,
+          "setting": []
+        },
+        "needsReview": true,
+        "processedAt": "2026-02-24T08:37:05.379Z"
+      }
+    ],
+    "duplicates": [
+      {
+        "nctId": "NCT01858194",
+        "title": "REnal Sympathetic dEnervaTion as an a Adjunct to Catheter-based VT Ablation",
+        "briefSummary": null,
+        "status": "COMPLETED",
+        "startDate": "2013-03-31",
+        "completionDate": "2017-09-01",
+        "studyType": "INTERVENTIONAL",
+        "phases": [
+          "NA"
+        ],
+        "enrollment": 21,
+        "allocation": "RANDOMIZED",
+        "primaryPurpose": "TREATMENT",
+        "source": "aact",
+        "retrievedAt": "2026-02-24T08:37:02.133Z",
+        "isDuplicate": true,
+        "duplicateOf": {
+          "index": 24,
+          "title": "REnal SympathetiC Denervation to sUpprEss Tachyarrhythmias in ICD Recipients"
+        }
+      },
+      {
+        "nctId": "NCT04694079",
+        "title": "Ventricular Tachycardia Ablation and Myocardial Scar Characterization With Magnetic Resonance",
+        "briefSummary": null,
+        "status": "COMPLETED",
+        "startDate": "2020-08-03",
+        "completionDate": "2025-07-17",
+        "studyType": "INTERVENTIONAL",
+        "phases": [
+          "PHASE4"
+        ],
+        "enrollment": 104,
+        "allocation": "RANDOMIZED",
+        "primaryPurpose": "TREATMENT",
+        "source": "aact",
+        "retrievedAt": "2026-02-24T08:37:02.133Z",
+        "isDuplicate": true,
+        "duplicateOf": {
+          "index": 16,
+          "title": "Ventricular Tachycardia (VT) Ablation or Escalated Drug Therapy"
+        }
+      },
+      {
+        "nctId": "NCT07130175",
+        "title": "Radiofrequency Ablation for Polymorphic Ventricular Tachycardia With Heart Failure (RFCA for PMVT-HF)",
+        "briefSummary": null,
+        "status": "COMPLETED",
+        "startDate": "2022-12-31",
+        "completionDate": "2024-12-31",
+        "studyType": "INTERVENTIONAL",
+        "phases": [
+          "NA"
+        ],
+        "enrollment": 118,
+        "allocation": "RANDOMIZED",
+        "primaryPurpose": "TREATMENT",
+        "source": "aact",
+        "retrievedAt": "2026-02-24T08:37:02.133Z",
+        "isDuplicate": true,
+        "duplicateOf": {
+          "index": 44,
+          "title": "Radiofrequency Ablation of Paroxysmal Supraventricular Tachycardia Using a Novel Catheter Equipped With Mini Electrodes"
+        }
+      },
+      {
+        "nctId": "NCT02130765",
+        "title": "Substrate Targeted Ablation Using the FlexAbility™ Ablation Catheter System for the Reduction of Ventricular Tachycardia",
+        "briefSummary": null,
+        "status": "TERMINATED",
+        "startDate": "2014-11-30",
+        "completionDate": "2016-07-25",
+        "studyType": "INTERVENTIONAL",
+        "phases": [
+          "NA"
+        ],
+        "enrollment": 64,
+        "allocation": "RANDOMIZED",
+        "primaryPurpose": "TREATMENT",
+        "source": "aact",
+        "retrievedAt": "2026-02-24T08:37:02.975Z",
+        "isDuplicate": true,
+        "duplicateOf": {
+          "index": 17,
+          "title": "Substrate Modification in Stable Ventricular Tachycardia in Addition to Implantable Cardioverter Defibrillator (ICD) Therapy"
+        }
+      }
+    ],
+    "excluded": [
+      {
+        "nctId": "NCT00157820",
+        "title": "DATAS: The Dual Chamber & Atrial Tachyarrhythmias Adverse Events Study",
+        "briefSummary": null,
+        "status": "COMPLETED",
+        "startDate": "2000-11-30",
+        "completionDate": "2005-10-31",
+        "studyType": "INTERVENTIONAL",
+        "phases": [
+          "NA"
+        ],
+        "enrollment": 354,
+        "allocation": "RANDOMIZED",
+        "primaryPurpose": "PREVENTION",
+        "source": "aact",
+        "retrievedAt": "2026-02-24T08:37:02.132Z",
+        "isDuplicate": false,
+        "classification": "exclude",
+        "relevanceScore": 0,
+        "relevanceReasons": [
+          "Missing required keywords",
+          "Contains 2 preferred keywords",
+          "Study design may not meet criteria: Unknown"
+        ],
+        "pico": null,
+        "needsReview": false,
+        "processedAt": "2026-02-24T08:37:02.975Z"
+      },
+      {
+        "nctId": "NCT00180297",
+        "title": "Septal - Success Rate and Clinical Outcome of Septal Implant of Ventricular Defibrillation Lead",
+        "briefSummary": null,
+        "status": "COMPLETED",
+        "startDate": "2005-04-30",
+        "completionDate": "2012-09-30",
+        "studyType": "INTERVENTIONAL",
+        "phases": [
+          "NA"
+        ],
+        "enrollment": 215,
+        "allocation": "RANDOMIZED",
+        "primaryPurpose": "OTHER",
+        "source": "aact",
+        "retrievedAt": "2026-02-24T08:37:02.132Z",
+        "isDuplicate": false,
+        "classification": "exclude",
+        "relevanceScore": 0,
+        "relevanceReasons": [
+          "Missing required keywords",
+          "Study design may not meet criteria: Unknown"
+        ],
+        "pico": null,
+        "needsReview": false,
+        "processedAt": "2026-02-24T08:37:02.976Z"
+      },
+      {
+        "nctId": "NCT00187187",
+        "title": "DAVID II (Dual Chamber and VVI Implantable Defibrillator (DAVID) Trial II)",
+        "briefSummary": null,
+        "status": "COMPLETED",
+        "startDate": "2003-06-30",
+        "completionDate": "2007-09-30",
+        "studyType": "INTERVENTIONAL",
+        "phases": [
+          "NA"
+        ],
+        "enrollment": 600,
+        "allocation": "RANDOMIZED",
+        "primaryPurpose": "TREATMENT",
+        "source": "aact",
+        "retrievedAt": "2026-02-24T08:37:02.132Z",
+        "isDuplicate": false,
+        "classification": "exclude",
+        "relevanceScore": 0,
+        "relevanceReasons": [
+          "Missing required keywords",
+          "Contains 1 preferred keywords",
+          "Study design may not meet criteria: Unknown"
+        ],
+        "pico": null,
+        "needsReview": false,
+        "processedAt": "2026-02-24T08:37:02.976Z"
+      },
+      {
+        "nctId": "NCT00257959",
+        "title": "Optimal Pharmacological Therapy In Implantable Defibrillator Patients (OPTIC)",
+        "briefSummary": null,
+        "status": "COMPLETED",
+        "startDate": "2001-01-31",
+        "completionDate": "2004-10-31",
+        "studyType": "INTERVENTIONAL",
+        "phases": [
+          "PHASE4"
+        ],
+        "enrollment": 400,
+        "allocation": "RANDOMIZED",
+        "primaryPurpose": "PREVENTION",
+        "source": "aact",
+        "retrievedAt": "2026-02-24T08:37:02.133Z",
+        "isDuplicate": false,
+        "classification": "exclude",
+        "relevanceScore": 0,
+        "relevanceReasons": [
+          "Missing required keywords",
+          "Study design may not meet criteria: Unknown"
+        ],
+        "pico": null,
+        "needsReview": false,
+        "processedAt": "2026-02-24T08:37:02.976Z"
+      },
+      {
+        "nctId": "NCT00401466",
+        "title": "Remote Follow-up of Patients Receiving Implantable Cardioverter Defibrillator for Prophylactic Therapy",
+        "briefSummary": null,
+        "status": "COMPLETED",
+        "startDate": "2004-01-31",
+        "completionDate": "2008-07-31",
+        "studyType": "INTERVENTIONAL",
+        "phases": [
+          "PHASE4"
+        ],
+        "enrollment": 155,
+        "allocation": "RANDOMIZED",
+        "primaryPurpose": "HEALTH_SERVICES_RESEARCH",
+        "source": "aact",
+        "retrievedAt": "2026-02-24T08:37:02.133Z",
+        "isDuplicate": false,
+        "classification": "exclude",
+        "relevanceScore": 0,
+        "relevanceReasons": [
+          "Missing required keywords",
+          "Study design may not meet criteria: Unknown"
+        ],
+        "pico": null,
+        "needsReview": false,
+        "processedAt": "2026-02-24T08:37:02.990Z"
+      },
+      {
+        "nctId": "NCT00413712",
+        "title": "Effectiveness of Calcium Channel Blockers and Adenosine in the Emergency Management of SVT",
+        "briefSummary": null,
+        "status": "COMPLETED",
+        "startDate": "1997-01-31",
+        "completionDate": "2001-03-31",
+        "studyType": "INTERVENTIONAL",
+        "phases": [
+          "PHASE4"
+        ],
+        "enrollment": 206,
+        "allocation": "RANDOMIZED",
+        "primaryPurpose": "TREATMENT",
+        "source": "aact",
+        "retrievedAt": "2026-02-24T08:37:02.133Z",
+        "isDuplicate": false,
+        "classification": "exclude",
+        "relevanceScore": 0,
+        "relevanceReasons": [
+          "Missing required keywords",
+          "Study design may not meet criteria: Unknown"
+        ],
+        "pico": null,
+        "needsReview": false,
+        "processedAt": "2026-02-24T08:37:02.999Z"
+      },
+      {
+        "nctId": "NCT00538356",
+        "title": "Influence of Home Monitoring on the Clinical Status of Heart Failure Patients With an Impaired Left Ventricular Function",
+        "briefSummary": null,
+        "status": "COMPLETED",
+        "startDate": "2007-07-31",
+        "completionDate": "2013-08-31",
+        "studyType": "INTERVENTIONAL",
+        "phases": [
+          "PHASE4"
+        ],
+        "enrollment": 720,
+        "allocation": "RANDOMIZED",
+        "primaryPurpose": "TREATMENT",
+        "source": "aact",
+        "retrievedAt": "2026-02-24T08:37:02.133Z",
+        "isDuplicate": false,
+        "classification": "exclude",
+        "relevanceScore": 0,
+        "relevanceReasons": [
+          "Missing required keywords",
+          "Study design may not meet criteria: Unknown"
+        ],
+        "pico": null,
+        "needsReview": false,
+        "processedAt": "2026-02-24T08:37:03.009Z"
+      },
+      {
+        "nctId": "NCT00617578",
+        "title": "Fast VT Episodes Are Terminated by ATP One Shot",
+        "briefSummary": null,
+        "status": "COMPLETED",
+        "startDate": "2007-11-30",
+        "completionDate": "2012-07-31",
+        "studyType": "INTERVENTIONAL",
+        "phases": [
+          "PHASE4"
+        ],
+        "enrollment": 194,
+        "allocation": "RANDOMIZED",
+        "primaryPurpose": "TREATMENT",
+        "source": "aact",
+        "retrievedAt": "2026-02-24T08:37:02.133Z",
+        "isDuplicate": false,
+        "classification": "exclude",
+        "relevanceScore": 0,
+        "relevanceReasons": [
+          "Missing required keywords",
+          "Study design may not meet criteria: Unknown"
+        ],
+        "pico": null,
+        "needsReview": false,
+        "processedAt": "2026-02-24T08:37:03.013Z"
+      },
+      {
+        "nctId": "NCT00730548",
+        "title": "Compare Remote Patient Management and Standard Care in CRT-D and ICD-patients to Assess the Effect on Heart Failure",
+        "briefSummary": null,
+        "status": "COMPLETED",
+        "startDate": "2007-11-30",
+        "completionDate": "2013-08-31",
+        "studyType": "INTERVENTIONAL",
+        "phases": [
+          "NA"
+        ],
+        "enrollment": 180,
+        "allocation": "RANDOMIZED",
+        "primaryPurpose": "TREATMENT",
+        "source": "aact",
+        "retrievedAt": "2026-02-24T08:37:02.133Z",
+        "isDuplicate": false,
+        "classification": "exclude",
+        "relevanceScore": 0,
+        "relevanceReasons": [
+          "Missing required keywords",
+          "Study design may not meet criteria: Unknown"
+        ],
+        "pico": null,
+        "needsReview": false,
+        "processedAt": "2026-02-24T08:37:03.027Z"
+      },
+      {
+        "nctId": "NCT00745745",
+        "title": "Septal Positioning of Ventricular Implanted Cardioverter Defibrillator (ICD) Leads",
+        "briefSummary": null,
+        "status": "COMPLETED",
+        "startDate": "2008-08-31",
+        "completionDate": "2013-01-31",
+        "studyType": "INTERVENTIONAL",
+        "phases": [
+          "NA"
+        ],
+        "enrollment": 299,
+        "allocation": "RANDOMIZED",
+        "primaryPurpose": "TREATMENT",
+        "source": "aact",
+        "retrievedAt": "2026-02-24T08:37:02.133Z",
+        "isDuplicate": false,
+        "classification": "exclude",
+        "relevanceScore": 0,
+        "relevanceReasons": [
+          "Missing required keywords",
+          "Study design may not meet criteria: Unknown"
+        ],
+        "pico": null,
+        "needsReview": false,
+        "processedAt": "2026-02-24T08:37:03.035Z"
+      },
+      {
+        "nctId": "NCT00787800",
+        "title": "The Use of Dual Chamber ICD With Special Programmed Features to Lower the Risk of Inappropriate Shock",
+        "briefSummary": null,
+        "status": "COMPLETED",
+        "startDate": "2008-11-30",
+        "completionDate": "2011-12-31",
+        "studyType": "INTERVENTIONAL",
+        "phases": [
+          "PHASE4"
+        ],
+        "enrollment": 100,
+        "allocation": "RANDOMIZED",
+        "primaryPurpose": "TREATMENT",
+        "source": "aact",
+        "retrievedAt": "2026-02-24T08:37:02.133Z",
+        "isDuplicate": false,
+        "classification": "exclude",
+        "relevanceScore": 0,
+        "relevanceReasons": [
+          "Missing required keywords",
+          "Study design may not meet criteria: Unknown"
+        ],
+        "pico": null,
+        "needsReview": false,
+        "processedAt": "2026-02-24T08:37:03.044Z"
+      },
+      {
+        "nctId": "NCT00800384",
+        "title": "Shockless Implant Evaluation",
+        "briefSummary": null,
+        "status": "COMPLETED",
+        "startDate": "2009-01-31",
+        "completionDate": "2014-05-31",
+        "studyType": "INTERVENTIONAL",
+        "phases": [
+          "NA"
+        ],
+        "enrollment": 2500,
+        "allocation": "RANDOMIZED",
+        "primaryPurpose": "SUPPORTIVE_CARE",
+        "source": "aact",
+        "retrievedAt": "2026-02-24T08:37:02.133Z",
+        "isDuplicate": false,
+        "classification": "exclude",
+        "relevanceScore": 0,
+        "relevanceReasons": [
+          "Missing required keywords",
+          "Study design may not meet criteria: Unknown"
+        ],
+        "pico": null,
+        "needsReview": false,
+        "processedAt": "2026-02-24T08:37:03.058Z"
+      },
+      {
+        "nctId": "NCT00833352",
+        "title": "Comparison of Right Ventricular Septal and Right Ventricular Apical Pacing in Patients Receiving a CRT-D Device",
+        "briefSummary": null,
+        "status": "COMPLETED",
+        "startDate": "2008-11-30",
+        "completionDate": "2011-12-31",
+        "studyType": "INTERVENTIONAL",
+        "phases": [
+          "NA"
+        ],
+        "enrollment": 263,
+        "allocation": "RANDOMIZED",
+        "primaryPurpose": "TREATMENT",
+        "source": "aact",
+        "retrievedAt": "2026-02-24T08:37:02.133Z",
+        "isDuplicate": false,
+        "classification": "exclude",
+        "relevanceScore": 0,
+        "relevanceReasons": [
+          "Missing required keywords",
+          "Study design may not meet criteria: Unknown"
+        ],
+        "pico": null,
+        "needsReview": false,
+        "processedAt": "2026-02-24T08:37:03.064Z"
+      },
+      {
+        "nctId": "NCT01446965",
+        "title": "Vest Prevention of Early Sudden Death Trial and VEST Registry",
+        "briefSummary": null,
+        "status": "COMPLETED",
+        "startDate": "2008-07-31",
+        "completionDate": "2019-05-31",
+        "studyType": "INTERVENTIONAL",
+        "phases": [
+          "NA"
+        ],
+        "enrollment": 2348,
+        "allocation": "RANDOMIZED",
+        "primaryPurpose": "TREATMENT",
+        "source": "aact",
+        "retrievedAt": "2026-02-24T08:37:02.133Z",
+        "isDuplicate": false,
+        "classification": "exclude",
+        "relevanceScore": 30,
+        "relevanceReasons": [
+          "Missing required keywords",
+          "Contains 1 preferred keywords",
+          "Accepted study design: Observational"
+        ],
+        "pico": null,
+        "needsReview": true,
+        "processedAt": "2026-02-24T08:37:03.174Z"
+      },
+      {
+        "nctId": "NCT01747837",
+        "title": "REnal SympathetiC Denervation to sUpprEss Tachyarrhythmias in ICD Recipients",
+        "briefSummary": null,
+        "status": "COMPLETED",
+        "startDate": "2015-10-22",
+        "completionDate": "2019-01-09",
+        "studyType": "INTERVENTIONAL",
+        "phases": [
+          "NA"
+        ],
+        "enrollment": 48,
+        "allocation": "RANDOMIZED",
+        "primaryPurpose": "TREATMENT",
+        "source": "aact",
+        "retrievedAt": "2026-02-24T08:37:02.133Z",
+        "isDuplicate": false,
+        "classification": "exclude",
+        "relevanceScore": 0,
+        "relevanceReasons": [
+          "Missing required keywords",
+          "Contains 1 preferred keywords",
+          "Study design may not meet criteria: Unknown"
+        ],
+        "pico": null,
+        "needsReview": false,
+        "processedAt": "2026-02-24T08:37:03.193Z"
+      },
+      {
+        "nctId": "NCT01898221",
+        "title": "Vein of Marshall Ethanol Infusion for Persistent Atrial Fibrillation",
+        "briefSummary": null,
+        "status": "COMPLETED",
+        "startDate": "2013-10-31",
+        "completionDate": "2019-12-31",
+        "studyType": "INTERVENTIONAL",
+        "phases": [
+          "PHASE3"
+        ],
+        "enrollment": 343,
+        "allocation": "RANDOMIZED",
+        "primaryPurpose": "TREATMENT",
+        "source": "aact",
+        "retrievedAt": "2026-02-24T08:37:02.133Z",
+        "isDuplicate": false,
+        "classification": "exclude",
+        "relevanceScore": 0,
+        "relevanceReasons": [
+          "Missing required keywords",
+          "Contains 1 preferred keywords",
+          "Study design may not meet criteria: Unknown"
+        ],
+        "pico": null,
+        "needsReview": false,
+        "processedAt": "2026-02-24T08:37:03.251Z"
+      },
+      {
+        "nctId": "NCT02095405",
+        "title": "A Study of Caffeine on Cardiac Arrhythmias",
+        "briefSummary": null,
+        "status": "COMPLETED",
+        "startDate": "2010-02-28",
+        "completionDate": "2015-08-31",
+        "studyType": "INTERVENTIONAL",
+        "phases": [
+          "NA"
+        ],
+        "enrollment": 160,
+        "allocation": "RANDOMIZED",
+        "primaryPurpose": "TREATMENT",
+        "source": "aact",
+        "retrievedAt": "2026-02-24T08:37:02.133Z",
+        "isDuplicate": false,
+        "classification": "exclude",
+        "relevanceScore": 0,
+        "relevanceReasons": [
+          "Missing required keywords",
+          "Contains 1 preferred keywords",
+          "Study design may not meet criteria: Unknown"
+        ],
+        "pico": null,
+        "needsReview": false,
+        "processedAt": "2026-02-24T08:37:03.318Z"
+      },
+      {
+        "nctId": "NCT02296190",
+        "title": "Efficacy and Safety of Intranasal MSP-2017 (Etripamil) for the Conversion of PSVT to Sinus Rhythm",
+        "briefSummary": null,
+        "status": "COMPLETED",
+        "startDate": "2015-03-27",
+        "completionDate": "2016-12-31",
+        "studyType": "INTERVENTIONAL",
+        "phases": [
+          "PHASE2"
+        ],
+        "enrollment": 199,
+        "allocation": "RANDOMIZED",
+        "primaryPurpose": "TREATMENT",
+        "source": "aact",
+        "retrievedAt": "2026-02-24T08:37:02.133Z",
+        "isDuplicate": false,
+        "classification": "exclude",
+        "relevanceScore": 0,
+        "relevanceReasons": [
+          "Missing required keywords",
+          "Study design may not meet criteria: Unknown"
+        ],
+        "pico": null,
+        "needsReview": false,
+        "processedAt": "2026-02-24T08:37:03.449Z"
+      },
+      {
+        "nctId": "NCT02743325",
+        "title": "As Low As Reasonable Achievable Fluoroscopy for SVT Ablation",
+        "briefSummary": null,
+        "status": "COMPLETED",
+        "startDate": "2016-04-25",
+        "completionDate": "2018-12-31",
+        "studyType": "INTERVENTIONAL",
+        "phases": [
+          "NA"
+        ],
+        "enrollment": 60,
+        "allocation": "RANDOMIZED",
+        "primaryPurpose": "TREATMENT",
+        "source": "aact",
+        "retrievedAt": "2026-02-24T08:37:02.133Z",
+        "isDuplicate": false,
+        "classification": "exclude",
+        "relevanceScore": 0,
+        "relevanceReasons": [
+          "Missing required keywords",
+          "Study design may not meet criteria: Unknown"
+        ],
+        "pico": null,
+        "needsReview": false,
+        "processedAt": "2026-02-24T08:37:03.612Z"
+      },
+      {
+        "nctId": "NCT02848781",
+        "title": "Pan-Asia United States PrEvention of Sudden Cardiac Death Catheter Ablation Trial",
+        "briefSummary": null,
+        "status": "COMPLETED",
+        "startDate": "2015-11-30",
+        "completionDate": "2021-03-29",
+        "studyType": "INTERVENTIONAL",
+        "phases": [
+          "NA"
+        ],
+        "enrollment": 180,
+        "allocation": "RANDOMIZED",
+        "primaryPurpose": "TREATMENT",
+        "source": "aact",
+        "retrievedAt": "2026-02-24T08:37:02.133Z",
+        "isDuplicate": false,
+        "classification": "exclude",
+        "relevanceScore": 0,
+        "relevanceReasons": [
+          "Missing required keywords",
+          "Contains 2 preferred keywords",
+          "Study design may not meet criteria: Unknown"
+        ],
+        "pico": null,
+        "needsReview": false,
+        "processedAt": "2026-02-24T08:37:03.727Z"
+      },
+      {
+        "nctId": "NCT03421834",
+        "title": "Impact of PREVENTIVE Substrate Ablation of Coronary Chronic Total Occlusion on Implantable cardioVerTer-Defibrillator Interventions",
+        "briefSummary": null,
+        "status": "COMPLETED",
+        "startDate": "2018-02-06",
+        "completionDate": "2024-01-04",
+        "studyType": "INTERVENTIONAL",
+        "phases": [
+          "NA"
+        ],
+        "enrollment": 60,
+        "allocation": "RANDOMIZED",
+        "primaryPurpose": "TREATMENT",
+        "source": "aact",
+        "retrievedAt": "2026-02-24T08:37:02.133Z",
+        "isDuplicate": false,
+        "classification": "exclude",
+        "relevanceScore": 0,
+        "relevanceReasons": [
+          "Missing required keywords",
+          "Study design may not meet criteria: Unknown"
+        ],
+        "pico": null,
+        "needsReview": false,
+        "processedAt": "2026-02-24T08:37:03.869Z"
+      },
+      {
+        "nctId": "NCT03490201",
+        "title": "FLExAbility Sensor Enabled Substrate Targeted Ablation for the Reduction of VT Study",
+        "briefSummary": null,
+        "status": "COMPLETED",
+        "startDate": "2018-06-01",
+        "completionDate": "2024-04-11",
+        "studyType": "INTERVENTIONAL",
+        "phases": [
+          "NA"
+        ],
+        "enrollment": 592,
+        "allocation": "RANDOMIZED",
+        "primaryPurpose": "TREATMENT",
+        "source": "aact",
+        "retrievedAt": "2026-02-24T08:37:02.133Z",
+        "isDuplicate": false,
+        "classification": "exclude",
+        "relevanceScore": 0,
+        "relevanceReasons": [
+          "Missing required keywords",
+          "Study design may not meet criteria: Unknown"
+        ],
+        "pico": null,
+        "needsReview": false,
+        "processedAt": "2026-02-24T08:37:03.952Z"
+      },
+      {
+        "nctId": "NCT04043312",
+        "title": "Magnetic Stimulation to Treat VT Storm",
+        "briefSummary": null,
+        "status": "COMPLETED",
+        "startDate": "2019-08-14",
+        "completionDate": "2021-07-30",
+        "studyType": "INTERVENTIONAL",
+        "phases": [
+          "NA"
+        ],
+        "enrollment": 26,
+        "allocation": "RANDOMIZED",
+        "primaryPurpose": "TREATMENT",
+        "source": "aact",
+        "retrievedAt": "2026-02-24T08:37:02.133Z",
+        "isDuplicate": false,
+        "classification": "exclude",
+        "relevanceScore": 0,
+        "relevanceReasons": [
+          "Missing required keywords",
+          "Study design may not meet criteria: Unknown"
+        ],
+        "pico": null,
+        "needsReview": false,
+        "processedAt": "2026-02-24T08:37:04.113Z"
+      },
+      {
+        "nctId": "NCT04134845",
+        "title": "A Clinical Trial Utilizing Dantrolene in Patients With Ventricular Arrhythmias.",
+        "briefSummary": null,
+        "status": "COMPLETED",
+        "startDate": "2020-08-21",
+        "completionDate": "2025-08-29",
+        "studyType": "INTERVENTIONAL",
+        "phases": [
+          "PHASE2/PHASE3"
+        ],
+        "enrollment": 68,
+        "allocation": "RANDOMIZED",
+        "primaryPurpose": "TREATMENT",
+        "source": "aact",
+        "retrievedAt": "2026-02-24T08:37:02.133Z",
+        "isDuplicate": false,
+        "classification": "exclude",
+        "relevanceScore": 0,
+        "relevanceReasons": [
+          "Missing required keywords",
+          "Contains 2 preferred keywords",
+          "Study design may not meet criteria: Unknown"
+        ],
+        "pico": null,
+        "needsReview": false,
+        "processedAt": "2026-02-24T08:37:04.213Z"
+      },
+      {
+        "nctId": "NCT04235881",
+        "title": "Emotional Regulation in Patients With Implanted Automatic Defibrillator",
+        "briefSummary": null,
+        "status": "COMPLETED",
+        "startDate": "2017-02-15",
+        "completionDate": "2018-05-30",
+        "studyType": "INTERVENTIONAL",
+        "phases": [
+          "NA"
+        ],
+        "enrollment": 96,
+        "allocation": "RANDOMIZED",
+        "primaryPurpose": "TREATMENT",
+        "source": "aact",
+        "retrievedAt": "2026-02-24T08:37:02.133Z",
+        "isDuplicate": false,
+        "classification": "exclude",
+        "relevanceScore": 0,
+        "relevanceReasons": [
+          "Missing required keywords",
+          "Study design may not meet criteria: Unknown"
+        ],
+        "pico": null,
+        "needsReview": false,
+        "processedAt": "2026-02-24T08:37:04.535Z"
+      },
+      {
+        "nctId": "NCT00000558",
+        "title": "Prevention of Events With Angiotensin-Converting Enzyme Inhibitor Therapy (PEACE)",
+        "briefSummary": null,
+        "status": "COMPLETED",
+        "startDate": "1995-11-30",
+        "completionDate": "2005-06-30",
+        "studyType": "INTERVENTIONAL",
+        "phases": [
+          "PHASE3"
+        ],
+        "enrollment": null,
+        "allocation": "RANDOMIZED",
+        "primaryPurpose": "PREVENTION",
+        "source": "aact",
+        "retrievedAt": "2026-02-24T08:37:02.975Z",
+        "isDuplicate": false,
+        "classification": "exclude",
+        "relevanceScore": 0,
+        "relevanceReasons": [
+          "Missing required keywords",
+          "Study design may not meet criteria: Unknown"
+        ],
+        "pico": null,
+        "needsReview": false,
+        "processedAt": "2026-02-24T08:37:05.673Z"
+      },
+      {
+        "nctId": "NCT00000609",
+        "title": "Sudden Cardiac Death in Heart Failure Trial (SCD-HeFT)",
+        "briefSummary": null,
+        "status": "COMPLETED",
+        "startDate": "1997-05-31",
+        "completionDate": "2005-04-30",
+        "studyType": "INTERVENTIONAL",
+        "phases": [
+          "PHASE3"
+        ],
+        "enrollment": null,
+        "allocation": "RANDOMIZED",
+        "primaryPurpose": "TREATMENT",
+        "source": "aact",
+        "retrievedAt": "2026-02-24T08:37:02.975Z",
+        "isDuplicate": false,
+        "classification": "exclude",
+        "relevanceScore": 0,
+        "relevanceReasons": [
+          "Missing required keywords",
+          "Contains 2 preferred keywords",
+          "Study design may not meet criteria: Unknown"
+        ],
+        "pico": null,
+        "needsReview": false,
+        "processedAt": "2026-02-24T08:37:05.821Z"
+      },
+      {
+        "nctId": "NCT00004488",
+        "title": "Phase II Randomized Study of Alendronate Sodium for Osteopenia in Patients With Gaucher's Disease",
+        "briefSummary": null,
+        "status": "COMPLETED",
+        "startDate": "1998-10-31",
+        "completionDate": "2002-09-30",
+        "studyType": "INTERVENTIONAL",
+        "phases": [
+          "PHASE2"
+        ],
+        "enrollment": 82,
+        "allocation": "RANDOMIZED",
+        "primaryPurpose": "TREATMENT",
+        "source": "aact",
+        "retrievedAt": "2026-02-24T08:37:02.975Z",
+        "isDuplicate": false,
+        "classification": "exclude",
+        "relevanceScore": 30,
+        "relevanceReasons": [
+          "Missing required keywords",
+          "Contains 1 preferred keywords",
+          "Accepted study design: RCT"
+        ],
+        "pico": null,
+        "needsReview": true,
+        "processedAt": "2026-02-24T08:37:05.997Z"
+      },
+      {
+        "nctId": "NCT00271154",
+        "title": "REsynchronization reVErses Remodeling in Systolic Left vEntricular Dysfunction (REVERSE)",
+        "briefSummary": null,
+        "status": "COMPLETED",
+        "startDate": "2004-09-30",
+        "completionDate": "2011-11-30",
+        "studyType": "INTERVENTIONAL",
+        "phases": [
+          "NA"
+        ],
+        "enrollment": 684,
+        "allocation": "RANDOMIZED",
+        "primaryPurpose": "TREATMENT",
+        "source": "aact",
+        "retrievedAt": "2026-02-24T08:37:02.975Z",
+        "isDuplicate": false,
+        "classification": "exclude",
+        "relevanceScore": 0,
+        "relevanceReasons": [
+          "Missing required keywords",
+          "Study design may not meet criteria: Unknown"
+        ],
+        "pico": null,
+        "needsReview": false,
+        "processedAt": "2026-02-24T08:37:06.171Z"
+      }
+    ],
+    "summary": {
+      "totalFound": 59,
+      "newPotentialInclusions": 1,
+      "newMaybes": 25,
+      "duplicatesDetected": 4,
+      "autoExcluded": 29,
+      "trialUniverseWithoutPICO": 59,
+      "trialUniverseWithPICO": 29,
+      "trialUniverseRetainedPct": 49.2
+    },
+    "trialUniverse": {
+      "decision": "PASS",
+      "withoutPICO": {
+        "totalStudies": 59,
+        "uniqueNctCount": 59,
+        "studyIds": [
+          "NCT00157820",
+          "NCT00180297",
+          "NCT00187187",
+          "NCT00257959",
+          "NCT00390546",
+          "NCT00401466",
+          "NCT00413712",
+          "NCT00534300",
+          "NCT00538356",
+          "NCT00617578",
+          "NCT00729235",
+          "NCT00730548",
+          "NCT00745745",
+          "NCT00787800",
+          "NCT00800384",
+          "NCT00833352",
+          "NCT00905853",
+          "NCT00919373",
+          "NCT00979303",
+          "NCT01045668",
+          "NCT01117454",
+          "NCT01132274",
+          "NCT01182389",
+          "NCT01446965",
+          "NCT01747837",
+          "NCT01858194",
+          "NCT01898221",
+          "NCT02083016",
+          "NCT02095405",
+          "NCT02216240",
+          "NCT02274168",
+          "NCT02296190",
+          "NCT02624765",
+          "NCT02666742",
+          "NCT02743325",
+          "NCT02830360",
+          "NCT02848781",
+          "NCT03348436",
+          "NCT03421834",
+          "NCT03490201",
+          "NCT03734562",
+          "NCT04043312",
+          "NCT04134845",
+          "NCT04203368",
+          "NCT04215640",
+          "NCT04235881",
+          "NCT04392362",
+          "NCT04612140",
+          "NCT04657705",
+          "NCT04694079",
+          "NCT05225935",
+          "NCT05410860",
+          "NCT06622772",
+          "NCT07130175",
+          "NCT00000558",
+          "NCT00000609",
+          "NCT00004488",
+          "NCT00271154",
+          "NCT02130765"
+        ],
+        "duplicateCount": 0,
+        "duplicateStudyIds": []
+      },
+      "withPICO": {
+        "totalStudies": 29,
+        "includeCount": 1,
+        "maybeCount": 28,
+        "excludeCount": 30,
+        "studyIds": [
+          "NCT00390546",
+          "NCT00534300",
+          "NCT00729235",
+          "NCT00905853",
+          "NCT00919373",
+          "NCT00979303",
+          "NCT01045668",
+          "NCT01117454",
+          "NCT01132274",
+          "NCT01182389",
+          "NCT02083016",
+          "NCT02216240",
+          "NCT02274168",
+          "NCT02624765",
+          "NCT02666742",
+          "NCT02830360",
+          "NCT03348436",
+          "NCT03734562",
+          "NCT04203368",
+          "NCT04215640",
+          "NCT04392362",
+          "NCT04612140",
+          "NCT04657705",
+          "NCT04694079",
+          "NCT05225935",
+          "NCT05410860",
+          "NCT06622772",
+          "NCT07130175",
+          "NCT02130765"
+        ],
+        "includeStudyIds": [
+          "NCT02624765"
+        ],
+        "maybeStudyIds": [
+          "NCT00390546",
+          "NCT00534300",
+          "NCT00729235",
+          "NCT00905853",
+          "NCT00919373",
+          "NCT00979303",
+          "NCT01045668",
+          "NCT01117454",
+          "NCT01132274",
+          "NCT01182389",
+          "NCT02083016",
+          "NCT02216240",
+          "NCT02274168",
+          "NCT02666742",
+          "NCT02830360",
+          "NCT03348436",
+          "NCT03734562",
+          "NCT04203368",
+          "NCT04215640",
+          "NCT04392362",
+          "NCT04612140",
+          "NCT04657705",
+          "NCT04694079",
+          "NCT05225935",
+          "NCT05410860",
+          "NCT06622772",
+          "NCT07130175",
+          "NCT02130765"
+        ],
+        "excludeStudyIds": [
+          "NCT00157820",
+          "NCT00180297",
+          "NCT00187187",
+          "NCT00257959",
+          "NCT00401466",
+          "NCT00413712",
+          "NCT00538356",
+          "NCT00617578",
+          "NCT00730548",
+          "NCT00745745",
+          "NCT00787800",
+          "NCT00800384",
+          "NCT00833352",
+          "NCT01446965",
+          "NCT01747837",
+          "NCT01858194",
+          "NCT01898221",
+          "NCT02095405",
+          "NCT02296190",
+          "NCT02743325",
+          "NCT02848781",
+          "NCT03421834",
+          "NCT03490201",
+          "NCT04043312",
+          "NCT04134845",
+          "NCT04235881",
+          "NCT00000558",
+          "NCT00000609",
+          "NCT00004488",
+          "NCT00271154"
+        ]
+      },
+      "comparison": {
+        "removedByPICO": 30,
+        "retainedPct": 49.2,
+        "excludedPct": 50.8
+      }
+    },
+    "landmarkCoverage": {
+      "decision": "PASS",
+      "guidelineProfile": "cardiology",
+      "overallCoveragePct": 83.3,
+      "totalExpected": 6,
+      "totalFound": 5,
+      "minCoveragePct": 70,
+      "areas": {
+        "ventricular_arrhythmias": {
+          "expected": 6,
+          "found": 5,
+          "missing": 1,
+          "coveragePct": 83.3,
+          "foundNctIds": [
+            "NCT00000558",
+            "NCT00000609",
+            "NCT00004488",
+            "NCT00271154",
+            "NCT02130765"
+          ],
+          "missingNctIds": [
+            "NCT01045070"
+          ]
+        }
+      }
+    },
+    "robustness": {
+      "decision": "PASS",
+      "score": 100,
+      "metrics": {
+        "aactIncrementalNctCount": 59,
+        "knownGapRecovered": 0,
+        "knownGapRecoveryPct": 0,
+        "landmarkCoveragePct": 83.3,
+        "picoRetentionPct": 49.2,
+        "trialUniverseCount": 59
+      },
+      "checks": [
+        {
+          "id": "source_coverage",
+          "label": "Required source coverage",
+          "pass": true,
+          "value": 1
+        },
+        {
+          "id": "ctgov_strategy_depth",
+          "label": "CT.gov strategy depth",
+          "pass": true,
+          "value": 0
+        },
+        {
+          "id": "ctgov_error_free",
+          "label": "CT.gov execution without errors",
+          "pass": true,
+          "value": 1
+        },
+        {
+          "id": "aact_available",
+          "label": "AACT availability",
+          "pass": true,
+          "value": 1
+        },
+        {
+          "id": "aact_incremental_capture",
+          "label": "AACT incremental capture over CT.gov",
+          "pass": true,
+          "value": 59
+        },
+        {
+          "id": "landmark_coverage",
+          "label": "ESC landmark coverage",
+          "pass": true,
+          "value": 83.3
+        },
+        {
+          "id": "trial_universe_pico",
+          "label": "Trial universe with and without PICO",
+          "pass": true,
+          "value": 49.2
+        }
+      ],
+      "actionItems": []
+    }
+  }
+}

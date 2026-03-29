@@ -1,0 +1,171 @@
+{
+  "generatedAt": "2026-02-24T08:40:43.767Z",
+  "guidelineProfile": "cardiology",
+  "gatewayUrl": "http://127.0.0.1:8787/aact/query",
+  "maxResultsPerArea": 80,
+  "areaCount": 13,
+  "totals": {
+    "aactRetrieved": 918,
+    "withoutPICO": 918,
+    "withPICO": 460,
+    "robustPassCount": 10
+  },
+  "perArea": [
+    {
+      "areaKey": "heart_failure",
+      "aactCount": 92,
+      "aactRetrieved": 92,
+      "aactError": "",
+      "landmarkCoveragePct": 94.1,
+      "trialUniverseWithoutPICO": 92,
+      "trialUniverseWithPICO": 61,
+      "picoRetainedPct": 66.3,
+      "robustnessDecision": "PASS",
+      "robustnessScore": 100
+    },
+    {
+      "areaKey": "atrial_fibrillation",
+      "aactCount": 88,
+      "aactRetrieved": 88,
+      "aactError": "",
+      "landmarkCoveragePct": 76.9,
+      "trialUniverseWithoutPICO": 88,
+      "trialUniverseWithPICO": 70,
+      "picoRetainedPct": 79.5,
+      "robustnessDecision": "PASS",
+      "robustnessScore": 100
+    },
+    {
+      "areaKey": "acute_coronary_syndromes",
+      "aactCount": 86,
+      "aactRetrieved": 86,
+      "aactError": "",
+      "landmarkCoveragePct": 53.8,
+      "trialUniverseWithoutPICO": 86,
+      "trialUniverseWithPICO": 50,
+      "picoRetainedPct": 58.1,
+      "robustnessDecision": "FLAG",
+      "robustnessScore": 85.7
+    },
+    {
+      "areaKey": "chronic_coronary_syndromes",
+      "aactCount": 9,
+      "aactRetrieved": 9,
+      "aactError": "",
+      "landmarkCoveragePct": 75,
+      "trialUniverseWithoutPICO": 9,
+      "trialUniverseWithPICO": 0,
+      "picoRetainedPct": 0,
+      "robustnessDecision": "PASS",
+      "robustnessScore": 100
+    },
+    {
+      "areaKey": "cardiovascular_prevention",
+      "aactCount": 36,
+      "aactRetrieved": 36,
+      "aactError": "",
+      "landmarkCoveragePct": 90.9,
+      "trialUniverseWithoutPICO": 36,
+      "trialUniverseWithPICO": 4,
+      "picoRetainedPct": 11.1,
+      "robustnessDecision": "PASS",
+      "robustnessScore": 100
+    },
+    {
+      "areaKey": "valvular_heart_disease",
+      "aactCount": 47,
+      "aactRetrieved": 47,
+      "aactError": "",
+      "landmarkCoveragePct": 87.5,
+      "trialUniverseWithoutPICO": 47,
+      "trialUniverseWithPICO": 12,
+      "picoRetainedPct": 25.5,
+      "robustnessDecision": "PASS",
+      "robustnessScore": 100
+    },
+    {
+      "areaKey": "ventricular_arrhythmias",
+      "aactCount": 59,
+      "aactRetrieved": 59,
+      "aactError": "",
+      "landmarkCoveragePct": 83.3,
+      "trialUniverseWithoutPICO": 59,
+      "trialUniverseWithPICO": 29,
+      "picoRetainedPct": 49.2,
+      "robustnessDecision": "PASS",
+      "robustnessScore": 100
+    },
+    {
+      "areaKey": "pulmonary_hypertension",
+      "aactCount": 84,
+      "aactRetrieved": 84,
+      "aactError": "",
+      "landmarkCoveragePct": 66.7,
+      "trialUniverseWithoutPICO": 84,
+      "trialUniverseWithPICO": 59,
+      "picoRetainedPct": 70.2,
+      "robustnessDecision": "FLAG",
+      "robustnessScore": 85.7
+    },
+    {
+      "areaKey": "cardiomyopathies",
+      "aactCount": 83,
+      "aactRetrieved": 83,
+      "aactError": "",
+      "landmarkCoveragePct": 75,
+      "trialUniverseWithoutPICO": 83,
+      "trialUniverseWithPICO": 38,
+      "picoRetainedPct": 45.8,
+      "robustnessDecision": "PASS",
+      "robustnessScore": 100
+    },
+    {
+      "areaKey": "peripheral_arterial_disease",
+      "aactCount": 82,
+      "aactRetrieved": 82,
+      "aactError": "",
+      "landmarkCoveragePct": 66.7,
+      "trialUniverseWithoutPICO": 82,
+      "trialUniverseWithPICO": 37,
+      "picoRetainedPct": 45.1,
+      "robustnessDecision": "FLAG",
+      "robustnessScore": 85.7
+    },
+    {
+      "areaKey": "hypertension",
+      "aactCount": 82,
+      "aactRetrieved": 82,
+      "aactError": "",
+      "landmarkCoveragePct": 100,
+      "trialUniverseWithoutPICO": 82,
+      "trialUniverseWithPICO": 46,
+      "picoRetainedPct": 56.1,
+      "robustnessDecision": "PASS",
+      "robustnessScore": 100
+    },
+    {
+      "areaKey": "dyslipidaemias",
+      "aactCount": 85,
+      "aactRetrieved": 85,
+      "aactError": "",
+      "landmarkCoveragePct": 100,
+      "trialUniverseWithoutPICO": 85,
+      "trialUniverseWithPICO": 17,
+      "picoRetainedPct": 20,
+      "robustnessDecision": "PASS",
+      "robustnessScore": 100
+    },
+    {
+      "areaKey": "diabetes_cardiovascular_disease",
+      "aactCount": 85,
+      "aactRetrieved": 85,
+      "aactError": "",
+      "landmarkCoveragePct": 100,
+      "trialUniverseWithoutPICO": 85,
+      "trialUniverseWithPICO": 37,
+      "picoRetainedPct": 43.5,
+      "robustnessDecision": "PASS",
+      "robustnessScore": 100
+    }
+  ]
+}

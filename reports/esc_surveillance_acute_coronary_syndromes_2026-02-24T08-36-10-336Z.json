@@ -1,0 +1,4719 @@
+{
+  "generatedAt": "2026-02-24T08:36:49.342Z",
+  "areaKey": "acute_coronary_syndromes",
+  "guidelineProfile": "cardiology",
+  "strategy": {
+    "id": "strat_1771922197654_9k99hron1",
+    "name": "ESC acute_coronary_syndromes surveillance",
+    "created": "2026-02-24T08:36:37.654Z",
+    "lastRun": null,
+    "guidelineProfile": "cardiology",
+    "sources": [
+      "aact"
+    ],
+    "searchObjective": "balanced",
+    "queries": {
+      "pubmed": null,
+      "ctgov": null,
+      "embase": null,
+      "cochrane": null,
+      "aact": {
+        "guidelineProfile": "cardiology",
+        "guidelineArea": "acute_coronary_syndromes",
+        "condition": "acute coronary syndrome",
+        "useAreaTerms": false,
+        "completedOnly": true,
+        "status": [
+          "COMPLETED"
+        ],
+        "maxResults": 80
+      }
+    },
+    "ctgovStrategy": {
+      "mode": "single",
+      "primaryStrategyId": "S3",
+      "strategyIds": [
+        "S3"
+      ],
+      "strategyEvidence": [
+        {
+          "strategyId": "S3",
+          "preset": "Randomized Allocation Only",
+          "meanRecallPct": 99,
+          "minRecallPct": 85.7,
+          "retentionPct": 54
+        },
+        {
+          "strategyId": "S6",
+          "preset": "Completed Status",
+          "meanRecallPct": 85.4,
+          "minRecallPct": 50,
+          "retentionPct": 55
+        },
+        {
+          "strategyId": "S10",
+          "preset": "Treatment RCTs Only",
+          "meanRecallPct": 84.8,
+          "minRecallPct": 0,
+          "retentionPct": 36
+        }
+      ],
+      "strategyRationale": [
+        "Objective \"balanced\" selected default strategy bundle."
+      ],
+      "includeStatusFilter": true
+    },
+    "infrastructure": {
+      "aactGatewayUrl": "http://127.0.0.1:8787/aact/query",
+      "embaseApiKey": null
+    },
+    "filters": {
+      "dateRange": {
+        "from": null,
+        "to": null
+      },
+      "studyTypes": [
+        "RCT"
+      ],
+      "languages": [
+        "en"
+      ],
+      "humans": true,
+      "ctgovStatuses": [
+        "COMPLETED",
+        "ACTIVE_NOT_RECRUITING",
+        "RECRUITING"
+      ]
+    },
+    "inclusionCriteria": {
+      "requiredKeywords": [
+        "acute coronary syndrome",
+        "myocardial infarction"
+      ],
+      "preferredKeywords": [
+        "stemi",
+        "nstemi",
+        "unstable angina",
+        "heart attack",
+        "randomized",
+        "trial",
+        "double blind"
+      ],
+      "exclusionKeywords": [
+        "protocol",
+        "retrospective",
+        "animal",
+        "in vitro"
+      ],
+      "acceptedDesigns": [
+        "RCT",
+        "Observational"
+      ]
+    },
+    "qualityTargets": {
+      "minCtgovRecallPct": 90,
+      "requireAACTForFinalReview": true,
+      "requireAACTIncrementalCapture": false,
+      "minAACTIncrementalNcts": 1,
+      "enforceLandmarkCoverage": true,
+      "minLandmarkCoveragePct": 70,
+      "landmarkGuidelineAreas": [
+        "acute_coronary_syndromes"
+      ],
+      "minSourcesForHighConfidence": 2
+    },
+    "schedule": {
+      "enabled": false,
+      "interval": "weekly",
+      "lastCheck": null,
+      "nextCheck": null
+    },
+    "stats": {
+      "totalRuns": 0,
+      "totalFound": 0,
+      "totalIncluded": 0,
+      "totalExcluded": 0
+    }
+  },
+  "results": {
+    "timestamp": "2026-02-24T08:36:37.654Z",
+    "strategyId": "strat_1771922197654_9k99hron1",
+    "guidelineProfile": "cardiology",
+    "sources": {
+      "aact": {
+        "count": 86,
+        "retrieved": 86,
+        "requiresGateway": false,
+        "error": null,
+        "guidelineProfile": "cardiology",
+        "termsUsed": [
+          "acute coronary syndrome"
+        ],
+        "nctIds": [
+          "NCT00077818",
+          "NCT00089895",
+          "NCT00097591",
+          "NCT00214630",
+          "NCT00225719",
+          "NCT00251576",
+          "NCT00270374",
+          "NCT00296387",
+          "NCT00313300",
+          "NCT00320502",
+          "NCT00337480",
+          "NCT00356135",
+          "NCT00385944",
+          "NCT00391872",
+          "NCT00399880",
+          "NCT00402597",
+          "NCT00404053",
+          "NCT00404716",
+          "NCT00404781",
+          "NCT00405717",
+          "NCT00409578",
+          "NCT00416026",
+          "NCT00442949",
+          "NCT00452517",
+          "NCT00464087",
+          "NCT00479895",
+          "NCT00494247",
+          "NCT00510185",
+          "NCT00548587",
+          "NCT00552188",
+          "NCT00619164",
+          "NCT00627809",
+          "NCT00632021",
+          "NCT00645918",
+          "NCT00665834",
+          "NCT00677053",
+          "NCT00678639",
+          "NCT00683111",
+          "NCT00689611",
+          "NCT00699998",
+          "NCT00700037",
+          "NCT00705458",
+          "NCT00714961",
+          "NCT00716352",
+          "NCT00728988",
+          "NCT00734760",
+          "NCT00743925",
+          "NCT00754533",
+          "NCT00754819",
+          "NCT00766896",
+          "NCT00767507",
+          "NCT00768274",
+          "NCT00781118",
+          "NCT00790387",
+          "NCT00790907",
+          "NCT00794573",
+          "NCT00809965",
+          "NCT00815100",
+          "NCT00822679",
+          "NCT00827411",
+          "NCT00829660",
+          "NCT00830960",
+          "NCT00855257",
+          "NCT00869245",
+          "NCT00903032",
+          "NCT00910065",
+          "NCT00910962",
+          "NCT00929279",
+          "NCT00932100",
+          "NCT00933400",
+          "NCT00952250",
+          "NCT00958958",
+          "NCT00965406",
+          "NCT00965471",
+          "NCT00968708",
+          "NCT00987597",
+          "NCT00994292",
+          "NCT00997750",
+          "NCT01000727",
+          "NCT01004406",
+          "NCT00127517",
+          "NCT00528411",
+          "NCT01187134",
+          "NCT01663402",
+          "NCT01764633",
+          "NCT03234114"
+        ],
+        "landmarkVerification": {
+          "requested": 13,
+          "found": 7,
+          "coveragePct": 53.8,
+          "missingNctIds": [
+            "NCT02548650",
+            "NCT01305993",
+            "NCT02079636",
+            "NCT00469729",
+            "NCT00428961",
+            "NCT00610532"
+          ]
+        },
+        "gatewayUrl": "http://127.0.0.1:8787/aact/query"
+      }
+    },
+    "newStudies": [
+      {
+        "nctId": "NCT00077818",
+        "title": "Enoxaparin Versus Unfractionated Heparin in Subjects Who Present to the Emergency Department With Acute Coronary Syndrome (RESCUE)",
+        "briefSummary": null,
+        "status": "COMPLETED",
+        "startDate": "2002-06-30",
+        "completionDate": null,
+        "studyType": "INTERVENTIONAL",
+        "phases": [
+          "PHASE4"
+        ],
+        "enrollment": null,
+        "allocation": "RANDOMIZED",
+        "primaryPurpose": "PREVENTION",
+        "source": "aact",
+        "retrievedAt": "2026-02-24T08:36:39.949Z",
+        "isDuplicate": false,
+        "classification": "maybe",
+        "relevanceScore": 45,
+        "relevanceReasons": [
+          "Contains 1 required keywords",
+          "Study design may not meet criteria: Unknown"
+        ],
+        "pico": {
+          "population": {
+            "text": "ACUTE CORONARY SYNDROME",
+            "confidence": 0.9,
+            "type": "condition",
+            "details": [
+              {
+                "text": "ACUTE CORONARY SYNDROME",
+                "type": "condition",
+                "confidence": 0.9
+              }
+            ]
+          },
+          "intervention": {
+            "text": "Heparin",
+            "confidence": 0.9,
+            "type": "known_drug",
+            "details": [
+              {
+                "text": "Heparin",
+                "context": "Enoxaparin Versus Unfractionated Heparin in Subjects Who Present to the Emergency Department With Acute Coronary Syndrome (RESCUE)",
+                "type": "known_drug",
+                "confidence": 0.9
+              },
+              {
+                "text": "Enoxaparin",
+                "context": "Enoxaparin Versus Unfractionated Heparin in Subjects Who Present to the Emergency Department With Acute Coronary Syndrome (RESCUE)",
+                "type": "known_drug",
+                "confidence": 0.9
+              }
+            ]
+          },
+          "comparator": {
+            "text": "Unfractionated Heparin",
+            "confidence": 0.8,
+            "type": "comparator",
+            "details": [
+              {
+                "text": "Unfractionated Heparin",
+                "type": "comparator",
+                "confidence": 0.8
+              }
+            ]
+          },
+          "outcomes": [],
+          "studyDesign": {
+            "type": "Unknown",
+            "confidence": 0.3
+          },
+          "sampleSize": null,
+          "followUp": null,
+          "setting": [
+            {
+              "type": "country",
+              "value": "us"
+            }
+          ]
+        },
+        "needsReview": true,
+        "processedAt": "2026-02-24T08:36:41.066Z"
+      },
+      {
+        "nctId": "NCT00089895",
+        "title": "EARLY ACS: Early Glycoprotein IIb/IIIa Inhibition in Patients With Non-ST-segment Elevation Acute Coronary Syndrome (Study P03684AM2)(COMPLETED)",
+        "briefSummary": null,
+        "status": "COMPLETED",
+        "startDate": "2004-11-01",
+        "completionDate": "2008-11-01",
+        "studyType": "INTERVENTIONAL",
+        "phases": [
+          "PHASE3"
+        ],
+        "enrollment": 9406,
+        "allocation": "RANDOMIZED",
+        "primaryPurpose": "TREATMENT",
+        "source": "aact",
+        "retrievedAt": "2026-02-24T08:36:39.949Z",
+        "isDuplicate": false,
+        "classification": "maybe",
+        "relevanceScore": 45,
+        "relevanceReasons": [
+          "Contains 1 required keywords",
+          "Study design may not meet criteria: Unknown"
+        ],
+        "pico": {
+          "population": {
+            "text": "ACUTE CORONARY SYNDROME",
+            "confidence": 0.9,
+            "type": "condition",
+            "details": [
+              {
+                "text": "ACUTE CORONARY SYNDROME",
+                "type": "condition",
+                "confidence": 0.9
+              },
+              {
+                "text": "ACS",
+                "type": "condition",
+                "confidence": 0.9
+              }
+            ]
+          },
+          "intervention": {
+            "text": null,
+            "confidence": 0,
+            "details": []
+          },
+          "comparator": {
+            "text": null,
+            "confidence": 0,
+            "details": []
+          },
+          "outcomes": [],
+          "studyDesign": {
+            "type": "Unknown",
+            "confidence": 0.3
+          },
+          "sampleSize": null,
+          "followUp": null,
+          "setting": []
+        },
+        "needsReview": true,
+        "processedAt": "2026-02-24T08:36:41.066Z"
+      },
+      {
+        "nctId": "NCT00097591",
+        "title": "A Comparison of Prasugrel (CS-747) and Clopidogrel in Acute Coronary Syndrome Subjects Who Are to Undergo Percutaneous Coronary Intervention",
+        "briefSummary": null,
+        "status": "COMPLETED",
+        "startDate": "2004-11-30",
+        "completionDate": "2007-07-31",
+        "studyType": "INTERVENTIONAL",
+        "phases": [
+          "PHASE3"
+        ],
+        "enrollment": 13619,
+        "allocation": "RANDOMIZED",
+        "primaryPurpose": "TREATMENT",
+        "source": "aact",
+        "retrievedAt": "2026-02-24T08:36:39.949Z",
+        "isDuplicate": false,
+        "classification": "maybe",
+        "relevanceScore": 45,
+        "relevanceReasons": [
+          "Contains 1 required keywords",
+          "Study design may not meet criteria: Unknown"
+        ],
+        "pico": {
+          "population": {
+            "text": "ACUTE CORONARY SYNDROME",
+            "confidence": 0.9,
+            "type": "condition",
+            "details": [
+              {
+                "text": "ACUTE CORONARY SYNDROME",
+                "type": "condition",
+                "confidence": 0.9
+              }
+            ]
+          },
+          "intervention": {
+            "text": "Clopidogrel",
+            "confidence": 0.9,
+            "type": "known_drug",
+            "details": [
+              {
+                "text": "Clopidogrel",
+                "context": "A Comparison of Prasugrel (CS-747) and Clopidogrel in Acute Coronary Syndrome Subjects Who Are to Undergo Percutaneous Coronary Intervention",
+                "type": "known_drug",
+                "confidence": 0.9
+              },
+              {
+                "text": "Prasugrel",
+                "context": "A Comparison of Prasugrel (CS-747) and Clopidogrel in Acute Coronary Syndrome Subjects Who Are to Undergo Percutaneous Coronary Intervention",
+                "type": "known_drug",
+                "confidence": 0.9
+              }
+            ]
+          },
+          "comparator": {
+            "text": "of Prasugrel (CS-747) and Clopidogrel in Acute Coronary Syndrome Subjects Who Are to Undergo Percutaneous Coronary Intervention",
+            "confidence": 0.8,
+            "type": "comparator",
+            "details": [
+              {
+                "text": "of Prasugrel (CS-747) and Clopidogrel in Acute Coronary Syndrome Subjects Who Are to Undergo Percutaneous Coronary Intervention",
+                "type": "comparator",
+                "confidence": 0.8
+              }
+            ]
+          },
+          "outcomes": [],
+          "studyDesign": {
+            "type": "Unknown",
+            "confidence": 0.3
+          },
+          "sampleSize": null,
+          "followUp": null,
+          "setting": [
+            {
+              "type": "country",
+              "value": "us"
+            }
+          ]
+        },
+        "needsReview": true,
+        "processedAt": "2026-02-24T08:36:41.066Z"
+      },
+      {
+        "nctId": "NCT00214630",
+        "title": "LUNAR IIIb Study Comparing Rosuvastatin and Atorvastatin in Subjects With Acute Coronary Syndromes",
+        "briefSummary": null,
+        "status": "COMPLETED",
+        "startDate": "2003-12-31",
+        "completionDate": "2007-08-31",
+        "studyType": "INTERVENTIONAL",
+        "phases": [
+          "PHASE3"
+        ],
+        "enrollment": 825,
+        "allocation": "RANDOMIZED",
+        "primaryPurpose": "TREATMENT",
+        "source": "aact",
+        "retrievedAt": "2026-02-24T08:36:39.949Z",
+        "isDuplicate": false,
+        "classification": "maybe",
+        "relevanceScore": 45,
+        "relevanceReasons": [
+          "Contains 1 required keywords",
+          "Study design may not meet criteria: Unknown"
+        ],
+        "pico": {
+          "population": {
+            "text": "ACUTE CORONARY SYNDROME",
+            "confidence": 0.9,
+            "type": "condition",
+            "details": [
+              {
+                "text": "ACUTE CORONARY SYNDROME",
+                "type": "condition",
+                "confidence": 0.9
+              }
+            ]
+          },
+          "intervention": {
+            "text": "Atorvastatin",
+            "confidence": 0.9,
+            "type": "known_drug",
+            "details": [
+              {
+                "text": "Atorvastatin",
+                "context": "LUNAR IIIb Study Comparing Rosuvastatin and Atorvastatin in Subjects With Acute Coronary Syndromes",
+                "type": "known_drug",
+                "confidence": 0.9
+              },
+              {
+                "text": "Rosuvastatin",
+                "context": "LUNAR IIIb Study Comparing Rosuvastatin and Atorvastatin in Subjects With Acute Coronary Syndromes",
+                "type": "known_drug",
+                "confidence": 0.9
+              }
+            ]
+          },
+          "comparator": {
+            "text": null,
+            "confidence": 0,
+            "details": []
+          },
+          "outcomes": [],
+          "studyDesign": {
+            "type": "Unknown",
+            "confidence": 0.3
+          },
+          "sampleSize": null,
+          "followUp": null,
+          "setting": []
+        },
+        "needsReview": true,
+        "processedAt": "2026-02-24T08:36:41.067Z"
+      },
+      {
+        "nctId": "NCT00296387",
+        "title": "Effects in The ApoB/ApoA-I Ratio Using Rosuvastatin and Atorvastatin in Patients With Acute Coronary Syndrome",
+        "briefSummary": null,
+        "status": "COMPLETED",
+        "startDate": "2006-01-31",
+        "completionDate": "2007-10-31",
+        "studyType": "INTERVENTIONAL",
+        "phases": [
+          "PHASE3"
+        ],
+        "enrollment": 1160,
+        "allocation": "RANDOMIZED",
+        "primaryPurpose": "TREATMENT",
+        "source": "aact",
+        "retrievedAt": "2026-02-24T08:36:39.949Z",
+        "isDuplicate": false,
+        "classification": "maybe",
+        "relevanceScore": 45,
+        "relevanceReasons": [
+          "Contains 1 required keywords",
+          "Study design may not meet criteria: Unknown"
+        ],
+        "pico": {
+          "population": {
+            "text": "ACUTE CORONARY SYNDROME",
+            "confidence": 0.9,
+            "type": "condition",
+            "details": [
+              {
+                "text": "ACUTE CORONARY SYNDROME",
+                "type": "condition",
+                "confidence": 0.9
+              }
+            ]
+          },
+          "intervention": {
+            "text": "Atorvastatin",
+            "confidence": 0.9,
+            "type": "known_drug",
+            "details": [
+              {
+                "text": "Atorvastatin",
+                "context": "Effects in The ApoB/ApoA-I Ratio Using Rosuvastatin and Atorvastatin in Patients With Acute Coronary Syndrome",
+                "type": "known_drug",
+                "confidence": 0.9
+              },
+              {
+                "text": "Rosuvastatin",
+                "context": "Effects in The ApoB/ApoA-I Ratio Using Rosuvastatin and Atorvastatin in Patients With Acute Coronary Syndrome",
+                "type": "known_drug",
+                "confidence": 0.9
+              }
+            ]
+          },
+          "comparator": {
+            "text": null,
+            "confidence": 0,
+            "details": []
+          },
+          "outcomes": [],
+          "studyDesign": {
+            "type": "Unknown",
+            "confidence": 0.3
+          },
+          "sampleSize": null,
+          "followUp": null,
+          "setting": [
+            {
+              "type": "country",
+              "value": "us"
+            }
+          ]
+        },
+        "needsReview": true,
+        "processedAt": "2026-02-24T08:36:41.076Z"
+      },
+      {
+        "nctId": "NCT00313300",
+        "title": "Safety Study of Apixaban in Recent Acute Coronary Syndrome",
+        "briefSummary": null,
+        "status": "COMPLETED",
+        "startDate": "2006-05-31",
+        "completionDate": "2008-05-31",
+        "studyType": "INTERVENTIONAL",
+        "phases": [
+          "PHASE2"
+        ],
+        "enrollment": 1741,
+        "allocation": "RANDOMIZED",
+        "primaryPurpose": "PREVENTION",
+        "source": "aact",
+        "retrievedAt": "2026-02-24T08:36:39.949Z",
+        "isDuplicate": false,
+        "classification": "maybe",
+        "relevanceScore": 45,
+        "relevanceReasons": [
+          "Contains 1 required keywords",
+          "Study design may not meet criteria: Unknown"
+        ],
+        "pico": {
+          "population": {
+            "text": "ACUTE CORONARY SYNDROME",
+            "confidence": 0.9,
+            "type": "condition",
+            "details": [
+              {
+                "text": "ACUTE CORONARY SYNDROME",
+                "type": "condition",
+                "confidence": 0.9
+              }
+            ]
+          },
+          "intervention": {
+            "text": "Apixaban",
+            "confidence": 0.9,
+            "type": "known_drug",
+            "details": [
+              {
+                "text": "Apixaban",
+                "context": "Safety Study of Apixaban in Recent Acute Coronary Syndrome",
+                "type": "known_drug",
+                "confidence": 0.9
+              }
+            ]
+          },
+          "comparator": {
+            "text": null,
+            "confidence": 0,
+            "details": []
+          },
+          "outcomes": [],
+          "studyDesign": {
+            "type": "Unknown",
+            "confidence": 0.3
+          },
+          "sampleSize": null,
+          "followUp": null,
+          "setting": []
+        },
+        "needsReview": true,
+        "processedAt": "2026-02-24T08:36:41.081Z"
+      },
+      {
+        "nctId": "NCT00337480",
+        "title": "Study of the Efficiency of Education About Cardiovascular Risk Factors in Patients After an Acute Coronary Syndrome",
+        "briefSummary": null,
+        "status": "COMPLETED",
+        "startDate": "2006-07-31",
+        "completionDate": "2009-09-30",
+        "studyType": "INTERVENTIONAL",
+        "phases": [
+          "NA"
+        ],
+        "enrollment": 504,
+        "allocation": "RANDOMIZED",
+        "primaryPurpose": "PREVENTION",
+        "source": "aact",
+        "retrievedAt": "2026-02-24T08:36:39.949Z",
+        "isDuplicate": false,
+        "classification": "maybe",
+        "relevanceScore": 45,
+        "relevanceReasons": [
+          "Contains 1 required keywords",
+          "Study design may not meet criteria: Unknown"
+        ],
+        "pico": {
+          "population": {
+            "text": "ACUTE CORONARY SYNDROME",
+            "confidence": 0.9,
+            "type": "condition",
+            "details": [
+              {
+                "text": "ACUTE CORONARY SYNDROME",
+                "type": "condition",
+                "confidence": 0.9
+              }
+            ]
+          },
+          "intervention": {
+            "text": null,
+            "confidence": 0,
+            "details": []
+          },
+          "comparator": {
+            "text": null,
+            "confidence": 0,
+            "details": []
+          },
+          "outcomes": [],
+          "studyDesign": {
+            "type": "Unknown",
+            "confidence": 0.3
+          },
+          "sampleSize": null,
+          "followUp": null,
+          "setting": []
+        },
+        "needsReview": true,
+        "processedAt": "2026-02-24T08:36:41.103Z"
+      },
+      {
+        "nctId": "NCT00385944",
+        "title": "The Effect on Blood Cells, Known as Platelets, Using Prasugrel vs Clopidogrel in Patients With the Heart Problem Acute Coronary Syndrome (ACS)",
+        "briefSummary": null,
+        "status": "COMPLETED",
+        "startDate": "2007-03-31",
+        "completionDate": "2007-10-31",
+        "studyType": "INTERVENTIONAL",
+        "phases": [
+          "PHASE2"
+        ],
+        "enrollment": 56,
+        "allocation": "RANDOMIZED",
+        "primaryPurpose": "TREATMENT",
+        "source": "aact",
+        "retrievedAt": "2026-02-24T08:36:39.949Z",
+        "isDuplicate": false,
+        "classification": "maybe",
+        "relevanceScore": 45,
+        "relevanceReasons": [
+          "Contains 1 required keywords",
+          "Study design may not meet criteria: Unknown"
+        ],
+        "pico": {
+          "population": {
+            "text": "ACUTE CORONARY SYNDROME",
+            "confidence": 0.9,
+            "type": "condition",
+            "details": [
+              {
+                "text": "ACUTE CORONARY SYNDROME",
+                "type": "condition",
+                "confidence": 0.9
+              },
+              {
+                "text": "ACS",
+                "type": "condition",
+                "confidence": 0.9
+              }
+            ]
+          },
+          "intervention": {
+            "text": "Clopidogrel",
+            "confidence": 0.9,
+            "type": "known_drug",
+            "details": [
+              {
+                "text": "Clopidogrel",
+                "context": "The Effect on Blood Cells, Known as Platelets, Using Prasugrel vs Clopidogrel in Patients With the Heart Problem Acute Coronary Syndrome (ACS)",
+                "type": "known_drug",
+                "confidence": 0.9
+              },
+              {
+                "text": "Prasugrel",
+                "context": "The Effect on Blood Cells, Known as Platelets, Using Prasugrel vs Clopidogrel in Patients With the Heart Problem Acute Coronary Syndrome (ACS)",
+                "type": "known_drug",
+                "confidence": 0.9
+              }
+            ]
+          },
+          "comparator": {
+            "text": "Clopidogrel",
+            "confidence": 0.8,
+            "type": "comparator",
+            "details": [
+              {
+                "text": "Clopidogrel",
+                "type": "comparator",
+                "confidence": 0.8
+              }
+            ]
+          },
+          "outcomes": [],
+          "studyDesign": {
+            "type": "Unknown",
+            "confidence": 0.3
+          },
+          "sampleSize": null,
+          "followUp": null,
+          "setting": [
+            {
+              "type": "country",
+              "value": "us"
+            }
+          ]
+        },
+        "needsReview": true,
+        "processedAt": "2026-02-24T08:36:41.132Z"
+      },
+      {
+        "nctId": "NCT00391872",
+        "title": "A Comparison of Ticagrelor (AZD6140) and Clopidogrel in Patients With Acute Coronary Syndrome",
+        "briefSummary": null,
+        "status": "COMPLETED",
+        "startDate": "2006-10-31",
+        "completionDate": "2009-03-31",
+        "studyType": "INTERVENTIONAL",
+        "phases": [
+          "PHASE3"
+        ],
+        "enrollment": 18624,
+        "allocation": "RANDOMIZED",
+        "primaryPurpose": "TREATMENT",
+        "source": "aact",
+        "retrievedAt": "2026-02-24T08:36:39.949Z",
+        "isDuplicate": false,
+        "classification": "maybe",
+        "relevanceScore": 45,
+        "relevanceReasons": [
+          "Contains 1 required keywords",
+          "Study design may not meet criteria: Unknown"
+        ],
+        "pico": {
+          "population": {
+            "text": "ACUTE CORONARY SYNDROME",
+            "confidence": 0.9,
+            "type": "condition",
+            "details": [
+              {
+                "text": "ACUTE CORONARY SYNDROME",
+                "type": "condition",
+                "confidence": 0.9
+              }
+            ]
+          },
+          "intervention": {
+            "text": "Clopidogrel",
+            "confidence": 0.9,
+            "type": "known_drug",
+            "details": [
+              {
+                "text": "Clopidogrel",
+                "context": "A Comparison of Ticagrelor (AZD6140) and Clopidogrel in Patients With Acute Coronary Syndrome",
+                "type": "known_drug",
+                "confidence": 0.9
+              },
+              {
+                "text": "Ticagrelor",
+                "context": "A Comparison of Ticagrelor (AZD6140) and Clopidogrel in Patients With Acute Coronary Syndrome",
+                "type": "known_drug",
+                "confidence": 0.9
+              }
+            ]
+          },
+          "comparator": {
+            "text": "(AZD6140) and Clopidogrel",
+            "confidence": 0.8,
+            "type": "comparator",
+            "details": [
+              {
+                "text": "(AZD6140) and Clopidogrel",
+                "type": "comparator",
+                "confidence": 0.8
+              },
+              {
+                "text": "of Ticagrelor (AZD6140) and Clopidogrel in Patients With Acute Coronary Syndrome",
+                "type": "comparator",
+                "confidence": 0.8
+              }
+            ]
+          },
+          "outcomes": [],
+          "studyDesign": {
+            "type": "Unknown",
+            "confidence": 0.3
+          },
+          "sampleSize": null,
+          "followUp": null,
+          "setting": []
+        },
+        "needsReview": true,
+        "processedAt": "2026-02-24T08:36:41.150Z"
+      },
+      {
+        "nctId": "NCT00399880",
+        "title": "Improving Medication Adherence Through Graphically Enhanced Interventions in Acute Coronary Syndromes",
+        "briefSummary": null,
+        "status": "COMPLETED",
+        "startDate": "2006-11-30",
+        "completionDate": "2008-08-31",
+        "studyType": "INTERVENTIONAL",
+        "phases": [
+          "NA"
+        ],
+        "enrollment": 130,
+        "allocation": "RANDOMIZED",
+        "primaryPurpose": "TREATMENT",
+        "source": "aact",
+        "retrievedAt": "2026-02-24T08:36:39.949Z",
+        "isDuplicate": false,
+        "classification": "maybe",
+        "relevanceScore": 45,
+        "relevanceReasons": [
+          "Contains 1 required keywords",
+          "Study design may not meet criteria: Unknown"
+        ],
+        "pico": {
+          "population": {
+            "text": "ACUTE CORONARY SYNDROME",
+            "confidence": 0.9,
+            "type": "condition",
+            "details": [
+              {
+                "text": "ACUTE CORONARY SYNDROME",
+                "type": "condition",
+                "confidence": 0.9
+              }
+            ]
+          },
+          "intervention": {
+            "text": null,
+            "confidence": 0,
+            "details": []
+          },
+          "comparator": {
+            "text": null,
+            "confidence": 0,
+            "details": []
+          },
+          "outcomes": [],
+          "studyDesign": {
+            "type": "Unknown",
+            "confidence": 0.3
+          },
+          "sampleSize": null,
+          "followUp": null,
+          "setting": []
+        },
+        "needsReview": true,
+        "processedAt": "2026-02-24T08:36:41.169Z"
+      },
+      {
+        "nctId": "NCT00402597",
+        "title": "Rivaroxaban in Combination With Aspirin Alone or With Aspirin and a Thienopyridine in Patients With Acute Coronary Syndromes (The ATLAS ACS TIMI 46 Trial)",
+        "briefSummary": null,
+        "status": "COMPLETED",
+        "startDate": "2006-11-30",
+        "completionDate": "2008-10-31",
+        "studyType": "INTERVENTIONAL",
+        "phases": [
+          "PHASE2"
+        ],
+        "enrollment": 3490,
+        "allocation": "RANDOMIZED",
+        "primaryPurpose": "TREATMENT",
+        "source": "aact",
+        "retrievedAt": "2026-02-24T08:36:39.949Z",
+        "isDuplicate": false,
+        "classification": "maybe",
+        "relevanceScore": 50,
+        "relevanceReasons": [
+          "Contains 1 required keywords",
+          "Contains 1 preferred keywords",
+          "Study design may not meet criteria: Unknown"
+        ],
+        "pico": {
+          "population": {
+            "text": "ACUTE CORONARY SYNDROME",
+            "confidence": 0.9,
+            "type": "condition",
+            "details": [
+              {
+                "text": "ACUTE CORONARY SYNDROME",
+                "type": "condition",
+                "confidence": 0.9
+              },
+              {
+                "text": "ACS",
+                "type": "condition",
+                "confidence": 0.9
+              }
+            ]
+          },
+          "intervention": {
+            "text": "Aspirin",
+            "confidence": 0.9,
+            "type": "known_drug",
+            "details": [
+              {
+                "text": "Aspirin",
+                "context": "Rivaroxaban in Combination With Aspirin Alone or With Aspirin and a Thienopyridine in Patients With Acute Coronary Syndromes (The ATLAS ACS TIMI 46 Trial)",
+                "type": "known_drug",
+                "confidence": 0.9
+              },
+              {
+                "text": "Rivaroxaban",
+                "context": "Rivaroxaban in Combination With Aspirin Alone or With Aspirin and a Thienopyridine in Patients With Acute Coronary Syndromes (The ATLAS ACS TIMI 46 Trial)",
+                "type": "known_drug",
+                "confidence": 0.9
+              }
+            ]
+          },
+          "comparator": {
+            "text": "With Aspirin and a Thienopyridine",
+            "confidence": 0.8,
+            "type": "comparator",
+            "details": [
+              {
+                "text": "With Aspirin and a Thienopyridine",
+                "type": "comparator",
+                "confidence": 0.8
+              }
+            ]
+          },
+          "outcomes": [],
+          "studyDesign": {
+            "type": "Unknown",
+            "confidence": 0.3
+          },
+          "sampleSize": null,
+          "followUp": null,
+          "setting": []
+        },
+        "needsReview": true,
+        "processedAt": "2026-02-24T08:36:41.192Z"
+      },
+      {
+        "nctId": "NCT00404053",
+        "title": "Clopidogrel Maintaining Dosage in Acute Coronary Syndrome After Drug Eluting Stent Implantation",
+        "briefSummary": null,
+        "status": "COMPLETED",
+        "startDate": "2004-12-31",
+        "completionDate": "2006-11-30",
+        "studyType": "INTERVENTIONAL",
+        "phases": [
+          "PHASE4"
+        ],
+        "enrollment": null,
+        "allocation": "RANDOMIZED",
+        "primaryPurpose": "TREATMENT",
+        "source": "aact",
+        "retrievedAt": "2026-02-24T08:36:39.949Z",
+        "isDuplicate": false,
+        "classification": "maybe",
+        "relevanceScore": 45,
+        "relevanceReasons": [
+          "Contains 1 required keywords",
+          "Study design may not meet criteria: Unknown"
+        ],
+        "pico": {
+          "population": {
+            "text": "ACUTE CORONARY SYNDROME",
+            "confidence": 0.9,
+            "type": "condition",
+            "details": [
+              {
+                "text": "ACUTE CORONARY SYNDROME",
+                "type": "condition",
+                "confidence": 0.9
+              }
+            ]
+          },
+          "intervention": {
+            "text": "Clopidogrel",
+            "confidence": 0.9,
+            "type": "known_drug",
+            "details": [
+              {
+                "text": "Clopidogrel",
+                "context": "Clopidogrel Maintaining Dosage in Acute Coronary Syndrome After Drug Eluting Stent Implantation",
+                "type": "known_drug",
+                "confidence": 0.9
+              },
+              {
+                "text": "Stent",
+                "context": "Clopidogrel Maintaining Dosage in Acute Coronary Syndrome After Drug Eluting Stent Implantation",
+                "type": "known_drug",
+                "confidence": 0.9
+              }
+            ]
+          },
+          "comparator": {
+            "text": null,
+            "confidence": 0,
+            "details": []
+          },
+          "outcomes": [],
+          "studyDesign": {
+            "type": "Unknown",
+            "confidence": 0.3
+          },
+          "sampleSize": null,
+          "followUp": null,
+          "setting": []
+        },
+        "needsReview": true,
+        "processedAt": "2026-02-24T08:36:41.216Z"
+      },
+      {
+        "nctId": "NCT00409578",
+        "title": "Efficacy and Safety of Aliskiren and Valsartan Versus Placebo in Patients Stabilized Following an Acute Coronary Syndrome",
+        "briefSummary": null,
+        "status": "COMPLETED",
+        "startDate": "2007-02-28",
+        "completionDate": "2009-04-30",
+        "studyType": "INTERVENTIONAL",
+        "phases": [
+          "PHASE2"
+        ],
+        "enrollment": 1101,
+        "allocation": "RANDOMIZED",
+        "primaryPurpose": "TREATMENT",
+        "source": "aact",
+        "retrievedAt": "2026-02-24T08:36:39.949Z",
+        "isDuplicate": false,
+        "classification": "maybe",
+        "relevanceScore": 45,
+        "relevanceReasons": [
+          "Contains 1 required keywords",
+          "Study design may not meet criteria: Unknown"
+        ],
+        "pico": {
+          "population": {
+            "text": "ACUTE CORONARY SYNDROME",
+            "confidence": 0.9,
+            "type": "condition",
+            "details": [
+              {
+                "text": "ACUTE CORONARY SYNDROME",
+                "type": "condition",
+                "confidence": 0.9
+              }
+            ]
+          },
+          "intervention": {
+            "text": "Valsartan",
+            "confidence": 0.9,
+            "type": "known_drug",
+            "details": [
+              {
+                "text": "Valsartan",
+                "context": "Efficacy and Safety of Aliskiren and Valsartan Versus Placebo in Patients Stabilized Following an Acute Coronary Syndrome",
+                "type": "known_drug",
+                "confidence": 0.9
+              }
+            ]
+          },
+          "comparator": {
+            "text": "Placebo",
+            "confidence": 0.8,
+            "type": "comparator",
+            "details": [
+              {
+                "text": "Placebo",
+                "type": "comparator",
+                "confidence": 0.8
+              },
+              {
+                "text": "Placebo",
+                "type": "comparator",
+                "confidence": 0.8
+              }
+            ]
+          },
+          "outcomes": [],
+          "studyDesign": {
+            "type": "Unknown",
+            "confidence": 0.3
+          },
+          "sampleSize": null,
+          "followUp": null,
+          "setting": [
+            {
+              "type": "country",
+              "value": "us"
+            }
+          ]
+        },
+        "needsReview": true,
+        "processedAt": "2026-02-24T08:36:41.318Z"
+      },
+      {
+        "nctId": "NCT00442949",
+        "title": "Angioplasty to Blunt the Rise of Troponin in Acute Coronary Syndrome (ACS)",
+        "briefSummary": null,
+        "status": "COMPLETED",
+        "startDate": "2006-08-31",
+        "completionDate": "2009-01-31",
+        "studyType": "INTERVENTIONAL",
+        "phases": [
+          "NA"
+        ],
+        "enrollment": 400,
+        "allocation": "RANDOMIZED",
+        "primaryPurpose": "TREATMENT",
+        "source": "aact",
+        "retrievedAt": "2026-02-24T08:36:39.949Z",
+        "isDuplicate": false,
+        "classification": "maybe",
+        "relevanceScore": 45,
+        "relevanceReasons": [
+          "Contains 1 required keywords",
+          "Study design may not meet criteria: Unknown"
+        ],
+        "pico": {
+          "population": {
+            "text": "ACUTE CORONARY SYNDROME",
+            "confidence": 0.9,
+            "type": "condition",
+            "details": [
+              {
+                "text": "ACUTE CORONARY SYNDROME",
+                "type": "condition",
+                "confidence": 0.9
+              },
+              {
+                "text": "ACS",
+                "type": "condition",
+                "confidence": 0.9
+              }
+            ]
+          },
+          "intervention": {
+            "text": "Angioplasty",
+            "confidence": 0.9,
+            "type": "known_drug",
+            "details": [
+              {
+                "text": "Angioplasty",
+                "context": "Angioplasty to Blunt the Rise of Troponin in Acute Coronary Syndrome (ACS)",
+                "type": "known_drug",
+                "confidence": 0.9
+              }
+            ]
+          },
+          "comparator": {
+            "text": null,
+            "confidence": 0,
+            "details": []
+          },
+          "outcomes": [],
+          "studyDesign": {
+            "type": "Unknown",
+            "confidence": 0.3
+          },
+          "sampleSize": null,
+          "followUp": null,
+          "setting": []
+        },
+        "needsReview": true,
+        "processedAt": "2026-02-24T08:36:41.390Z"
+      },
+      {
+        "nctId": "NCT00452517",
+        "title": "Comparison of Stent Graft, Sirolimus Stent, and Bare Metal Stent Implanted in Patients With Acute Coronary Syndrome",
+        "briefSummary": null,
+        "status": "COMPLETED",
+        "startDate": "2004-03-31",
+        "completionDate": "2004-11-30",
+        "studyType": "INTERVENTIONAL",
+        "phases": [
+          "PHASE4"
+        ],
+        "enrollment": 100,
+        "allocation": "RANDOMIZED",
+        "primaryPurpose": "TREATMENT",
+        "source": "aact",
+        "retrievedAt": "2026-02-24T08:36:39.949Z",
+        "isDuplicate": false,
+        "classification": "maybe",
+        "relevanceScore": 45,
+        "relevanceReasons": [
+          "Contains 1 required keywords",
+          "Study design may not meet criteria: Unknown"
+        ],
+        "pico": {
+          "population": {
+            "text": "ACUTE CORONARY SYNDROME",
+            "confidence": 0.9,
+            "type": "condition",
+            "details": [
+              {
+                "text": "ACUTE CORONARY SYNDROME",
+                "type": "condition",
+                "confidence": 0.9
+              }
+            ]
+          },
+          "intervention": {
+            "text": "Stent",
+            "confidence": 0.9,
+            "type": "known_drug",
+            "details": [
+              {
+                "text": "Stent",
+                "context": "Comparison of Stent Graft, Sirolimus Stent, and Bare Metal Stent Implanted in Patients With Acute Coronary Syndrome",
+                "type": "known_drug",
+                "confidence": 0.9
+              }
+            ]
+          },
+          "comparator": {
+            "text": "of Stent Graft",
+            "confidence": 0.8,
+            "type": "comparator",
+            "details": [
+              {
+                "text": "of Stent Graft",
+                "type": "comparator",
+                "confidence": 0.8
+              }
+            ]
+          },
+          "outcomes": [],
+          "studyDesign": {
+            "type": "Unknown",
+            "confidence": 0.3
+          },
+          "sampleSize": null,
+          "followUp": null,
+          "setting": [
+            {
+              "type": "country",
+              "value": "us"
+            }
+          ]
+        },
+        "needsReview": true,
+        "processedAt": "2026-02-24T08:36:41.418Z"
+      },
+      {
+        "nctId": "NCT00494247",
+        "title": "Endothelial Progenitor Cells-capture Stents in Acute Coronary Syndromes",
+        "briefSummary": null,
+        "status": "COMPLETED",
+        "startDate": "2007-10-31",
+        "completionDate": "2009-08-31",
+        "studyType": "INTERVENTIONAL",
+        "phases": [
+          "PHASE4"
+        ],
+        "enrollment": 60,
+        "allocation": "RANDOMIZED",
+        "primaryPurpose": "TREATMENT",
+        "source": "aact",
+        "retrievedAt": "2026-02-24T08:36:39.949Z",
+        "isDuplicate": false,
+        "classification": "maybe",
+        "relevanceScore": 45,
+        "relevanceReasons": [
+          "Contains 1 required keywords",
+          "Study design may not meet criteria: Unknown"
+        ],
+        "pico": {
+          "population": {
+            "text": "ACUTE CORONARY SYNDROME",
+            "confidence": 0.9,
+            "type": "condition",
+            "details": [
+              {
+                "text": "ACUTE CORONARY SYNDROME",
+                "type": "condition",
+                "confidence": 0.9
+              }
+            ]
+          },
+          "intervention": {
+            "text": null,
+            "confidence": 0,
+            "details": []
+          },
+          "comparator": {
+            "text": "Cells-capture Stents",
+            "confidence": 0.8,
+            "type": "comparator",
+            "details": [
+              {
+                "text": "Cells-capture Stents",
+                "type": "comparator",
+                "confidence": 0.8
+              }
+            ]
+          },
+          "outcomes": [],
+          "studyDesign": {
+            "type": "Unknown",
+            "confidence": 0.3
+          },
+          "sampleSize": null,
+          "followUp": null,
+          "setting": []
+        },
+        "needsReview": true,
+        "processedAt": "2026-02-24T08:36:41.492Z"
+      },
+      {
+        "nctId": "NCT00510185",
+        "title": "Early Aggressive Versus Initially Conservative Therapy in Elderly Patients With Non-ST-Elevation Acute Coronary Syndrome",
+        "briefSummary": null,
+        "status": "COMPLETED",
+        "startDate": "2007-10-31",
+        "completionDate": "2011-06-30",
+        "studyType": "INTERVENTIONAL",
+        "phases": [
+          "NA"
+        ],
+        "enrollment": 313,
+        "allocation": "RANDOMIZED",
+        "primaryPurpose": "TREATMENT",
+        "source": "aact",
+        "retrievedAt": "2026-02-24T08:36:39.949Z",
+        "isDuplicate": false,
+        "classification": "maybe",
+        "relevanceScore": 45,
+        "relevanceReasons": [
+          "Contains 1 required keywords",
+          "Study design may not meet criteria: Unknown"
+        ],
+        "pico": {
+          "population": {
+            "text": "ACUTE CORONARY SYNDROME",
+            "confidence": 0.9,
+            "type": "condition",
+            "details": [
+              {
+                "text": "ACUTE CORONARY SYNDROME",
+                "type": "condition",
+                "confidence": 0.9
+              }
+            ]
+          },
+          "intervention": {
+            "text": null,
+            "confidence": 0,
+            "details": []
+          },
+          "comparator": {
+            "text": "Initially Conservative Therapy",
+            "confidence": 0.8,
+            "type": "comparator",
+            "details": [
+              {
+                "text": "Initially Conservative Therapy",
+                "type": "comparator",
+                "confidence": 0.8
+              }
+            ]
+          },
+          "outcomes": [],
+          "studyDesign": {
+            "type": "Unknown",
+            "confidence": 0.3
+          },
+          "sampleSize": null,
+          "followUp": null,
+          "setting": [
+            {
+              "type": "country",
+              "value": "us"
+            }
+          ]
+        },
+        "needsReview": true,
+        "processedAt": "2026-02-24T08:36:41.522Z"
+      },
+      {
+        "nctId": "NCT00548587",
+        "title": "Safety and Tolerability of E5555 and Its Effects on Markers of Intravascular Inflammation in Subjects With Acute Coronary Syndrome",
+        "briefSummary": null,
+        "status": "COMPLETED",
+        "startDate": "2007-10-31",
+        "completionDate": "2009-08-31",
+        "studyType": "INTERVENTIONAL",
+        "phases": [
+          "PHASE2"
+        ],
+        "enrollment": 600,
+        "allocation": "RANDOMIZED",
+        "primaryPurpose": "TREATMENT",
+        "source": "aact",
+        "retrievedAt": "2026-02-24T08:36:39.949Z",
+        "isDuplicate": false,
+        "classification": "maybe",
+        "relevanceScore": 45,
+        "relevanceReasons": [
+          "Contains 1 required keywords",
+          "Study design may not meet criteria: Unknown"
+        ],
+        "pico": {
+          "population": {
+            "text": "ACUTE CORONARY SYNDROME",
+            "confidence": 0.9,
+            "type": "condition",
+            "details": [
+              {
+                "text": "ACUTE CORONARY SYNDROME",
+                "type": "condition",
+                "confidence": 0.9
+              }
+            ]
+          },
+          "intervention": {
+            "text": null,
+            "confidence": 0,
+            "details": []
+          },
+          "comparator": {
+            "text": null,
+            "confidence": 0,
+            "details": []
+          },
+          "outcomes": [],
+          "studyDesign": {
+            "type": "Unknown",
+            "confidence": 0.3
+          },
+          "sampleSize": null,
+          "followUp": null,
+          "setting": []
+        },
+        "needsReview": true,
+        "processedAt": "2026-02-24T08:36:41.552Z"
+      },
+      {
+        "nctId": "NCT00552188",
+        "title": "Phase 2 Study in Vascular Inflammation on Patients After an Acute Coronary Syndrome Event",
+        "briefSummary": null,
+        "status": "COMPLETED",
+        "startDate": "2007-10-31",
+        "completionDate": "2009-11-30",
+        "studyType": "INTERVENTIONAL",
+        "phases": [
+          "PHASE2"
+        ],
+        "enrollment": 52,
+        "allocation": "RANDOMIZED",
+        "primaryPurpose": "TREATMENT",
+        "source": "aact",
+        "retrievedAt": "2026-02-24T08:36:39.949Z",
+        "isDuplicate": false,
+        "classification": "maybe",
+        "relevanceScore": 45,
+        "relevanceReasons": [
+          "Contains 1 required keywords",
+          "Study design may not meet criteria: Unknown"
+        ],
+        "pico": {
+          "population": {
+            "text": "ACUTE CORONARY SYNDROME",
+            "confidence": 0.9,
+            "type": "condition",
+            "details": [
+              {
+                "text": "ACUTE CORONARY SYNDROME",
+                "type": "condition",
+                "confidence": 0.9
+              }
+            ]
+          },
+          "intervention": {
+            "text": null,
+            "confidence": 0,
+            "details": []
+          },
+          "comparator": {
+            "text": null,
+            "confidence": 0,
+            "details": []
+          },
+          "outcomes": [],
+          "studyDesign": {
+            "type": "Unknown",
+            "confidence": 0.3
+          },
+          "sampleSize": null,
+          "followUp": null,
+          "setting": []
+        },
+        "needsReview": true,
+        "processedAt": "2026-02-24T08:36:41.591Z"
+      },
+      {
+        "nctId": "NCT00619164",
+        "title": "A Double-Blind Study of E5555 in Japanese Patients With Acute Coronary Syndrome",
+        "briefSummary": null,
+        "status": "COMPLETED",
+        "startDate": "2007-11-30",
+        "completionDate": null,
+        "studyType": "INTERVENTIONAL",
+        "phases": [
+          "PHASE2"
+        ],
+        "enrollment": 240,
+        "allocation": "RANDOMIZED",
+        "primaryPurpose": "TREATMENT",
+        "source": "aact",
+        "retrievedAt": "2026-02-24T08:36:39.949Z",
+        "isDuplicate": false,
+        "classification": "maybe",
+        "relevanceScore": 45,
+        "relevanceReasons": [
+          "Contains 1 required keywords",
+          "Study design may not meet criteria: Unknown"
+        ],
+        "pico": {
+          "population": {
+            "text": "ACUTE CORONARY SYNDROME",
+            "confidence": 0.9,
+            "type": "condition",
+            "details": [
+              {
+                "text": "ACUTE CORONARY SYNDROME",
+                "type": "condition",
+                "confidence": 0.9
+              }
+            ]
+          },
+          "intervention": {
+            "text": null,
+            "confidence": 0,
+            "details": []
+          },
+          "comparator": {
+            "text": null,
+            "confidence": 0,
+            "details": []
+          },
+          "outcomes": [],
+          "studyDesign": {
+            "type": "Unknown",
+            "confidence": 0.3
+          },
+          "sampleSize": null,
+          "followUp": null,
+          "setting": [
+            {
+              "type": "country",
+              "value": "japan"
+            }
+          ]
+        },
+        "needsReview": true,
+        "processedAt": "2026-02-24T08:36:41.678Z"
+      },
+      {
+        "nctId": "NCT00627809",
+        "title": "Effect of Adjunctive Intracoronary Streptokinase on Late Term Left Ventricular Infarct Size and Volumes in Patients With Acute Myocardial Infarction",
+        "briefSummary": null,
+        "status": "COMPLETED",
+        "startDate": "2007-01-31",
+        "completionDate": "2008-02-29",
+        "studyType": "INTERVENTIONAL",
+        "phases": [
+          "PHASE4"
+        ],
+        "enrollment": 53,
+        "allocation": "RANDOMIZED",
+        "primaryPurpose": "TREATMENT",
+        "source": "aact",
+        "retrievedAt": "2026-02-24T08:36:39.949Z",
+        "isDuplicate": false,
+        "classification": "include",
+        "relevanceScore": 80,
+        "relevanceReasons": [
+          "Contains 1 required keywords",
+          "Accepted study design: RCT"
+        ],
+        "pico": {
+          "population": {
+            "text": "MYOCARDIAL INFARCTION",
+            "confidence": 0.9,
+            "type": "condition",
+            "details": [
+              {
+                "text": "MYOCARDIAL INFARCTION",
+                "type": "condition",
+                "confidence": 0.9
+              }
+            ]
+          },
+          "intervention": {
+            "text": null,
+            "confidence": 0,
+            "details": []
+          },
+          "comparator": {
+            "text": null,
+            "confidence": 0,
+            "details": []
+          },
+          "outcomes": [
+            {
+              "text": "Myocardial infarction",
+              "type": "clinical_outcome",
+              "confidence": 0.85
+            }
+          ],
+          "studyDesign": {
+            "type": "RCT",
+            "confidence": 0.75
+          },
+          "sampleSize": null,
+          "followUp": null,
+          "setting": []
+        },
+        "needsReview": false,
+        "processedAt": "2026-02-24T08:36:41.735Z"
+      },
+      {
+        "nctId": "NCT00689611",
+        "title": "Zyban as an Effective Smoking Cessation Aid for Patients Following an Acute Coronary Syndrome: The ZESCA Trial",
+        "briefSummary": null,
+        "status": "COMPLETED",
+        "startDate": "2005-12-31",
+        "completionDate": "2010-06-30",
+        "studyType": "INTERVENTIONAL",
+        "phases": [
+          "PHASE3"
+        ],
+        "enrollment": 392,
+        "allocation": "RANDOMIZED",
+        "primaryPurpose": "TREATMENT",
+        "source": "aact",
+        "retrievedAt": "2026-02-24T08:36:39.949Z",
+        "isDuplicate": false,
+        "classification": "maybe",
+        "relevanceScore": 50,
+        "relevanceReasons": [
+          "Contains 1 required keywords",
+          "Contains 1 preferred keywords",
+          "Study design may not meet criteria: Unknown"
+        ],
+        "pico": {
+          "population": {
+            "text": "ACUTE CORONARY SYNDROME",
+            "confidence": 0.9,
+            "type": "condition",
+            "details": [
+              {
+                "text": "ACUTE CORONARY SYNDROME",
+                "type": "condition",
+                "confidence": 0.9
+              }
+            ]
+          },
+          "intervention": {
+            "text": null,
+            "confidence": 0,
+            "details": []
+          },
+          "comparator": {
+            "text": null,
+            "confidence": 0,
+            "details": []
+          },
+          "outcomes": [],
+          "studyDesign": {
+            "type": "Unknown",
+            "confidence": 0.3
+          },
+          "sampleSize": null,
+          "followUp": null,
+          "setting": []
+        },
+        "needsReview": true,
+        "processedAt": "2026-02-24T08:36:42.231Z"
+      },
+      {
+        "nctId": "NCT00728988",
+        "title": "Atorvastatin Pre-Treatment Study In Asian Patients With Acute Coronary Syndrome",
+        "briefSummary": null,
+        "status": "COMPLETED",
+        "startDate": "2008-09-30",
+        "completionDate": "2010-04-30",
+        "studyType": "INTERVENTIONAL",
+        "phases": [
+          "PHASE4"
+        ],
+        "enrollment": 499,
+        "allocation": "RANDOMIZED",
+        "primaryPurpose": "PREVENTION",
+        "source": "aact",
+        "retrievedAt": "2026-02-24T08:36:39.949Z",
+        "isDuplicate": false,
+        "classification": "maybe",
+        "relevanceScore": 45,
+        "relevanceReasons": [
+          "Contains 1 required keywords",
+          "Study design may not meet criteria: Unknown"
+        ],
+        "pico": {
+          "population": {
+            "text": "ACUTE CORONARY SYNDROME",
+            "confidence": 0.9,
+            "type": "condition",
+            "details": [
+              {
+                "text": "ACUTE CORONARY SYNDROME",
+                "type": "condition",
+                "confidence": 0.9
+              }
+            ]
+          },
+          "intervention": {
+            "text": "Atorvastatin",
+            "confidence": 0.9,
+            "type": "known_drug",
+            "details": [
+              {
+                "text": "Atorvastatin",
+                "context": "Atorvastatin Pre-Treatment Study In Asian Patients With Acute Coronary Syndrome",
+                "type": "known_drug",
+                "confidence": 0.9
+              },
+              {
+                "text": "Treatment Study In Asian Patients With Acute Coronary Syndrome",
+                "type": "drug_with_dose",
+                "confidence": 0.85
+              }
+            ]
+          },
+          "comparator": {
+            "text": null,
+            "confidence": 0,
+            "details": []
+          },
+          "outcomes": [],
+          "studyDesign": {
+            "type": "Unknown",
+            "confidence": 0.3
+          },
+          "sampleSize": null,
+          "followUp": null,
+          "setting": []
+        },
+        "needsReview": true,
+        "processedAt": "2026-02-24T08:36:42.760Z"
+      },
+      {
+        "nctId": "NCT00734760",
+        "title": "An Intervention to Reduce Prehospital Delay to Treatment in Acute Coronary Syndrome",
+        "briefSummary": null,
+        "status": "COMPLETED",
+        "startDate": "2001-02-28",
+        "completionDate": "2006-06-30",
+        "studyType": "INTERVENTIONAL",
+        "phases": [
+          "NA"
+        ],
+        "enrollment": 3522,
+        "allocation": "RANDOMIZED",
+        "primaryPurpose": "PREVENTION",
+        "source": "aact",
+        "retrievedAt": "2026-02-24T08:36:39.949Z",
+        "isDuplicate": false,
+        "classification": "maybe",
+        "relevanceScore": 45,
+        "relevanceReasons": [
+          "Contains 1 required keywords",
+          "Study design may not meet criteria: Unknown"
+        ],
+        "pico": {
+          "population": {
+            "text": "ACUTE CORONARY SYNDROME",
+            "confidence": 0.9,
+            "type": "condition",
+            "details": [
+              {
+                "text": "ACUTE CORONARY SYNDROME",
+                "type": "condition",
+                "confidence": 0.9
+              }
+            ]
+          },
+          "intervention": {
+            "text": "Intervention to Reduce Prehospital Delay to Treatment in Acute Coronary Syndrome",
+            "confidence": 0.85,
+            "type": "drug_with_dose",
+            "details": [
+              {
+                "text": "Intervention to Reduce Prehospital Delay to Treatment in Acute Coronary Syndrome",
+                "type": "drug_with_dose",
+                "confidence": 0.85
+              }
+            ]
+          },
+          "comparator": {
+            "text": null,
+            "confidence": 0,
+            "details": []
+          },
+          "outcomes": [],
+          "studyDesign": {
+            "type": "Unknown",
+            "confidence": 0.3
+          },
+          "sampleSize": null,
+          "followUp": null,
+          "setting": []
+        },
+        "needsReview": true,
+        "processedAt": "2026-02-24T08:36:42.879Z"
+      },
+      {
+        "nctId": "NCT00743925",
+        "title": "FRANCIS-ACS Trial: A Study of the Safety and Efficacy of A 002 in Subjects With Acute Coronary Syndromes",
+        "briefSummary": null,
+        "status": "COMPLETED",
+        "startDate": "2008-07-31",
+        "completionDate": "2010-04-30",
+        "studyType": "INTERVENTIONAL",
+        "phases": [
+          "PHASE2"
+        ],
+        "enrollment": 625,
+        "allocation": "RANDOMIZED",
+        "primaryPurpose": "TREATMENT",
+        "source": "aact",
+        "retrievedAt": "2026-02-24T08:36:39.950Z",
+        "isDuplicate": false,
+        "classification": "maybe",
+        "relevanceScore": 50,
+        "relevanceReasons": [
+          "Contains 1 required keywords",
+          "Contains 1 preferred keywords",
+          "Study design may not meet criteria: Unknown"
+        ],
+        "pico": {
+          "population": {
+            "text": "ACUTE CORONARY SYNDROME",
+            "confidence": 0.9,
+            "type": "condition",
+            "details": [
+              {
+                "text": "ACUTE CORONARY SYNDROME",
+                "type": "condition",
+                "confidence": 0.9
+              },
+              {
+                "text": "ACS",
+                "type": "condition",
+                "confidence": 0.9
+              }
+            ]
+          },
+          "intervention": {
+            "text": null,
+            "confidence": 0,
+            "details": []
+          },
+          "comparator": {
+            "text": null,
+            "confidence": 0,
+            "details": []
+          },
+          "outcomes": [],
+          "studyDesign": {
+            "type": "Unknown",
+            "confidence": 0.3
+          },
+          "sampleSize": null,
+          "followUp": null,
+          "setting": []
+        },
+        "needsReview": true,
+        "processedAt": "2026-02-24T08:36:43.012Z"
+      },
+      {
+        "nctId": "NCT00754819",
+        "title": "Targeting Inflammation in Acute Coronary Syndrome Using Colchicine",
+        "briefSummary": null,
+        "status": "COMPLETED",
+        "startDate": "2008-04-30",
+        "completionDate": "2009-09-30",
+        "studyType": "INTERVENTIONAL",
+        "phases": [
+          "PHASE2/PHASE3"
+        ],
+        "enrollment": 80,
+        "allocation": "RANDOMIZED",
+        "primaryPurpose": "TREATMENT",
+        "source": "aact",
+        "retrievedAt": "2026-02-24T08:36:39.950Z",
+        "isDuplicate": false,
+        "classification": "maybe",
+        "relevanceScore": 45,
+        "relevanceReasons": [
+          "Contains 1 required keywords",
+          "Study design may not meet criteria: Unknown"
+        ],
+        "pico": {
+          "population": {
+            "text": "ACUTE CORONARY SYNDROME",
+            "confidence": 0.9,
+            "type": "condition",
+            "details": [
+              {
+                "text": "ACUTE CORONARY SYNDROME",
+                "type": "condition",
+                "confidence": 0.9
+              }
+            ]
+          },
+          "intervention": {
+            "text": null,
+            "confidence": 0,
+            "details": []
+          },
+          "comparator": {
+            "text": null,
+            "confidence": 0,
+            "details": []
+          },
+          "outcomes": [],
+          "studyDesign": {
+            "type": "Unknown",
+            "confidence": 0.3
+          },
+          "sampleSize": null,
+          "followUp": null,
+          "setting": [
+            {
+              "type": "country",
+              "value": "us"
+            }
+          ]
+        },
+        "needsReview": true,
+        "processedAt": "2026-02-24T08:36:43.301Z"
+      },
+      {
+        "nctId": "NCT00790907",
+        "title": "Fondaparinux Trial With Unfractionated Heparin (UFH) During Revascularization in Acute Coronary Syndromes (ACS)",
+        "briefSummary": null,
+        "status": "COMPLETED",
+        "startDate": "2009-02-28",
+        "completionDate": "2010-05-31",
+        "studyType": "INTERVENTIONAL",
+        "phases": [
+          "PHASE4"
+        ],
+        "enrollment": 3235,
+        "allocation": "RANDOMIZED",
+        "primaryPurpose": "TREATMENT",
+        "source": "aact",
+        "retrievedAt": "2026-02-24T08:36:39.950Z",
+        "isDuplicate": false,
+        "classification": "maybe",
+        "relevanceScore": 50,
+        "relevanceReasons": [
+          "Contains 1 required keywords",
+          "Contains 1 preferred keywords",
+          "Study design may not meet criteria: Unknown"
+        ],
+        "pico": {
+          "population": {
+            "text": "ACUTE CORONARY SYNDROME",
+            "confidence": 0.9,
+            "type": "condition",
+            "details": [
+              {
+                "text": "ACUTE CORONARY SYNDROME",
+                "type": "condition",
+                "confidence": 0.9
+              },
+              {
+                "text": "ACS",
+                "type": "condition",
+                "confidence": 0.9
+              }
+            ]
+          },
+          "intervention": {
+            "text": "Heparin",
+            "confidence": 0.9,
+            "type": "known_drug",
+            "details": [
+              {
+                "text": "Heparin",
+                "context": "Fondaparinux Trial With Unfractionated Heparin (UFH) During Revascularization in Acute Coronary Syndromes (ACS)",
+                "type": "known_drug",
+                "confidence": 0.9
+              },
+              {
+                "text": "Fondaparinux",
+                "context": "Fondaparinux Trial With Unfractionated Heparin (UFH) During Revascularization in Acute Coronary Syndromes (ACS)",
+                "type": "known_drug",
+                "confidence": 0.9
+              }
+            ]
+          },
+          "comparator": {
+            "text": null,
+            "confidence": 0,
+            "details": []
+          },
+          "outcomes": [],
+          "studyDesign": {
+            "type": "Unknown",
+            "confidence": 0.3
+          },
+          "sampleSize": null,
+          "followUp": null,
+          "setting": []
+        },
+        "needsReview": true,
+        "processedAt": "2026-02-24T08:36:44.253Z"
+      },
+      {
+        "nctId": "NCT00794573",
+        "title": "Evaluation of Varenicline (Champix) in Smoking Cessation for Patients Post-Acute Coronary Syndrome (EVITA) Trial",
+        "briefSummary": null,
+        "status": "COMPLETED",
+        "startDate": "2009-09-30",
+        "completionDate": "2015-12-31",
+        "studyType": "INTERVENTIONAL",
+        "phases": [
+          "PHASE3"
+        ],
+        "enrollment": 302,
+        "allocation": "RANDOMIZED",
+        "primaryPurpose": "PREVENTION",
+        "source": "aact",
+        "retrievedAt": "2026-02-24T08:36:39.950Z",
+        "isDuplicate": false,
+        "classification": "maybe",
+        "relevanceScore": 50,
+        "relevanceReasons": [
+          "Contains 1 required keywords",
+          "Contains 1 preferred keywords",
+          "Study design may not meet criteria: Unknown"
+        ],
+        "pico": {
+          "population": {
+            "text": "ACUTE CORONARY SYNDROME",
+            "confidence": 0.9,
+            "type": "condition",
+            "details": [
+              {
+                "text": "ACUTE CORONARY SYNDROME",
+                "type": "condition",
+                "confidence": 0.9
+              }
+            ]
+          },
+          "intervention": {
+            "text": null,
+            "confidence": 0,
+            "details": []
+          },
+          "comparator": {
+            "text": null,
+            "confidence": 0,
+            "details": []
+          },
+          "outcomes": [],
+          "studyDesign": {
+            "type": "Unknown",
+            "confidence": 0.3
+          },
+          "sampleSize": null,
+          "followUp": null,
+          "setting": []
+        },
+        "needsReview": true,
+        "processedAt": "2026-02-24T08:36:44.450Z"
+      },
+      {
+        "nctId": "NCT00809965",
+        "title": "An Efficacy and Safety Study for Rivaroxaban in Patients With Acute Coronary Syndrome",
+        "briefSummary": null,
+        "status": "COMPLETED",
+        "startDate": "2008-11-30",
+        "completionDate": "2011-09-30",
+        "studyType": "INTERVENTIONAL",
+        "phases": [
+          "PHASE3"
+        ],
+        "enrollment": 15526,
+        "allocation": "RANDOMIZED",
+        "primaryPurpose": "TREATMENT",
+        "source": "aact",
+        "retrievedAt": "2026-02-24T08:36:39.950Z",
+        "isDuplicate": false,
+        "classification": "maybe",
+        "relevanceScore": 45,
+        "relevanceReasons": [
+          "Contains 1 required keywords",
+          "Study design may not meet criteria: Unknown"
+        ],
+        "pico": {
+          "population": {
+            "text": "ACUTE CORONARY SYNDROME",
+            "confidence": 0.9,
+            "type": "condition",
+            "details": [
+              {
+                "text": "ACUTE CORONARY SYNDROME",
+                "type": "condition",
+                "confidence": 0.9
+              }
+            ]
+          },
+          "intervention": {
+            "text": "Rivaroxaban",
+            "confidence": 0.9,
+            "type": "known_drug",
+            "details": [
+              {
+                "text": "Rivaroxaban",
+                "context": "An Efficacy and Safety Study for Rivaroxaban in Patients With Acute Coronary Syndrome",
+                "type": "known_drug",
+                "confidence": 0.9
+              }
+            ]
+          },
+          "comparator": {
+            "text": "Rivaroxaban",
+            "confidence": 0.8,
+            "type": "comparator",
+            "details": [
+              {
+                "text": "Rivaroxaban",
+                "type": "comparator",
+                "confidence": 0.8
+              }
+            ]
+          },
+          "outcomes": [],
+          "studyDesign": {
+            "type": "Unknown",
+            "confidence": 0.3
+          },
+          "sampleSize": null,
+          "followUp": null,
+          "setting": []
+        },
+        "needsReview": true,
+        "processedAt": "2026-02-24T08:36:44.559Z"
+      },
+      {
+        "nctId": "NCT00822679",
+        "title": "Eszopiclone and Inflammatory Mediators in Patients With Acute Coronary Syndrome",
+        "briefSummary": null,
+        "status": "COMPLETED",
+        "startDate": "2007-10-31",
+        "completionDate": "2010-01-31",
+        "studyType": "INTERVENTIONAL",
+        "phases": [
+          "PHASE4"
+        ],
+        "enrollment": 5,
+        "allocation": "RANDOMIZED",
+        "primaryPurpose": "SUPPORTIVE_CARE",
+        "source": "aact",
+        "retrievedAt": "2026-02-24T08:36:39.950Z",
+        "isDuplicate": false,
+        "classification": "maybe",
+        "relevanceScore": 45,
+        "relevanceReasons": [
+          "Contains 1 required keywords",
+          "Study design may not meet criteria: Unknown"
+        ],
+        "pico": {
+          "population": {
+            "text": "ACUTE CORONARY SYNDROME",
+            "confidence": 0.9,
+            "type": "condition",
+            "details": [
+              {
+                "text": "ACUTE CORONARY SYNDROME",
+                "type": "condition",
+                "confidence": 0.9
+              }
+            ]
+          },
+          "intervention": {
+            "text": null,
+            "confidence": 0,
+            "details": []
+          },
+          "comparator": {
+            "text": null,
+            "confidence": 0,
+            "details": []
+          },
+          "outcomes": [],
+          "studyDesign": {
+            "type": "Unknown",
+            "confidence": 0.3
+          },
+          "sampleSize": null,
+          "followUp": null,
+          "setting": []
+        },
+        "needsReview": true,
+        "processedAt": "2026-02-24T08:36:44.754Z"
+      },
+      {
+        "nctId": "NCT00855257",
+        "title": "Assessment of Endothelial Vasomotricity After Treatment by Nicotinic Acid in Acute Coronary Syndrome",
+        "briefSummary": null,
+        "status": "COMPLETED",
+        "startDate": "2007-06-30",
+        "completionDate": "2009-05-31",
+        "studyType": "INTERVENTIONAL",
+        "phases": [
+          "PHASE3"
+        ],
+        "enrollment": 93,
+        "allocation": "RANDOMIZED",
+        "primaryPurpose": "TREATMENT",
+        "source": "aact",
+        "retrievedAt": "2026-02-24T08:36:39.950Z",
+        "isDuplicate": false,
+        "classification": "maybe",
+        "relevanceScore": 45,
+        "relevanceReasons": [
+          "Contains 1 required keywords",
+          "Study design may not meet criteria: Unknown"
+        ],
+        "pico": {
+          "population": {
+            "text": "ACUTE CORONARY SYNDROME",
+            "confidence": 0.9,
+            "type": "condition",
+            "details": [
+              {
+                "text": "ACUTE CORONARY SYNDROME",
+                "type": "condition",
+                "confidence": 0.9
+              }
+            ]
+          },
+          "intervention": {
+            "text": "Treatment by Nicotinic Acid in Acute Coronary Syndrome",
+            "confidence": 0.85,
+            "type": "drug_with_dose",
+            "details": [
+              {
+                "text": "Treatment by Nicotinic Acid in Acute Coronary Syndrome",
+                "type": "drug_with_dose",
+                "confidence": 0.85
+              }
+            ]
+          },
+          "comparator": {
+            "text": null,
+            "confidence": 0,
+            "details": []
+          },
+          "outcomes": [],
+          "studyDesign": {
+            "type": "Unknown",
+            "confidence": 0.3
+          },
+          "sampleSize": null,
+          "followUp": null,
+          "setting": []
+        },
+        "needsReview": true,
+        "processedAt": "2026-02-24T08:36:45.280Z"
+      },
+      {
+        "nctId": "NCT00903032",
+        "title": "Patient-Centered Adherence Intervention After Acute Coronary Syndrome (ACS) Hospitalization",
+        "briefSummary": null,
+        "status": "COMPLETED",
+        "startDate": "2010-07-31",
+        "completionDate": "2013-08-31",
+        "studyType": "INTERVENTIONAL",
+        "phases": [
+          "NA"
+        ],
+        "enrollment": 253,
+        "allocation": "RANDOMIZED",
+        "primaryPurpose": "HEALTH_SERVICES_RESEARCH",
+        "source": "aact",
+        "retrievedAt": "2026-02-24T08:36:39.950Z",
+        "isDuplicate": false,
+        "classification": "maybe",
+        "relevanceScore": 45,
+        "relevanceReasons": [
+          "Contains 1 required keywords",
+          "Study design may not meet criteria: Unknown"
+        ],
+        "pico": {
+          "population": {
+            "text": "ACUTE CORONARY SYNDROME",
+            "confidence": 0.9,
+            "type": "condition",
+            "details": [
+              {
+                "text": "ACUTE CORONARY SYNDROME",
+                "type": "condition",
+                "confidence": 0.9
+              },
+              {
+                "text": "ACS",
+                "type": "condition",
+                "confidence": 0.9
+              }
+            ]
+          },
+          "intervention": {
+            "text": "Intervention After Acute Coronary Syndrome (ACS) Hospitalization",
+            "confidence": 0.85,
+            "type": "drug_with_dose",
+            "details": [
+              {
+                "text": "Intervention After Acute Coronary Syndrome (ACS) Hospitalization",
+                "type": "drug_with_dose",
+                "confidence": 0.85
+              }
+            ]
+          },
+          "comparator": {
+            "text": null,
+            "confidence": 0,
+            "details": []
+          },
+          "outcomes": [],
+          "studyDesign": {
+            "type": "Unknown",
+            "confidence": 0.3
+          },
+          "sampleSize": null,
+          "followUp": null,
+          "setting": []
+        },
+        "needsReview": true,
+        "processedAt": "2026-02-24T08:36:45.533Z"
+      },
+      {
+        "nctId": "NCT00910065",
+        "title": "BAY81-8781, I.V. Aspirin in the Indication of Acute Coronary Syndrome (ACS)",
+        "briefSummary": null,
+        "status": "COMPLETED",
+        "startDate": "2011-03-31",
+        "completionDate": "2014-07-31",
+        "studyType": "INTERVENTIONAL",
+        "phases": [
+          "PHASE3"
+        ],
+        "enrollment": 270,
+        "allocation": "RANDOMIZED",
+        "primaryPurpose": "TREATMENT",
+        "source": "aact",
+        "retrievedAt": "2026-02-24T08:36:39.950Z",
+        "isDuplicate": false,
+        "classification": "maybe",
+        "relevanceScore": 45,
+        "relevanceReasons": [
+          "Contains 1 required keywords",
+          "Study design may not meet criteria: Unknown"
+        ],
+        "pico": {
+          "population": {
+            "text": "ACUTE CORONARY SYNDROME",
+            "confidence": 0.9,
+            "type": "condition",
+            "details": [
+              {
+                "text": "ACUTE CORONARY SYNDROME",
+                "type": "condition",
+                "confidence": 0.9
+              },
+              {
+                "text": "ACS",
+                "type": "condition",
+                "confidence": 0.9
+              }
+            ]
+          },
+          "intervention": {
+            "text": "Aspirin",
+            "confidence": 0.9,
+            "type": "known_drug",
+            "details": [
+              {
+                "text": "Aspirin",
+                "context": "Aspirin in the Indication of Acute Coronary Syndrome (ACS)",
+                "type": "known_drug",
+                "confidence": 0.9
+              }
+            ]
+          },
+          "comparator": {
+            "text": null,
+            "confidence": 0,
+            "details": []
+          },
+          "outcomes": [],
+          "studyDesign": {
+            "type": "Unknown",
+            "confidence": 0.3
+          },
+          "sampleSize": null,
+          "followUp": null,
+          "setting": []
+        },
+        "needsReview": true,
+        "processedAt": "2026-02-24T08:36:45.644Z"
+      },
+      {
+        "nctId": "NCT00932100",
+        "title": "A Study Assessing the REG1 Anticoagulation System Compared Heparin in Subjects With Acute Coronary Syndrome",
+        "briefSummary": null,
+        "status": "COMPLETED",
+        "startDate": "2009-07-31",
+        "completionDate": "2011-01-31",
+        "studyType": "INTERVENTIONAL",
+        "phases": [
+          "PHASE2"
+        ],
+        "enrollment": 640,
+        "allocation": "RANDOMIZED",
+        "primaryPurpose": "TREATMENT",
+        "source": "aact",
+        "retrievedAt": "2026-02-24T08:36:39.950Z",
+        "isDuplicate": false,
+        "classification": "maybe",
+        "relevanceScore": 45,
+        "relevanceReasons": [
+          "Contains 1 required keywords",
+          "Study design may not meet criteria: Unknown"
+        ],
+        "pico": {
+          "population": {
+            "text": "ACUTE CORONARY SYNDROME",
+            "confidence": 0.9,
+            "type": "condition",
+            "details": [
+              {
+                "text": "ACUTE CORONARY SYNDROME",
+                "type": "condition",
+                "confidence": 0.9
+              }
+            ]
+          },
+          "intervention": {
+            "text": "Heparin",
+            "confidence": 0.9,
+            "type": "known_drug",
+            "details": [
+              {
+                "text": "Heparin",
+                "context": "A Study Assessing the REG1 Anticoagulation System Compared Heparin in Subjects With Acute Coronary Syndrome",
+                "type": "known_drug",
+                "confidence": 0.9
+              }
+            ]
+          },
+          "comparator": {
+            "text": null,
+            "confidence": 0,
+            "details": []
+          },
+          "outcomes": [],
+          "studyDesign": {
+            "type": "Unknown",
+            "confidence": 0.3
+          },
+          "sampleSize": null,
+          "followUp": null,
+          "setting": []
+        },
+        "needsReview": true,
+        "processedAt": "2026-02-24T08:36:45.998Z"
+      },
+      {
+        "nctId": "NCT00933400",
+        "title": "Computed Tomography Coronary Angiogram (CTCA) Versus Traditional Care in Emergency Department Assessment of Potential Acute Coronary Syndromes (ACS)",
+        "briefSummary": null,
+        "status": "COMPLETED",
+        "startDate": "2009-07-31",
+        "completionDate": "2012-04-30",
+        "studyType": "INTERVENTIONAL",
+        "phases": [
+          "NA"
+        ],
+        "enrollment": 1392,
+        "allocation": "RANDOMIZED",
+        "primaryPurpose": "DIAGNOSTIC",
+        "source": "aact",
+        "retrievedAt": "2026-02-24T08:36:39.950Z",
+        "isDuplicate": false,
+        "classification": "maybe",
+        "relevanceScore": 45,
+        "relevanceReasons": [
+          "Contains 1 required keywords",
+          "Study design may not meet criteria: Unknown"
+        ],
+        "pico": {
+          "population": {
+            "text": "ACUTE CORONARY SYNDROME",
+            "confidence": 0.9,
+            "type": "condition",
+            "details": [
+              {
+                "text": "ACUTE CORONARY SYNDROME",
+                "type": "condition",
+                "confidence": 0.9
+              },
+              {
+                "text": "ACS",
+                "type": "condition",
+                "confidence": 0.9
+              }
+            ]
+          },
+          "intervention": {
+            "text": null,
+            "confidence": 0,
+            "details": []
+          },
+          "comparator": {
+            "text": "Traditional Care",
+            "confidence": 0.8,
+            "type": "comparator",
+            "details": [
+              {
+                "text": "Traditional Care",
+                "type": "comparator",
+                "confidence": 0.8
+              }
+            ]
+          },
+          "outcomes": [],
+          "studyDesign": {
+            "type": "Unknown",
+            "confidence": 0.3
+          },
+          "sampleSize": null,
+          "followUp": null,
+          "setting": [
+            {
+              "type": "country",
+              "value": "us"
+            }
+          ]
+        },
+        "needsReview": true,
+        "processedAt": "2026-02-24T08:36:46.138Z"
+      },
+      {
+        "nctId": "NCT00952250",
+        "title": "Targeted Feedback Reports to Improve Acute Coronary Syndromes (ACS) Care",
+        "briefSummary": null,
+        "status": "COMPLETED",
+        "startDate": "2009-02-28",
+        "completionDate": "2011-07-31",
+        "studyType": "INTERVENTIONAL",
+        "phases": [
+          "NA"
+        ],
+        "enrollment": 149,
+        "allocation": "RANDOMIZED",
+        "primaryPurpose": "HEALTH_SERVICES_RESEARCH",
+        "source": "aact",
+        "retrievedAt": "2026-02-24T08:36:39.950Z",
+        "isDuplicate": false,
+        "classification": "maybe",
+        "relevanceScore": 45,
+        "relevanceReasons": [
+          "Contains 1 required keywords",
+          "Study design may not meet criteria: Unknown"
+        ],
+        "pico": {
+          "population": {
+            "text": "ACUTE CORONARY SYNDROME",
+            "confidence": 0.9,
+            "type": "condition",
+            "details": [
+              {
+                "text": "ACUTE CORONARY SYNDROME",
+                "type": "condition",
+                "confidence": 0.9
+              },
+              {
+                "text": "ACS",
+                "type": "condition",
+                "confidence": 0.9
+              }
+            ]
+          },
+          "intervention": {
+            "text": null,
+            "confidence": 0,
+            "details": []
+          },
+          "comparator": {
+            "text": null,
+            "confidence": 0,
+            "details": []
+          },
+          "outcomes": [],
+          "studyDesign": {
+            "type": "Unknown",
+            "confidence": 0.3
+          },
+          "sampleSize": null,
+          "followUp": null,
+          "setting": []
+        },
+        "needsReview": true,
+        "processedAt": "2026-02-24T08:36:46.268Z"
+      },
+      {
+        "nctId": "NCT00958958",
+        "title": "Brazilian Intervention to Increase Evidence Usage in Practice - Acute Coronary Syndromes",
+        "briefSummary": null,
+        "status": "COMPLETED",
+        "startDate": "2010-01-31",
+        "completionDate": "2012-02-29",
+        "studyType": "INTERVENTIONAL",
+        "phases": [
+          "NA"
+        ],
+        "enrollment": 1150,
+        "allocation": "RANDOMIZED",
+        "primaryPurpose": null,
+        "source": "aact",
+        "retrievedAt": "2026-02-24T08:36:39.950Z",
+        "isDuplicate": false,
+        "classification": "maybe",
+        "relevanceScore": 45,
+        "relevanceReasons": [
+          "Contains 1 required keywords",
+          "Study design may not meet criteria: Unknown"
+        ],
+        "pico": {
+          "population": {
+            "text": "ACUTE CORONARY SYNDROME",
+            "confidence": 0.9,
+            "type": "condition",
+            "details": [
+              {
+                "text": "ACUTE CORONARY SYNDROME",
+                "type": "condition",
+                "confidence": 0.9
+              }
+            ]
+          },
+          "intervention": {
+            "text": "Intervention to Increase Evidence Usage in Practice - Acute Coronary Syndromes",
+            "confidence": 0.85,
+            "type": "drug_with_dose",
+            "details": [
+              {
+                "text": "Intervention to Increase Evidence Usage in Practice - Acute Coronary Syndromes",
+                "type": "drug_with_dose",
+                "confidence": 0.85
+              }
+            ]
+          },
+          "comparator": {
+            "text": null,
+            "confidence": 0,
+            "details": []
+          },
+          "outcomes": [],
+          "studyDesign": {
+            "type": "Unknown",
+            "confidence": 0.3
+          },
+          "sampleSize": null,
+          "followUp": null,
+          "setting": [
+            {
+              "type": "country",
+              "value": "usa"
+            },
+            {
+              "type": "country",
+              "value": "us"
+            },
+            {
+              "type": "country",
+              "value": "brazil"
+            }
+          ]
+        },
+        "needsReview": true,
+        "processedAt": "2026-02-24T08:36:46.437Z"
+      },
+      {
+        "nctId": "NCT00968708",
+        "title": "Cardiovascular Outcomes Study of Alogliptin in Patients With Type 2 Diabetes and Acute Coronary Syndrome",
+        "briefSummary": null,
+        "status": "COMPLETED",
+        "startDate": "2009-09-30",
+        "completionDate": "2013-06-30",
+        "studyType": "INTERVENTIONAL",
+        "phases": [
+          "PHASE3"
+        ],
+        "enrollment": 5380,
+        "allocation": "RANDOMIZED",
+        "primaryPurpose": "TREATMENT",
+        "source": "aact",
+        "retrievedAt": "2026-02-24T08:36:39.950Z",
+        "isDuplicate": false,
+        "classification": "maybe",
+        "relevanceScore": 45,
+        "relevanceReasons": [
+          "Contains 1 required keywords",
+          "Study design may not meet criteria: Unknown"
+        ],
+        "pico": {
+          "population": {
+            "text": "ACUTE CORONARY SYNDROME",
+            "confidence": 0.9,
+            "type": "condition",
+            "details": [
+              {
+                "text": "ACUTE CORONARY SYNDROME",
+                "type": "condition",
+                "confidence": 0.9
+              },
+              {
+                "text": "DIABETES",
+                "type": "condition",
+                "confidence": 0.9
+              }
+            ]
+          },
+          "intervention": {
+            "text": null,
+            "confidence": 0,
+            "details": []
+          },
+          "comparator": {
+            "text": null,
+            "confidence": 0,
+            "details": []
+          },
+          "outcomes": [],
+          "studyDesign": {
+            "type": "Unknown",
+            "confidence": 0.3
+          },
+          "sampleSize": null,
+          "followUp": null,
+          "setting": []
+        },
+        "needsReview": true,
+        "processedAt": "2026-02-24T08:36:46.900Z"
+      },
+      {
+        "nctId": "NCT00987597",
+        "title": "Smoking Cessation for Patients With Acute Coronary Syndrome (ACS)",
+        "briefSummary": null,
+        "status": "COMPLETED",
+        "startDate": "2008-09-30",
+        "completionDate": "2010-04-30",
+        "studyType": "INTERVENTIONAL",
+        "phases": [
+          "NA"
+        ],
+        "enrollment": 144,
+        "allocation": "RANDOMIZED",
+        "primaryPurpose": "PREVENTION",
+        "source": "aact",
+        "retrievedAt": "2026-02-24T08:36:39.950Z",
+        "isDuplicate": false,
+        "classification": "maybe",
+        "relevanceScore": 45,
+        "relevanceReasons": [
+          "Contains 1 required keywords",
+          "Study design may not meet criteria: Unknown"
+        ],
+        "pico": {
+          "population": {
+            "text": "ACUTE CORONARY SYNDROME",
+            "confidence": 0.9,
+            "type": "condition",
+            "details": [
+              {
+                "text": "ACUTE CORONARY SYNDROME",
+                "type": "condition",
+                "confidence": 0.9
+              },
+              {
+                "text": "ACS",
+                "type": "condition",
+                "confidence": 0.9
+              }
+            ]
+          },
+          "intervention": {
+            "text": null,
+            "confidence": 0,
+            "details": []
+          },
+          "comparator": {
+            "text": "Patients",
+            "confidence": 0.8,
+            "type": "comparator",
+            "details": [
+              {
+                "text": "Patients",
+                "type": "comparator",
+                "confidence": 0.8
+              }
+            ]
+          },
+          "outcomes": [],
+          "studyDesign": {
+            "type": "Unknown",
+            "confidence": 0.3
+          },
+          "sampleSize": null,
+          "followUp": null,
+          "setting": []
+        },
+        "needsReview": true,
+        "processedAt": "2026-02-24T08:36:47.043Z"
+      },
+      {
+        "nctId": "NCT00994292",
+        "title": "Study Evaluating Safety, Tolerability and Efficacy of YM150 in Subjects With Acute Coronary Syndromes",
+        "briefSummary": null,
+        "status": "COMPLETED",
+        "startDate": "2009-09-30",
+        "completionDate": "2011-03-31",
+        "studyType": "INTERVENTIONAL",
+        "phases": [
+          "PHASE2"
+        ],
+        "enrollment": 1276,
+        "allocation": "RANDOMIZED",
+        "primaryPurpose": "PREVENTION",
+        "source": "aact",
+        "retrievedAt": "2026-02-24T08:36:39.950Z",
+        "isDuplicate": false,
+        "classification": "maybe",
+        "relevanceScore": 45,
+        "relevanceReasons": [
+          "Contains 1 required keywords",
+          "Study design may not meet criteria: Unknown"
+        ],
+        "pico": {
+          "population": {
+            "text": "ACUTE CORONARY SYNDROME",
+            "confidence": 0.9,
+            "type": "condition",
+            "details": [
+              {
+                "text": "ACUTE CORONARY SYNDROME",
+                "type": "condition",
+                "confidence": 0.9
+              }
+            ]
+          },
+          "intervention": {
+            "text": null,
+            "confidence": 0,
+            "details": []
+          },
+          "comparator": {
+            "text": null,
+            "confidence": 0,
+            "details": []
+          },
+          "outcomes": [],
+          "studyDesign": {
+            "type": "Unknown",
+            "confidence": 0.3
+          },
+          "sampleSize": null,
+          "followUp": null,
+          "setting": []
+        },
+        "needsReview": true,
+        "processedAt": "2026-02-24T08:36:47.190Z"
+      },
+      {
+        "nctId": "NCT00997750",
+        "title": "Efficacy and Safety of Lornoxicam in Patients With Acute Coronary Syndrome",
+        "briefSummary": null,
+        "status": "COMPLETED",
+        "startDate": "2007-03-31",
+        "completionDate": "2009-06-30",
+        "studyType": "INTERVENTIONAL",
+        "phases": [
+          "PHASE4"
+        ],
+        "enrollment": 85,
+        "allocation": "RANDOMIZED",
+        "primaryPurpose": "TREATMENT",
+        "source": "aact",
+        "retrievedAt": "2026-02-24T08:36:39.950Z",
+        "isDuplicate": false,
+        "classification": "maybe",
+        "relevanceScore": 45,
+        "relevanceReasons": [
+          "Contains 1 required keywords",
+          "Study design may not meet criteria: Unknown"
+        ],
+        "pico": {
+          "population": {
+            "text": "ACUTE CORONARY SYNDROME",
+            "confidence": 0.9,
+            "type": "condition",
+            "details": [
+              {
+                "text": "ACUTE CORONARY SYNDROME",
+                "type": "condition",
+                "confidence": 0.9
+              }
+            ]
+          },
+          "intervention": {
+            "text": null,
+            "confidence": 0,
+            "details": []
+          },
+          "comparator": {
+            "text": null,
+            "confidence": 0,
+            "details": []
+          },
+          "outcomes": [],
+          "studyDesign": {
+            "type": "Unknown",
+            "confidence": 0.3
+          },
+          "sampleSize": null,
+          "followUp": null,
+          "setting": []
+        },
+        "needsReview": true,
+        "processedAt": "2026-02-24T08:36:47.335Z"
+      },
+      {
+        "nctId": "NCT01000727",
+        "title": "The Stabilization Of pLaques usIng Darapladib-Thrombolysis In Myocardial Infarction 52 Trial",
+        "briefSummary": null,
+        "status": "COMPLETED",
+        "startDate": "2009-12-01",
+        "completionDate": "2014-04-24",
+        "studyType": "INTERVENTIONAL",
+        "phases": [
+          "PHASE3"
+        ],
+        "enrollment": 13026,
+        "allocation": "RANDOMIZED",
+        "primaryPurpose": "TREATMENT",
+        "source": "aact",
+        "retrievedAt": "2026-02-24T08:36:39.950Z",
+        "isDuplicate": false,
+        "classification": "include",
+        "relevanceScore": 85,
+        "relevanceReasons": [
+          "Contains 1 required keywords",
+          "Contains 1 preferred keywords",
+          "Accepted study design: RCT"
+        ],
+        "pico": {
+          "population": {
+            "text": "MYOCARDIAL INFARCTION",
+            "confidence": 0.9,
+            "type": "condition",
+            "details": [
+              {
+                "text": "MYOCARDIAL INFARCTION",
+                "type": "condition",
+                "confidence": 0.9
+              }
+            ]
+          },
+          "intervention": {
+            "text": "Thrombolysis",
+            "confidence": 0.9,
+            "type": "known_drug",
+            "details": [
+              {
+                "text": "Thrombolysis",
+                "context": "The Stabilization Of pLaques usIng Darapladib-Thrombolysis In Myocardial Infarction 52 Trial",
+                "type": "known_drug",
+                "confidence": 0.9
+              }
+            ]
+          },
+          "comparator": {
+            "text": null,
+            "confidence": 0,
+            "details": []
+          },
+          "outcomes": [
+            {
+              "text": "Myocardial infarction",
+              "type": "clinical_outcome",
+              "confidence": 0.85
+            }
+          ],
+          "studyDesign": {
+            "type": "RCT",
+            "confidence": 0.75
+          },
+          "sampleSize": null,
+          "followUp": null,
+          "setting": [
+            {
+              "type": "country",
+              "value": "us"
+            }
+          ]
+        },
+        "needsReview": false,
+        "processedAt": "2026-02-24T08:36:47.496Z"
+      },
+      {
+        "nctId": "NCT01663402",
+        "title": "ODYSSEY Outcomes: Evaluation of Cardiovascular Outcomes After an Acute Coronary Syndrome During Treatment With Alirocumab",
+        "briefSummary": null,
+        "status": "COMPLETED",
+        "startDate": "2012-10-31",
+        "completionDate": "2018-01-23",
+        "studyType": "INTERVENTIONAL",
+        "phases": [
+          "PHASE3"
+        ],
+        "enrollment": 18924,
+        "allocation": "RANDOMIZED",
+        "primaryPurpose": "PREVENTION",
+        "source": "aact",
+        "retrievedAt": "2026-02-24T08:36:41.064Z",
+        "isDuplicate": false,
+        "classification": "maybe",
+        "relevanceScore": 45,
+        "relevanceReasons": [
+          "Contains 1 required keywords",
+          "Study design may not meet criteria: Unknown"
+        ],
+        "pico": {
+          "population": {
+            "text": "ACUTE CORONARY SYNDROME",
+            "confidence": 0.9,
+            "type": "condition",
+            "details": [
+              {
+                "text": "ACUTE CORONARY SYNDROME",
+                "type": "condition",
+                "confidence": 0.9
+              }
+            ]
+          },
+          "intervention": {
+            "text": "Treatment With Alirocumab",
+            "confidence": 0.85,
+            "type": "drug_with_dose",
+            "details": [
+              {
+                "text": "Treatment With Alirocumab",
+                "type": "drug_with_dose",
+                "confidence": 0.85
+              }
+            ]
+          },
+          "comparator": {
+            "text": null,
+            "confidence": 0,
+            "details": []
+          },
+          "outcomes": [],
+          "studyDesign": {
+            "type": "Unknown",
+            "confidence": 0.3
+          },
+          "sampleSize": null,
+          "followUp": null,
+          "setting": []
+        },
+        "needsReview": true,
+        "processedAt": "2026-02-24T08:36:48.668Z"
+      }
+    ],
+    "duplicates": [
+      {
+        "nctId": "NCT00665834",
+        "title": "Comparison of Rosuvastatin and Atorvastatin in Patients With Acute Coronary Syndrome",
+        "briefSummary": null,
+        "status": "COMPLETED",
+        "startDate": "2006-04-30",
+        "completionDate": "2007-09-30",
+        "studyType": "INTERVENTIONAL",
+        "phases": [
+          "PHASE4"
+        ],
+        "enrollment": 18,
+        "allocation": "RANDOMIZED",
+        "primaryPurpose": "TREATMENT",
+        "source": "aact",
+        "retrievedAt": "2026-02-24T08:36:39.949Z",
+        "isDuplicate": true,
+        "duplicateOf": {
+          "index": 23,
+          "title": "Comparison of Stent Graft, Sirolimus Stent, and Bare Metal Stent Implanted in Patients With Acute Coronary Syndrome"
+        }
+      },
+      {
+        "nctId": "NCT00677053",
+        "title": "Safety and Efficacy of TAK-442 in Subjects With Acute Coronary Syndromes",
+        "briefSummary": null,
+        "status": "COMPLETED",
+        "startDate": "2008-03-31",
+        "completionDate": "2010-06-30",
+        "studyType": "INTERVENTIONAL",
+        "phases": [
+          "PHASE2"
+        ],
+        "enrollment": 2753,
+        "allocation": "RANDOMIZED",
+        "primaryPurpose": "TREATMENT",
+        "source": "aact",
+        "retrievedAt": "2026-02-24T08:36:39.949Z",
+        "isDuplicate": true,
+        "duplicateOf": {
+          "index": 8,
+          "title": "Safety Study of Apixaban in Recent Acute Coronary Syndrome"
+        }
+      },
+      {
+        "nctId": "NCT00699998",
+        "title": "A Comparison of Prasugrel and Clopidogrel in Acute Coronary Syndrome Subjects",
+        "briefSummary": null,
+        "status": "COMPLETED",
+        "startDate": "2008-06-30",
+        "completionDate": "2012-04-30",
+        "studyType": "INTERVENTIONAL",
+        "phases": [
+          "PHASE3"
+        ],
+        "enrollment": 9326,
+        "allocation": "RANDOMIZED",
+        "primaryPurpose": "TREATMENT",
+        "source": "aact",
+        "retrievedAt": "2026-02-24T08:36:39.949Z",
+        "isDuplicate": true,
+        "duplicateOf": {
+          "index": 13,
+          "title": "A Comparison of Ticagrelor (AZD6140) and Clopidogrel in Patients With Acute Coronary Syndrome"
+        }
+      },
+      {
+        "nctId": "NCT00714961",
+        "title": "Clopidogrel as Adjunctive Reperfusion Therapy - Thrombolysis in Myocardial Infarction",
+        "briefSummary": null,
+        "status": "COMPLETED",
+        "startDate": "2003-02-28",
+        "completionDate": "2005-01-31",
+        "studyType": "INTERVENTIONAL",
+        "phases": [
+          "PHASE3"
+        ],
+        "enrollment": 3491,
+        "allocation": "RANDOMIZED",
+        "primaryPurpose": "PREVENTION",
+        "source": "aact",
+        "retrievedAt": "2026-02-24T08:36:39.949Z",
+        "isDuplicate": true,
+        "duplicateOf": {
+          "index": 16,
+          "title": "Clopidogrel Maintaining Dosage in Acute Coronary Syndrome After Drug Eluting Stent Implantation"
+        }
+      },
+      {
+        "nctId": "NCT00815100",
+        "title": "Effects of the Ivabradine on Reduction of Inflammatory Markers in Patients With Acute Coronary Syndrome",
+        "briefSummary": null,
+        "status": "COMPLETED",
+        "startDate": "2009-04-30",
+        "completionDate": "2011-09-07",
+        "studyType": "INTERVENTIONAL",
+        "phases": [
+          "PHASE4"
+        ],
+        "enrollment": 27,
+        "allocation": "RANDOMIZED",
+        "primaryPurpose": "TREATMENT",
+        "source": "aact",
+        "retrievedAt": "2026-02-24T08:36:39.950Z",
+        "isDuplicate": true,
+        "duplicateOf": {
+          "index": 7,
+          "title": "Effects in The ApoB/ApoA-I Ratio Using Rosuvastatin and Atorvastatin in Patients With Acute Coronary Syndrome"
+        }
+      },
+      {
+        "nctId": "NCT00830960",
+        "title": "A Comparison of Antiplatelet Therapies in Asian Subjects With Acute Coronary Syndrome",
+        "briefSummary": null,
+        "status": "COMPLETED",
+        "startDate": "2009-02-28",
+        "completionDate": "2010-06-30",
+        "studyType": "INTERVENTIONAL",
+        "phases": [
+          "PHASE3"
+        ],
+        "enrollment": 720,
+        "allocation": "RANDOMIZED",
+        "primaryPurpose": "TREATMENT",
+        "source": "aact",
+        "retrievedAt": "2026-02-24T08:36:39.950Z",
+        "isDuplicate": true,
+        "duplicateOf": {
+          "index": 13,
+          "title": "A Comparison of Ticagrelor (AZD6140) and Clopidogrel in Patients With Acute Coronary Syndrome"
+        }
+      },
+      {
+        "nctId": "NCT00910962",
+        "title": "A Study to Evaluate the Safety of 12 Weeks of Dosing With GW856553 and Its Effects on Inflammatory Markers, Infarct Size, and Cardiac Function in Subjects With Myocardial Infarction Without ST-segment Elevation",
+        "briefSummary": null,
+        "status": "COMPLETED",
+        "startDate": "2009-10-08",
+        "completionDate": "2012-03-06",
+        "studyType": "INTERVENTIONAL",
+        "phases": [
+          "PHASE2"
+        ],
+        "enrollment": 526,
+        "allocation": "RANDOMIZED",
+        "primaryPurpose": "TREATMENT",
+        "source": "aact",
+        "retrievedAt": "2026-02-24T08:36:39.950Z",
+        "isDuplicate": true,
+        "duplicateOf": {
+          "index": 6,
+          "title": "A Study Comparing Blood Flow and Clinical and Safety Effects of the Addition of Natrecor (Nesiritide), Placebo or Intravenous Nitroglycerin to Standard Care for the Treatment of Worsening Congestive Heart Failure."
+        }
+      }
+    ],
+    "excluded": [
+      {
+        "nctId": "NCT00225719",
+        "title": "Effect of rHDL on Atherosclerosis - Safety and Efficacy: THE ERASE TRIAL",
+        "briefSummary": null,
+        "status": "COMPLETED",
+        "startDate": "2005-07-31",
+        "completionDate": null,
+        "studyType": "INTERVENTIONAL",
+        "phases": [
+          "PHASE2"
+        ],
+        "enrollment": 180,
+        "allocation": "RANDOMIZED",
+        "primaryPurpose": "TREATMENT",
+        "source": "aact",
+        "retrievedAt": "2026-02-24T08:36:39.949Z",
+        "isDuplicate": false,
+        "classification": "exclude",
+        "relevanceScore": 0,
+        "relevanceReasons": [
+          "Missing required keywords",
+          "Contains 1 preferred keywords",
+          "Study design may not meet criteria: Unknown"
+        ],
+        "pico": null,
+        "needsReview": false,
+        "processedAt": "2026-02-24T08:36:41.068Z"
+      },
+      {
+        "nctId": "NCT00251576",
+        "title": "Aggrastat to Zocor (AtoZ) - the Use of Two Approved Drugs to Treat Patients Who Have Experienced Chest Pain or a Heart Attack (0733-180)",
+        "briefSummary": null,
+        "status": "COMPLETED",
+        "startDate": "1999-11-01",
+        "completionDate": "2004-03-23",
+        "studyType": "INTERVENTIONAL",
+        "phases": [
+          "PHASE3"
+        ],
+        "enrollment": 4497,
+        "allocation": "RANDOMIZED",
+        "primaryPurpose": "PREVENTION",
+        "source": "aact",
+        "retrievedAt": "2026-02-24T08:36:39.949Z",
+        "isDuplicate": false,
+        "classification": "exclude",
+        "relevanceScore": 0,
+        "relevanceReasons": [
+          "Missing required keywords",
+          "Contains 1 preferred keywords",
+          "Study design may not meet criteria: Unknown"
+        ],
+        "pico": null,
+        "needsReview": false,
+        "processedAt": "2026-02-24T08:36:41.070Z"
+      },
+      {
+        "nctId": "NCT00270374",
+        "title": "A Study Comparing Blood Flow and Clinical and Safety Effects of the Addition of Natrecor (Nesiritide), Placebo or Intravenous Nitroglycerin to Standard Care for the Treatment of Worsening Congestive Heart Failure.",
+        "briefSummary": null,
+        "status": "COMPLETED",
+        "startDate": "1999-10-31",
+        "completionDate": "2000-08-31",
+        "studyType": "INTERVENTIONAL",
+        "phases": [
+          "PHASE3"
+        ],
+        "enrollment": 498,
+        "allocation": "RANDOMIZED",
+        "primaryPurpose": "TREATMENT",
+        "source": "aact",
+        "retrievedAt": "2026-02-24T08:36:39.949Z",
+        "isDuplicate": false,
+        "classification": "exclude",
+        "relevanceScore": 0,
+        "relevanceReasons": [
+          "Missing required keywords",
+          "Study design may not meet criteria: Unknown"
+        ],
+        "pico": null,
+        "needsReview": false,
+        "processedAt": "2026-02-24T08:36:41.073Z"
+      },
+      {
+        "nctId": "NCT00320502",
+        "title": "A Phase 2 Study to Determine the Effects of BXT-51072 in Diabetic Patients Undergoing Angioplasty (PCI)",
+        "briefSummary": null,
+        "status": "COMPLETED",
+        "startDate": "2006-05-31",
+        "completionDate": "2008-08-31",
+        "studyType": "INTERVENTIONAL",
+        "phases": [
+          "PHASE2"
+        ],
+        "enrollment": 60,
+        "allocation": "RANDOMIZED",
+        "primaryPurpose": "TREATMENT",
+        "source": "aact",
+        "retrievedAt": "2026-02-24T08:36:39.949Z",
+        "isDuplicate": false,
+        "classification": "exclude",
+        "relevanceScore": 0,
+        "relevanceReasons": [
+          "Missing required keywords",
+          "Study design may not meet criteria: Unknown"
+        ],
+        "pico": null,
+        "needsReview": false,
+        "processedAt": "2026-02-24T08:36:41.088Z"
+      },
+      {
+        "nctId": "NCT00356135",
+        "title": "Effect of Prasugrel on Platelets After One Week in Patients Already Taking Clopidogrel After a Cardiac Event",
+        "briefSummary": null,
+        "status": "COMPLETED",
+        "startDate": "2006-07-31",
+        "completionDate": "2008-12-31",
+        "studyType": "INTERVENTIONAL",
+        "phases": [
+          "PHASE2"
+        ],
+        "enrollment": 139,
+        "allocation": "RANDOMIZED",
+        "primaryPurpose": "TREATMENT",
+        "source": "aact",
+        "retrievedAt": "2026-02-24T08:36:39.949Z",
+        "isDuplicate": false,
+        "classification": "exclude",
+        "relevanceScore": 0,
+        "relevanceReasons": [
+          "Missing required keywords",
+          "Study design may not meet criteria: Unknown"
+        ],
+        "pico": null,
+        "needsReview": false,
+        "processedAt": "2026-02-24T08:36:41.116Z"
+      },
+      {
+        "nctId": "NCT00404716",
+        "title": "Triple Versus Dual Antiplatelet Therapy in Patients Undergoing Coronary Stent Implantation",
+        "briefSummary": null,
+        "status": "COMPLETED",
+        "startDate": "2004-12-31",
+        "completionDate": "2007-02-28",
+        "studyType": "INTERVENTIONAL",
+        "phases": [
+          "PHASE4"
+        ],
+        "enrollment": null,
+        "allocation": "RANDOMIZED",
+        "primaryPurpose": "TREATMENT",
+        "source": "aact",
+        "retrievedAt": "2026-02-24T08:36:39.949Z",
+        "isDuplicate": false,
+        "classification": "exclude",
+        "relevanceScore": 0,
+        "relevanceReasons": [
+          "Missing required keywords",
+          "Study design may not meet criteria: Unknown"
+        ],
+        "pico": null,
+        "needsReview": false,
+        "processedAt": "2026-02-24T08:36:41.236Z"
+      },
+      {
+        "nctId": "NCT00404781",
+        "title": "Effects of Optimized Antiplatelet Treatment After Percutaneous Coronary Intervention",
+        "briefSummary": null,
+        "status": "COMPLETED",
+        "startDate": "2006-06-30",
+        "completionDate": "2007-06-30",
+        "studyType": "INTERVENTIONAL",
+        "phases": [
+          "PHASE4"
+        ],
+        "enrollment": 305,
+        "allocation": "RANDOMIZED",
+        "primaryPurpose": "TREATMENT",
+        "source": "aact",
+        "retrievedAt": "2026-02-24T08:36:39.949Z",
+        "isDuplicate": false,
+        "classification": "exclude",
+        "relevanceScore": 0,
+        "relevanceReasons": [
+          "Missing required keywords",
+          "Study design may not meet criteria: Unknown"
+        ],
+        "pico": null,
+        "needsReview": false,
+        "processedAt": "2026-02-24T08:36:41.256Z"
+      },
+      {
+        "nctId": "NCT00405717",
+        "title": "Effects of Atorvastatin Versus Pravastatin on Platelet Inhibition by Clopidogrel",
+        "briefSummary": null,
+        "status": "COMPLETED",
+        "startDate": "2006-02-28",
+        "completionDate": "2008-05-31",
+        "studyType": "INTERVENTIONAL",
+        "phases": [
+          "PHASE4"
+        ],
+        "enrollment": 1300,
+        "allocation": "RANDOMIZED",
+        "primaryPurpose": "TREATMENT",
+        "source": "aact",
+        "retrievedAt": "2026-02-24T08:36:39.949Z",
+        "isDuplicate": false,
+        "classification": "exclude",
+        "relevanceScore": 0,
+        "relevanceReasons": [
+          "Missing required keywords",
+          "Study design may not meet criteria: Unknown"
+        ],
+        "pico": null,
+        "needsReview": false,
+        "processedAt": "2026-02-24T08:36:41.280Z"
+      },
+      {
+        "nctId": "NCT00416026",
+        "title": "Translating Research: Patient Decision Support/Coaching",
+        "briefSummary": null,
+        "status": "COMPLETED",
+        "startDate": "2002-01-31",
+        "completionDate": "2004-10-31",
+        "studyType": "INTERVENTIONAL",
+        "phases": [
+          "NA"
+        ],
+        "enrollment": 304,
+        "allocation": "RANDOMIZED",
+        "primaryPurpose": "PREVENTION",
+        "source": "aact",
+        "retrievedAt": "2026-02-24T08:36:39.949Z",
+        "isDuplicate": false,
+        "classification": "exclude",
+        "relevanceScore": 0,
+        "relevanceReasons": [
+          "Missing required keywords",
+          "Study design may not meet criteria: Unknown"
+        ],
+        "pico": null,
+        "needsReview": false,
+        "processedAt": "2026-02-24T08:36:41.359Z"
+      },
+      {
+        "nctId": "NCT00464087",
+        "title": "Switching From Fondaparinux to Bivalirudin or Unfractionated Heparin in ACS Patients Undergoing PCI",
+        "briefSummary": null,
+        "status": "COMPLETED",
+        "startDate": "2007-06-30",
+        "completionDate": "2010-11-30",
+        "studyType": "INTERVENTIONAL",
+        "phases": [
+          "PHASE3"
+        ],
+        "enrollment": 100,
+        "allocation": "RANDOMIZED",
+        "primaryPurpose": "TREATMENT",
+        "source": "aact",
+        "retrievedAt": "2026-02-24T08:36:39.949Z",
+        "isDuplicate": false,
+        "classification": "exclude",
+        "relevanceScore": 0,
+        "relevanceReasons": [
+          "Missing required keywords",
+          "Study design may not meet criteria: Unknown"
+        ],
+        "pico": null,
+        "needsReview": false,
+        "processedAt": "2026-02-24T08:36:41.444Z"
+      },
+      {
+        "nctId": "NCT00479895",
+        "title": "Hemoglobin Based Oxygen Therapeutics in Elective Percutaneous Coronary Revascularization",
+        "briefSummary": null,
+        "status": "COMPLETED",
+        "startDate": "2007-04-30",
+        "completionDate": "2008-04-30",
+        "studyType": "INTERVENTIONAL",
+        "phases": [
+          "PHASE2"
+        ],
+        "enrollment": 5,
+        "allocation": "RANDOMIZED",
+        "primaryPurpose": "TREATMENT",
+        "source": "aact",
+        "retrievedAt": "2026-02-24T08:36:39.949Z",
+        "isDuplicate": false,
+        "classification": "exclude",
+        "relevanceScore": 0,
+        "relevanceReasons": [
+          "Missing required keywords",
+          "Study design may not meet criteria: Unknown"
+        ],
+        "pico": null,
+        "needsReview": false,
+        "processedAt": "2026-02-24T08:36:41.467Z"
+      },
+      {
+        "nctId": "NCT00632021",
+        "title": "Pharmacist Intervention to Decrease Medication Errors in Heart Disease Patients (The PILL-CVD Study)",
+        "briefSummary": null,
+        "status": "COMPLETED",
+        "startDate": "2008-05-31",
+        "completionDate": "2012-03-31",
+        "studyType": "INTERVENTIONAL",
+        "phases": [
+          "NA"
+        ],
+        "enrollment": 862,
+        "allocation": "RANDOMIZED",
+        "primaryPurpose": "HEALTH_SERVICES_RESEARCH",
+        "source": "aact",
+        "retrievedAt": "2026-02-24T08:36:39.949Z",
+        "isDuplicate": false,
+        "classification": "exclude",
+        "relevanceScore": 0,
+        "relevanceReasons": [
+          "Missing required keywords",
+          "Study design may not meet criteria: Unknown"
+        ],
+        "pico": null,
+        "needsReview": false,
+        "processedAt": "2026-02-24T08:36:41.805Z"
+      },
+      {
+        "nctId": "NCT00645918",
+        "title": "GRAVITAS: Gauging Responsiveness With A VerifyNow Assay-Impact On Thrombosis And Safety",
+        "briefSummary": null,
+        "status": "COMPLETED",
+        "startDate": "2008-06-30",
+        "completionDate": "2010-10-31",
+        "studyType": "INTERVENTIONAL",
+        "phases": [
+          "NA"
+        ],
+        "enrollment": 2800,
+        "allocation": "RANDOMIZED",
+        "primaryPurpose": null,
+        "source": "aact",
+        "retrievedAt": "2026-02-24T08:36:39.949Z",
+        "isDuplicate": false,
+        "classification": "exclude",
+        "relevanceScore": 0,
+        "relevanceReasons": [
+          "Missing required keywords",
+          "Study design may not meet criteria: Unknown"
+        ],
+        "pico": null,
+        "needsReview": false,
+        "processedAt": "2026-02-24T08:36:41.856Z"
+      },
+      {
+        "nctId": "NCT00678639",
+        "title": "Cost Comparison of Cardiac Magnetic Resonance Imaging (MRI) Use in Emergency Department (ED) Patients With Chest Pain",
+        "briefSummary": null,
+        "status": "COMPLETED",
+        "startDate": "2008-01-31",
+        "completionDate": "2009-03-31",
+        "studyType": "INTERVENTIONAL",
+        "phases": [
+          "NA"
+        ],
+        "enrollment": 110,
+        "allocation": "RANDOMIZED",
+        "primaryPurpose": "DIAGNOSTIC",
+        "source": "aact",
+        "retrievedAt": "2026-02-24T08:36:39.949Z",
+        "isDuplicate": false,
+        "classification": "exclude",
+        "relevanceScore": 0,
+        "relevanceReasons": [
+          "Missing required keywords",
+          "Study design may not meet criteria: Unknown"
+        ],
+        "pico": null,
+        "needsReview": false,
+        "processedAt": "2026-02-24T08:36:42.047Z"
+      },
+      {
+        "nctId": "NCT00683111",
+        "title": "Prevention of Gastrointestinal Bleeding in Patients With Severe Ischemic Heart Disease",
+        "briefSummary": null,
+        "status": "COMPLETED",
+        "startDate": "2008-07-31",
+        "completionDate": "2011-12-31",
+        "studyType": "INTERVENTIONAL",
+        "phases": [
+          "PHASE4"
+        ],
+        "enrollment": 500,
+        "allocation": "RANDOMIZED",
+        "primaryPurpose": "PREVENTION",
+        "source": "aact",
+        "retrievedAt": "2026-02-24T08:36:39.949Z",
+        "isDuplicate": false,
+        "classification": "exclude",
+        "relevanceScore": 0,
+        "relevanceReasons": [
+          "Missing required keywords",
+          "Study design may not meet criteria: Unknown"
+        ],
+        "pico": null,
+        "needsReview": false,
+        "processedAt": "2026-02-24T08:36:42.135Z"
+      },
+      {
+        "nctId": "NCT00700037",
+        "title": "Change in Plaque Characteristics With Atorvastatin",
+        "briefSummary": null,
+        "status": "COMPLETED",
+        "startDate": "2009-08-31",
+        "completionDate": "2012-02-29",
+        "studyType": "INTERVENTIONAL",
+        "phases": [
+          "PHASE4"
+        ],
+        "enrollment": 70,
+        "allocation": "RANDOMIZED",
+        "primaryPurpose": "TREATMENT",
+        "source": "aact",
+        "retrievedAt": "2026-02-24T08:36:39.949Z",
+        "isDuplicate": false,
+        "classification": "exclude",
+        "relevanceScore": 0,
+        "relevanceReasons": [
+          "Missing required keywords",
+          "Study design may not meet criteria: Unknown"
+        ],
+        "pico": null,
+        "needsReview": false,
+        "processedAt": "2026-02-24T08:36:42.377Z"
+      },
+      {
+        "nctId": "NCT00705458",
+        "title": "Study Comparing CT Scan and Stress Test in Diagnosing Coronary Artery Disease in Patients Hospitalized for Chest Pain",
+        "briefSummary": null,
+        "status": "COMPLETED",
+        "startDate": "2008-07-31",
+        "completionDate": "2013-12-31",
+        "studyType": "INTERVENTIONAL",
+        "phases": [
+          "NA"
+        ],
+        "enrollment": 400,
+        "allocation": "RANDOMIZED",
+        "primaryPurpose": "DIAGNOSTIC",
+        "source": "aact",
+        "retrievedAt": "2026-02-24T08:36:39.949Z",
+        "isDuplicate": false,
+        "classification": "exclude",
+        "relevanceScore": 0,
+        "relevanceReasons": [
+          "Missing required keywords",
+          "Study design may not meet criteria: Unknown"
+        ],
+        "pico": null,
+        "needsReview": false,
+        "processedAt": "2026-02-24T08:36:42.463Z"
+      },
+      {
+        "nctId": "NCT00716352",
+        "title": "Prospective Registry of Outcomes and Management of Acute Ischaemic Syndromes",
+        "briefSummary": null,
+        "status": "COMPLETED",
+        "startDate": "2004-03-31",
+        "completionDate": "2005-11-30",
+        "studyType": "INTERVENTIONAL",
+        "phases": [
+          "NA"
+        ],
+        "enrollment": 1340,
+        "allocation": "RANDOMIZED",
+        "primaryPurpose": "HEALTH_SERVICES_RESEARCH",
+        "source": "aact",
+        "retrievedAt": "2026-02-24T08:36:39.949Z",
+        "isDuplicate": false,
+        "classification": "exclude",
+        "relevanceScore": 25,
+        "relevanceReasons": [
+          "Missing required keywords",
+          "Accepted study design: Observational"
+        ],
+        "pico": null,
+        "needsReview": true,
+        "processedAt": "2026-02-24T08:36:42.652Z"
+      },
+      {
+        "nctId": "NCT00754533",
+        "title": "Continuous Versus Interval Training in Patients With Coronary Artery Disease: FRAXIO Study",
+        "briefSummary": null,
+        "status": "COMPLETED",
+        "startDate": "2008-09-30",
+        "completionDate": "2010-09-30",
+        "studyType": "INTERVENTIONAL",
+        "phases": [
+          "NA"
+        ],
+        "enrollment": 64,
+        "allocation": "RANDOMIZED",
+        "primaryPurpose": "PREVENTION",
+        "source": "aact",
+        "retrievedAt": "2026-02-24T08:36:39.950Z",
+        "isDuplicate": false,
+        "classification": "exclude",
+        "relevanceScore": 0,
+        "relevanceReasons": [
+          "Missing required keywords",
+          "Study design may not meet criteria: Unknown"
+        ],
+        "pico": null,
+        "needsReview": false,
+        "processedAt": "2026-02-24T08:36:43.154Z"
+      },
+      {
+        "nctId": "NCT00766896",
+        "title": "Platelet Hyperreactivity to Aspirin and Stroke",
+        "briefSummary": null,
+        "status": "COMPLETED",
+        "startDate": "2009-07-31",
+        "completionDate": "2013-06-30",
+        "studyType": "INTERVENTIONAL",
+        "phases": [
+          "PHASE4"
+        ],
+        "enrollment": 203,
+        "allocation": "RANDOMIZED",
+        "primaryPurpose": "DIAGNOSTIC",
+        "source": "aact",
+        "retrievedAt": "2026-02-24T08:36:39.950Z",
+        "isDuplicate": false,
+        "classification": "exclude",
+        "relevanceScore": 0,
+        "relevanceReasons": [
+          "Missing required keywords",
+          "Study design may not meet criteria: Unknown"
+        ],
+        "pico": null,
+        "needsReview": false,
+        "processedAt": "2026-02-24T08:36:43.456Z"
+      },
+      {
+        "nctId": "NCT00767507",
+        "title": "Maintenance of Platelet Inhibition With Cangrelor",
+        "briefSummary": null,
+        "status": "COMPLETED",
+        "startDate": "2008-10-31",
+        "completionDate": "2011-07-31",
+        "studyType": "INTERVENTIONAL",
+        "phases": [
+          "PHASE2"
+        ],
+        "enrollment": 221,
+        "allocation": "RANDOMIZED",
+        "primaryPurpose": "TREATMENT",
+        "source": "aact",
+        "retrievedAt": "2026-02-24T08:36:39.950Z",
+        "isDuplicate": false,
+        "classification": "exclude",
+        "relevanceScore": 0,
+        "relevanceReasons": [
+          "Missing required keywords",
+          "Study design may not meet criteria: Unknown"
+        ],
+        "pico": null,
+        "needsReview": false,
+        "processedAt": "2026-02-24T08:36:43.600Z"
+      },
+      {
+        "nctId": "NCT00768274",
+        "title": "Safety, Pharmacokinetic Study of RVX000222 in Healthy Subjects and Subjects With Low HDL Cholesterol",
+        "briefSummary": null,
+        "status": "COMPLETED",
+        "startDate": "2008-09-30",
+        "completionDate": "2009-08-31",
+        "studyType": "INTERVENTIONAL",
+        "phases": [
+          "PHASE1/PHASE2"
+        ],
+        "enrollment": 72,
+        "allocation": "RANDOMIZED",
+        "primaryPurpose": "TREATMENT",
+        "source": "aact",
+        "retrievedAt": "2026-02-24T08:36:39.950Z",
+        "isDuplicate": false,
+        "classification": "exclude",
+        "relevanceScore": 0,
+        "relevanceReasons": [
+          "Missing required keywords",
+          "Study design may not meet criteria: Unknown"
+        ],
+        "pico": null,
+        "needsReview": false,
+        "processedAt": "2026-02-24T08:36:43.761Z"
+      },
+      {
+        "nctId": "NCT00781118",
+        "title": "AngelMed for Early Recognition and Treatment of STEMI",
+        "briefSummary": null,
+        "status": "COMPLETED",
+        "startDate": "2008-12-31",
+        "completionDate": "2017-05-17",
+        "studyType": "INTERVENTIONAL",
+        "phases": [
+          "PHASE3"
+        ],
+        "enrollment": 1020,
+        "allocation": "RANDOMIZED",
+        "primaryPurpose": "PREVENTION",
+        "source": "aact",
+        "retrievedAt": "2026-02-24T08:36:39.950Z",
+        "isDuplicate": false,
+        "classification": "exclude",
+        "relevanceScore": 0,
+        "relevanceReasons": [
+          "Missing required keywords",
+          "Contains 1 preferred keywords",
+          "Study design may not meet criteria: Unknown"
+        ],
+        "pico": null,
+        "needsReview": false,
+        "processedAt": "2026-02-24T08:36:43.932Z"
+      },
+      {
+        "nctId": "NCT00790387",
+        "title": "Tirofiban and Enoxaparin in High Risk Coronary Intervention",
+        "briefSummary": null,
+        "status": "COMPLETED",
+        "startDate": "2004-06-30",
+        "completionDate": "2006-12-31",
+        "studyType": "INTERVENTIONAL",
+        "phases": [
+          "PHASE4"
+        ],
+        "enrollment": 60,
+        "allocation": "RANDOMIZED",
+        "primaryPurpose": "TREATMENT",
+        "source": "aact",
+        "retrievedAt": "2026-02-24T08:36:39.950Z",
+        "isDuplicate": false,
+        "classification": "exclude",
+        "relevanceScore": 0,
+        "relevanceReasons": [
+          "Missing required keywords",
+          "Study design may not meet criteria: Unknown"
+        ],
+        "pico": null,
+        "needsReview": false,
+        "processedAt": "2026-02-24T08:36:44.088Z"
+      },
+      {
+        "nctId": "NCT00827411",
+        "title": "Double Randomization of a Monitoring Adjusted Antiplatelet Treatment Versus a Common Antiplatelet Treatment for DES Implantation, and Interruption Versus Continuation of Double Antiplatelet Therapy",
+        "briefSummary": null,
+        "status": "COMPLETED",
+        "startDate": "2009-01-31",
+        "completionDate": "2013-01-31",
+        "studyType": "INTERVENTIONAL",
+        "phases": [
+          "PHASE4"
+        ],
+        "enrollment": 2500,
+        "allocation": "RANDOMIZED",
+        "primaryPurpose": "TREATMENT",
+        "source": "aact",
+        "retrievedAt": "2026-02-24T08:36:39.950Z",
+        "isDuplicate": false,
+        "classification": "exclude",
+        "relevanceScore": 0,
+        "relevanceReasons": [
+          "Missing required keywords",
+          "Study design may not meet criteria: Unknown"
+        ],
+        "pico": null,
+        "needsReview": false,
+        "processedAt": "2026-02-24T08:36:44.856Z"
+      },
+      {
+        "nctId": "NCT00829660",
+        "title": "Acarbose Cardiovascular Evaluation Trial",
+        "briefSummary": null,
+        "status": "COMPLETED",
+        "startDate": "2009-02-17",
+        "completionDate": "2017-04-18",
+        "studyType": "INTERVENTIONAL",
+        "phases": [
+          "PHASE4"
+        ],
+        "enrollment": 6526,
+        "allocation": "RANDOMIZED",
+        "primaryPurpose": "PREVENTION",
+        "source": "aact",
+        "retrievedAt": "2026-02-24T08:36:39.950Z",
+        "isDuplicate": false,
+        "classification": "exclude",
+        "relevanceScore": 0,
+        "relevanceReasons": [
+          "Missing required keywords",
+          "Contains 1 preferred keywords",
+          "Study design may not meet criteria: Unknown"
+        ],
+        "pico": null,
+        "needsReview": false,
+        "processedAt": "2026-02-24T08:36:44.964Z"
+      },
+      {
+        "nctId": "NCT00869245",
+        "title": "Efficacy Evaluation of Observation Unit Cardiac Magnetic Resonance Imaging (MRI) in Patients With Intermediate Risk Acute Chest Pain",
+        "briefSummary": null,
+        "status": "COMPLETED",
+        "startDate": "2009-03-31",
+        "completionDate": "2011-10-31",
+        "studyType": "INTERVENTIONAL",
+        "phases": [
+          "NA"
+        ],
+        "enrollment": 124,
+        "allocation": "RANDOMIZED",
+        "primaryPurpose": "DIAGNOSTIC",
+        "source": "aact",
+        "retrievedAt": "2026-02-24T08:36:39.950Z",
+        "isDuplicate": false,
+        "classification": "exclude",
+        "relevanceScore": 0,
+        "relevanceReasons": [
+          "Missing required keywords",
+          "Study design may not meet criteria: Unknown"
+        ],
+        "pico": null,
+        "needsReview": false,
+        "processedAt": "2026-02-24T08:36:45.413Z"
+      },
+      {
+        "nctId": "NCT00929279",
+        "title": "Efficacy of Abciximab Bolus Only Regimen in Providing Inhibition of Platelet Action Over Time",
+        "briefSummary": null,
+        "status": "COMPLETED",
+        "startDate": "2008-11-30",
+        "completionDate": "2009-05-31",
+        "studyType": "INTERVENTIONAL",
+        "phases": [
+          "PHASE4"
+        ],
+        "enrollment": 73,
+        "allocation": "RANDOMIZED",
+        "primaryPurpose": "TREATMENT",
+        "source": "aact",
+        "retrievedAt": "2026-02-24T08:36:39.950Z",
+        "isDuplicate": false,
+        "classification": "exclude",
+        "relevanceScore": 0,
+        "relevanceReasons": [
+          "Missing required keywords",
+          "Study design may not meet criteria: Unknown"
+        ],
+        "pico": null,
+        "needsReview": false,
+        "processedAt": "2026-02-24T08:36:45.862Z"
+      },
+      {
+        "nctId": "NCT00965406",
+        "title": "Glucose Insulin Potassium With Intensive Insulin Therapy and (GIK2) Versus GIK Alone",
+        "briefSummary": null,
+        "status": "COMPLETED",
+        "startDate": "2010-08-31",
+        "completionDate": "2014-06-30",
+        "studyType": "INTERVENTIONAL",
+        "phases": [
+          "PHASE3"
+        ],
+        "enrollment": 772,
+        "allocation": "RANDOMIZED",
+        "primaryPurpose": "TREATMENT",
+        "source": "aact",
+        "retrievedAt": "2026-02-24T08:36:39.950Z",
+        "isDuplicate": false,
+        "classification": "exclude",
+        "relevanceScore": 0,
+        "relevanceReasons": [
+          "Missing required keywords",
+          "Study design may not meet criteria: Unknown"
+        ],
+        "pico": null,
+        "needsReview": false,
+        "processedAt": "2026-02-24T08:36:46.633Z"
+      },
+      {
+        "nctId": "NCT00965471",
+        "title": "Effect of Chinese Traditional Medicine for Post Revascularization Treatment of Coronary Artery Disease",
+        "briefSummary": null,
+        "status": "COMPLETED",
+        "startDate": "2006-10-31",
+        "completionDate": "2009-06-30",
+        "studyType": "INTERVENTIONAL",
+        "phases": [
+          "NA"
+        ],
+        "enrollment": 940,
+        "allocation": "RANDOMIZED",
+        "primaryPurpose": "TREATMENT",
+        "source": "aact",
+        "retrievedAt": "2026-02-24T08:36:39.950Z",
+        "isDuplicate": false,
+        "classification": "exclude",
+        "relevanceScore": 0,
+        "relevanceReasons": [
+          "Missing required keywords",
+          "Study design may not meet criteria: Unknown"
+        ],
+        "pico": null,
+        "needsReview": false,
+        "processedAt": "2026-02-24T08:36:46.766Z"
+      },
+      {
+        "nctId": "NCT01004406",
+        "title": "Plaque Regression and Progenitor Cell Mobilization With Intensive Lipid Elimination Regimen (PREMIER), Phase I",
+        "briefSummary": null,
+        "status": "COMPLETED",
+        "startDate": "2011-09-30",
+        "completionDate": "2013-03-31",
+        "studyType": "INTERVENTIONAL",
+        "phases": [
+          "PHASE3"
+        ],
+        "enrollment": 59,
+        "allocation": "RANDOMIZED",
+        "primaryPurpose": "PREVENTION",
+        "source": "aact",
+        "retrievedAt": "2026-02-24T08:36:39.950Z",
+        "isDuplicate": false,
+        "classification": "exclude",
+        "relevanceScore": 0,
+        "relevanceReasons": [
+          "Missing required keywords",
+          "Study design may not meet criteria: Unknown"
+        ],
+        "pico": null,
+        "needsReview": false,
+        "processedAt": "2026-02-24T08:36:47.710Z"
+      },
+      {
+        "nctId": "NCT00127517",
+        "title": "Palliative Care Study in Patients With Advanced Cancer",
+        "briefSummary": null,
+        "status": "TERMINATED",
+        "startDate": "2005-03-31",
+        "completionDate": "2006-08-31",
+        "studyType": "INTERVENTIONAL",
+        "phases": [
+          "PHASE2"
+        ],
+        "enrollment": null,
+        "allocation": "RANDOMIZED",
+        "primaryPurpose": "TREATMENT",
+        "source": "aact",
+        "retrievedAt": "2026-02-24T08:36:41.064Z",
+        "isDuplicate": false,
+        "classification": "exclude",
+        "relevanceScore": 0,
+        "relevanceReasons": [
+          "Missing required keywords",
+          "Study design may not meet criteria: Unknown"
+        ],
+        "pico": null,
+        "needsReview": false,
+        "processedAt": "2026-02-24T08:36:47.970Z"
+      },
+      {
+        "nctId": "NCT00528411",
+        "title": "A Study of the Onset and Offset of Antiplatelet Effects Comparing Ticagrelor, Clopidogrel, and Placebo With Aspirin",
+        "briefSummary": null,
+        "status": "COMPLETED",
+        "startDate": "2007-10-31",
+        "completionDate": "2009-03-31",
+        "studyType": "INTERVENTIONAL",
+        "phases": [
+          "PHASE2"
+        ],
+        "enrollment": 123,
+        "allocation": "RANDOMIZED",
+        "primaryPurpose": "TREATMENT",
+        "source": "aact",
+        "retrievedAt": "2026-02-24T08:36:41.064Z",
+        "isDuplicate": false,
+        "classification": "exclude",
+        "relevanceScore": 0,
+        "relevanceReasons": [
+          "Missing required keywords",
+          "Study design may not meet criteria: Unknown"
+        ],
+        "pico": null,
+        "needsReview": false,
+        "processedAt": "2026-02-24T08:36:48.155Z"
+      },
+      {
+        "nctId": "NCT01187134",
+        "title": "Medical Education for Sepsis Source Control and Antibiotics",
+        "briefSummary": null,
+        "status": "COMPLETED",
+        "startDate": "2011-07-31",
+        "completionDate": "2013-07-31",
+        "studyType": "INTERVENTIONAL",
+        "phases": [
+          "NA"
+        ],
+        "enrollment": 4138,
+        "allocation": "RANDOMIZED",
+        "primaryPurpose": "OTHER",
+        "source": "aact",
+        "retrievedAt": "2026-02-24T08:36:41.064Z",
+        "isDuplicate": false,
+        "classification": "exclude",
+        "relevanceScore": 0,
+        "relevanceReasons": [
+          "Missing required keywords",
+          "Study design may not meet criteria: Unknown"
+        ],
+        "pico": null,
+        "needsReview": false,
+        "processedAt": "2026-02-24T08:36:48.316Z"
+      },
+      {
+        "nctId": "NCT01764633",
+        "title": "Further Cardiovascular Outcomes Research With PCSK9 Inhibition in Subjects With Elevated Risk",
+        "briefSummary": null,
+        "status": "COMPLETED",
+        "startDate": "2013-02-08",
+        "completionDate": "2016-11-11",
+        "studyType": "INTERVENTIONAL",
+        "phases": [
+          "PHASE3"
+        ],
+        "enrollment": 27564,
+        "allocation": "RANDOMIZED",
+        "primaryPurpose": "TREATMENT",
+        "source": "aact",
+        "retrievedAt": "2026-02-24T08:36:41.064Z",
+        "isDuplicate": false,
+        "classification": "exclude",
+        "relevanceScore": 0,
+        "relevanceReasons": [
+          "Missing required keywords",
+          "Study design may not meet criteria: Unknown"
+        ],
+        "pico": null,
+        "needsReview": false,
+        "processedAt": "2026-02-24T08:36:48.994Z"
+      },
+      {
+        "nctId": "NCT03234114",
+        "title": "Optimal Antithrombotic Therapy for ACS Patients Concomitant With AF and Implanted With New-generation DES (OPTIMA-3, 4)",
+        "briefSummary": null,
+        "status": "UNKNOWN",
+        "startDate": "2018-02-03",
+        "completionDate": "2024-12-31",
+        "studyType": "INTERVENTIONAL",
+        "phases": [
+          "PHASE4"
+        ],
+        "enrollment": 3746,
+        "allocation": "RANDOMIZED",
+        "primaryPurpose": "TREATMENT",
+        "source": "aact",
+        "retrievedAt": "2026-02-24T08:36:41.064Z",
+        "isDuplicate": false,
+        "classification": "exclude",
+        "relevanceScore": 0,
+        "relevanceReasons": [
+          "Missing required keywords",
+          "Study design may not meet criteria: Unknown"
+        ],
+        "pico": null,
+        "needsReview": false,
+        "processedAt": "2026-02-24T08:36:49.338Z"
+      }
+    ],
+    "summary": {
+      "totalFound": 86,
+      "newPotentialInclusions": 2,
+      "newMaybes": 41,
+      "duplicatesDetected": 7,
+      "autoExcluded": 36,
+      "trialUniverseWithoutPICO": 86,
+      "trialUniverseWithPICO": 50,
+      "trialUniverseRetainedPct": 58.1
+    },
+    "trialUniverse": {
+      "decision": "PASS",
+      "withoutPICO": {
+        "totalStudies": 86,
+        "uniqueNctCount": 86,
+        "studyIds": [
+          "NCT00077818",
+          "NCT00089895",
+          "NCT00097591",
+          "NCT00214630",
+          "NCT00225719",
+          "NCT00251576",
+          "NCT00270374",
+          "NCT00296387",
+          "NCT00313300",
+          "NCT00320502",
+          "NCT00337480",
+          "NCT00356135",
+          "NCT00385944",
+          "NCT00391872",
+          "NCT00399880",
+          "NCT00402597",
+          "NCT00404053",
+          "NCT00404716",
+          "NCT00404781",
+          "NCT00405717",
+          "NCT00409578",
+          "NCT00416026",
+          "NCT00442949",
+          "NCT00452517",
+          "NCT00464087",
+          "NCT00479895",
+          "NCT00494247",
+          "NCT00510185",
+          "NCT00548587",
+          "NCT00552188",
+          "NCT00619164",
+          "NCT00627809",
+          "NCT00632021",
+          "NCT00645918",
+          "NCT00665834",
+          "NCT00677053",
+          "NCT00678639",
+          "NCT00683111",
+          "NCT00689611",
+          "NCT00699998",
+          "NCT00700037",
+          "NCT00705458",
+          "NCT00714961",
+          "NCT00716352",
+          "NCT00728988",
+          "NCT00734760",
+          "NCT00743925",
+          "NCT00754533",
+          "NCT00754819",
+          "NCT00766896",
+          "NCT00767507",
+          "NCT00768274",
+          "NCT00781118",
+          "NCT00790387",
+          "NCT00790907",
+          "NCT00794573",
+          "NCT00809965",
+          "NCT00815100",
+          "NCT00822679",
+          "NCT00827411",
+          "NCT00829660",
+          "NCT00830960",
+          "NCT00855257",
+          "NCT00869245",
+          "NCT00903032",
+          "NCT00910065",
+          "NCT00910962",
+          "NCT00929279",
+          "NCT00932100",
+          "NCT00933400",
+          "NCT00952250",
+          "NCT00958958",
+          "NCT00965406",
+          "NCT00965471",
+          "NCT00968708",
+          "NCT00987597",
+          "NCT00994292",
+          "NCT00997750",
+          "NCT01000727",
+          "NCT01004406",
+          "NCT00127517",
+          "NCT00528411",
+          "NCT01187134",
+          "NCT01663402",
+          "NCT01764633",
+          "NCT03234114"
+        ],
+        "duplicateCount": 0,
+        "duplicateStudyIds": []
+      },
+      "withPICO": {
+        "totalStudies": 50,
+        "includeCount": 4,
+        "maybeCount": 46,
+        "excludeCount": 36,
+        "studyIds": [
+          "NCT00077818",
+          "NCT00089895",
+          "NCT00097591",
+          "NCT00214630",
+          "NCT00296387",
+          "NCT00313300",
+          "NCT00337480",
+          "NCT00385944",
+          "NCT00391872",
+          "NCT00399880",
+          "NCT00402597",
+          "NCT00404053",
+          "NCT00409578",
+          "NCT00442949",
+          "NCT00452517",
+          "NCT00494247",
+          "NCT00510185",
+          "NCT00548587",
+          "NCT00552188",
+          "NCT00619164",
+          "NCT00627809",
+          "NCT00665834",
+          "NCT00677053",
+          "NCT00689611",
+          "NCT00699998",
+          "NCT00714961",
+          "NCT00728988",
+          "NCT00734760",
+          "NCT00743925",
+          "NCT00754819",
+          "NCT00790907",
+          "NCT00794573",
+          "NCT00809965",
+          "NCT00815100",
+          "NCT00822679",
+          "NCT00830960",
+          "NCT00855257",
+          "NCT00903032",
+          "NCT00910065",
+          "NCT00910962",
+          "NCT00932100",
+          "NCT00933400",
+          "NCT00952250",
+          "NCT00958958",
+          "NCT00968708",
+          "NCT00987597",
+          "NCT00994292",
+          "NCT00997750",
+          "NCT01000727",
+          "NCT01663402"
+        ],
+        "includeStudyIds": [
+          "NCT00627809",
+          "NCT00714961",
+          "NCT00910962",
+          "NCT01000727"
+        ],
+        "maybeStudyIds": [
+          "NCT00077818",
+          "NCT00089895",
+          "NCT00097591",
+          "NCT00214630",
+          "NCT00296387",
+          "NCT00313300",
+          "NCT00337480",
+          "NCT00385944",
+          "NCT00391872",
+          "NCT00399880",
+          "NCT00402597",
+          "NCT00404053",
+          "NCT00409578",
+          "NCT00442949",
+          "NCT00452517",
+          "NCT00494247",
+          "NCT00510185",
+          "NCT00548587",
+          "NCT00552188",
+          "NCT00619164",
+          "NCT00665834",
+          "NCT00677053",
+          "NCT00689611",
+          "NCT00699998",
+          "NCT00728988",
+          "NCT00734760",
+          "NCT00743925",
+          "NCT00754819",
+          "NCT00790907",
+          "NCT00794573",
+          "NCT00809965",
+          "NCT00815100",
+          "NCT00822679",
+          "NCT00830960",
+          "NCT00855257",
+          "NCT00903032",
+          "NCT00910065",
+          "NCT00932100",
+          "NCT00933400",
+          "NCT00952250",
+          "NCT00958958",
+          "NCT00968708",
+          "NCT00987597",
+          "NCT00994292",
+          "NCT00997750",
+          "NCT01663402"
+        ],
+        "excludeStudyIds": [
+          "NCT00225719",
+          "NCT00251576",
+          "NCT00270374",
+          "NCT00320502",
+          "NCT00356135",
+          "NCT00404716",
+          "NCT00404781",
+          "NCT00405717",
+          "NCT00416026",
+          "NCT00464087",
+          "NCT00479895",
+          "NCT00632021",
+          "NCT00645918",
+          "NCT00678639",
+          "NCT00683111",
+          "NCT00700037",
+          "NCT00705458",
+          "NCT00716352",
+          "NCT00754533",
+          "NCT00766896",
+          "NCT00767507",
+          "NCT00768274",
+          "NCT00781118",
+          "NCT00790387",
+          "NCT00827411",
+          "NCT00829660",
+          "NCT00869245",
+          "NCT00929279",
+          "NCT00965406",
+          "NCT00965471",
+          "NCT01004406",
+          "NCT00127517",
+          "NCT00528411",
+          "NCT01187134",
+          "NCT01764633",
+          "NCT03234114"
+        ]
+      },
+      "comparison": {
+        "removedByPICO": 36,
+        "retainedPct": 58.1,
+        "excludedPct": 41.9
+      }
+    },
+    "landmarkCoverage": {
+      "decision": "FLAG",
+      "guidelineProfile": "cardiology",
+      "overallCoveragePct": 53.8,
+      "totalExpected": 13,
+      "totalFound": 7,
+      "minCoveragePct": 70,
+      "areas": {
+        "acute_coronary_syndromes": {
+          "expected": 13,
+          "found": 7,
+          "missing": 6,
+          "coveragePct": 53.8,
+          "foundNctIds": [
+            "NCT00391872",
+            "NCT00528411",
+            "NCT01187134",
+            "NCT03234114",
+            "NCT01764633",
+            "NCT01663402",
+            "NCT00127517"
+          ],
+          "missingNctIds": [
+            "NCT02548650",
+            "NCT01305993",
+            "NCT02079636",
+            "NCT00469729",
+            "NCT00428961",
+            "NCT00610532"
+          ]
+        }
+      }
+    },
+    "robustness": {
+      "decision": "FLAG",
+      "score": 85.7,
+      "metrics": {
+        "aactIncrementalNctCount": 86,
+        "knownGapRecovered": 0,
+        "knownGapRecoveryPct": 0,
+        "landmarkCoveragePct": 53.8,
+        "picoRetentionPct": 58.1,
+        "trialUniverseCount": 86
+      },
+      "checks": [
+        {
+          "id": "source_coverage",
+          "label": "Required source coverage",
+          "pass": true,
+          "value": 1
+        },
+        {
+          "id": "ctgov_strategy_depth",
+          "label": "CT.gov strategy depth",
+          "pass": true,
+          "value": 0
+        },
+        {
+          "id": "ctgov_error_free",
+          "label": "CT.gov execution without errors",
+          "pass": true,
+          "value": 1
+        },
+        {
+          "id": "aact_available",
+          "label": "AACT availability",
+          "pass": true,
+          "value": 1
+        },
+        {
+          "id": "aact_incremental_capture",
+          "label": "AACT incremental capture over CT.gov",
+          "pass": true,
+          "value": 86
+        },
+        {
+          "id": "landmark_coverage",
+          "label": "ESC landmark coverage",
+          "pass": false,
+          "value": 53.8
+        },
+        {
+          "id": "trial_universe_pico",
+          "label": "Trial universe with and without PICO",
+          "pass": true,
+          "value": 58.1
+        }
+      ],
+      "actionItems": [
+        "Landmark trial coverage is 53.8%, below required 70.0%."
+      ]
+    }
+  }
+}

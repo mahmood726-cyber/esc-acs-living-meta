@@ -1,0 +1,5572 @@
+{
+  "generatedAt": "2026-02-24T08:36:37.647Z",
+  "areaKey": "atrial_fibrillation",
+  "guidelineProfile": "cardiology",
+  "strategy": {
+    "id": "strat_1771922182862_ed9fxxmuh",
+    "name": "ESC atrial_fibrillation surveillance",
+    "created": "2026-02-24T08:36:22.862Z",
+    "lastRun": null,
+    "guidelineProfile": "cardiology",
+    "sources": [
+      "aact"
+    ],
+    "searchObjective": "balanced",
+    "queries": {
+      "pubmed": null,
+      "ctgov": null,
+      "embase": null,
+      "cochrane": null,
+      "aact": {
+        "guidelineProfile": "cardiology",
+        "guidelineArea": "atrial_fibrillation",
+        "condition": "atrial fibrillation",
+        "useAreaTerms": false,
+        "completedOnly": true,
+        "status": [
+          "COMPLETED"
+        ],
+        "maxResults": 80
+      }
+    },
+    "ctgovStrategy": {
+      "mode": "single",
+      "primaryStrategyId": "S3",
+      "strategyIds": [
+        "S3"
+      ],
+      "strategyEvidence": [
+        {
+          "strategyId": "S3",
+          "preset": "Randomized Allocation Only",
+          "meanRecallPct": 99,
+          "minRecallPct": 85.7,
+          "retentionPct": 54
+        },
+        {
+          "strategyId": "S6",
+          "preset": "Completed Status",
+          "meanRecallPct": 85.4,
+          "minRecallPct": 50,
+          "retentionPct": 55
+        },
+        {
+          "strategyId": "S10",
+          "preset": "Treatment RCTs Only",
+          "meanRecallPct": 84.8,
+          "minRecallPct": 0,
+          "retentionPct": 36
+        }
+      ],
+      "strategyRationale": [
+        "Objective \"balanced\" selected default strategy bundle."
+      ],
+      "includeStatusFilter": true
+    },
+    "infrastructure": {
+      "aactGatewayUrl": "http://127.0.0.1:8787/aact/query",
+      "embaseApiKey": null
+    },
+    "filters": {
+      "dateRange": {
+        "from": null,
+        "to": null
+      },
+      "studyTypes": [
+        "RCT"
+      ],
+      "languages": [
+        "en"
+      ],
+      "humans": true,
+      "ctgovStatuses": [
+        "COMPLETED",
+        "ACTIVE_NOT_RECRUITING",
+        "RECRUITING"
+      ]
+    },
+    "inclusionCriteria": {
+      "requiredKeywords": [
+        "atrial fibrillation",
+        "atrial flutter"
+      ],
+      "preferredKeywords": [
+        "paroxysmal af",
+        "persistent af",
+        "afib",
+        "randomized",
+        "trial",
+        "double blind"
+      ],
+      "exclusionKeywords": [
+        "protocol",
+        "retrospective",
+        "animal",
+        "in vitro"
+      ],
+      "acceptedDesigns": [
+        "RCT",
+        "Observational"
+      ]
+    },
+    "qualityTargets": {
+      "minCtgovRecallPct": 90,
+      "requireAACTForFinalReview": true,
+      "requireAACTIncrementalCapture": false,
+      "minAACTIncrementalNcts": 1,
+      "enforceLandmarkCoverage": true,
+      "minLandmarkCoveragePct": 70,
+      "landmarkGuidelineAreas": [
+        "atrial_fibrillation"
+      ],
+      "minSourcesForHighConfidence": 2
+    },
+    "schedule": {
+      "enabled": false,
+      "interval": "weekly",
+      "lastCheck": null,
+      "nextCheck": null
+    },
+    "stats": {
+      "totalRuns": 0,
+      "totalFound": 0,
+      "totalIncluded": 0,
+      "totalExcluded": 0
+    }
+  },
+  "results": {
+    "timestamp": "2026-02-24T08:36:22.863Z",
+    "strategyId": "strat_1771922182862_ed9fxxmuh",
+    "guidelineProfile": "cardiology",
+    "sources": {
+      "aact": {
+        "count": 88,
+        "retrieved": 88,
+        "requiresGateway": false,
+        "error": null,
+        "guidelineProfile": "cardiology",
+        "termsUsed": [
+          "atrial fibrillation"
+        ],
+        "nctIds": [
+          "NCT00000517",
+          "NCT00000556",
+          "NCT00007605",
+          "NCT00032591",
+          "NCT00035451",
+          "NCT00035464",
+          "NCT00035477",
+          "NCT00040001",
+          "NCT00070655",
+          "NCT00098137",
+          "NCT00111527",
+          "NCT00115791",
+          "NCT00116428",
+          "NCT00123344",
+          "NCT00125320",
+          "NCT00126022",
+          "NCT00126061",
+          "NCT00126074",
+          "NCT00127712",
+          "NCT00129545",
+          "NCT00130975",
+          "NCT00133211",
+          "NCT00137540",
+          "NCT00141778",
+          "NCT00157781",
+          "NCT00174785",
+          "NCT00187252",
+          "NCT00192972",
+          "NCT00196144",
+          "NCT00196183",
+          "NCT00198614",
+          "NCT00215774",
+          "NCT00224757",
+          "NCT00231296",
+          "NCT00232219",
+          "NCT00232232",
+          "NCT00232245",
+          "NCT00232310",
+          "NCT00233441",
+          "NCT00238706",
+          "NCT00239226",
+          "NCT00240643",
+          "NCT00244426",
+          "NCT00246805",
+          "NCT00247780",
+          "NCT00249795",
+          "NCT00249873",
+          "NCT00251706",
+          "NCT00255281",
+          "NCT00256152",
+          "NCT00259376",
+          "NCT00259428",
+          "NCT00259623",
+          "NCT00262119",
+          "NCT00262600",
+          "NCT00263757",
+          "NCT00267137",
+          "NCT00267930",
+          "NCT00272636",
+          "NCT00284830",
+          "NCT00287209",
+          "NCT00289042",
+          "NCT00289289",
+          "NCT00289367",
+          "NCT00292162",
+          "NCT00293943",
+          "NCT00313157",
+          "NCT00321802",
+          "NCT00328848",
+          "NCT00334464",
+          "NCT00338715",
+          "NCT00340314",
+          "NCT00352560",
+          "NCT00356759",
+          "NCT00367757",
+          "NCT00376272",
+          "NCT00379301",
+          "NCT00389792",
+          "NCT00392054",
+          "NCT00392431",
+          "NCT00004488",
+          "NCT00403767",
+          "NCT00412984",
+          "NCT00911508",
+          "NCT01150474",
+          "NCT01182441",
+          "NCT01288352",
+          "NCT01420393"
+        ],
+        "landmarkVerification": {
+          "requested": 13,
+          "found": 10,
+          "coveragePct": 76.9,
+          "missingNctIds": [
+            "NCT00106912",
+            "NCT00794053",
+            "NCT02039622"
+          ]
+        },
+        "gatewayUrl": "http://127.0.0.1:8787/aact/query"
+      }
+    },
+    "newStudies": [
+      {
+        "nctId": "NCT00000517",
+        "title": "Boston Area Anticoagulation Trial for Atrial Fibrillation (BAATAF)",
+        "briefSummary": null,
+        "status": "COMPLETED",
+        "startDate": "1985-07-31",
+        "completionDate": "1991-06-30",
+        "studyType": "INTERVENTIONAL",
+        "phases": [
+          "PHASE3"
+        ],
+        "enrollment": null,
+        "allocation": "RANDOMIZED",
+        "primaryPurpose": "PREVENTION",
+        "source": "aact",
+        "retrievedAt": "2026-02-24T08:36:26.719Z",
+        "isDuplicate": false,
+        "classification": "maybe",
+        "relevanceScore": 50,
+        "relevanceReasons": [
+          "Contains 1 required keywords",
+          "Contains 1 preferred keywords",
+          "Study design may not meet criteria: Unknown"
+        ],
+        "pico": {
+          "population": {
+            "text": "ATRIAL FIBRILLATION",
+            "confidence": 0.9,
+            "type": "condition",
+            "details": [
+              {
+                "text": "ATRIAL FIBRILLATION",
+                "type": "condition",
+                "confidence": 0.9
+              }
+            ]
+          },
+          "intervention": {
+            "text": null,
+            "confidence": 0,
+            "details": []
+          },
+          "comparator": {
+            "text": null,
+            "confidence": 0,
+            "details": []
+          },
+          "outcomes": [],
+          "studyDesign": {
+            "type": "Unknown",
+            "confidence": 0.3
+          },
+          "sampleSize": null,
+          "followUp": null,
+          "setting": []
+        },
+        "needsReview": true,
+        "processedAt": "2026-02-24T08:36:27.630Z"
+      },
+      {
+        "nctId": "NCT00000556",
+        "title": "Atrial Fibrillation Follow-up Investigation of Rhythm Management (AFFIRM)",
+        "briefSummary": null,
+        "status": "COMPLETED",
+        "startDate": "1995-03-31",
+        "completionDate": "2002-09-30",
+        "studyType": "INTERVENTIONAL",
+        "phases": [
+          "PHASE3"
+        ],
+        "enrollment": null,
+        "allocation": "RANDOMIZED",
+        "primaryPurpose": "TREATMENT",
+        "source": "aact",
+        "retrievedAt": "2026-02-24T08:36:26.719Z",
+        "isDuplicate": false,
+        "classification": "maybe",
+        "relevanceScore": 50,
+        "relevanceReasons": [
+          "Contains 1 required keywords",
+          "Contains 1 preferred keywords",
+          "Study design may not meet criteria: Unknown"
+        ],
+        "pico": {
+          "population": {
+            "text": "ATRIAL FIBRILLATION",
+            "confidence": 0.9,
+            "type": "condition",
+            "details": [
+              {
+                "text": "ATRIAL FIBRILLATION",
+                "type": "condition",
+                "confidence": 0.9
+              }
+            ]
+          },
+          "intervention": {
+            "text": null,
+            "confidence": 0,
+            "details": []
+          },
+          "comparator": {
+            "text": null,
+            "confidence": 0,
+            "details": []
+          },
+          "outcomes": [],
+          "studyDesign": {
+            "type": "Unknown",
+            "confidence": 0.3
+          },
+          "sampleSize": null,
+          "followUp": null,
+          "setting": []
+        },
+        "needsReview": true,
+        "processedAt": "2026-02-24T08:36:27.630Z"
+      },
+      {
+        "nctId": "NCT00007605",
+        "title": "Comparing the Effects of Amiodarone, Sotalol, and Placebo in Maintaining Sinus Rhythm in Patients With Atrial Fibrillation Converted to Sinus Rhythm",
+        "briefSummary": null,
+        "status": "COMPLETED",
+        "startDate": "1998-04-30",
+        "completionDate": "2003-12-31",
+        "studyType": "INTERVENTIONAL",
+        "phases": [
+          "PHASE3"
+        ],
+        "enrollment": 706,
+        "allocation": "RANDOMIZED",
+        "primaryPurpose": "TREATMENT",
+        "source": "aact",
+        "retrievedAt": "2026-02-24T08:36:26.719Z",
+        "isDuplicate": false,
+        "classification": "maybe",
+        "relevanceScore": 50,
+        "relevanceReasons": [
+          "Contains 1 required keywords",
+          "Contains 1 preferred keywords",
+          "Study design may not meet criteria: Unknown"
+        ],
+        "pico": {
+          "population": {
+            "text": "ATRIAL FIBRILLATION",
+            "confidence": 0.9,
+            "type": "condition",
+            "details": [
+              {
+                "text": "ATRIAL FIBRILLATION",
+                "type": "condition",
+                "confidence": 0.9
+              }
+            ]
+          },
+          "intervention": {
+            "text": null,
+            "confidence": 0,
+            "details": []
+          },
+          "comparator": {
+            "text": "Placebo",
+            "confidence": 0.8,
+            "type": "comparator",
+            "details": [
+              {
+                "text": "Placebo",
+                "type": "comparator",
+                "confidence": 0.8
+              }
+            ]
+          },
+          "outcomes": [],
+          "studyDesign": {
+            "type": "Unknown",
+            "confidence": 0.3
+          },
+          "sampleSize": null,
+          "followUp": null,
+          "setting": [
+            {
+              "type": "country",
+              "value": "us"
+            }
+          ]
+        },
+        "needsReview": true,
+        "processedAt": "2026-02-24T08:36:27.631Z"
+      },
+      {
+        "nctId": "NCT00035451",
+        "title": "Efficacy and Safety Evaluation of Azimilide or Sotalol vs Placebo for Treatment of Patients With Atrial Fibrillation.",
+        "briefSummary": null,
+        "status": "COMPLETED",
+        "startDate": "2001-02-28",
+        "completionDate": "2003-06-30",
+        "studyType": "INTERVENTIONAL",
+        "phases": [
+          "PHASE3"
+        ],
+        "enrollment": 658,
+        "allocation": "RANDOMIZED",
+        "primaryPurpose": "TREATMENT",
+        "source": "aact",
+        "retrievedAt": "2026-02-24T08:36:26.719Z",
+        "isDuplicate": false,
+        "classification": "maybe",
+        "relevanceScore": 50,
+        "relevanceReasons": [
+          "Contains 1 required keywords",
+          "Contains 1 preferred keywords",
+          "Study design may not meet criteria: Unknown"
+        ],
+        "pico": {
+          "population": {
+            "text": "ATRIAL FIBRILLATION",
+            "confidence": 0.9,
+            "type": "condition",
+            "details": [
+              {
+                "text": "ATRIAL FIBRILLATION",
+                "type": "condition",
+                "confidence": 0.9
+              }
+            ]
+          },
+          "intervention": {
+            "text": "Treatment of Patients With Atrial Fibrillation",
+            "confidence": 0.85,
+            "type": "drug_with_dose",
+            "details": [
+              {
+                "text": "Treatment of Patients With Atrial Fibrillation",
+                "type": "drug_with_dose",
+                "confidence": 0.85
+              }
+            ]
+          },
+          "comparator": {
+            "text": "Sotalol vs Placebo",
+            "confidence": 0.8,
+            "type": "comparator",
+            "details": [
+              {
+                "text": "Sotalol vs Placebo",
+                "type": "comparator",
+                "confidence": 0.8
+              },
+              {
+                "text": "Placebo",
+                "type": "comparator",
+                "confidence": 0.8
+              }
+            ]
+          },
+          "outcomes": [],
+          "studyDesign": {
+            "type": "Unknown",
+            "confidence": 0.3
+          },
+          "sampleSize": null,
+          "followUp": null,
+          "setting": []
+        },
+        "needsReview": true,
+        "processedAt": "2026-02-24T08:36:27.632Z"
+      },
+      {
+        "nctId": "NCT00040001",
+        "title": "Safety and Efficacy Study of an A1-Adenosine Receptor Agonist to Slow Heart Rate in Atrial Fibrillation",
+        "briefSummary": null,
+        "status": "COMPLETED",
+        "startDate": null,
+        "completionDate": null,
+        "studyType": "INTERVENTIONAL",
+        "phases": [
+          "PHASE2"
+        ],
+        "enrollment": null,
+        "allocation": "RANDOMIZED",
+        "primaryPurpose": "TREATMENT",
+        "source": "aact",
+        "retrievedAt": "2026-02-24T08:36:26.719Z",
+        "isDuplicate": false,
+        "classification": "maybe",
+        "relevanceScore": 50,
+        "relevanceReasons": [
+          "Contains 1 required keywords",
+          "Contains 1 preferred keywords",
+          "Study design may not meet criteria: Unknown"
+        ],
+        "pico": {
+          "population": {
+            "text": "ATRIAL FIBRILLATION",
+            "confidence": 0.9,
+            "type": "condition",
+            "details": [
+              {
+                "text": "ATRIAL FIBRILLATION",
+                "type": "condition",
+                "confidence": 0.9
+              }
+            ]
+          },
+          "intervention": {
+            "text": null,
+            "confidence": 0,
+            "details": []
+          },
+          "comparator": {
+            "text": "Agonist to Slow Heart Rate",
+            "confidence": 0.8,
+            "type": "comparator",
+            "details": [
+              {
+                "text": "Agonist to Slow Heart Rate",
+                "type": "comparator",
+                "confidence": 0.8
+              }
+            ]
+          },
+          "outcomes": [],
+          "studyDesign": {
+            "type": "Unknown",
+            "confidence": 0.3
+          },
+          "sampleSize": null,
+          "followUp": null,
+          "setting": []
+        },
+        "needsReview": true,
+        "processedAt": "2026-02-24T08:36:27.637Z"
+      },
+      {
+        "nctId": "NCT00070655",
+        "title": "Evaluating the Use of SR34006 Compared to Warfarin or Acenocoumarol in Patients With Atrial Fibrillation (AMADEUS)",
+        "briefSummary": null,
+        "status": "COMPLETED",
+        "startDate": "2003-09-30",
+        "completionDate": "2006-03-31",
+        "studyType": "INTERVENTIONAL",
+        "phases": [
+          "PHASE3"
+        ],
+        "enrollment": 4673,
+        "allocation": "RANDOMIZED",
+        "primaryPurpose": "TREATMENT",
+        "source": "aact",
+        "retrievedAt": "2026-02-24T08:36:26.719Z",
+        "isDuplicate": false,
+        "classification": "maybe",
+        "relevanceScore": 50,
+        "relevanceReasons": [
+          "Contains 1 required keywords",
+          "Contains 1 preferred keywords",
+          "Study design may not meet criteria: Unknown"
+        ],
+        "pico": {
+          "population": {
+            "text": "ATRIAL FIBRILLATION",
+            "confidence": 0.9,
+            "type": "condition",
+            "details": [
+              {
+                "text": "ATRIAL FIBRILLATION",
+                "type": "condition",
+                "confidence": 0.9
+              }
+            ]
+          },
+          "intervention": {
+            "text": "Warfarin",
+            "confidence": 0.9,
+            "type": "known_drug",
+            "details": [
+              {
+                "text": "Warfarin",
+                "context": "Evaluating the Use of SR34006 Compared to Warfarin or Acenocoumarol in Patients With Atrial Fibrillation (AMADEUS)",
+                "type": "known_drug",
+                "confidence": 0.9
+              }
+            ]
+          },
+          "comparator": {
+            "text": "Warfarin or Acenocoumarol",
+            "confidence": 0.8,
+            "type": "comparator",
+            "details": [
+              {
+                "text": "Warfarin or Acenocoumarol",
+                "type": "comparator",
+                "confidence": 0.8
+              }
+            ]
+          },
+          "outcomes": [],
+          "studyDesign": {
+            "type": "Unknown",
+            "confidence": 0.3
+          },
+          "sampleSize": null,
+          "followUp": null,
+          "setting": [
+            {
+              "type": "country",
+              "value": "us"
+            }
+          ]
+        },
+        "needsReview": true,
+        "processedAt": "2026-02-24T08:36:27.640Z"
+      },
+      {
+        "nctId": "NCT00098137",
+        "title": "Trial to Investigate the Efficacy of Olmesartan in Paroxysmal Atrial Fibrillation",
+        "briefSummary": null,
+        "status": "COMPLETED",
+        "startDate": "2005-01-31",
+        "completionDate": "2009-05-31",
+        "studyType": "INTERVENTIONAL",
+        "phases": [
+          "PHASE3"
+        ],
+        "enrollment": 422,
+        "allocation": "RANDOMIZED",
+        "primaryPurpose": "TREATMENT",
+        "source": "aact",
+        "retrievedAt": "2026-02-24T08:36:26.719Z",
+        "isDuplicate": false,
+        "classification": "maybe",
+        "relevanceScore": 50,
+        "relevanceReasons": [
+          "Contains 1 required keywords",
+          "Contains 1 preferred keywords",
+          "Study design may not meet criteria: Unknown"
+        ],
+        "pico": {
+          "population": {
+            "text": "ATRIAL FIBRILLATION",
+            "confidence": 0.9,
+            "type": "condition",
+            "details": [
+              {
+                "text": "ATRIAL FIBRILLATION",
+                "type": "condition",
+                "confidence": 0.9
+              }
+            ]
+          },
+          "intervention": {
+            "text": null,
+            "confidence": 0,
+            "details": []
+          },
+          "comparator": {
+            "text": null,
+            "confidence": 0,
+            "details": []
+          },
+          "outcomes": [],
+          "studyDesign": {
+            "type": "Unknown",
+            "confidence": 0.3
+          },
+          "sampleSize": null,
+          "followUp": null,
+          "setting": []
+        },
+        "needsReview": true,
+        "processedAt": "2026-02-24T08:36:27.644Z"
+      },
+      {
+        "nctId": "NCT00111527",
+        "title": "APAF: Assessment of Cardiac Resynchronization Therapy in Patients With Permanent Atrial Fibrillation",
+        "briefSummary": null,
+        "status": "COMPLETED",
+        "startDate": "2005-05-31",
+        "completionDate": "2010-03-31",
+        "studyType": "INTERVENTIONAL",
+        "phases": [
+          "PHASE3"
+        ],
+        "enrollment": 458,
+        "allocation": "RANDOMIZED",
+        "primaryPurpose": "TREATMENT",
+        "source": "aact",
+        "retrievedAt": "2026-02-24T08:36:26.719Z",
+        "isDuplicate": false,
+        "classification": "maybe",
+        "relevanceScore": 50,
+        "relevanceReasons": [
+          "Contains 1 required keywords",
+          "Contains 1 preferred keywords",
+          "Study design may not meet criteria: Unknown"
+        ],
+        "pico": {
+          "population": {
+            "text": "ATRIAL FIBRILLATION",
+            "confidence": 0.9,
+            "type": "condition",
+            "details": [
+              {
+                "text": "ATRIAL FIBRILLATION",
+                "type": "condition",
+                "confidence": 0.9
+              }
+            ]
+          },
+          "intervention": {
+            "text": null,
+            "confidence": 0,
+            "details": []
+          },
+          "comparator": {
+            "text": null,
+            "confidence": 0,
+            "details": []
+          },
+          "outcomes": [],
+          "studyDesign": {
+            "type": "Unknown",
+            "confidence": 0.3
+          },
+          "sampleSize": null,
+          "followUp": null,
+          "setting": []
+        },
+        "needsReview": true,
+        "processedAt": "2026-02-24T08:36:27.649Z"
+      },
+      {
+        "nctId": "NCT00115791",
+        "title": "Study to Determine the Response and Effectiveness of RSD1235 in Subjects With Atrial Fibrillation or Atrial Flutter",
+        "briefSummary": null,
+        "status": "COMPLETED",
+        "startDate": "2004-06-30",
+        "completionDate": "2005-06-30",
+        "studyType": "INTERVENTIONAL",
+        "phases": [
+          "PHASE3"
+        ],
+        "enrollment": 276,
+        "allocation": "RANDOMIZED",
+        "primaryPurpose": "TREATMENT",
+        "source": "aact",
+        "retrievedAt": "2026-02-24T08:36:26.719Z",
+        "isDuplicate": false,
+        "classification": "maybe",
+        "relevanceScore": 65,
+        "relevanceReasons": [
+          "Contains 2 required keywords",
+          "Contains 1 preferred keywords",
+          "Study design may not meet criteria: Unknown"
+        ],
+        "pico": {
+          "population": {
+            "text": "ATRIAL FIBRILLATION",
+            "confidence": 0.9,
+            "type": "condition",
+            "details": [
+              {
+                "text": "ATRIAL FIBRILLATION",
+                "type": "condition",
+                "confidence": 0.9
+              }
+            ]
+          },
+          "intervention": {
+            "text": null,
+            "confidence": 0,
+            "details": []
+          },
+          "comparator": {
+            "text": null,
+            "confidence": 0,
+            "details": []
+          },
+          "outcomes": [],
+          "studyDesign": {
+            "type": "Unknown",
+            "confidence": 0.3
+          },
+          "sampleSize": null,
+          "followUp": null,
+          "setting": []
+        },
+        "needsReview": true,
+        "processedAt": "2026-02-24T08:36:27.655Z"
+      },
+      {
+        "nctId": "NCT00116428",
+        "title": "NAVISTAR® THERMOCOOL® Catheter for the Radiofrequency Ablation of Symptomatic Paroxysmal Atrial Fibrillation",
+        "briefSummary": null,
+        "status": "COMPLETED",
+        "startDate": "2004-10-01",
+        "completionDate": "2011-03-01",
+        "studyType": "INTERVENTIONAL",
+        "phases": [
+          "PHASE3"
+        ],
+        "enrollment": 167,
+        "allocation": "RANDOMIZED",
+        "primaryPurpose": "TREATMENT",
+        "source": "aact",
+        "retrievedAt": "2026-02-24T08:36:26.719Z",
+        "isDuplicate": false,
+        "classification": "maybe",
+        "relevanceScore": 50,
+        "relevanceReasons": [
+          "Contains 1 required keywords",
+          "Contains 1 preferred keywords",
+          "Study design may not meet criteria: Unknown"
+        ],
+        "pico": {
+          "population": {
+            "text": "ATRIAL FIBRILLATION",
+            "confidence": 0.9,
+            "type": "condition",
+            "details": [
+              {
+                "text": "ATRIAL FIBRILLATION",
+                "type": "condition",
+                "confidence": 0.9
+              }
+            ]
+          },
+          "intervention": {
+            "text": null,
+            "confidence": 0,
+            "details": []
+          },
+          "comparator": {
+            "text": null,
+            "confidence": 0,
+            "details": []
+          },
+          "outcomes": [],
+          "studyDesign": {
+            "type": "Unknown",
+            "confidence": 0.3
+          },
+          "sampleSize": null,
+          "followUp": null,
+          "setting": []
+        },
+        "needsReview": true,
+        "processedAt": "2026-02-24T08:36:27.661Z"
+      },
+      {
+        "nctId": "NCT00123344",
+        "title": "Atrial Pacing for Termination and Prevention of Atrial Fibrillation",
+        "briefSummary": null,
+        "status": "COMPLETED",
+        "startDate": "1999-12-31",
+        "completionDate": "2007-06-30",
+        "studyType": "INTERVENTIONAL",
+        "phases": [
+          "NA"
+        ],
+        "enrollment": 120,
+        "allocation": "RANDOMIZED",
+        "primaryPurpose": "TREATMENT",
+        "source": "aact",
+        "retrievedAt": "2026-02-24T08:36:26.719Z",
+        "isDuplicate": false,
+        "classification": "maybe",
+        "relevanceScore": 50,
+        "relevanceReasons": [
+          "Contains 1 required keywords",
+          "Contains 1 preferred keywords",
+          "Study design may not meet criteria: Unknown"
+        ],
+        "pico": {
+          "population": {
+            "text": "ATRIAL FIBRILLATION",
+            "confidence": 0.9,
+            "type": "condition",
+            "details": [
+              {
+                "text": "ATRIAL FIBRILLATION",
+                "type": "condition",
+                "confidence": 0.9
+              }
+            ]
+          },
+          "intervention": {
+            "text": null,
+            "confidence": 0,
+            "details": []
+          },
+          "comparator": {
+            "text": null,
+            "confidence": 0,
+            "details": []
+          },
+          "outcomes": [],
+          "studyDesign": {
+            "type": "Unknown",
+            "confidence": 0.3
+          },
+          "sampleSize": null,
+          "followUp": null,
+          "setting": []
+        },
+        "needsReview": true,
+        "processedAt": "2026-02-24T08:36:27.668Z"
+      },
+      {
+        "nctId": "NCT00126022",
+        "title": "Intravenous Tedisamil in the Rapid Conversion of Atrial Fibrillation or Flutter to Normal Sinus Rhythm in Female Subjects",
+        "briefSummary": null,
+        "status": "COMPLETED",
+        "startDate": "2004-12-31",
+        "completionDate": "2006-03-31",
+        "studyType": "INTERVENTIONAL",
+        "phases": [
+          "PHASE3"
+        ],
+        "enrollment": null,
+        "allocation": "RANDOMIZED",
+        "primaryPurpose": "TREATMENT",
+        "source": "aact",
+        "retrievedAt": "2026-02-24T08:36:26.719Z",
+        "isDuplicate": false,
+        "classification": "maybe",
+        "relevanceScore": 50,
+        "relevanceReasons": [
+          "Contains 1 required keywords",
+          "Contains 1 preferred keywords",
+          "Study design may not meet criteria: Unknown"
+        ],
+        "pico": {
+          "population": {
+            "text": "ATRIAL FIBRILLATION",
+            "confidence": 0.9,
+            "type": "condition",
+            "details": [
+              {
+                "text": "ATRIAL FIBRILLATION",
+                "type": "condition",
+                "confidence": 0.9
+              }
+            ]
+          },
+          "intervention": {
+            "text": null,
+            "confidence": 0,
+            "details": []
+          },
+          "comparator": {
+            "text": "Flutter to Normal Sinus Rhythm",
+            "confidence": 0.8,
+            "type": "comparator",
+            "details": [
+              {
+                "text": "Flutter to Normal Sinus Rhythm",
+                "type": "comparator",
+                "confidence": 0.8
+              }
+            ]
+          },
+          "outcomes": [],
+          "studyDesign": {
+            "type": "Unknown",
+            "confidence": 0.3
+          },
+          "sampleSize": null,
+          "followUp": null,
+          "setting": [
+            {
+              "type": "country",
+              "value": "us"
+            }
+          ]
+        },
+        "needsReview": true,
+        "processedAt": "2026-02-24T08:36:27.687Z"
+      },
+      {
+        "nctId": "NCT00127712",
+        "title": "Prevention of Atrial Fibrillation Following Noncardiac Thoracic Surgery",
+        "briefSummary": null,
+        "status": "COMPLETED",
+        "startDate": "2004-09-30",
+        "completionDate": "2008-02-29",
+        "studyType": "INTERVENTIONAL",
+        "phases": [
+          "PHASE4"
+        ],
+        "enrollment": 130,
+        "allocation": "RANDOMIZED",
+        "primaryPurpose": "PREVENTION",
+        "source": "aact",
+        "retrievedAt": "2026-02-24T08:36:26.719Z",
+        "isDuplicate": false,
+        "classification": "maybe",
+        "relevanceScore": 50,
+        "relevanceReasons": [
+          "Contains 1 required keywords",
+          "Contains 1 preferred keywords",
+          "Study design may not meet criteria: Unknown"
+        ],
+        "pico": {
+          "population": {
+            "text": "ATRIAL FIBRILLATION",
+            "confidence": 0.9,
+            "type": "condition",
+            "details": [
+              {
+                "text": "ATRIAL FIBRILLATION",
+                "type": "condition",
+                "confidence": 0.9
+              }
+            ]
+          },
+          "intervention": {
+            "text": null,
+            "confidence": 0,
+            "details": []
+          },
+          "comparator": {
+            "text": null,
+            "confidence": 0,
+            "details": []
+          },
+          "outcomes": [],
+          "studyDesign": {
+            "type": "Unknown",
+            "confidence": 0.3
+          },
+          "sampleSize": null,
+          "followUp": null,
+          "setting": []
+        },
+        "needsReview": true,
+        "processedAt": "2026-02-24T08:36:27.722Z"
+      },
+      {
+        "nctId": "NCT00129545",
+        "title": "WATCHMAN Left Atrial Appendage System for Embolic PROTECTion in Patients With Atrial Fibrillation",
+        "briefSummary": null,
+        "status": "COMPLETED",
+        "startDate": "2005-02-28",
+        "completionDate": "2014-05-31",
+        "studyType": "INTERVENTIONAL",
+        "phases": [
+          "PHASE2/PHASE3"
+        ],
+        "enrollment": 800,
+        "allocation": "RANDOMIZED",
+        "primaryPurpose": "PREVENTION",
+        "source": "aact",
+        "retrievedAt": "2026-02-24T08:36:26.719Z",
+        "isDuplicate": false,
+        "classification": "maybe",
+        "relevanceScore": 50,
+        "relevanceReasons": [
+          "Contains 1 required keywords",
+          "Contains 1 preferred keywords",
+          "Study design may not meet criteria: Unknown"
+        ],
+        "pico": {
+          "population": {
+            "text": "ATRIAL FIBRILLATION",
+            "confidence": 0.9,
+            "type": "condition",
+            "details": [
+              {
+                "text": "ATRIAL FIBRILLATION",
+                "type": "condition",
+                "confidence": 0.9
+              }
+            ]
+          },
+          "intervention": {
+            "text": null,
+            "confidence": 0,
+            "details": []
+          },
+          "comparator": {
+            "text": "Embolic PROTECTion",
+            "confidence": 0.8,
+            "type": "comparator",
+            "details": [
+              {
+                "text": "Embolic PROTECTion",
+                "type": "comparator",
+                "confidence": 0.8
+              }
+            ]
+          },
+          "outcomes": [],
+          "studyDesign": {
+            "type": "Unknown",
+            "confidence": 0.3
+          },
+          "sampleSize": null,
+          "followUp": null,
+          "setting": []
+        },
+        "needsReview": true,
+        "processedAt": "2026-02-24T08:36:27.732Z"
+      },
+      {
+        "nctId": "NCT00130975",
+        "title": "Candesartan in the Prevention of Relapsing Atrial Fibrillation",
+        "briefSummary": null,
+        "status": "COMPLETED",
+        "startDate": "2001-04-30",
+        "completionDate": "2005-09-30",
+        "studyType": "INTERVENTIONAL",
+        "phases": [
+          "PHASE3"
+        ],
+        "enrollment": 200,
+        "allocation": "RANDOMIZED",
+        "primaryPurpose": "TREATMENT",
+        "source": "aact",
+        "retrievedAt": "2026-02-24T08:36:26.719Z",
+        "isDuplicate": false,
+        "classification": "maybe",
+        "relevanceScore": 50,
+        "relevanceReasons": [
+          "Contains 1 required keywords",
+          "Contains 1 preferred keywords",
+          "Study design may not meet criteria: Unknown"
+        ],
+        "pico": {
+          "population": {
+            "text": "ATRIAL FIBRILLATION",
+            "confidence": 0.9,
+            "type": "condition",
+            "details": [
+              {
+                "text": "ATRIAL FIBRILLATION",
+                "type": "condition",
+                "confidence": 0.9
+              }
+            ]
+          },
+          "intervention": {
+            "text": "Candesartan",
+            "confidence": 0.9,
+            "type": "known_drug",
+            "details": [
+              {
+                "text": "Candesartan",
+                "context": "Candesartan in the Prevention of Relapsing Atrial Fibrillation",
+                "type": "known_drug",
+                "confidence": 0.9
+              }
+            ]
+          },
+          "comparator": {
+            "text": null,
+            "confidence": 0,
+            "details": []
+          },
+          "outcomes": [],
+          "studyDesign": {
+            "type": "Unknown",
+            "confidence": 0.3
+          },
+          "sampleSize": null,
+          "followUp": null,
+          "setting": []
+        },
+        "needsReview": true,
+        "processedAt": "2026-02-24T08:36:27.753Z"
+      },
+      {
+        "nctId": "NCT00133211",
+        "title": "Radiofrequency Ablation (RFA) Versus Antiarrhythmic Drug Treatment in Paroxysmal Atrial Fibrillation",
+        "briefSummary": null,
+        "status": "COMPLETED",
+        "startDate": "2005-09-30",
+        "completionDate": "2014-09-30",
+        "studyType": "INTERVENTIONAL",
+        "phases": [
+          "PHASE3"
+        ],
+        "enrollment": 294,
+        "allocation": "RANDOMIZED",
+        "primaryPurpose": "TREATMENT",
+        "source": "aact",
+        "retrievedAt": "2026-02-24T08:36:26.719Z",
+        "isDuplicate": false,
+        "classification": "maybe",
+        "relevanceScore": 50,
+        "relevanceReasons": [
+          "Contains 1 required keywords",
+          "Contains 1 preferred keywords",
+          "Study design may not meet criteria: Unknown"
+        ],
+        "pico": {
+          "population": {
+            "text": "ATRIAL FIBRILLATION",
+            "confidence": 0.9,
+            "type": "condition",
+            "details": [
+              {
+                "text": "ATRIAL FIBRILLATION",
+                "type": "condition",
+                "confidence": 0.9
+              }
+            ]
+          },
+          "intervention": {
+            "text": "Treatment in Paroxysmal Atrial Fibrillation",
+            "confidence": 0.85,
+            "type": "drug_with_dose",
+            "details": [
+              {
+                "text": "Treatment in Paroxysmal Atrial Fibrillation",
+                "type": "drug_with_dose",
+                "confidence": 0.85
+              }
+            ]
+          },
+          "comparator": {
+            "text": "Antiarrhythmic Drug Treatment",
+            "confidence": 0.8,
+            "type": "comparator",
+            "details": [
+              {
+                "text": "Antiarrhythmic Drug Treatment",
+                "type": "comparator",
+                "confidence": 0.8
+              }
+            ]
+          },
+          "outcomes": [],
+          "studyDesign": {
+            "type": "Unknown",
+            "confidence": 0.3
+          },
+          "sampleSize": null,
+          "followUp": null,
+          "setting": [
+            {
+              "type": "country",
+              "value": "us"
+            }
+          ]
+        },
+        "needsReview": true,
+        "processedAt": "2026-02-24T08:36:27.777Z"
+      },
+      {
+        "nctId": "NCT00137540",
+        "title": "FLAT Study: First Line Ablation Therapy for Treatment of Paroxysmal Atrial Fibrillation (RAAFT)",
+        "briefSummary": null,
+        "status": "COMPLETED",
+        "startDate": "2005-09-30",
+        "completionDate": "2008-07-31",
+        "studyType": "INTERVENTIONAL",
+        "phases": [
+          "PHASE3"
+        ],
+        "enrollment": 40,
+        "allocation": "RANDOMIZED",
+        "primaryPurpose": "TREATMENT",
+        "source": "aact",
+        "retrievedAt": "2026-02-24T08:36:26.719Z",
+        "isDuplicate": false,
+        "classification": "maybe",
+        "relevanceScore": 50,
+        "relevanceReasons": [
+          "Contains 1 required keywords",
+          "Contains 1 preferred keywords",
+          "Study design may not meet criteria: Unknown"
+        ],
+        "pico": {
+          "population": {
+            "text": "ATRIAL FIBRILLATION",
+            "confidence": 0.9,
+            "type": "condition",
+            "details": [
+              {
+                "text": "ATRIAL FIBRILLATION",
+                "type": "condition",
+                "confidence": 0.9
+              }
+            ]
+          },
+          "intervention": {
+            "text": "Treatment of Paroxysmal Atrial Fibrillation (RAAFT)",
+            "confidence": 0.85,
+            "type": "drug_with_dose",
+            "details": [
+              {
+                "text": "Treatment of Paroxysmal Atrial Fibrillation (RAAFT)",
+                "type": "drug_with_dose",
+                "confidence": 0.85
+              }
+            ]
+          },
+          "comparator": {
+            "text": null,
+            "confidence": 0,
+            "details": []
+          },
+          "outcomes": [],
+          "studyDesign": {
+            "type": "Unknown",
+            "confidence": 0.3
+          },
+          "sampleSize": null,
+          "followUp": null,
+          "setting": []
+        },
+        "needsReview": true,
+        "processedAt": "2026-02-24T08:36:27.811Z"
+      },
+      {
+        "nctId": "NCT00141778",
+        "title": "Renin-angiotensin-aldosterone System (RAAS), Inflammation, and Post-Operative Atrial Fibrillation (AF)",
+        "briefSummary": null,
+        "status": "COMPLETED",
+        "startDate": "2005-04-30",
+        "completionDate": "2010-08-31",
+        "studyType": "INTERVENTIONAL",
+        "phases": [
+          "PHASE2/PHASE3"
+        ],
+        "enrollment": 455,
+        "allocation": "RANDOMIZED",
+        "primaryPurpose": "PREVENTION",
+        "source": "aact",
+        "retrievedAt": "2026-02-24T08:36:26.719Z",
+        "isDuplicate": false,
+        "classification": "maybe",
+        "relevanceScore": 50,
+        "relevanceReasons": [
+          "Contains 1 required keywords",
+          "Contains 1 preferred keywords",
+          "Study design may not meet criteria: Unknown"
+        ],
+        "pico": {
+          "population": {
+            "text": "ATRIAL FIBRILLATION",
+            "confidence": 0.9,
+            "type": "condition",
+            "details": [
+              {
+                "text": "ATRIAL FIBRILLATION",
+                "type": "condition",
+                "confidence": 0.9
+              }
+            ]
+          },
+          "intervention": {
+            "text": null,
+            "confidence": 0,
+            "details": []
+          },
+          "comparator": {
+            "text": null,
+            "confidence": 0,
+            "details": []
+          },
+          "outcomes": [],
+          "studyDesign": {
+            "type": "Unknown",
+            "confidence": 0.3
+          },
+          "sampleSize": null,
+          "followUp": null,
+          "setting": []
+        },
+        "needsReview": true,
+        "processedAt": "2026-02-24T08:36:27.848Z"
+      },
+      {
+        "nctId": "NCT00157781",
+        "title": "LEAF - Low Energy In Atrial Fibrillation",
+        "briefSummary": null,
+        "status": "COMPLETED",
+        "startDate": "2000-08-31",
+        "completionDate": "2003-11-30",
+        "studyType": "INTERVENTIONAL",
+        "phases": [
+          "PHASE4"
+        ],
+        "enrollment": 237,
+        "allocation": "RANDOMIZED",
+        "primaryPurpose": "TREATMENT",
+        "source": "aact",
+        "retrievedAt": "2026-02-24T08:36:26.719Z",
+        "isDuplicate": false,
+        "classification": "maybe",
+        "relevanceScore": 50,
+        "relevanceReasons": [
+          "Contains 1 required keywords",
+          "Contains 1 preferred keywords",
+          "Study design may not meet criteria: Unknown"
+        ],
+        "pico": {
+          "population": {
+            "text": "ATRIAL FIBRILLATION",
+            "confidence": 0.9,
+            "type": "condition",
+            "details": [
+              {
+                "text": "ATRIAL FIBRILLATION",
+                "type": "condition",
+                "confidence": 0.9
+              }
+            ]
+          },
+          "intervention": {
+            "text": null,
+            "confidence": 0,
+            "details": []
+          },
+          "comparator": {
+            "text": null,
+            "confidence": 0,
+            "details": []
+          },
+          "outcomes": [],
+          "studyDesign": {
+            "type": "Unknown",
+            "confidence": 0.3
+          },
+          "sampleSize": null,
+          "followUp": null,
+          "setting": []
+        },
+        "needsReview": true,
+        "processedAt": "2026-02-24T08:36:27.867Z"
+      },
+      {
+        "nctId": "NCT00174785",
+        "title": "A Trial With Dronedarone to Prevent Hospitalization or Death in Patients With Atrial Fibrillation",
+        "briefSummary": null,
+        "status": "COMPLETED",
+        "startDate": "2005-06-30",
+        "completionDate": "2008-03-31",
+        "studyType": "INTERVENTIONAL",
+        "phases": [
+          "PHASE3"
+        ],
+        "enrollment": 4628,
+        "allocation": "RANDOMIZED",
+        "primaryPurpose": "PREVENTION",
+        "source": "aact",
+        "retrievedAt": "2026-02-24T08:36:26.719Z",
+        "isDuplicate": false,
+        "classification": "maybe",
+        "relevanceScore": 50,
+        "relevanceReasons": [
+          "Contains 1 required keywords",
+          "Contains 1 preferred keywords",
+          "Study design may not meet criteria: Unknown"
+        ],
+        "pico": {
+          "population": {
+            "text": "ATRIAL FIBRILLATION",
+            "confidence": 0.9,
+            "type": "condition",
+            "details": [
+              {
+                "text": "ATRIAL FIBRILLATION",
+                "type": "condition",
+                "confidence": 0.9
+              }
+            ]
+          },
+          "intervention": {
+            "text": null,
+            "confidence": 0,
+            "details": []
+          },
+          "comparator": {
+            "text": "Death",
+            "confidence": 0.8,
+            "type": "comparator",
+            "details": [
+              {
+                "text": "Death",
+                "type": "comparator",
+                "confidence": 0.8
+              }
+            ]
+          },
+          "outcomes": [],
+          "studyDesign": {
+            "type": "Unknown",
+            "confidence": 0.3
+          },
+          "sampleSize": null,
+          "followUp": null,
+          "setting": []
+        },
+        "needsReview": true,
+        "processedAt": "2026-02-24T08:36:27.895Z"
+      },
+      {
+        "nctId": "NCT00187252",
+        "title": "Mascot Study: Management of Atrial Fibrillation (AF) Suppression in AF-Heart Failure (HF) COmorbidity Therapy",
+        "briefSummary": null,
+        "status": "COMPLETED",
+        "startDate": "2003-09-30",
+        "completionDate": "2008-06-30",
+        "studyType": "INTERVENTIONAL",
+        "phases": [
+          "NA"
+        ],
+        "enrollment": 380,
+        "allocation": "RANDOMIZED",
+        "primaryPurpose": "TREATMENT",
+        "source": "aact",
+        "retrievedAt": "2026-02-24T08:36:26.719Z",
+        "isDuplicate": false,
+        "classification": "maybe",
+        "relevanceScore": 50,
+        "relevanceReasons": [
+          "Contains 1 required keywords",
+          "Contains 1 preferred keywords",
+          "Study design may not meet criteria: Unknown"
+        ],
+        "pico": {
+          "population": {
+            "text": "HEART FAILURE",
+            "confidence": 0.9,
+            "type": "condition",
+            "details": [
+              {
+                "text": "HEART FAILURE",
+                "type": "condition",
+                "confidence": 0.9
+              },
+              {
+                "text": "ATRIAL FIBRILLATION",
+                "type": "condition",
+                "confidence": 0.9
+              }
+            ]
+          },
+          "intervention": {
+            "text": null,
+            "confidence": 0,
+            "details": []
+          },
+          "comparator": {
+            "text": null,
+            "confidence": 0,
+            "details": []
+          },
+          "outcomes": [],
+          "studyDesign": {
+            "type": "Unknown",
+            "confidence": 0.3
+          },
+          "sampleSize": null,
+          "followUp": null,
+          "setting": []
+        },
+        "needsReview": true,
+        "processedAt": "2026-02-24T08:36:27.916Z"
+      },
+      {
+        "nctId": "NCT00192972",
+        "title": "A Randomized Trial of the Ostial Versus the Extra-Ostial Ablation Strategy for Atrial Fibrillation",
+        "briefSummary": null,
+        "status": "COMPLETED",
+        "startDate": "2002-11-30",
+        "completionDate": "2005-06-30",
+        "studyType": "INTERVENTIONAL",
+        "phases": [
+          "NA"
+        ],
+        "enrollment": 100,
+        "allocation": "RANDOMIZED",
+        "primaryPurpose": "ECT",
+        "source": "aact",
+        "retrievedAt": "2026-02-24T08:36:26.719Z",
+        "isDuplicate": false,
+        "classification": "include",
+        "relevanceScore": 90,
+        "relevanceReasons": [
+          "Contains 1 required keywords",
+          "Contains 2 preferred keywords",
+          "Accepted study design: RCT"
+        ],
+        "pico": {
+          "population": {
+            "text": "ATRIAL FIBRILLATION",
+            "confidence": 0.9,
+            "type": "condition",
+            "details": [
+              {
+                "text": "ATRIAL FIBRILLATION",
+                "type": "condition",
+                "confidence": 0.9
+              }
+            ]
+          },
+          "intervention": {
+            "text": null,
+            "confidence": 0,
+            "details": []
+          },
+          "comparator": {
+            "text": "the Extra-Ostial Ablation Strategy",
+            "confidence": 0.8,
+            "type": "comparator",
+            "details": [
+              {
+                "text": "the Extra-Ostial Ablation Strategy",
+                "type": "comparator",
+                "confidence": 0.8
+              }
+            ]
+          },
+          "outcomes": [],
+          "studyDesign": {
+            "type": "RCT",
+            "confidence": 0.75
+          },
+          "sampleSize": null,
+          "followUp": null,
+          "setting": [
+            {
+              "type": "country",
+              "value": "us"
+            }
+          ]
+        },
+        "needsReview": false,
+        "processedAt": "2026-02-24T08:36:27.938Z"
+      },
+      {
+        "nctId": "NCT00196183",
+        "title": "Trigger- vs. Substrate-Ablation for Paroxysmal Atrial Fibrillation",
+        "briefSummary": null,
+        "status": "COMPLETED",
+        "startDate": "2004-08-31",
+        "completionDate": "2006-06-30",
+        "studyType": "INTERVENTIONAL",
+        "phases": [
+          "PHASE4"
+        ],
+        "enrollment": 98,
+        "allocation": "RANDOMIZED",
+        "primaryPurpose": "TREATMENT",
+        "source": "aact",
+        "retrievedAt": "2026-02-24T08:36:26.719Z",
+        "isDuplicate": false,
+        "classification": "maybe",
+        "relevanceScore": 50,
+        "relevanceReasons": [
+          "Contains 1 required keywords",
+          "Contains 1 preferred keywords",
+          "Study design may not meet criteria: Unknown"
+        ],
+        "pico": {
+          "population": {
+            "text": "ATRIAL FIBRILLATION",
+            "confidence": 0.9,
+            "type": "condition",
+            "details": [
+              {
+                "text": "ATRIAL FIBRILLATION",
+                "type": "condition",
+                "confidence": 0.9
+              }
+            ]
+          },
+          "intervention": {
+            "text": null,
+            "confidence": 0,
+            "details": []
+          },
+          "comparator": {
+            "text": "Substrate-Ablation",
+            "confidence": 0.8,
+            "type": "comparator",
+            "details": [
+              {
+                "text": "Substrate-Ablation",
+                "type": "comparator",
+                "confidence": 0.8
+              }
+            ]
+          },
+          "outcomes": [],
+          "studyDesign": {
+            "type": "Unknown",
+            "confidence": 0.3
+          },
+          "sampleSize": null,
+          "followUp": null,
+          "setting": []
+        },
+        "needsReview": true,
+        "processedAt": "2026-02-24T08:36:28.005Z"
+      },
+      {
+        "nctId": "NCT00198614",
+        "title": "Carvedilol Versus Metoprolol for the Prevention of Atrial Fibrillation After Off-Pump Coronary Bypass Surgery",
+        "briefSummary": null,
+        "status": "COMPLETED",
+        "startDate": "2005-01-31",
+        "completionDate": null,
+        "studyType": "INTERVENTIONAL",
+        "phases": [
+          "NA"
+        ],
+        "enrollment": 650,
+        "allocation": "RANDOMIZED",
+        "primaryPurpose": "PREVENTION",
+        "source": "aact",
+        "retrievedAt": "2026-02-24T08:36:26.719Z",
+        "isDuplicate": false,
+        "classification": "maybe",
+        "relevanceScore": 50,
+        "relevanceReasons": [
+          "Contains 1 required keywords",
+          "Contains 1 preferred keywords",
+          "Study design may not meet criteria: Unknown"
+        ],
+        "pico": {
+          "population": {
+            "text": "ATRIAL FIBRILLATION",
+            "confidence": 0.9,
+            "type": "condition",
+            "details": [
+              {
+                "text": "ATRIAL FIBRILLATION",
+                "type": "condition",
+                "confidence": 0.9
+              }
+            ]
+          },
+          "intervention": {
+            "text": "Metoprolol",
+            "confidence": 0.9,
+            "type": "known_drug",
+            "details": [
+              {
+                "text": "Metoprolol",
+                "context": "Carvedilol Versus Metoprolol for the Prevention of Atrial Fibrillation After Off-Pump Coronary Bypass Surgery",
+                "type": "known_drug",
+                "confidence": 0.9
+              },
+              {
+                "text": "Carvedilol",
+                "context": "Carvedilol Versus Metoprolol for the Prevention of Atrial Fibrillation After Off-Pump Coronary Bypass Surgery",
+                "type": "known_drug",
+                "confidence": 0.9
+              }
+            ]
+          },
+          "comparator": {
+            "text": "Metoprolol",
+            "confidence": 0.8,
+            "type": "comparator",
+            "details": [
+              {
+                "text": "Metoprolol",
+                "type": "comparator",
+                "confidence": 0.8
+              }
+            ]
+          },
+          "outcomes": [],
+          "studyDesign": {
+            "type": "Unknown",
+            "confidence": 0.3
+          },
+          "sampleSize": null,
+          "followUp": null,
+          "setting": [
+            {
+              "type": "country",
+              "value": "us"
+            }
+          ]
+        },
+        "needsReview": true,
+        "processedAt": "2026-02-24T08:36:28.046Z"
+      },
+      {
+        "nctId": "NCT00224757",
+        "title": "Transesophageal Echocardiography to Identify pAtients With Low Risk of Stroke in Atrial Fibrillation - TIARA Pilot Study",
+        "briefSummary": null,
+        "status": "COMPLETED",
+        "startDate": "2005-09-30",
+        "completionDate": "2009-09-30",
+        "studyType": "INTERVENTIONAL",
+        "phases": [
+          "NA"
+        ],
+        "enrollment": 227,
+        "allocation": "RANDOMIZED",
+        "primaryPurpose": "TREATMENT",
+        "source": "aact",
+        "retrievedAt": "2026-02-24T08:36:26.719Z",
+        "isDuplicate": false,
+        "classification": "maybe",
+        "relevanceScore": 50,
+        "relevanceReasons": [
+          "Contains 1 required keywords",
+          "Contains 1 preferred keywords",
+          "Study design may not meet criteria: Unknown"
+        ],
+        "pico": {
+          "population": {
+            "text": "ATRIAL FIBRILLATION",
+            "confidence": 0.9,
+            "type": "condition",
+            "details": [
+              {
+                "text": "ATRIAL FIBRILLATION",
+                "type": "condition",
+                "confidence": 0.9
+              },
+              {
+                "text": "STROKE",
+                "type": "condition",
+                "confidence": 0.9
+              }
+            ]
+          },
+          "intervention": {
+            "text": null,
+            "confidence": 0,
+            "details": []
+          },
+          "comparator": {
+            "text": null,
+            "confidence": 0,
+            "details": []
+          },
+          "outcomes": [
+            {
+              "text": "Stroke",
+              "type": "clinical_outcome",
+              "confidence": 0.85
+            }
+          ],
+          "studyDesign": {
+            "type": "Unknown",
+            "confidence": 0.3
+          },
+          "sampleSize": null,
+          "followUp": null,
+          "setting": []
+        },
+        "needsReview": true,
+        "processedAt": "2026-02-24T08:36:28.138Z"
+      },
+      {
+        "nctId": "NCT00232219",
+        "title": "Use of Fish Oils to Reduce Recurrence of Atrial Fibrillation Following DC Cardioversion",
+        "briefSummary": null,
+        "status": "COMPLETED",
+        "startDate": "2003-01-31",
+        "completionDate": "2013-11-30",
+        "studyType": "INTERVENTIONAL",
+        "phases": [
+          "PHASE4"
+        ],
+        "enrollment": 200,
+        "allocation": "RANDOMIZED",
+        "primaryPurpose": "TREATMENT",
+        "source": "aact",
+        "retrievedAt": "2026-02-24T08:36:26.719Z",
+        "isDuplicate": false,
+        "classification": "maybe",
+        "relevanceScore": 50,
+        "relevanceReasons": [
+          "Contains 1 required keywords",
+          "Contains 1 preferred keywords",
+          "Study design may not meet criteria: Unknown"
+        ],
+        "pico": {
+          "population": {
+            "text": "ATRIAL FIBRILLATION",
+            "confidence": 0.9,
+            "type": "condition",
+            "details": [
+              {
+                "text": "ATRIAL FIBRILLATION",
+                "type": "condition",
+                "confidence": 0.9
+              }
+            ]
+          },
+          "intervention": {
+            "text": null,
+            "confidence": 0,
+            "details": []
+          },
+          "comparator": {
+            "text": null,
+            "confidence": 0,
+            "details": []
+          },
+          "outcomes": [],
+          "studyDesign": {
+            "type": "Unknown",
+            "confidence": 0.3
+          },
+          "sampleSize": null,
+          "followUp": null,
+          "setting": [
+            {
+              "type": "country",
+              "value": "us"
+            }
+          ]
+        },
+        "needsReview": true,
+        "processedAt": "2026-02-24T08:36:28.248Z"
+      },
+      {
+        "nctId": "NCT00232245",
+        "title": "Use of Fish Oils to Reduce the Frequency and Duration of Episodes of Atrial Fibrillation in Patients With Paroxysmal Atrial Fibrillation.",
+        "briefSummary": null,
+        "status": "COMPLETED",
+        "startDate": "2003-12-31",
+        "completionDate": "2013-01-31",
+        "studyType": "INTERVENTIONAL",
+        "phases": [
+          "PHASE4"
+        ],
+        "enrollment": 80,
+        "allocation": "RANDOMIZED",
+        "primaryPurpose": "TREATMENT",
+        "source": "aact",
+        "retrievedAt": "2026-02-24T08:36:26.719Z",
+        "isDuplicate": false,
+        "classification": "maybe",
+        "relevanceScore": 50,
+        "relevanceReasons": [
+          "Contains 1 required keywords",
+          "Contains 1 preferred keywords",
+          "Study design may not meet criteria: Unknown"
+        ],
+        "pico": {
+          "population": {
+            "text": "ATRIAL FIBRILLATION",
+            "confidence": 0.9,
+            "type": "condition",
+            "details": [
+              {
+                "text": "ATRIAL FIBRILLATION",
+                "type": "condition",
+                "confidence": 0.9
+              }
+            ]
+          },
+          "intervention": {
+            "text": null,
+            "confidence": 0,
+            "details": []
+          },
+          "comparator": {
+            "text": null,
+            "confidence": 0,
+            "details": []
+          },
+          "outcomes": [],
+          "studyDesign": {
+            "type": "Unknown",
+            "confidence": 0.3
+          },
+          "sampleSize": null,
+          "followUp": null,
+          "setting": [
+            {
+              "type": "country",
+              "value": "us"
+            }
+          ]
+        },
+        "needsReview": true,
+        "processedAt": "2026-02-24T08:36:28.324Z"
+      },
+      {
+        "nctId": "NCT00232310",
+        "title": "Double Blind Placebo COntrolled Dose Ranging studY of the eFficacy and safEty of SSR149744c 300 or 600 mg for the Conversion of Atrial Fibrillation / fluttEr",
+        "briefSummary": null,
+        "status": "COMPLETED",
+        "startDate": "2005-10-31",
+        "completionDate": "2006-04-30",
+        "studyType": "INTERVENTIONAL",
+        "phases": [
+          "PHASE2"
+        ],
+        "enrollment": 150,
+        "allocation": "RANDOMIZED",
+        "primaryPurpose": "TREATMENT",
+        "source": "aact",
+        "retrievedAt": "2026-02-24T08:36:26.719Z",
+        "isDuplicate": false,
+        "classification": "maybe",
+        "relevanceScore": 55,
+        "relevanceReasons": [
+          "Contains 1 required keywords",
+          "Contains 2 preferred keywords",
+          "Study design may not meet criteria: Unknown"
+        ],
+        "pico": {
+          "population": {
+            "text": "ATRIAL FIBRILLATION",
+            "confidence": 0.9,
+            "type": "condition",
+            "details": [
+              {
+                "text": "ATRIAL FIBRILLATION",
+                "type": "condition",
+                "confidence": 0.9
+              }
+            ]
+          },
+          "intervention": {
+            "text": "or 600 mg",
+            "confidence": 0.85,
+            "type": "drug_with_dose",
+            "details": [
+              {
+                "text": "or 600 mg",
+                "type": "drug_with_dose",
+                "confidence": 0.85
+              }
+            ]
+          },
+          "comparator": {
+            "text": "Placebo",
+            "confidence": 0.95,
+            "type": "placebo",
+            "details": [
+              {
+                "text": "Placebo",
+                "type": "placebo",
+                "confidence": 0.95
+              },
+              {
+                "text": "600 mg",
+                "type": "comparator",
+                "confidence": 0.8
+              },
+              {
+                "text": "Placebo",
+                "type": "comparator",
+                "confidence": 0.8
+              },
+              {
+                "text": "COntrol",
+                "type": "comparator",
+                "confidence": 0.8
+              }
+            ]
+          },
+          "outcomes": [],
+          "studyDesign": {
+            "type": "Unknown",
+            "confidence": 0.3
+          },
+          "sampleSize": null,
+          "followUp": null,
+          "setting": []
+        },
+        "needsReview": true,
+        "processedAt": "2026-02-24T08:36:28.368Z"
+      },
+      {
+        "nctId": "NCT00233441",
+        "title": "Placebo Controlled Double-blind Dose Ranging Study of the Efficacy and Safety of SSR149744C 50, 100, 200 or 300 mg OD With Amiodarone as Calibrator for the Maintenance of Sinus Rhythm in Patients With Recent Atrial Fibrillation/Flutter",
+        "briefSummary": null,
+        "status": "COMPLETED",
+        "startDate": "2004-12-31",
+        "completionDate": "2006-05-31",
+        "studyType": "INTERVENTIONAL",
+        "phases": [
+          "PHASE2/PHASE3"
+        ],
+        "enrollment": 673,
+        "allocation": "RANDOMIZED",
+        "primaryPurpose": "TREATMENT",
+        "source": "aact",
+        "retrievedAt": "2026-02-24T08:36:26.719Z",
+        "isDuplicate": false,
+        "classification": "maybe",
+        "relevanceScore": 50,
+        "relevanceReasons": [
+          "Contains 1 required keywords",
+          "Contains 1 preferred keywords",
+          "Study design may not meet criteria: Unknown"
+        ],
+        "pico": {
+          "population": {
+            "text": "ATRIAL FIBRILLATION",
+            "confidence": 0.9,
+            "type": "condition",
+            "details": [
+              {
+                "text": "ATRIAL FIBRILLATION",
+                "type": "condition",
+                "confidence": 0.9
+              }
+            ]
+          },
+          "intervention": {
+            "text": "or 300 mg",
+            "confidence": 0.85,
+            "type": "drug_with_dose",
+            "details": [
+              {
+                "text": "or 300 mg",
+                "type": "drug_with_dose",
+                "confidence": 0.85
+              }
+            ]
+          },
+          "comparator": {
+            "text": "Placebo",
+            "confidence": 0.95,
+            "type": "placebo",
+            "details": [
+              {
+                "text": "Placebo",
+                "type": "placebo",
+                "confidence": 0.95
+              },
+              {
+                "text": "300 mg OD",
+                "type": "comparator",
+                "confidence": 0.8
+              },
+              {
+                "text": "for the Maintenance of Sinus Rhythm",
+                "type": "comparator",
+                "confidence": 0.8
+              },
+              {
+                "text": "Placebo",
+                "type": "comparator",
+                "confidence": 0.8
+              },
+              {
+                "text": "Control",
+                "type": "comparator",
+                "confidence": 0.8
+              }
+            ]
+          },
+          "outcomes": [],
+          "studyDesign": {
+            "type": "Unknown",
+            "confidence": 0.3
+          },
+          "sampleSize": null,
+          "followUp": null,
+          "setting": [
+            {
+              "type": "country",
+              "value": "us"
+            }
+          ]
+        },
+        "needsReview": true,
+        "processedAt": "2026-02-24T08:36:28.401Z"
+      },
+      {
+        "nctId": "NCT00240643",
+        "title": "Use Of SB424323 With Aspirin In Non-Valvular Atrial Fibrillation In Patients At A Low Or Intermediate Risk For Stroke",
+        "briefSummary": null,
+        "status": "COMPLETED",
+        "startDate": "2005-11-30",
+        "completionDate": "2006-12-31",
+        "studyType": "INTERVENTIONAL",
+        "phases": [
+          "PHASE2"
+        ],
+        "enrollment": 640,
+        "allocation": "RANDOMIZED",
+        "primaryPurpose": "PREVENTION",
+        "source": "aact",
+        "retrievedAt": "2026-02-24T08:36:26.719Z",
+        "isDuplicate": false,
+        "classification": "maybe",
+        "relevanceScore": 50,
+        "relevanceReasons": [
+          "Contains 1 required keywords",
+          "Contains 1 preferred keywords",
+          "Study design may not meet criteria: Unknown"
+        ],
+        "pico": {
+          "population": {
+            "text": "ATRIAL FIBRILLATION",
+            "confidence": 0.9,
+            "type": "condition",
+            "details": [
+              {
+                "text": "ATRIAL FIBRILLATION",
+                "type": "condition",
+                "confidence": 0.9
+              },
+              {
+                "text": "STROKE",
+                "type": "condition",
+                "confidence": 0.9
+              }
+            ]
+          },
+          "intervention": {
+            "text": "Aspirin",
+            "confidence": 0.9,
+            "type": "known_drug",
+            "details": [
+              {
+                "text": "Aspirin",
+                "context": "Use Of SB424323 With Aspirin In Non-Valvular Atrial Fibrillation In Patients At A Low Or Intermediate Risk For Stroke",
+                "type": "known_drug",
+                "confidence": 0.9
+              }
+            ]
+          },
+          "comparator": {
+            "text": "Intermediate Risk",
+            "confidence": 0.8,
+            "type": "comparator",
+            "details": [
+              {
+                "text": "Intermediate Risk",
+                "type": "comparator",
+                "confidence": 0.8
+              }
+            ]
+          },
+          "outcomes": [
+            {
+              "text": "Stroke",
+              "type": "clinical_outcome",
+              "confidence": 0.85
+            }
+          ],
+          "studyDesign": {
+            "type": "Unknown",
+            "confidence": 0.3
+          },
+          "sampleSize": null,
+          "followUp": null,
+          "setting": [
+            {
+              "type": "country",
+              "value": "us"
+            }
+          ]
+        },
+        "needsReview": true,
+        "processedAt": "2026-02-24T08:36:28.585Z"
+      },
+      {
+        "nctId": "NCT00244426",
+        "title": "S.I.F.A. II: Prevention Of Thromboembolic Events In Patients With Nonrheumatic Atrial Fibrillation",
+        "briefSummary": null,
+        "status": "COMPLETED",
+        "startDate": "2000-12-31",
+        "completionDate": "2008-04-30",
+        "studyType": "INTERVENTIONAL",
+        "phases": [
+          "PHASE3"
+        ],
+        "enrollment": 1372,
+        "allocation": "RANDOMIZED",
+        "primaryPurpose": "PREVENTION",
+        "source": "aact",
+        "retrievedAt": "2026-02-24T08:36:26.719Z",
+        "isDuplicate": false,
+        "classification": "maybe",
+        "relevanceScore": 50,
+        "relevanceReasons": [
+          "Contains 1 required keywords",
+          "Contains 1 preferred keywords",
+          "Study design may not meet criteria: Unknown"
+        ],
+        "pico": {
+          "population": {
+            "text": "ATRIAL FIBRILLATION",
+            "confidence": 0.9,
+            "type": "condition",
+            "details": [
+              {
+                "text": "ATRIAL FIBRILLATION",
+                "type": "condition",
+                "confidence": 0.9
+              }
+            ]
+          },
+          "intervention": {
+            "text": null,
+            "confidence": 0,
+            "details": []
+          },
+          "comparator": {
+            "text": null,
+            "confidence": 0,
+            "details": []
+          },
+          "outcomes": [],
+          "studyDesign": {
+            "type": "Unknown",
+            "confidence": 0.3
+          },
+          "sampleSize": null,
+          "followUp": null,
+          "setting": []
+        },
+        "needsReview": true,
+        "processedAt": "2026-02-24T08:36:28.659Z"
+      },
+      {
+        "nctId": "NCT00246805",
+        "title": "Heart Rate Regularization in Patients With Permanent Atrial Fibrillation Post Marketing Study",
+        "briefSummary": null,
+        "status": "COMPLETED",
+        "startDate": "2006-01-31",
+        "completionDate": "2009-03-31",
+        "studyType": "INTERVENTIONAL",
+        "phases": [
+          "PHASE4"
+        ],
+        "enrollment": 67,
+        "allocation": "RANDOMIZED",
+        "primaryPurpose": "TREATMENT",
+        "source": "aact",
+        "retrievedAt": "2026-02-24T08:36:26.719Z",
+        "isDuplicate": false,
+        "classification": "maybe",
+        "relevanceScore": 50,
+        "relevanceReasons": [
+          "Contains 1 required keywords",
+          "Contains 1 preferred keywords",
+          "Study design may not meet criteria: Unknown"
+        ],
+        "pico": {
+          "population": {
+            "text": "ATRIAL FIBRILLATION",
+            "confidence": 0.9,
+            "type": "condition",
+            "details": [
+              {
+                "text": "ATRIAL FIBRILLATION",
+                "type": "condition",
+                "confidence": 0.9
+              }
+            ]
+          },
+          "intervention": {
+            "text": null,
+            "confidence": 0,
+            "details": []
+          },
+          "comparator": {
+            "text": null,
+            "confidence": 0,
+            "details": []
+          },
+          "outcomes": [],
+          "studyDesign": {
+            "type": "Unknown",
+            "confidence": 0.3
+          },
+          "sampleSize": null,
+          "followUp": null,
+          "setting": []
+        },
+        "needsReview": true,
+        "processedAt": "2026-02-24T08:36:28.743Z"
+      },
+      {
+        "nctId": "NCT00247780",
+        "title": "Cavotricuspid Isthmusblock and Circumferential Pulmonary Vein Isolation in Patients With Atrial Fibrillation",
+        "briefSummary": null,
+        "status": "COMPLETED",
+        "startDate": "2004-11-30",
+        "completionDate": "2007-10-31",
+        "studyType": "INTERVENTIONAL",
+        "phases": [
+          "PHASE4"
+        ],
+        "enrollment": 149,
+        "allocation": "RANDOMIZED",
+        "primaryPurpose": "TREATMENT",
+        "source": "aact",
+        "retrievedAt": "2026-02-24T08:36:26.719Z",
+        "isDuplicate": false,
+        "classification": "maybe",
+        "relevanceScore": 50,
+        "relevanceReasons": [
+          "Contains 1 required keywords",
+          "Contains 1 preferred keywords",
+          "Study design may not meet criteria: Unknown"
+        ],
+        "pico": {
+          "population": {
+            "text": "ATRIAL FIBRILLATION",
+            "confidence": 0.9,
+            "type": "condition",
+            "details": [
+              {
+                "text": "ATRIAL FIBRILLATION",
+                "type": "condition",
+                "confidence": 0.9
+              }
+            ]
+          },
+          "intervention": {
+            "text": null,
+            "confidence": 0,
+            "details": []
+          },
+          "comparator": {
+            "text": null,
+            "confidence": 0,
+            "details": []
+          },
+          "outcomes": [],
+          "studyDesign": {
+            "type": "Unknown",
+            "confidence": 0.3
+          },
+          "sampleSize": null,
+          "followUp": null,
+          "setting": [
+            {
+              "type": "country",
+              "value": "us"
+            }
+          ]
+        },
+        "needsReview": true,
+        "processedAt": "2026-02-24T08:36:28.843Z"
+      },
+      {
+        "nctId": "NCT00249795",
+        "title": "Atrial Fibrillation Clopidogrel Trial With Irbesartan for Prevention of Vascular Events (ACTIVE I)",
+        "briefSummary": null,
+        "status": "COMPLETED",
+        "startDate": "2003-06-30",
+        "completionDate": "2009-08-31",
+        "studyType": "INTERVENTIONAL",
+        "phases": [
+          "PHASE3"
+        ],
+        "enrollment": 9016,
+        "allocation": "RANDOMIZED",
+        "primaryPurpose": "PREVENTION",
+        "source": "aact",
+        "retrievedAt": "2026-02-24T08:36:26.720Z",
+        "isDuplicate": false,
+        "classification": "maybe",
+        "relevanceScore": 50,
+        "relevanceReasons": [
+          "Contains 1 required keywords",
+          "Contains 1 preferred keywords",
+          "Study design may not meet criteria: Unknown"
+        ],
+        "pico": {
+          "population": {
+            "text": "ATRIAL FIBRILLATION",
+            "confidence": 0.9,
+            "type": "condition",
+            "details": [
+              {
+                "text": "ATRIAL FIBRILLATION",
+                "type": "condition",
+                "confidence": 0.9
+              }
+            ]
+          },
+          "intervention": {
+            "text": "Clopidogrel",
+            "confidence": 0.9,
+            "type": "known_drug",
+            "details": [
+              {
+                "text": "Clopidogrel",
+                "context": "Atrial Fibrillation Clopidogrel Trial With Irbesartan for Prevention of Vascular Events (ACTIVE I)",
+                "type": "known_drug",
+                "confidence": 0.9
+              },
+              {
+                "text": "Irbesartan",
+                "context": "Atrial Fibrillation Clopidogrel Trial With Irbesartan for Prevention of Vascular Events (ACTIVE I)",
+                "type": "known_drug",
+                "confidence": 0.9
+              }
+            ]
+          },
+          "comparator": {
+            "text": null,
+            "confidence": 0,
+            "details": []
+          },
+          "outcomes": [],
+          "studyDesign": {
+            "type": "Unknown",
+            "confidence": 0.3
+          },
+          "sampleSize": null,
+          "followUp": null,
+          "setting": []
+        },
+        "needsReview": true,
+        "processedAt": "2026-02-24T08:36:28.954Z"
+      },
+      {
+        "nctId": "NCT00255281",
+        "title": "Efficacy and Safety of AZD7009 in the Treatment of Atrial Fibrillation",
+        "briefSummary": null,
+        "status": "COMPLETED",
+        "startDate": "2005-09-30",
+        "completionDate": "2006-05-31",
+        "studyType": "INTERVENTIONAL",
+        "phases": [
+          "PHASE2"
+        ],
+        "enrollment": 160,
+        "allocation": "RANDOMIZED",
+        "primaryPurpose": "TREATMENT",
+        "source": "aact",
+        "retrievedAt": "2026-02-24T08:36:26.720Z",
+        "isDuplicate": false,
+        "classification": "maybe",
+        "relevanceScore": 50,
+        "relevanceReasons": [
+          "Contains 1 required keywords",
+          "Contains 1 preferred keywords",
+          "Study design may not meet criteria: Unknown"
+        ],
+        "pico": {
+          "population": {
+            "text": "ATRIAL FIBRILLATION",
+            "confidence": 0.9,
+            "type": "condition",
+            "details": [
+              {
+                "text": "ATRIAL FIBRILLATION",
+                "type": "condition",
+                "confidence": 0.9
+              }
+            ]
+          },
+          "intervention": {
+            "text": "Treatment of Atrial Fibrillation",
+            "confidence": 0.85,
+            "type": "drug_with_dose",
+            "details": [
+              {
+                "text": "Treatment of Atrial Fibrillation",
+                "type": "drug_with_dose",
+                "confidence": 0.85
+              }
+            ]
+          },
+          "comparator": {
+            "text": null,
+            "confidence": 0,
+            "details": []
+          },
+          "outcomes": [],
+          "studyDesign": {
+            "type": "Unknown",
+            "confidence": 0.3
+          },
+          "sampleSize": null,
+          "followUp": null,
+          "setting": []
+        },
+        "needsReview": true,
+        "processedAt": "2026-02-24T08:36:29.257Z"
+      },
+      {
+        "nctId": "NCT00256152",
+        "title": "Asymptomatic Atrial Fibrillation and Stroke Evaluation in Pacemaker Patients and the Atrial Fibrillation Reduction Atrial Pacing Trial",
+        "briefSummary": null,
+        "status": "COMPLETED",
+        "startDate": "2004-09-30",
+        "completionDate": "2010-06-30",
+        "studyType": "INTERVENTIONAL",
+        "phases": [
+          "PHASE4"
+        ],
+        "enrollment": 2580,
+        "allocation": "RANDOMIZED",
+        "primaryPurpose": "TREATMENT",
+        "source": "aact",
+        "retrievedAt": "2026-02-24T08:36:26.720Z",
+        "isDuplicate": false,
+        "classification": "maybe",
+        "relevanceScore": 50,
+        "relevanceReasons": [
+          "Contains 1 required keywords",
+          "Contains 1 preferred keywords",
+          "Study design may not meet criteria: Unknown"
+        ],
+        "pico": {
+          "population": {
+            "text": "ATRIAL FIBRILLATION",
+            "confidence": 0.9,
+            "type": "condition",
+            "details": [
+              {
+                "text": "ATRIAL FIBRILLATION",
+                "type": "condition",
+                "confidence": 0.9
+              },
+              {
+                "text": "STROKE",
+                "type": "condition",
+                "confidence": 0.9
+              }
+            ]
+          },
+          "intervention": {
+            "text": null,
+            "confidence": 0,
+            "details": []
+          },
+          "comparator": {
+            "text": null,
+            "confidence": 0,
+            "details": []
+          },
+          "outcomes": [
+            {
+              "text": "Stroke",
+              "type": "clinical_outcome",
+              "confidence": 0.85
+            }
+          ],
+          "studyDesign": {
+            "type": "Unknown",
+            "confidence": 0.3
+          },
+          "sampleSize": null,
+          "followUp": null,
+          "setting": []
+        },
+        "needsReview": true,
+        "processedAt": "2026-02-24T08:36:29.324Z"
+      },
+      {
+        "nctId": "NCT00259376",
+        "title": "American-Australian-African Trial With Dronedarone in Patients With Atrial Fibrillation or Atrial Flutter for the Maintenance of Sinus Rhythm",
+        "briefSummary": null,
+        "status": "COMPLETED",
+        "startDate": "2001-11-30",
+        "completionDate": "2003-09-30",
+        "studyType": "INTERVENTIONAL",
+        "phases": [
+          "PHASE3"
+        ],
+        "enrollment": 629,
+        "allocation": "RANDOMIZED",
+        "primaryPurpose": "TREATMENT",
+        "source": "aact",
+        "retrievedAt": "2026-02-24T08:36:26.720Z",
+        "isDuplicate": false,
+        "classification": "maybe",
+        "relevanceScore": 65,
+        "relevanceReasons": [
+          "Contains 2 required keywords",
+          "Contains 1 preferred keywords",
+          "Study design may not meet criteria: Unknown"
+        ],
+        "pico": {
+          "population": {
+            "text": "ATRIAL FIBRILLATION",
+            "confidence": 0.9,
+            "type": "condition",
+            "details": [
+              {
+                "text": "ATRIAL FIBRILLATION",
+                "type": "condition",
+                "confidence": 0.9
+              }
+            ]
+          },
+          "intervention": {
+            "text": null,
+            "confidence": 0,
+            "details": []
+          },
+          "comparator": {
+            "text": "Atrial Flutter",
+            "confidence": 0.8,
+            "type": "comparator",
+            "details": [
+              {
+                "text": "Atrial Flutter",
+                "type": "comparator",
+                "confidence": 0.8
+              }
+            ]
+          },
+          "outcomes": [],
+          "studyDesign": {
+            "type": "Unknown",
+            "confidence": 0.3
+          },
+          "sampleSize": null,
+          "followUp": null,
+          "setting": [
+            {
+              "type": "country",
+              "value": "us"
+            },
+            {
+              "type": "country",
+              "value": "america"
+            },
+            {
+              "type": "country",
+              "value": "australia"
+            }
+          ]
+        },
+        "needsReview": true,
+        "processedAt": "2026-02-24T08:36:29.415Z"
+      },
+      {
+        "nctId": "NCT00259428",
+        "title": "EURopean Trial In Atrial Fibrillation(AF) or Flutter (AFL) Patients Receiving Dronedarone for the maIntenance of Sinus Rhythm (EURIDIS)",
+        "briefSummary": null,
+        "status": "COMPLETED",
+        "startDate": "2001-11-30",
+        "completionDate": "2003-08-31",
+        "studyType": "INTERVENTIONAL",
+        "phases": [
+          "PHASE3"
+        ],
+        "enrollment": 615,
+        "allocation": "RANDOMIZED",
+        "primaryPurpose": "TREATMENT",
+        "source": "aact",
+        "retrievedAt": "2026-02-24T08:36:26.720Z",
+        "isDuplicate": false,
+        "classification": "maybe",
+        "relevanceScore": 50,
+        "relevanceReasons": [
+          "Contains 1 required keywords",
+          "Contains 1 preferred keywords",
+          "Study design may not meet criteria: Unknown"
+        ],
+        "pico": {
+          "population": {
+            "text": "ATRIAL FIBRILLATION",
+            "confidence": 0.9,
+            "type": "condition",
+            "details": [
+              {
+                "text": "ATRIAL FIBRILLATION",
+                "type": "condition",
+                "confidence": 0.9
+              }
+            ]
+          },
+          "intervention": {
+            "text": null,
+            "confidence": 0,
+            "details": []
+          },
+          "comparator": {
+            "text": "Flutter (AFL) Patients Receiving Dronedarone",
+            "confidence": 0.8,
+            "type": "comparator",
+            "details": [
+              {
+                "text": "Flutter (AFL) Patients Receiving Dronedarone",
+                "type": "comparator",
+                "confidence": 0.8
+              }
+            ]
+          },
+          "outcomes": [],
+          "studyDesign": {
+            "type": "Unknown",
+            "confidence": 0.3
+          },
+          "sampleSize": null,
+          "followUp": null,
+          "setting": [
+            {
+              "type": "country",
+              "value": "us"
+            }
+          ]
+        },
+        "needsReview": true,
+        "processedAt": "2026-02-24T08:36:29.554Z"
+      },
+      {
+        "nctId": "NCT00262119",
+        "title": "MINERVA: MINimizE Right Ventricular Pacing to Prevent Atrial Fibrillation and Heart Failure",
+        "briefSummary": null,
+        "status": "COMPLETED",
+        "startDate": "2006-02-28",
+        "completionDate": "2013-04-30",
+        "studyType": "INTERVENTIONAL",
+        "phases": [
+          "PHASE4"
+        ],
+        "enrollment": 1300,
+        "allocation": "RANDOMIZED",
+        "primaryPurpose": "PREVENTION",
+        "source": "aact",
+        "retrievedAt": "2026-02-24T08:36:26.720Z",
+        "isDuplicate": false,
+        "classification": "maybe",
+        "relevanceScore": 50,
+        "relevanceReasons": [
+          "Contains 1 required keywords",
+          "Contains 1 preferred keywords",
+          "Study design may not meet criteria: Unknown"
+        ],
+        "pico": {
+          "population": {
+            "text": "HEART FAILURE",
+            "confidence": 0.9,
+            "type": "condition",
+            "details": [
+              {
+                "text": "HEART FAILURE",
+                "type": "condition",
+                "confidence": 0.9
+              },
+              {
+                "text": "ATRIAL FIBRILLATION",
+                "type": "condition",
+                "confidence": 0.9
+              }
+            ]
+          },
+          "intervention": {
+            "text": null,
+            "confidence": 0,
+            "details": []
+          },
+          "comparator": {
+            "text": null,
+            "confidence": 0,
+            "details": []
+          },
+          "outcomes": [],
+          "studyDesign": {
+            "type": "Unknown",
+            "confidence": 0.3
+          },
+          "sampleSize": null,
+          "followUp": null,
+          "setting": []
+        },
+        "needsReview": true,
+        "processedAt": "2026-02-24T08:36:29.853Z"
+      },
+      {
+        "nctId": "NCT00263757",
+        "title": "Atrial Fibrillation Recurrence in Sleep Apnea",
+        "briefSummary": null,
+        "status": "COMPLETED",
+        "startDate": "2009-10-31",
+        "completionDate": "2012-05-31",
+        "studyType": "INTERVENTIONAL",
+        "phases": [
+          "NA"
+        ],
+        "enrollment": 25,
+        "allocation": "RANDOMIZED",
+        "primaryPurpose": "TREATMENT",
+        "source": "aact",
+        "retrievedAt": "2026-02-24T08:36:26.720Z",
+        "isDuplicate": false,
+        "classification": "maybe",
+        "relevanceScore": 50,
+        "relevanceReasons": [
+          "Contains 1 required keywords",
+          "Contains 1 preferred keywords",
+          "Study design may not meet criteria: Unknown"
+        ],
+        "pico": {
+          "population": {
+            "text": "ATRIAL FIBRILLATION",
+            "confidence": 0.9,
+            "type": "condition",
+            "details": [
+              {
+                "text": "ATRIAL FIBRILLATION",
+                "type": "condition",
+                "confidence": 0.9
+              }
+            ]
+          },
+          "intervention": {
+            "text": null,
+            "confidence": 0,
+            "details": []
+          },
+          "comparator": {
+            "text": null,
+            "confidence": 0,
+            "details": []
+          },
+          "outcomes": [],
+          "studyDesign": {
+            "type": "Unknown",
+            "confidence": 0.3
+          },
+          "sampleSize": null,
+          "followUp": null,
+          "setting": []
+        },
+        "needsReview": true,
+        "processedAt": "2026-02-24T08:36:30.177Z"
+      },
+      {
+        "nctId": "NCT00267137",
+        "title": "Study for Atrial Fibrillation Reduction (SAFARI)",
+        "briefSummary": null,
+        "status": "COMPLETED",
+        "startDate": "2002-09-30",
+        "completionDate": "2006-07-21",
+        "studyType": "INTERVENTIONAL",
+        "phases": [
+          "NA"
+        ],
+        "enrollment": 540,
+        "allocation": "RANDOMIZED",
+        "primaryPurpose": "TREATMENT",
+        "source": "aact",
+        "retrievedAt": "2026-02-24T08:36:26.720Z",
+        "isDuplicate": false,
+        "classification": "maybe",
+        "relevanceScore": 50,
+        "relevanceReasons": [
+          "Contains 1 required keywords",
+          "Contains 1 preferred keywords",
+          "Study design may not meet criteria: Unknown"
+        ],
+        "pico": {
+          "population": {
+            "text": "ATRIAL FIBRILLATION",
+            "confidence": 0.9,
+            "type": "condition",
+            "details": [
+              {
+                "text": "ATRIAL FIBRILLATION",
+                "type": "condition",
+                "confidence": 0.9
+              }
+            ]
+          },
+          "intervention": {
+            "text": null,
+            "confidence": 0,
+            "details": []
+          },
+          "comparator": {
+            "text": null,
+            "confidence": 0,
+            "details": []
+          },
+          "outcomes": [],
+          "studyDesign": {
+            "type": "Unknown",
+            "confidence": 0.3
+          },
+          "sampleSize": null,
+          "followUp": null,
+          "setting": []
+        },
+        "needsReview": true,
+        "processedAt": "2026-02-24T08:36:30.335Z"
+      },
+      {
+        "nctId": "NCT00267930",
+        "title": "Study of RSD1235-SR for the Prevention of Atrial Fibrillation/Atrial Flutter Recurrence",
+        "briefSummary": null,
+        "status": "COMPLETED",
+        "startDate": "2005-12-31",
+        "completionDate": "2006-08-31",
+        "studyType": "INTERVENTIONAL",
+        "phases": [
+          "PHASE2"
+        ],
+        "enrollment": 221,
+        "allocation": "RANDOMIZED",
+        "primaryPurpose": "PREVENTION",
+        "source": "aact",
+        "retrievedAt": "2026-02-24T08:36:26.720Z",
+        "isDuplicate": false,
+        "classification": "maybe",
+        "relevanceScore": 65,
+        "relevanceReasons": [
+          "Contains 2 required keywords",
+          "Contains 1 preferred keywords",
+          "Study design may not meet criteria: Unknown"
+        ],
+        "pico": {
+          "population": {
+            "text": "ATRIAL FIBRILLATION",
+            "confidence": 0.9,
+            "type": "condition",
+            "details": [
+              {
+                "text": "ATRIAL FIBRILLATION",
+                "type": "condition",
+                "confidence": 0.9
+              }
+            ]
+          },
+          "intervention": {
+            "text": null,
+            "confidence": 0,
+            "details": []
+          },
+          "comparator": {
+            "text": null,
+            "confidence": 0,
+            "details": []
+          },
+          "outcomes": [],
+          "studyDesign": {
+            "type": "Unknown",
+            "confidence": 0.3
+          },
+          "sampleSize": null,
+          "followUp": null,
+          "setting": []
+        },
+        "needsReview": true,
+        "processedAt": "2026-02-24T08:36:30.463Z"
+      },
+      {
+        "nctId": "NCT00272636",
+        "title": "Radiofrequency Catheter Ablation for Chronic Atrial Fibrillation",
+        "briefSummary": null,
+        "status": "COMPLETED",
+        "startDate": "2002-11-30",
+        "completionDate": "2005-02-28",
+        "studyType": "INTERVENTIONAL",
+        "phases": [
+          "NA"
+        ],
+        "enrollment": 140,
+        "allocation": "RANDOMIZED",
+        "primaryPurpose": "TREATMENT",
+        "source": "aact",
+        "retrievedAt": "2026-02-24T08:36:26.720Z",
+        "isDuplicate": false,
+        "classification": "maybe",
+        "relevanceScore": 50,
+        "relevanceReasons": [
+          "Contains 1 required keywords",
+          "Contains 1 preferred keywords",
+          "Study design may not meet criteria: Unknown"
+        ],
+        "pico": {
+          "population": {
+            "text": "ATRIAL FIBRILLATION",
+            "confidence": 0.9,
+            "type": "condition",
+            "details": [
+              {
+                "text": "ATRIAL FIBRILLATION",
+                "type": "condition",
+                "confidence": 0.9
+              }
+            ]
+          },
+          "intervention": {
+            "text": null,
+            "confidence": 0,
+            "details": []
+          },
+          "comparator": {
+            "text": null,
+            "confidence": 0,
+            "details": []
+          },
+          "outcomes": [],
+          "studyDesign": {
+            "type": "Unknown",
+            "confidence": 0.3
+          },
+          "sampleSize": null,
+          "followUp": null,
+          "setting": []
+        },
+        "needsReview": true,
+        "processedAt": "2026-02-24T08:36:30.629Z"
+      },
+      {
+        "nctId": "NCT00287209",
+        "title": "Reduction of Atrial Fibrillation Study in Patients Undergoing Coronary Artery Bypass Grafting. (RASCABG 1 Study)",
+        "briefSummary": null,
+        "status": "COMPLETED",
+        "startDate": "2004-01-31",
+        "completionDate": "2005-08-31",
+        "studyType": "INTERVENTIONAL",
+        "phases": [
+          "PHASE4"
+        ],
+        "enrollment": 250,
+        "allocation": "RANDOMIZED",
+        "primaryPurpose": "PREVENTION",
+        "source": "aact",
+        "retrievedAt": "2026-02-24T08:36:26.720Z",
+        "isDuplicate": false,
+        "classification": "maybe",
+        "relevanceScore": 50,
+        "relevanceReasons": [
+          "Contains 1 required keywords",
+          "Contains 1 preferred keywords",
+          "Study design may not meet criteria: Unknown"
+        ],
+        "pico": {
+          "population": {
+            "text": "ATRIAL FIBRILLATION",
+            "confidence": 0.9,
+            "type": "condition",
+            "details": [
+              {
+                "text": "ATRIAL FIBRILLATION",
+                "type": "condition",
+                "confidence": 0.9
+              }
+            ]
+          },
+          "intervention": {
+            "text": null,
+            "confidence": 0,
+            "details": []
+          },
+          "comparator": {
+            "text": null,
+            "confidence": 0,
+            "details": []
+          },
+          "outcomes": [],
+          "studyDesign": {
+            "type": "Unknown",
+            "confidence": 0.3
+          },
+          "sampleSize": null,
+          "followUp": null,
+          "setting": []
+        },
+        "needsReview": true,
+        "processedAt": "2026-02-24T08:36:30.934Z"
+      },
+      {
+        "nctId": "NCT00289367",
+        "title": "Study of T3 on the Incidence of Atrial Fibrillation in Patients Undergoing Cardiac Surgery",
+        "briefSummary": null,
+        "status": "COMPLETED",
+        "startDate": "2006-02-28",
+        "completionDate": "2008-05-31",
+        "studyType": "INTERVENTIONAL",
+        "phases": [
+          "PHASE1"
+        ],
+        "enrollment": 280,
+        "allocation": "RANDOMIZED",
+        "primaryPurpose": "PREVENTION",
+        "source": "aact",
+        "retrievedAt": "2026-02-24T08:36:26.720Z",
+        "isDuplicate": false,
+        "classification": "maybe",
+        "relevanceScore": 50,
+        "relevanceReasons": [
+          "Contains 1 required keywords",
+          "Contains 1 preferred keywords",
+          "Study design may not meet criteria: Unknown"
+        ],
+        "pico": {
+          "population": {
+            "text": "ATRIAL FIBRILLATION",
+            "confidence": 0.9,
+            "type": "condition",
+            "details": [
+              {
+                "text": "ATRIAL FIBRILLATION",
+                "type": "condition",
+                "confidence": 0.9
+              }
+            ]
+          },
+          "intervention": {
+            "text": null,
+            "confidence": 0,
+            "details": []
+          },
+          "comparator": {
+            "text": null,
+            "confidence": 0,
+            "details": []
+          },
+          "outcomes": [],
+          "studyDesign": {
+            "type": "Unknown",
+            "confidence": 0.3
+          },
+          "sampleSize": null,
+          "followUp": null,
+          "setting": []
+        },
+        "needsReview": true,
+        "processedAt": "2026-02-24T08:36:31.488Z"
+      },
+      {
+        "nctId": "NCT00292162",
+        "title": "Curing Atrial Fibrillation in Heart Failure",
+        "briefSummary": null,
+        "status": "COMPLETED",
+        "startDate": "2007-01-31",
+        "completionDate": "2009-07-31",
+        "studyType": "INTERVENTIONAL",
+        "phases": [
+          "NA"
+        ],
+        "enrollment": 41,
+        "allocation": "RANDOMIZED",
+        "primaryPurpose": "TREATMENT",
+        "source": "aact",
+        "retrievedAt": "2026-02-24T08:36:26.720Z",
+        "isDuplicate": false,
+        "classification": "maybe",
+        "relevanceScore": 50,
+        "relevanceReasons": [
+          "Contains 1 required keywords",
+          "Contains 1 preferred keywords",
+          "Study design may not meet criteria: Unknown"
+        ],
+        "pico": {
+          "population": {
+            "text": "HEART FAILURE",
+            "confidence": 0.9,
+            "type": "condition",
+            "details": [
+              {
+                "text": "HEART FAILURE",
+                "type": "condition",
+                "confidence": 0.9
+              },
+              {
+                "text": "ATRIAL FIBRILLATION",
+                "type": "condition",
+                "confidence": 0.9
+              }
+            ]
+          },
+          "intervention": {
+            "text": null,
+            "confidence": 0,
+            "details": []
+          },
+          "comparator": {
+            "text": null,
+            "confidence": 0,
+            "details": []
+          },
+          "outcomes": [],
+          "studyDesign": {
+            "type": "Unknown",
+            "confidence": 0.3
+          },
+          "sampleSize": null,
+          "followUp": null,
+          "setting": []
+        },
+        "needsReview": true,
+        "processedAt": "2026-02-24T08:36:31.682Z"
+      },
+      {
+        "nctId": "NCT00313157",
+        "title": "RATe Control in Atrial Fibrillation",
+        "briefSummary": null,
+        "status": "COMPLETED",
+        "startDate": "2006-04-30",
+        "completionDate": "2010-09-30",
+        "studyType": "INTERVENTIONAL",
+        "phases": [
+          "PHASE3"
+        ],
+        "enrollment": 80,
+        "allocation": "RANDOMIZED",
+        "primaryPurpose": "TREATMENT",
+        "source": "aact",
+        "retrievedAt": "2026-02-24T08:36:26.720Z",
+        "isDuplicate": false,
+        "classification": "maybe",
+        "relevanceScore": 50,
+        "relevanceReasons": [
+          "Contains 1 required keywords",
+          "Contains 1 preferred keywords",
+          "Study design may not meet criteria: Unknown"
+        ],
+        "pico": {
+          "population": {
+            "text": "ATRIAL FIBRILLATION",
+            "confidence": 0.9,
+            "type": "condition",
+            "details": [
+              {
+                "text": "ATRIAL FIBRILLATION",
+                "type": "condition",
+                "confidence": 0.9
+              }
+            ]
+          },
+          "intervention": {
+            "text": null,
+            "confidence": 0,
+            "details": []
+          },
+          "comparator": {
+            "text": "Control",
+            "confidence": 0.8,
+            "type": "comparator",
+            "details": [
+              {
+                "text": "Control",
+                "type": "comparator",
+                "confidence": 0.8
+              }
+            ]
+          },
+          "outcomes": [],
+          "studyDesign": {
+            "type": "Unknown",
+            "confidence": 0.3
+          },
+          "sampleSize": null,
+          "followUp": null,
+          "setting": []
+        },
+        "needsReview": true,
+        "processedAt": "2026-02-24T08:36:32.029Z"
+      },
+      {
+        "nctId": "NCT00321802",
+        "title": "Paroxysmal Atrial Fibrillation: Role of Inflammation, Oxidative Stress Injury and Effect of Statins",
+        "briefSummary": null,
+        "status": "COMPLETED",
+        "startDate": "2006-04-30",
+        "completionDate": "2012-12-31",
+        "studyType": "INTERVENTIONAL",
+        "phases": [
+          "PHASE2"
+        ],
+        "enrollment": 40,
+        "allocation": "RANDOMIZED",
+        "primaryPurpose": "PREVENTION",
+        "source": "aact",
+        "retrievedAt": "2026-02-24T08:36:26.720Z",
+        "isDuplicate": false,
+        "classification": "maybe",
+        "relevanceScore": 50,
+        "relevanceReasons": [
+          "Contains 1 required keywords",
+          "Contains 1 preferred keywords",
+          "Study design may not meet criteria: Unknown"
+        ],
+        "pico": {
+          "population": {
+            "text": "ATRIAL FIBRILLATION",
+            "confidence": 0.9,
+            "type": "condition",
+            "details": [
+              {
+                "text": "ATRIAL FIBRILLATION",
+                "type": "condition",
+                "confidence": 0.9
+              }
+            ]
+          },
+          "intervention": {
+            "text": null,
+            "confidence": 0,
+            "details": []
+          },
+          "comparator": {
+            "text": null,
+            "confidence": 0,
+            "details": []
+          },
+          "outcomes": [],
+          "studyDesign": {
+            "type": "Unknown",
+            "confidence": 0.3
+          },
+          "sampleSize": null,
+          "followUp": null,
+          "setting": []
+        },
+        "needsReview": true,
+        "processedAt": "2026-02-24T08:36:32.219Z"
+      },
+      {
+        "nctId": "NCT00338715",
+        "title": "Effectiveness of Pulmonary Vein Isolation in Prevention of Atrial Fibrillation Following Heart Bypass Surgery",
+        "briefSummary": null,
+        "status": "COMPLETED",
+        "startDate": "2006-07-31",
+        "completionDate": "2010-09-30",
+        "studyType": "INTERVENTIONAL",
+        "phases": [
+          "PHASE3"
+        ],
+        "enrollment": 193,
+        "allocation": "RANDOMIZED",
+        "primaryPurpose": "PREVENTION",
+        "source": "aact",
+        "retrievedAt": "2026-02-24T08:36:26.720Z",
+        "isDuplicate": false,
+        "classification": "maybe",
+        "relevanceScore": 50,
+        "relevanceReasons": [
+          "Contains 1 required keywords",
+          "Contains 1 preferred keywords",
+          "Study design may not meet criteria: Unknown"
+        ],
+        "pico": {
+          "population": {
+            "text": "ATRIAL FIBRILLATION",
+            "confidence": 0.9,
+            "type": "condition",
+            "details": [
+              {
+                "text": "ATRIAL FIBRILLATION",
+                "type": "condition",
+                "confidence": 0.9
+              }
+            ]
+          },
+          "intervention": {
+            "text": null,
+            "confidence": 0,
+            "details": []
+          },
+          "comparator": {
+            "text": null,
+            "confidence": 0,
+            "details": []
+          },
+          "outcomes": [],
+          "studyDesign": {
+            "type": "Unknown",
+            "confidence": 0.3
+          },
+          "sampleSize": null,
+          "followUp": null,
+          "setting": []
+        },
+        "needsReview": true,
+        "processedAt": "2026-02-24T08:36:32.805Z"
+      },
+      {
+        "nctId": "NCT00340314",
+        "title": "A Trial of Circumferential Pulmonary Vein Ablation (CPVA) Versus Antiarrhythmic Drug Therapy in for Paroxysmal Atrial Fibrillation (AF)",
+        "briefSummary": null,
+        "status": "COMPLETED",
+        "startDate": "2005-01-31",
+        "completionDate": "2006-05-31",
+        "studyType": "INTERVENTIONAL",
+        "phases": [
+          "PHASE4"
+        ],
+        "enrollment": 198,
+        "allocation": "RANDOMIZED",
+        "primaryPurpose": "TREATMENT",
+        "source": "aact",
+        "retrievedAt": "2026-02-24T08:36:26.720Z",
+        "isDuplicate": false,
+        "classification": "maybe",
+        "relevanceScore": 50,
+        "relevanceReasons": [
+          "Contains 1 required keywords",
+          "Contains 1 preferred keywords",
+          "Study design may not meet criteria: Unknown"
+        ],
+        "pico": {
+          "population": {
+            "text": "ATRIAL FIBRILLATION",
+            "confidence": 0.9,
+            "type": "condition",
+            "details": [
+              {
+                "text": "ATRIAL FIBRILLATION",
+                "type": "condition",
+                "confidence": 0.9
+              }
+            ]
+          },
+          "intervention": {
+            "text": null,
+            "confidence": 0,
+            "details": []
+          },
+          "comparator": {
+            "text": "Antiarrhythmic Drug Therapy",
+            "confidence": 0.8,
+            "type": "comparator",
+            "details": [
+              {
+                "text": "Antiarrhythmic Drug Therapy",
+                "type": "comparator",
+                "confidence": 0.8
+              }
+            ]
+          },
+          "outcomes": [],
+          "studyDesign": {
+            "type": "Unknown",
+            "confidence": 0.3
+          },
+          "sampleSize": null,
+          "followUp": null,
+          "setting": [
+            {
+              "type": "country",
+              "value": "us"
+            }
+          ]
+        },
+        "needsReview": true,
+        "processedAt": "2026-02-24T08:36:33.046Z"
+      },
+      {
+        "nctId": "NCT00352560",
+        "title": "Electrophysiological Effects of Irbesartan in Patients With Paroxysmal Atrial Fibrillation (AF)",
+        "briefSummary": null,
+        "status": "COMPLETED",
+        "startDate": "2006-07-31",
+        "completionDate": "2007-06-30",
+        "studyType": "INTERVENTIONAL",
+        "phases": [
+          "PHASE3"
+        ],
+        "enrollment": 44,
+        "allocation": "RANDOMIZED",
+        "primaryPurpose": "TREATMENT",
+        "source": "aact",
+        "retrievedAt": "2026-02-24T08:36:26.720Z",
+        "isDuplicate": false,
+        "classification": "maybe",
+        "relevanceScore": 50,
+        "relevanceReasons": [
+          "Contains 1 required keywords",
+          "Contains 1 preferred keywords",
+          "Study design may not meet criteria: Unknown"
+        ],
+        "pico": {
+          "population": {
+            "text": "ATRIAL FIBRILLATION",
+            "confidence": 0.9,
+            "type": "condition",
+            "details": [
+              {
+                "text": "ATRIAL FIBRILLATION",
+                "type": "condition",
+                "confidence": 0.9
+              }
+            ]
+          },
+          "intervention": {
+            "text": "Irbesartan",
+            "confidence": 0.9,
+            "type": "known_drug",
+            "details": [
+              {
+                "text": "Irbesartan",
+                "context": "Electrophysiological Effects of Irbesartan in Patients With Paroxysmal Atrial Fibrillation (AF)",
+                "type": "known_drug",
+                "confidence": 0.9
+              }
+            ]
+          },
+          "comparator": {
+            "text": null,
+            "confidence": 0,
+            "details": []
+          },
+          "outcomes": [],
+          "studyDesign": {
+            "type": "Unknown",
+            "confidence": 0.3
+          },
+          "sampleSize": null,
+          "followUp": null,
+          "setting": []
+        },
+        "needsReview": true,
+        "processedAt": "2026-02-24T08:36:33.299Z"
+      },
+      {
+        "nctId": "NCT00367757",
+        "title": "STAR-AF:Substrate Versus Trigger Ablation for Reduction of Atrial Fibrillation Trial",
+        "briefSummary": null,
+        "status": "COMPLETED",
+        "startDate": "2006-08-31",
+        "completionDate": "2009-07-31",
+        "studyType": "INTERVENTIONAL",
+        "phases": [
+          "NA"
+        ],
+        "enrollment": 107,
+        "allocation": "RANDOMIZED",
+        "primaryPurpose": "TREATMENT",
+        "source": "aact",
+        "retrievedAt": "2026-02-24T08:36:26.720Z",
+        "isDuplicate": false,
+        "classification": "maybe",
+        "relevanceScore": 50,
+        "relevanceReasons": [
+          "Contains 1 required keywords",
+          "Contains 1 preferred keywords",
+          "Study design may not meet criteria: Unknown"
+        ],
+        "pico": {
+          "population": {
+            "text": "ATRIAL FIBRILLATION",
+            "confidence": 0.9,
+            "type": "condition",
+            "details": [
+              {
+                "text": "ATRIAL FIBRILLATION",
+                "type": "condition",
+                "confidence": 0.9
+              }
+            ]
+          },
+          "intervention": {
+            "text": null,
+            "confidence": 0,
+            "details": []
+          },
+          "comparator": {
+            "text": "Trigger Ablation",
+            "confidence": 0.8,
+            "type": "comparator",
+            "details": [
+              {
+                "text": "Trigger Ablation",
+                "type": "comparator",
+                "confidence": 0.8
+              }
+            ]
+          },
+          "outcomes": [],
+          "studyDesign": {
+            "type": "Unknown",
+            "confidence": 0.3
+          },
+          "sampleSize": null,
+          "followUp": null,
+          "setting": [
+            {
+              "type": "country",
+              "value": "us"
+            }
+          ]
+        },
+        "needsReview": true,
+        "processedAt": "2026-02-24T08:36:33.717Z"
+      },
+      {
+        "nctId": "NCT00376272",
+        "title": "GISSI-AF - Use of Valsartan an Angiotensin II AT1-Receptor Blocker in the Prevention of Atrial Fibrillation Recurrence",
+        "briefSummary": null,
+        "status": "COMPLETED",
+        "startDate": "2004-11-30",
+        "completionDate": "2008-03-31",
+        "studyType": "INTERVENTIONAL",
+        "phases": [
+          "PHASE3"
+        ],
+        "enrollment": 1442,
+        "allocation": "RANDOMIZED",
+        "primaryPurpose": "TREATMENT",
+        "source": "aact",
+        "retrievedAt": "2026-02-24T08:36:26.720Z",
+        "isDuplicate": false,
+        "classification": "maybe",
+        "relevanceScore": 50,
+        "relevanceReasons": [
+          "Contains 1 required keywords",
+          "Contains 1 preferred keywords",
+          "Study design may not meet criteria: Unknown"
+        ],
+        "pico": {
+          "population": {
+            "text": "ATRIAL FIBRILLATION",
+            "confidence": 0.9,
+            "type": "condition",
+            "details": [
+              {
+                "text": "ATRIAL FIBRILLATION",
+                "type": "condition",
+                "confidence": 0.9
+              }
+            ]
+          },
+          "intervention": {
+            "text": "Valsartan",
+            "confidence": 0.9,
+            "type": "known_drug",
+            "details": [
+              {
+                "text": "Valsartan",
+                "context": "GISSI-AF - Use of Valsartan an Angiotensin II AT1-Receptor Blocker in the Prevention of Atrial Fibrillation Recurrence",
+                "type": "known_drug",
+                "confidence": 0.9
+              }
+            ]
+          },
+          "comparator": {
+            "text": "Blocker",
+            "confidence": 0.8,
+            "type": "comparator",
+            "details": [
+              {
+                "text": "Blocker",
+                "type": "comparator",
+                "confidence": 0.8
+              }
+            ]
+          },
+          "outcomes": [],
+          "studyDesign": {
+            "type": "Unknown",
+            "confidence": 0.3
+          },
+          "sampleSize": null,
+          "followUp": null,
+          "setting": [
+            {
+              "type": "country",
+              "value": "us"
+            }
+          ]
+        },
+        "needsReview": true,
+        "processedAt": "2026-02-24T08:36:33.971Z"
+      },
+      {
+        "nctId": "NCT00379301",
+        "title": "Efficacy of Different Ablation Strategies for Controlling Atrial Fibrillation",
+        "briefSummary": null,
+        "status": "COMPLETED",
+        "startDate": "2006-10-31",
+        "completionDate": "2011-10-31",
+        "studyType": "INTERVENTIONAL",
+        "phases": [
+          "NA"
+        ],
+        "enrollment": 166,
+        "allocation": "RANDOMIZED",
+        "primaryPurpose": "TREATMENT",
+        "source": "aact",
+        "retrievedAt": "2026-02-24T08:36:26.720Z",
+        "isDuplicate": false,
+        "classification": "maybe",
+        "relevanceScore": 50,
+        "relevanceReasons": [
+          "Contains 1 required keywords",
+          "Contains 1 preferred keywords",
+          "Study design may not meet criteria: Unknown"
+        ],
+        "pico": {
+          "population": {
+            "text": "ATRIAL FIBRILLATION",
+            "confidence": 0.9,
+            "type": "condition",
+            "details": [
+              {
+                "text": "ATRIAL FIBRILLATION",
+                "type": "condition",
+                "confidence": 0.9
+              }
+            ]
+          },
+          "intervention": {
+            "text": null,
+            "confidence": 0,
+            "details": []
+          },
+          "comparator": {
+            "text": "Control",
+            "confidence": 0.8,
+            "type": "comparator",
+            "details": [
+              {
+                "text": "Control",
+                "type": "comparator",
+                "confidence": 0.8
+              }
+            ]
+          },
+          "outcomes": [],
+          "studyDesign": {
+            "type": "Unknown",
+            "confidence": 0.3
+          },
+          "sampleSize": null,
+          "followUp": null,
+          "setting": []
+        },
+        "needsReview": true,
+        "processedAt": "2026-02-24T08:36:34.212Z"
+      },
+      {
+        "nctId": "NCT00392054",
+        "title": "First Line Radiofrequency Ablation Versus Antiarrhythmic Drugs for Atrial Fibrillation Treatment (The RAAFT Study)",
+        "briefSummary": null,
+        "status": "COMPLETED",
+        "startDate": "2006-08-31",
+        "completionDate": "2012-02-29",
+        "studyType": "INTERVENTIONAL",
+        "phases": [
+          "PHASE3"
+        ],
+        "enrollment": 127,
+        "allocation": "RANDOMIZED",
+        "primaryPurpose": "TREATMENT",
+        "source": "aact",
+        "retrievedAt": "2026-02-24T08:36:26.720Z",
+        "isDuplicate": false,
+        "classification": "maybe",
+        "relevanceScore": 50,
+        "relevanceReasons": [
+          "Contains 1 required keywords",
+          "Contains 1 preferred keywords",
+          "Study design may not meet criteria: Unknown"
+        ],
+        "pico": {
+          "population": {
+            "text": "ATRIAL FIBRILLATION",
+            "confidence": 0.9,
+            "type": "condition",
+            "details": [
+              {
+                "text": "ATRIAL FIBRILLATION",
+                "type": "condition",
+                "confidence": 0.9
+              }
+            ]
+          },
+          "intervention": {
+            "text": "Treatment (The RAAFT Study)",
+            "confidence": 0.85,
+            "type": "drug_with_dose",
+            "details": [
+              {
+                "text": "Treatment (The RAAFT Study)",
+                "type": "drug_with_dose",
+                "confidence": 0.85
+              }
+            ]
+          },
+          "comparator": {
+            "text": "Antiarrhythmic Drugs",
+            "confidence": 0.8,
+            "type": "comparator",
+            "details": [
+              {
+                "text": "Antiarrhythmic Drugs",
+                "type": "comparator",
+                "confidence": 0.8
+              }
+            ]
+          },
+          "outcomes": [],
+          "studyDesign": {
+            "type": "Unknown",
+            "confidence": 0.3
+          },
+          "sampleSize": null,
+          "followUp": null,
+          "setting": [
+            {
+              "type": "country",
+              "value": "us"
+            }
+          ]
+        },
+        "needsReview": true,
+        "processedAt": "2026-02-24T08:36:34.730Z"
+      },
+      {
+        "nctId": "NCT00392431",
+        "title": "Continuous Versus Episodic Amiodarone Treatment for the Prevention of Permanent Atrial Fibrillation",
+        "briefSummary": null,
+        "status": "COMPLETED",
+        "startDate": "2003-01-31",
+        "completionDate": "2007-03-31",
+        "studyType": "INTERVENTIONAL",
+        "phases": [
+          "NA"
+        ],
+        "enrollment": 220,
+        "allocation": "RANDOMIZED",
+        "primaryPurpose": "TREATMENT",
+        "source": "aact",
+        "retrievedAt": "2026-02-24T08:36:26.720Z",
+        "isDuplicate": false,
+        "classification": "maybe",
+        "relevanceScore": 50,
+        "relevanceReasons": [
+          "Contains 1 required keywords",
+          "Contains 1 preferred keywords",
+          "Study design may not meet criteria: Unknown"
+        ],
+        "pico": {
+          "population": {
+            "text": "ATRIAL FIBRILLATION",
+            "confidence": 0.9,
+            "type": "condition",
+            "details": [
+              {
+                "text": "ATRIAL FIBRILLATION",
+                "type": "condition",
+                "confidence": 0.9
+              }
+            ]
+          },
+          "intervention": {
+            "text": "Treatment for the Prevention of Permanent Atrial Fibrillation",
+            "confidence": 0.85,
+            "type": "drug_with_dose",
+            "details": [
+              {
+                "text": "Treatment for the Prevention of Permanent Atrial Fibrillation",
+                "type": "drug_with_dose",
+                "confidence": 0.85
+              }
+            ]
+          },
+          "comparator": {
+            "text": "Episodic Amiodarone Treatment",
+            "confidence": 0.8,
+            "type": "comparator",
+            "details": [
+              {
+                "text": "Episodic Amiodarone Treatment",
+                "type": "comparator",
+                "confidence": 0.8
+              }
+            ]
+          },
+          "outcomes": [],
+          "studyDesign": {
+            "type": "Unknown",
+            "confidence": 0.3
+          },
+          "sampleSize": null,
+          "followUp": null,
+          "setting": [
+            {
+              "type": "country",
+              "value": "us"
+            }
+          ]
+        },
+        "needsReview": true,
+        "processedAt": "2026-02-24T08:36:35.028Z"
+      },
+      {
+        "nctId": "NCT00403767",
+        "title": "An Efficacy and Safety Study of Rivaroxaban With Warfarin for the Prevention of Stroke and Non-Central Nervous System Systemic Embolism in Patients With Non-Valvular Atrial Fibrillation",
+        "briefSummary": null,
+        "status": "COMPLETED",
+        "startDate": "2006-12-31",
+        "completionDate": "2010-09-30",
+        "studyType": "INTERVENTIONAL",
+        "phases": [
+          "PHASE3"
+        ],
+        "enrollment": 14269,
+        "allocation": "RANDOMIZED",
+        "primaryPurpose": "PREVENTION",
+        "source": "aact",
+        "retrievedAt": "2026-02-24T08:36:27.628Z",
+        "isDuplicate": false,
+        "classification": "maybe",
+        "relevanceScore": 50,
+        "relevanceReasons": [
+          "Contains 1 required keywords",
+          "Contains 1 preferred keywords",
+          "Study design may not meet criteria: Unknown"
+        ],
+        "pico": {
+          "population": {
+            "text": "STEMI",
+            "confidence": 0.9,
+            "type": "condition",
+            "details": [
+              {
+                "text": "STEMI",
+                "type": "condition",
+                "confidence": 0.9
+              },
+              {
+                "text": "ATRIAL FIBRILLATION",
+                "type": "condition",
+                "confidence": 0.9
+              },
+              {
+                "text": "STROKE",
+                "type": "condition",
+                "confidence": 0.9
+              }
+            ]
+          },
+          "intervention": {
+            "text": "Rivaroxaban",
+            "confidence": 0.9,
+            "type": "known_drug",
+            "details": [
+              {
+                "text": "Rivaroxaban",
+                "context": "An Efficacy and Safety Study of Rivaroxaban With Warfarin for the Prevention of Stroke and Non-Central Nervous System Systemic Embolism in Patients With Non-Valvular Atrial Fibrillation",
+                "type": "known_drug",
+                "confidence": 0.9
+              },
+              {
+                "text": "Warfarin",
+                "context": "An Efficacy and Safety Study of Rivaroxaban With Warfarin for the Prevention of Stroke and Non-Central Nervous System Systemic Embolism in Patients With Non-Valvular Atrial Fibrillation",
+                "type": "known_drug",
+                "confidence": 0.9
+              }
+            ]
+          },
+          "comparator": {
+            "text": "the Prevention of Stroke and Non-Central Nervous System Systemic Embolism",
+            "confidence": 0.8,
+            "type": "comparator",
+            "details": [
+              {
+                "text": "the Prevention of Stroke and Non-Central Nervous System Systemic Embolism",
+                "type": "comparator",
+                "confidence": 0.8
+              }
+            ]
+          },
+          "outcomes": [
+            {
+              "text": "Stroke",
+              "type": "clinical_outcome",
+              "confidence": 0.85
+            }
+          ],
+          "studyDesign": {
+            "type": "Unknown",
+            "confidence": 0.3
+          },
+          "sampleSize": null,
+          "followUp": null,
+          "setting": [
+            {
+              "type": "country",
+              "value": "us"
+            }
+          ]
+        },
+        "needsReview": true,
+        "processedAt": "2026-02-24T08:36:35.576Z"
+      },
+      {
+        "nctId": "NCT00412984",
+        "title": "Apixaban for the Prevention of Stroke in Subjects With Atrial Fibrillation",
+        "briefSummary": null,
+        "status": "COMPLETED",
+        "startDate": "2006-12-31",
+        "completionDate": "2011-05-25",
+        "studyType": "INTERVENTIONAL",
+        "phases": [
+          "PHASE3"
+        ],
+        "enrollment": 20976,
+        "allocation": "RANDOMIZED",
+        "primaryPurpose": "PREVENTION",
+        "source": "aact",
+        "retrievedAt": "2026-02-24T08:36:27.628Z",
+        "isDuplicate": false,
+        "classification": "maybe",
+        "relevanceScore": 50,
+        "relevanceReasons": [
+          "Contains 1 required keywords",
+          "Contains 1 preferred keywords",
+          "Study design may not meet criteria: Unknown"
+        ],
+        "pico": {
+          "population": {
+            "text": "ATRIAL FIBRILLATION",
+            "confidence": 0.9,
+            "type": "condition",
+            "details": [
+              {
+                "text": "ATRIAL FIBRILLATION",
+                "type": "condition",
+                "confidence": 0.9
+              },
+              {
+                "text": "STROKE",
+                "type": "condition",
+                "confidence": 0.9
+              }
+            ]
+          },
+          "intervention": {
+            "text": "Apixaban",
+            "confidence": 0.9,
+            "type": "known_drug",
+            "details": [
+              {
+                "text": "Apixaban",
+                "context": "Apixaban for the Prevention of Stroke in Subjects With Atrial Fibrillation",
+                "type": "known_drug",
+                "confidence": 0.9
+              }
+            ]
+          },
+          "comparator": {
+            "text": "the Prevention of Stroke",
+            "confidence": 0.8,
+            "type": "comparator",
+            "details": [
+              {
+                "text": "the Prevention of Stroke",
+                "type": "comparator",
+                "confidence": 0.8
+              }
+            ]
+          },
+          "outcomes": [
+            {
+              "text": "Stroke",
+              "type": "clinical_outcome",
+              "confidence": 0.85
+            }
+          ],
+          "studyDesign": {
+            "type": "Unknown",
+            "confidence": 0.3
+          },
+          "sampleSize": null,
+          "followUp": null,
+          "setting": []
+        },
+        "needsReview": true,
+        "processedAt": "2026-02-24T08:36:35.923Z"
+      },
+      {
+        "nctId": "NCT00911508",
+        "title": "Catheter Ablation vs Anti-arrhythmic Drug Therapy for Atrial Fibrillation Trial",
+        "briefSummary": null,
+        "status": "COMPLETED",
+        "startDate": "2009-11-13",
+        "completionDate": "2017-12-31",
+        "studyType": "INTERVENTIONAL",
+        "phases": [
+          "NA"
+        ],
+        "enrollment": 2204,
+        "allocation": "RANDOMIZED",
+        "primaryPurpose": "TREATMENT",
+        "source": "aact",
+        "retrievedAt": "2026-02-24T08:36:27.628Z",
+        "isDuplicate": false,
+        "classification": "maybe",
+        "relevanceScore": 50,
+        "relevanceReasons": [
+          "Contains 1 required keywords",
+          "Contains 1 preferred keywords",
+          "Study design may not meet criteria: Unknown"
+        ],
+        "pico": {
+          "population": {
+            "text": "ATRIAL FIBRILLATION",
+            "confidence": 0.9,
+            "type": "condition",
+            "details": [
+              {
+                "text": "ATRIAL FIBRILLATION",
+                "type": "condition",
+                "confidence": 0.9
+              }
+            ]
+          },
+          "intervention": {
+            "text": null,
+            "confidence": 0,
+            "details": []
+          },
+          "comparator": {
+            "text": "Anti-arrhythmic Drug Therapy",
+            "confidence": 0.8,
+            "type": "comparator",
+            "details": [
+              {
+                "text": "Anti-arrhythmic Drug Therapy",
+                "type": "comparator",
+                "confidence": 0.8
+              }
+            ]
+          },
+          "outcomes": [],
+          "studyDesign": {
+            "type": "Unknown",
+            "confidence": 0.3
+          },
+          "sampleSize": null,
+          "followUp": null,
+          "setting": []
+        },
+        "needsReview": true,
+        "processedAt": "2026-02-24T08:36:36.258Z"
+      },
+      {
+        "nctId": "NCT01182441",
+        "title": "Evaluation of the WATCHMAN Left Atrial Appendage (LAA) Closure Device in Patients With Atrial Fibrillation Versus Long Term Warfarin Therapy",
+        "briefSummary": null,
+        "status": "COMPLETED",
+        "startDate": "2010-11-30",
+        "completionDate": "2017-11-30",
+        "studyType": "INTERVENTIONAL",
+        "phases": [
+          "PHASE3"
+        ],
+        "enrollment": 407,
+        "allocation": "RANDOMIZED",
+        "primaryPurpose": "TREATMENT",
+        "source": "aact",
+        "retrievedAt": "2026-02-24T08:36:27.628Z",
+        "isDuplicate": false,
+        "classification": "maybe",
+        "relevanceScore": 50,
+        "relevanceReasons": [
+          "Contains 1 required keywords",
+          "Contains 1 preferred keywords",
+          "Study design may not meet criteria: Unknown"
+        ],
+        "pico": {
+          "population": {
+            "text": "ATRIAL FIBRILLATION",
+            "confidence": 0.9,
+            "type": "condition",
+            "details": [
+              {
+                "text": "ATRIAL FIBRILLATION",
+                "type": "condition",
+                "confidence": 0.9
+              }
+            ]
+          },
+          "intervention": {
+            "text": "Warfarin",
+            "confidence": 0.9,
+            "type": "known_drug",
+            "details": [
+              {
+                "text": "Warfarin",
+                "context": "Evaluation of the WATCHMAN Left Atrial Appendage (LAA) Closure Device in Patients With Atrial Fibrillation Versus Long Term Warfarin Therapy",
+                "type": "known_drug",
+                "confidence": 0.9
+              }
+            ]
+          },
+          "comparator": {
+            "text": null,
+            "confidence": 0,
+            "details": []
+          },
+          "outcomes": [],
+          "studyDesign": {
+            "type": "Unknown",
+            "confidence": 0.3
+          },
+          "sampleSize": null,
+          "followUp": null,
+          "setting": [
+            {
+              "type": "country",
+              "value": "us"
+            }
+          ]
+        },
+        "needsReview": true,
+        "processedAt": "2026-02-24T08:36:36.912Z"
+      },
+      {
+        "nctId": "NCT01288352",
+        "title": "Early Treatment of Atrial Fibrillation for Stroke Prevention Trial",
+        "briefSummary": null,
+        "status": "COMPLETED",
+        "startDate": "2011-07-01",
+        "completionDate": "2020-05-31",
+        "studyType": "INTERVENTIONAL",
+        "phases": [
+          "PHASE4"
+        ],
+        "enrollment": 2789,
+        "allocation": "RANDOMIZED",
+        "primaryPurpose": "PREVENTION",
+        "source": "aact",
+        "retrievedAt": "2026-02-24T08:36:27.628Z",
+        "isDuplicate": false,
+        "classification": "maybe",
+        "relevanceScore": 50,
+        "relevanceReasons": [
+          "Contains 1 required keywords",
+          "Contains 1 preferred keywords",
+          "Study design may not meet criteria: Unknown"
+        ],
+        "pico": {
+          "population": {
+            "text": "ATRIAL FIBRILLATION",
+            "confidence": 0.9,
+            "type": "condition",
+            "details": [
+              {
+                "text": "ATRIAL FIBRILLATION",
+                "type": "condition",
+                "confidence": 0.9
+              },
+              {
+                "text": "STROKE",
+                "type": "condition",
+                "confidence": 0.9
+              }
+            ]
+          },
+          "intervention": {
+            "text": "Treatment of Atrial Fibrillation for Stroke Prevention Trial",
+            "confidence": 0.85,
+            "type": "drug_with_dose",
+            "details": [
+              {
+                "text": "Treatment of Atrial Fibrillation for Stroke Prevention Trial",
+                "type": "drug_with_dose",
+                "confidence": 0.85
+              }
+            ]
+          },
+          "comparator": {
+            "text": null,
+            "confidence": 0,
+            "details": []
+          },
+          "outcomes": [
+            {
+              "text": "Stroke",
+              "type": "clinical_outcome",
+              "confidence": 0.85
+            }
+          ],
+          "studyDesign": {
+            "type": "Unknown",
+            "confidence": 0.3
+          },
+          "sampleSize": null,
+          "followUp": null,
+          "setting": []
+        },
+        "needsReview": true,
+        "processedAt": "2026-02-24T08:36:37.289Z"
+      },
+      {
+        "nctId": "NCT01420393",
+        "title": "Rhythm Control - Catheter Ablation With or Without Anti-arrhythmic Drug Control of Maintaining Sinus Rhythm Versus Rate Control With Medical Therapy and/or Atrio-ventricular Junction Ablation and Pacemaker Treatment for Atrial Fibrillation",
+        "briefSummary": null,
+        "status": "COMPLETED",
+        "startDate": "2011-09-30",
+        "completionDate": "2021-06-30",
+        "studyType": "INTERVENTIONAL",
+        "phases": [
+          "NA"
+        ],
+        "enrollment": 411,
+        "allocation": "RANDOMIZED",
+        "primaryPurpose": "TREATMENT",
+        "source": "aact",
+        "retrievedAt": "2026-02-24T08:36:27.628Z",
+        "isDuplicate": false,
+        "classification": "maybe",
+        "relevanceScore": 50,
+        "relevanceReasons": [
+          "Contains 1 required keywords",
+          "Contains 1 preferred keywords",
+          "Study design may not meet criteria: Unknown"
+        ],
+        "pico": {
+          "population": {
+            "text": "ATRIAL FIBRILLATION",
+            "confidence": 0.9,
+            "type": "condition",
+            "details": [
+              {
+                "text": "ATRIAL FIBRILLATION",
+                "type": "condition",
+                "confidence": 0.9
+              }
+            ]
+          },
+          "intervention": {
+            "text": "Treatment for Atrial Fibrillation",
+            "confidence": 0.85,
+            "type": "drug_with_dose",
+            "details": [
+              {
+                "text": "Treatment for Atrial Fibrillation",
+                "type": "drug_with_dose",
+                "confidence": 0.85
+              }
+            ]
+          },
+          "comparator": {
+            "text": "Without Anti-arrhythmic Drug Control of Maintaining Sinus Rhythm Versus Rate Control",
+            "confidence": 0.8,
+            "type": "comparator",
+            "details": [
+              {
+                "text": "Without Anti-arrhythmic Drug Control of Maintaining Sinus Rhythm Versus Rate Control",
+                "type": "comparator",
+                "confidence": 0.8
+              },
+              {
+                "text": "Atrio-ventricular Junction Ablation and Pacemaker Treatment",
+                "type": "comparator",
+                "confidence": 0.8
+              },
+              {
+                "text": "Control",
+                "type": "comparator",
+                "confidence": 0.8
+              },
+              {
+                "text": "Control",
+                "type": "comparator",
+                "confidence": 0.8
+              },
+              {
+                "text": "Control",
+                "type": "comparator",
+                "confidence": 0.8
+              }
+            ]
+          },
+          "outcomes": [],
+          "studyDesign": {
+            "type": "Unknown",
+            "confidence": 0.3
+          },
+          "sampleSize": null,
+          "followUp": null,
+          "setting": [
+            {
+              "type": "country",
+              "value": "us"
+            }
+          ]
+        },
+        "needsReview": true,
+        "processedAt": "2026-02-24T08:36:37.644Z"
+      }
+    ],
+    "duplicates": [
+      {
+        "nctId": "NCT00035464",
+        "title": "Efficacy and Safety of Azimilide in the Prophylactic Treatment of Patients With Atrial Fibrillation.",
+        "briefSummary": null,
+        "status": "COMPLETED",
+        "startDate": "2000-12-31",
+        "completionDate": "2004-01-31",
+        "studyType": "INTERVENTIONAL",
+        "phases": [
+          "PHASE3"
+        ],
+        "enrollment": 431,
+        "allocation": "RANDOMIZED",
+        "primaryPurpose": "TREATMENT",
+        "source": "aact",
+        "retrievedAt": "2026-02-24T08:36:26.719Z",
+        "isDuplicate": true,
+        "duplicateOf": {
+          "index": 4,
+          "title": "Efficacy and Safety Evaluation of Azimilide or Sotalol vs Placebo for Treatment of Patients With Atrial Fibrillation."
+        }
+      },
+      {
+        "nctId": "NCT00035477",
+        "title": "Efficacy and Safety of Azimilide for the Treatment of Patients With Atrial Fibrillation",
+        "briefSummary": null,
+        "status": "COMPLETED",
+        "startDate": "2000-09-30",
+        "completionDate": "2003-10-31",
+        "studyType": "INTERVENTIONAL",
+        "phases": [
+          "PHASE3"
+        ],
+        "enrollment": 446,
+        "allocation": "RANDOMIZED",
+        "primaryPurpose": "TREATMENT",
+        "source": "aact",
+        "retrievedAt": "2026-02-24T08:36:26.719Z",
+        "isDuplicate": true,
+        "duplicateOf": {
+          "index": 4,
+          "title": "Efficacy and Safety Evaluation of Azimilide or Sotalol vs Placebo for Treatment of Patients With Atrial Fibrillation."
+        }
+      },
+      {
+        "nctId": "NCT00126061",
+        "title": "Intravenous Tedisamil in the Rapid Conversion of Atrial Fibrillation or Flutter to Normal Sinus Rhythm in Male Subjects",
+        "briefSummary": null,
+        "status": "COMPLETED",
+        "startDate": "2004-10-31",
+        "completionDate": "2006-01-31",
+        "studyType": "INTERVENTIONAL",
+        "phases": [
+          "PHASE3"
+        ],
+        "enrollment": null,
+        "allocation": "RANDOMIZED",
+        "primaryPurpose": "TREATMENT",
+        "source": "aact",
+        "retrievedAt": "2026-02-24T08:36:26.719Z",
+        "isDuplicate": true,
+        "duplicateOf": {
+          "index": 15,
+          "title": "Intravenous Tedisamil in the Rapid Conversion of Atrial Fibrillation or Flutter to Normal Sinus Rhythm in Female Subjects"
+        }
+      },
+      {
+        "nctId": "NCT00126074",
+        "title": "Intravenous Tedisamil in the Rapid Conversion of Atrial Fibrillation or Flutter to Normal Sinus Rhythm in Female Subjects",
+        "briefSummary": null,
+        "status": "COMPLETED",
+        "startDate": "2004-10-31",
+        "completionDate": "2006-03-31",
+        "studyType": "INTERVENTIONAL",
+        "phases": [
+          "PHASE3"
+        ],
+        "enrollment": null,
+        "allocation": "RANDOMIZED",
+        "primaryPurpose": "TREATMENT",
+        "source": "aact",
+        "retrievedAt": "2026-02-24T08:36:26.719Z",
+        "isDuplicate": true,
+        "duplicateOf": {
+          "index": 15,
+          "title": "Intravenous Tedisamil in the Rapid Conversion of Atrial Fibrillation or Flutter to Normal Sinus Rhythm in Female Subjects"
+        }
+      },
+      {
+        "nctId": "NCT00232232",
+        "title": "Use of Fish Oils to Prevent Atrial Mechanical Stunning and Atrial Remodeling Due to Atrial Arrhythmia",
+        "briefSummary": null,
+        "status": "COMPLETED",
+        "startDate": "2003-09-30",
+        "completionDate": "2013-11-30",
+        "studyType": "INTERVENTIONAL",
+        "phases": [
+          "PHASE4"
+        ],
+        "enrollment": 100,
+        "allocation": "RANDOMIZED",
+        "primaryPurpose": "TREATMENT",
+        "source": "aact",
+        "retrievedAt": "2026-02-24T08:36:26.719Z",
+        "isDuplicate": true,
+        "duplicateOf": {
+          "index": 34,
+          "title": "Use of Fish Oils to Reduce Recurrence of Atrial Fibrillation Following DC Cardioversion"
+        }
+      },
+      {
+        "nctId": "NCT00238706",
+        "title": "Use of Radiofrequency Ablation to Eliminate Continuous Atrial Fibrillation in Patients Undergoing Mitral Valve Surgery",
+        "briefSummary": null,
+        "status": "COMPLETED",
+        "startDate": "2001-12-31",
+        "completionDate": "2004-11-30",
+        "studyType": "INTERVENTIONAL",
+        "phases": [
+          "NA"
+        ],
+        "enrollment": null,
+        "allocation": "RANDOMIZED",
+        "primaryPurpose": "TREATMENT",
+        "source": "aact",
+        "retrievedAt": "2026-02-24T08:36:26.719Z",
+        "isDuplicate": true,
+        "duplicateOf": {
+          "index": 36,
+          "title": "Use of Fish Oils to Reduce the Frequency and Duration of Episodes of Atrial Fibrillation in Patients With Paroxysmal Atrial Fibrillation."
+        }
+      },
+      {
+        "nctId": "NCT00249873",
+        "title": "Atrial Fibrillation Clopidogrel Trial With Irbesartan for Prevention of Vascular Events (ACTIVE A)",
+        "briefSummary": null,
+        "status": "COMPLETED",
+        "startDate": "2003-06-30",
+        "completionDate": "2009-03-31",
+        "studyType": "INTERVENTIONAL",
+        "phases": [
+          "PHASE3"
+        ],
+        "enrollment": 7554,
+        "allocation": "RANDOMIZED",
+        "primaryPurpose": "PREVENTION",
+        "source": "aact",
+        "retrievedAt": "2026-02-24T08:36:26.720Z",
+        "isDuplicate": true,
+        "duplicateOf": {
+          "index": 45,
+          "title": "Atrial Fibrillation Clopidogrel Trial With Irbesartan for Prevention of Vascular Events (ACTIVE I)"
+        }
+      },
+      {
+        "nctId": "NCT00293943",
+        "title": "Randomized Trial of Two Different Strategies to Treat Paroxysmal Atrial Fibrillation",
+        "briefSummary": null,
+        "status": "COMPLETED",
+        "startDate": "2006-02-28",
+        "completionDate": "2010-08-31",
+        "studyType": "INTERVENTIONAL",
+        "phases": [
+          "NA"
+        ],
+        "enrollment": 232,
+        "allocation": "RANDOMIZED",
+        "primaryPurpose": "TREATMENT",
+        "source": "aact",
+        "retrievedAt": "2026-02-24T08:36:26.720Z",
+        "isDuplicate": true,
+        "duplicateOf": {
+          "index": 54,
+          "title": "Randomized Evaluation of Long Term Anticoagulant Therapy (RE-LY) With Dabigatran Etexilate"
+        }
+      },
+      {
+        "nctId": "NCT00389792",
+        "title": "Efficacy and Safety Study of an Antiarrhythmic Drug to Treat Atrial Fibrillation in Patients With Pacemakers",
+        "briefSummary": null,
+        "status": "COMPLETED",
+        "startDate": "2006-07-31",
+        "completionDate": "2008-12-31",
+        "studyType": "INTERVENTIONAL",
+        "phases": [
+          "PHASE2"
+        ],
+        "enrollment": 72,
+        "allocation": "RANDOMIZED",
+        "primaryPurpose": "TREATMENT",
+        "source": "aact",
+        "retrievedAt": "2026-02-24T08:36:26.720Z",
+        "isDuplicate": true,
+        "duplicateOf": {
+          "index": 4,
+          "title": "Efficacy and Safety Evaluation of Azimilide or Sotalol vs Placebo for Treatment of Patients With Atrial Fibrillation."
+        }
+      }
+    ],
+    "excluded": [
+      {
+        "nctId": "NCT00032591",
+        "title": "The Home INR Study",
+        "briefSummary": null,
+        "status": "COMPLETED",
+        "startDate": "2003-08-31",
+        "completionDate": "2008-05-31",
+        "studyType": "INTERVENTIONAL",
+        "phases": [
+          "PHASE4"
+        ],
+        "enrollment": 2922,
+        "allocation": "RANDOMIZED",
+        "primaryPurpose": "TREATMENT",
+        "source": "aact",
+        "retrievedAt": "2026-02-24T08:36:26.719Z",
+        "isDuplicate": false,
+        "classification": "exclude",
+        "relevanceScore": 0,
+        "relevanceReasons": [
+          "Missing required keywords",
+          "Study design may not meet criteria: Unknown"
+        ],
+        "pico": null,
+        "needsReview": false,
+        "processedAt": "2026-02-24T08:36:27.631Z"
+      },
+      {
+        "nctId": "NCT00125320",
+        "title": "Response to RSD1235 Compared to Placebo in Subjects With Atrial Arrhythmia After Heart Surgery",
+        "briefSummary": null,
+        "status": "COMPLETED",
+        "startDate": "2004-06-30",
+        "completionDate": "2007-02-28",
+        "studyType": "INTERVENTIONAL",
+        "phases": [
+          "PHASE3"
+        ],
+        "enrollment": 190,
+        "allocation": "RANDOMIZED",
+        "primaryPurpose": "TREATMENT",
+        "source": "aact",
+        "retrievedAt": "2026-02-24T08:36:26.719Z",
+        "isDuplicate": false,
+        "classification": "exclude",
+        "relevanceScore": 0,
+        "relevanceReasons": [
+          "Missing required keywords",
+          "Contains 1 preferred keywords",
+          "Study design may not meet criteria: Unknown"
+        ],
+        "pico": null,
+        "needsReview": false,
+        "processedAt": "2026-02-24T08:36:27.678Z"
+      },
+      {
+        "nctId": "NCT00196144",
+        "title": "FFS - Far Field Sensing Test Study in Cardiac Dual Chamber Pacemakers",
+        "briefSummary": null,
+        "status": "COMPLETED",
+        "startDate": "2002-07-31",
+        "completionDate": "2004-04-30",
+        "studyType": "INTERVENTIONAL",
+        "phases": [
+          "PHASE4"
+        ],
+        "enrollment": 207,
+        "allocation": "RANDOMIZED",
+        "primaryPurpose": "PREVENTION",
+        "source": "aact",
+        "retrievedAt": "2026-02-24T08:36:26.719Z",
+        "isDuplicate": false,
+        "classification": "exclude",
+        "relevanceScore": 0,
+        "relevanceReasons": [
+          "Missing required keywords",
+          "Study design may not meet criteria: Unknown"
+        ],
+        "pico": null,
+        "needsReview": false,
+        "processedAt": "2026-02-24T08:36:27.966Z"
+      },
+      {
+        "nctId": "NCT00215774",
+        "title": "Flecainide-Short Long Study (Flec-SL)",
+        "briefSummary": null,
+        "status": "COMPLETED",
+        "startDate": "2005-03-31",
+        "completionDate": "2011-03-31",
+        "studyType": "INTERVENTIONAL",
+        "phases": [
+          "NA"
+        ],
+        "enrollment": 760,
+        "allocation": "RANDOMIZED",
+        "primaryPurpose": "TREATMENT",
+        "source": "aact",
+        "retrievedAt": "2026-02-24T08:36:26.719Z",
+        "isDuplicate": false,
+        "classification": "exclude",
+        "relevanceScore": 0,
+        "relevanceReasons": [
+          "Missing required keywords",
+          "Study design may not meet criteria: Unknown"
+        ],
+        "pico": null,
+        "needsReview": false,
+        "processedAt": "2026-02-24T08:36:28.091Z"
+      },
+      {
+        "nctId": "NCT00231296",
+        "title": "Safety and Efficacy of CryoCor™ Cryoablation for PAF",
+        "briefSummary": null,
+        "status": "COMPLETED",
+        "startDate": "2004-11-30",
+        "completionDate": "2009-03-31",
+        "studyType": "INTERVENTIONAL",
+        "phases": [
+          "NA"
+        ],
+        "enrollment": 174,
+        "allocation": "RANDOMIZED",
+        "primaryPurpose": "TREATMENT",
+        "source": "aact",
+        "retrievedAt": "2026-02-24T08:36:26.719Z",
+        "isDuplicate": false,
+        "classification": "exclude",
+        "relevanceScore": 0,
+        "relevanceReasons": [
+          "Missing required keywords",
+          "Study design may not meet criteria: Unknown"
+        ],
+        "pico": null,
+        "needsReview": false,
+        "processedAt": "2026-02-24T08:36:28.190Z"
+      },
+      {
+        "nctId": "NCT00239226",
+        "title": "Electrophysiologically Guided PAcing Site Selection Study",
+        "briefSummary": null,
+        "status": "COMPLETED",
+        "startDate": "2005-11-30",
+        "completionDate": "2009-03-31",
+        "studyType": "INTERVENTIONAL",
+        "phases": [
+          "PHASE4"
+        ],
+        "enrollment": 102,
+        "allocation": "RANDOMIZED",
+        "primaryPurpose": "PREVENTION",
+        "source": "aact",
+        "retrievedAt": "2026-02-24T08:36:26.719Z",
+        "isDuplicate": false,
+        "classification": "exclude",
+        "relevanceScore": 0,
+        "relevanceReasons": [
+          "Missing required keywords",
+          "Study design may not meet criteria: Unknown"
+        ],
+        "pico": null,
+        "needsReview": false,
+        "processedAt": "2026-02-24T08:36:28.520Z"
+      },
+      {
+        "nctId": "NCT00251706",
+        "title": "Amiodarone to Prevent Post-Operative Arrhythmias",
+        "briefSummary": null,
+        "status": "COMPLETED",
+        "startDate": "1999-02-28",
+        "completionDate": "2004-09-30",
+        "studyType": "INTERVENTIONAL",
+        "phases": [
+          "PHASE3"
+        ],
+        "enrollment": 600,
+        "allocation": "RANDOMIZED",
+        "primaryPurpose": "PREVENTION",
+        "source": "aact",
+        "retrievedAt": "2026-02-24T08:36:26.720Z",
+        "isDuplicate": false,
+        "classification": "exclude",
+        "relevanceScore": 0,
+        "relevanceReasons": [
+          "Missing required keywords",
+          "Study design may not meet criteria: Unknown"
+        ],
+        "pico": null,
+        "needsReview": false,
+        "processedAt": "2026-02-24T08:36:29.172Z"
+      },
+      {
+        "nctId": "NCT00259623",
+        "title": "Cardiac Surgical Treatment by Radiofrequency Ablation on Valvular Patients: Efficacy at 3 Months",
+        "briefSummary": null,
+        "status": "COMPLETED",
+        "startDate": "2005-12-31",
+        "completionDate": "2007-10-31",
+        "studyType": "INTERVENTIONAL",
+        "phases": [
+          "NA"
+        ],
+        "enrollment": 13,
+        "allocation": "RANDOMIZED",
+        "primaryPurpose": "TREATMENT",
+        "source": "aact",
+        "retrievedAt": "2026-02-24T08:36:26.720Z",
+        "isDuplicate": false,
+        "classification": "exclude",
+        "relevanceScore": 0,
+        "relevanceReasons": [
+          "Missing required keywords",
+          "Study design may not meet criteria: Unknown"
+        ],
+        "pico": null,
+        "needsReview": false,
+        "processedAt": "2026-02-24T08:36:29.699Z"
+      },
+      {
+        "nctId": "NCT00262600",
+        "title": "Randomized Evaluation of Long Term Anticoagulant Therapy (RE-LY) With Dabigatran Etexilate",
+        "briefSummary": null,
+        "status": "COMPLETED",
+        "startDate": "2005-12-31",
+        "completionDate": null,
+        "studyType": "INTERVENTIONAL",
+        "phases": [
+          "PHASE3"
+        ],
+        "enrollment": 18113,
+        "allocation": "RANDOMIZED",
+        "primaryPurpose": "PREVENTION",
+        "source": "aact",
+        "retrievedAt": "2026-02-24T08:36:26.720Z",
+        "isDuplicate": false,
+        "classification": "exclude",
+        "relevanceScore": 30,
+        "relevanceReasons": [
+          "Missing required keywords",
+          "Contains 1 preferred keywords",
+          "Accepted study design: RCT"
+        ],
+        "pico": null,
+        "needsReview": true,
+        "processedAt": "2026-02-24T08:36:30.017Z"
+      },
+      {
+        "nctId": "NCT00284830",
+        "title": "SAVEPACe - Search AV Extension and Managed Ventricular Pacing for Promoting Atrio-Ventricular Conduction",
+        "briefSummary": null,
+        "status": "COMPLETED",
+        "startDate": "2003-01-31",
+        "completionDate": "2008-02-29",
+        "studyType": "INTERVENTIONAL",
+        "phases": [
+          "NA"
+        ],
+        "enrollment": 1070,
+        "allocation": "RANDOMIZED",
+        "primaryPurpose": "PREVENTION",
+        "source": "aact",
+        "retrievedAt": "2026-02-24T08:36:26.720Z",
+        "isDuplicate": false,
+        "classification": "exclude",
+        "relevanceScore": 0,
+        "relevanceReasons": [
+          "Missing required keywords",
+          "Study design may not meet criteria: Unknown"
+        ],
+        "pico": null,
+        "needsReview": false,
+        "processedAt": "2026-02-24T08:36:30.756Z"
+      },
+      {
+        "nctId": "NCT00289042",
+        "title": "Assessment of Cardioversion Using Transesophageal Echocardiography II (ACUTE II)",
+        "briefSummary": null,
+        "status": "COMPLETED",
+        "startDate": "1999-12-31",
+        "completionDate": "2004-11-30",
+        "studyType": "INTERVENTIONAL",
+        "phases": [
+          "PHASE4"
+        ],
+        "enrollment": 200,
+        "allocation": "RANDOMIZED",
+        "primaryPurpose": "TREATMENT",
+        "source": "aact",
+        "retrievedAt": "2026-02-24T08:36:26.720Z",
+        "isDuplicate": false,
+        "classification": "exclude",
+        "relevanceScore": 0,
+        "relevanceReasons": [
+          "Missing required keywords",
+          "Study design may not meet criteria: Unknown"
+        ],
+        "pico": null,
+        "needsReview": false,
+        "processedAt": "2026-02-24T08:36:31.112Z"
+      },
+      {
+        "nctId": "NCT00289289",
+        "title": "Reducing Episodes by Septal Pacing Efficacy Confirmation Trial (RESPECT)",
+        "briefSummary": null,
+        "status": "COMPLETED",
+        "startDate": "2004-02-29",
+        "completionDate": "2011-07-31",
+        "studyType": "INTERVENTIONAL",
+        "phases": [
+          "NA"
+        ],
+        "enrollment": 400,
+        "allocation": "RANDOMIZED",
+        "primaryPurpose": "PREVENTION",
+        "source": "aact",
+        "retrievedAt": "2026-02-24T08:36:26.720Z",
+        "isDuplicate": false,
+        "classification": "exclude",
+        "relevanceScore": 0,
+        "relevanceReasons": [
+          "Missing required keywords",
+          "Contains 1 preferred keywords",
+          "Study design may not meet criteria: Unknown"
+        ],
+        "pico": null,
+        "needsReview": false,
+        "processedAt": "2026-02-24T08:36:31.314Z"
+      },
+      {
+        "nctId": "NCT00328848",
+        "title": "After Discharge Management of Low Income Frail Elderly",
+        "briefSummary": null,
+        "status": "COMPLETED",
+        "startDate": "2005-10-31",
+        "completionDate": "2013-04-30",
+        "studyType": "INTERVENTIONAL",
+        "phases": [
+          "NA"
+        ],
+        "enrollment": 530,
+        "allocation": "RANDOMIZED",
+        "primaryPurpose": "HEALTH_SERVICES_RESEARCH",
+        "source": "aact",
+        "retrievedAt": "2026-02-24T08:36:26.720Z",
+        "isDuplicate": false,
+        "classification": "exclude",
+        "relevanceScore": 0,
+        "relevanceReasons": [
+          "Missing required keywords",
+          "Study design may not meet criteria: Unknown"
+        ],
+        "pico": null,
+        "needsReview": false,
+        "processedAt": "2026-02-24T08:36:32.390Z"
+      },
+      {
+        "nctId": "NCT00334464",
+        "title": "A Pharmacogenetic Study of Warfarin Dosing, \"The COUMA-GEN Study\"",
+        "briefSummary": null,
+        "status": "COMPLETED",
+        "startDate": "2006-02-28",
+        "completionDate": "2007-11-30",
+        "studyType": "INTERVENTIONAL",
+        "phases": [
+          "NA"
+        ],
+        "enrollment": 200,
+        "allocation": "RANDOMIZED",
+        "primaryPurpose": "TREATMENT",
+        "source": "aact",
+        "retrievedAt": "2026-02-24T08:36:26.720Z",
+        "isDuplicate": false,
+        "classification": "exclude",
+        "relevanceScore": 0,
+        "relevanceReasons": [
+          "Missing required keywords",
+          "Study design may not meet criteria: Unknown"
+        ],
+        "pico": null,
+        "needsReview": false,
+        "processedAt": "2026-02-24T08:36:32.575Z"
+      },
+      {
+        "nctId": "NCT00356759",
+        "title": "Prolongation of the Interval Between Monitoring of Warfarin in Stable Patients",
+        "briefSummary": null,
+        "status": "COMPLETED",
+        "startDate": "2006-12-31",
+        "completionDate": "2010-02-28",
+        "studyType": "INTERVENTIONAL",
+        "phases": [
+          "PHASE2"
+        ],
+        "enrollment": 250,
+        "allocation": "RANDOMIZED",
+        "primaryPurpose": "TREATMENT",
+        "source": "aact",
+        "retrievedAt": "2026-02-24T08:36:26.720Z",
+        "isDuplicate": false,
+        "classification": "exclude",
+        "relevanceScore": 0,
+        "relevanceReasons": [
+          "Missing required keywords",
+          "Study design may not meet criteria: Unknown"
+        ],
+        "pico": null,
+        "needsReview": false,
+        "processedAt": "2026-02-24T08:36:33.505Z"
+      },
+      {
+        "nctId": "NCT00004488",
+        "title": "Phase II Randomized Study of Alendronate Sodium for Osteopenia in Patients With Gaucher's Disease",
+        "briefSummary": null,
+        "status": "COMPLETED",
+        "startDate": "1998-10-31",
+        "completionDate": "2002-09-30",
+        "studyType": "INTERVENTIONAL",
+        "phases": [
+          "PHASE2"
+        ],
+        "enrollment": 82,
+        "allocation": "RANDOMIZED",
+        "primaryPurpose": "TREATMENT",
+        "source": "aact",
+        "retrievedAt": "2026-02-24T08:36:27.628Z",
+        "isDuplicate": false,
+        "classification": "exclude",
+        "relevanceScore": 30,
+        "relevanceReasons": [
+          "Missing required keywords",
+          "Contains 1 preferred keywords",
+          "Accepted study design: RCT"
+        ],
+        "pico": null,
+        "needsReview": true,
+        "processedAt": "2026-02-24T08:36:35.261Z"
+      },
+      {
+        "nctId": "NCT01150474",
+        "title": "Postoperative Belladonna and Morphine Suppositories in Vaginal Surgery",
+        "briefSummary": null,
+        "status": "COMPLETED",
+        "startDate": "2011-01-31",
+        "completionDate": "2013-12-31",
+        "studyType": "INTERVENTIONAL",
+        "phases": [
+          "PHASE4"
+        ],
+        "enrollment": 103,
+        "allocation": "RANDOMIZED",
+        "primaryPurpose": "TREATMENT",
+        "source": "aact",
+        "retrievedAt": "2026-02-24T08:36:27.628Z",
+        "isDuplicate": false,
+        "classification": "exclude",
+        "relevanceScore": 0,
+        "relevanceReasons": [
+          "Missing required keywords",
+          "Study design may not meet criteria: Unknown"
+        ],
+        "pico": null,
+        "needsReview": false,
+        "processedAt": "2026-02-24T08:36:36.583Z"
+      }
+    ],
+    "summary": {
+      "totalFound": 88,
+      "newPotentialInclusions": 1,
+      "newMaybes": 61,
+      "duplicatesDetected": 9,
+      "autoExcluded": 17,
+      "trialUniverseWithoutPICO": 88,
+      "trialUniverseWithPICO": 70,
+      "trialUniverseRetainedPct": 79.5
+    },
+    "trialUniverse": {
+      "decision": "PASS",
+      "withoutPICO": {
+        "totalStudies": 88,
+        "uniqueNctCount": 88,
+        "studyIds": [
+          "NCT00000517",
+          "NCT00000556",
+          "NCT00007605",
+          "NCT00032591",
+          "NCT00035451",
+          "NCT00035464",
+          "NCT00035477",
+          "NCT00040001",
+          "NCT00070655",
+          "NCT00098137",
+          "NCT00111527",
+          "NCT00115791",
+          "NCT00116428",
+          "NCT00123344",
+          "NCT00125320",
+          "NCT00126022",
+          "NCT00126061",
+          "NCT00126074",
+          "NCT00127712",
+          "NCT00129545",
+          "NCT00130975",
+          "NCT00133211",
+          "NCT00137540",
+          "NCT00141778",
+          "NCT00157781",
+          "NCT00174785",
+          "NCT00187252",
+          "NCT00192972",
+          "NCT00196144",
+          "NCT00196183",
+          "NCT00198614",
+          "NCT00215774",
+          "NCT00224757",
+          "NCT00231296",
+          "NCT00232219",
+          "NCT00232232",
+          "NCT00232245",
+          "NCT00232310",
+          "NCT00233441",
+          "NCT00238706",
+          "NCT00239226",
+          "NCT00240643",
+          "NCT00244426",
+          "NCT00246805",
+          "NCT00247780",
+          "NCT00249795",
+          "NCT00249873",
+          "NCT00251706",
+          "NCT00255281",
+          "NCT00256152",
+          "NCT00259376",
+          "NCT00259428",
+          "NCT00259623",
+          "NCT00262119",
+          "NCT00262600",
+          "NCT00263757",
+          "NCT00267137",
+          "NCT00267930",
+          "NCT00272636",
+          "NCT00284830",
+          "NCT00287209",
+          "NCT00289042",
+          "NCT00289289",
+          "NCT00289367",
+          "NCT00292162",
+          "NCT00293943",
+          "NCT00313157",
+          "NCT00321802",
+          "NCT00328848",
+          "NCT00334464",
+          "NCT00338715",
+          "NCT00340314",
+          "NCT00352560",
+          "NCT00356759",
+          "NCT00367757",
+          "NCT00376272",
+          "NCT00379301",
+          "NCT00389792",
+          "NCT00392054",
+          "NCT00392431",
+          "NCT00004488",
+          "NCT00403767",
+          "NCT00412984",
+          "NCT00911508",
+          "NCT01150474",
+          "NCT01182441",
+          "NCT01288352",
+          "NCT01420393"
+        ],
+        "duplicateCount": 0,
+        "duplicateStudyIds": []
+      },
+      "withPICO": {
+        "totalStudies": 70,
+        "includeCount": 2,
+        "maybeCount": 68,
+        "excludeCount": 18,
+        "studyIds": [
+          "NCT00000517",
+          "NCT00000556",
+          "NCT00007605",
+          "NCT00035451",
+          "NCT00035464",
+          "NCT00035477",
+          "NCT00040001",
+          "NCT00070655",
+          "NCT00098137",
+          "NCT00111527",
+          "NCT00115791",
+          "NCT00116428",
+          "NCT00123344",
+          "NCT00126022",
+          "NCT00126061",
+          "NCT00126074",
+          "NCT00127712",
+          "NCT00129545",
+          "NCT00130975",
+          "NCT00133211",
+          "NCT00137540",
+          "NCT00141778",
+          "NCT00157781",
+          "NCT00174785",
+          "NCT00187252",
+          "NCT00192972",
+          "NCT00196183",
+          "NCT00198614",
+          "NCT00224757",
+          "NCT00232219",
+          "NCT00232245",
+          "NCT00232310",
+          "NCT00233441",
+          "NCT00238706",
+          "NCT00240643",
+          "NCT00244426",
+          "NCT00246805",
+          "NCT00247780",
+          "NCT00249795",
+          "NCT00249873",
+          "NCT00255281",
+          "NCT00256152",
+          "NCT00259376",
+          "NCT00259428",
+          "NCT00262119",
+          "NCT00263757",
+          "NCT00267137",
+          "NCT00267930",
+          "NCT00272636",
+          "NCT00287209",
+          "NCT00289367",
+          "NCT00292162",
+          "NCT00293943",
+          "NCT00313157",
+          "NCT00321802",
+          "NCT00338715",
+          "NCT00340314",
+          "NCT00352560",
+          "NCT00367757",
+          "NCT00376272",
+          "NCT00379301",
+          "NCT00389792",
+          "NCT00392054",
+          "NCT00392431",
+          "NCT00403767",
+          "NCT00412984",
+          "NCT00911508",
+          "NCT01182441",
+          "NCT01288352",
+          "NCT01420393"
+        ],
+        "includeStudyIds": [
+          "NCT00192972",
+          "NCT00293943"
+        ],
+        "maybeStudyIds": [
+          "NCT00000517",
+          "NCT00000556",
+          "NCT00007605",
+          "NCT00035451",
+          "NCT00035464",
+          "NCT00035477",
+          "NCT00040001",
+          "NCT00070655",
+          "NCT00098137",
+          "NCT00111527",
+          "NCT00115791",
+          "NCT00116428",
+          "NCT00123344",
+          "NCT00126022",
+          "NCT00126061",
+          "NCT00126074",
+          "NCT00127712",
+          "NCT00129545",
+          "NCT00130975",
+          "NCT00133211",
+          "NCT00137540",
+          "NCT00141778",
+          "NCT00157781",
+          "NCT00174785",
+          "NCT00187252",
+          "NCT00196183",
+          "NCT00198614",
+          "NCT00224757",
+          "NCT00232219",
+          "NCT00232245",
+          "NCT00232310",
+          "NCT00233441",
+          "NCT00238706",
+          "NCT00240643",
+          "NCT00244426",
+          "NCT00246805",
+          "NCT00247780",
+          "NCT00249795",
+          "NCT00249873",
+          "NCT00255281",
+          "NCT00256152",
+          "NCT00259376",
+          "NCT00259428",
+          "NCT00262119",
+          "NCT00263757",
+          "NCT00267137",
+          "NCT00267930",
+          "NCT00272636",
+          "NCT00287209",
+          "NCT00289367",
+          "NCT00292162",
+          "NCT00313157",
+          "NCT00321802",
+          "NCT00338715",
+          "NCT00340314",
+          "NCT00352560",
+          "NCT00367757",
+          "NCT00376272",
+          "NCT00379301",
+          "NCT00389792",
+          "NCT00392054",
+          "NCT00392431",
+          "NCT00403767",
+          "NCT00412984",
+          "NCT00911508",
+          "NCT01182441",
+          "NCT01288352",
+          "NCT01420393"
+        ],
+        "excludeStudyIds": [
+          "NCT00032591",
+          "NCT00125320",
+          "NCT00196144",
+          "NCT00215774",
+          "NCT00231296",
+          "NCT00232232",
+          "NCT00239226",
+          "NCT00251706",
+          "NCT00259623",
+          "NCT00262600",
+          "NCT00284830",
+          "NCT00289042",
+          "NCT00289289",
+          "NCT00328848",
+          "NCT00334464",
+          "NCT00356759",
+          "NCT00004488",
+          "NCT01150474"
+        ]
+      },
+      "comparison": {
+        "removedByPICO": 18,
+        "retainedPct": 79.5,
+        "excludedPct": 20.5
+      }
+    },
+    "landmarkCoverage": {
+      "decision": "PASS",
+      "guidelineProfile": "cardiology",
+      "overallCoveragePct": 76.9,
+      "totalExpected": 13,
+      "totalFound": 10,
+      "minCoveragePct": 70,
+      "areas": {
+        "atrial_fibrillation": {
+          "expected": 13,
+          "found": 10,
+          "missing": 3,
+          "coveragePct": 76.9,
+          "foundNctIds": [
+            "NCT00004488",
+            "NCT01288352",
+            "NCT00262600",
+            "NCT00403767",
+            "NCT00412984",
+            "NCT01150474",
+            "NCT00911508",
+            "NCT01420393",
+            "NCT00129545",
+            "NCT01182441"
+          ],
+          "missingNctIds": [
+            "NCT00106912",
+            "NCT00794053",
+            "NCT02039622"
+          ]
+        }
+      }
+    },
+    "robustness": {
+      "decision": "PASS",
+      "score": 100,
+      "metrics": {
+        "aactIncrementalNctCount": 88,
+        "knownGapRecovered": 0,
+        "knownGapRecoveryPct": 0,
+        "landmarkCoveragePct": 76.9,
+        "picoRetentionPct": 79.5,
+        "trialUniverseCount": 88
+      },
+      "checks": [
+        {
+          "id": "source_coverage",
+          "label": "Required source coverage",
+          "pass": true,
+          "value": 1
+        },
+        {
+          "id": "ctgov_strategy_depth",
+          "label": "CT.gov strategy depth",
+          "pass": true,
+          "value": 0
+        },
+        {
+          "id": "ctgov_error_free",
+          "label": "CT.gov execution without errors",
+          "pass": true,
+          "value": 1
+        },
+        {
+          "id": "aact_available",
+          "label": "AACT availability",
+          "pass": true,
+          "value": 1
+        },
+        {
+          "id": "aact_incremental_capture",
+          "label": "AACT incremental capture over CT.gov",
+          "pass": true,
+          "value": 88
+        },
+        {
+          "id": "landmark_coverage",
+          "label": "ESC landmark coverage",
+          "pass": true,
+          "value": 76.9
+        },
+        {
+          "id": "trial_universe_pico",
+          "label": "Trial universe with and without PICO",
+          "pass": true,
+          "value": 79.5
+        }
+      ],
+      "actionItems": []
+    }
+  }
+}

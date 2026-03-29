@@ -1,0 +1,408 @@
+{
+  "lastUpdate": "2026-01-02T16:00:00Z",
+  "topics": [
+    {
+      "id": "short_dapt",
+      "label": "Short DAPT (1-3 months) vs standard",
+      "keywords": ["short DAPT", "1 month", "3 months", "dual antiplatelet"],
+      "query": "(acute coronary syndrome OR ACS OR STEMI OR NSTEMI OR unstable angina OR myocardial infarction) AND (\"short DAPT\" OR \"1 month\" OR \"3 months\" OR \"dual antiplatelet\")",
+      "trials": [
+        {
+          "nctId": "NCT00000001",
+          "title": "Short DAPT vs standard after PCI",
+          "status": "COMPLETED",
+          "startDate": "2022-03-01",
+          "completionDate": "2024-05-10",
+          "studyType": "INTERVENTIONAL",
+          "allocation": "RANDOMIZED",
+          "phase": ["PHASE3"],
+          "arms": [
+            { "id": "A", "title": "Short DAPT 1 month" },
+            { "id": "B", "title": "Standard DAPT 12 months" }
+          ],
+          "outcome": {
+            "type": "binary",
+            "title": "MACE",
+            "timeFrame": "12 months",
+            "unit": "events",
+            "groups": [
+              { "id": "A", "title": "Short DAPT 1 month", "events": 42, "n": 350 },
+              { "id": "B", "title": "Standard DAPT 12 months", "events": 51, "n": 348 }
+            ]
+          },
+          "raw": { "fixture": true }
+        },
+        {
+          "nctId": "NCT00000002",
+          "title": "Three-month DAPT in ACS",
+          "status": "COMPLETED",
+          "startDate": "2021-07-15",
+          "completionDate": "2024-02-01",
+          "studyType": "INTERVENTIONAL",
+          "allocation": "RANDOMIZED",
+          "phase": ["PHASE3"],
+          "arms": [
+            { "id": "A", "title": "Short DAPT 3 months" },
+            { "id": "B", "title": "Standard DAPT 12 months" }
+          ],
+          "outcome": {
+            "type": "binary",
+            "title": "Composite ischemic endpoint",
+            "timeFrame": "12 months",
+            "unit": "events",
+            "groups": [
+              { "id": "A", "title": "Short DAPT 3 months", "events": 38, "n": 290 },
+              { "id": "B", "title": "Standard DAPT 12 months", "events": 47, "n": 292 }
+            ]
+          },
+          "raw": { "fixture": true }
+        },
+        {
+          "nctId": "NCT00000003",
+          "title": "Aspirin stop after 1 month DAPT",
+          "status": "COMPLETED",
+          "startDate": "2020-11-01",
+          "completionDate": "2023-04-12",
+          "studyType": "INTERVENTIONAL",
+          "allocation": "RANDOMIZED",
+          "phase": ["PHASE3"],
+          "arms": [
+            { "id": "A", "title": "Aspirin stop after 1 month" },
+            { "id": "B", "title": "Standard DAPT 12 months" }
+          ],
+          "outcome": {
+            "type": "binary",
+            "title": "Major bleeding",
+            "timeFrame": "12 months",
+            "unit": "events",
+            "groups": [
+              { "id": "A", "title": "Aspirin stop after 1 month", "events": 16, "n": 310 },
+              { "id": "B", "title": "Standard DAPT 12 months", "events": 28, "n": 315 }
+            ]
+          },
+          "raw": { "fixture": true }
+        },
+        {
+          "nctId": "NCT00000004",
+          "title": "Short DAPT with potent P2Y12",
+          "status": "COMPLETED",
+          "startDate": "2021-02-20",
+          "completionDate": "2024-01-20",
+          "studyType": "INTERVENTIONAL",
+          "allocation": "RANDOMIZED",
+          "phase": ["PHASE3"],
+          "arms": [
+            { "id": "A", "title": "Short DAPT 1 month" },
+            { "id": "B", "title": "Standard DAPT 12 months" }
+          ],
+          "outcome": {
+            "type": "binary",
+            "title": "Stent thrombosis",
+            "timeFrame": "12 months",
+            "unit": "events",
+            "groups": [
+              { "id": "A", "title": "Short DAPT 1 month", "events": 6, "n": 400 },
+              { "id": "B", "title": "Standard DAPT 12 months", "events": 7, "n": 395 }
+            ]
+          },
+          "raw": { "fixture": true }
+        },
+        {
+          "nctId": "NCT00000005",
+          "title": "Short DAPT in high bleeding risk",
+          "status": "COMPLETED",
+          "startDate": "2022-06-10",
+          "completionDate": "2024-06-30",
+          "studyType": "INTERVENTIONAL",
+          "allocation": "RANDOMIZED",
+          "phase": ["PHASE4"],
+          "arms": [
+            { "id": "A", "title": "Short DAPT 3 months" },
+            { "id": "B", "title": "Standard DAPT 12 months" }
+          ],
+          "outcome": {
+            "type": "binary",
+            "title": "Net adverse clinical events",
+            "timeFrame": "12 months",
+            "unit": "events",
+            "groups": [
+              { "id": "A", "title": "Short DAPT 3 months", "events": 64, "n": 520 },
+              { "id": "B", "title": "Standard DAPT 12 months", "events": 71, "n": 518 }
+            ]
+          },
+          "raw": { "fixture": true }
+        }
+      ]
+    },
+    {
+      "id": "pcsk9_early",
+      "label": "PCSK9 inhibitors early post-ACS",
+      "keywords": ["PCSK9", "evolocumab", "alirocumab"],
+      "query": "(acute coronary syndrome OR ACS OR STEMI OR NSTEMI OR unstable angina OR myocardial infarction) AND (\"PCSK9\" OR \"evolocumab\" OR \"alirocumab\")",
+      "trials": [
+        {
+          "nctId": "NCT00001001",
+          "title": "Alirocumab early post-ACS",
+          "status": "COMPLETED",
+          "startDate": "2022-01-05",
+          "completionDate": "2024-04-01",
+          "studyType": "INTERVENTIONAL",
+          "allocation": "RANDOMIZED",
+          "phase": ["PHASE3"],
+          "arms": [
+            { "id": "A", "title": "Alirocumab 75 mg" },
+            { "id": "B", "title": "Alirocumab 150 mg" },
+            { "id": "C", "title": "Placebo" }
+          ],
+          "outcome": {
+            "type": "continuous",
+            "title": "LDL-C change",
+            "timeFrame": "6 months",
+            "unit": "mg/dL",
+            "groups": [
+              { "id": "A", "title": "Alirocumab 75 mg", "mean": -48, "sd": 20, "n": 120 },
+              { "id": "B", "title": "Alirocumab 150 mg", "mean": -58, "sd": 22, "n": 118 },
+              { "id": "C", "title": "Placebo", "mean": -10, "sd": 18, "n": 119 }
+            ]
+          },
+          "raw": { "fixture": true }
+        },
+        {
+          "nctId": "NCT00001002",
+          "title": "Evolocumab loading after MI",
+          "status": "COMPLETED",
+          "startDate": "2021-08-11",
+          "completionDate": "2023-12-15",
+          "studyType": "INTERVENTIONAL",
+          "allocation": "RANDOMIZED",
+          "phase": ["PHASE3"],
+          "arms": [
+            { "id": "A", "title": "Evolocumab 140 mg" },
+            { "id": "B", "title": "Placebo" }
+          ],
+          "outcome": {
+            "type": "continuous",
+            "title": "LDL-C change",
+            "timeFrame": "6 months",
+            "unit": "mg/dL",
+            "groups": [
+              { "id": "A", "title": "Evolocumab 140 mg", "mean": -55, "sd": 24, "n": 140 },
+              { "id": "B", "title": "Placebo", "mean": -12, "sd": 20, "n": 138 }
+            ]
+          },
+          "raw": { "fixture": true }
+        },
+        {
+          "nctId": "NCT00001003",
+          "title": "PCSK9 escalation strategy",
+          "status": "COMPLETED",
+          "startDate": "2022-02-20",
+          "completionDate": "2024-02-28",
+          "studyType": "INTERVENTIONAL",
+          "allocation": "RANDOMIZED",
+          "phase": ["PHASE3"],
+          "arms": [
+            { "id": "A", "title": "Alirocumab 75 mg" },
+            { "id": "B", "title": "Alirocumab 150 mg" },
+            { "id": "C", "title": "Placebo" }
+          ],
+          "outcome": {
+            "type": "continuous",
+            "title": "LDL-C change",
+            "timeFrame": "6 months",
+            "unit": "mg/dL",
+            "groups": [
+              { "id": "A", "title": "Alirocumab 75 mg", "mean": -44, "sd": 21, "n": 110 },
+              { "id": "B", "title": "Alirocumab 150 mg", "mean": -60, "sd": 23, "n": 108 },
+              { "id": "C", "title": "Placebo", "mean": -8, "sd": 19, "n": 112 }
+            ]
+          },
+          "raw": { "fixture": true }
+        },
+        {
+          "nctId": "NCT00001004",
+          "title": "Evolocumab add-on early after PCI",
+          "status": "COMPLETED",
+          "startDate": "2021-10-10",
+          "completionDate": "2024-03-20",
+          "studyType": "INTERVENTIONAL",
+          "allocation": "RANDOMIZED",
+          "phase": ["PHASE3"],
+          "arms": [
+            { "id": "A", "title": "Evolocumab 140 mg" },
+            { "id": "B", "title": "Placebo" }
+          ],
+          "outcome": {
+            "type": "continuous",
+            "title": "LDL-C change",
+            "timeFrame": "6 months",
+            "unit": "mg/dL",
+            "groups": [
+              { "id": "A", "title": "Evolocumab 140 mg", "mean": -50, "sd": 25, "n": 150 },
+              { "id": "B", "title": "Placebo", "mean": -9, "sd": 21, "n": 149 }
+            ]
+          },
+          "raw": { "fixture": true }
+        },
+        {
+          "nctId": "NCT00001005",
+          "title": "Alirocumab early ACS feasibility",
+          "status": "COMPLETED",
+          "startDate": "2021-12-02",
+          "completionDate": "2023-11-30",
+          "studyType": "INTERVENTIONAL",
+          "allocation": "RANDOMIZED",
+          "phase": ["PHASE2"],
+          "arms": [
+            { "id": "A", "title": "Alirocumab 75 mg" },
+            { "id": "B", "title": "Placebo" }
+          ],
+          "outcome": {
+            "type": "continuous",
+            "title": "LDL-C change",
+            "timeFrame": "6 months",
+            "unit": "mg/dL",
+            "groups": [
+              { "id": "A", "title": "Alirocumab 75 mg", "mean": -42, "sd": 18, "n": 96 },
+              { "id": "B", "title": "Placebo", "mean": -7, "sd": 17, "n": 95 }
+            ]
+          },
+          "raw": { "fixture": true }
+        }
+      ]
+    },
+    {
+      "id": "complete_revasc",
+      "label": "Complete vs culprit-only revascularization",
+      "keywords": ["complete revascularization", "culprit-only", "multivessel"],
+      "query": "(acute coronary syndrome OR ACS OR STEMI OR NSTEMI OR unstable angina OR myocardial infarction) AND (\"complete revascularization\" OR \"culprit-only\" OR \"multivessel\")",
+      "trials": [
+        {
+          "nctId": "NCT00002001",
+          "title": "Complete revascularization in STEMI",
+          "status": "COMPLETED",
+          "startDate": "2020-05-01",
+          "completionDate": "2023-06-15",
+          "studyType": "INTERVENTIONAL",
+          "allocation": "RANDOMIZED",
+          "phase": ["PHASE3"],
+          "arms": [
+            { "id": "A", "title": "Complete revascularization" },
+            { "id": "B", "title": "Culprit-only PCI" }
+          ],
+          "outcome": {
+            "type": "binary",
+            "title": "All-cause mortality",
+            "timeFrame": "12 months",
+            "unit": "events",
+            "groups": [
+              { "id": "A", "title": "Complete revascularization", "events": 28, "n": 500 },
+              { "id": "B", "title": "Culprit-only PCI", "events": 36, "n": 498 }
+            ]
+          },
+          "raw": { "fixture": true }
+        },
+        {
+          "nctId": "NCT00002002",
+          "title": "Staged complete revascularization",
+          "status": "COMPLETED",
+          "startDate": "2021-03-12",
+          "completionDate": "2024-04-25",
+          "studyType": "INTERVENTIONAL",
+          "allocation": "RANDOMIZED",
+          "phase": ["PHASE3"],
+          "arms": [
+            { "id": "A", "title": "Complete revascularization" },
+            { "id": "B", "title": "Culprit-only PCI" }
+          ],
+          "outcome": {
+            "type": "binary",
+            "title": "Recurrent MI",
+            "timeFrame": "12 months",
+            "unit": "events",
+            "groups": [
+              { "id": "A", "title": "Complete revascularization", "events": 31, "n": 420 },
+              { "id": "B", "title": "Culprit-only PCI", "events": 45, "n": 422 }
+            ]
+          },
+          "raw": { "fixture": true }
+        },
+        {
+          "nctId": "NCT00002003",
+          "title": "Complete revascularization vs culprit-only",
+          "status": "COMPLETED",
+          "startDate": "2020-09-01",
+          "completionDate": "2023-12-01",
+          "studyType": "INTERVENTIONAL",
+          "allocation": "RANDOMIZED",
+          "phase": ["PHASE4"],
+          "arms": [
+            { "id": "A", "title": "Complete revascularization" },
+            { "id": "B", "title": "Culprit-only PCI" }
+          ],
+          "outcome": {
+            "type": "binary",
+            "title": "HF hospitalization",
+            "timeFrame": "18 months",
+            "unit": "events",
+            "groups": [
+              { "id": "A", "title": "Complete revascularization", "events": 22, "n": 360 },
+              { "id": "B", "title": "Culprit-only PCI", "events": 34, "n": 358 }
+            ]
+          },
+          "raw": { "fixture": true }
+        },
+        {
+          "nctId": "NCT00002004",
+          "title": "Complete revascularization in NSTEMI",
+          "status": "COMPLETED",
+          "startDate": "2021-04-20",
+          "completionDate": "2024-06-10",
+          "studyType": "INTERVENTIONAL",
+          "allocation": "RANDOMIZED",
+          "phase": ["PHASE3"],
+          "arms": [
+            { "id": "A", "title": "Complete revascularization" },
+            { "id": "B", "title": "Culprit-only PCI" }
+          ],
+          "outcome": {
+            "type": "binary",
+            "title": "CV death",
+            "timeFrame": "24 months",
+            "unit": "events",
+            "groups": [
+              { "id": "A", "title": "Complete revascularization", "events": 18, "n": 380 },
+              { "id": "B", "title": "Culprit-only PCI", "events": 27, "n": 382 }
+            ]
+          },
+          "raw": { "fixture": true }
+        },
+        {
+          "nctId": "NCT00002005",
+          "title": "Culprit-only vs complete revascularization strategy",
+          "status": "COMPLETED",
+          "startDate": "2022-01-01",
+          "completionDate": "2024-07-01",
+          "studyType": "INTERVENTIONAL",
+          "allocation": "RANDOMIZED",
+          "phase": ["PHASE3"],
+          "arms": [
+            { "id": "A", "title": "Complete revascularization" },
+            { "id": "B", "title": "Culprit-only PCI" }
+          ],
+          "outcome": {
+            "type": "binary",
+            "title": "Urgent revascularization",
+            "timeFrame": "12 months",
+            "unit": "events",
+            "groups": [
+              { "id": "A", "title": "Complete revascularization", "events": 25, "n": 410 },
+              { "id": "B", "title": "Culprit-only PCI", "events": 39, "n": 412 }
+            ]
+          },
+          "raw": { "fixture": true }
+        }
+      ]
+    }
+  ]
+}

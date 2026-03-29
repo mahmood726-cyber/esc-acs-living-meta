@@ -1,0 +1,395 @@
+{
+  "summary": {
+    "missing_count": 22,
+    "top_conditions": [
+      [
+        "myocardial",
+        11
+      ],
+      [
+        "infarction",
+        11
+      ],
+      [
+        "coronary",
+        11
+      ],
+      [
+        "disease",
+        10
+      ],
+      [
+        "acute",
+        7
+      ],
+      [
+        "heart",
+        5
+      ],
+      [
+        "artery",
+        5
+      ],
+      [
+        "elevation",
+        4
+      ],
+      [
+        "diabetes",
+        4
+      ],
+      [
+        "multi",
+        3
+      ],
+      [
+        "vessel",
+        3
+      ],
+      [
+        "type",
+        3
+      ],
+      [
+        "left",
+        3
+      ],
+      [
+        "stemi",
+        3
+      ],
+      [
+        "ischemic",
+        2
+      ]
+    ],
+    "top_interventions": [
+      [
+        "placebo",
+        6
+      ],
+      [
+        "aspirin",
+        4
+      ],
+      [
+        "clopidogrel",
+        3
+      ],
+      [
+        "liraglutide",
+        3
+      ],
+      [
+        "text",
+        3
+      ],
+      [
+        "dapagliflozin",
+        3
+      ],
+      [
+        "infusion",
+        2
+      ],
+      [
+        "colchicine",
+        2
+      ],
+      [
+        "novo",
+        2
+      ],
+      [
+        "nordisk",
+        2
+      ],
+      [
+        "message",
+        2
+      ],
+      [
+        "mobile",
+        2
+      ],
+      [
+        "sglt",
+        2
+      ],
+      [
+        "inhibitors",
+        2
+      ],
+      [
+        "staged",
+        2
+      ]
+    ]
+  },
+  "missing": [
+    {
+      "nctId": "NCT00262275",
+      "title": "Optimum Platelet Inhibition After Coronary Bypass Surgery",
+      "conditions": [
+        "Ischemic Heart Disease"
+      ],
+      "interventions": [
+        "Aspirin, Clopidogrel"
+      ]
+    },
+    {
+      "nctId": "NCT01254123",
+      "title": "Effect of Additional Treatment With EXenatide in Patients With an Acute Myocardial Infarction (the EXAMI Trial)",
+      "conditions": [
+        "Patients With a First Acute Myocardial Infarction to be Treated With Primary Percutaneous Coronary Intervention (PCI)."
+      ],
+      "interventions": [
+        "Exenatide infusion",
+        "Placebo infusion."
+      ]
+    },
+    {
+      "nctId": "NCT01906749",
+      "title": "Colchicine for Acute Coronary Syndromes",
+      "conditions": [
+        "Acute Coronary Syndrome"
+      ],
+      "interventions": [
+        "Colchicine",
+        "Placebo"
+      ]
+    },
+    {
+      "nctId": "NCT01960933",
+      "title": "Primary PCI in Patients With ST-elevation Myocardial Infarction and Multivessel Disease: Treatment of Culprit Lesion Only or Complete Revascularization",
+      "conditions": [
+        "ST-elevation Myocardial Infarction",
+        "Multi Vessel Disease"
+      ],
+      "interventions": [
+        "Percutaneous coronary intervention",
+        "FFR"
+      ]
+    },
+    {
+      "nctId": "NCT02001363",
+      "title": "Efficacy Study of Glucagonlike Peptide-1 to Treat Reperfusion Injury",
+      "conditions": [
+        "Acute Myocardial Infarction"
+      ],
+      "interventions": [
+        "liraglutide (Novo Nordisk, Bagsv\u00e6rd, Denmark)",
+        "liraglutide placebo (Novo Nordisk)"
+      ]
+    },
+    {
+      "nctId": "NCT02201667",
+      "title": "Efficacy of Ticagrelor vs Clopidogrel in High-risk NSTE-ACS Patients Undergoing Early PCI",
+      "conditions": [
+        "Acute Coronary Syndrome"
+      ],
+      "interventions": [
+        "Ticagrelor",
+        "clopidogrel",
+        "Aspirin",
+        "PCI"
+      ]
+    },
+    {
+      "nctId": "NCT02883842",
+      "title": "Cardiovascular Health and Text Messaging-Diabetes Mellitus (CHAT-DM) Study",
+      "conditions": [
+        "Coronary Artery Disease",
+        "Diabetes"
+      ],
+      "interventions": [
+        "Text messaging"
+      ]
+    },
+    {
+      "nctId": "NCT03010683",
+      "title": "Effects of Agonists of Glucagon Like Peptide - 1 Receptors (GLP-1R) on Arterial Stiffness, Endothelial Glycocalyx and Coronary Flow Reserve in Patients With Coronary Artery Disease and Patients With Diabetes Mellitus",
+      "conditions": [
+        "Type 2 Diabetes Mellitus",
+        "Coronary Artery Disease"
+      ],
+      "interventions": [
+        "Liraglutide",
+        "Metformin"
+      ]
+    },
+    {
+      "nctId": "NCT03022669",
+      "title": "Mobile Health Strategies for Veterans",
+      "conditions": [
+        "Coronary Heart Disease"
+      ],
+      "interventions": [
+        "Text Message",
+        "Mobile Application",
+        "Website"
+      ]
+    },
+    {
+      "nctId": "NCT03414190",
+      "title": "Impact of Text Messages to Promote Secondary Prevention After Acute Coronary Syndrome",
+      "conditions": [
+        "Cardiovascular Disease"
+      ],
+      "interventions": [
+        "Mobile phone text message"
+      ]
+    },
+    {
+      "nctId": "NCT03568890",
+      "title": "Short-Term Anticoagulation Versus Antiplatelet Therapy for Preventing Device Thrombosis Following Left Atrial Appendage Closure",
+      "conditions": [
+        "Left Atrial Appendage Closure",
+        "Thrombosis",
+        "Stroke",
+        "TIA",
+        "Bleeding"
+      ],
+      "interventions": [
+        "Rivaroxaban, dabigatran, apixaban, or edoxaban",
+        "Clopidogrel -75 mg/day",
+        "Low dose aspirin -80 to 125 mg/day-"
+      ]
+    },
+    {
+      "nctId": "NCT03602638",
+      "title": "Effects of a Dipeptidyl Peptidase-4 Inhibitor Sitagliptininsulin on the Progression of Coronary Atherosclerosis in Patients With Type 2 Diabetes",
+      "conditions": [
+        "Atherosclerosis Type 2 Diabetes Mellitus Dipeptidyl Peptidase-4 Inhibitor GLP-1"
+      ],
+      "interventions": [
+        "Sitagliptin",
+        "Acarbose"
+      ]
+    },
+    {
+      "nctId": "NCT03874338",
+      "title": "CLEAR SYNERGY Neutrophil Substudy",
+      "conditions": [
+        "Neutrophils.Hypersegmented &#X7C; Bld-Ser-Plas",
+        "STEMI - ST Elevation Myocardial Infarction"
+      ],
+      "interventions": [
+        "Colchicine Pill"
+      ]
+    },
+    {
+      "nctId": "NCT03939624",
+      "title": "Sodium-glucose Cotransporter 2 (SGLT2) Inhibitors and Risk of Cardiovascular Events",
+      "conditions": [
+        "Type2 Diabetes",
+        "Myocardial Infarction",
+        "Ischemic Stroke",
+        "Cardiovascular Death",
+        "Heart Failure",
+        "All-Cause Mortality"
+      ],
+      "interventions": [
+        "Sodium-glucose cotransporter 2 (SGLT2) inhibitors",
+        "Dipeptidyl peptidase-4 (DPP-4) inhibitors"
+      ]
+    },
+    {
+      "nctId": "NCT04308551",
+      "title": "Effect of Indobufen and Aspirin on Platelet Aggregation and Long Term Prognosis in Patients With Coronary Heart Disease",
+      "conditions": [
+        "Stable Coronary Heart Disease"
+      ],
+      "interventions": [
+        "Indobufen",
+        "Aspirin"
+      ]
+    },
+    {
+      "nctId": "NCT04783870",
+      "title": "Effect of Dapagliflozin on LV Remodeling Post AMI",
+      "conditions": [
+        "Myocardial Infarction"
+      ],
+      "interventions": [
+        "Dapagliflozin",
+        "Placebo"
+      ]
+    },
+    {
+      "nctId": "NCT04899479",
+      "title": "Peri-treatment of SGLT-2 Inhibitor on Myocardial Infarct Size and Remodeling Index in Patients With Acute Myocardial Infarction and High Risk of Heart Failure Undergoing Percutaneous Coronary Intervention",
+      "conditions": [
+        "Acute Myocardial Infarction",
+        "Heart Failure"
+      ],
+      "interventions": [
+        "SGLT2 inhibitor",
+        "Control"
+      ]
+    },
+    {
+      "nctId": "NCT04968808",
+      "title": "Timing of FFR-guided PCI for Non-IRA in NSTEMI and MVD (OPTION-NSTEMI)",
+      "conditions": [
+        "Myocardial Infarction, Acute",
+        "Multi-Vessel Coronary Artery Stenosis",
+        "Multi Vessel Coronary Artery Disease"
+      ],
+      "interventions": [
+        "Staged in-hospital complete revascularization",
+        "Immediate complete revascularization"
+      ]
+    },
+    {
+      "nctId": "NCT05045274",
+      "title": "The Effect of Early Administration of Dapagliflozin in STEMI Patients With LV Systolic Dysfunction",
+      "conditions": [
+        "STEMI - ST Elevation Myocardial Infarction",
+        "Left Ventricular Systolic Dysfunction"
+      ],
+      "interventions": [
+        "Dapagliflozin 10Mg Tab",
+        "Placebo"
+      ]
+    },
+    {
+      "nctId": "NCT05231226",
+      "title": "Timing of Complete Revascularization in Patients With ST-segment Elevation Myocardial Infarction And Multivessel Disease",
+      "conditions": [
+        "ST-elevation Myocardial Infarction",
+        "Multivessel Coronary Disease"
+      ],
+      "interventions": [
+        "Immediately CR",
+        "Staged (within 45 days) CR"
+      ]
+    },
+    {
+      "nctId": "NCT05701358",
+      "title": "Physiology-guided vs Angiography-guided Non-culprit Lesion Complete Revascularization for Acute MI & Multivessel Disease",
+      "conditions": [
+        "Acute Myocardial Infarction",
+        "Coronary Artery Disease"
+      ],
+      "interventions": [
+        "Physiology-guided NCL PCI",
+        "Angiography-guided NCL PCI"
+      ]
+    },
+    {
+      "nctId": "NCT05764057",
+      "title": "DAPAgliflozine to Attenuate Cardiac RemOdeling afTEr aCuTe myOcardial Infarction",
+      "conditions": [
+        "AMI",
+        "STEMI",
+        "NSTEMI",
+        "Left Ventricular Dysfunction"
+      ],
+      "interventions": [
+        "Dapagliflozin propanediol (FORXIGA\u2122/FARXIGA\u21221)",
+        "Placebo comparator"
+      ]
+    }
+  ]
+}

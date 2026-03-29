@@ -1,0 +1,564 @@
+{
+  "generatedAt": "2026-02-24T08:36:52.642Z",
+  "areaKey": "chronic_coronary_syndromes",
+  "guidelineProfile": "cardiology",
+  "strategy": {
+    "id": "strat_1771922209353_l36d9595w",
+    "name": "ESC chronic_coronary_syndromes surveillance",
+    "created": "2026-02-24T08:36:49.353Z",
+    "lastRun": null,
+    "guidelineProfile": "cardiology",
+    "sources": [
+      "aact"
+    ],
+    "searchObjective": "balanced",
+    "queries": {
+      "pubmed": null,
+      "ctgov": null,
+      "embase": null,
+      "cochrane": null,
+      "aact": {
+        "guidelineProfile": "cardiology",
+        "guidelineArea": "chronic_coronary_syndromes",
+        "condition": "chronic coronary",
+        "useAreaTerms": false,
+        "completedOnly": true,
+        "status": [
+          "COMPLETED"
+        ],
+        "maxResults": 80
+      }
+    },
+    "ctgovStrategy": {
+      "mode": "single",
+      "primaryStrategyId": "S3",
+      "strategyIds": [
+        "S3"
+      ],
+      "strategyEvidence": [
+        {
+          "strategyId": "S3",
+          "preset": "Randomized Allocation Only",
+          "meanRecallPct": 99,
+          "minRecallPct": 85.7,
+          "retentionPct": 54
+        },
+        {
+          "strategyId": "S6",
+          "preset": "Completed Status",
+          "meanRecallPct": 85.4,
+          "minRecallPct": 50,
+          "retentionPct": 55
+        },
+        {
+          "strategyId": "S10",
+          "preset": "Treatment RCTs Only",
+          "meanRecallPct": 84.8,
+          "minRecallPct": 0,
+          "retentionPct": 36
+        }
+      ],
+      "strategyRationale": [
+        "Objective \"balanced\" selected default strategy bundle."
+      ],
+      "includeStatusFilter": true
+    },
+    "infrastructure": {
+      "aactGatewayUrl": "http://127.0.0.1:8787/aact/query",
+      "embaseApiKey": null
+    },
+    "filters": {
+      "dateRange": {
+        "from": null,
+        "to": null
+      },
+      "studyTypes": [
+        "RCT"
+      ],
+      "languages": [
+        "en"
+      ],
+      "humans": true,
+      "ctgovStatuses": [
+        "COMPLETED",
+        "ACTIVE_NOT_RECRUITING",
+        "RECRUITING"
+      ]
+    },
+    "inclusionCriteria": {
+      "requiredKeywords": [
+        "chronic coronary",
+        "stable angina"
+      ],
+      "preferredKeywords": [
+        "coronary artery disease",
+        "ischemic heart disease",
+        "randomized",
+        "trial",
+        "double blind"
+      ],
+      "exclusionKeywords": [
+        "protocol",
+        "retrospective",
+        "animal",
+        "in vitro"
+      ],
+      "acceptedDesigns": [
+        "RCT",
+        "Observational"
+      ]
+    },
+    "qualityTargets": {
+      "minCtgovRecallPct": 90,
+      "requireAACTForFinalReview": true,
+      "requireAACTIncrementalCapture": false,
+      "minAACTIncrementalNcts": 1,
+      "enforceLandmarkCoverage": true,
+      "minLandmarkCoveragePct": 70,
+      "landmarkGuidelineAreas": [
+        "chronic_coronary_syndromes"
+      ],
+      "minSourcesForHighConfidence": 2
+    },
+    "schedule": {
+      "enabled": false,
+      "interval": "weekly",
+      "lastCheck": null,
+      "nextCheck": null
+    },
+    "stats": {
+      "totalRuns": 0,
+      "totalFound": 0,
+      "totalIncluded": 0,
+      "totalExcluded": 0
+    }
+  },
+  "results": {
+    "timestamp": "2026-02-24T08:36:49.354Z",
+    "strategyId": "strat_1771922209353_l36d9595w",
+    "guidelineProfile": "cardiology",
+    "sources": {
+      "aact": {
+        "count": 9,
+        "retrieved": 9,
+        "requiresGateway": false,
+        "error": null,
+        "guidelineProfile": "cardiology",
+        "termsUsed": [
+          "chronic coronary"
+        ],
+        "nctIds": [
+          "NCT01205776",
+          "NCT01753180",
+          "NCT03265769",
+          "NCT05379608",
+          "NCT00064207",
+          "NCT00086450",
+          "NCT00126360",
+          "NCT01281774",
+          "NCT01471522"
+        ],
+        "landmarkVerification": {
+          "requested": 8,
+          "found": 6,
+          "coveragePct": 75,
+          "missingNctIds": [
+            "NCT00327795",
+            "NCT00318890"
+          ]
+        },
+        "gatewayUrl": "http://127.0.0.1:8787/aact/query"
+      }
+    },
+    "newStudies": [],
+    "duplicates": [],
+    "excluded": [
+      {
+        "nctId": "NCT01205776",
+        "title": "EXCEL Clinical Trial",
+        "briefSummary": null,
+        "status": "COMPLETED",
+        "startDate": "2010-09-29",
+        "completionDate": "2019-06-28",
+        "studyType": "INTERVENTIONAL",
+        "phases": [
+          "NA"
+        ],
+        "enrollment": 1905,
+        "allocation": "RANDOMIZED",
+        "primaryPurpose": "TREATMENT",
+        "source": "aact",
+        "retrievedAt": "2026-02-24T08:36:51.765Z",
+        "isDuplicate": false,
+        "classification": "exclude",
+        "relevanceScore": 0,
+        "relevanceReasons": [
+          "Missing required keywords",
+          "Contains 1 preferred keywords",
+          "Study design may not meet criteria: Unknown"
+        ],
+        "pico": null,
+        "needsReview": false,
+        "processedAt": "2026-02-24T08:36:52.635Z"
+      },
+      {
+        "nctId": "NCT01753180",
+        "title": "Total Occlusion Study in Coronary Arteries - 5",
+        "briefSummary": null,
+        "status": "COMPLETED",
+        "startDate": "2014-04-30",
+        "completionDate": "2016-07-31",
+        "studyType": "INTERVENTIONAL",
+        "phases": [
+          "PHASE2"
+        ],
+        "enrollment": 76,
+        "allocation": "RANDOMIZED",
+        "primaryPurpose": "TREATMENT",
+        "source": "aact",
+        "retrievedAt": "2026-02-24T08:36:51.765Z",
+        "isDuplicate": false,
+        "classification": "exclude",
+        "relevanceScore": 0,
+        "relevanceReasons": [
+          "Missing required keywords",
+          "Study design may not meet criteria: Unknown"
+        ],
+        "pico": null,
+        "needsReview": false,
+        "processedAt": "2026-02-24T08:36:52.635Z"
+      },
+      {
+        "nctId": "NCT03265769",
+        "title": "Femoral or Radial Approach in Coronary Chronic Total Occlusion",
+        "briefSummary": null,
+        "status": "COMPLETED",
+        "startDate": "2017-08-08",
+        "completionDate": "2021-07-08",
+        "studyType": "INTERVENTIONAL",
+        "phases": [
+          "NA"
+        ],
+        "enrollment": 610,
+        "allocation": "RANDOMIZED",
+        "primaryPurpose": "TREATMENT",
+        "source": "aact",
+        "retrievedAt": "2026-02-24T08:36:51.765Z",
+        "isDuplicate": false,
+        "classification": "exclude",
+        "relevanceScore": 0,
+        "relevanceReasons": [
+          "Missing required keywords",
+          "Study design may not meet criteria: Unknown"
+        ],
+        "pico": null,
+        "needsReview": false,
+        "processedAt": "2026-02-24T08:36:52.636Z"
+      },
+      {
+        "nctId": "NCT05379608",
+        "title": "Intermittent Hypoxic-hyperoxic Training in Patients With Cardiovascular Pathology After COVID-19 Infection.",
+        "briefSummary": null,
+        "status": "COMPLETED",
+        "startDate": "2021-12-10",
+        "completionDate": "2025-04-30",
+        "studyType": "INTERVENTIONAL",
+        "phases": [
+          "NA"
+        ],
+        "enrollment": 43,
+        "allocation": "RANDOMIZED",
+        "primaryPurpose": "SUPPORTIVE_CARE",
+        "source": "aact",
+        "retrievedAt": "2026-02-24T08:36:51.765Z",
+        "isDuplicate": false,
+        "classification": "exclude",
+        "relevanceScore": 0,
+        "relevanceReasons": [
+          "Missing required keywords",
+          "Study design may not meet criteria: Unknown"
+        ],
+        "pico": null,
+        "needsReview": false,
+        "processedAt": "2026-02-24T08:36:52.636Z"
+      },
+      {
+        "nctId": "NCT00064207",
+        "title": "Gemcitabine and Radiation Therapy Compared With Gemcitabine Alone in Treating Patients Who Have Undergone Surgery for Pancreatic Cancer",
+        "briefSummary": null,
+        "status": "COMPLETED",
+        "startDate": "2003-05-31",
+        "completionDate": null,
+        "studyType": "INTERVENTIONAL",
+        "phases": [
+          "PHASE2/PHASE3"
+        ],
+        "enrollment": 97,
+        "allocation": "RANDOMIZED",
+        "primaryPurpose": "TREATMENT",
+        "source": "aact",
+        "retrievedAt": "2026-02-24T08:36:52.635Z",
+        "isDuplicate": false,
+        "classification": "exclude",
+        "relevanceScore": 0,
+        "relevanceReasons": [
+          "Missing required keywords",
+          "Study design may not meet criteria: Unknown"
+        ],
+        "pico": null,
+        "needsReview": false,
+        "processedAt": "2026-02-24T08:36:52.636Z"
+      },
+      {
+        "nctId": "NCT00086450",
+        "title": "Comparison of Two Treatments for Multivessel Coronary Artery Disease in Individuals With Diabetes (FREEDOM)",
+        "briefSummary": null,
+        "status": "UNKNOWN",
+        "startDate": "2004-04-30",
+        "completionDate": "2018-12-31",
+        "studyType": "INTERVENTIONAL",
+        "phases": [
+          "PHASE3"
+        ],
+        "enrollment": 1900,
+        "allocation": "RANDOMIZED",
+        "primaryPurpose": "TREATMENT",
+        "source": "aact",
+        "retrievedAt": "2026-02-24T08:36:52.635Z",
+        "isDuplicate": false,
+        "classification": "exclude",
+        "relevanceScore": 0,
+        "relevanceReasons": [
+          "Missing required keywords",
+          "Contains 1 preferred keywords",
+          "Study design may not meet criteria: Unknown"
+        ],
+        "pico": null,
+        "needsReview": false,
+        "processedAt": "2026-02-24T08:36:52.636Z"
+      },
+      {
+        "nctId": "NCT00126360",
+        "title": "STARS Breast Trial (Study of Anastrozole and Radiotherapy Sequencing Pilot)",
+        "briefSummary": null,
+        "status": "UNKNOWN",
+        "startDate": "2005-08-31",
+        "completionDate": "2016-05-31",
+        "studyType": "INTERVENTIONAL",
+        "phases": [
+          "PHASE4"
+        ],
+        "enrollment": 100,
+        "allocation": "RANDOMIZED",
+        "primaryPurpose": "TREATMENT",
+        "source": "aact",
+        "retrievedAt": "2026-02-24T08:36:52.635Z",
+        "isDuplicate": false,
+        "classification": "exclude",
+        "relevanceScore": 0,
+        "relevanceReasons": [
+          "Missing required keywords",
+          "Contains 1 preferred keywords",
+          "Study design may not meet criteria: Unknown"
+        ],
+        "pico": null,
+        "needsReview": false,
+        "processedAt": "2026-02-24T08:36:52.637Z"
+      },
+      {
+        "nctId": "NCT01281774",
+        "title": "A Multiple Ascending Dose Study of CSL112 in Healthy Volunteers",
+        "briefSummary": null,
+        "status": "COMPLETED",
+        "startDate": "2011-01-31",
+        "completionDate": "2011-06-30",
+        "studyType": "INTERVENTIONAL",
+        "phases": [
+          "PHASE1"
+        ],
+        "enrollment": 36,
+        "allocation": "RANDOMIZED",
+        "primaryPurpose": "TREATMENT",
+        "source": "aact",
+        "retrievedAt": "2026-02-24T08:36:52.635Z",
+        "isDuplicate": false,
+        "classification": "exclude",
+        "relevanceScore": 0,
+        "relevanceReasons": [
+          "Missing required keywords",
+          "Study design may not meet criteria: Unknown"
+        ],
+        "pico": null,
+        "needsReview": false,
+        "processedAt": "2026-02-24T08:36:52.639Z"
+      },
+      {
+        "nctId": "NCT01471522",
+        "title": "International Study of Comparative Health Effectiveness With Medical and Invasive Approaches (ISCHEMIA)",
+        "briefSummary": null,
+        "status": "COMPLETED",
+        "startDate": "2012-07-31",
+        "completionDate": "2023-05-30",
+        "studyType": "INTERVENTIONAL",
+        "phases": [
+          "NA"
+        ],
+        "enrollment": 5179,
+        "allocation": "RANDOMIZED",
+        "primaryPurpose": "TREATMENT",
+        "source": "aact",
+        "retrievedAt": "2026-02-24T08:36:52.635Z",
+        "isDuplicate": false,
+        "classification": "exclude",
+        "relevanceScore": 0,
+        "relevanceReasons": [
+          "Missing required keywords",
+          "Study design may not meet criteria: Unknown"
+        ],
+        "pico": null,
+        "needsReview": false,
+        "processedAt": "2026-02-24T08:36:52.641Z"
+      }
+    ],
+    "summary": {
+      "totalFound": 9,
+      "newPotentialInclusions": 0,
+      "newMaybes": 0,
+      "duplicatesDetected": 0,
+      "autoExcluded": 9,
+      "trialUniverseWithoutPICO": 9,
+      "trialUniverseWithPICO": 0,
+      "trialUniverseRetainedPct": 0
+    },
+    "trialUniverse": {
+      "decision": "PASS",
+      "withoutPICO": {
+        "totalStudies": 9,
+        "uniqueNctCount": 9,
+        "studyIds": [
+          "NCT01205776",
+          "NCT01753180",
+          "NCT03265769",
+          "NCT05379608",
+          "NCT00064207",
+          "NCT00086450",
+          "NCT00126360",
+          "NCT01281774",
+          "NCT01471522"
+        ],
+        "duplicateCount": 0,
+        "duplicateStudyIds": []
+      },
+      "withPICO": {
+        "totalStudies": 0,
+        "includeCount": 0,
+        "maybeCount": 0,
+        "excludeCount": 9,
+        "studyIds": [],
+        "includeStudyIds": [],
+        "maybeStudyIds": [],
+        "excludeStudyIds": [
+          "NCT01205776",
+          "NCT01753180",
+          "NCT03265769",
+          "NCT05379608",
+          "NCT00064207",
+          "NCT00086450",
+          "NCT00126360",
+          "NCT01281774",
+          "NCT01471522"
+        ]
+      },
+      "comparison": {
+        "removedByPICO": 9,
+        "retainedPct": 0,
+        "excludedPct": 100
+      }
+    },
+    "landmarkCoverage": {
+      "decision": "PASS",
+      "guidelineProfile": "cardiology",
+      "overallCoveragePct": 75,
+      "totalExpected": 8,
+      "totalFound": 6,
+      "minCoveragePct": 70,
+      "areas": {
+        "chronic_coronary_syndromes": {
+          "expected": 8,
+          "found": 6,
+          "missing": 2,
+          "coveragePct": 75,
+          "foundNctIds": [
+            "NCT00086450",
+            "NCT01471522",
+            "NCT01205776",
+            "NCT01281774",
+            "NCT00064207",
+            "NCT00126360"
+          ],
+          "missingNctIds": [
+            "NCT00327795",
+            "NCT00318890"
+          ]
+        }
+      }
+    },
+    "robustness": {
+      "decision": "PASS",
+      "score": 100,
+      "metrics": {
+        "aactIncrementalNctCount": 9,
+        "knownGapRecovered": 0,
+        "knownGapRecoveryPct": 0,
+        "landmarkCoveragePct": 75,
+        "picoRetentionPct": 0,
+        "trialUniverseCount": 9
+      },
+      "checks": [
+        {
+          "id": "source_coverage",
+          "label": "Required source coverage",
+          "pass": true,
+          "value": 1
+        },
+        {
+          "id": "ctgov_strategy_depth",
+          "label": "CT.gov strategy depth",
+          "pass": true,
+          "value": 0
+        },
+        {
+          "id": "ctgov_error_free",
+          "label": "CT.gov execution without errors",
+          "pass": true,
+          "value": 1
+        },
+        {
+          "id": "aact_available",
+          "label": "AACT availability",
+          "pass": true,
+          "value": 1
+        },
+        {
+          "id": "aact_incremental_capture",
+          "label": "AACT incremental capture over CT.gov",
+          "pass": true,
+          "value": 9
+        },
+        {
+          "id": "landmark_coverage",
+          "label": "ESC landmark coverage",
+          "pass": true,
+          "value": 75
+        },
+        {
+          "id": "trial_universe_pico",
+          "label": "Trial universe with and without PICO",
+          "pass": true,
+          "value": 0
+        }
+      ],
+      "actionItems": []
+    }
+  }
+}

@@ -1,0 +1,3203 @@
+{
+  "generatedAt": "2026-02-24T10:39:03.890Z",
+  "areaKey": "peripheral_arterial_disease",
+  "remediation": true,
+  "strategy": {
+    "id": "strat_1771929535871_tfopqzy5i",
+    "name": "ESC remediation peripheral_arterial_disease",
+    "created": "2026-02-24T10:38:55.871Z",
+    "lastRun": null,
+    "guidelineProfile": "cardiology",
+    "sources": [
+      "aact"
+    ],
+    "searchObjective": "balanced",
+    "queries": {
+      "pubmed": null,
+      "ctgov": null,
+      "embase": null,
+      "cochrane": null,
+      "aact": {
+        "guidelineProfile": "cardiology",
+        "guidelineArea": "peripheral_arterial_disease",
+        "condition": "peripheral arterial disease",
+        "synonyms": [
+          "PAD",
+          "peripheral vascular disease",
+          "claudication",
+          "critical limb ischemia",
+          "lower extremity artery disease"
+        ],
+        "additionalTerms": [
+          "peripheral arterial disease",
+          "PAD",
+          "peripheral vascular disease",
+          "claudication",
+          "critical limb ischemia",
+          "lower extremity artery disease"
+        ],
+        "maxResults": 80,
+        "useAreaTerms": false,
+        "completedOnly": true,
+        "status": [
+          "COMPLETED"
+        ]
+      }
+    },
+    "ctgovStrategy": {
+      "mode": "single",
+      "primaryStrategyId": "S3",
+      "strategyIds": [
+        "S3"
+      ],
+      "strategyEvidence": [
+        {
+          "strategyId": "S3",
+          "preset": "Randomized Allocation Only",
+          "meanRecallPct": 99,
+          "minRecallPct": 85.7,
+          "retentionPct": 54
+        },
+        {
+          "strategyId": "S6",
+          "preset": "Completed Status",
+          "meanRecallPct": 85.4,
+          "minRecallPct": 50,
+          "retentionPct": 55
+        },
+        {
+          "strategyId": "S10",
+          "preset": "Treatment RCTs Only",
+          "meanRecallPct": 84.8,
+          "minRecallPct": 0,
+          "retentionPct": 36
+        }
+      ],
+      "strategyRationale": [
+        "Objective \"balanced\" selected default strategy bundle."
+      ],
+      "includeStatusFilter": true
+    },
+    "infrastructure": {
+      "aactGatewayUrl": "http://127.0.0.1:8787/aact/query",
+      "embaseApiKey": null
+    },
+    "filters": {
+      "dateRange": {
+        "from": null,
+        "to": null
+      },
+      "studyTypes": [
+        "RCT"
+      ],
+      "languages": [
+        "en"
+      ],
+      "humans": true,
+      "ctgovStatuses": [
+        "COMPLETED",
+        "ACTIVE_NOT_RECRUITING",
+        "RECRUITING"
+      ]
+    },
+    "inclusionCriteria": {
+      "requiredKeywords": [
+        "peripheral arterial disease"
+      ],
+      "preferredKeywords": [
+        "PAD",
+        "peripheral vascular disease",
+        "claudication",
+        "critical limb ischemia",
+        "lower extremity artery disease"
+      ],
+      "exclusionKeywords": [
+        "animal",
+        "in vitro"
+      ],
+      "acceptedDesigns": [
+        "RCT",
+        "Observational"
+      ]
+    },
+    "qualityTargets": {
+      "minCtgovRecallPct": 90,
+      "requireAACTForFinalReview": true,
+      "requireAACTIncrementalCapture": false,
+      "minAACTIncrementalNcts": 1,
+      "enforceLandmarkCoverage": true,
+      "minLandmarkCoveragePct": 70,
+      "landmarkGuidelineAreas": [
+        "peripheral_arterial_disease"
+      ],
+      "minSourcesForHighConfidence": 2
+    },
+    "schedule": {
+      "enabled": false,
+      "interval": "weekly",
+      "lastCheck": null,
+      "nextCheck": null
+    },
+    "stats": {
+      "totalRuns": 0,
+      "totalFound": 0,
+      "totalIncluded": 0,
+      "totalExcluded": 0
+    }
+  },
+  "results": {
+    "timestamp": "2026-02-24T10:38:55.871Z",
+    "strategyId": "strat_1771929535871_tfopqzy5i",
+    "guidelineProfile": "cardiology",
+    "sources": {
+      "aact": {
+        "count": 83,
+        "retrieved": 83,
+        "requiresGateway": false,
+        "error": null,
+        "guidelineProfile": "cardiology",
+        "termsUsed": [
+          "peripheral arterial disease",
+          "PAD",
+          "peripheral vascular disease",
+          "claudication",
+          "critical limb ischemia",
+          "lower extremity artery disease"
+        ],
+        "nctIds": [
+          "NCT00000614",
+          "NCT00029991",
+          "NCT00032357",
+          "NCT00041925",
+          "NCT00059657",
+          "NCT00060892",
+          "NCT00062556",
+          "NCT00068133",
+          "NCT00071266",
+          "NCT00073554",
+          "NCT00102050",
+          "NCT00106327",
+          "NCT00113009",
+          "NCT00117650",
+          "NCT00120406",
+          "NCT00134277",
+          "NCT00147979",
+          "NCT00153166",
+          "NCT00154141",
+          "NCT00163267",
+          "NCT00168467",
+          "NCT00185276",
+          "NCT00189111",
+          "NCT00189540",
+          "NCT00189618",
+          "NCT00205790",
+          "NCT00217919",
+          "NCT00222196",
+          "NCT00228384",
+          "NCT00284076",
+          "NCT00300339",
+          "NCT00300690",
+          "NCT00304837",
+          "NCT00355537",
+          "NCT00368797",
+          "NCT00371371",
+          "NCT00388128",
+          "NCT00392509",
+          "NCT00399919",
+          "NCT00403494",
+          "NCT00408083",
+          "NCT00431249",
+          "NCT00443287",
+          "NCT00461630",
+          "NCT00468000",
+          "NCT00472472",
+          "NCT00481741",
+          "NCT00497445",
+          "NCT00504712",
+          "NCT00510393",
+          "NCT00518401",
+          "NCT00523263",
+          "NCT00526474",
+          "NCT00537225",
+          "NCT00566657",
+          "NCT00602173",
+          "NCT00602407",
+          "NCT00611988",
+          "NCT00616980",
+          "NCT00618670",
+          "NCT00640770",
+          "NCT00651885",
+          "NCT00652418",
+          "NCT00654810",
+          "NCT00660634",
+          "NCT00662818",
+          "NCT00667290",
+          "NCT00667381",
+          "NCT00673985",
+          "NCT00681226",
+          "NCT00687076",
+          "NCT00692276",
+          "NCT00693823",
+          "NCT00693940",
+          "NCT00715416",
+          "NCT00719355",
+          "NCT00720577",
+          "NCT00725881",
+          "NCT00760565",
+          "NCT00762086",
+          "NCT01145079",
+          "NCT02312102",
+          "NCT02504216"
+        ],
+        "landmarkVerification": {
+          "requested": 3,
+          "found": 3,
+          "coveragePct": 100,
+          "missingNctIds": []
+        },
+        "gatewayUrl": "http://127.0.0.1:8787/aact/query"
+      }
+    },
+    "newStudies": [
+      {
+        "nctId": "NCT00059657",
+        "title": "Efficacy/Safety of Ecraprost in Lipid Emulsion for Treatment of Critical Leg Ischemia Due to Peripheral Arterial Disease",
+        "briefSummary": null,
+        "status": "COMPLETED",
+        "startDate": "2001-08-31",
+        "completionDate": "2005-11-30",
+        "studyType": "INTERVENTIONAL",
+        "phases": [
+          "PHASE3"
+        ],
+        "enrollment": 280,
+        "allocation": "RANDOMIZED",
+        "primaryPurpose": "TREATMENT",
+        "source": "aact",
+        "retrievedAt": "2026-02-24T10:38:58.163Z",
+        "isDuplicate": false,
+        "classification": "maybe",
+        "relevanceScore": 45,
+        "relevanceReasons": [
+          "Contains 1 required keywords",
+          "Study design may not meet criteria: Unknown"
+        ],
+        "pico": {
+          "population": {
+            "text": null,
+            "confidence": 0,
+            "details": []
+          },
+          "intervention": {
+            "text": "Treatment of Critical Leg Ischemia Due to Peripheral Arterial Disease",
+            "confidence": 0.85,
+            "type": "drug_with_dose",
+            "details": [
+              {
+                "text": "Treatment of Critical Leg Ischemia Due to Peripheral Arterial Disease",
+                "type": "drug_with_dose",
+                "confidence": 0.85
+              }
+            ]
+          },
+          "comparator": {
+            "text": null,
+            "confidence": 0,
+            "details": []
+          },
+          "outcomes": [],
+          "studyDesign": {
+            "type": "Unknown",
+            "confidence": 0.3
+          },
+          "sampleSize": null,
+          "followUp": null,
+          "setting": []
+        },
+        "needsReview": true,
+        "processedAt": "2026-02-24T10:38:58.968Z"
+      },
+      {
+        "nctId": "NCT00106327",
+        "title": "Improving Functioning in Peripheral Arterial Disease",
+        "briefSummary": null,
+        "status": "COMPLETED",
+        "startDate": "2003-09-30",
+        "completionDate": "2009-03-31",
+        "studyType": "INTERVENTIONAL",
+        "phases": [
+          "NA"
+        ],
+        "enrollment": 156,
+        "allocation": "RANDOMIZED",
+        "primaryPurpose": "TREATMENT",
+        "source": "aact",
+        "retrievedAt": "2026-02-24T10:38:58.163Z",
+        "isDuplicate": false,
+        "classification": "maybe",
+        "relevanceScore": 45,
+        "relevanceReasons": [
+          "Contains 1 required keywords",
+          "Study design may not meet criteria: Unknown"
+        ],
+        "pico": {
+          "population": {
+            "text": null,
+            "confidence": 0,
+            "details": []
+          },
+          "intervention": {
+            "text": null,
+            "confidence": 0,
+            "details": []
+          },
+          "comparator": {
+            "text": null,
+            "confidence": 0,
+            "details": []
+          },
+          "outcomes": [],
+          "studyDesign": {
+            "type": "Unknown",
+            "confidence": 0.3
+          },
+          "sampleSize": null,
+          "followUp": null,
+          "setting": []
+        },
+        "needsReview": true,
+        "processedAt": "2026-02-24T10:38:58.981Z"
+      },
+      {
+        "nctId": "NCT00153166",
+        "title": "ARREST PAD (Peripheral Arterial Disease)",
+        "briefSummary": null,
+        "status": "COMPLETED",
+        "startDate": "2004-01-31",
+        "completionDate": "2011-12-31",
+        "studyType": "INTERVENTIONAL",
+        "phases": [
+          "PHASE2/PHASE3"
+        ],
+        "enrollment": 76,
+        "allocation": "RANDOMIZED",
+        "primaryPurpose": "TREATMENT",
+        "source": "aact",
+        "retrievedAt": "2026-02-24T10:38:58.163Z",
+        "isDuplicate": false,
+        "classification": "maybe",
+        "relevanceScore": 50,
+        "relevanceReasons": [
+          "Contains 1 required keywords",
+          "Contains 1 preferred keywords",
+          "Study design may not meet criteria: Unknown"
+        ],
+        "pico": {
+          "population": {
+            "text": null,
+            "confidence": 0,
+            "details": []
+          },
+          "intervention": {
+            "text": null,
+            "confidence": 0,
+            "details": []
+          },
+          "comparator": {
+            "text": null,
+            "confidence": 0,
+            "details": []
+          },
+          "outcomes": [],
+          "studyDesign": {
+            "type": "Unknown",
+            "confidence": 0.3
+          },
+          "sampleSize": null,
+          "followUp": null,
+          "setting": []
+        },
+        "needsReview": true,
+        "processedAt": "2026-02-24T10:38:59.012Z"
+      },
+      {
+        "nctId": "NCT00168467",
+        "title": "The Effects of Ramipril on Clinical Symptoms in Patients With Peripheral Arterial Disease",
+        "briefSummary": null,
+        "status": "COMPLETED",
+        "startDate": null,
+        "completionDate": null,
+        "studyType": "INTERVENTIONAL",
+        "phases": [
+          "PHASE4"
+        ],
+        "enrollment": 40,
+        "allocation": "RANDOMIZED",
+        "primaryPurpose": "TREATMENT",
+        "source": "aact",
+        "retrievedAt": "2026-02-24T10:38:58.163Z",
+        "isDuplicate": false,
+        "classification": "maybe",
+        "relevanceScore": 45,
+        "relevanceReasons": [
+          "Contains 1 required keywords",
+          "Study design may not meet criteria: Unknown"
+        ],
+        "pico": {
+          "population": {
+            "text": null,
+            "confidence": 0,
+            "details": []
+          },
+          "intervention": {
+            "text": "Ramipril",
+            "confidence": 0.9,
+            "type": "known_drug",
+            "details": [
+              {
+                "text": "Ramipril",
+                "context": "The Effects of Ramipril on Clinical Symptoms in Patients With Peripheral Arterial Disease",
+                "type": "known_drug",
+                "confidence": 0.9
+              }
+            ]
+          },
+          "comparator": {
+            "text": null,
+            "confidence": 0,
+            "details": []
+          },
+          "outcomes": [],
+          "studyDesign": {
+            "type": "Unknown",
+            "confidence": 0.3
+          },
+          "sampleSize": null,
+          "followUp": null,
+          "setting": []
+        },
+        "needsReview": true,
+        "processedAt": "2026-02-24T10:38:59.035Z"
+      },
+      {
+        "nctId": "NCT00189618",
+        "title": "The Effects of Physical Training, ASA (Aspirin), and Clopidogrel on the Walking Capacity of Patients With Stage II Peripheral Arterial Disease (PAD)",
+        "briefSummary": null,
+        "status": "COMPLETED",
+        "startDate": "2005-05-31",
+        "completionDate": "2008-06-30",
+        "studyType": "INTERVENTIONAL",
+        "phases": [
+          "PHASE4"
+        ],
+        "enrollment": 250,
+        "allocation": "RANDOMIZED",
+        "primaryPurpose": "TREATMENT",
+        "source": "aact",
+        "retrievedAt": "2026-02-24T10:38:58.163Z",
+        "isDuplicate": false,
+        "classification": "maybe",
+        "relevanceScore": 50,
+        "relevanceReasons": [
+          "Contains 1 required keywords",
+          "Contains 1 preferred keywords",
+          "Study design may not meet criteria: Unknown"
+        ],
+        "pico": {
+          "population": {
+            "text": null,
+            "confidence": 0,
+            "details": []
+          },
+          "intervention": {
+            "text": "Aspirin",
+            "confidence": 0.9,
+            "type": "known_drug",
+            "details": [
+              {
+                "text": "Aspirin",
+                "context": "The Effects of Physical Training, ASA (Aspirin), and Clopidogrel on the Walking Capacity of Patients With Stage II Peripheral Arterial Disease (PAD)",
+                "type": "known_drug",
+                "confidence": 0.9
+              },
+              {
+                "text": "Clopidogrel",
+                "context": "The Effects of Physical Training, ASA (Aspirin), and Clopidogrel on the Walking Capacity of Patients With Stage II Peripheral Arterial Disease (PAD)",
+                "type": "known_drug",
+                "confidence": 0.9
+              }
+            ]
+          },
+          "comparator": {
+            "text": null,
+            "confidence": 0,
+            "details": []
+          },
+          "outcomes": [],
+          "studyDesign": {
+            "type": "Unknown",
+            "confidence": 0.3
+          },
+          "sampleSize": null,
+          "followUp": null,
+          "setting": []
+        },
+        "needsReview": true,
+        "processedAt": "2026-02-24T10:38:59.076Z"
+      },
+      {
+        "nctId": "NCT00217919",
+        "title": "Reducing Risk Factors in Peripheral Arterial Disease",
+        "briefSummary": null,
+        "status": "COMPLETED",
+        "startDate": "2006-02-28",
+        "completionDate": "2009-11-30",
+        "studyType": "INTERVENTIONAL",
+        "phases": [
+          "NA"
+        ],
+        "enrollment": 355,
+        "allocation": "RANDOMIZED",
+        "primaryPurpose": "TREATMENT",
+        "source": "aact",
+        "retrievedAt": "2026-02-24T10:38:58.163Z",
+        "isDuplicate": false,
+        "classification": "maybe",
+        "relevanceScore": 45,
+        "relevanceReasons": [
+          "Contains 1 required keywords",
+          "Study design may not meet criteria: Unknown"
+        ],
+        "pico": {
+          "population": {
+            "text": null,
+            "confidence": 0,
+            "details": []
+          },
+          "intervention": {
+            "text": null,
+            "confidence": 0,
+            "details": []
+          },
+          "comparator": {
+            "text": null,
+            "confidence": 0,
+            "details": []
+          },
+          "outcomes": [],
+          "studyDesign": {
+            "type": "Unknown",
+            "confidence": 0.3
+          },
+          "sampleSize": null,
+          "followUp": null,
+          "setting": []
+        },
+        "needsReview": true,
+        "processedAt": "2026-02-24T10:38:59.105Z"
+      },
+      {
+        "nctId": "NCT00284076",
+        "title": "L-Arginine in the Treatment of Peripheral Arterial Disease",
+        "briefSummary": null,
+        "status": "COMPLETED",
+        "startDate": "2000-02-29",
+        "completionDate": "2006-07-31",
+        "studyType": "INTERVENTIONAL",
+        "phases": [
+          "NA"
+        ],
+        "enrollment": null,
+        "allocation": "RANDOMIZED",
+        "primaryPurpose": "TREATMENT",
+        "source": "aact",
+        "retrievedAt": "2026-02-24T10:38:58.163Z",
+        "isDuplicate": false,
+        "classification": "maybe",
+        "relevanceScore": 45,
+        "relevanceReasons": [
+          "Contains 1 required keywords",
+          "Study design may not meet criteria: Unknown"
+        ],
+        "pico": {
+          "population": {
+            "text": null,
+            "confidence": 0,
+            "details": []
+          },
+          "intervention": {
+            "text": "Treatment of Peripheral Arterial Disease",
+            "confidence": 0.85,
+            "type": "drug_with_dose",
+            "details": [
+              {
+                "text": "Treatment of Peripheral Arterial Disease",
+                "type": "drug_with_dose",
+                "confidence": 0.85
+              }
+            ]
+          },
+          "comparator": {
+            "text": null,
+            "confidence": 0,
+            "details": []
+          },
+          "outcomes": [],
+          "studyDesign": {
+            "type": "Unknown",
+            "confidence": 0.3
+          },
+          "sampleSize": null,
+          "followUp": null,
+          "setting": []
+        },
+        "needsReview": true,
+        "processedAt": "2026-02-24T10:38:59.163Z"
+      },
+      {
+        "nctId": "NCT00403494",
+        "title": "A Phase 2 Study of the Effects of Sapropterin Dihydrochloride on Symptomatic Peripheral Arterial Disease",
+        "briefSummary": null,
+        "status": "COMPLETED",
+        "startDate": "2006-12-31",
+        "completionDate": "2009-01-31",
+        "studyType": "INTERVENTIONAL",
+        "phases": [
+          "PHASE2"
+        ],
+        "enrollment": 190,
+        "allocation": "RANDOMIZED",
+        "primaryPurpose": "TREATMENT",
+        "source": "aact",
+        "retrievedAt": "2026-02-24T10:38:58.163Z",
+        "isDuplicate": false,
+        "classification": "maybe",
+        "relevanceScore": 45,
+        "relevanceReasons": [
+          "Contains 1 required keywords",
+          "Study design may not meet criteria: Unknown"
+        ],
+        "pico": {
+          "population": {
+            "text": null,
+            "confidence": 0,
+            "details": []
+          },
+          "intervention": {
+            "text": null,
+            "confidence": 0,
+            "details": []
+          },
+          "comparator": {
+            "text": null,
+            "confidence": 0,
+            "details": []
+          },
+          "outcomes": [],
+          "studyDesign": {
+            "type": "Unknown",
+            "confidence": 0.3
+          },
+          "sampleSize": null,
+          "followUp": null,
+          "setting": []
+        },
+        "needsReview": true,
+        "processedAt": "2026-02-24T10:38:59.412Z"
+      },
+      {
+        "nctId": "NCT00468000",
+        "title": "Use of Ixmyelocel-T (Formerly Vascular Repair Cells [VRC]) in Patients With Peripheral Arterial Disease to Treat Critical Limb Ischemia",
+        "briefSummary": null,
+        "status": "COMPLETED",
+        "startDate": "2007-04-30",
+        "completionDate": "2011-03-31",
+        "studyType": "INTERVENTIONAL",
+        "phases": [
+          "PHASE2"
+        ],
+        "enrollment": 86,
+        "allocation": "RANDOMIZED",
+        "primaryPurpose": "TREATMENT",
+        "source": "aact",
+        "retrievedAt": "2026-02-24T10:38:58.163Z",
+        "isDuplicate": false,
+        "classification": "maybe",
+        "relevanceScore": 50,
+        "relevanceReasons": [
+          "Contains 1 required keywords",
+          "Contains 1 preferred keywords",
+          "Study design may not meet criteria: Unknown"
+        ],
+        "pico": {
+          "population": {
+            "text": null,
+            "confidence": 0,
+            "details": []
+          },
+          "intervention": {
+            "text": null,
+            "confidence": 0,
+            "details": []
+          },
+          "comparator": {
+            "text": null,
+            "confidence": 0,
+            "details": []
+          },
+          "outcomes": [],
+          "studyDesign": {
+            "type": "Unknown",
+            "confidence": 0.3
+          },
+          "sampleSize": null,
+          "followUp": null,
+          "setting": [
+            {
+              "type": "country",
+              "value": "us"
+            }
+          ]
+        },
+        "needsReview": true,
+        "processedAt": "2026-02-24T10:38:59.599Z"
+      },
+      {
+        "nctId": "NCT00497445",
+        "title": "The Value of Supervised Exercise Therapy After Invasive Treatment of Peripheral Arterial Disease",
+        "briefSummary": null,
+        "status": "COMPLETED",
+        "startDate": "2005-12-31",
+        "completionDate": "2009-09-30",
+        "studyType": "INTERVENTIONAL",
+        "phases": [
+          "NA"
+        ],
+        "enrollment": 86,
+        "allocation": "RANDOMIZED",
+        "primaryPurpose": "TREATMENT",
+        "source": "aact",
+        "retrievedAt": "2026-02-24T10:38:58.163Z",
+        "isDuplicate": false,
+        "classification": "maybe",
+        "relevanceScore": 45,
+        "relevanceReasons": [
+          "Contains 1 required keywords",
+          "Study design may not meet criteria: Unknown"
+        ],
+        "pico": {
+          "population": {
+            "text": null,
+            "confidence": 0,
+            "details": []
+          },
+          "intervention": {
+            "text": "Treatment of Peripheral Arterial Disease",
+            "confidence": 0.85,
+            "type": "drug_with_dose",
+            "details": [
+              {
+                "text": "Treatment of Peripheral Arterial Disease",
+                "type": "drug_with_dose",
+                "confidence": 0.85
+              }
+            ]
+          },
+          "comparator": {
+            "text": null,
+            "confidence": 0,
+            "details": []
+          },
+          "outcomes": [],
+          "studyDesign": {
+            "type": "Unknown",
+            "confidence": 0.3
+          },
+          "sampleSize": null,
+          "followUp": null,
+          "setting": []
+        },
+        "needsReview": true,
+        "processedAt": "2026-02-24T10:38:59.741Z"
+      },
+      {
+        "nctId": "NCT00660634",
+        "title": "Angioplasty in Peripheral Arterial Disease and Endothelial Function",
+        "briefSummary": null,
+        "status": "COMPLETED",
+        "startDate": "2004-12-31",
+        "completionDate": "2008-04-30",
+        "studyType": "INTERVENTIONAL",
+        "phases": [
+          "PHASE4"
+        ],
+        "enrollment": 33,
+        "allocation": "RANDOMIZED",
+        "primaryPurpose": "TREATMENT",
+        "source": "aact",
+        "retrievedAt": "2026-02-24T10:38:58.163Z",
+        "isDuplicate": false,
+        "classification": "maybe",
+        "relevanceScore": 45,
+        "relevanceReasons": [
+          "Contains 1 required keywords",
+          "Study design may not meet criteria: Unknown"
+        ],
+        "pico": {
+          "population": {
+            "text": null,
+            "confidence": 0,
+            "details": []
+          },
+          "intervention": {
+            "text": "Angioplasty",
+            "confidence": 0.9,
+            "type": "known_drug",
+            "details": [
+              {
+                "text": "Angioplasty",
+                "context": "Angioplasty in Peripheral Arterial Disease and Endothelial Function",
+                "type": "known_drug",
+                "confidence": 0.9
+              }
+            ]
+          },
+          "comparator": {
+            "text": null,
+            "confidence": 0,
+            "details": []
+          },
+          "outcomes": [],
+          "studyDesign": {
+            "type": "Unknown",
+            "confidence": 0.3
+          },
+          "sampleSize": null,
+          "followUp": null,
+          "setting": []
+        },
+        "needsReview": true,
+        "processedAt": "2026-02-24T10:39:01.067Z"
+      },
+      {
+        "nctId": "NCT00687076",
+        "title": "Effectiveness of Intensive Lipid Modification Medication in Preventing the Progression of Peripheral Arterial Disease (The ELIMIT Study)",
+        "briefSummary": null,
+        "status": "COMPLETED",
+        "startDate": "2004-04-30",
+        "completionDate": "2010-12-31",
+        "studyType": "INTERVENTIONAL",
+        "phases": [
+          "PHASE4"
+        ],
+        "enrollment": 102,
+        "allocation": "RANDOMIZED",
+        "primaryPurpose": "HEALTH_SERVICES_RESEARCH",
+        "source": "aact",
+        "retrievedAt": "2026-02-24T10:38:58.163Z",
+        "isDuplicate": false,
+        "classification": "maybe",
+        "relevanceScore": 45,
+        "relevanceReasons": [
+          "Contains 1 required keywords",
+          "Study design may not meet criteria: Unknown"
+        ],
+        "pico": {
+          "population": {
+            "text": null,
+            "confidence": 0,
+            "details": []
+          },
+          "intervention": {
+            "text": null,
+            "confidence": 0,
+            "details": []
+          },
+          "comparator": {
+            "text": null,
+            "confidence": 0,
+            "details": []
+          },
+          "outcomes": [],
+          "studyDesign": {
+            "type": "Unknown",
+            "confidence": 0.3
+          },
+          "sampleSize": null,
+          "followUp": null,
+          "setting": []
+        },
+        "needsReview": true,
+        "processedAt": "2026-02-24T10:39:01.818Z"
+      },
+      {
+        "nctId": "NCT00720577",
+        "title": "Study to Evaluate the Effect of Simvastatin, Losartan and Pioglitazone on Patients With Peripheral Arterial Disease.",
+        "briefSummary": null,
+        "status": "COMPLETED",
+        "startDate": "2005-12-31",
+        "completionDate": "2007-08-31",
+        "studyType": "INTERVENTIONAL",
+        "phases": [
+          "EARLY_PHASE1"
+        ],
+        "enrollment": 164,
+        "allocation": "RANDOMIZED",
+        "primaryPurpose": "BASIC_SCIENCE",
+        "source": "aact",
+        "retrievedAt": "2026-02-24T10:38:58.163Z",
+        "isDuplicate": false,
+        "classification": "maybe",
+        "relevanceScore": 45,
+        "relevanceReasons": [
+          "Contains 1 required keywords",
+          "Study design may not meet criteria: Unknown"
+        ],
+        "pico": {
+          "population": {
+            "text": null,
+            "confidence": 0,
+            "details": []
+          },
+          "intervention": {
+            "text": "Simvastatin",
+            "confidence": 0.9,
+            "type": "known_drug",
+            "details": [
+              {
+                "text": "Simvastatin",
+                "context": "Study to Evaluate the Effect of Simvastatin, Losartan and Pioglitazone on Patients With Peripheral Arterial Disease",
+                "type": "known_drug",
+                "confidence": 0.9
+              },
+              {
+                "text": "Losartan",
+                "context": "Study to Evaluate the Effect of Simvastatin, Losartan and Pioglitazone on Patients With Peripheral Arterial Disease",
+                "type": "known_drug",
+                "confidence": 0.9
+              }
+            ]
+          },
+          "comparator": {
+            "text": null,
+            "confidence": 0,
+            "details": []
+          },
+          "outcomes": [],
+          "studyDesign": {
+            "type": "Unknown",
+            "confidence": 0.3
+          },
+          "sampleSize": null,
+          "followUp": null,
+          "setting": []
+        },
+        "needsReview": true,
+        "processedAt": "2026-02-24T10:39:02.935Z"
+      },
+      {
+        "nctId": "NCT00760565",
+        "title": "A Multiple Ascending Dose Study of RO4905417 in Healthy Volunteers and Patients With Peripheral Arterial Disease (PAD).",
+        "briefSummary": null,
+        "status": "COMPLETED",
+        "startDate": "2008-09-30",
+        "completionDate": "2011-06-30",
+        "studyType": "INTERVENTIONAL",
+        "phases": [
+          "PHASE1"
+        ],
+        "enrollment": 72,
+        "allocation": "RANDOMIZED",
+        "primaryPurpose": "TREATMENT",
+        "source": "aact",
+        "retrievedAt": "2026-02-24T10:38:58.163Z",
+        "isDuplicate": false,
+        "classification": "maybe",
+        "relevanceScore": 50,
+        "relevanceReasons": [
+          "Contains 1 required keywords",
+          "Contains 1 preferred keywords",
+          "Study design may not meet criteria: Unknown"
+        ],
+        "pico": {
+          "population": {
+            "text": null,
+            "confidence": 0,
+            "details": []
+          },
+          "intervention": {
+            "text": null,
+            "confidence": 0,
+            "details": []
+          },
+          "comparator": {
+            "text": null,
+            "confidence": 0,
+            "details": []
+          },
+          "outcomes": [],
+          "studyDesign": {
+            "type": "Unknown",
+            "confidence": 0.3
+          },
+          "sampleSize": null,
+          "followUp": null,
+          "setting": []
+        },
+        "needsReview": true,
+        "processedAt": "2026-02-24T10:39:03.246Z"
+      }
+    ],
+    "duplicates": [
+      {
+        "nctId": "NCT00113009",
+        "title": "Trial of VLTS-934 in Subjects With Intermittent Claudication Secondary to Peripheral Arterial Disease",
+        "briefSummary": null,
+        "status": "COMPLETED",
+        "startDate": "2005-03-31",
+        "completionDate": "2006-07-31",
+        "studyType": "INTERVENTIONAL",
+        "phases": [
+          "PHASE2"
+        ],
+        "enrollment": 148,
+        "allocation": "RANDOMIZED",
+        "primaryPurpose": "TREATMENT",
+        "source": "aact",
+        "retrievedAt": "2026-02-24T10:38:58.163Z",
+        "isDuplicate": true,
+        "duplicateOf": {
+          "index": 7,
+          "title": "Trial of VLTS-589 in Subjects With Intermittent Claudication"
+        }
+      },
+      {
+        "nctId": "NCT00399919",
+        "title": "Safety and Efficacy of Propionyl-L-Carnitine in the Treatment of Peripheral Arterial Disease (Intermittent Claudication)",
+        "briefSummary": null,
+        "status": "COMPLETED",
+        "startDate": "2006-04-30",
+        "completionDate": "2008-03-31",
+        "studyType": "INTERVENTIONAL",
+        "phases": [
+          "PHASE3"
+        ],
+        "enrollment": 69,
+        "allocation": "RANDOMIZED",
+        "primaryPurpose": "TREATMENT",
+        "source": "aact",
+        "retrievedAt": "2026-02-24T10:38:58.163Z",
+        "isDuplicate": true,
+        "duplicateOf": {
+          "index": 13,
+          "title": "Safety and Efficacy Study of Ad2/Hypoxia Inducible Factor (HIF)-1α/VP16 Gene Transfer in Patients With Intermittent Claudication"
+        }
+      },
+      {
+        "nctId": "NCT00443287",
+        "title": "Efficacy and Safety of HMR1766 in Patients With Fontaine Stage II Peripheral Arterial Disease",
+        "briefSummary": null,
+        "status": "COMPLETED",
+        "startDate": "2007-02-28",
+        "completionDate": "2008-10-31",
+        "studyType": "INTERVENTIONAL",
+        "phases": [
+          "PHASE2"
+        ],
+        "enrollment": 553,
+        "allocation": "RANDOMIZED",
+        "primaryPurpose": "TREATMENT",
+        "source": "aact",
+        "retrievedAt": "2026-02-24T10:38:58.163Z",
+        "isDuplicate": true,
+        "duplicateOf": {
+          "index": 4,
+          "title": "Efficacy/Safety of Ecraprost in Lipid Emulsion for Treatment of Critical Leg Ischemia Due to Peripheral Arterial Disease"
+        }
+      },
+      {
+        "nctId": "NCT00602407",
+        "title": "Bioequivalency Study of 50 mg Cilostazol Tablets Under Fasting Conditions",
+        "briefSummary": null,
+        "status": "COMPLETED",
+        "startDate": "2004-02-29",
+        "completionDate": "2004-03-31",
+        "studyType": "INTERVENTIONAL",
+        "phases": [
+          "NA"
+        ],
+        "enrollment": 36,
+        "allocation": "RANDOMIZED",
+        "primaryPurpose": "TREATMENT",
+        "source": "aact",
+        "retrievedAt": "2026-02-24T10:38:58.163Z",
+        "isDuplicate": true,
+        "duplicateOf": {
+          "index": 55,
+          "title": "Bioequivalency Study of 100 mg Cilostazol Tablets Under Fasting Conditions"
+        }
+      },
+      {
+        "nctId": "NCT00681226",
+        "title": "Angiotensin Converting Enzyme (ACE) Inhibition and Peripheral Arterial Disease",
+        "briefSummary": null,
+        "status": "COMPLETED",
+        "startDate": "2008-01-31",
+        "completionDate": "2012-01-31",
+        "studyType": "INTERVENTIONAL",
+        "phases": [
+          "PHASE4"
+        ],
+        "enrollment": 200,
+        "allocation": "RANDOMIZED",
+        "primaryPurpose": "TREATMENT",
+        "source": "aact",
+        "retrievedAt": "2026-02-24T10:38:58.163Z",
+        "isDuplicate": true,
+        "duplicateOf": {
+          "index": 64,
+          "title": "Angioplasty in Peripheral Arterial Disease and Endothelial Function"
+        }
+      },
+      {
+        "nctId": "NCT00693940",
+        "title": "Effectiveness of Group Walking Sessions for Increasing Activity in People With Peripheral Arterial Disease (The Group Oriented Arterial Leg Study [GOALS])",
+        "briefSummary": null,
+        "status": "COMPLETED",
+        "startDate": "2008-06-30",
+        "completionDate": "2013-05-31",
+        "studyType": "INTERVENTIONAL",
+        "phases": [
+          "PHASE3"
+        ],
+        "enrollment": 194,
+        "allocation": "RANDOMIZED",
+        "primaryPurpose": "TREATMENT",
+        "source": "aact",
+        "retrievedAt": "2026-02-24T10:38:58.163Z",
+        "isDuplicate": true,
+        "duplicateOf": {
+          "index": 70,
+          "title": "Effectiveness of Intensive Lipid Modification Medication in Preventing the Progression of Peripheral Arterial Disease (The ELIMIT Study)"
+        }
+      },
+      {
+        "nctId": "NCT00725881",
+        "title": "Safety, Efficacy, and Pharmacokinetics (PK) Study of Trans Sodium Crocetinate (TSC) in Patients With Intermittent Claudication",
+        "briefSummary": null,
+        "status": "COMPLETED",
+        "startDate": "2008-08-31",
+        "completionDate": "2010-03-31",
+        "studyType": "INTERVENTIONAL",
+        "phases": [
+          "PHASE1/PHASE2"
+        ],
+        "enrollment": 48,
+        "allocation": "RANDOMIZED",
+        "primaryPurpose": "TREATMENT",
+        "source": "aact",
+        "retrievedAt": "2026-02-24T10:38:58.163Z",
+        "isDuplicate": true,
+        "duplicateOf": {
+          "index": 13,
+          "title": "Safety and Efficacy Study of Ad2/Hypoxia Inducible Factor (HIF)-1α/VP16 Gene Transfer in Patients With Intermittent Claudication"
+        }
+      },
+      {
+        "nctId": "NCT00762086",
+        "title": "Safety and Efficacy Study of a New Intermittent Pneumatic Compression Device to Treat Patients With Peripheral Arterial Disease (PAD) Stage II",
+        "briefSummary": null,
+        "status": "COMPLETED",
+        "startDate": "2009-03-31",
+        "completionDate": "2012-01-31",
+        "studyType": "INTERVENTIONAL",
+        "phases": [
+          "NA"
+        ],
+        "enrollment": 67,
+        "allocation": "RANDOMIZED",
+        "primaryPurpose": "TREATMENT",
+        "source": "aact",
+        "retrievedAt": "2026-02-24T10:38:58.163Z",
+        "isDuplicate": true,
+        "duplicateOf": {
+          "index": 13,
+          "title": "Safety and Efficacy Study of Ad2/Hypoxia Inducible Factor (HIF)-1α/VP16 Gene Transfer in Patients With Intermittent Claudication"
+        }
+      }
+    ],
+    "excluded": [
+      {
+        "nctId": "NCT00000614",
+        "title": "Prevention of Recurrent Venous Thromboembolism (PREVENT)",
+        "briefSummary": null,
+        "status": "COMPLETED",
+        "startDate": "1998-09-30",
+        "completionDate": "2004-08-31",
+        "studyType": "INTERVENTIONAL",
+        "phases": [
+          "PHASE3"
+        ],
+        "enrollment": null,
+        "allocation": "RANDOMIZED",
+        "primaryPurpose": "PREVENTION",
+        "source": "aact",
+        "retrievedAt": "2026-02-24T10:38:58.163Z",
+        "isDuplicate": false,
+        "classification": "exclude",
+        "relevanceScore": 0,
+        "relevanceReasons": [
+          "Missing required keywords",
+          "Study design may not meet criteria: Unknown"
+        ],
+        "pico": null,
+        "needsReview": false,
+        "processedAt": "2026-02-24T10:38:58.967Z"
+      },
+      {
+        "nctId": "NCT00029991",
+        "title": "Extract of Ginkgo Biloba (EGB 761) and Vascular Function",
+        "briefSummary": null,
+        "status": "COMPLETED",
+        "startDate": "2000-09-30",
+        "completionDate": "2005-07-31",
+        "studyType": "INTERVENTIONAL",
+        "phases": [
+          "PHASE1/PHASE2"
+        ],
+        "enrollment": 100,
+        "allocation": "RANDOMIZED",
+        "primaryPurpose": "TREATMENT",
+        "source": "aact",
+        "retrievedAt": "2026-02-24T10:38:58.163Z",
+        "isDuplicate": false,
+        "classification": "exclude",
+        "relevanceScore": 0,
+        "relevanceReasons": [
+          "Missing required keywords",
+          "Study design may not meet criteria: Unknown"
+        ],
+        "pico": null,
+        "needsReview": false,
+        "processedAt": "2026-02-24T10:38:58.967Z"
+      },
+      {
+        "nctId": "NCT00032357",
+        "title": "Does the Reduction of Total Body Iron Storage (TBIS) Alter Mortality in a Population of Patients With Advanced PVD?",
+        "briefSummary": null,
+        "status": "COMPLETED",
+        "startDate": "1999-05-31",
+        "completionDate": "2005-09-30",
+        "studyType": "INTERVENTIONAL",
+        "phases": [
+          "PHASE3"
+        ],
+        "enrollment": 1277,
+        "allocation": "RANDOMIZED",
+        "primaryPurpose": "DIAGNOSTIC",
+        "source": "aact",
+        "retrievedAt": "2026-02-24T10:38:58.163Z",
+        "isDuplicate": false,
+        "classification": "exclude",
+        "relevanceScore": 0,
+        "relevanceReasons": [
+          "Missing required keywords",
+          "Study design may not meet criteria: Unknown"
+        ],
+        "pico": null,
+        "needsReview": false,
+        "processedAt": "2026-02-24T10:38:58.967Z"
+      },
+      {
+        "nctId": "NCT00041925",
+        "title": "Prevention of Autogenous Vein Graft Failure in Peripheral Artery Bypass Procedures",
+        "briefSummary": null,
+        "status": "COMPLETED",
+        "startDate": "2001-11-30",
+        "completionDate": "2004-11-30",
+        "studyType": "INTERVENTIONAL",
+        "phases": [
+          "PHASE2/PHASE3"
+        ],
+        "enrollment": 1400,
+        "allocation": "RANDOMIZED",
+        "primaryPurpose": "PREVENTION",
+        "source": "aact",
+        "retrievedAt": "2026-02-24T10:38:58.163Z",
+        "isDuplicate": false,
+        "classification": "exclude",
+        "relevanceScore": 0,
+        "relevanceReasons": [
+          "Missing required keywords",
+          "Study design may not meet criteria: Unknown"
+        ],
+        "pico": null,
+        "needsReview": false,
+        "processedAt": "2026-02-24T10:38:58.967Z"
+      },
+      {
+        "nctId": "NCT00060892",
+        "title": "Study of HGF Via Plasmid Vector to Improve Perfusion in Critical Limb Ischemia",
+        "briefSummary": null,
+        "status": "COMPLETED",
+        "startDate": "2003-04-30",
+        "completionDate": "2007-01-31",
+        "studyType": "INTERVENTIONAL",
+        "phases": [
+          "PHASE2"
+        ],
+        "enrollment": 104,
+        "allocation": "RANDOMIZED",
+        "primaryPurpose": "TREATMENT",
+        "source": "aact",
+        "retrievedAt": "2026-02-24T10:38:58.163Z",
+        "isDuplicate": false,
+        "classification": "exclude",
+        "relevanceScore": 0,
+        "relevanceReasons": [
+          "Missing required keywords",
+          "Contains 1 preferred keywords",
+          "Study design may not meet criteria: Unknown"
+        ],
+        "pico": null,
+        "needsReview": false,
+        "processedAt": "2026-02-24T10:38:58.969Z"
+      },
+      {
+        "nctId": "NCT00062556",
+        "title": "Effect of Niacin ER/Lovastatin on Peak Walking Time & Claudication Onset Time in Patients With Intermittent Claudication",
+        "briefSummary": null,
+        "status": "COMPLETED",
+        "startDate": "2003-01-31",
+        "completionDate": "2006-03-31",
+        "studyType": "INTERVENTIONAL",
+        "phases": [
+          "PHASE3"
+        ],
+        "enrollment": 366,
+        "allocation": "RANDOMIZED",
+        "primaryPurpose": "TREATMENT",
+        "source": "aact",
+        "retrievedAt": "2026-02-24T10:38:58.163Z",
+        "isDuplicate": false,
+        "classification": "exclude",
+        "relevanceScore": 0,
+        "relevanceReasons": [
+          "Missing required keywords",
+          "Contains 1 preferred keywords",
+          "Study design may not meet criteria: Unknown"
+        ],
+        "pico": null,
+        "needsReview": false,
+        "processedAt": "2026-02-24T10:38:58.970Z"
+      },
+      {
+        "nctId": "NCT00068133",
+        "title": "Trial of VLTS-589 in Subjects With Intermittent Claudication",
+        "briefSummary": null,
+        "status": "COMPLETED",
+        "startDate": "2003-06-30",
+        "completionDate": "2005-06-30",
+        "studyType": "INTERVENTIONAL",
+        "phases": [
+          "PHASE2"
+        ],
+        "enrollment": 100,
+        "allocation": "RANDOMIZED",
+        "primaryPurpose": "TREATMENT",
+        "source": "aact",
+        "retrievedAt": "2026-02-24T10:38:58.163Z",
+        "isDuplicate": false,
+        "classification": "exclude",
+        "relevanceScore": 0,
+        "relevanceReasons": [
+          "Missing required keywords",
+          "Contains 1 preferred keywords",
+          "Study design may not meet criteria: Unknown"
+        ],
+        "pico": null,
+        "needsReview": false,
+        "processedAt": "2026-02-24T10:38:58.971Z"
+      },
+      {
+        "nctId": "NCT00071266",
+        "title": "The Dose Response of Niacin ER/Lovastatin on Peak Walking Time (PWT) in Patients With Intermittent Claudication - TROPIC",
+        "briefSummary": null,
+        "status": "COMPLETED",
+        "startDate": "2003-10-31",
+        "completionDate": null,
+        "studyType": "INTERVENTIONAL",
+        "phases": [
+          "PHASE3"
+        ],
+        "enrollment": 870,
+        "allocation": "RANDOMIZED",
+        "primaryPurpose": "TREATMENT",
+        "source": "aact",
+        "retrievedAt": "2026-02-24T10:38:58.163Z",
+        "isDuplicate": false,
+        "classification": "exclude",
+        "relevanceScore": 0,
+        "relevanceReasons": [
+          "Missing required keywords",
+          "Contains 1 preferred keywords",
+          "Study design may not meet criteria: Unknown"
+        ],
+        "pico": null,
+        "needsReview": false,
+        "processedAt": "2026-02-24T10:38:58.973Z"
+      },
+      {
+        "nctId": "NCT00073554",
+        "title": "Alfimeprase for Thrombolysis in Acute Peripheral Arterial Occlusion",
+        "briefSummary": null,
+        "status": "COMPLETED",
+        "startDate": "2003-06-30",
+        "completionDate": null,
+        "studyType": "INTERVENTIONAL",
+        "phases": [
+          "PHASE2"
+        ],
+        "enrollment": 100,
+        "allocation": "RANDOMIZED",
+        "primaryPurpose": "TREATMENT",
+        "source": "aact",
+        "retrievedAt": "2026-02-24T10:38:58.163Z",
+        "isDuplicate": false,
+        "classification": "exclude",
+        "relevanceScore": 0,
+        "relevanceReasons": [
+          "Missing required keywords",
+          "Study design may not meet criteria: Unknown"
+        ],
+        "pico": null,
+        "needsReview": false,
+        "processedAt": "2026-02-24T10:38:58.976Z"
+      },
+      {
+        "nctId": "NCT00102050",
+        "title": "Efficacy and Safety of NM-702 Tablets for the Treatment of Intermittent Claudication",
+        "briefSummary": null,
+        "status": "COMPLETED",
+        "startDate": "2003-04-30",
+        "completionDate": "2006-04-30",
+        "studyType": "INTERVENTIONAL",
+        "phases": [
+          "PHASE2"
+        ],
+        "enrollment": 390,
+        "allocation": "RANDOMIZED",
+        "primaryPurpose": "TREATMENT",
+        "source": "aact",
+        "retrievedAt": "2026-02-24T10:38:58.163Z",
+        "isDuplicate": false,
+        "classification": "exclude",
+        "relevanceScore": 0,
+        "relevanceReasons": [
+          "Missing required keywords",
+          "Contains 1 preferred keywords",
+          "Study design may not meet criteria: Unknown"
+        ],
+        "pico": null,
+        "needsReview": false,
+        "processedAt": "2026-02-24T10:38:58.978Z"
+      },
+      {
+        "nctId": "NCT00117650",
+        "title": "Safety and Efficacy Study of Ad2/Hypoxia Inducible Factor (HIF)-1α/VP16 Gene Transfer in Patients With Intermittent Claudication",
+        "briefSummary": null,
+        "status": "COMPLETED",
+        "startDate": "2005-02-28",
+        "completionDate": "2010-03-31",
+        "studyType": "INTERVENTIONAL",
+        "phases": [
+          "PHASE2"
+        ],
+        "enrollment": 289,
+        "allocation": "RANDOMIZED",
+        "primaryPurpose": "TREATMENT",
+        "source": "aact",
+        "retrievedAt": "2026-02-24T10:38:58.163Z",
+        "isDuplicate": false,
+        "classification": "exclude",
+        "relevanceScore": 0,
+        "relevanceReasons": [
+          "Missing required keywords",
+          "Contains 1 preferred keywords",
+          "Study design may not meet criteria: Unknown"
+        ],
+        "pico": null,
+        "needsReview": false,
+        "processedAt": "2026-02-24T10:38:58.993Z"
+      },
+      {
+        "nctId": "NCT00120406",
+        "title": "Evaluation of the Zilver PTX Drug-Eluting Stent in the Above-the-Knee Femoropopliteal Artery",
+        "briefSummary": null,
+        "status": "COMPLETED",
+        "startDate": "2005-03-31",
+        "completionDate": "2014-02-28",
+        "studyType": "INTERVENTIONAL",
+        "phases": [
+          "NA"
+        ],
+        "enrollment": 474,
+        "allocation": "RANDOMIZED",
+        "primaryPurpose": "TREATMENT",
+        "source": "aact",
+        "retrievedAt": "2026-02-24T10:38:58.163Z",
+        "isDuplicate": false,
+        "classification": "exclude",
+        "relevanceScore": 0,
+        "relevanceReasons": [
+          "Missing required keywords",
+          "Study design may not meet criteria: Unknown"
+        ],
+        "pico": null,
+        "needsReview": false,
+        "processedAt": "2026-02-24T10:38:58.997Z"
+      },
+      {
+        "nctId": "NCT00134277",
+        "title": "Trial Comparing Different Medical Devices for Infragenual Dilatation",
+        "briefSummary": null,
+        "status": "COMPLETED",
+        "startDate": "2004-09-30",
+        "completionDate": "2010-04-30",
+        "studyType": "INTERVENTIONAL",
+        "phases": [
+          "NA"
+        ],
+        "enrollment": 35,
+        "allocation": "RANDOMIZED",
+        "primaryPurpose": "TREATMENT",
+        "source": "aact",
+        "retrievedAt": "2026-02-24T10:38:58.163Z",
+        "isDuplicate": false,
+        "classification": "exclude",
+        "relevanceScore": 0,
+        "relevanceReasons": [
+          "Missing required keywords",
+          "Study design may not meet criteria: Unknown"
+        ],
+        "pico": null,
+        "needsReview": false,
+        "processedAt": "2026-02-24T10:38:59.001Z"
+      },
+      {
+        "nctId": "NCT00147979",
+        "title": "Multicentric, Prospective, Randomized, Comparing Trial Between Bypass of the Femoropoplitea by PTFE and Heparin Bounded PTFE",
+        "briefSummary": null,
+        "status": "COMPLETED",
+        "startDate": "2004-04-30",
+        "completionDate": "2013-08-31",
+        "studyType": "INTERVENTIONAL",
+        "phases": [
+          "NA"
+        ],
+        "enrollment": 596,
+        "allocation": "RANDOMIZED",
+        "primaryPurpose": "TREATMENT",
+        "source": "aact",
+        "retrievedAt": "2026-02-24T10:38:58.163Z",
+        "isDuplicate": false,
+        "classification": "exclude",
+        "relevanceScore": 25,
+        "relevanceReasons": [
+          "Missing required keywords",
+          "Accepted study design: RCT"
+        ],
+        "pico": null,
+        "needsReview": true,
+        "processedAt": "2026-02-24T10:38:59.006Z"
+      },
+      {
+        "nctId": "NCT00154141",
+        "title": "Evaluation of Fibrin Sealant 2 in Vascular Surgical Procedures",
+        "briefSummary": null,
+        "status": "COMPLETED",
+        "startDate": "2005-06-30",
+        "completionDate": "2006-03-31",
+        "studyType": "INTERVENTIONAL",
+        "phases": [
+          "PHASE3"
+        ],
+        "enrollment": 150,
+        "allocation": "RANDOMIZED",
+        "primaryPurpose": null,
+        "source": "aact",
+        "retrievedAt": "2026-02-24T10:38:58.163Z",
+        "isDuplicate": false,
+        "classification": "exclude",
+        "relevanceScore": 0,
+        "relevanceReasons": [
+          "Missing required keywords",
+          "Study design may not meet criteria: Unknown"
+        ],
+        "pico": null,
+        "needsReview": false,
+        "processedAt": "2026-02-24T10:38:59.019Z"
+      },
+      {
+        "nctId": "NCT00163267",
+        "title": "Mirror Trial - Follow-Up Management of Peripheral Arterial Intervention With Clopidogrel",
+        "briefSummary": null,
+        "status": "COMPLETED",
+        "startDate": "2005-09-30",
+        "completionDate": "2011-04-30",
+        "studyType": "INTERVENTIONAL",
+        "phases": [
+          "PHASE2/PHASE3"
+        ],
+        "enrollment": 80,
+        "allocation": "RANDOMIZED",
+        "primaryPurpose": "TREATMENT",
+        "source": "aact",
+        "retrievedAt": "2026-02-24T10:38:58.163Z",
+        "isDuplicate": false,
+        "classification": "exclude",
+        "relevanceScore": 0,
+        "relevanceReasons": [
+          "Missing required keywords",
+          "Study design may not meet criteria: Unknown"
+        ],
+        "pico": null,
+        "needsReview": false,
+        "processedAt": "2026-02-24T10:38:59.027Z"
+      },
+      {
+        "nctId": "NCT00185276",
+        "title": "Magnevist® Injection Enhanced MRA at Two Dose Levels Compared to Non Contrast MRA for the Detection of Structural Abnormalities of the Infrarenal Aorta and Peripheral Arteries",
+        "briefSummary": null,
+        "status": "COMPLETED",
+        "startDate": "2003-03-31",
+        "completionDate": "2004-08-31",
+        "studyType": "INTERVENTIONAL",
+        "phases": [
+          "PHASE3"
+        ],
+        "enrollment": 365,
+        "allocation": "RANDOMIZED",
+        "primaryPurpose": "DIAGNOSTIC",
+        "source": "aact",
+        "retrievedAt": "2026-02-24T10:38:58.163Z",
+        "isDuplicate": false,
+        "classification": "exclude",
+        "relevanceScore": 0,
+        "relevanceReasons": [
+          "Missing required keywords",
+          "Study design may not meet criteria: Unknown"
+        ],
+        "pico": null,
+        "needsReview": false,
+        "processedAt": "2026-02-24T10:38:59.045Z"
+      },
+      {
+        "nctId": "NCT00189111",
+        "title": "Non-invasive Cardiac Screening in High Risk Patients -The GROUND Study",
+        "briefSummary": null,
+        "status": "COMPLETED",
+        "startDate": "2005-01-31",
+        "completionDate": "2012-04-30",
+        "studyType": "INTERVENTIONAL",
+        "phases": [
+          "PHASE3"
+        ],
+        "enrollment": 1200,
+        "allocation": "RANDOMIZED",
+        "primaryPurpose": "PREVENTION",
+        "source": "aact",
+        "retrievedAt": "2026-02-24T10:38:58.163Z",
+        "isDuplicate": false,
+        "classification": "exclude",
+        "relevanceScore": 0,
+        "relevanceReasons": [
+          "Missing required keywords",
+          "Study design may not meet criteria: Unknown"
+        ],
+        "pico": null,
+        "needsReview": false,
+        "processedAt": "2026-02-24T10:38:59.054Z"
+      },
+      {
+        "nctId": "NCT00189540",
+        "title": "Study of Hepatocyte Growth Factor (HGF) Via Plasmid Vector to Improve Perfusion in Critical Limb Ischemia Patients With Peripheral Ischemic Ulcers",
+        "briefSummary": null,
+        "status": "COMPLETED",
+        "startDate": "2005-08-31",
+        "completionDate": "2008-08-31",
+        "studyType": "INTERVENTIONAL",
+        "phases": [
+          "PHASE2"
+        ],
+        "enrollment": 27,
+        "allocation": "RANDOMIZED",
+        "primaryPurpose": "TREATMENT",
+        "source": "aact",
+        "retrievedAt": "2026-02-24T10:38:58.163Z",
+        "isDuplicate": false,
+        "classification": "exclude",
+        "relevanceScore": 0,
+        "relevanceReasons": [
+          "Missing required keywords",
+          "Contains 1 preferred keywords",
+          "Study design may not meet criteria: Unknown"
+        ],
+        "pico": null,
+        "needsReview": false,
+        "processedAt": "2026-02-24T10:38:59.065Z"
+      },
+      {
+        "nctId": "NCT00205790",
+        "title": "GORE-TEX PROPATEN Vascular Graft Study",
+        "briefSummary": null,
+        "status": "COMPLETED",
+        "startDate": "2003-02-28",
+        "completionDate": "2007-08-31",
+        "studyType": "INTERVENTIONAL",
+        "phases": [
+          "NA"
+        ],
+        "enrollment": 200,
+        "allocation": "RANDOMIZED",
+        "primaryPurpose": "TREATMENT",
+        "source": "aact",
+        "retrievedAt": "2026-02-24T10:38:58.163Z",
+        "isDuplicate": false,
+        "classification": "exclude",
+        "relevanceScore": 0,
+        "relevanceReasons": [
+          "Missing required keywords",
+          "Study design may not meet criteria: Unknown"
+        ],
+        "pico": null,
+        "needsReview": false,
+        "processedAt": "2026-02-24T10:38:59.088Z"
+      },
+      {
+        "nctId": "NCT00222196",
+        "title": "Oslo Balloon Angioplasty Versus Conservative Treatment",
+        "briefSummary": null,
+        "status": "COMPLETED",
+        "startDate": "2000-11-30",
+        "completionDate": "2004-12-31",
+        "studyType": "INTERVENTIONAL",
+        "phases": [
+          "NA"
+        ],
+        "enrollment": 200,
+        "allocation": "RANDOMIZED",
+        "primaryPurpose": "TREATMENT",
+        "source": "aact",
+        "retrievedAt": "2026-02-24T10:38:58.163Z",
+        "isDuplicate": false,
+        "classification": "exclude",
+        "relevanceScore": 0,
+        "relevanceReasons": [
+          "Missing required keywords",
+          "Study design may not meet criteria: Unknown"
+        ],
+        "pico": null,
+        "needsReview": false,
+        "processedAt": "2026-02-24T10:38:59.124Z"
+      },
+      {
+        "nctId": "NCT00228384",
+        "title": "GORE VIABAHN ENDOPROSTHESIS Peripheral Vascular Disease Study",
+        "briefSummary": null,
+        "status": "COMPLETED",
+        "startDate": "2005-09-30",
+        "completionDate": "2011-01-31",
+        "studyType": "INTERVENTIONAL",
+        "phases": [
+          "PHASE4"
+        ],
+        "enrollment": 148,
+        "allocation": "RANDOMIZED",
+        "primaryPurpose": "TREATMENT",
+        "source": "aact",
+        "retrievedAt": "2026-02-24T10:38:58.163Z",
+        "isDuplicate": false,
+        "classification": "exclude",
+        "relevanceScore": 0,
+        "relevanceReasons": [
+          "Missing required keywords",
+          "Contains 1 preferred keywords",
+          "Study design may not meet criteria: Unknown"
+        ],
+        "pico": null,
+        "needsReview": false,
+        "processedAt": "2026-02-24T10:38:59.145Z"
+      },
+      {
+        "nctId": "NCT00300339",
+        "title": "Mixed Antagonist of Serotonin for Claudication Optimal Therapy",
+        "briefSummary": null,
+        "status": "COMPLETED",
+        "startDate": "2006-02-28",
+        "completionDate": "2007-12-31",
+        "studyType": "INTERVENTIONAL",
+        "phases": [
+          "PHASE2"
+        ],
+        "enrollment": 599,
+        "allocation": "RANDOMIZED",
+        "primaryPurpose": "TREATMENT",
+        "source": "aact",
+        "retrievedAt": "2026-02-24T10:38:58.163Z",
+        "isDuplicate": false,
+        "classification": "exclude",
+        "relevanceScore": 0,
+        "relevanceReasons": [
+          "Missing required keywords",
+          "Contains 1 preferred keywords",
+          "Study design may not meet criteria: Unknown"
+        ],
+        "pico": null,
+        "needsReview": false,
+        "processedAt": "2026-02-24T10:38:59.179Z"
+      },
+      {
+        "nctId": "NCT00300690",
+        "title": "Choice of Material for Above-Knee Femoro-Popliteal Bypass Prosthetic Graft (PopUp)",
+        "briefSummary": null,
+        "status": "COMPLETED",
+        "startDate": "1993-10-31",
+        "completionDate": "1999-01-31",
+        "studyType": "INTERVENTIONAL",
+        "phases": [
+          "PHASE4"
+        ],
+        "enrollment": 400,
+        "allocation": "RANDOMIZED",
+        "primaryPurpose": "TREATMENT",
+        "source": "aact",
+        "retrievedAt": "2026-02-24T10:38:58.163Z",
+        "isDuplicate": false,
+        "classification": "exclude",
+        "relevanceScore": 0,
+        "relevanceReasons": [
+          "Missing required keywords",
+          "Study design may not meet criteria: Unknown"
+        ],
+        "pico": null,
+        "needsReview": false,
+        "processedAt": "2026-02-24T10:38:59.199Z"
+      },
+      {
+        "nctId": "NCT00304837",
+        "title": "VEGF Gene Transfer for Critical Limb Ischemia",
+        "briefSummary": null,
+        "status": "COMPLETED",
+        "startDate": null,
+        "completionDate": "2008-04-30",
+        "studyType": "INTERVENTIONAL",
+        "phases": [
+          "PHASE1"
+        ],
+        "enrollment": null,
+        "allocation": "RANDOMIZED",
+        "primaryPurpose": null,
+        "source": "aact",
+        "retrievedAt": "2026-02-24T10:38:58.163Z",
+        "isDuplicate": false,
+        "classification": "exclude",
+        "relevanceScore": 0,
+        "relevanceReasons": [
+          "Missing required keywords",
+          "Contains 1 preferred keywords",
+          "Study design may not meet criteria: Unknown"
+        ],
+        "pico": null,
+        "needsReview": false,
+        "processedAt": "2026-02-24T10:38:59.215Z"
+      },
+      {
+        "nctId": "NCT00355537",
+        "title": "Testosterone Replacement in Diabetes With Vascular Disease (Version 2)",
+        "briefSummary": null,
+        "status": "COMPLETED",
+        "startDate": "2006-02-28",
+        "completionDate": "2009-12-31",
+        "studyType": "INTERVENTIONAL",
+        "phases": [
+          "PHASE4"
+        ],
+        "enrollment": 19,
+        "allocation": "RANDOMIZED",
+        "primaryPurpose": "TREATMENT",
+        "source": "aact",
+        "retrievedAt": "2026-02-24T10:38:58.163Z",
+        "isDuplicate": false,
+        "classification": "exclude",
+        "relevanceScore": 0,
+        "relevanceReasons": [
+          "Missing required keywords",
+          "Study design may not meet criteria: Unknown"
+        ],
+        "pico": null,
+        "needsReview": false,
+        "processedAt": "2026-02-24T10:38:59.233Z"
+      },
+      {
+        "nctId": "NCT00368797",
+        "title": "Efficacy and Safety Study of NV1FGF in Patients With Severe Peripheral Artery Occlusive Disease",
+        "briefSummary": null,
+        "status": "COMPLETED",
+        "startDate": "2002-03-31",
+        "completionDate": "2005-04-30",
+        "studyType": "INTERVENTIONAL",
+        "phases": [
+          "PHASE2"
+        ],
+        "enrollment": 125,
+        "allocation": "RANDOMIZED",
+        "primaryPurpose": "TREATMENT",
+        "source": "aact",
+        "retrievedAt": "2026-02-24T10:38:58.163Z",
+        "isDuplicate": false,
+        "classification": "exclude",
+        "relevanceScore": 0,
+        "relevanceReasons": [
+          "Missing required keywords",
+          "Study design may not meet criteria: Unknown"
+        ],
+        "pico": null,
+        "needsReview": false,
+        "processedAt": "2026-02-24T10:38:59.253Z"
+      },
+      {
+        "nctId": "NCT00371371",
+        "title": "Intra-arterial Stem Cell Therapy for Patients With Chronic Limb Ischemia (CLI)",
+        "briefSummary": null,
+        "status": "COMPLETED",
+        "startDate": "2006-09-30",
+        "completionDate": "2012-12-31",
+        "studyType": "INTERVENTIONAL",
+        "phases": [
+          "PHASE1/PHASE2"
+        ],
+        "enrollment": 160,
+        "allocation": "RANDOMIZED",
+        "primaryPurpose": "TREATMENT",
+        "source": "aact",
+        "retrievedAt": "2026-02-24T10:38:58.163Z",
+        "isDuplicate": false,
+        "classification": "exclude",
+        "relevanceScore": 0,
+        "relevanceReasons": [
+          "Missing required keywords",
+          "Study design may not meet criteria: Unknown"
+        ],
+        "pico": null,
+        "needsReview": false,
+        "processedAt": "2026-02-24T10:38:59.277Z"
+      },
+      {
+        "nctId": "NCT00388128",
+        "title": "Caffeine and Intermittent Claudication",
+        "briefSummary": null,
+        "status": "COMPLETED",
+        "startDate": "2006-09-30",
+        "completionDate": "2009-09-30",
+        "studyType": "INTERVENTIONAL",
+        "phases": [
+          "PHASE3"
+        ],
+        "enrollment": 80,
+        "allocation": "RANDOMIZED",
+        "primaryPurpose": "TREATMENT",
+        "source": "aact",
+        "retrievedAt": "2026-02-24T10:38:58.163Z",
+        "isDuplicate": false,
+        "classification": "exclude",
+        "relevanceScore": 0,
+        "relevanceReasons": [
+          "Missing required keywords",
+          "Contains 1 preferred keywords",
+          "Study design may not meet criteria: Unknown"
+        ],
+        "pico": null,
+        "needsReview": false,
+        "processedAt": "2026-02-24T10:38:59.300Z"
+      },
+      {
+        "nctId": "NCT00392509",
+        "title": "ALD-301 for Critical Limb Ischemia, Randomized Trial",
+        "briefSummary": null,
+        "status": "COMPLETED",
+        "startDate": "2006-10-31",
+        "completionDate": "2008-12-31",
+        "studyType": "INTERVENTIONAL",
+        "phases": [
+          "PHASE1/PHASE2"
+        ],
+        "enrollment": 20,
+        "allocation": "RANDOMIZED",
+        "primaryPurpose": "TREATMENT",
+        "source": "aact",
+        "retrievedAt": "2026-02-24T10:38:58.163Z",
+        "isDuplicate": false,
+        "classification": "exclude",
+        "relevanceScore": 30,
+        "relevanceReasons": [
+          "Missing required keywords",
+          "Contains 1 preferred keywords",
+          "Accepted study design: RCT"
+        ],
+        "pico": null,
+        "needsReview": true,
+        "processedAt": "2026-02-24T10:38:59.340Z"
+      },
+      {
+        "nctId": "NCT00408083",
+        "title": "Crossover Study With MultiHance vs a Comparator for Peripheral MRA",
+        "briefSummary": null,
+        "status": "COMPLETED",
+        "startDate": "2006-12-31",
+        "completionDate": "2008-12-31",
+        "studyType": "INTERVENTIONAL",
+        "phases": [
+          "PHASE3"
+        ],
+        "enrollment": 100,
+        "allocation": "RANDOMIZED",
+        "primaryPurpose": "DIAGNOSTIC",
+        "source": "aact",
+        "retrievedAt": "2026-02-24T10:38:58.163Z",
+        "isDuplicate": false,
+        "classification": "exclude",
+        "relevanceScore": 0,
+        "relevanceReasons": [
+          "Missing required keywords",
+          "Study design may not meet criteria: Unknown"
+        ],
+        "pico": null,
+        "needsReview": false,
+        "processedAt": "2026-02-24T10:38:59.455Z"
+      },
+      {
+        "nctId": "NCT00431249",
+        "title": "Effects of Cilostazol on VEGF and Oxidative Stress Biomarkers in Hemodialysis Patients With Peripheral Vascular Disease",
+        "briefSummary": null,
+        "status": "COMPLETED",
+        "startDate": "2007-02-28",
+        "completionDate": "2008-04-30",
+        "studyType": "INTERVENTIONAL",
+        "phases": [
+          "PHASE4"
+        ],
+        "enrollment": 40,
+        "allocation": "RANDOMIZED",
+        "primaryPurpose": "TREATMENT",
+        "source": "aact",
+        "retrievedAt": "2026-02-24T10:38:58.163Z",
+        "isDuplicate": false,
+        "classification": "exclude",
+        "relevanceScore": 0,
+        "relevanceReasons": [
+          "Missing required keywords",
+          "Contains 1 preferred keywords",
+          "Study design may not meet criteria: Unknown"
+        ],
+        "pico": null,
+        "needsReview": false,
+        "processedAt": "2026-02-24T10:38:59.489Z"
+      },
+      {
+        "nctId": "NCT00461630",
+        "title": "Treatment of HDL to Reduce the Incidence of Vascular Events HPS2-THRIVE",
+        "briefSummary": null,
+        "status": "COMPLETED",
+        "startDate": "2007-01-31",
+        "completionDate": "2012-10-31",
+        "studyType": "INTERVENTIONAL",
+        "phases": [
+          "PHASE3"
+        ],
+        "enrollment": 25673,
+        "allocation": "RANDOMIZED",
+        "primaryPurpose": "PREVENTION",
+        "source": "aact",
+        "retrievedAt": "2026-02-24T10:38:58.163Z",
+        "isDuplicate": false,
+        "classification": "exclude",
+        "relevanceScore": 0,
+        "relevanceReasons": [
+          "Missing required keywords",
+          "Study design may not meet criteria: Unknown"
+        ],
+        "pico": null,
+        "needsReview": false,
+        "processedAt": "2026-02-24T10:38:59.555Z"
+      },
+      {
+        "nctId": "NCT00472472",
+        "title": "Paclitaxel Coated Balloon Catheter for Prevention of Restenosis in Femoropopliteal Arteries",
+        "briefSummary": null,
+        "status": "COMPLETED",
+        "startDate": "2004-04-30",
+        "completionDate": "2007-07-31",
+        "studyType": "INTERVENTIONAL",
+        "phases": [
+          "PHASE1/PHASE2"
+        ],
+        "enrollment": 87,
+        "allocation": "RANDOMIZED",
+        "primaryPurpose": "TREATMENT",
+        "source": "aact",
+        "retrievedAt": "2026-02-24T10:38:58.163Z",
+        "isDuplicate": false,
+        "classification": "exclude",
+        "relevanceScore": 0,
+        "relevanceReasons": [
+          "Missing required keywords",
+          "Study design may not meet criteria: Unknown"
+        ],
+        "pico": null,
+        "needsReview": false,
+        "processedAt": "2026-02-24T10:38:59.649Z"
+      },
+      {
+        "nctId": "NCT00481741",
+        "title": "Study of the SafeSeal(TM) Hemostasis Patch Following Percutaneous Coronary Artery and Peripheral Vascular Interventions",
+        "briefSummary": null,
+        "status": "COMPLETED",
+        "startDate": "2007-05-31",
+        "completionDate": "2007-12-31",
+        "studyType": "INTERVENTIONAL",
+        "phases": [
+          "PHASE4"
+        ],
+        "enrollment": 150,
+        "allocation": "RANDOMIZED",
+        "primaryPurpose": "TREATMENT",
+        "source": "aact",
+        "retrievedAt": "2026-02-24T10:38:58.163Z",
+        "isDuplicate": false,
+        "classification": "exclude",
+        "relevanceScore": 0,
+        "relevanceReasons": [
+          "Missing required keywords",
+          "Study design may not meet criteria: Unknown"
+        ],
+        "pico": null,
+        "needsReview": false,
+        "processedAt": "2026-02-24T10:38:59.695Z"
+      },
+      {
+        "nctId": "NCT00504712",
+        "title": "Testosterone for Peripheral Vascular Disease",
+        "briefSummary": null,
+        "status": "COMPLETED",
+        "startDate": "2006-02-28",
+        "completionDate": "2009-12-31",
+        "studyType": "INTERVENTIONAL",
+        "phases": [
+          "PHASE4"
+        ],
+        "enrollment": 24,
+        "allocation": "RANDOMIZED",
+        "primaryPurpose": "TREATMENT",
+        "source": "aact",
+        "retrievedAt": "2026-02-24T10:38:58.163Z",
+        "isDuplicate": false,
+        "classification": "exclude",
+        "relevanceScore": 0,
+        "relevanceReasons": [
+          "Missing required keywords",
+          "Contains 1 preferred keywords",
+          "Study design may not meet criteria: Unknown"
+        ],
+        "pico": null,
+        "needsReview": false,
+        "processedAt": "2026-02-24T10:38:59.791Z"
+      },
+      {
+        "nctId": "NCT00510393",
+        "title": "Drug Eluting Stents In The Critically Ischemic Lower Leg",
+        "briefSummary": null,
+        "status": "COMPLETED",
+        "startDate": "2008-03-31",
+        "completionDate": "2010-11-30",
+        "studyType": "INTERVENTIONAL",
+        "phases": [
+          "PHASE2"
+        ],
+        "enrollment": 140,
+        "allocation": "RANDOMIZED",
+        "primaryPurpose": "TREATMENT",
+        "source": "aact",
+        "retrievedAt": "2026-02-24T10:38:58.163Z",
+        "isDuplicate": false,
+        "classification": "exclude",
+        "relevanceScore": 0,
+        "relevanceReasons": [
+          "Missing required keywords",
+          "Study design may not meet criteria: Unknown"
+        ],
+        "pico": null,
+        "needsReview": false,
+        "processedAt": "2026-02-24T10:38:59.848Z"
+      },
+      {
+        "nctId": "NCT00518401",
+        "title": "Combination Stem Cell Therapy for the Treatment of Severe Leg Ischemia",
+        "briefSummary": null,
+        "status": "COMPLETED",
+        "startDate": "2007-06-30",
+        "completionDate": "2009-10-31",
+        "studyType": "INTERVENTIONAL",
+        "phases": [
+          "PHASE1"
+        ],
+        "enrollment": 10,
+        "allocation": "RANDOMIZED",
+        "primaryPurpose": "TREATMENT",
+        "source": "aact",
+        "retrievedAt": "2026-02-24T10:38:58.163Z",
+        "isDuplicate": false,
+        "classification": "exclude",
+        "relevanceScore": 0,
+        "relevanceReasons": [
+          "Missing required keywords",
+          "Study design may not meet criteria: Unknown"
+        ],
+        "pico": null,
+        "needsReview": false,
+        "processedAt": "2026-02-24T10:38:59.911Z"
+      },
+      {
+        "nctId": "NCT00523263",
+        "title": "Dacron vs Dardik for Fem-Pop Bypass",
+        "briefSummary": null,
+        "status": "COMPLETED",
+        "startDate": "1996-01-31",
+        "completionDate": "2007-04-30",
+        "studyType": "INTERVENTIONAL",
+        "phases": [
+          "PHASE3"
+        ],
+        "enrollment": null,
+        "allocation": "RANDOMIZED",
+        "primaryPurpose": "TREATMENT",
+        "source": "aact",
+        "retrievedAt": "2026-02-24T10:38:58.163Z",
+        "isDuplicate": false,
+        "classification": "exclude",
+        "relevanceScore": 0,
+        "relevanceReasons": [
+          "Missing required keywords",
+          "Study design may not meet criteria: Unknown"
+        ],
+        "pico": null,
+        "needsReview": false,
+        "processedAt": "2026-02-24T10:38:59.981Z"
+      },
+      {
+        "nctId": "NCT00526474",
+        "title": "Trial to Assess the Effects of Vorapaxar (SCH 530348; MK-5348) in Preventing Heart Attack and Stroke in Patients With Atherosclerosis (TRA 2°P - TIMI 50) (P04737)",
+        "briefSummary": null,
+        "status": "COMPLETED",
+        "startDate": "2007-09-01",
+        "completionDate": "2011-12-01",
+        "studyType": "INTERVENTIONAL",
+        "phases": [
+          "PHASE3"
+        ],
+        "enrollment": 26449,
+        "allocation": "RANDOMIZED",
+        "primaryPurpose": "PREVENTION",
+        "source": "aact",
+        "retrievedAt": "2026-02-24T10:38:58.163Z",
+        "isDuplicate": false,
+        "classification": "exclude",
+        "relevanceScore": 0,
+        "relevanceReasons": [
+          "Missing required keywords",
+          "Study design may not meet criteria: Unknown"
+        ],
+        "pico": null,
+        "needsReview": false,
+        "processedAt": "2026-02-24T10:39:00.055Z"
+      },
+      {
+        "nctId": "NCT00537225",
+        "title": "Multifactor Risk Reduction for Optimal Management of PAD",
+        "briefSummary": null,
+        "status": "COMPLETED",
+        "startDate": "2006-09-30",
+        "completionDate": "2013-06-30",
+        "studyType": "INTERVENTIONAL",
+        "phases": [
+          "NA"
+        ],
+        "enrollment": 300,
+        "allocation": "RANDOMIZED",
+        "primaryPurpose": "TREATMENT",
+        "source": "aact",
+        "retrievedAt": "2026-02-24T10:38:58.163Z",
+        "isDuplicate": false,
+        "classification": "exclude",
+        "relevanceScore": 0,
+        "relevanceReasons": [
+          "Missing required keywords",
+          "Contains 1 preferred keywords",
+          "Study design may not meet criteria: Unknown"
+        ],
+        "pico": null,
+        "needsReview": false,
+        "processedAt": "2026-02-24T10:39:00.142Z"
+      },
+      {
+        "nctId": "NCT00566657",
+        "title": "Efficacy and Safety of XRP0038/NV1FGF in Critical Limb Ischemia Patients With Skin Lesions",
+        "briefSummary": null,
+        "status": "COMPLETED",
+        "startDate": "2007-11-30",
+        "completionDate": "2012-08-31",
+        "studyType": "INTERVENTIONAL",
+        "phases": [
+          "PHASE3"
+        ],
+        "enrollment": 525,
+        "allocation": "RANDOMIZED",
+        "primaryPurpose": "TREATMENT",
+        "source": "aact",
+        "retrievedAt": "2026-02-24T10:38:58.163Z",
+        "isDuplicate": false,
+        "classification": "exclude",
+        "relevanceScore": 0,
+        "relevanceReasons": [
+          "Missing required keywords",
+          "Contains 1 preferred keywords",
+          "Study design may not meet criteria: Unknown"
+        ],
+        "pico": null,
+        "needsReview": false,
+        "processedAt": "2026-02-24T10:39:00.223Z"
+      },
+      {
+        "nctId": "NCT00602173",
+        "title": "Bioequivalency Study of 100 mg Cilostazol Tablets Under Fasting Conditions",
+        "briefSummary": null,
+        "status": "COMPLETED",
+        "startDate": "2003-05-31",
+        "completionDate": "2003-05-31",
+        "studyType": "INTERVENTIONAL",
+        "phases": [
+          "NA"
+        ],
+        "enrollment": 32,
+        "allocation": "RANDOMIZED",
+        "primaryPurpose": "TREATMENT",
+        "source": "aact",
+        "retrievedAt": "2026-02-24T10:38:58.163Z",
+        "isDuplicate": false,
+        "classification": "exclude",
+        "relevanceScore": 0,
+        "relevanceReasons": [
+          "Missing required keywords",
+          "Study design may not meet criteria: Unknown"
+        ],
+        "pico": null,
+        "needsReview": false,
+        "processedAt": "2026-02-24T10:39:00.288Z"
+      },
+      {
+        "nctId": "NCT00611988",
+        "title": "Self-Managed Walking Improves Function",
+        "briefSummary": null,
+        "status": "COMPLETED",
+        "startDate": "2006-08-31",
+        "completionDate": "2009-09-30",
+        "studyType": "INTERVENTIONAL",
+        "phases": [
+          "PHASE2"
+        ],
+        "enrollment": 145,
+        "allocation": "RANDOMIZED",
+        "primaryPurpose": "TREATMENT",
+        "source": "aact",
+        "retrievedAt": "2026-02-24T10:38:58.163Z",
+        "isDuplicate": false,
+        "classification": "exclude",
+        "relevanceScore": 0,
+        "relevanceReasons": [
+          "Missing required keywords",
+          "Study design may not meet criteria: Unknown"
+        ],
+        "pico": null,
+        "needsReview": false,
+        "processedAt": "2026-02-24T10:39:00.413Z"
+      },
+      {
+        "nctId": "NCT00616980",
+        "title": "Injection of Autologous CD34-Positive Cells for Critical Limb Ischemia",
+        "briefSummary": null,
+        "status": "COMPLETED",
+        "startDate": "2007-12-31",
+        "completionDate": "2010-08-31",
+        "studyType": "INTERVENTIONAL",
+        "phases": [
+          "PHASE1/PHASE2"
+        ],
+        "enrollment": 28,
+        "allocation": "RANDOMIZED",
+        "primaryPurpose": "TREATMENT",
+        "source": "aact",
+        "retrievedAt": "2026-02-24T10:38:58.163Z",
+        "isDuplicate": false,
+        "classification": "exclude",
+        "relevanceScore": 0,
+        "relevanceReasons": [
+          "Missing required keywords",
+          "Contains 1 preferred keywords",
+          "Study design may not meet criteria: Unknown"
+        ],
+        "pico": null,
+        "needsReview": false,
+        "processedAt": "2026-02-24T10:39:00.480Z"
+      },
+      {
+        "nctId": "NCT00618670",
+        "title": "Home-based vs. Supervised Exercise for People With Claudication",
+        "briefSummary": null,
+        "status": "COMPLETED",
+        "startDate": "2006-09-30",
+        "completionDate": "2016-09-30",
+        "studyType": "INTERVENTIONAL",
+        "phases": [
+          "NA"
+        ],
+        "enrollment": 135,
+        "allocation": "RANDOMIZED",
+        "primaryPurpose": "TREATMENT",
+        "source": "aact",
+        "retrievedAt": "2026-02-24T10:38:58.163Z",
+        "isDuplicate": false,
+        "classification": "exclude",
+        "relevanceScore": 0,
+        "relevanceReasons": [
+          "Missing required keywords",
+          "Contains 1 preferred keywords",
+          "Study design may not meet criteria: Unknown"
+        ],
+        "pico": null,
+        "needsReview": false,
+        "processedAt": "2026-02-24T10:39:00.549Z"
+      },
+      {
+        "nctId": "NCT00640770",
+        "title": "Comparing Angioplasty and DES in the Treatment of Subjects With Ischemic Infrapopliteal Arterial Disease",
+        "briefSummary": null,
+        "status": "COMPLETED",
+        "startDate": "2008-03-31",
+        "completionDate": "2011-01-31",
+        "studyType": "INTERVENTIONAL",
+        "phases": [
+          "PHASE4"
+        ],
+        "enrollment": 200,
+        "allocation": "RANDOMIZED",
+        "primaryPurpose": "TREATMENT",
+        "source": "aact",
+        "retrievedAt": "2026-02-24T10:38:58.163Z",
+        "isDuplicate": false,
+        "classification": "exclude",
+        "relevanceScore": 0,
+        "relevanceReasons": [
+          "Missing required keywords",
+          "Study design may not meet criteria: Unknown"
+        ],
+        "pico": null,
+        "needsReview": false,
+        "processedAt": "2026-02-24T10:39:00.624Z"
+      },
+      {
+        "nctId": "NCT00651885",
+        "title": "Safety Study of UT-15C SR (Oral Treprostinil) in Patients Undergoing a Lower Limb Endovascular Procedure",
+        "briefSummary": null,
+        "status": "COMPLETED",
+        "startDate": "2008-03-31",
+        "completionDate": "2010-12-31",
+        "studyType": "INTERVENTIONAL",
+        "phases": [
+          "PHASE2"
+        ],
+        "enrollment": 7,
+        "allocation": "RANDOMIZED",
+        "primaryPurpose": "TREATMENT",
+        "source": "aact",
+        "retrievedAt": "2026-02-24T10:38:58.163Z",
+        "isDuplicate": false,
+        "classification": "exclude",
+        "relevanceScore": 0,
+        "relevanceReasons": [
+          "Missing required keywords",
+          "Study design may not meet criteria: Unknown"
+        ],
+        "pico": null,
+        "needsReview": false,
+        "processedAt": "2026-02-24T10:39:00.728Z"
+      },
+      {
+        "nctId": "NCT00652418",
+        "title": "Magnevist (SH L 451A) Intra-individual Dose Comparison Study in Magnetic Resonance Angiography",
+        "briefSummary": null,
+        "status": "COMPLETED",
+        "startDate": "2004-07-31",
+        "completionDate": "2004-10-31",
+        "studyType": "INTERVENTIONAL",
+        "phases": [
+          "PHASE2"
+        ],
+        "enrollment": 12,
+        "allocation": "RANDOMIZED",
+        "primaryPurpose": "DIAGNOSTIC",
+        "source": "aact",
+        "retrievedAt": "2026-02-24T10:38:58.163Z",
+        "isDuplicate": false,
+        "classification": "exclude",
+        "relevanceScore": 0,
+        "relevanceReasons": [
+          "Missing required keywords",
+          "Study design may not meet criteria: Unknown"
+        ],
+        "pico": null,
+        "needsReview": false,
+        "processedAt": "2026-02-24T10:39:00.830Z"
+      },
+      {
+        "nctId": "NCT00654810",
+        "title": "Exercise Rehabilitation of Younger and Older People With Claudication",
+        "briefSummary": null,
+        "status": "COMPLETED",
+        "startDate": "1994-02-28",
+        "completionDate": "2000-01-31",
+        "studyType": "INTERVENTIONAL",
+        "phases": [
+          "NA"
+        ],
+        "enrollment": 64,
+        "allocation": "RANDOMIZED",
+        "primaryPurpose": "TREATMENT",
+        "source": "aact",
+        "retrievedAt": "2026-02-24T10:38:58.163Z",
+        "isDuplicate": false,
+        "classification": "exclude",
+        "relevanceScore": 0,
+        "relevanceReasons": [
+          "Missing required keywords",
+          "Contains 1 preferred keywords",
+          "Study design may not meet criteria: Unknown"
+        ],
+        "pico": null,
+        "needsReview": false,
+        "processedAt": "2026-02-24T10:39:00.927Z"
+      },
+      {
+        "nctId": "NCT00662818",
+        "title": "Telcagepant (MK-0974) Treatment of Migraine in Participants With Stable Vascular Disease (MK-0974-034)",
+        "briefSummary": null,
+        "status": "COMPLETED",
+        "startDate": "2008-03-17",
+        "completionDate": "2009-09-02",
+        "studyType": "INTERVENTIONAL",
+        "phases": [
+          "PHASE3"
+        ],
+        "enrollment": 165,
+        "allocation": "RANDOMIZED",
+        "primaryPurpose": "TREATMENT",
+        "source": "aact",
+        "retrievedAt": "2026-02-24T10:38:58.163Z",
+        "isDuplicate": false,
+        "classification": "exclude",
+        "relevanceScore": 0,
+        "relevanceReasons": [
+          "Missing required keywords",
+          "Study design may not meet criteria: Unknown"
+        ],
+        "pico": null,
+        "needsReview": false,
+        "processedAt": "2026-02-24T10:39:01.175Z"
+      },
+      {
+        "nctId": "NCT00667290",
+        "title": "Exercise for Elderly Peripheral Revascularized Patients",
+        "briefSummary": null,
+        "status": "COMPLETED",
+        "startDate": "2000-07-31",
+        "completionDate": "2007-06-30",
+        "studyType": "INTERVENTIONAL",
+        "phases": [
+          "NA"
+        ],
+        "enrollment": 80,
+        "allocation": "RANDOMIZED",
+        "primaryPurpose": "TREATMENT",
+        "source": "aact",
+        "retrievedAt": "2026-02-24T10:38:58.163Z",
+        "isDuplicate": false,
+        "classification": "exclude",
+        "relevanceScore": 0,
+        "relevanceReasons": [
+          "Missing required keywords",
+          "Study design may not meet criteria: Unknown"
+        ],
+        "pico": null,
+        "needsReview": false,
+        "processedAt": "2026-02-24T10:39:01.291Z"
+      },
+      {
+        "nctId": "NCT00667381",
+        "title": "Femoral Arterial Access With Ultrasound Trial",
+        "briefSummary": null,
+        "status": "COMPLETED",
+        "startDate": "2008-04-30",
+        "completionDate": "2009-03-31",
+        "studyType": "INTERVENTIONAL",
+        "phases": [
+          "NA"
+        ],
+        "enrollment": 1014,
+        "allocation": "RANDOMIZED",
+        "primaryPurpose": "TREATMENT",
+        "source": "aact",
+        "retrievedAt": "2026-02-24T10:38:58.163Z",
+        "isDuplicate": false,
+        "classification": "exclude",
+        "relevanceScore": 0,
+        "relevanceReasons": [
+          "Missing required keywords",
+          "Study design may not meet criteria: Unknown"
+        ],
+        "pico": null,
+        "needsReview": false,
+        "processedAt": "2026-02-24T10:39:01.414Z"
+      },
+      {
+        "nctId": "NCT00673985",
+        "title": "Edwards Lifesciences Self-Expanding Stent Peripheral Vascular Disease Study",
+        "briefSummary": null,
+        "status": "COMPLETED",
+        "startDate": "2004-07-31",
+        "completionDate": "2010-10-31",
+        "studyType": "INTERVENTIONAL",
+        "phases": [
+          "NA"
+        ],
+        "enrollment": 246,
+        "allocation": "RANDOMIZED",
+        "primaryPurpose": "TREATMENT",
+        "source": "aact",
+        "retrievedAt": "2026-02-24T10:38:58.163Z",
+        "isDuplicate": false,
+        "classification": "exclude",
+        "relevanceScore": 0,
+        "relevanceReasons": [
+          "Missing required keywords",
+          "Contains 1 preferred keywords",
+          "Study design may not meet criteria: Unknown"
+        ],
+        "pico": null,
+        "needsReview": false,
+        "processedAt": "2026-02-24T10:39:01.537Z"
+      },
+      {
+        "nctId": "NCT00692276",
+        "title": "Investigating Superion™ In Spinal Stenosis",
+        "briefSummary": null,
+        "status": "COMPLETED",
+        "startDate": "2008-06-30",
+        "completionDate": "2017-02-28",
+        "studyType": "INTERVENTIONAL",
+        "phases": [
+          "NA"
+        ],
+        "enrollment": 391,
+        "allocation": "RANDOMIZED",
+        "primaryPurpose": "TREATMENT",
+        "source": "aact",
+        "retrievedAt": "2026-02-24T10:38:58.163Z",
+        "isDuplicate": false,
+        "classification": "exclude",
+        "relevanceScore": 0,
+        "relevanceReasons": [
+          "Missing required keywords",
+          "Study design may not meet criteria: Unknown"
+        ],
+        "pico": null,
+        "needsReview": false,
+        "processedAt": "2026-02-24T10:39:02.053Z"
+      },
+      {
+        "nctId": "NCT00693823",
+        "title": "Comparison of Prosthetic Femoropopliteal Bypass Versus Viabahn Endoprosthesis for Treatment of Symptomatic Femoral Artery Occlusive Disease",
+        "briefSummary": null,
+        "status": "COMPLETED",
+        "startDate": "2003-09-30",
+        "completionDate": "2008-01-31",
+        "studyType": "INTERVENTIONAL",
+        "phases": [
+          "NA"
+        ],
+        "enrollment": 86,
+        "allocation": "RANDOMIZED",
+        "primaryPurpose": "TREATMENT",
+        "source": "aact",
+        "retrievedAt": "2026-02-24T10:38:58.163Z",
+        "isDuplicate": false,
+        "classification": "exclude",
+        "relevanceScore": 0,
+        "relevanceReasons": [
+          "Missing required keywords",
+          "Study design may not meet criteria: Unknown"
+        ],
+        "pico": null,
+        "needsReview": false,
+        "processedAt": "2026-02-24T10:39:02.247Z"
+      },
+      {
+        "nctId": "NCT00715416",
+        "title": "PTA vs. Primary Stenting of SFA Using Self-Expandable Nitinol Stents",
+        "briefSummary": null,
+        "status": "COMPLETED",
+        "startDate": "2004-06-30",
+        "completionDate": "2008-02-29",
+        "studyType": "INTERVENTIONAL",
+        "phases": [
+          "PHASE4"
+        ],
+        "enrollment": 76,
+        "allocation": "RANDOMIZED",
+        "primaryPurpose": "TREATMENT",
+        "source": "aact",
+        "retrievedAt": "2026-02-24T10:38:58.163Z",
+        "isDuplicate": false,
+        "classification": "exclude",
+        "relevanceScore": 0,
+        "relevanceReasons": [
+          "Missing required keywords",
+          "Study design may not meet criteria: Unknown"
+        ],
+        "pico": null,
+        "needsReview": false,
+        "processedAt": "2026-02-24T10:39:02.573Z"
+      },
+      {
+        "nctId": "NCT00719355",
+        "title": "Polestriding Versus Walking for Subjects With Poor Leg Circulation",
+        "briefSummary": null,
+        "status": "COMPLETED",
+        "startDate": "2005-06-30",
+        "completionDate": "2011-05-31",
+        "studyType": "INTERVENTIONAL",
+        "phases": [
+          "PHASE2"
+        ],
+        "enrollment": 146,
+        "allocation": "RANDOMIZED",
+        "primaryPurpose": "TREATMENT",
+        "source": "aact",
+        "retrievedAt": "2026-02-24T10:38:58.163Z",
+        "isDuplicate": false,
+        "classification": "exclude",
+        "relevanceScore": 0,
+        "relevanceReasons": [
+          "Missing required keywords",
+          "Study design may not meet criteria: Unknown"
+        ],
+        "pico": null,
+        "needsReview": false,
+        "processedAt": "2026-02-24T10:39:02.758Z"
+      },
+      {
+        "nctId": "NCT01145079",
+        "title": "A New Strategy Regarding Discontinuation of Dual Antiplatelet",
+        "briefSummary": null,
+        "status": "COMPLETED",
+        "startDate": "2009-05-31",
+        "completionDate": "2012-01-31",
+        "studyType": "INTERVENTIONAL",
+        "phases": [
+          "PHASE4"
+        ],
+        "enrollment": 982,
+        "allocation": "RANDOMIZED",
+        "primaryPurpose": "TREATMENT",
+        "source": "aact",
+        "retrievedAt": "2026-02-24T10:38:58.967Z",
+        "isDuplicate": false,
+        "classification": "exclude",
+        "relevanceScore": 0,
+        "relevanceReasons": [
+          "Missing required keywords",
+          "Study design may not meet criteria: Unknown"
+        ],
+        "pico": null,
+        "needsReview": false,
+        "processedAt": "2026-02-24T10:39:03.611Z"
+      },
+      {
+        "nctId": "NCT02312102",
+        "title": "Velcade and Lenalidomide in Patients With Relapsed AML and MDS After Allogeneic Stem Cell Transplantation",
+        "briefSummary": null,
+        "status": "COMPLETED",
+        "startDate": "2015-02-28",
+        "completionDate": "2024-10-07",
+        "studyType": "INTERVENTIONAL",
+        "phases": [
+          "PHASE1"
+        ],
+        "enrollment": 22,
+        "allocation": "NA",
+        "primaryPurpose": "TREATMENT",
+        "source": "aact",
+        "retrievedAt": "2026-02-24T10:38:58.967Z",
+        "isDuplicate": false,
+        "classification": "exclude",
+        "relevanceScore": 0,
+        "relevanceReasons": [
+          "Missing required keywords",
+          "Study design may not meet criteria: Unknown"
+        ],
+        "pico": null,
+        "needsReview": false,
+        "processedAt": "2026-02-24T10:39:03.754Z"
+      },
+      {
+        "nctId": "NCT02504216",
+        "title": "Efficacy and Safety of Rivaroxaban in Reducing the Risk of Major Thrombotic Vascular Events in Subjects With Symptomatic Peripheral Artery Disease Undergoing Peripheral Revascularization Procedures of the Lower Extremities",
+        "briefSummary": null,
+        "status": "COMPLETED",
+        "startDate": "2015-08-18",
+        "completionDate": "2020-01-09",
+        "studyType": "INTERVENTIONAL",
+        "phases": [
+          "PHASE3"
+        ],
+        "enrollment": 6564,
+        "allocation": "RANDOMIZED",
+        "primaryPurpose": "PREVENTION",
+        "source": "aact",
+        "retrievedAt": "2026-02-24T10:38:58.967Z",
+        "isDuplicate": false,
+        "classification": "exclude",
+        "relevanceScore": 0,
+        "relevanceReasons": [
+          "Missing required keywords",
+          "Study design may not meet criteria: Unknown"
+        ],
+        "pico": null,
+        "needsReview": false,
+        "processedAt": "2026-02-24T10:39:03.886Z"
+      }
+    ],
+    "summary": {
+      "totalFound": 83,
+      "newPotentialInclusions": 0,
+      "newMaybes": 14,
+      "duplicatesDetected": 8,
+      "autoExcluded": 61,
+      "trialUniverseWithoutPICO": 83,
+      "trialUniverseWithPICO": 20,
+      "trialUniverseRetainedPct": 24.1
+    },
+    "trialUniverse": {
+      "decision": "PASS",
+      "withoutPICO": {
+        "totalStudies": 83,
+        "uniqueNctCount": 83,
+        "studyIds": [
+          "NCT00000614",
+          "NCT00029991",
+          "NCT00032357",
+          "NCT00041925",
+          "NCT00059657",
+          "NCT00060892",
+          "NCT00062556",
+          "NCT00068133",
+          "NCT00071266",
+          "NCT00073554",
+          "NCT00102050",
+          "NCT00106327",
+          "NCT00113009",
+          "NCT00117650",
+          "NCT00120406",
+          "NCT00134277",
+          "NCT00147979",
+          "NCT00153166",
+          "NCT00154141",
+          "NCT00163267",
+          "NCT00168467",
+          "NCT00185276",
+          "NCT00189111",
+          "NCT00189540",
+          "NCT00189618",
+          "NCT00205790",
+          "NCT00217919",
+          "NCT00222196",
+          "NCT00228384",
+          "NCT00284076",
+          "NCT00300339",
+          "NCT00300690",
+          "NCT00304837",
+          "NCT00355537",
+          "NCT00368797",
+          "NCT00371371",
+          "NCT00388128",
+          "NCT00392509",
+          "NCT00399919",
+          "NCT00403494",
+          "NCT00408083",
+          "NCT00431249",
+          "NCT00443287",
+          "NCT00461630",
+          "NCT00468000",
+          "NCT00472472",
+          "NCT00481741",
+          "NCT00497445",
+          "NCT00504712",
+          "NCT00510393",
+          "NCT00518401",
+          "NCT00523263",
+          "NCT00526474",
+          "NCT00537225",
+          "NCT00566657",
+          "NCT00602173",
+          "NCT00602407",
+          "NCT00611988",
+          "NCT00616980",
+          "NCT00618670",
+          "NCT00640770",
+          "NCT00651885",
+          "NCT00652418",
+          "NCT00654810",
+          "NCT00660634",
+          "NCT00662818",
+          "NCT00667290",
+          "NCT00667381",
+          "NCT00673985",
+          "NCT00681226",
+          "NCT00687076",
+          "NCT00692276",
+          "NCT00693823",
+          "NCT00693940",
+          "NCT00715416",
+          "NCT00719355",
+          "NCT00720577",
+          "NCT00725881",
+          "NCT00760565",
+          "NCT00762086",
+          "NCT01145079",
+          "NCT02312102",
+          "NCT02504216"
+        ],
+        "duplicateCount": 0,
+        "duplicateStudyIds": []
+      },
+      "withPICO": {
+        "totalStudies": 20,
+        "includeCount": 0,
+        "maybeCount": 20,
+        "excludeCount": 63,
+        "studyIds": [
+          "NCT00059657",
+          "NCT00106327",
+          "NCT00113009",
+          "NCT00153166",
+          "NCT00168467",
+          "NCT00189618",
+          "NCT00217919",
+          "NCT00284076",
+          "NCT00399919",
+          "NCT00403494",
+          "NCT00443287",
+          "NCT00468000",
+          "NCT00497445",
+          "NCT00660634",
+          "NCT00681226",
+          "NCT00687076",
+          "NCT00693940",
+          "NCT00720577",
+          "NCT00760565",
+          "NCT00762086"
+        ],
+        "includeStudyIds": [],
+        "maybeStudyIds": [
+          "NCT00059657",
+          "NCT00106327",
+          "NCT00113009",
+          "NCT00153166",
+          "NCT00168467",
+          "NCT00189618",
+          "NCT00217919",
+          "NCT00284076",
+          "NCT00399919",
+          "NCT00403494",
+          "NCT00443287",
+          "NCT00468000",
+          "NCT00497445",
+          "NCT00660634",
+          "NCT00681226",
+          "NCT00687076",
+          "NCT00693940",
+          "NCT00720577",
+          "NCT00760565",
+          "NCT00762086"
+        ],
+        "excludeStudyIds": [
+          "NCT00000614",
+          "NCT00029991",
+          "NCT00032357",
+          "NCT00041925",
+          "NCT00060892",
+          "NCT00062556",
+          "NCT00068133",
+          "NCT00071266",
+          "NCT00073554",
+          "NCT00102050",
+          "NCT00117650",
+          "NCT00120406",
+          "NCT00134277",
+          "NCT00147979",
+          "NCT00154141",
+          "NCT00163267",
+          "NCT00185276",
+          "NCT00189111",
+          "NCT00189540",
+          "NCT00205790",
+          "NCT00222196",
+          "NCT00228384",
+          "NCT00300339",
+          "NCT00300690",
+          "NCT00304837",
+          "NCT00355537",
+          "NCT00368797",
+          "NCT00371371",
+          "NCT00388128",
+          "NCT00392509",
+          "NCT00408083",
+          "NCT00431249",
+          "NCT00461630",
+          "NCT00472472",
+          "NCT00481741",
+          "NCT00504712",
+          "NCT00510393",
+          "NCT00518401",
+          "NCT00523263",
+          "NCT00526474",
+          "NCT00537225",
+          "NCT00566657",
+          "NCT00602173",
+          "NCT00602407",
+          "NCT00611988",
+          "NCT00616980",
+          "NCT00618670",
+          "NCT00640770",
+          "NCT00651885",
+          "NCT00652418",
+          "NCT00654810",
+          "NCT00662818",
+          "NCT00667290",
+          "NCT00667381",
+          "NCT00673985",
+          "NCT00692276",
+          "NCT00693823",
+          "NCT00715416",
+          "NCT00719355",
+          "NCT00725881",
+          "NCT01145079",
+          "NCT02312102",
+          "NCT02504216"
+        ]
+      },
+      "comparison": {
+        "removedByPICO": 63,
+        "retainedPct": 24.1,
+        "excludedPct": 75.9
+      }
+    },
+    "landmarkCoverage": {
+      "decision": "PASS",
+      "guidelineProfile": "cardiology",
+      "overallCoveragePct": 100,
+      "totalExpected": 3,
+      "totalFound": 3,
+      "minCoveragePct": 70,
+      "areas": {
+        "peripheral_arterial_disease": {
+          "expected": 3,
+          "found": 3,
+          "missing": 0,
+          "coveragePct": 100,
+          "foundNctIds": [
+            "NCT02504216",
+            "NCT01145079",
+            "NCT02312102"
+          ],
+          "missingNctIds": []
+        }
+      }
+    },
+    "robustness": {
+      "decision": "PASS",
+      "score": 100,
+      "metrics": {
+        "aactIncrementalNctCount": 83,
+        "knownGapRecovered": 0,
+        "knownGapRecoveryPct": 0,
+        "landmarkCoveragePct": 100,
+        "picoRetentionPct": 24.1,
+        "trialUniverseCount": 83
+      },
+      "checks": [
+        {
+          "id": "source_coverage",
+          "label": "Required source coverage",
+          "pass": true,
+          "value": 1
+        },
+        {
+          "id": "ctgov_strategy_depth",
+          "label": "CT.gov strategy depth",
+          "pass": true,
+          "value": 0
+        },
+        {
+          "id": "ctgov_error_free",
+          "label": "CT.gov execution without errors",
+          "pass": true,
+          "value": 1
+        },
+        {
+          "id": "aact_available",
+          "label": "AACT availability",
+          "pass": true,
+          "value": 1
+        },
+        {
+          "id": "aact_incremental_capture",
+          "label": "AACT incremental capture over CT.gov",
+          "pass": true,
+          "value": 83
+        },
+        {
+          "id": "landmark_coverage",
+          "label": "ESC landmark coverage",
+          "pass": true,
+          "value": 100
+        },
+        {
+          "id": "trial_universe_pico",
+          "label": "Trial universe with and without PICO",
+          "pass": true,
+          "value": 24.1
+        }
+      ],
+      "actionItems": []
+    }
+  }
+}

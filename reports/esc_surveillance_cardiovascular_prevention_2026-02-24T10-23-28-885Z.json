@@ -1,0 +1,1538 @@
+{
+  "generatedAt": "2026-02-24T10:24:35.289Z",
+  "areaKey": "cardiovascular_prevention",
+  "guidelineProfile": "cardiology",
+  "strategy": {
+    "id": "strat_1771928671453_dqdjal4rq",
+    "name": "ESC cardiovascular_prevention surveillance",
+    "created": "2026-02-24T10:24:31.454Z",
+    "lastRun": null,
+    "guidelineProfile": "cardiology",
+    "sources": [
+      "aact"
+    ],
+    "searchObjective": "balanced",
+    "queries": {
+      "pubmed": null,
+      "ctgov": null,
+      "embase": null,
+      "cochrane": null,
+      "aact": {
+        "guidelineProfile": "cardiology",
+        "guidelineArea": "cardiovascular_prevention",
+        "condition": "primary prevention",
+        "useAreaTerms": false,
+        "completedOnly": true,
+        "status": [
+          "COMPLETED"
+        ],
+        "maxResults": 80
+      }
+    },
+    "ctgovStrategy": {
+      "mode": "single",
+      "primaryStrategyId": "S3",
+      "strategyIds": [
+        "S3"
+      ],
+      "strategyEvidence": [
+        {
+          "strategyId": "S3",
+          "preset": "Randomized Allocation Only",
+          "meanRecallPct": 99,
+          "minRecallPct": 85.7,
+          "retentionPct": 54
+        },
+        {
+          "strategyId": "S6",
+          "preset": "Completed Status",
+          "meanRecallPct": 85.4,
+          "minRecallPct": 50,
+          "retentionPct": 55
+        },
+        {
+          "strategyId": "S10",
+          "preset": "Treatment RCTs Only",
+          "meanRecallPct": 84.8,
+          "minRecallPct": 0,
+          "retentionPct": 36
+        }
+      ],
+      "strategyRationale": [
+        "Objective \"balanced\" selected default strategy bundle."
+      ],
+      "includeStatusFilter": true
+    },
+    "infrastructure": {
+      "aactGatewayUrl": "http://127.0.0.1:8787/aact/query",
+      "embaseApiKey": null
+    },
+    "filters": {
+      "dateRange": {
+        "from": null,
+        "to": null
+      },
+      "studyTypes": [
+        "RCT"
+      ],
+      "languages": [
+        "en"
+      ],
+      "humans": true,
+      "ctgovStatuses": [
+        "COMPLETED",
+        "ACTIVE_NOT_RECRUITING",
+        "RECRUITING"
+      ]
+    },
+    "inclusionCriteria": {
+      "requiredKeywords": [
+        "primary prevention",
+        "secondary prevention"
+      ],
+      "preferredKeywords": [
+        "cardiovascular prevention",
+        "lipid lowering",
+        "blood pressure control",
+        "preventive cardiology",
+        "randomized",
+        "trial",
+        "double blind"
+      ],
+      "exclusionKeywords": [
+        "protocol",
+        "retrospective",
+        "animal",
+        "in vitro"
+      ],
+      "acceptedDesigns": [
+        "RCT",
+        "Observational"
+      ]
+    },
+    "qualityTargets": {
+      "minCtgovRecallPct": 90,
+      "requireAACTForFinalReview": true,
+      "requireAACTIncrementalCapture": false,
+      "minAACTIncrementalNcts": 1,
+      "enforceLandmarkCoverage": true,
+      "minLandmarkCoveragePct": 70,
+      "landmarkGuidelineAreas": [
+        "cardiovascular_prevention"
+      ],
+      "minSourcesForHighConfidence": 2
+    },
+    "schedule": {
+      "enabled": false,
+      "interval": "weekly",
+      "lastCheck": null,
+      "nextCheck": null
+    },
+    "stats": {
+      "totalRuns": 0,
+      "totalFound": 0,
+      "totalIncluded": 0,
+      "totalExcluded": 0
+    }
+  },
+  "results": {
+    "timestamp": "2026-02-24T10:24:31.454Z",
+    "strategyId": "strat_1771928671453_dqdjal4rq",
+    "guidelineProfile": "cardiology",
+    "sources": {
+      "aact": {
+        "count": 37,
+        "retrieved": 37,
+        "requiresGateway": false,
+        "error": null,
+        "guidelineProfile": "cardiology",
+        "termsUsed": [
+          "primary prevention"
+        ],
+        "nctIds": [
+          "NCT00145782",
+          "NCT00213590",
+          "NCT00456911",
+          "NCT00947310",
+          "NCT01122706",
+          "NCT01263522",
+          "NCT01882998",
+          "NCT01930149",
+          "NCT02132494",
+          "NCT02461238",
+          "NCT02556112",
+          "NCT02653586",
+          "NCT03216018",
+          "NCT03234322",
+          "NCT03254979",
+          "NCT03316911",
+          "NCT03397849",
+          "NCT03540277",
+          "NCT03715426",
+          "NCT03927196",
+          "NCT04114864",
+          "NCT04450888",
+          "NCT05260645",
+          "NCT05267171",
+          "NCT05645640",
+          "NCT06127732",
+          "NCT00000479",
+          "NCT00000500",
+          "NCT00000506",
+          "NCT00000542",
+          "NCT00206882",
+          "NCT00501059",
+          "NCT00501098",
+          "NCT00968708",
+          "NCT01663402",
+          "NCT01764633",
+          "NCT02110537"
+        ],
+        "landmarkVerification": {
+          "requested": 11,
+          "found": 11,
+          "coveragePct": 100,
+          "missingNctIds": []
+        },
+        "gatewayUrl": "http://127.0.0.1:8787/aact/query"
+      }
+    },
+    "newStudies": [
+      {
+        "nctId": "NCT03254979",
+        "title": "Optimizing the Primary Prevention of Type-2 Diabetes in Primary Health Care",
+        "briefSummary": null,
+        "status": "COMPLETED",
+        "startDate": "2017-03-15",
+        "completionDate": "2019-12-30",
+        "studyType": "INTERVENTIONAL",
+        "phases": [
+          "NA"
+        ],
+        "enrollment": 432,
+        "allocation": "RANDOMIZED",
+        "primaryPurpose": "HEALTH_SERVICES_RESEARCH",
+        "source": "aact",
+        "retrievedAt": "2026-02-24T10:24:33.114Z",
+        "isDuplicate": false,
+        "classification": "maybe",
+        "relevanceScore": 45,
+        "relevanceReasons": [
+          "Contains 1 required keywords",
+          "Study design may not meet criteria: Unknown"
+        ],
+        "pico": {
+          "population": {
+            "text": "DIABETES",
+            "confidence": 0.9,
+            "type": "condition",
+            "details": [
+              {
+                "text": "DIABETES",
+                "type": "condition",
+                "confidence": 0.9
+              }
+            ]
+          },
+          "intervention": {
+            "text": null,
+            "confidence": 0,
+            "details": []
+          },
+          "comparator": {
+            "text": null,
+            "confidence": 0,
+            "details": []
+          },
+          "outcomes": [],
+          "studyDesign": {
+            "type": "Unknown",
+            "confidence": 0.3
+          },
+          "sampleSize": null,
+          "followUp": null,
+          "setting": []
+        },
+        "needsReview": true,
+        "processedAt": "2026-02-24T10:24:34.366Z"
+      },
+      {
+        "nctId": "NCT03927196",
+        "title": "Primary Prevention Program",
+        "briefSummary": null,
+        "status": "COMPLETED",
+        "startDate": "2018-06-21",
+        "completionDate": "2019-08-28",
+        "studyType": "INTERVENTIONAL",
+        "phases": [
+          "NA"
+        ],
+        "enrollment": 2912,
+        "allocation": "RANDOMIZED",
+        "primaryPurpose": "PREVENTION",
+        "source": "aact",
+        "retrievedAt": "2026-02-24T10:24:33.114Z",
+        "isDuplicate": false,
+        "classification": "maybe",
+        "relevanceScore": 45,
+        "relevanceReasons": [
+          "Contains 1 required keywords",
+          "Study design may not meet criteria: Unknown"
+        ],
+        "pico": {
+          "population": {
+            "text": null,
+            "confidence": 0,
+            "details": []
+          },
+          "intervention": {
+            "text": null,
+            "confidence": 0,
+            "details": []
+          },
+          "comparator": {
+            "text": null,
+            "confidence": 0,
+            "details": []
+          },
+          "outcomes": [],
+          "studyDesign": {
+            "type": "Unknown",
+            "confidence": 0.3
+          },
+          "sampleSize": null,
+          "followUp": null,
+          "setting": []
+        },
+        "needsReview": true,
+        "processedAt": "2026-02-24T10:24:34.505Z"
+      },
+      {
+        "nctId": "NCT04114864",
+        "title": "A Primary Prevention Intervention for the Promotion of Psycho-social Wellbeing in Adolescent Young Carers:",
+        "briefSummary": null,
+        "status": "COMPLETED",
+        "startDate": "2019-10-20",
+        "completionDate": "2021-06-30",
+        "studyType": "INTERVENTIONAL",
+        "phases": [
+          "PHASE1/PHASE2"
+        ],
+        "enrollment": 295,
+        "allocation": "RANDOMIZED",
+        "primaryPurpose": "PREVENTION",
+        "source": "aact",
+        "retrievedAt": "2026-02-24T10:24:33.114Z",
+        "isDuplicate": false,
+        "classification": "maybe",
+        "relevanceScore": 45,
+        "relevanceReasons": [
+          "Contains 1 required keywords",
+          "Study design may not meet criteria: Unknown"
+        ],
+        "pico": {
+          "population": {
+            "text": null,
+            "confidence": 0,
+            "details": []
+          },
+          "intervention": {
+            "text": "Intervention for the Promotion of Psycho-social Wellbeing in Adolescent Young Carers:",
+            "confidence": 0.85,
+            "type": "drug_with_dose",
+            "details": [
+              {
+                "text": "Intervention for the Promotion of Psycho-social Wellbeing in Adolescent Young Carers:",
+                "type": "drug_with_dose",
+                "confidence": 0.85
+              }
+            ]
+          },
+          "comparator": {
+            "text": "the Promotion of Psycho-social Wellbeing",
+            "confidence": 0.8,
+            "type": "comparator",
+            "details": [
+              {
+                "text": "the Promotion of Psycho-social Wellbeing",
+                "type": "comparator",
+                "confidence": 0.8
+              }
+            ]
+          },
+          "outcomes": [],
+          "studyDesign": {
+            "type": "Unknown",
+            "confidence": 0.3
+          },
+          "sampleSize": null,
+          "followUp": null,
+          "setting": []
+        },
+        "needsReview": true,
+        "processedAt": "2026-02-24T10:24:34.523Z"
+      },
+      {
+        "nctId": "NCT00000479",
+        "title": "Women's Health Study (WHS): A Randomized Trial of Low-dose Aspirin and Vitamin E in the Primary Prevention of Cardiovascular Disease and Cancer",
+        "briefSummary": null,
+        "status": "COMPLETED",
+        "startDate": "1992-09-30",
+        "completionDate": "2005-02-28",
+        "studyType": "INTERVENTIONAL",
+        "phases": [
+          "PHASE3"
+        ],
+        "enrollment": 39876,
+        "allocation": "RANDOMIZED",
+        "primaryPurpose": "PREVENTION",
+        "source": "aact",
+        "retrievedAt": "2026-02-24T10:24:34.311Z",
+        "isDuplicate": false,
+        "classification": "include",
+        "relevanceScore": 90,
+        "relevanceReasons": [
+          "Contains 1 required keywords",
+          "Contains 2 preferred keywords",
+          "Accepted study design: RCT"
+        ],
+        "pico": {
+          "population": {
+            "text": "CANCER",
+            "confidence": 0.9,
+            "type": "condition",
+            "details": [
+              {
+                "text": "CANCER",
+                "type": "condition",
+                "confidence": 0.9
+              }
+            ]
+          },
+          "intervention": {
+            "text": "Aspirin",
+            "confidence": 0.9,
+            "type": "known_drug",
+            "details": [
+              {
+                "text": "Aspirin",
+                "context": "Women's Health Study (WHS): A Randomized Trial of Low-dose Aspirin and Vitamin E in the Primary Prevention of Cardiovascular Disease and Cancer",
+                "type": "known_drug",
+                "confidence": 0.9
+              }
+            ]
+          },
+          "comparator": {
+            "text": null,
+            "confidence": 0,
+            "details": []
+          },
+          "outcomes": [],
+          "studyDesign": {
+            "type": "RCT",
+            "confidence": 0.75
+          },
+          "sampleSize": null,
+          "followUp": null,
+          "setting": []
+        },
+        "needsReview": false,
+        "processedAt": "2026-02-24T10:24:34.683Z"
+      }
+    ],
+    "duplicates": [
+      {
+        "nctId": "NCT03216018",
+        "title": "Prevention Program Promoting Self Resilience, Positive Self-Image and Body Image Among Adolescents",
+        "briefSummary": null,
+        "status": "COMPLETED",
+        "startDate": "2017-06-01",
+        "completionDate": "2018-06-01",
+        "studyType": "INTERVENTIONAL",
+        "phases": [
+          "NA"
+        ],
+        "enrollment": 200,
+        "allocation": "RANDOMIZED",
+        "primaryPurpose": "PREVENTION",
+        "source": "aact",
+        "retrievedAt": "2026-02-24T10:24:33.114Z",
+        "isDuplicate": true,
+        "duplicateOf": {
+          "index": 11,
+          "title": "Prevention Program Promoting Self Resilience,Positive Self-Image and Body Image Among Adolescence Aged 15-17"
+        }
+      },
+      {
+        "nctId": "NCT03540277",
+        "title": "Prevention Program- Promoting Self Resilience, Positive Self-Image and Body Image Among Adolescents and Their Parents",
+        "briefSummary": null,
+        "status": "COMPLETED",
+        "startDate": "2018-11-01",
+        "completionDate": "2021-12-01",
+        "studyType": "INTERVENTIONAL",
+        "phases": [
+          "NA"
+        ],
+        "enrollment": 420,
+        "allocation": "RANDOMIZED",
+        "primaryPurpose": "PREVENTION",
+        "source": "aact",
+        "retrievedAt": "2026-02-24T10:24:33.114Z",
+        "isDuplicate": true,
+        "duplicateOf": {
+          "index": 11,
+          "title": "Prevention Program Promoting Self Resilience,Positive Self-Image and Body Image Among Adolescence Aged 15-17"
+        }
+      }
+    ],
+    "excluded": [
+      {
+        "nctId": "NCT00145782",
+        "title": "The Ebeltoft Health Promotion Project",
+        "briefSummary": null,
+        "status": "COMPLETED",
+        "startDate": "1991-09-30",
+        "completionDate": "1999-12-31",
+        "studyType": "INTERVENTIONAL",
+        "phases": [
+          "PHASE3"
+        ],
+        "enrollment": null,
+        "allocation": "RANDOMIZED",
+        "primaryPurpose": "PREVENTION",
+        "source": "aact",
+        "retrievedAt": "2026-02-24T10:24:33.114Z",
+        "isDuplicate": false,
+        "classification": "exclude",
+        "relevanceScore": 0,
+        "relevanceReasons": [
+          "Missing required keywords",
+          "Study design may not meet criteria: Unknown"
+        ],
+        "pico": null,
+        "needsReview": false,
+        "processedAt": "2026-02-24T10:24:34.311Z"
+      },
+      {
+        "nctId": "NCT00213590",
+        "title": "Renal Function Evaluation After Reduction of Cyclosporine A Dose in Renal Transplant Patients",
+        "briefSummary": null,
+        "status": "COMPLETED",
+        "startDate": "2000-04-30",
+        "completionDate": "2006-11-30",
+        "studyType": "INTERVENTIONAL",
+        "phases": [
+          "PHASE3"
+        ],
+        "enrollment": 208,
+        "allocation": "RANDOMIZED",
+        "primaryPurpose": "TREATMENT",
+        "source": "aact",
+        "retrievedAt": "2026-02-24T10:24:33.114Z",
+        "isDuplicate": false,
+        "classification": "exclude",
+        "relevanceScore": 0,
+        "relevanceReasons": [
+          "Missing required keywords",
+          "Study design may not meet criteria: Unknown"
+        ],
+        "pico": null,
+        "needsReview": false,
+        "processedAt": "2026-02-24T10:24:34.311Z"
+      },
+      {
+        "nctId": "NCT00456911",
+        "title": "Family Dietary Coaching to Improve Nutritional Intakes and Body Weight Control",
+        "briefSummary": null,
+        "status": "COMPLETED",
+        "startDate": "2005-03-31",
+        "completionDate": "2006-07-31",
+        "studyType": "INTERVENTIONAL",
+        "phases": [
+          "NA"
+        ],
+        "enrollment": 2020,
+        "allocation": "RANDOMIZED",
+        "primaryPurpose": null,
+        "source": "aact",
+        "retrievedAt": "2026-02-24T10:24:33.114Z",
+        "isDuplicate": false,
+        "classification": "exclude",
+        "relevanceScore": 0,
+        "relevanceReasons": [
+          "Missing required keywords",
+          "Study design may not meet criteria: Unknown"
+        ],
+        "pico": null,
+        "needsReview": false,
+        "processedAt": "2026-02-24T10:24:34.311Z"
+      },
+      {
+        "nctId": "NCT00947310",
+        "title": "Multicenter Automatic Defibrillator Implantation Trial - Reduce Inappropriate Therapy",
+        "briefSummary": null,
+        "status": "COMPLETED",
+        "startDate": "2009-09-30",
+        "completionDate": "2012-12-31",
+        "studyType": "INTERVENTIONAL",
+        "phases": [
+          "NA"
+        ],
+        "enrollment": 1500,
+        "allocation": "RANDOMIZED",
+        "primaryPurpose": "TREATMENT",
+        "source": "aact",
+        "retrievedAt": "2026-02-24T10:24:33.114Z",
+        "isDuplicate": false,
+        "classification": "exclude",
+        "relevanceScore": 0,
+        "relevanceReasons": [
+          "Missing required keywords",
+          "Contains 1 preferred keywords",
+          "Study design may not meet criteria: Unknown"
+        ],
+        "pico": null,
+        "needsReview": false,
+        "processedAt": "2026-02-24T10:24:34.312Z"
+      },
+      {
+        "nctId": "NCT01122706",
+        "title": "Efficacy of Taiji Training as a Program for Stress Prevention",
+        "briefSummary": null,
+        "status": "COMPLETED",
+        "startDate": "2010-07-31",
+        "completionDate": "2011-06-30",
+        "studyType": "INTERVENTIONAL",
+        "phases": [
+          "NA"
+        ],
+        "enrollment": 70,
+        "allocation": "RANDOMIZED",
+        "primaryPurpose": "PREVENTION",
+        "source": "aact",
+        "retrievedAt": "2026-02-24T10:24:33.114Z",
+        "isDuplicate": false,
+        "classification": "exclude",
+        "relevanceScore": 0,
+        "relevanceReasons": [
+          "Missing required keywords",
+          "Study design may not meet criteria: Unknown"
+        ],
+        "pico": null,
+        "needsReview": false,
+        "processedAt": "2026-02-24T10:24:34.312Z"
+      },
+      {
+        "nctId": "NCT01263522",
+        "title": "Optimization of Preventive Effects of Physical Training",
+        "briefSummary": null,
+        "status": "COMPLETED",
+        "startDate": "2010-12-31",
+        "completionDate": "2013-12-31",
+        "studyType": "INTERVENTIONAL",
+        "phases": [
+          "NA"
+        ],
+        "enrollment": 266,
+        "allocation": "RANDOMIZED",
+        "primaryPurpose": "PREVENTION",
+        "source": "aact",
+        "retrievedAt": "2026-02-24T10:24:33.114Z",
+        "isDuplicate": false,
+        "classification": "exclude",
+        "relevanceScore": 0,
+        "relevanceReasons": [
+          "Missing required keywords",
+          "Study design may not meet criteria: Unknown"
+        ],
+        "pico": null,
+        "needsReview": false,
+        "processedAt": "2026-02-24T10:24:34.312Z"
+      },
+      {
+        "nctId": "NCT01882998",
+        "title": "Primary HIV Prevention in Pregnant and Lactating Ugandan Women",
+        "briefSummary": null,
+        "status": "COMPLETED",
+        "startDate": "2013-02-28",
+        "completionDate": "2016-05-31",
+        "studyType": "INTERVENTIONAL",
+        "phases": [
+          "NA"
+        ],
+        "enrollment": 1230,
+        "allocation": "RANDOMIZED",
+        "primaryPurpose": "PREVENTION",
+        "source": "aact",
+        "retrievedAt": "2026-02-24T10:24:33.114Z",
+        "isDuplicate": false,
+        "classification": "exclude",
+        "relevanceScore": 0,
+        "relevanceReasons": [
+          "Missing required keywords",
+          "Study design may not meet criteria: Unknown"
+        ],
+        "pico": null,
+        "needsReview": false,
+        "processedAt": "2026-02-24T10:24:34.313Z"
+      },
+      {
+        "nctId": "NCT01930149",
+        "title": "Promoting Cholesterol Screening",
+        "briefSummary": null,
+        "status": "COMPLETED",
+        "startDate": "2013-12-31",
+        "completionDate": "2014-06-30",
+        "studyType": "INTERVENTIONAL",
+        "phases": [
+          "NA"
+        ],
+        "enrollment": 480,
+        "allocation": "RANDOMIZED",
+        "primaryPurpose": "PREVENTION",
+        "source": "aact",
+        "retrievedAt": "2026-02-24T10:24:33.114Z",
+        "isDuplicate": false,
+        "classification": "exclude",
+        "relevanceScore": 0,
+        "relevanceReasons": [
+          "Missing required keywords",
+          "Study design may not meet criteria: Unknown"
+        ],
+        "pico": null,
+        "needsReview": false,
+        "processedAt": "2026-02-24T10:24:34.314Z"
+      },
+      {
+        "nctId": "NCT02132494",
+        "title": "Active Smarter Kids: A Cluster-randomized Controlled Trial",
+        "briefSummary": null,
+        "status": "COMPLETED",
+        "startDate": "2014-03-31",
+        "completionDate": "2015-06-30",
+        "studyType": "INTERVENTIONAL",
+        "phases": [
+          "NA"
+        ],
+        "enrollment": 1202,
+        "allocation": "RANDOMIZED",
+        "primaryPurpose": "PREVENTION",
+        "source": "aact",
+        "retrievedAt": "2026-02-24T10:24:33.114Z",
+        "isDuplicate": false,
+        "classification": "exclude",
+        "relevanceScore": 35,
+        "relevanceReasons": [
+          "Missing required keywords",
+          "Contains 2 preferred keywords",
+          "Accepted study design: RCT"
+        ],
+        "pico": null,
+        "needsReview": true,
+        "processedAt": "2026-02-24T10:24:34.316Z"
+      },
+      {
+        "nctId": "NCT02461238",
+        "title": "Impact of Vouchers and Nutrition Education on the Consumption of Fruits and Vegetables Among Vulnerable Families (FLAM)",
+        "briefSummary": null,
+        "status": "COMPLETED",
+        "startDate": "2015-06-30",
+        "completionDate": "2017-07-31",
+        "studyType": "INTERVENTIONAL",
+        "phases": [
+          "NA"
+        ],
+        "enrollment": 92,
+        "allocation": "RANDOMIZED",
+        "primaryPurpose": "PREVENTION",
+        "source": "aact",
+        "retrievedAt": "2026-02-24T10:24:33.114Z",
+        "isDuplicate": false,
+        "classification": "exclude",
+        "relevanceScore": 0,
+        "relevanceReasons": [
+          "Missing required keywords",
+          "Study design may not meet criteria: Unknown"
+        ],
+        "pico": null,
+        "needsReview": false,
+        "processedAt": "2026-02-24T10:24:34.328Z"
+      },
+      {
+        "nctId": "NCT02556112",
+        "title": "Effectiveness of a Group Lifestyle Balance Class in a Military Population",
+        "briefSummary": null,
+        "status": "COMPLETED",
+        "startDate": "2015-08-11",
+        "completionDate": "2018-10-17",
+        "studyType": "INTERVENTIONAL",
+        "phases": [
+          "NA"
+        ],
+        "enrollment": 122,
+        "allocation": "RANDOMIZED",
+        "primaryPurpose": "PREVENTION",
+        "source": "aact",
+        "retrievedAt": "2026-02-24T10:24:33.114Z",
+        "isDuplicate": false,
+        "classification": "exclude",
+        "relevanceScore": 0,
+        "relevanceReasons": [
+          "Missing required keywords",
+          "Study design may not meet criteria: Unknown"
+        ],
+        "pico": null,
+        "needsReview": false,
+        "processedAt": "2026-02-24T10:24:34.334Z"
+      },
+      {
+        "nctId": "NCT02653586",
+        "title": "Prevention Program Promoting Self Resilience,Positive Self-Image and Body Image Among Adolescence Aged 15-17",
+        "briefSummary": null,
+        "status": "COMPLETED",
+        "startDate": "2013-05-31",
+        "completionDate": "2014-08-31",
+        "studyType": "INTERVENTIONAL",
+        "phases": [
+          "NA"
+        ],
+        "enrollment": 209,
+        "allocation": "RANDOMIZED",
+        "primaryPurpose": "PREVENTION",
+        "source": "aact",
+        "retrievedAt": "2026-02-24T10:24:33.114Z",
+        "isDuplicate": false,
+        "classification": "exclude",
+        "relevanceScore": 0,
+        "relevanceReasons": [
+          "Missing required keywords",
+          "Study design may not meet criteria: Unknown"
+        ],
+        "pico": null,
+        "needsReview": false,
+        "processedAt": "2026-02-24T10:24:34.343Z"
+      },
+      {
+        "nctId": "NCT03234322",
+        "title": "The Impact of a Diabetes Risk Prediction Model in Primary Care.",
+        "briefSummary": null,
+        "status": "COMPLETED",
+        "startDate": "2017-09-13",
+        "completionDate": "2021-02-10",
+        "studyType": "INTERVENTIONAL",
+        "phases": [
+          "NA"
+        ],
+        "enrollment": 315,
+        "allocation": "RANDOMIZED",
+        "primaryPurpose": "PREVENTION",
+        "source": "aact",
+        "retrievedAt": "2026-02-24T10:24:33.114Z",
+        "isDuplicate": false,
+        "classification": "exclude",
+        "relevanceScore": 0,
+        "relevanceReasons": [
+          "Missing required keywords",
+          "Study design may not meet criteria: Unknown"
+        ],
+        "pico": null,
+        "needsReview": false,
+        "processedAt": "2026-02-24T10:24:34.360Z"
+      },
+      {
+        "nctId": "NCT03316911",
+        "title": "A Pilot Study Testing a Life Skills Application to Address Interpersonal Relationships in College",
+        "briefSummary": null,
+        "status": "COMPLETED",
+        "startDate": "2017-10-22",
+        "completionDate": "2018-04-28",
+        "studyType": "INTERVENTIONAL",
+        "phases": [
+          "NA"
+        ],
+        "enrollment": 261,
+        "allocation": "RANDOMIZED",
+        "primaryPurpose": "PREVENTION",
+        "source": "aact",
+        "retrievedAt": "2026-02-24T10:24:33.114Z",
+        "isDuplicate": false,
+        "classification": "exclude",
+        "relevanceScore": 0,
+        "relevanceReasons": [
+          "Missing required keywords",
+          "Study design may not meet criteria: Unknown"
+        ],
+        "pico": null,
+        "needsReview": false,
+        "processedAt": "2026-02-24T10:24:34.404Z"
+      },
+      {
+        "nctId": "NCT03397849",
+        "title": "Lifestyle Intervention Using Mobile Technology in Patients With High Cardiovascular Risk",
+        "briefSummary": null,
+        "status": "COMPLETED",
+        "startDate": "2018-02-01",
+        "completionDate": "2020-03-01",
+        "studyType": "INTERVENTIONAL",
+        "phases": [
+          "NA"
+        ],
+        "enrollment": 320,
+        "allocation": "RANDOMIZED",
+        "primaryPurpose": "PREVENTION",
+        "source": "aact",
+        "retrievedAt": "2026-02-24T10:24:33.114Z",
+        "isDuplicate": false,
+        "classification": "exclude",
+        "relevanceScore": 0,
+        "relevanceReasons": [
+          "Missing required keywords",
+          "Study design may not meet criteria: Unknown"
+        ],
+        "pico": null,
+        "needsReview": false,
+        "processedAt": "2026-02-24T10:24:34.417Z"
+      },
+      {
+        "nctId": "NCT03715426",
+        "title": "Testing a Life Skills Application to Address Interpersonal Relationships in College (MKit)",
+        "briefSummary": null,
+        "status": "COMPLETED",
+        "startDate": "2018-10-21",
+        "completionDate": "2019-04-18",
+        "studyType": "INTERVENTIONAL",
+        "phases": [
+          "NA"
+        ],
+        "enrollment": 250,
+        "allocation": "RANDOMIZED",
+        "primaryPurpose": "PREVENTION",
+        "source": "aact",
+        "retrievedAt": "2026-02-24T10:24:33.114Z",
+        "isDuplicate": false,
+        "classification": "exclude",
+        "relevanceScore": 0,
+        "relevanceReasons": [
+          "Missing required keywords",
+          "Study design may not meet criteria: Unknown"
+        ],
+        "pico": null,
+        "needsReview": false,
+        "processedAt": "2026-02-24T10:24:34.476Z"
+      },
+      {
+        "nctId": "NCT04450888",
+        "title": "Effects of Message Framing and Time Discounting on Health Communication for Optimum Cardiovascular Disease and Stroke Prevention",
+        "briefSummary": null,
+        "status": "COMPLETED",
+        "startDate": "2020-07-01",
+        "completionDate": "2022-01-22",
+        "studyType": "INTERVENTIONAL",
+        "phases": [
+          "NA"
+        ],
+        "enrollment": 13114,
+        "allocation": "RANDOMIZED",
+        "primaryPurpose": "PREVENTION",
+        "source": "aact",
+        "retrievedAt": "2026-02-24T10:24:33.114Z",
+        "isDuplicate": false,
+        "classification": "exclude",
+        "relevanceScore": 0,
+        "relevanceReasons": [
+          "Missing required keywords",
+          "Study design may not meet criteria: Unknown"
+        ],
+        "pico": null,
+        "needsReview": false,
+        "processedAt": "2026-02-24T10:24:34.536Z"
+      },
+      {
+        "nctId": "NCT05260645",
+        "title": "Prevention of Neck Pain in Adults With a Back School-Based Intervention.",
+        "briefSummary": null,
+        "status": "COMPLETED",
+        "startDate": "2022-03-14",
+        "completionDate": "2023-05-05",
+        "studyType": "INTERVENTIONAL",
+        "phases": [
+          "NA"
+        ],
+        "enrollment": 57,
+        "allocation": "RANDOMIZED",
+        "primaryPurpose": "PREVENTION",
+        "source": "aact",
+        "retrievedAt": "2026-02-24T10:24:33.114Z",
+        "isDuplicate": false,
+        "classification": "exclude",
+        "relevanceScore": 0,
+        "relevanceReasons": [
+          "Missing required keywords",
+          "Study design may not meet criteria: Unknown"
+        ],
+        "pico": null,
+        "needsReview": false,
+        "processedAt": "2026-02-24T10:24:34.554Z"
+      },
+      {
+        "nctId": "NCT05267171",
+        "title": "Project Breast47: Effect of an Educational Intervention",
+        "briefSummary": null,
+        "status": "COMPLETED",
+        "startDate": "2022-01-15",
+        "completionDate": "2022-06-26",
+        "studyType": "INTERVENTIONAL",
+        "phases": [
+          "NA"
+        ],
+        "enrollment": 451,
+        "allocation": "RANDOMIZED",
+        "primaryPurpose": "PREVENTION",
+        "source": "aact",
+        "retrievedAt": "2026-02-24T10:24:33.114Z",
+        "isDuplicate": false,
+        "classification": "exclude",
+        "relevanceScore": 0,
+        "relevanceReasons": [
+          "Missing required keywords",
+          "Study design may not meet criteria: Unknown"
+        ],
+        "pico": null,
+        "needsReview": false,
+        "processedAt": "2026-02-24T10:24:34.572Z"
+      },
+      {
+        "nctId": "NCT05645640",
+        "title": "Strategy for Cardiovascular Disease Prevention Through Tailored Health Management in Individuals With Elevated Risk",
+        "briefSummary": null,
+        "status": "COMPLETED",
+        "startDate": "2023-03-16",
+        "completionDate": "2024-05-16",
+        "studyType": "INTERVENTIONAL",
+        "phases": [
+          "NA"
+        ],
+        "enrollment": 4533,
+        "allocation": "RANDOMIZED",
+        "primaryPurpose": "PREVENTION",
+        "source": "aact",
+        "retrievedAt": "2026-02-24T10:24:33.114Z",
+        "isDuplicate": false,
+        "classification": "exclude",
+        "relevanceScore": 0,
+        "relevanceReasons": [
+          "Missing required keywords",
+          "Study design may not meet criteria: Unknown"
+        ],
+        "pico": null,
+        "needsReview": false,
+        "processedAt": "2026-02-24T10:24:34.608Z"
+      },
+      {
+        "nctId": "NCT06127732",
+        "title": "Phytosterol Supplementation and Lipoprotein Subfractions",
+        "briefSummary": null,
+        "status": "COMPLETED",
+        "startDate": "2017-05-01",
+        "completionDate": "2022-01-10",
+        "studyType": "INTERVENTIONAL",
+        "phases": [
+          "NA"
+        ],
+        "enrollment": 23,
+        "allocation": "RANDOMIZED",
+        "primaryPurpose": "TREATMENT",
+        "source": "aact",
+        "retrievedAt": "2026-02-24T10:24:33.114Z",
+        "isDuplicate": false,
+        "classification": "exclude",
+        "relevanceScore": 0,
+        "relevanceReasons": [
+          "Missing required keywords",
+          "Study design may not meet criteria: Unknown"
+        ],
+        "pico": null,
+        "needsReview": false,
+        "processedAt": "2026-02-24T10:24:34.638Z"
+      },
+      {
+        "nctId": "NCT00000500",
+        "title": "Physicians' Health Study",
+        "briefSummary": null,
+        "status": "COMPLETED",
+        "startDate": "1981-09-30",
+        "completionDate": "1996-12-31",
+        "studyType": "INTERVENTIONAL",
+        "phases": [
+          "PHASE3"
+        ],
+        "enrollment": null,
+        "allocation": "RANDOMIZED",
+        "primaryPurpose": "PREVENTION",
+        "source": "aact",
+        "retrievedAt": "2026-02-24T10:24:34.311Z",
+        "isDuplicate": false,
+        "classification": "exclude",
+        "relevanceScore": 0,
+        "relevanceReasons": [
+          "Missing required keywords",
+          "Study design may not meet criteria: Unknown"
+        ],
+        "pico": null,
+        "needsReview": false,
+        "processedAt": "2026-02-24T10:24:34.742Z"
+      },
+      {
+        "nctId": "NCT00000506",
+        "title": "Cardiovascular System in Obesity: Effect of Treatment",
+        "briefSummary": null,
+        "status": "COMPLETED",
+        "startDate": "1983-05-31",
+        "completionDate": "1988-04-30",
+        "studyType": "INTERVENTIONAL",
+        "phases": [
+          "PHASE2"
+        ],
+        "enrollment": null,
+        "allocation": "RANDOMIZED",
+        "primaryPurpose": "TREATMENT",
+        "source": "aact",
+        "retrievedAt": "2026-02-24T10:24:34.311Z",
+        "isDuplicate": false,
+        "classification": "exclude",
+        "relevanceScore": 0,
+        "relevanceReasons": [
+          "Missing required keywords",
+          "Study design may not meet criteria: Unknown"
+        ],
+        "pico": null,
+        "needsReview": false,
+        "processedAt": "2026-02-24T10:24:34.769Z"
+      },
+      {
+        "nctId": "NCT00000542",
+        "title": "Antihypertensive and Lipid-Lowering Treatment to Prevent Heart Attack Trial (ALLHAT)",
+        "briefSummary": null,
+        "status": "COMPLETED",
+        "startDate": "1993-08-31",
+        "completionDate": "2002-03-31",
+        "studyType": "INTERVENTIONAL",
+        "phases": [
+          "PHASE3"
+        ],
+        "enrollment": null,
+        "allocation": "RANDOMIZED",
+        "primaryPurpose": "PREVENTION",
+        "source": "aact",
+        "retrievedAt": "2026-02-24T10:24:34.311Z",
+        "isDuplicate": false,
+        "classification": "exclude",
+        "relevanceScore": 0,
+        "relevanceReasons": [
+          "Missing required keywords",
+          "Contains 1 preferred keywords",
+          "Study design may not meet criteria: Unknown"
+        ],
+        "pico": null,
+        "needsReview": false,
+        "processedAt": "2026-02-24T10:24:34.820Z"
+      },
+      {
+        "nctId": "NCT00206882",
+        "title": "The Sun Protection Effect and Efficacy in Treatment of Sunburn Using Topical Corticosteroids.",
+        "briefSummary": null,
+        "status": "UNKNOWN",
+        "startDate": "2005-09-30",
+        "completionDate": null,
+        "studyType": "INTERVENTIONAL",
+        "phases": [
+          "NA"
+        ],
+        "enrollment": 20,
+        "allocation": "RANDOMIZED",
+        "primaryPurpose": "TREATMENT",
+        "source": "aact",
+        "retrievedAt": "2026-02-24T10:24:34.311Z",
+        "isDuplicate": false,
+        "classification": "exclude",
+        "relevanceScore": 0,
+        "relevanceReasons": [
+          "Missing required keywords",
+          "Study design may not meet criteria: Unknown"
+        ],
+        "pico": null,
+        "needsReview": false,
+        "processedAt": "2026-02-24T10:24:34.847Z"
+      },
+      {
+        "nctId": "NCT00501059",
+        "title": "A Study to Assess the Efficacy and Safety of Enteric-Coated Acetylsalicylic Acid in Patients at Moderate Risk of Cardiovascular Disease",
+        "briefSummary": null,
+        "status": "COMPLETED",
+        "startDate": "2007-07-05",
+        "completionDate": "2016-11-15",
+        "studyType": "INTERVENTIONAL",
+        "phases": [
+          "PHASE3"
+        ],
+        "enrollment": 12546,
+        "allocation": "RANDOMIZED",
+        "primaryPurpose": "PREVENTION",
+        "source": "aact",
+        "retrievedAt": "2026-02-24T10:24:34.311Z",
+        "isDuplicate": false,
+        "classification": "exclude",
+        "relevanceScore": 0,
+        "relevanceReasons": [
+          "Missing required keywords",
+          "Study design may not meet criteria: Unknown"
+        ],
+        "pico": null,
+        "needsReview": false,
+        "processedAt": "2026-02-24T10:24:34.903Z"
+      },
+      {
+        "nctId": "NCT00501098",
+        "title": "Prophylaxis of Fungal Invasive Infections in Leukemia",
+        "briefSummary": null,
+        "status": "COMPLETED",
+        "startDate": "2007-01-31",
+        "completionDate": "2008-12-31",
+        "studyType": "INTERVENTIONAL",
+        "phases": [
+          "PHASE2"
+        ],
+        "enrollment": 100,
+        "allocation": "NON_RANDOMIZED",
+        "primaryPurpose": "PREVENTION",
+        "source": "aact",
+        "retrievedAt": "2026-02-24T10:24:34.311Z",
+        "isDuplicate": false,
+        "classification": "exclude",
+        "relevanceScore": 0,
+        "relevanceReasons": [
+          "Missing required keywords",
+          "Study design may not meet criteria: Unknown"
+        ],
+        "pico": null,
+        "needsReview": false,
+        "processedAt": "2026-02-24T10:24:34.960Z"
+      },
+      {
+        "nctId": "NCT00968708",
+        "title": "Cardiovascular Outcomes Study of Alogliptin in Patients With Type 2 Diabetes and Acute Coronary Syndrome",
+        "briefSummary": null,
+        "status": "COMPLETED",
+        "startDate": "2009-09-30",
+        "completionDate": "2013-06-30",
+        "studyType": "INTERVENTIONAL",
+        "phases": [
+          "PHASE3"
+        ],
+        "enrollment": 5380,
+        "allocation": "RANDOMIZED",
+        "primaryPurpose": "TREATMENT",
+        "source": "aact",
+        "retrievedAt": "2026-02-24T10:24:34.311Z",
+        "isDuplicate": false,
+        "classification": "exclude",
+        "relevanceScore": 0,
+        "relevanceReasons": [
+          "Missing required keywords",
+          "Study design may not meet criteria: Unknown"
+        ],
+        "pico": null,
+        "needsReview": false,
+        "processedAt": "2026-02-24T10:24:35.013Z"
+      },
+      {
+        "nctId": "NCT01663402",
+        "title": "ODYSSEY Outcomes: Evaluation of Cardiovascular Outcomes After an Acute Coronary Syndrome During Treatment With Alirocumab",
+        "briefSummary": null,
+        "status": "COMPLETED",
+        "startDate": "2012-10-31",
+        "completionDate": "2018-01-23",
+        "studyType": "INTERVENTIONAL",
+        "phases": [
+          "PHASE3"
+        ],
+        "enrollment": 18924,
+        "allocation": "RANDOMIZED",
+        "primaryPurpose": "PREVENTION",
+        "source": "aact",
+        "retrievedAt": "2026-02-24T10:24:34.311Z",
+        "isDuplicate": false,
+        "classification": "exclude",
+        "relevanceScore": 0,
+        "relevanceReasons": [
+          "Missing required keywords",
+          "Study design may not meet criteria: Unknown"
+        ],
+        "pico": null,
+        "needsReview": false,
+        "processedAt": "2026-02-24T10:24:35.091Z"
+      },
+      {
+        "nctId": "NCT01764633",
+        "title": "Further Cardiovascular Outcomes Research With PCSK9 Inhibition in Subjects With Elevated Risk",
+        "briefSummary": null,
+        "status": "COMPLETED",
+        "startDate": "2013-02-08",
+        "completionDate": "2016-11-11",
+        "studyType": "INTERVENTIONAL",
+        "phases": [
+          "PHASE3"
+        ],
+        "enrollment": 27564,
+        "allocation": "RANDOMIZED",
+        "primaryPurpose": "TREATMENT",
+        "source": "aact",
+        "retrievedAt": "2026-02-24T10:24:34.311Z",
+        "isDuplicate": false,
+        "classification": "exclude",
+        "relevanceScore": 0,
+        "relevanceReasons": [
+          "Missing required keywords",
+          "Study design may not meet criteria: Unknown"
+        ],
+        "pico": null,
+        "needsReview": false,
+        "processedAt": "2026-02-24T10:24:35.172Z"
+      },
+      {
+        "nctId": "NCT02110537",
+        "title": "Acupuncture in Persistent Atrial Fibrillation",
+        "briefSummary": null,
+        "status": "UNKNOWN",
+        "startDate": "2014-03-31",
+        "completionDate": "2015-07-31",
+        "studyType": "INTERVENTIONAL",
+        "phases": [
+          "NA"
+        ],
+        "enrollment": 80,
+        "allocation": "RANDOMIZED",
+        "primaryPurpose": "TREATMENT",
+        "source": "aact",
+        "retrievedAt": "2026-02-24T10:24:34.311Z",
+        "isDuplicate": false,
+        "classification": "exclude",
+        "relevanceScore": 0,
+        "relevanceReasons": [
+          "Missing required keywords",
+          "Contains 1 preferred keywords",
+          "Study design may not meet criteria: Unknown"
+        ],
+        "pico": null,
+        "needsReview": false,
+        "processedAt": "2026-02-24T10:24:35.288Z"
+      }
+    ],
+    "summary": {
+      "totalFound": 37,
+      "newPotentialInclusions": 1,
+      "newMaybes": 3,
+      "duplicatesDetected": 2,
+      "autoExcluded": 31,
+      "trialUniverseWithoutPICO": 37,
+      "trialUniverseWithPICO": 4,
+      "trialUniverseRetainedPct": 10.8
+    },
+    "trialUniverse": {
+      "decision": "PASS",
+      "withoutPICO": {
+        "totalStudies": 37,
+        "uniqueNctCount": 37,
+        "studyIds": [
+          "NCT00145782",
+          "NCT00213590",
+          "NCT00456911",
+          "NCT00947310",
+          "NCT01122706",
+          "NCT01263522",
+          "NCT01882998",
+          "NCT01930149",
+          "NCT02132494",
+          "NCT02461238",
+          "NCT02556112",
+          "NCT02653586",
+          "NCT03216018",
+          "NCT03234322",
+          "NCT03254979",
+          "NCT03316911",
+          "NCT03397849",
+          "NCT03540277",
+          "NCT03715426",
+          "NCT03927196",
+          "NCT04114864",
+          "NCT04450888",
+          "NCT05260645",
+          "NCT05267171",
+          "NCT05645640",
+          "NCT06127732",
+          "NCT00000479",
+          "NCT00000500",
+          "NCT00000506",
+          "NCT00000542",
+          "NCT00206882",
+          "NCT00501059",
+          "NCT00501098",
+          "NCT00968708",
+          "NCT01663402",
+          "NCT01764633",
+          "NCT02110537"
+        ],
+        "duplicateCount": 0,
+        "duplicateStudyIds": []
+      },
+      "withPICO": {
+        "totalStudies": 4,
+        "includeCount": 1,
+        "maybeCount": 3,
+        "excludeCount": 33,
+        "studyIds": [
+          "NCT03254979",
+          "NCT03927196",
+          "NCT04114864",
+          "NCT00000479"
+        ],
+        "includeStudyIds": [
+          "NCT00000479"
+        ],
+        "maybeStudyIds": [
+          "NCT03254979",
+          "NCT03927196",
+          "NCT04114864"
+        ],
+        "excludeStudyIds": [
+          "NCT00145782",
+          "NCT00213590",
+          "NCT00456911",
+          "NCT00947310",
+          "NCT01122706",
+          "NCT01263522",
+          "NCT01882998",
+          "NCT01930149",
+          "NCT02132494",
+          "NCT02461238",
+          "NCT02556112",
+          "NCT02653586",
+          "NCT03216018",
+          "NCT03234322",
+          "NCT03316911",
+          "NCT03397849",
+          "NCT03540277",
+          "NCT03715426",
+          "NCT04450888",
+          "NCT05260645",
+          "NCT05267171",
+          "NCT05645640",
+          "NCT06127732",
+          "NCT00000500",
+          "NCT00000506",
+          "NCT00000542",
+          "NCT00206882",
+          "NCT00501059",
+          "NCT00501098",
+          "NCT00968708",
+          "NCT01663402",
+          "NCT01764633",
+          "NCT02110537"
+        ]
+      },
+      "comparison": {
+        "removedByPICO": 33,
+        "retainedPct": 10.8,
+        "excludedPct": 89.2
+      }
+    },
+    "landmarkCoverage": {
+      "decision": "PASS",
+      "guidelineProfile": "cardiology",
+      "overallCoveragePct": 100,
+      "totalExpected": 11,
+      "totalFound": 11,
+      "minCoveragePct": 70,
+      "areas": {
+        "cardiovascular_prevention": {
+          "expected": 11,
+          "found": 11,
+          "missing": 0,
+          "coveragePct": 100,
+          "foundNctIds": [
+            "NCT00000479",
+            "NCT00000500",
+            "NCT00000506",
+            "NCT01764633",
+            "NCT01663402",
+            "NCT00501059",
+            "NCT02110537",
+            "NCT00501098",
+            "NCT00000542",
+            "NCT00206882",
+            "NCT00968708"
+          ],
+          "missingNctIds": []
+        }
+      }
+    },
+    "robustness": {
+      "decision": "PASS",
+      "score": 100,
+      "metrics": {
+        "aactIncrementalNctCount": 37,
+        "knownGapRecovered": 0,
+        "knownGapRecoveryPct": 0,
+        "landmarkCoveragePct": 100,
+        "picoRetentionPct": 10.8,
+        "trialUniverseCount": 37
+      },
+      "checks": [
+        {
+          "id": "source_coverage",
+          "label": "Required source coverage",
+          "pass": true,
+          "value": 1
+        },
+        {
+          "id": "ctgov_strategy_depth",
+          "label": "CT.gov strategy depth",
+          "pass": true,
+          "value": 0
+        },
+        {
+          "id": "ctgov_error_free",
+          "label": "CT.gov execution without errors",
+          "pass": true,
+          "value": 1
+        },
+        {
+          "id": "aact_available",
+          "label": "AACT availability",
+          "pass": true,
+          "value": 1
+        },
+        {
+          "id": "aact_incremental_capture",
+          "label": "AACT incremental capture over CT.gov",
+          "pass": true,
+          "value": 37
+        },
+        {
+          "id": "landmark_coverage",
+          "label": "ESC landmark coverage",
+          "pass": true,
+          "value": 100
+        },
+        {
+          "id": "trial_universe_pico",
+          "label": "Trial universe with and without PICO",
+          "pass": true,
+          "value": 10.8
+        }
+      ],
+      "actionItems": []
+    }
+  }
+}

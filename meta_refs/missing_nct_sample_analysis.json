@@ -1,0 +1,698 @@
+{
+  "summary": {
+    "sample_size": 40,
+    "acs_count": 2,
+    "non_acs_count": 38,
+    "errors": 0,
+    "top_conditions": [
+      [
+        "diabetes",
+        41
+      ],
+      [
+        "type",
+        34
+      ],
+      [
+        "mellitus",
+        32
+      ],
+      [
+        "insulin",
+        3
+      ],
+      [
+        "dependent",
+        3
+      ],
+      [
+        "ischemic",
+        1
+      ],
+      [
+        "heart",
+        1
+      ],
+      [
+        "disease",
+        1
+      ],
+      [
+        "liver",
+        1
+      ]
+    ],
+    "top_interventions": [
+      [
+        "metformin",
+        32
+      ],
+      [
+        "placebo",
+        15
+      ],
+      [
+        "dapagliflozin",
+        11
+      ],
+      [
+        "comparator",
+        10
+      ],
+      [
+        "glimepiride",
+        8
+      ],
+      [
+        "pioglitazone",
+        6
+      ],
+      [
+        "rosiglitazone",
+        6
+      ],
+      [
+        "glyburide",
+        4
+      ],
+      [
+        "sitagliptin",
+        4
+      ],
+      [
+        "vildagliptin",
+        4
+      ],
+      [
+        "liraglutide",
+        4
+      ],
+      [
+        "glipizide",
+        3
+      ],
+      [
+        "exenatide",
+        3
+      ],
+      [
+        "saxagliptin",
+        3
+      ],
+      [
+        "alone",
+        2
+      ]
+    ],
+    "top_acs_conditions": [
+      [
+        "ischemic",
+        1
+      ],
+      [
+        "heart",
+        1
+      ],
+      [
+        "disease",
+        1
+      ],
+      [
+        "diabetes",
+        1
+      ],
+      [
+        "mellitus",
+        1
+      ],
+      [
+        "type",
+        1
+      ]
+    ],
+    "top_acs_interventions": [
+      [
+        "aspirin",
+        1
+      ],
+      [
+        "clopidogrel",
+        1
+      ],
+      [
+        "rosiglitazone",
+        1
+      ],
+      [
+        "sulfonylurea",
+        1
+      ],
+      [
+        "metformin",
+        1
+      ]
+    ],
+    "top_nonacs_conditions": [
+      [
+        "diabetes",
+        40
+      ],
+      [
+        "type",
+        33
+      ],
+      [
+        "mellitus",
+        31
+      ],
+      [
+        "insulin",
+        3
+      ],
+      [
+        "dependent",
+        3
+      ],
+      [
+        "liver",
+        1
+      ]
+    ]
+  },
+  "sample": [
+    {
+      "nctId": "NCT00035568",
+      "title": "A Research Study to Assess the Mechanism By Which Glucovance, Metformin, and Glyburide Work To Control Glucose Levels In Patients With Type 2 Diabetes",
+      "conditions": [
+        "Diabetes Mellitus, Non-Insulin-Dependent"
+      ],
+      "interventions": [
+        "Glucovance (metformin HCl/glyburide)",
+        "or Metformin HCl alone",
+        "or Glyburide alone."
+      ],
+      "is_acs": false
+    },
+    {
+      "nctId": "NCT00086515",
+      "title": "Metformin Add-on Study in Patients With Type 2 Diabetes Mellitus (0431-020)(COMPLETED)",
+      "conditions": [
+        "Diabetes Mellitus, Type II"
+      ],
+      "interventions": [
+        "Sitagliptin (MK0431)",
+        "Placebo/Glipizide 5 mg",
+        "Metformin",
+        "Pioglitazone"
+      ],
+      "is_acs": false
+    },
+    {
+      "nctId": "NCT00094770",
+      "title": "An Investigational Drug Study in Patients With Type 2 Diabetes Mellitus (0431-024)",
+      "conditions": [
+        "Diabetes Mellitus, Type 2"
+      ],
+      "interventions": [
+        "sitagliptin (MK0431)",
+        "Comparator: glipizide"
+      ],
+      "is_acs": false
+    },
+    {
+      "nctId": "NCT00095030",
+      "title": "Study Comparing Muraglitazar With Glimepiride in Type 2 Diabetics Who Are Not Controlled With Metformin Alone",
+      "conditions": [
+        "Diabetes Mellitus, Type 2"
+      ],
+      "interventions": [
+        "muraglitazar"
+      ],
+      "is_acs": false
+    },
+    {
+      "nctId": "NCT00097500",
+      "title": "Effects of Exenatide and Insulin Glargine in Subjects With Type 2 Diabetes",
+      "conditions": [
+        "Type 2 Diabetes Mellitus"
+      ],
+      "interventions": [
+        "exenatide",
+        "Insulin glargine",
+        "Metformin"
+      ],
+      "is_acs": false
+    },
+    {
+      "nctId": "NCT00099866",
+      "title": "Efficacy and Safety of Vildagliptin Compared to Metformin in Drug Naive Patients With Type 2 Diabetes",
+      "conditions": [
+        "Diabetes Mellitus, Type 2"
+      ],
+      "interventions": [
+        "vildagliptin",
+        "Metformin Comparator"
+      ],
+      "is_acs": false
+    },
+    {
+      "nctId": "NCT00103857",
+      "title": "MK0431 (Sitagliptin) and Metformin Co-Administration Factorial Study in Patients With Type 2 Diabetes Mellitus (0431-036)",
+      "conditions": [
+        "Type 2 Diabetes Mellitus"
+      ],
+      "interventions": [
+        "Comparator: MK0431 50 mg b.i.d. (b.i.d. = twice daily)",
+        "Comparator: MK0431 100 mg q.d. (q.d. = once daily)",
+        "Comparator: Placebo (Phase A)/Metformin (Phase B)",
+        "Comparator: Metformin 500 mg b.i.d.",
+        "Comparator: Open-Label MK0431/Metformin 50/1000 mg b.i.d.",
+        "Comparator: Metformin 1000 mg b.i.d."
+      ],
+      "is_acs": false
+    },
+    {
+      "nctId": "NCT00106340",
+      "title": "Vildagliptin Compared to Glimepiride in Combination With Metformin in Patients With Type 2 Diabetes",
+      "conditions": [
+        "Diabetes Mellitus, Type 2"
+      ],
+      "interventions": [
+        "vildagliptin",
+        "glimepiride",
+        "Metformin",
+        "Vildagliptin matching placebo",
+        "Glimepiride matching placebo"
+      ],
+      "is_acs": false
+    },
+    {
+      "nctId": "NCT00133718",
+      "title": "A 2 Year Trial of Patients With Type 2 Diabetes Focusing on Cardiovascular Diagnostics and Metabolic Control",
+      "conditions": [
+        "Type 2 Diabetes Mellitus"
+      ],
+      "interventions": [
+        "Combined lifestyle intervention and optimisation of pharmacological treatment"
+      ],
+      "is_acs": false
+    },
+    {
+      "nctId": "NCT00138567",
+      "title": "Extension to a Study on the Efficacy and Safety of Vildagliptin Compared to Metformin in Drug Naive Patients With Type 2 Diabetes",
+      "conditions": [
+        "Diabetes Mellitus, Type 2"
+      ],
+      "interventions": [
+        "vildagliptin"
+      ],
+      "is_acs": false
+    },
+    {
+      "nctId": "NCT00214591",
+      "title": "GALLANT 5 Tesaglitazar Versus Metformin",
+      "conditions": [
+        "Diabetes Mellitus, Type 2"
+      ],
+      "interventions": [
+        "GALIDA"
+      ],
+      "is_acs": false
+    },
+    {
+      "nctId": "NCT00262275",
+      "title": "Optimum Platelet Inhibition After Coronary Bypass Surgery",
+      "conditions": [
+        "Ischemic Heart Disease"
+      ],
+      "interventions": [
+        "Aspirin, Clopidogrel"
+      ],
+      "is_acs": true
+    },
+    {
+      "nctId": "NCT00269061",
+      "title": "Study In Patients With Type 2 Diabetes Who Are Taking Metformin And Sulfonylurea, Metformin And Insulin, Or Insulin",
+      "conditions": [
+        "Non-Insulin-Dependent Diabetes Mellitus"
+      ],
+      "interventions": [
+        "pioglitazone"
+      ],
+      "is_acs": false
+    },
+    {
+      "nctId": "NCT00279045",
+      "title": "Diabetes Study With Rosiglitazone Monotherapy Versus Metformin Or Glyburide/Glibenclamide",
+      "conditions": [
+        "Diabetes Mellitus, Type 2"
+      ],
+      "interventions": [
+        "Rosiglitazone",
+        "glyburide",
+        "metformin"
+      ],
+      "is_acs": false
+    },
+    {
+      "nctId": "NCT00282945",
+      "title": "Beta Cell Function Tests Over Time In Patients With T2dm Randomized To Metformin Or Rosiglitazone",
+      "conditions": [
+        "Type 2 Diabetes Mellitus"
+      ],
+      "interventions": [
+        "Rosiglitazone",
+        "Metformin"
+      ],
+      "is_acs": false
+    },
+    {
+      "nctId": "NCT00308373",
+      "title": "Effects of Fats on Blood Glucose in People With and Without Type 2 Diabetes Mellitus",
+      "conditions": [
+        "Diabetes Mellitus, Type 2"
+      ],
+      "interventions": [
+        "Metformin vs Thiazolidinedione (Pioglitazone)"
+      ],
+      "is_acs": false
+    },
+    {
+      "nctId": "NCT00318461",
+      "title": "To Compare the Effect of Liraglutide When Given Together With Metformin With the Effect of Metformin Given Alone and With the Effect of Glimepiride and Metformin Given Together",
+      "conditions": [
+        "Diabetes",
+        "Diabetes Mellitus, Type 2"
+      ],
+      "interventions": [
+        "liraglutide",
+        "metformin",
+        "glimepiride",
+        "placebo",
+        "placebo",
+        "liraglutide",
+        "liraglutide"
+      ],
+      "is_acs": false
+    },
+    {
+      "nctId": "NCT00327015",
+      "title": "A Phase 3 Study of BMS-477118 in Combination With Metformin in Subjects With Type 2 Diabetes Who Are Not Controlled With Diet and Exercise",
+      "conditions": [
+        "Diabetes"
+      ],
+      "interventions": [
+        "Saxagliptin",
+        "Saxagliptin",
+        "Metformin",
+        "Placebo",
+        "pioglitazone"
+      ],
+      "is_acs": false
+    },
+    {
+      "nctId": "NCT00359112",
+      "title": "AVANDAMET Versus Metformin And Sulphonylurea In People With Poorly Controlled Type 2 Diabetes",
+      "conditions": [
+        "Non-Insulin-Dependent Diabetes Mellitus"
+      ],
+      "interventions": [
+        "metformin",
+        "sulphonylurea",
+        "Avandamet"
+      ],
+      "is_acs": false
+    },
+    {
+      "nctId": "NCT00359762",
+      "title": "Exenatide Versus Glimepiride in Patients With Type 2 Diabetes",
+      "conditions": [
+        "Type 2 Diabetes Mellitus"
+      ],
+      "interventions": [
+        "exenatide",
+        "glimepiride"
+      ],
+      "is_acs": false
+    },
+    {
+      "nctId": "NCT00367055",
+      "title": "Rosiglitazone-Metformin Combination Versus Metformin-Sulfonylurea Combination On Beta-Cell Function In Type 2 Diabetes",
+      "conditions": [
+        "Type 2 Diabetes Mellitus"
+      ],
+      "interventions": [
+        "rosiglitazone-metformin",
+        "Metformin",
+        "metformin+ gliclazide"
+      ],
+      "is_acs": false
+    },
+    {
+      "nctId": "NCT00373178",
+      "title": "Metabolic Effects of Treatment in Patients With Recently Diagnosed Type 2 Diabetes",
+      "conditions": [
+        "Type 2 Diabetes Mellitus"
+      ],
+      "interventions": [
+        "rosiglitazone",
+        "metformin",
+        "Anti-diabetic medications"
+      ],
+      "is_acs": false
+    },
+    {
+      "nctId": "NCT00379769",
+      "title": "RECORD: Rosiglitazone Evaluated for Cardiac Outcomes and Regulation of Glycaemia in Diabetes",
+      "conditions": [
+        "Diabetes Mellitus, Type 2"
+      ],
+      "interventions": [
+        "Rosiglitazone",
+        "Sulfonylurea",
+        "Metformin"
+      ],
+      "is_acs": true
+    },
+    {
+      "nctId": "NCT00396851",
+      "title": "Double Blind Randomized Trial to Compare Gurmar (Gymnema Sylvestre) With Metformin in Type 2 Diabetes",
+      "conditions": [
+        "Type 2 Diabetes Mellitus"
+      ],
+      "interventions": [
+        "Gurmar",
+        "Metformin"
+      ],
+      "is_acs": false
+    },
+    {
+      "nctId": "NCT00399204",
+      "title": "Comparison of Cardiovascular Outcomes of Pioglitazone and Metformin in Type 2 Diabetes Patients",
+      "conditions": [
+        "Type 2 Diabetes"
+      ],
+      "interventions": [
+        "Pioglitazone vs Metformin"
+      ],
+      "is_acs": false
+    },
+    {
+      "nctId": "NCT00449605",
+      "title": "A Glycemic Control Evaluation of Glimepiride Versus Rimonabant on Top of Metformin in Type 2 Diabetes",
+      "conditions": [
+        "Diabetes Mellitus, Type 2"
+      ],
+      "interventions": [
+        "Rimonabant",
+        "Glimepiride",
+        "Metformin"
+      ],
+      "is_acs": false
+    },
+    {
+      "nctId": "NCT00481663",
+      "title": "A Study of Different Doses of Sitagliptin (MK-0431) in Participants With Type 2 Diabetes Mellitus (MK-0431-014)",
+      "conditions": [
+        "Type II Diabetes Mellitus"
+      ],
+      "interventions": [
+        "Sitagliptin",
+        "Placebo to sitagliptin",
+        "Metformin",
+        "Rescue"
+      ],
+      "is_acs": false
+    },
+    {
+      "nctId": "NCT00494312",
+      "title": "Safety Study of Pioglitazone Compared To Glyburide on Liver Function",
+      "conditions": [
+        "Diabetes Mellitus",
+        "Liver"
+      ],
+      "interventions": [
+        "Pioglitazone",
+        "Glyburide"
+      ],
+      "is_acs": false
+    },
+    {
+      "nctId": "NCT00518882",
+      "title": "Effect of Liraglutide or Exenatide Added to an Ongoing Treatment on Blood Glucose Control in Subjects With Type 2 Diabetes",
+      "conditions": [
+        "Diabetes",
+        "Diabetes Mellitus, Type 2"
+      ],
+      "interventions": [
+        "liraglutide",
+        "exenatide"
+      ],
+      "is_acs": false
+    },
+    {
+      "nctId": "NCT00528372",
+      "title": "A Phase III Study of BMS-512148 (Dapagliflozin) in Patients With Type 2 Diabetes Who Are Not Well Controlled With Diet and Exercise",
+      "conditions": [
+        "Type 2 Diabetes"
+      ],
+      "interventions": [
+        "Dapagliflozin",
+        "Dapagliflozin placebo",
+        "Metformin"
+      ],
+      "is_acs": false
+    },
+    {
+      "nctId": "NCT00528879",
+      "title": "A Phase III Study of BMS-512148 (Dapagliflozin) in Patients With Type 2 Diabetes Who Are Not Well Controlled on Metformin Alone",
+      "conditions": [
+        "Type 2 Diabetes"
+      ],
+      "interventions": [
+        "Dapagliflozin",
+        "Placebo",
+        "Metformin"
+      ],
+      "is_acs": false
+    },
+    {
+      "nctId": "NCT00543361",
+      "title": "Study MK0767 and Metformin in Type 2 Diabetic Patients (0767-020)",
+      "conditions": [
+        "Diabetes Mellitus, Type 2"
+      ],
+      "interventions": [
+        "MK0767",
+        "Comparator: placebo (unspecified)",
+        "Comparator: metformin"
+      ],
+      "is_acs": false
+    },
+    {
+      "nctId": "NCT00543751",
+      "title": "Placebo Controlled Metformin and Sulfonylurea Combination Study in Patients With Type 2 Diabetes (0767-025)",
+      "conditions": [
+        "Diabetes Mellitus, Type 2"
+      ],
+      "interventions": [
+        "MK0767"
+      ],
+      "is_acs": false
+    },
+    {
+      "nctId": "NCT00562172",
+      "title": "Insulin Glargine (Lantus) vs Sulfonylurea (SU) for BETA Cell Function (BETA Study)",
+      "conditions": [
+        "Type 2 Diabetes Mellitus"
+      ],
+      "interventions": [
+        "Insulin glargine",
+        "Glimepiride",
+        "Metformin"
+      ],
+      "is_acs": false
+    },
+    {
+      "nctId": "NCT00575588",
+      "title": "52-week add-on to Metformin Comparison of Saxagliptin and Sulphonylurea, With a 52-week Extension Period",
+      "conditions": [
+        "Type 2 Diabetes"
+      ],
+      "interventions": [
+        "Metformin",
+        "Sulphonylurea",
+        "Saxagliptin"
+      ],
+      "is_acs": false
+    },
+    {
+      "nctId": "NCT00622284",
+      "title": "Efficacy and Safety of BI 1356 in Combination With Metformin in Patients With Type 2 Diabetes",
+      "conditions": [
+        "Diabetes Mellitus, Type 2"
+      ],
+      "interventions": [
+        "Placebo identical to BI 1356 5mg",
+        "Placebo identical to Glimepiride 1mg or 2mg or 3mg or 4 mg",
+        "BI 1356",
+        "Glimepiride"
+      ],
+      "is_acs": false
+    },
+    {
+      "nctId": "NCT00660907",
+      "title": "Efficacy and Safety of Dapagliflozin in Combination With Metformin in Type 2 Diabetes Patients",
+      "conditions": [
+        "Type 2 Diabetes"
+      ],
+      "interventions": [
+        "dapagliflozin",
+        "glipizide",
+        "metformin hydrochloride"
+      ],
+      "is_acs": false
+    },
+    {
+      "nctId": "NCT00663260",
+      "title": "Glycemic Efficacy and Renal Safety Study of Dapagliflozin in Subjects With Type 2 Diabetes Mellitus and Moderate Renal Impairment",
+      "conditions": [
+        "Diabetes Mellitus, Type 2"
+      ],
+      "interventions": [
+        "Dapagliflozin",
+        "Dapagliflozin",
+        "Placebo"
+      ],
+      "is_acs": false
+    },
+    {
+      "nctId": "NCT00673231",
+      "title": "Efficacy and Safety of Dapagliflozin, Added to Therapy of Patients With Type 2 Diabetes With Inadequate Glycemic Control on Insulin",
+      "conditions": [
+        "Type 2 Diabetes"
+      ],
+      "interventions": [
+        "Dapagliflozin",
+        "Dapagliflozin",
+        "Dapagliflozin",
+        "Placebo",
+        "Dapagliflozin",
+        "Dapagliflozin"
+      ],
+      "is_acs": false
+    },
+    {
+      "nctId": "NCT00679939",
+      "title": "Study In Postmenopausal Women With Type 2 Diabetes Looking At Approved Diabetes Drugs And How They Affect Bone Health",
+      "conditions": [
+        "Diabetes Mellitus, Type 2"
+      ],
+      "interventions": [
+        "Rosiglitazone",
+        "Metformin"
+      ],
+      "is_acs": false
+    }
+  ]
+}

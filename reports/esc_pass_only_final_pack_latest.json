@@ -1,0 +1,35 @@
+[
+  {
+    "areaKey": "acute_coronary_syndromes",
+    "robustnessDecision": "PASS",
+    "robustnessScore": 100,
+    "landmarkCoveragePct": 100,
+    "aactRetrieved": 93,
+    "trialUniverseWithoutPICO": 93,
+    "trialUniverseWithPICO": 7,
+    "picoRetainedPct": 7.5,
+    "actionItems": ""
+  },
+  {
+    "areaKey": "pulmonary_hypertension",
+    "robustnessDecision": "PASS",
+    "robustnessScore": 100,
+    "landmarkCoveragePct": 100,
+    "aactRetrieved": 85,
+    "trialUniverseWithoutPICO": 85,
+    "trialUniverseWithPICO": 22,
+    "picoRetainedPct": 25.9,
+    "actionItems": ""
+  },
+  {
+    "areaKey": "peripheral_arterial_disease",
+    "robustnessDecision": "PASS",
+    "robustnessScore": 100,
+    "landmarkCoveragePct": 100,
+    "aactRetrieved": 83,
+    "trialUniverseWithoutPICO": 83,
+    "trialUniverseWithPICO": 20,
+    "picoRetainedPct": 24.1,
+    "actionItems": ""
+  }
+]

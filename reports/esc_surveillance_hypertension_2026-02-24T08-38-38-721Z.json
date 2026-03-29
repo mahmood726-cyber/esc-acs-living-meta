@@ -1,0 +1,3904 @@
+{
+  "generatedAt": "2026-02-24T08:40:20.852Z",
+  "areaKey": "hypertension",
+  "guidelineProfile": "cardiology",
+  "strategy": {
+    "id": "strat_1771922406302_ha3lffg6f",
+    "name": "ESC hypertension surveillance",
+    "created": "2026-02-24T08:40:06.302Z",
+    "lastRun": null,
+    "guidelineProfile": "cardiology",
+    "sources": [
+      "aact"
+    ],
+    "searchObjective": "balanced",
+    "queries": {
+      "pubmed": null,
+      "ctgov": null,
+      "embase": null,
+      "cochrane": null,
+      "aact": {
+        "guidelineProfile": "cardiology",
+        "guidelineArea": "hypertension",
+        "condition": "hypertension",
+        "useAreaTerms": false,
+        "completedOnly": true,
+        "status": [
+          "COMPLETED"
+        ],
+        "maxResults": 80
+      }
+    },
+    "ctgovStrategy": {
+      "mode": "single",
+      "primaryStrategyId": "S3",
+      "strategyIds": [
+        "S3"
+      ],
+      "strategyEvidence": [
+        {
+          "strategyId": "S3",
+          "preset": "Randomized Allocation Only",
+          "meanRecallPct": 99,
+          "minRecallPct": 85.7,
+          "retentionPct": 54
+        },
+        {
+          "strategyId": "S6",
+          "preset": "Completed Status",
+          "meanRecallPct": 85.4,
+          "minRecallPct": 50,
+          "retentionPct": 55
+        },
+        {
+          "strategyId": "S10",
+          "preset": "Treatment RCTs Only",
+          "meanRecallPct": 84.8,
+          "minRecallPct": 0,
+          "retentionPct": 36
+        }
+      ],
+      "strategyRationale": [
+        "Objective \"balanced\" selected default strategy bundle."
+      ],
+      "includeStatusFilter": true
+    },
+    "infrastructure": {
+      "aactGatewayUrl": "http://127.0.0.1:8787/aact/query",
+      "embaseApiKey": null
+    },
+    "filters": {
+      "dateRange": {
+        "from": null,
+        "to": null
+      },
+      "studyTypes": [
+        "RCT"
+      ],
+      "languages": [
+        "en"
+      ],
+      "humans": true,
+      "ctgovStatuses": [
+        "COMPLETED",
+        "ACTIVE_NOT_RECRUITING",
+        "RECRUITING"
+      ]
+    },
+    "inclusionCriteria": {
+      "requiredKeywords": [
+        "hypertension",
+        "high blood pressure"
+      ],
+      "preferredKeywords": [
+        "resistant hypertension",
+        "hypertensive heart disease",
+        "randomized",
+        "trial",
+        "double blind"
+      ],
+      "exclusionKeywords": [
+        "protocol",
+        "retrospective",
+        "animal",
+        "in vitro"
+      ],
+      "acceptedDesigns": [
+        "RCT",
+        "Observational"
+      ]
+    },
+    "qualityTargets": {
+      "minCtgovRecallPct": 90,
+      "requireAACTForFinalReview": true,
+      "requireAACTIncrementalCapture": false,
+      "minAACTIncrementalNcts": 1,
+      "enforceLandmarkCoverage": true,
+      "minLandmarkCoveragePct": 70,
+      "landmarkGuidelineAreas": [
+        "hypertension"
+      ],
+      "minSourcesForHighConfidence": 2
+    },
+    "schedule": {
+      "enabled": false,
+      "interval": "weekly",
+      "lastCheck": null,
+      "nextCheck": null
+    },
+    "stats": {
+      "totalRuns": 0,
+      "totalFound": 0,
+      "totalIncluded": 0,
+      "totalExcluded": 0
+    }
+  },
+  "results": {
+    "timestamp": "2026-02-24T08:40:06.302Z",
+    "strategyId": "strat_1771922406302_ha3lffg6f",
+    "guidelineProfile": "cardiology",
+    "sources": {
+      "aact": {
+        "count": 82,
+        "retrieved": 82,
+        "requiresGateway": false,
+        "error": null,
+        "guidelineProfile": "cardiology",
+        "termsUsed": [
+          "hypertension"
+        ],
+        "nctIds": [
+          "NCT00000125",
+          "NCT00000466",
+          "NCT00000471",
+          "NCT00000474",
+          "NCT00000484",
+          "NCT00000485",
+          "NCT00000495",
+          "NCT00000497",
+          "NCT00000498",
+          "NCT00000499",
+          "NCT00000501",
+          "NCT00000509",
+          "NCT00000511",
+          "NCT00000513",
+          "NCT00000514",
+          "NCT00000515",
+          "NCT00000516",
+          "NCT00000519",
+          "NCT00000521",
+          "NCT00000522",
+          "NCT00000525",
+          "NCT00000529",
+          "NCT00000532",
+          "NCT00000535",
+          "NCT00000536",
+          "NCT00000537",
+          "NCT00000542",
+          "NCT00000543",
+          "NCT00000544",
+          "NCT00000546",
+          "NCT00000616",
+          "NCT00000620",
+          "NCT00001723",
+          "NCT00004497",
+          "NCT00004561",
+          "NCT00006398",
+          "NCT00010478",
+          "NCT00012636",
+          "NCT00018759",
+          "NCT00034840",
+          "NCT00044265",
+          "NCT00045981",
+          "NCT00045994",
+          "NCT00046319",
+          "NCT00046566",
+          "NCT00047515",
+          "NCT00047528",
+          "NCT00047541",
+          "NCT00047593",
+          "NCT00051142",
+          "NCT00051155",
+          "NCT00051181",
+          "NCT00051194",
+          "NCT00051350",
+          "NCT00051389",
+          "NCT00054925",
+          "NCT00058929",
+          "NCT00059306",
+          "NCT00060918",
+          "NCT00060931",
+          "NCT00061503",
+          "NCT00061516",
+          "NCT00061529",
+          "NCT00061542",
+          "NCT00067665",
+          "NCT00069706",
+          "NCT00069719",
+          "NCT00072891",
+          "NCT00074633",
+          "NCT00080457",
+          "NCT00081731",
+          "NCT00086463",
+          "NCT00089752",
+          "NCT00091598",
+          "NCT00091715",
+          "NCT00092209",
+          "NCT00093249",
+          "NCT00093262",
+          "NCT00093886",
+          "NCT00093912",
+          "NCT00206882",
+          "NCT00968708"
+        ],
+        "landmarkVerification": {
+          "requested": 3,
+          "found": 3,
+          "coveragePct": 100,
+          "missingNctIds": []
+        },
+        "gatewayUrl": "http://127.0.0.1:8787/aact/query"
+      }
+    },
+    "newStudies": [
+      {
+        "nctId": "NCT00000125",
+        "title": "Ocular Hypertension Treatment Study (OHTS)",
+        "briefSummary": null,
+        "status": "COMPLETED",
+        "startDate": "1994-02-28",
+        "completionDate": "2019-06-30",
+        "studyType": "INTERVENTIONAL",
+        "phases": [
+          "PHASE3"
+        ],
+        "enrollment": 1636,
+        "allocation": "RANDOMIZED",
+        "primaryPurpose": "PREVENTION",
+        "source": "aact",
+        "retrievedAt": "2026-02-24T08:40:15.048Z",
+        "isDuplicate": false,
+        "classification": "maybe",
+        "relevanceScore": 45,
+        "relevanceReasons": [
+          "Contains 1 required keywords",
+          "Study design may not meet criteria: Unknown"
+        ],
+        "pico": {
+          "population": {
+            "text": "HYPERTENSION",
+            "confidence": 0.9,
+            "type": "condition",
+            "details": [
+              {
+                "text": "HYPERTENSION",
+                "type": "condition",
+                "confidence": 0.9
+              }
+            ]
+          },
+          "intervention": {
+            "text": "Treatment Study (OHTS)",
+            "confidence": 0.85,
+            "type": "drug_with_dose",
+            "details": [
+              {
+                "text": "Treatment Study (OHTS)",
+                "type": "drug_with_dose",
+                "confidence": 0.85
+              }
+            ]
+          },
+          "comparator": {
+            "text": null,
+            "confidence": 0,
+            "details": []
+          },
+          "outcomes": [],
+          "studyDesign": {
+            "type": "Unknown",
+            "confidence": 0.3
+          },
+          "sampleSize": null,
+          "followUp": null,
+          "setting": []
+        },
+        "needsReview": true,
+        "processedAt": "2026-02-24T08:40:15.969Z"
+      },
+      {
+        "nctId": "NCT00000474",
+        "title": "Prevention and Treatment of Hypertension Study (PATHS)",
+        "briefSummary": null,
+        "status": "COMPLETED",
+        "startDate": "1989-09-30",
+        "completionDate": "1994-09-30",
+        "studyType": "INTERVENTIONAL",
+        "phases": [
+          "PHASE3"
+        ],
+        "enrollment": null,
+        "allocation": "RANDOMIZED",
+        "primaryPurpose": "PREVENTION",
+        "source": "aact",
+        "retrievedAt": "2026-02-24T08:40:15.048Z",
+        "isDuplicate": false,
+        "classification": "maybe",
+        "relevanceScore": 45,
+        "relevanceReasons": [
+          "Contains 1 required keywords",
+          "Study design may not meet criteria: Unknown"
+        ],
+        "pico": {
+          "population": {
+            "text": "HYPERTENSION",
+            "confidence": 0.9,
+            "type": "condition",
+            "details": [
+              {
+                "text": "HYPERTENSION",
+                "type": "condition",
+                "confidence": 0.9
+              }
+            ]
+          },
+          "intervention": {
+            "text": "Treatment of Hypertension Study (PATHS)",
+            "confidence": 0.85,
+            "type": "drug_with_dose",
+            "details": [
+              {
+                "text": "Treatment of Hypertension Study (PATHS)",
+                "type": "drug_with_dose",
+                "confidence": 0.85
+              }
+            ]
+          },
+          "comparator": {
+            "text": null,
+            "confidence": 0,
+            "details": []
+          },
+          "outcomes": [],
+          "studyDesign": {
+            "type": "Unknown",
+            "confidence": 0.3
+          },
+          "sampleSize": null,
+          "followUp": null,
+          "setting": []
+        },
+        "needsReview": true,
+        "processedAt": "2026-02-24T08:40:15.969Z"
+      },
+      {
+        "nctId": "NCT00000484",
+        "title": "Treatment of Hypertension",
+        "briefSummary": null,
+        "status": "COMPLETED",
+        "startDate": "1966-04-30",
+        "completionDate": "1979-01-31",
+        "studyType": "INTERVENTIONAL",
+        "phases": [
+          "PHASE3"
+        ],
+        "enrollment": null,
+        "allocation": "RANDOMIZED",
+        "primaryPurpose": "PREVENTION",
+        "source": "aact",
+        "retrievedAt": "2026-02-24T08:40:15.048Z",
+        "isDuplicate": false,
+        "classification": "maybe",
+        "relevanceScore": 45,
+        "relevanceReasons": [
+          "Contains 1 required keywords",
+          "Study design may not meet criteria: Unknown"
+        ],
+        "pico": {
+          "population": {
+            "text": "HYPERTENSION",
+            "confidence": 0.9,
+            "type": "condition",
+            "details": [
+              {
+                "text": "HYPERTENSION",
+                "type": "condition",
+                "confidence": 0.9
+              }
+            ]
+          },
+          "intervention": {
+            "text": "Treatment of Hypertension",
+            "confidence": 0.85,
+            "type": "drug_with_dose",
+            "details": [
+              {
+                "text": "Treatment of Hypertension",
+                "type": "drug_with_dose",
+                "confidence": 0.85
+              }
+            ]
+          },
+          "comparator": {
+            "text": null,
+            "confidence": 0,
+            "details": []
+          },
+          "outcomes": [],
+          "studyDesign": {
+            "type": "Unknown",
+            "confidence": 0.3
+          },
+          "sampleSize": null,
+          "followUp": null,
+          "setting": []
+        },
+        "needsReview": true,
+        "processedAt": "2026-02-24T08:40:15.970Z"
+      },
+      {
+        "nctId": "NCT00000485",
+        "title": "Hypertension Detection and Follow-up Program (HDFP)",
+        "briefSummary": null,
+        "status": "COMPLETED",
+        "startDate": "1971-05-31",
+        "completionDate": "1982-05-31",
+        "studyType": "INTERVENTIONAL",
+        "phases": [
+          "PHASE3"
+        ],
+        "enrollment": null,
+        "allocation": "RANDOMIZED",
+        "primaryPurpose": "PREVENTION",
+        "source": "aact",
+        "retrievedAt": "2026-02-24T08:40:15.048Z",
+        "isDuplicate": false,
+        "classification": "maybe",
+        "relevanceScore": 45,
+        "relevanceReasons": [
+          "Contains 1 required keywords",
+          "Study design may not meet criteria: Unknown"
+        ],
+        "pico": {
+          "population": {
+            "text": "HYPERTENSION",
+            "confidence": 0.9,
+            "type": "condition",
+            "details": [
+              {
+                "text": "HYPERTENSION",
+                "type": "condition",
+                "confidence": 0.9
+              }
+            ]
+          },
+          "intervention": {
+            "text": null,
+            "confidence": 0,
+            "details": []
+          },
+          "comparator": {
+            "text": null,
+            "confidence": 0,
+            "details": []
+          },
+          "outcomes": [],
+          "studyDesign": {
+            "type": "Unknown",
+            "confidence": 0.3
+          },
+          "sampleSize": null,
+          "followUp": null,
+          "setting": []
+        },
+        "needsReview": true,
+        "processedAt": "2026-02-24T08:40:15.970Z"
+      },
+      {
+        "nctId": "NCT00000497",
+        "title": "Dietary Intervention Study for Hypertension (DISH)",
+        "briefSummary": null,
+        "status": "COMPLETED",
+        "startDate": "1980-01-31",
+        "completionDate": "1994-09-30",
+        "studyType": "INTERVENTIONAL",
+        "phases": [
+          "PHASE3"
+        ],
+        "enrollment": null,
+        "allocation": "RANDOMIZED",
+        "primaryPurpose": "TREATMENT",
+        "source": "aact",
+        "retrievedAt": "2026-02-24T08:40:15.048Z",
+        "isDuplicate": false,
+        "classification": "maybe",
+        "relevanceScore": 45,
+        "relevanceReasons": [
+          "Contains 1 required keywords",
+          "Study design may not meet criteria: Unknown"
+        ],
+        "pico": {
+          "population": {
+            "text": "HYPERTENSION",
+            "confidence": 0.9,
+            "type": "condition",
+            "details": [
+              {
+                "text": "HYPERTENSION",
+                "type": "condition",
+                "confidence": 0.9
+              }
+            ]
+          },
+          "intervention": {
+            "text": "Intervention Study for Hypertension (DISH)",
+            "confidence": 0.85,
+            "type": "drug_with_dose",
+            "details": [
+              {
+                "text": "Intervention Study for Hypertension (DISH)",
+                "type": "drug_with_dose",
+                "confidence": 0.85
+              }
+            ]
+          },
+          "comparator": {
+            "text": null,
+            "confidence": 0,
+            "details": []
+          },
+          "outcomes": [],
+          "studyDesign": {
+            "type": "Unknown",
+            "confidence": 0.3
+          },
+          "sampleSize": null,
+          "followUp": null,
+          "setting": []
+        },
+        "needsReview": true,
+        "processedAt": "2026-02-24T08:40:15.973Z"
+      },
+      {
+        "nctId": "NCT00000498",
+        "title": "Control of Hypertension by Non-Pharmacologic Means",
+        "briefSummary": null,
+        "status": "COMPLETED",
+        "startDate": "1980-04-30",
+        "completionDate": "1983-03-31",
+        "studyType": "INTERVENTIONAL",
+        "phases": [
+          "PHASE3"
+        ],
+        "enrollment": null,
+        "allocation": "RANDOMIZED",
+        "primaryPurpose": "TREATMENT",
+        "source": "aact",
+        "retrievedAt": "2026-02-24T08:40:15.048Z",
+        "isDuplicate": false,
+        "classification": "maybe",
+        "relevanceScore": 45,
+        "relevanceReasons": [
+          "Contains 1 required keywords",
+          "Study design may not meet criteria: Unknown"
+        ],
+        "pico": {
+          "population": {
+            "text": "HYPERTENSION",
+            "confidence": 0.9,
+            "type": "condition",
+            "details": [
+              {
+                "text": "HYPERTENSION",
+                "type": "condition",
+                "confidence": 0.9
+              }
+            ]
+          },
+          "intervention": {
+            "text": null,
+            "confidence": 0,
+            "details": []
+          },
+          "comparator": {
+            "text": "Control",
+            "confidence": 0.8,
+            "type": "comparator",
+            "details": [
+              {
+                "text": "Control",
+                "type": "comparator",
+                "confidence": 0.8
+              }
+            ]
+          },
+          "outcomes": [],
+          "studyDesign": {
+            "type": "Unknown",
+            "confidence": 0.3
+          },
+          "sampleSize": null,
+          "followUp": null,
+          "setting": []
+        },
+        "needsReview": true,
+        "processedAt": "2026-02-24T08:40:15.975Z"
+      },
+      {
+        "nctId": "NCT00000499",
+        "title": "Systolic Hypertension in the Elderly Program (SHEP) (Pilot Study)",
+        "briefSummary": null,
+        "status": "COMPLETED",
+        "startDate": "1980-09-30",
+        "completionDate": "1983-05-31",
+        "studyType": "INTERVENTIONAL",
+        "phases": [
+          "PHASE2"
+        ],
+        "enrollment": null,
+        "allocation": "RANDOMIZED",
+        "primaryPurpose": "TREATMENT",
+        "source": "aact",
+        "retrievedAt": "2026-02-24T08:40:15.048Z",
+        "isDuplicate": false,
+        "classification": "maybe",
+        "relevanceScore": 45,
+        "relevanceReasons": [
+          "Contains 1 required keywords",
+          "Study design may not meet criteria: Unknown"
+        ],
+        "pico": {
+          "population": {
+            "text": "HYPERTENSION",
+            "confidence": 0.9,
+            "type": "condition",
+            "details": [
+              {
+                "text": "HYPERTENSION",
+                "type": "condition",
+                "confidence": 0.9
+              }
+            ]
+          },
+          "intervention": {
+            "text": null,
+            "confidence": 0,
+            "details": []
+          },
+          "comparator": {
+            "text": null,
+            "confidence": 0,
+            "details": []
+          },
+          "outcomes": [],
+          "studyDesign": {
+            "type": "Unknown",
+            "confidence": 0.3
+          },
+          "sampleSize": null,
+          "followUp": null,
+          "setting": []
+        },
+        "needsReview": true,
+        "processedAt": "2026-02-24T08:40:15.976Z"
+      },
+      {
+        "nctId": "NCT00000501",
+        "title": "Hypertension Prevention Trial (HPT) Feasibility Study",
+        "briefSummary": null,
+        "status": "COMPLETED",
+        "startDate": "1981-09-30",
+        "completionDate": "1986-08-31",
+        "studyType": "INTERVENTIONAL",
+        "phases": [
+          "PHASE2"
+        ],
+        "enrollment": null,
+        "allocation": "RANDOMIZED",
+        "primaryPurpose": "PREVENTION",
+        "source": "aact",
+        "retrievedAt": "2026-02-24T08:40:15.048Z",
+        "isDuplicate": false,
+        "classification": "maybe",
+        "relevanceScore": 50,
+        "relevanceReasons": [
+          "Contains 1 required keywords",
+          "Contains 1 preferred keywords",
+          "Study design may not meet criteria: Unknown"
+        ],
+        "pico": {
+          "population": {
+            "text": "HYPERTENSION",
+            "confidence": 0.9,
+            "type": "condition",
+            "details": [
+              {
+                "text": "HYPERTENSION",
+                "type": "condition",
+                "confidence": 0.9
+              }
+            ]
+          },
+          "intervention": {
+            "text": null,
+            "confidence": 0,
+            "details": []
+          },
+          "comparator": {
+            "text": null,
+            "confidence": 0,
+            "details": []
+          },
+          "outcomes": [],
+          "studyDesign": {
+            "type": "Unknown",
+            "confidence": 0.3
+          },
+          "sampleSize": null,
+          "followUp": null,
+          "setting": []
+        },
+        "needsReview": true,
+        "processedAt": "2026-02-24T08:40:15.978Z"
+      },
+      {
+        "nctId": "NCT00000511",
+        "title": "Polyunsaturates and KCL to Control Mild Hypertension",
+        "briefSummary": null,
+        "status": "COMPLETED",
+        "startDate": "1983-12-31",
+        "completionDate": "1994-11-30",
+        "studyType": "INTERVENTIONAL",
+        "phases": [
+          "PHASE2"
+        ],
+        "enrollment": null,
+        "allocation": "RANDOMIZED",
+        "primaryPurpose": "TREATMENT",
+        "source": "aact",
+        "retrievedAt": "2026-02-24T08:40:15.048Z",
+        "isDuplicate": false,
+        "classification": "maybe",
+        "relevanceScore": 45,
+        "relevanceReasons": [
+          "Contains 1 required keywords",
+          "Study design may not meet criteria: Unknown"
+        ],
+        "pico": {
+          "population": {
+            "text": "HYPERTENSION",
+            "confidence": 0.9,
+            "type": "condition",
+            "details": [
+              {
+                "text": "HYPERTENSION",
+                "type": "condition",
+                "confidence": 0.9
+              }
+            ]
+          },
+          "intervention": {
+            "text": null,
+            "confidence": 0,
+            "details": []
+          },
+          "comparator": {
+            "text": "Control",
+            "confidence": 0.8,
+            "type": "comparator",
+            "details": [
+              {
+                "text": "Control",
+                "type": "comparator",
+                "confidence": 0.8
+              }
+            ]
+          },
+          "outcomes": [],
+          "studyDesign": {
+            "type": "Unknown",
+            "confidence": 0.3
+          },
+          "sampleSize": null,
+          "followUp": null,
+          "setting": []
+        },
+        "needsReview": true,
+        "processedAt": "2026-02-24T08:40:15.985Z"
+      },
+      {
+        "nctId": "NCT00000525",
+        "title": "Diuretics, Hypertension, and Arrhythmias Clinical Trial",
+        "briefSummary": null,
+        "status": "COMPLETED",
+        "startDate": "1986-07-31",
+        "completionDate": null,
+        "studyType": "INTERVENTIONAL",
+        "phases": [
+          "PHASE3"
+        ],
+        "enrollment": 233,
+        "allocation": "RANDOMIZED",
+        "primaryPurpose": null,
+        "source": "aact",
+        "retrievedAt": "2026-02-24T08:40:15.048Z",
+        "isDuplicate": false,
+        "classification": "maybe",
+        "relevanceScore": 50,
+        "relevanceReasons": [
+          "Contains 1 required keywords",
+          "Contains 1 preferred keywords",
+          "Study design may not meet criteria: Unknown"
+        ],
+        "pico": {
+          "population": {
+            "text": "HYPERTENSION",
+            "confidence": 0.9,
+            "type": "condition",
+            "details": [
+              {
+                "text": "HYPERTENSION",
+                "type": "condition",
+                "confidence": 0.9
+              }
+            ]
+          },
+          "intervention": {
+            "text": null,
+            "confidence": 0,
+            "details": []
+          },
+          "comparator": {
+            "text": null,
+            "confidence": 0,
+            "details": []
+          },
+          "outcomes": [],
+          "studyDesign": {
+            "type": "Unknown",
+            "confidence": 0.3
+          },
+          "sampleSize": null,
+          "followUp": null,
+          "setting": []
+        },
+        "needsReview": true,
+        "processedAt": "2026-02-24T08:40:16.020Z"
+      },
+      {
+        "nctId": "NCT00000543",
+        "title": "Oral Calcium in Pregnant Women With Hypertension",
+        "briefSummary": null,
+        "status": "COMPLETED",
+        "startDate": "1993-08-31",
+        "completionDate": "1999-07-31",
+        "studyType": "INTERVENTIONAL",
+        "phases": [
+          "PHASE2"
+        ],
+        "enrollment": null,
+        "allocation": "RANDOMIZED",
+        "primaryPurpose": "PREVENTION",
+        "source": "aact",
+        "retrievedAt": "2026-02-24T08:40:15.048Z",
+        "isDuplicate": false,
+        "classification": "maybe",
+        "relevanceScore": 45,
+        "relevanceReasons": [
+          "Contains 1 required keywords",
+          "Study design may not meet criteria: Unknown"
+        ],
+        "pico": {
+          "population": {
+            "text": "HYPERTENSION",
+            "confidence": 0.9,
+            "type": "condition",
+            "details": [
+              {
+                "text": "HYPERTENSION",
+                "type": "condition",
+                "confidence": 0.9
+              }
+            ]
+          },
+          "intervention": {
+            "text": null,
+            "confidence": 0,
+            "details": []
+          },
+          "comparator": {
+            "text": null,
+            "confidence": 0,
+            "details": []
+          },
+          "outcomes": [],
+          "studyDesign": {
+            "type": "Unknown",
+            "confidence": 0.3
+          },
+          "sampleSize": null,
+          "followUp": null,
+          "setting": []
+        },
+        "needsReview": true,
+        "processedAt": "2026-02-24T08:40:16.097Z"
+      },
+      {
+        "nctId": "NCT00000544",
+        "title": "Dietary Approaches to Stop Hypertension (DASH)",
+        "briefSummary": null,
+        "status": "COMPLETED",
+        "startDate": "1993-08-31",
+        "completionDate": "1997-07-31",
+        "studyType": "INTERVENTIONAL",
+        "phases": [
+          "PHASE3"
+        ],
+        "enrollment": null,
+        "allocation": "RANDOMIZED",
+        "primaryPurpose": "TREATMENT",
+        "source": "aact",
+        "retrievedAt": "2026-02-24T08:40:15.048Z",
+        "isDuplicate": false,
+        "classification": "maybe",
+        "relevanceScore": 45,
+        "relevanceReasons": [
+          "Contains 1 required keywords",
+          "Study design may not meet criteria: Unknown"
+        ],
+        "pico": {
+          "population": {
+            "text": "HYPERTENSION",
+            "confidence": 0.9,
+            "type": "condition",
+            "details": [
+              {
+                "text": "HYPERTENSION",
+                "type": "condition",
+                "confidence": 0.9
+              }
+            ]
+          },
+          "intervention": {
+            "text": null,
+            "confidence": 0,
+            "details": []
+          },
+          "comparator": {
+            "text": null,
+            "confidence": 0,
+            "details": []
+          },
+          "outcomes": [],
+          "studyDesign": {
+            "type": "Unknown",
+            "confidence": 0.3
+          },
+          "sampleSize": null,
+          "followUp": null,
+          "setting": []
+        },
+        "needsReview": true,
+        "processedAt": "2026-02-24T08:40:16.116Z"
+      },
+      {
+        "nctId": "NCT00004497",
+        "title": "Phase III Randomized Study of UT-15 in Patients With Primary Pulmonary Hypertension",
+        "briefSummary": null,
+        "status": "COMPLETED",
+        "startDate": "1998-10-31",
+        "completionDate": "2000-09-30",
+        "studyType": "INTERVENTIONAL",
+        "phases": [
+          "PHASE3"
+        ],
+        "enrollment": null,
+        "allocation": "RANDOMIZED",
+        "primaryPurpose": "TREATMENT",
+        "source": "aact",
+        "retrievedAt": "2026-02-24T08:40:15.048Z",
+        "isDuplicate": false,
+        "classification": "include",
+        "relevanceScore": 85,
+        "relevanceReasons": [
+          "Contains 1 required keywords",
+          "Contains 1 preferred keywords",
+          "Accepted study design: RCT"
+        ],
+        "pico": {
+          "population": {
+            "text": "HYPERTENSION",
+            "confidence": 0.9,
+            "type": "condition",
+            "details": [
+              {
+                "text": "HYPERTENSION",
+                "type": "condition",
+                "confidence": 0.9
+              }
+            ]
+          },
+          "intervention": {
+            "text": null,
+            "confidence": 0,
+            "details": []
+          },
+          "comparator": {
+            "text": null,
+            "confidence": 0,
+            "details": []
+          },
+          "outcomes": [],
+          "studyDesign": {
+            "type": "RCT",
+            "confidence": 0.75
+          },
+          "sampleSize": null,
+          "followUp": null,
+          "setting": []
+        },
+        "needsReview": false,
+        "processedAt": "2026-02-24T08:40:16.223Z"
+      },
+      {
+        "nctId": "NCT00010478",
+        "title": "Acupuncture and Hypertension",
+        "briefSummary": null,
+        "status": "COMPLETED",
+        "startDate": null,
+        "completionDate": null,
+        "studyType": "INTERVENTIONAL",
+        "phases": [
+          "NA"
+        ],
+        "enrollment": null,
+        "allocation": "RANDOMIZED",
+        "primaryPurpose": "TREATMENT",
+        "source": "aact",
+        "retrievedAt": "2026-02-24T08:40:15.048Z",
+        "isDuplicate": false,
+        "classification": "maybe",
+        "relevanceScore": 45,
+        "relevanceReasons": [
+          "Contains 1 required keywords",
+          "Study design may not meet criteria: Unknown"
+        ],
+        "pico": {
+          "population": {
+            "text": "HYPERTENSION",
+            "confidence": 0.9,
+            "type": "condition",
+            "details": [
+              {
+                "text": "HYPERTENSION",
+                "type": "condition",
+                "confidence": 0.9
+              }
+            ]
+          },
+          "intervention": {
+            "text": null,
+            "confidence": 0,
+            "details": []
+          },
+          "comparator": {
+            "text": null,
+            "confidence": 0,
+            "details": []
+          },
+          "outcomes": [],
+          "studyDesign": {
+            "type": "Unknown",
+            "confidence": 0.3
+          },
+          "sampleSize": null,
+          "followUp": null,
+          "setting": []
+        },
+        "needsReview": true,
+        "processedAt": "2026-02-24T08:40:16.300Z"
+      },
+      {
+        "nctId": "NCT00012636",
+        "title": "Guidelines for Drug Therapy of Hypertension: Closing the Loop",
+        "briefSummary": null,
+        "status": "COMPLETED",
+        "startDate": null,
+        "completionDate": "2000-09-30",
+        "studyType": "INTERVENTIONAL",
+        "phases": [
+          "NA"
+        ],
+        "enrollment": 36,
+        "allocation": "RANDOMIZED",
+        "primaryPurpose": null,
+        "source": "aact",
+        "retrievedAt": "2026-02-24T08:40:15.048Z",
+        "isDuplicate": false,
+        "classification": "maybe",
+        "relevanceScore": 45,
+        "relevanceReasons": [
+          "Contains 1 required keywords",
+          "Study design may not meet criteria: Unknown"
+        ],
+        "pico": {
+          "population": {
+            "text": "HYPERTENSION",
+            "confidence": 0.9,
+            "type": "condition",
+            "details": [
+              {
+                "text": "HYPERTENSION",
+                "type": "condition",
+                "confidence": 0.9
+              }
+            ]
+          },
+          "intervention": {
+            "text": null,
+            "confidence": 0,
+            "details": []
+          },
+          "comparator": {
+            "text": null,
+            "confidence": 0,
+            "details": []
+          },
+          "outcomes": [],
+          "studyDesign": {
+            "type": "Unknown",
+            "confidence": 0.3
+          },
+          "sampleSize": null,
+          "followUp": null,
+          "setting": []
+        },
+        "needsReview": true,
+        "processedAt": "2026-02-24T08:40:16.318Z"
+      },
+      {
+        "nctId": "NCT00034840",
+        "title": "Telmisartan vs. Valsartan in Patients With Mild to Moderate Hypertension Following a Missed Dose",
+        "briefSummary": null,
+        "status": "COMPLETED",
+        "startDate": "2001-10-31",
+        "completionDate": "2002-08-31",
+        "studyType": "INTERVENTIONAL",
+        "phases": [
+          "PHASE4"
+        ],
+        "enrollment": 490,
+        "allocation": "RANDOMIZED",
+        "primaryPurpose": "TREATMENT",
+        "source": "aact",
+        "retrievedAt": "2026-02-24T08:40:15.048Z",
+        "isDuplicate": false,
+        "classification": "maybe",
+        "relevanceScore": 45,
+        "relevanceReasons": [
+          "Contains 1 required keywords",
+          "Study design may not meet criteria: Unknown"
+        ],
+        "pico": {
+          "population": {
+            "text": "HYPERTENSION",
+            "confidence": 0.9,
+            "type": "condition",
+            "details": [
+              {
+                "text": "HYPERTENSION",
+                "type": "condition",
+                "confidence": 0.9
+              }
+            ]
+          },
+          "intervention": {
+            "text": "Valsartan",
+            "confidence": 0.9,
+            "type": "known_drug",
+            "details": [
+              {
+                "text": "Valsartan",
+                "context": "Valsartan in Patients With Mild to Moderate Hypertension Following a Missed Dose",
+                "type": "known_drug",
+                "confidence": 0.9
+              }
+            ]
+          },
+          "comparator": {
+            "text": "Valsartan",
+            "confidence": 0.8,
+            "type": "comparator",
+            "details": [
+              {
+                "text": "Valsartan",
+                "type": "comparator",
+                "confidence": 0.8
+              }
+            ]
+          },
+          "outcomes": [],
+          "studyDesign": {
+            "type": "Unknown",
+            "confidence": 0.3
+          },
+          "sampleSize": null,
+          "followUp": null,
+          "setting": []
+        },
+        "needsReview": true,
+        "processedAt": "2026-02-24T08:40:16.364Z"
+      },
+      {
+        "nctId": "NCT00045994",
+        "title": "The SILVER Study: Systolic Hypertension Interaction With Left Ventricular Remodeling",
+        "briefSummary": null,
+        "status": "COMPLETED",
+        "startDate": "2001-08-31",
+        "completionDate": "2003-06-30",
+        "studyType": "INTERVENTIONAL",
+        "phases": [
+          "PHASE2"
+        ],
+        "enrollment": 180,
+        "allocation": "RANDOMIZED",
+        "primaryPurpose": "TREATMENT",
+        "source": "aact",
+        "retrievedAt": "2026-02-24T08:40:15.048Z",
+        "isDuplicate": false,
+        "classification": "maybe",
+        "relevanceScore": 45,
+        "relevanceReasons": [
+          "Contains 1 required keywords",
+          "Study design may not meet criteria: Unknown"
+        ],
+        "pico": {
+          "population": {
+            "text": "HYPERTENSION",
+            "confidence": 0.9,
+            "type": "condition",
+            "details": [
+              {
+                "text": "HYPERTENSION",
+                "type": "condition",
+                "confidence": 0.9
+              }
+            ]
+          },
+          "intervention": {
+            "text": null,
+            "confidence": 0,
+            "details": []
+          },
+          "comparator": {
+            "text": null,
+            "confidence": 0,
+            "details": []
+          },
+          "outcomes": [],
+          "studyDesign": {
+            "type": "Unknown",
+            "confidence": 0.3
+          },
+          "sampleSize": null,
+          "followUp": null,
+          "setting": []
+        },
+        "needsReview": true,
+        "processedAt": "2026-02-24T08:40:16.468Z"
+      },
+      {
+        "nctId": "NCT00046319",
+        "title": "Study of BSF 208075 Evaluating Exercise Capacity in Patients With Pulmonary Arterial Hypertension",
+        "briefSummary": null,
+        "status": "COMPLETED",
+        "startDate": "2002-09-30",
+        "completionDate": "2003-06-30",
+        "studyType": "INTERVENTIONAL",
+        "phases": [
+          "PHASE2"
+        ],
+        "enrollment": 60,
+        "allocation": "RANDOMIZED",
+        "primaryPurpose": "TREATMENT",
+        "source": "aact",
+        "retrievedAt": "2026-02-24T08:40:15.048Z",
+        "isDuplicate": false,
+        "classification": "maybe",
+        "relevanceScore": 45,
+        "relevanceReasons": [
+          "Contains 1 required keywords",
+          "Study design may not meet criteria: Unknown"
+        ],
+        "pico": {
+          "population": {
+            "text": "HYPERTENSION",
+            "confidence": 0.9,
+            "type": "condition",
+            "details": [
+              {
+                "text": "HYPERTENSION",
+                "type": "condition",
+                "confidence": 0.9
+              }
+            ]
+          },
+          "intervention": {
+            "text": null,
+            "confidence": 0,
+            "details": []
+          },
+          "comparator": {
+            "text": null,
+            "confidence": 0,
+            "details": []
+          },
+          "outcomes": [],
+          "studyDesign": {
+            "type": "Unknown",
+            "confidence": 0.3
+          },
+          "sampleSize": null,
+          "followUp": null,
+          "setting": []
+        },
+        "needsReview": true,
+        "processedAt": "2026-02-24T08:40:16.512Z"
+      },
+      {
+        "nctId": "NCT00047515",
+        "title": "Phase 3 Study to Evaluate IOP Lowering Therapy in Open Angle Glaucoma and Ocular Hypertension C-01-69",
+        "briefSummary": null,
+        "status": "COMPLETED",
+        "startDate": "2001-01-31",
+        "completionDate": "2003-12-31",
+        "studyType": "INTERVENTIONAL",
+        "phases": [
+          "PHASE3"
+        ],
+        "enrollment": null,
+        "allocation": "RANDOMIZED",
+        "primaryPurpose": "TREATMENT",
+        "source": "aact",
+        "retrievedAt": "2026-02-24T08:40:15.048Z",
+        "isDuplicate": false,
+        "classification": "maybe",
+        "relevanceScore": 45,
+        "relevanceReasons": [
+          "Contains 1 required keywords",
+          "Study design may not meet criteria: Unknown"
+        ],
+        "pico": {
+          "population": {
+            "text": "HYPERTENSION",
+            "confidence": 0.9,
+            "type": "condition",
+            "details": [
+              {
+                "text": "HYPERTENSION",
+                "type": "condition",
+                "confidence": 0.9
+              }
+            ]
+          },
+          "intervention": {
+            "text": null,
+            "confidence": 0,
+            "details": []
+          },
+          "comparator": {
+            "text": null,
+            "confidence": 0,
+            "details": []
+          },
+          "outcomes": [],
+          "studyDesign": {
+            "type": "Unknown",
+            "confidence": 0.3
+          },
+          "sampleSize": null,
+          "followUp": null,
+          "setting": []
+        },
+        "needsReview": true,
+        "processedAt": "2026-02-24T08:40:16.613Z"
+      },
+      {
+        "nctId": "NCT00051142",
+        "title": "A Safety and Efficacy Study of Travoprost 0.004% Compared to Latanoprost 0.005% in Patients With Open-Angle Glaucoma (OAG) or Ocular Hypertension (OHT)",
+        "briefSummary": null,
+        "status": "COMPLETED",
+        "startDate": "2001-02-28",
+        "completionDate": "2004-06-30",
+        "studyType": "INTERVENTIONAL",
+        "phases": [
+          "PHASE3"
+        ],
+        "enrollment": null,
+        "allocation": "RANDOMIZED",
+        "primaryPurpose": "TREATMENT",
+        "source": "aact",
+        "retrievedAt": "2026-02-24T08:40:15.048Z",
+        "isDuplicate": false,
+        "classification": "maybe",
+        "relevanceScore": 45,
+        "relevanceReasons": [
+          "Contains 1 required keywords",
+          "Study design may not meet criteria: Unknown"
+        ],
+        "pico": {
+          "population": {
+            "text": "HYPERTENSION",
+            "confidence": 0.9,
+            "type": "condition",
+            "details": [
+              {
+                "text": "HYPERTENSION",
+                "type": "condition",
+                "confidence": 0.9
+              }
+            ]
+          },
+          "intervention": {
+            "text": null,
+            "confidence": 0,
+            "details": []
+          },
+          "comparator": {
+            "text": "Latanoprost 0",
+            "confidence": 0.8,
+            "type": "comparator",
+            "details": [
+              {
+                "text": "Latanoprost 0",
+                "type": "comparator",
+                "confidence": 0.8
+              }
+            ]
+          },
+          "outcomes": [],
+          "studyDesign": {
+            "type": "Unknown",
+            "confidence": 0.3
+          },
+          "sampleSize": null,
+          "followUp": null,
+          "setting": []
+        },
+        "needsReview": true,
+        "processedAt": "2026-02-24T08:40:16.837Z"
+      },
+      {
+        "nctId": "NCT00051155",
+        "title": "A 6-Week Safety and Efficacy Study of Travatan Compared to Xalcom in Subjects With Open-Angle Glaucoma(OAG) or Ocular Hypertension(OHT)",
+        "briefSummary": null,
+        "status": "COMPLETED",
+        "startDate": "2001-01-31",
+        "completionDate": "2004-07-31",
+        "studyType": "INTERVENTIONAL",
+        "phases": [
+          "PHASE3"
+        ],
+        "enrollment": null,
+        "allocation": "RANDOMIZED",
+        "primaryPurpose": "TREATMENT",
+        "source": "aact",
+        "retrievedAt": "2026-02-24T08:40:15.048Z",
+        "isDuplicate": false,
+        "classification": "maybe",
+        "relevanceScore": 45,
+        "relevanceReasons": [
+          "Contains 1 required keywords",
+          "Study design may not meet criteria: Unknown"
+        ],
+        "pico": {
+          "population": {
+            "text": "HYPERTENSION",
+            "confidence": 0.9,
+            "type": "condition",
+            "details": [
+              {
+                "text": "HYPERTENSION",
+                "type": "condition",
+                "confidence": 0.9
+              }
+            ]
+          },
+          "intervention": {
+            "text": null,
+            "confidence": 0,
+            "details": []
+          },
+          "comparator": {
+            "text": "Xalcom",
+            "confidence": 0.8,
+            "type": "comparator",
+            "details": [
+              {
+                "text": "Xalcom",
+                "type": "comparator",
+                "confidence": 0.8
+              }
+            ]
+          },
+          "outcomes": [],
+          "studyDesign": {
+            "type": "Unknown",
+            "confidence": 0.3
+          },
+          "sampleSize": null,
+          "followUp": null,
+          "setting": []
+        },
+        "needsReview": true,
+        "processedAt": "2026-02-24T08:40:16.920Z"
+      },
+      {
+        "nctId": "NCT00058929",
+        "title": "A Transition Study From Flolan® to Remodulin® in Patients With Pulmonary Arterial Hypertension",
+        "briefSummary": null,
+        "status": "COMPLETED",
+        "startDate": "2002-10-31",
+        "completionDate": "2005-08-31",
+        "studyType": "INTERVENTIONAL",
+        "phases": [
+          "PHASE4"
+        ],
+        "enrollment": 39,
+        "allocation": "RANDOMIZED",
+        "primaryPurpose": "TREATMENT",
+        "source": "aact",
+        "retrievedAt": "2026-02-24T08:40:15.048Z",
+        "isDuplicate": false,
+        "classification": "maybe",
+        "relevanceScore": 45,
+        "relevanceReasons": [
+          "Contains 1 required keywords",
+          "Study design may not meet criteria: Unknown"
+        ],
+        "pico": {
+          "population": {
+            "text": "HYPERTENSION",
+            "confidence": 0.9,
+            "type": "condition",
+            "details": [
+              {
+                "text": "HYPERTENSION",
+                "type": "condition",
+                "confidence": 0.9
+              }
+            ]
+          },
+          "intervention": {
+            "text": null,
+            "confidence": 0,
+            "details": []
+          },
+          "comparator": {
+            "text": null,
+            "confidence": 0,
+            "details": []
+          },
+          "outcomes": [],
+          "studyDesign": {
+            "type": "Unknown",
+            "confidence": 0.3
+          },
+          "sampleSize": null,
+          "followUp": null,
+          "setting": []
+        },
+        "needsReview": true,
+        "processedAt": "2026-02-24T08:40:17.415Z"
+      },
+      {
+        "nctId": "NCT00060918",
+        "title": "Glycemic Control Of Carvedilol Versus Metoprolol In Patients With Type II Diabetes Mellitus And Hypertension",
+        "briefSummary": null,
+        "status": "COMPLETED",
+        "startDate": "2001-06-30",
+        "completionDate": "2004-04-30",
+        "studyType": "INTERVENTIONAL",
+        "phases": [
+          "PHASE4"
+        ],
+        "enrollment": 1210,
+        "allocation": "RANDOMIZED",
+        "primaryPurpose": "TREATMENT",
+        "source": "aact",
+        "retrievedAt": "2026-02-24T08:40:15.048Z",
+        "isDuplicate": false,
+        "classification": "maybe",
+        "relevanceScore": 45,
+        "relevanceReasons": [
+          "Contains 1 required keywords",
+          "Study design may not meet criteria: Unknown"
+        ],
+        "pico": {
+          "population": {
+            "text": "HYPERTENSION",
+            "confidence": 0.9,
+            "type": "condition",
+            "details": [
+              {
+                "text": "HYPERTENSION",
+                "type": "condition",
+                "confidence": 0.9
+              },
+              {
+                "text": "DIABETES",
+                "type": "condition",
+                "confidence": 0.9
+              }
+            ]
+          },
+          "intervention": {
+            "text": "Metoprolol",
+            "confidence": 0.9,
+            "type": "known_drug",
+            "details": [
+              {
+                "text": "Metoprolol",
+                "context": "Glycemic Control Of Carvedilol Versus Metoprolol In Patients With Type II Diabetes Mellitus And Hypertension",
+                "type": "known_drug",
+                "confidence": 0.9
+              },
+              {
+                "text": "Carvedilol",
+                "context": "Glycemic Control Of Carvedilol Versus Metoprolol In Patients With Type II Diabetes Mellitus And Hypertension",
+                "type": "known_drug",
+                "confidence": 0.9
+              }
+            ]
+          },
+          "comparator": {
+            "text": "Metoprolol",
+            "confidence": 0.8,
+            "type": "comparator",
+            "details": [
+              {
+                "text": "Metoprolol",
+                "type": "comparator",
+                "confidence": 0.8
+              },
+              {
+                "text": "Control",
+                "type": "comparator",
+                "confidence": 0.8
+              }
+            ]
+          },
+          "outcomes": [],
+          "studyDesign": {
+            "type": "Unknown",
+            "confidence": 0.3
+          },
+          "sampleSize": null,
+          "followUp": null,
+          "setting": [
+            {
+              "type": "country",
+              "value": "us"
+            }
+          ]
+        },
+        "needsReview": true,
+        "processedAt": "2026-02-24T08:40:17.606Z"
+      },
+      {
+        "nctId": "NCT00060931",
+        "title": "Effect Of Carvedilol Versus Metoprolol On Glycemic Control In Patients With Type II Diabetes And Hypertension",
+        "briefSummary": null,
+        "status": "COMPLETED",
+        "startDate": "2001-06-30",
+        "completionDate": "2004-04-30",
+        "studyType": "INTERVENTIONAL",
+        "phases": [
+          "PHASE4"
+        ],
+        "enrollment": 501,
+        "allocation": "RANDOMIZED",
+        "primaryPurpose": "TREATMENT",
+        "source": "aact",
+        "retrievedAt": "2026-02-24T08:40:15.048Z",
+        "isDuplicate": false,
+        "classification": "maybe",
+        "relevanceScore": 45,
+        "relevanceReasons": [
+          "Contains 1 required keywords",
+          "Study design may not meet criteria: Unknown"
+        ],
+        "pico": {
+          "population": {
+            "text": "HYPERTENSION",
+            "confidence": 0.9,
+            "type": "condition",
+            "details": [
+              {
+                "text": "HYPERTENSION",
+                "type": "condition",
+                "confidence": 0.9
+              },
+              {
+                "text": "DIABETES",
+                "type": "condition",
+                "confidence": 0.9
+              }
+            ]
+          },
+          "intervention": {
+            "text": "Metoprolol",
+            "confidence": 0.9,
+            "type": "known_drug",
+            "details": [
+              {
+                "text": "Metoprolol",
+                "context": "Effect Of Carvedilol Versus Metoprolol On Glycemic Control In Patients With Type II Diabetes And Hypertension",
+                "type": "known_drug",
+                "confidence": 0.9
+              },
+              {
+                "text": "Carvedilol",
+                "context": "Effect Of Carvedilol Versus Metoprolol On Glycemic Control In Patients With Type II Diabetes And Hypertension",
+                "type": "known_drug",
+                "confidence": 0.9
+              }
+            ]
+          },
+          "comparator": {
+            "text": "Metoprolol On Glycemic Control",
+            "confidence": 0.8,
+            "type": "comparator",
+            "details": [
+              {
+                "text": "Metoprolol On Glycemic Control",
+                "type": "comparator",
+                "confidence": 0.8
+              },
+              {
+                "text": "Control",
+                "type": "comparator",
+                "confidence": 0.8
+              }
+            ]
+          },
+          "outcomes": [],
+          "studyDesign": {
+            "type": "Unknown",
+            "confidence": 0.3
+          },
+          "sampleSize": null,
+          "followUp": null,
+          "setting": [
+            {
+              "type": "country",
+              "value": "us"
+            }
+          ]
+        },
+        "needsReview": true,
+        "processedAt": "2026-02-24T08:40:17.699Z"
+      },
+      {
+        "nctId": "NCT00061503",
+        "title": "Mechanism of Action of TRAVATAN 0.004% in Subjects With Glaucoma or Ocular Hypertension",
+        "briefSummary": null,
+        "status": "COMPLETED",
+        "startDate": "2003-04-30",
+        "completionDate": "2004-03-31",
+        "studyType": "INTERVENTIONAL",
+        "phases": [
+          "PHASE4"
+        ],
+        "enrollment": null,
+        "allocation": "RANDOMIZED",
+        "primaryPurpose": "TREATMENT",
+        "source": "aact",
+        "retrievedAt": "2026-02-24T08:40:15.048Z",
+        "isDuplicate": false,
+        "classification": "maybe",
+        "relevanceScore": 45,
+        "relevanceReasons": [
+          "Contains 1 required keywords",
+          "Study design may not meet criteria: Unknown"
+        ],
+        "pico": {
+          "population": {
+            "text": "HYPERTENSION",
+            "confidence": 0.9,
+            "type": "condition",
+            "details": [
+              {
+                "text": "HYPERTENSION",
+                "type": "condition",
+                "confidence": 0.9
+              }
+            ]
+          },
+          "intervention": {
+            "text": null,
+            "confidence": 0,
+            "details": []
+          },
+          "comparator": {
+            "text": null,
+            "confidence": 0,
+            "details": []
+          },
+          "outcomes": [],
+          "studyDesign": {
+            "type": "Unknown",
+            "confidence": 0.3
+          },
+          "sampleSize": null,
+          "followUp": null,
+          "setting": []
+        },
+        "needsReview": true,
+        "processedAt": "2026-02-24T08:40:17.817Z"
+      },
+      {
+        "nctId": "NCT00061516",
+        "title": "Safety and Efficacy Study of BETAXON 0.5% and AZOPT 1.0% in Pediatric Patients With Glaucoma or Ocular Hypertension",
+        "briefSummary": null,
+        "status": "COMPLETED",
+        "startDate": "2003-01-31",
+        "completionDate": "2006-02-28",
+        "studyType": "INTERVENTIONAL",
+        "phases": [
+          "PHASE3"
+        ],
+        "enrollment": 78,
+        "allocation": "RANDOMIZED",
+        "primaryPurpose": "TREATMENT",
+        "source": "aact",
+        "retrievedAt": "2026-02-24T08:40:15.048Z",
+        "isDuplicate": false,
+        "classification": "maybe",
+        "relevanceScore": 45,
+        "relevanceReasons": [
+          "Contains 1 required keywords",
+          "Study design may not meet criteria: Unknown"
+        ],
+        "pico": {
+          "population": {
+            "text": "HYPERTENSION",
+            "confidence": 0.9,
+            "type": "condition",
+            "details": [
+              {
+                "text": "HYPERTENSION",
+                "type": "condition",
+                "confidence": 0.9
+              }
+            ]
+          },
+          "intervention": {
+            "text": null,
+            "confidence": 0,
+            "details": []
+          },
+          "comparator": {
+            "text": null,
+            "confidence": 0,
+            "details": []
+          },
+          "outcomes": [],
+          "studyDesign": {
+            "type": "Unknown",
+            "confidence": 0.3
+          },
+          "sampleSize": null,
+          "followUp": null,
+          "setting": []
+        },
+        "needsReview": true,
+        "processedAt": "2026-02-24T08:40:17.930Z"
+      },
+      {
+        "nctId": "NCT00061529",
+        "title": "A Phase III Study of Brimonidine Tartrate Ophthalmic Solution, 0.15% in Patients With Open-Angle Glaucoma or Ocular Hypertension",
+        "briefSummary": null,
+        "status": "COMPLETED",
+        "startDate": "2003-01-31",
+        "completionDate": "2004-07-31",
+        "studyType": "INTERVENTIONAL",
+        "phases": [
+          "PHASE3"
+        ],
+        "enrollment": null,
+        "allocation": "RANDOMIZED",
+        "primaryPurpose": "TREATMENT",
+        "source": "aact",
+        "retrievedAt": "2026-02-24T08:40:15.048Z",
+        "isDuplicate": false,
+        "classification": "maybe",
+        "relevanceScore": 45,
+        "relevanceReasons": [
+          "Contains 1 required keywords",
+          "Study design may not meet criteria: Unknown"
+        ],
+        "pico": {
+          "population": {
+            "text": "HYPERTENSION",
+            "confidence": 0.9,
+            "type": "condition",
+            "details": [
+              {
+                "text": "HYPERTENSION",
+                "type": "condition",
+                "confidence": 0.9
+              }
+            ]
+          },
+          "intervention": {
+            "text": null,
+            "confidence": 0,
+            "details": []
+          },
+          "comparator": {
+            "text": null,
+            "confidence": 0,
+            "details": []
+          },
+          "outcomes": [],
+          "studyDesign": {
+            "type": "Unknown",
+            "confidence": 0.3
+          },
+          "sampleSize": null,
+          "followUp": null,
+          "setting": []
+        },
+        "needsReview": true,
+        "processedAt": "2026-02-24T08:40:18.043Z"
+      },
+      {
+        "nctId": "NCT00067665",
+        "title": "Hypertension in Hemodialysis",
+        "briefSummary": null,
+        "status": "COMPLETED",
+        "startDate": "2003-08-31",
+        "completionDate": "2008-06-30",
+        "studyType": "INTERVENTIONAL",
+        "phases": [
+          "NA"
+        ],
+        "enrollment": 150,
+        "allocation": "RANDOMIZED",
+        "primaryPurpose": "TREATMENT",
+        "source": "aact",
+        "retrievedAt": "2026-02-24T08:40:15.048Z",
+        "isDuplicate": false,
+        "classification": "maybe",
+        "relevanceScore": 45,
+        "relevanceReasons": [
+          "Contains 1 required keywords",
+          "Study design may not meet criteria: Unknown"
+        ],
+        "pico": {
+          "population": {
+            "text": "HYPERTENSION",
+            "confidence": 0.9,
+            "type": "condition",
+            "details": [
+              {
+                "text": "HYPERTENSION",
+                "type": "condition",
+                "confidence": 0.9
+              }
+            ]
+          },
+          "intervention": {
+            "text": null,
+            "confidence": 0,
+            "details": []
+          },
+          "comparator": {
+            "text": null,
+            "confidence": 0,
+            "details": []
+          },
+          "outcomes": [],
+          "studyDesign": {
+            "type": "Unknown",
+            "confidence": 0.3
+          },
+          "sampleSize": null,
+          "followUp": null,
+          "setting": []
+        },
+        "needsReview": true,
+        "processedAt": "2026-02-24T08:40:18.296Z"
+      },
+      {
+        "nctId": "NCT00086463",
+        "title": "Trial of Iloprost Inhaled Solution as Add-On Therapy With Bosentan in Subjects With Pulmonary Arterial Hypertension (PAH)",
+        "briefSummary": null,
+        "status": "COMPLETED",
+        "startDate": "2004-06-30",
+        "completionDate": "2006-01-31",
+        "studyType": "INTERVENTIONAL",
+        "phases": [
+          "PHASE2"
+        ],
+        "enrollment": 60,
+        "allocation": "RANDOMIZED",
+        "primaryPurpose": "TREATMENT",
+        "source": "aact",
+        "retrievedAt": "2026-02-24T08:40:15.048Z",
+        "isDuplicate": false,
+        "classification": "maybe",
+        "relevanceScore": 50,
+        "relevanceReasons": [
+          "Contains 1 required keywords",
+          "Contains 1 preferred keywords",
+          "Study design may not meet criteria: Unknown"
+        ],
+        "pico": {
+          "population": {
+            "text": "HYPERTENSION",
+            "confidence": 0.9,
+            "type": "condition",
+            "details": [
+              {
+                "text": "HYPERTENSION",
+                "type": "condition",
+                "confidence": 0.9
+              }
+            ]
+          },
+          "intervention": {
+            "text": null,
+            "confidence": 0,
+            "details": []
+          },
+          "comparator": {
+            "text": null,
+            "confidence": 0,
+            "details": []
+          },
+          "outcomes": [],
+          "studyDesign": {
+            "type": "Unknown",
+            "confidence": 0.3
+          },
+          "sampleSize": null,
+          "followUp": null,
+          "setting": []
+        },
+        "needsReview": true,
+        "processedAt": "2026-02-24T08:40:19.246Z"
+      },
+      {
+        "nctId": "NCT00091598",
+        "title": "ARIES - Ambrisentan in Patients With Moderate to Severe Pulmonary Arterial Hypertension (PAH)",
+        "briefSummary": null,
+        "status": "COMPLETED",
+        "startDate": "2004-01-31",
+        "completionDate": "2006-02-28",
+        "studyType": "INTERVENTIONAL",
+        "phases": [
+          "PHASE3"
+        ],
+        "enrollment": 372,
+        "allocation": "RANDOMIZED",
+        "primaryPurpose": "TREATMENT",
+        "source": "aact",
+        "retrievedAt": "2026-02-24T08:40:15.048Z",
+        "isDuplicate": false,
+        "classification": "maybe",
+        "relevanceScore": 45,
+        "relevanceReasons": [
+          "Contains 1 required keywords",
+          "Study design may not meet criteria: Unknown"
+        ],
+        "pico": {
+          "population": {
+            "text": "HYPERTENSION",
+            "confidence": 0.9,
+            "type": "condition",
+            "details": [
+              {
+                "text": "HYPERTENSION",
+                "type": "condition",
+                "confidence": 0.9
+              }
+            ]
+          },
+          "intervention": {
+            "text": null,
+            "confidence": 0,
+            "details": []
+          },
+          "comparator": {
+            "text": null,
+            "confidence": 0,
+            "details": []
+          },
+          "outcomes": [],
+          "studyDesign": {
+            "type": "Unknown",
+            "confidence": 0.3
+          },
+          "sampleSize": null,
+          "followUp": null,
+          "setting": []
+        },
+        "needsReview": true,
+        "processedAt": "2026-02-24T08:40:19.495Z"
+      },
+      {
+        "nctId": "NCT00091715",
+        "title": "Efficacy and Safety of Oral Bosentan in Pulmonary Arterial Hypertension Class II",
+        "briefSummary": null,
+        "status": "COMPLETED",
+        "startDate": "2004-04-30",
+        "completionDate": "2011-02-28",
+        "studyType": "INTERVENTIONAL",
+        "phases": [
+          "PHASE3"
+        ],
+        "enrollment": 185,
+        "allocation": "RANDOMIZED",
+        "primaryPurpose": "TREATMENT",
+        "source": "aact",
+        "retrievedAt": "2026-02-24T08:40:15.048Z",
+        "isDuplicate": false,
+        "classification": "maybe",
+        "relevanceScore": 45,
+        "relevanceReasons": [
+          "Contains 1 required keywords",
+          "Study design may not meet criteria: Unknown"
+        ],
+        "pico": {
+          "population": {
+            "text": "HYPERTENSION",
+            "confidence": 0.9,
+            "type": "condition",
+            "details": [
+              {
+                "text": "HYPERTENSION",
+                "type": "condition",
+                "confidence": 0.9
+              }
+            ]
+          },
+          "intervention": {
+            "text": null,
+            "confidence": 0,
+            "details": []
+          },
+          "comparator": {
+            "text": null,
+            "confidence": 0,
+            "details": []
+          },
+          "outcomes": [],
+          "studyDesign": {
+            "type": "Unknown",
+            "confidence": 0.3
+          },
+          "sampleSize": null,
+          "followUp": null,
+          "setting": []
+        },
+        "needsReview": true,
+        "processedAt": "2026-02-24T08:40:19.678Z"
+      },
+      {
+        "nctId": "NCT00092209",
+        "title": "Antihypertensive Efficacy and Safety of Approved Drugs in Japanese Patients With Essential Hypertension (Banyu Study)(0954A-302)",
+        "briefSummary": null,
+        "status": "COMPLETED",
+        "startDate": "2002-04-30",
+        "completionDate": "2002-11-30",
+        "studyType": "INTERVENTIONAL",
+        "phases": [
+          "PHASE3"
+        ],
+        "enrollment": 840,
+        "allocation": "RANDOMIZED",
+        "primaryPurpose": "TREATMENT",
+        "source": "aact",
+        "retrievedAt": "2026-02-24T08:40:15.048Z",
+        "isDuplicate": false,
+        "classification": "maybe",
+        "relevanceScore": 45,
+        "relevanceReasons": [
+          "Contains 1 required keywords",
+          "Study design may not meet criteria: Unknown"
+        ],
+        "pico": {
+          "population": {
+            "text": "HYPERTENSION",
+            "confidence": 0.9,
+            "type": "condition",
+            "details": [
+              {
+                "text": "HYPERTENSION",
+                "type": "condition",
+                "confidence": 0.9
+              }
+            ]
+          },
+          "intervention": {
+            "text": null,
+            "confidence": 0,
+            "details": []
+          },
+          "comparator": {
+            "text": null,
+            "confidence": 0,
+            "details": []
+          },
+          "outcomes": [],
+          "studyDesign": {
+            "type": "Unknown",
+            "confidence": 0.3
+          },
+          "sampleSize": null,
+          "followUp": null,
+          "setting": [
+            {
+              "type": "country",
+              "value": "japan"
+            }
+          ]
+        },
+        "needsReview": true,
+        "processedAt": "2026-02-24T08:40:19.810Z"
+      },
+      {
+        "nctId": "NCT00093886",
+        "title": "Clevidipine in the Perioperative Treatment of Hypertension (ECLIPSE-NTG)",
+        "briefSummary": null,
+        "status": "COMPLETED",
+        "startDate": "2004-04-30",
+        "completionDate": "2005-04-30",
+        "studyType": "INTERVENTIONAL",
+        "phases": [
+          "PHASE3"
+        ],
+        "enrollment": 629,
+        "allocation": "RANDOMIZED",
+        "primaryPurpose": "TREATMENT",
+        "source": "aact",
+        "retrievedAt": "2026-02-24T08:40:15.048Z",
+        "isDuplicate": false,
+        "classification": "maybe",
+        "relevanceScore": 45,
+        "relevanceReasons": [
+          "Contains 1 required keywords",
+          "Study design may not meet criteria: Unknown"
+        ],
+        "pico": {
+          "population": {
+            "text": "HYPERTENSION",
+            "confidence": 0.9,
+            "type": "condition",
+            "details": [
+              {
+                "text": "HYPERTENSION",
+                "type": "condition",
+                "confidence": 0.9
+              }
+            ]
+          },
+          "intervention": {
+            "text": "Treatment of Hypertension (ECLIPSE-NTG)",
+            "confidence": 0.85,
+            "type": "drug_with_dose",
+            "details": [
+              {
+                "text": "Treatment of Hypertension (ECLIPSE-NTG)",
+                "type": "drug_with_dose",
+                "confidence": 0.85
+              }
+            ]
+          },
+          "comparator": {
+            "text": null,
+            "confidence": 0,
+            "details": []
+          },
+          "outcomes": [],
+          "studyDesign": {
+            "type": "Unknown",
+            "confidence": 0.3
+          },
+          "sampleSize": null,
+          "followUp": null,
+          "setting": []
+        },
+        "needsReview": true,
+        "processedAt": "2026-02-24T08:40:20.386Z"
+      }
+    ],
+    "duplicates": [
+      {
+        "nctId": "NCT00000495",
+        "title": "Prevention of Hypertension: A Randomized Trial",
+        "briefSummary": null,
+        "status": "COMPLETED",
+        "startDate": "1978-12-31",
+        "completionDate": null,
+        "studyType": "INTERVENTIONAL",
+        "phases": [
+          "PHASE3"
+        ],
+        "enrollment": null,
+        "allocation": "RANDOMIZED",
+        "primaryPurpose": "PREVENTION",
+        "source": "aact",
+        "retrievedAt": "2026-02-24T08:40:15.048Z",
+        "isDuplicate": true,
+        "duplicateOf": {
+          "index": 3,
+          "title": "Prevention and Treatment of Hypertension Study (PATHS)"
+        }
+      },
+      {
+        "nctId": "NCT00000514",
+        "title": "Systolic Hypertension in the Elderly Program (SHEP)",
+        "briefSummary": null,
+        "status": "COMPLETED",
+        "startDate": "1984-06-30",
+        "completionDate": "1996-10-31",
+        "studyType": "INTERVENTIONAL",
+        "phases": [
+          "PHASE3"
+        ],
+        "enrollment": null,
+        "allocation": "RANDOMIZED",
+        "primaryPurpose": "PREVENTION",
+        "source": "aact",
+        "retrievedAt": "2026-02-24T08:40:15.048Z",
+        "isDuplicate": true,
+        "duplicateOf": {
+          "index": 9,
+          "title": "Systolic Hypertension in the Elderly Program (SHEP) (Pilot Study)"
+        }
+      },
+      {
+        "nctId": "NCT00000522",
+        "title": "Treatment of Mild Hypertension Study (TOMHS)",
+        "briefSummary": null,
+        "status": "COMPLETED",
+        "startDate": "1985-08-31",
+        "completionDate": "1994-05-31",
+        "studyType": "INTERVENTIONAL",
+        "phases": [
+          "PHASE2"
+        ],
+        "enrollment": null,
+        "allocation": "RANDOMIZED",
+        "primaryPurpose": "TREATMENT",
+        "source": "aact",
+        "retrievedAt": "2026-02-24T08:40:15.048Z",
+        "isDuplicate": true,
+        "duplicateOf": {
+          "index": 4,
+          "title": "Treatment of Hypertension"
+        }
+      },
+      {
+        "nctId": "NCT00000546",
+        "title": "Stress Reduction and Atherosclerotic CVD in Blacks",
+        "briefSummary": null,
+        "status": "COMPLETED",
+        "startDate": "1994-03-31",
+        "completionDate": "2005-05-31",
+        "studyType": "INTERVENTIONAL",
+        "phases": [
+          "PHASE3"
+        ],
+        "enrollment": null,
+        "allocation": "RANDOMIZED",
+        "primaryPurpose": "TREATMENT",
+        "source": "aact",
+        "retrievedAt": "2026-02-24T08:40:15.048Z",
+        "isDuplicate": true,
+        "duplicateOf": {
+          "index": 25,
+          "title": "Stress Reduction & CVD Morbidity and Mortality in Blacks"
+        }
+      },
+      {
+        "nctId": "NCT00004561",
+        "title": "Treatment of Hypertension With Two Exercise Intensities",
+        "briefSummary": null,
+        "status": "COMPLETED",
+        "startDate": "1997-06-30",
+        "completionDate": "2003-05-31",
+        "studyType": "INTERVENTIONAL",
+        "phases": [
+          "PHASE3"
+        ],
+        "enrollment": null,
+        "allocation": "RANDOMIZED",
+        "primaryPurpose": "TREATMENT",
+        "source": "aact",
+        "retrievedAt": "2026-02-24T08:40:15.048Z",
+        "isDuplicate": true,
+        "duplicateOf": {
+          "index": 4,
+          "title": "Treatment of Hypertension"
+        }
+      },
+      {
+        "nctId": "NCT00044265",
+        "title": "Treatment of Pediatric Hypertension With Altace Trial",
+        "briefSummary": null,
+        "status": "COMPLETED",
+        "startDate": "2002-07-31",
+        "completionDate": "2004-11-30",
+        "studyType": "INTERVENTIONAL",
+        "phases": [
+          "PHASE4"
+        ],
+        "enrollment": 310,
+        "allocation": "RANDOMIZED",
+        "primaryPurpose": "TREATMENT",
+        "source": "aact",
+        "retrievedAt": "2026-02-24T08:40:15.048Z",
+        "isDuplicate": true,
+        "duplicateOf": {
+          "index": 4,
+          "title": "Treatment of Hypertension"
+        }
+      },
+      {
+        "nctId": "NCT00047528",
+        "title": "Phase 3 Study to Evaluate IOP Lowering Therapy in Open Angle Glaucoma and Ocular Hypertension C-02-41",
+        "briefSummary": null,
+        "status": "COMPLETED",
+        "startDate": "2001-01-31",
+        "completionDate": "2003-11-30",
+        "studyType": "INTERVENTIONAL",
+        "phases": [
+          "PHASE3"
+        ],
+        "enrollment": null,
+        "allocation": "RANDOMIZED",
+        "primaryPurpose": "TREATMENT",
+        "source": "aact",
+        "retrievedAt": "2026-02-24T08:40:15.048Z",
+        "isDuplicate": true,
+        "duplicateOf": {
+          "index": 45,
+          "title": "Phase 3 Study to Evaluate IOP Lowering Therapy in Open Angle Glaucoma and Ocular Hypertension C-01-69"
+        }
+      },
+      {
+        "nctId": "NCT00047541",
+        "title": "Phase 3 Study to Evaluate IOP Lowering Therapy in Open Angle Glaucoma and Ocular Hypertension C-01-70",
+        "briefSummary": null,
+        "status": "COMPLETED",
+        "startDate": "2001-02-28",
+        "completionDate": "2003-11-30",
+        "studyType": "INTERVENTIONAL",
+        "phases": [
+          "PHASE3"
+        ],
+        "enrollment": null,
+        "allocation": "RANDOMIZED",
+        "primaryPurpose": "TREATMENT",
+        "source": "aact",
+        "retrievedAt": "2026-02-24T08:40:15.048Z",
+        "isDuplicate": true,
+        "duplicateOf": {
+          "index": 45,
+          "title": "Phase 3 Study to Evaluate IOP Lowering Therapy in Open Angle Glaucoma and Ocular Hypertension C-01-69"
+        }
+      },
+      {
+        "nctId": "NCT00051181",
+        "title": "A Safety and Efficacy Study of Travoprost 0.004% Compared to Latanoprost 0.005% in Patients With Chronic Angle-Closure Glaucoma",
+        "briefSummary": null,
+        "status": "COMPLETED",
+        "startDate": "2000-01-31",
+        "completionDate": "2003-06-30",
+        "studyType": "INTERVENTIONAL",
+        "phases": [
+          "PHASE3"
+        ],
+        "enrollment": null,
+        "allocation": "RANDOMIZED",
+        "primaryPurpose": "TREATMENT",
+        "source": "aact",
+        "retrievedAt": "2026-02-24T08:40:15.048Z",
+        "isDuplicate": true,
+        "duplicateOf": {
+          "index": 49,
+          "title": "A Safety and Efficacy Study of Travoprost 0.004% Compared to Latanoprost 0.005% in Patients With Open-Angle Glaucoma (OAG) or Ocular Hypertension (OHT)"
+        }
+      },
+      {
+        "nctId": "NCT00051194",
+        "title": "A 6-week Safety & Efficacy Study of Combination Intraocular Pressure-lowering Therapy in Patients With Open-angle Glaucoma or Ocular Hypertension",
+        "briefSummary": null,
+        "status": "COMPLETED",
+        "startDate": "2002-09-30",
+        "completionDate": "2003-07-31",
+        "studyType": "INTERVENTIONAL",
+        "phases": [
+          "PHASE2"
+        ],
+        "enrollment": null,
+        "allocation": "RANDOMIZED",
+        "primaryPurpose": "TREATMENT",
+        "source": "aact",
+        "retrievedAt": "2026-02-24T08:40:15.048Z",
+        "isDuplicate": true,
+        "duplicateOf": {
+          "index": 50,
+          "title": "A 6-Week Safety and Efficacy Study of Travatan Compared to Xalcom in Subjects With Open-Angle Glaucoma(OAG) or Ocular Hypertension(OHT)"
+        }
+      },
+      {
+        "nctId": "NCT00061542",
+        "title": "Safety and Efficacy Study of BETOPTIC S 0.25% and Timolol Gel-forming Solution 0.25% and 0.5% in Pediatric Patients With Glaucoma or Ocular Hypertension",
+        "briefSummary": null,
+        "status": "COMPLETED",
+        "startDate": "2003-01-31",
+        "completionDate": "2006-11-30",
+        "studyType": "INTERVENTIONAL",
+        "phases": [
+          "PHASE3"
+        ],
+        "enrollment": 105,
+        "allocation": "RANDOMIZED",
+        "primaryPurpose": "TREATMENT",
+        "source": "aact",
+        "retrievedAt": "2026-02-24T08:40:15.048Z",
+        "isDuplicate": true,
+        "duplicateOf": {
+          "index": 61,
+          "title": "Safety and Efficacy Study of BETAXON 0.5% and AZOPT 1.0% in Pediatric Patients With Glaucoma or Ocular Hypertension"
+        }
+      },
+      {
+        "nctId": "NCT00069706",
+        "title": "Phase II Safety and Efficacy Study to Evaluate a Glaucoma Therapy in Open-angle Glaucoma or Ocular Hypertension Patients",
+        "briefSummary": null,
+        "status": "COMPLETED",
+        "startDate": "2003-07-31",
+        "completionDate": "2003-10-31",
+        "studyType": "INTERVENTIONAL",
+        "phases": [
+          "PHASE2"
+        ],
+        "enrollment": 118,
+        "allocation": "RANDOMIZED",
+        "primaryPurpose": "TREATMENT",
+        "source": "aact",
+        "retrievedAt": "2026-02-24T08:40:15.048Z",
+        "isDuplicate": true,
+        "duplicateOf": {
+          "index": 45,
+          "title": "Phase 3 Study to Evaluate IOP Lowering Therapy in Open Angle Glaucoma and Ocular Hypertension C-01-69"
+        }
+      },
+      {
+        "nctId": "NCT00069719",
+        "title": "Phase II Safety and Efficacy Study to Evaluate a Glaucoma Therapy in Open-Angle Glaucoma or Ocular Hypertension Patients",
+        "briefSummary": null,
+        "status": "COMPLETED",
+        "startDate": "1999-02-28",
+        "completionDate": "2003-08-31",
+        "studyType": "INTERVENTIONAL",
+        "phases": [
+          "PHASE2"
+        ],
+        "enrollment": null,
+        "allocation": "RANDOMIZED",
+        "primaryPurpose": "TREATMENT",
+        "source": "aact",
+        "retrievedAt": "2026-02-24T08:40:15.048Z",
+        "isDuplicate": true,
+        "duplicateOf": {
+          "index": 45,
+          "title": "Phase 3 Study to Evaluate IOP Lowering Therapy in Open Angle Glaucoma and Ocular Hypertension C-01-69"
+        }
+      },
+      {
+        "nctId": "NCT00080457",
+        "title": "Safety and Efficacy Study of Sitaxentan Sodium (Thelin™) in Patients With Pulmonary Arterial Hypertension",
+        "briefSummary": null,
+        "status": "COMPLETED",
+        "startDate": "2003-05-31",
+        "completionDate": "2005-01-31",
+        "studyType": "INTERVENTIONAL",
+        "phases": [
+          "PHASE3"
+        ],
+        "enrollment": 240,
+        "allocation": "RANDOMIZED",
+        "primaryPurpose": "TREATMENT",
+        "source": "aact",
+        "retrievedAt": "2026-02-24T08:40:15.048Z",
+        "isDuplicate": true,
+        "duplicateOf": {
+          "index": 32,
+          "title": "Safety and Efficacy of Xenical in Children and Adolescents With Obesity-Related Diseases"
+        }
+      },
+      {
+        "nctId": "NCT00093262",
+        "title": "Study of Clevidipine Assessing Its Postoperative Antihypertensive Effect in Cardiac Surgery (ESCAPE-2)",
+        "briefSummary": null,
+        "status": "COMPLETED",
+        "startDate": "2003-12-31",
+        "completionDate": "2004-10-31",
+        "studyType": "INTERVENTIONAL",
+        "phases": [
+          "PHASE3"
+        ],
+        "enrollment": 206,
+        "allocation": "RANDOMIZED",
+        "primaryPurpose": "TREATMENT",
+        "source": "aact",
+        "retrievedAt": "2026-02-24T08:40:15.048Z",
+        "isDuplicate": true,
+        "duplicateOf": {
+          "index": 76,
+          "title": "Study of Clevidipine Assessing Its Preoperative Antihypertensive Effect in Cardiac Surgery (ESCAPE-1)"
+        }
+      },
+      {
+        "nctId": "NCT00093912",
+        "title": "Clevidipine in the Perioperative Treatment of Hypertension (ECLISPE-SNP)",
+        "briefSummary": null,
+        "status": "COMPLETED",
+        "startDate": "2004-06-30",
+        "completionDate": "2006-11-30",
+        "studyType": "INTERVENTIONAL",
+        "phases": [
+          "PHASE3"
+        ],
+        "enrollment": 739,
+        "allocation": "RANDOMIZED",
+        "primaryPurpose": "TREATMENT",
+        "source": "aact",
+        "retrievedAt": "2026-02-24T08:40:15.048Z",
+        "isDuplicate": true,
+        "duplicateOf": {
+          "index": 78,
+          "title": "Clevidipine in the Perioperative Treatment of Hypertension (ECLIPSE-NTG)"
+        }
+      }
+    ],
+    "excluded": [
+      {
+        "nctId": "NCT00000466",
+        "title": "Postmenopausal Estrogen/Progestin Interventions (PEPI)",
+        "briefSummary": null,
+        "status": "COMPLETED",
+        "startDate": "1987-09-30",
+        "completionDate": "2000-10-31",
+        "studyType": "INTERVENTIONAL",
+        "phases": [
+          "PHASE3"
+        ],
+        "enrollment": null,
+        "allocation": "RANDOMIZED",
+        "primaryPurpose": "PREVENTION",
+        "source": "aact",
+        "retrievedAt": "2026-02-24T08:40:15.048Z",
+        "isDuplicate": false,
+        "classification": "exclude",
+        "relevanceScore": 0,
+        "relevanceReasons": [
+          "Missing required keywords",
+          "Study design may not meet criteria: Unknown"
+        ],
+        "pico": null,
+        "needsReview": false,
+        "processedAt": "2026-02-24T08:40:15.969Z"
+      },
+      {
+        "nctId": "NCT00000471",
+        "title": "Lifestyle Heart Trial",
+        "briefSummary": null,
+        "status": "COMPLETED",
+        "startDate": "1989-04-30",
+        "completionDate": "1993-03-31",
+        "studyType": "INTERVENTIONAL",
+        "phases": [
+          "PHASE2"
+        ],
+        "enrollment": null,
+        "allocation": "RANDOMIZED",
+        "primaryPurpose": "PREVENTION",
+        "source": "aact",
+        "retrievedAt": "2026-02-24T08:40:15.048Z",
+        "isDuplicate": false,
+        "classification": "exclude",
+        "relevanceScore": 0,
+        "relevanceReasons": [
+          "Missing required keywords",
+          "Contains 1 preferred keywords",
+          "Study design may not meet criteria: Unknown"
+        ],
+        "pico": null,
+        "needsReview": false,
+        "processedAt": "2026-02-24T08:40:15.969Z"
+      },
+      {
+        "nctId": "NCT00000509",
+        "title": "Potassium and Sodium to Control Blood Pressure in Hypertensives",
+        "briefSummary": null,
+        "status": "COMPLETED",
+        "startDate": "1983-09-30",
+        "completionDate": "2003-09-30",
+        "studyType": "INTERVENTIONAL",
+        "phases": [
+          "PHASE3"
+        ],
+        "enrollment": null,
+        "allocation": "RANDOMIZED",
+        "primaryPurpose": "TREATMENT",
+        "source": "aact",
+        "retrievedAt": "2026-02-24T08:40:15.048Z",
+        "isDuplicate": false,
+        "classification": "exclude",
+        "relevanceScore": 0,
+        "relevanceReasons": [
+          "Missing required keywords",
+          "Study design may not meet criteria: Unknown"
+        ],
+        "pico": null,
+        "needsReview": false,
+        "processedAt": "2026-02-24T08:40:15.981Z"
+      },
+      {
+        "nctId": "NCT00000513",
+        "title": "Trial of Antihypertensive Intervention Management",
+        "briefSummary": null,
+        "status": "COMPLETED",
+        "startDate": "1984-04-30",
+        "completionDate": "1994-11-30",
+        "studyType": "INTERVENTIONAL",
+        "phases": [
+          "PHASE3"
+        ],
+        "enrollment": null,
+        "allocation": "RANDOMIZED",
+        "primaryPurpose": "TREATMENT",
+        "source": "aact",
+        "retrievedAt": "2026-02-24T08:40:15.048Z",
+        "isDuplicate": false,
+        "classification": "exclude",
+        "relevanceScore": 0,
+        "relevanceReasons": [
+          "Missing required keywords",
+          "Contains 1 preferred keywords",
+          "Study design may not meet criteria: Unknown"
+        ],
+        "pico": null,
+        "needsReview": false,
+        "processedAt": "2026-02-24T08:40:15.990Z"
+      },
+      {
+        "nctId": "NCT00000515",
+        "title": "Randomized Trial of Dietary Intervention Therapy in Obese Hypertensives (DITOH)",
+        "briefSummary": null,
+        "status": "COMPLETED",
+        "startDate": "1984-07-31",
+        "completionDate": "1992-09-30",
+        "studyType": "INTERVENTIONAL",
+        "phases": [
+          "PHASE3"
+        ],
+        "enrollment": null,
+        "allocation": "RANDOMIZED",
+        "primaryPurpose": "PREVENTION",
+        "source": "aact",
+        "retrievedAt": "2026-02-24T08:40:15.048Z",
+        "isDuplicate": false,
+        "classification": "exclude",
+        "relevanceScore": 35,
+        "relevanceReasons": [
+          "Missing required keywords",
+          "Contains 2 preferred keywords",
+          "Accepted study design: RCT"
+        ],
+        "pico": null,
+        "needsReview": true,
+        "processedAt": "2026-02-24T08:40:15.998Z"
+      },
+      {
+        "nctId": "NCT00000516",
+        "title": "Studies of Left Ventricular Dysfunction (SOLVD)",
+        "briefSummary": null,
+        "status": "COMPLETED",
+        "startDate": "1985-07-31",
+        "completionDate": "1990-05-31",
+        "studyType": "INTERVENTIONAL",
+        "phases": [
+          "PHASE3"
+        ],
+        "enrollment": null,
+        "allocation": "RANDOMIZED",
+        "primaryPurpose": "PREVENTION",
+        "source": "aact",
+        "retrievedAt": "2026-02-24T08:40:15.048Z",
+        "isDuplicate": false,
+        "classification": "exclude",
+        "relevanceScore": 0,
+        "relevanceReasons": [
+          "Missing required keywords",
+          "Study design may not meet criteria: Unknown"
+        ],
+        "pico": null,
+        "needsReview": false,
+        "processedAt": "2026-02-24T08:40:16.001Z"
+      },
+      {
+        "nctId": "NCT00000519",
+        "title": "Exercise Training and Plasma Lipoproteins in Man",
+        "briefSummary": null,
+        "status": "COMPLETED",
+        "startDate": "1982-07-31",
+        "completionDate": null,
+        "studyType": "INTERVENTIONAL",
+        "phases": [
+          "PHASE3"
+        ],
+        "enrollment": null,
+        "allocation": "RANDOMIZED",
+        "primaryPurpose": "PREVENTION",
+        "source": "aact",
+        "retrievedAt": "2026-02-24T08:40:15.048Z",
+        "isDuplicate": false,
+        "classification": "exclude",
+        "relevanceScore": 0,
+        "relevanceReasons": [
+          "Missing required keywords",
+          "Study design may not meet criteria: Unknown"
+        ],
+        "pico": null,
+        "needsReview": false,
+        "processedAt": "2026-02-24T08:40:16.004Z"
+      },
+      {
+        "nctId": "NCT00000521",
+        "title": "Sodium-Potassium Blood Pressure Trial in Children",
+        "briefSummary": null,
+        "status": "COMPLETED",
+        "startDate": "1985-08-31",
+        "completionDate": "1990-12-31",
+        "studyType": "INTERVENTIONAL",
+        "phases": [
+          "PHASE4"
+        ],
+        "enrollment": 285,
+        "allocation": "RANDOMIZED",
+        "primaryPurpose": "PREVENTION",
+        "source": "aact",
+        "retrievedAt": "2026-02-24T08:40:15.048Z",
+        "isDuplicate": false,
+        "classification": "exclude",
+        "relevanceScore": 0,
+        "relevanceReasons": [
+          "Missing required keywords",
+          "Contains 1 preferred keywords",
+          "Study design may not meet criteria: Unknown"
+        ],
+        "pico": null,
+        "needsReview": false,
+        "processedAt": "2026-02-24T08:40:16.011Z"
+      },
+      {
+        "nctId": "NCT00000529",
+        "title": "Tamoxifen Study",
+        "briefSummary": null,
+        "status": "COMPLETED",
+        "startDate": "1992-05-31",
+        "completionDate": "1995-11-30",
+        "studyType": "INTERVENTIONAL",
+        "phases": [
+          "PHASE3"
+        ],
+        "enrollment": null,
+        "allocation": "RANDOMIZED",
+        "primaryPurpose": "PREVENTION",
+        "source": "aact",
+        "retrievedAt": "2026-02-24T08:40:15.048Z",
+        "isDuplicate": false,
+        "classification": "exclude",
+        "relevanceScore": 0,
+        "relevanceReasons": [
+          "Missing required keywords",
+          "Study design may not meet criteria: Unknown"
+        ],
+        "pico": null,
+        "needsReview": false,
+        "processedAt": "2026-02-24T08:40:16.025Z"
+      },
+      {
+        "nctId": "NCT00000532",
+        "title": "Women's Healthy Lifestyle Project: Cardiovascular Risk Factors and Menopause",
+        "briefSummary": null,
+        "status": "COMPLETED",
+        "startDate": "1992-02-29",
+        "completionDate": "2000-01-31",
+        "studyType": "INTERVENTIONAL",
+        "phases": [
+          "PHASE3"
+        ],
+        "enrollment": null,
+        "allocation": "RANDOMIZED",
+        "primaryPurpose": "PREVENTION",
+        "source": "aact",
+        "retrievedAt": "2026-02-24T08:40:15.048Z",
+        "isDuplicate": false,
+        "classification": "exclude",
+        "relevanceScore": 0,
+        "relevanceReasons": [
+          "Missing required keywords",
+          "Study design may not meet criteria: Unknown"
+        ],
+        "pico": null,
+        "needsReview": false,
+        "processedAt": "2026-02-24T08:40:16.033Z"
+      },
+      {
+        "nctId": "NCT00000535",
+        "title": "Trial of Nonpharmacologic Interventions in Elderly (TONE)",
+        "briefSummary": null,
+        "status": "COMPLETED",
+        "startDate": "1992-04-30",
+        "completionDate": "1997-03-31",
+        "studyType": "INTERVENTIONAL",
+        "phases": [
+          "PHASE3"
+        ],
+        "enrollment": null,
+        "allocation": "RANDOMIZED",
+        "primaryPurpose": "TREATMENT",
+        "source": "aact",
+        "retrievedAt": "2026-02-24T08:40:15.048Z",
+        "isDuplicate": false,
+        "classification": "exclude",
+        "relevanceScore": 0,
+        "relevanceReasons": [
+          "Missing required keywords",
+          "Contains 1 preferred keywords",
+          "Study design may not meet criteria: Unknown"
+        ],
+        "pico": null,
+        "needsReview": false,
+        "processedAt": "2026-02-24T08:40:16.040Z"
+      },
+      {
+        "nctId": "NCT00000536",
+        "title": "Sodium Sensitivity in African Americans",
+        "briefSummary": null,
+        "status": "COMPLETED",
+        "startDate": "1992-07-31",
+        "completionDate": "1997-06-30",
+        "studyType": "INTERVENTIONAL",
+        "phases": [
+          "PHASE2"
+        ],
+        "enrollment": null,
+        "allocation": "RANDOMIZED",
+        "primaryPurpose": "PREVENTION",
+        "source": "aact",
+        "retrievedAt": "2026-02-24T08:40:15.048Z",
+        "isDuplicate": false,
+        "classification": "exclude",
+        "relevanceScore": 0,
+        "relevanceReasons": [
+          "Missing required keywords",
+          "Study design may not meet criteria: Unknown"
+        ],
+        "pico": null,
+        "needsReview": false,
+        "processedAt": "2026-02-24T08:40:16.050Z"
+      },
+      {
+        "nctId": "NCT00000537",
+        "title": "Stress Reduction & CVD Morbidity and Mortality in Blacks",
+        "briefSummary": null,
+        "status": "COMPLETED",
+        "startDate": "1992-07-31",
+        "completionDate": "2008-07-31",
+        "studyType": "INTERVENTIONAL",
+        "phases": [
+          "PHASE2"
+        ],
+        "enrollment": null,
+        "allocation": "RANDOMIZED",
+        "primaryPurpose": "PREVENTION",
+        "source": "aact",
+        "retrievedAt": "2026-02-24T08:40:15.048Z",
+        "isDuplicate": false,
+        "classification": "exclude",
+        "relevanceScore": 0,
+        "relevanceReasons": [
+          "Missing required keywords",
+          "Study design may not meet criteria: Unknown"
+        ],
+        "pico": null,
+        "needsReview": false,
+        "processedAt": "2026-02-24T08:40:16.064Z"
+      },
+      {
+        "nctId": "NCT00000542",
+        "title": "Antihypertensive and Lipid-Lowering Treatment to Prevent Heart Attack Trial (ALLHAT)",
+        "briefSummary": null,
+        "status": "COMPLETED",
+        "startDate": "1993-08-31",
+        "completionDate": "2002-03-31",
+        "studyType": "INTERVENTIONAL",
+        "phases": [
+          "PHASE3"
+        ],
+        "enrollment": null,
+        "allocation": "RANDOMIZED",
+        "primaryPurpose": "PREVENTION",
+        "source": "aact",
+        "retrievedAt": "2026-02-24T08:40:15.048Z",
+        "isDuplicate": false,
+        "classification": "exclude",
+        "relevanceScore": 0,
+        "relevanceReasons": [
+          "Missing required keywords",
+          "Contains 1 preferred keywords",
+          "Study design may not meet criteria: Unknown"
+        ],
+        "pico": null,
+        "needsReview": false,
+        "processedAt": "2026-02-24T08:40:16.080Z"
+      },
+      {
+        "nctId": "NCT00000616",
+        "title": "PREMIER: Lifestyle Interventions for Blood Pressure Control",
+        "briefSummary": null,
+        "status": "COMPLETED",
+        "startDate": "1998-09-30",
+        "completionDate": "2004-08-31",
+        "studyType": "INTERVENTIONAL",
+        "phases": [
+          "PHASE3"
+        ],
+        "enrollment": null,
+        "allocation": "RANDOMIZED",
+        "primaryPurpose": "PREVENTION",
+        "source": "aact",
+        "retrievedAt": "2026-02-24T08:40:15.048Z",
+        "isDuplicate": false,
+        "classification": "exclude",
+        "relevanceScore": 0,
+        "relevanceReasons": [
+          "Missing required keywords",
+          "Study design may not meet criteria: Unknown"
+        ],
+        "pico": null,
+        "needsReview": false,
+        "processedAt": "2026-02-24T08:40:16.150Z"
+      },
+      {
+        "nctId": "NCT00000620",
+        "title": "Action to Control Cardiovascular Risk in Diabetes (ACCORD)",
+        "briefSummary": null,
+        "status": "COMPLETED",
+        "startDate": "1999-09-30",
+        "completionDate": "2012-12-31",
+        "studyType": "INTERVENTIONAL",
+        "phases": [
+          "PHASE3"
+        ],
+        "enrollment": 10251,
+        "allocation": "RANDOMIZED",
+        "primaryPurpose": "PREVENTION",
+        "source": "aact",
+        "retrievedAt": "2026-02-24T08:40:15.048Z",
+        "isDuplicate": false,
+        "classification": "exclude",
+        "relevanceScore": 0,
+        "relevanceReasons": [
+          "Missing required keywords",
+          "Study design may not meet criteria: Unknown"
+        ],
+        "pico": null,
+        "needsReview": false,
+        "processedAt": "2026-02-24T08:40:16.167Z"
+      },
+      {
+        "nctId": "NCT00001723",
+        "title": "Safety and Efficacy of Xenical in Children and Adolescents With Obesity-Related Diseases",
+        "briefSummary": null,
+        "status": "COMPLETED",
+        "startDate": "1998-05-31",
+        "completionDate": "2011-10-31",
+        "studyType": "INTERVENTIONAL",
+        "phases": [
+          "PHASE2"
+        ],
+        "enrollment": 200,
+        "allocation": "RANDOMIZED",
+        "primaryPurpose": "TREATMENT",
+        "source": "aact",
+        "retrievedAt": "2026-02-24T08:40:15.048Z",
+        "isDuplicate": false,
+        "classification": "exclude",
+        "relevanceScore": 0,
+        "relevanceReasons": [
+          "Missing required keywords",
+          "Study design may not meet criteria: Unknown"
+        ],
+        "pico": null,
+        "needsReview": false,
+        "processedAt": "2026-02-24T08:40:16.193Z"
+      },
+      {
+        "nctId": "NCT00006398",
+        "title": "Prevention of Esophageal Varices by Beta-Adrenergic Blockers",
+        "briefSummary": null,
+        "status": "COMPLETED",
+        "startDate": "1993-08-31",
+        "completionDate": "2002-09-30",
+        "studyType": "INTERVENTIONAL",
+        "phases": [
+          "PHASE3"
+        ],
+        "enrollment": 213,
+        "allocation": "RANDOMIZED",
+        "primaryPurpose": "PREVENTION",
+        "source": "aact",
+        "retrievedAt": "2026-02-24T08:40:15.048Z",
+        "isDuplicate": false,
+        "classification": "exclude",
+        "relevanceScore": 0,
+        "relevanceReasons": [
+          "Missing required keywords",
+          "Study design may not meet criteria: Unknown"
+        ],
+        "pico": null,
+        "needsReview": false,
+        "processedAt": "2026-02-24T08:40:16.280Z"
+      },
+      {
+        "nctId": "NCT00018759",
+        "title": "Treatment Effects on Platelet Calcium in Hypertensive and Depressed Patients",
+        "briefSummary": null,
+        "status": "COMPLETED",
+        "startDate": "2001-03-31",
+        "completionDate": "2003-10-31",
+        "studyType": "INTERVENTIONAL",
+        "phases": [
+          "PHASE4"
+        ],
+        "enrollment": null,
+        "allocation": "RANDOMIZED",
+        "primaryPurpose": "TREATMENT",
+        "source": "aact",
+        "retrievedAt": "2026-02-24T08:40:15.048Z",
+        "isDuplicate": false,
+        "classification": "exclude",
+        "relevanceScore": 0,
+        "relevanceReasons": [
+          "Missing required keywords",
+          "Study design may not meet criteria: Unknown"
+        ],
+        "pico": null,
+        "needsReview": false,
+        "processedAt": "2026-02-24T08:40:16.336Z"
+      },
+      {
+        "nctId": "NCT00045981",
+        "title": "The SAPPHIRE Study (Systolic And Pulse Pressure Hemodynamic Improvement By Restoring Elasticity)",
+        "briefSummary": null,
+        "status": "COMPLETED",
+        "startDate": "2001-10-31",
+        "completionDate": "2006-08-31",
+        "studyType": "INTERVENTIONAL",
+        "phases": [
+          "PHASE2"
+        ],
+        "enrollment": 450,
+        "allocation": "RANDOMIZED",
+        "primaryPurpose": "TREATMENT",
+        "source": "aact",
+        "retrievedAt": "2026-02-24T08:40:15.048Z",
+        "isDuplicate": false,
+        "classification": "exclude",
+        "relevanceScore": 0,
+        "relevanceReasons": [
+          "Missing required keywords",
+          "Study design may not meet criteria: Unknown"
+        ],
+        "pico": null,
+        "needsReview": false,
+        "processedAt": "2026-02-24T08:40:16.425Z"
+      },
+      {
+        "nctId": "NCT00046566",
+        "title": "Clinical Trial of Dietary Protein and Blood Pressure",
+        "briefSummary": null,
+        "status": "COMPLETED",
+        "startDate": "2002-07-31",
+        "completionDate": "2008-04-30",
+        "studyType": "INTERVENTIONAL",
+        "phases": [
+          "NA"
+        ],
+        "enrollment": 352,
+        "allocation": "RANDOMIZED",
+        "primaryPurpose": "PREVENTION",
+        "source": "aact",
+        "retrievedAt": "2026-02-24T08:40:15.048Z",
+        "isDuplicate": false,
+        "classification": "exclude",
+        "relevanceScore": 0,
+        "relevanceReasons": [
+          "Missing required keywords",
+          "Contains 1 preferred keywords",
+          "Study design may not meet criteria: Unknown"
+        ],
+        "pico": null,
+        "needsReview": false,
+        "processedAt": "2026-02-24T08:40:16.558Z"
+      },
+      {
+        "nctId": "NCT00047593",
+        "title": "Phase 3 Study Comparing IOP Lowering in OAG or OH in Japanese Subjects C-01-98",
+        "briefSummary": null,
+        "status": "COMPLETED",
+        "startDate": "2000-01-31",
+        "completionDate": "2004-07-31",
+        "studyType": "INTERVENTIONAL",
+        "phases": [
+          "PHASE3"
+        ],
+        "enrollment": null,
+        "allocation": "RANDOMIZED",
+        "primaryPurpose": "TREATMENT",
+        "source": "aact",
+        "retrievedAt": "2026-02-24T08:40:15.048Z",
+        "isDuplicate": false,
+        "classification": "exclude",
+        "relevanceScore": 0,
+        "relevanceReasons": [
+          "Missing required keywords",
+          "Study design may not meet criteria: Unknown"
+        ],
+        "pico": null,
+        "needsReview": false,
+        "processedAt": "2026-02-24T08:40:16.779Z"
+      },
+      {
+        "nctId": "NCT00051350",
+        "title": "OmniHeart Trial: Macronutrients and Cardiovascular Risk",
+        "briefSummary": null,
+        "status": "COMPLETED",
+        "startDate": "2002-05-31",
+        "completionDate": "2008-03-31",
+        "studyType": "INTERVENTIONAL",
+        "phases": [
+          "NA"
+        ],
+        "enrollment": 164,
+        "allocation": "RANDOMIZED",
+        "primaryPurpose": "PREVENTION",
+        "source": "aact",
+        "retrievedAt": "2026-02-24T08:40:15.048Z",
+        "isDuplicate": false,
+        "classification": "exclude",
+        "relevanceScore": 0,
+        "relevanceReasons": [
+          "Missing required keywords",
+          "Contains 1 preferred keywords",
+          "Study design may not meet criteria: Unknown"
+        ],
+        "pico": null,
+        "needsReview": false,
+        "processedAt": "2026-02-24T08:40:17.137Z"
+      },
+      {
+        "nctId": "NCT00051389",
+        "title": "ACE Inhibition and Novel Cardiovascular Risk Factors",
+        "briefSummary": null,
+        "status": "COMPLETED",
+        "startDate": "2002-02-28",
+        "completionDate": "2007-01-31",
+        "studyType": "INTERVENTIONAL",
+        "phases": [
+          "PHASE2"
+        ],
+        "enrollment": null,
+        "allocation": "RANDOMIZED",
+        "primaryPurpose": "PREVENTION",
+        "source": "aact",
+        "retrievedAt": "2026-02-24T08:40:15.048Z",
+        "isDuplicate": false,
+        "classification": "exclude",
+        "relevanceScore": 0,
+        "relevanceReasons": [
+          "Missing required keywords",
+          "Study design may not meet criteria: Unknown"
+        ],
+        "pico": null,
+        "needsReview": false,
+        "processedAt": "2026-02-24T08:40:17.232Z"
+      },
+      {
+        "nctId": "NCT00054925",
+        "title": "Weight Loss Maintenance (WLM)",
+        "briefSummary": null,
+        "status": "COMPLETED",
+        "startDate": "2003-01-31",
+        "completionDate": "2009-10-31",
+        "studyType": "INTERVENTIONAL",
+        "phases": [
+          "NA"
+        ],
+        "enrollment": 1685,
+        "allocation": "RANDOMIZED",
+        "primaryPurpose": "PREVENTION",
+        "source": "aact",
+        "retrievedAt": "2026-02-24T08:40:15.048Z",
+        "isDuplicate": false,
+        "classification": "exclude",
+        "relevanceScore": 0,
+        "relevanceReasons": [
+          "Missing required keywords",
+          "Study design may not meet criteria: Unknown"
+        ],
+        "pico": null,
+        "needsReview": false,
+        "processedAt": "2026-02-24T08:40:17.315Z"
+      },
+      {
+        "nctId": "NCT00059306",
+        "title": "Secondary Prevention of Small Subcortical Strokes Trial",
+        "briefSummary": null,
+        "status": "COMPLETED",
+        "startDate": "2003-02-28",
+        "completionDate": "2012-04-30",
+        "studyType": "INTERVENTIONAL",
+        "phases": [
+          "PHASE3"
+        ],
+        "enrollment": 3020,
+        "allocation": "RANDOMIZED",
+        "primaryPurpose": "TREATMENT",
+        "source": "aact",
+        "retrievedAt": "2026-02-24T08:40:15.048Z",
+        "isDuplicate": false,
+        "classification": "exclude",
+        "relevanceScore": 0,
+        "relevanceReasons": [
+          "Missing required keywords",
+          "Contains 1 preferred keywords",
+          "Study design may not meet criteria: Unknown"
+        ],
+        "pico": null,
+        "needsReview": false,
+        "processedAt": "2026-02-24T08:40:17.514Z"
+      },
+      {
+        "nctId": "NCT00072891",
+        "title": "Improving Medication Adherence in Comorbid Conditions",
+        "briefSummary": null,
+        "status": "COMPLETED",
+        "startDate": null,
+        "completionDate": "2005-12-31",
+        "studyType": "INTERVENTIONAL",
+        "phases": [
+          "NA"
+        ],
+        "enrollment": 400,
+        "allocation": "RANDOMIZED",
+        "primaryPurpose": null,
+        "source": "aact",
+        "retrievedAt": "2026-02-24T08:40:15.048Z",
+        "isDuplicate": false,
+        "classification": "exclude",
+        "relevanceScore": 0,
+        "relevanceReasons": [
+          "Missing required keywords",
+          "Study design may not meet criteria: Unknown"
+        ],
+        "pico": null,
+        "needsReview": false,
+        "processedAt": "2026-02-24T08:40:18.712Z"
+      },
+      {
+        "nctId": "NCT00074633",
+        "title": "Evaluating \"Health at Every Size\"(HAES) as an Alternative Obesity Treatment Model",
+        "briefSummary": null,
+        "status": "COMPLETED",
+        "startDate": "2000-01-31",
+        "completionDate": null,
+        "studyType": "INTERVENTIONAL",
+        "phases": [
+          "NA"
+        ],
+        "enrollment": 79,
+        "allocation": "RANDOMIZED",
+        "primaryPurpose": "TREATMENT",
+        "source": "aact",
+        "retrievedAt": "2026-02-24T08:40:15.048Z",
+        "isDuplicate": false,
+        "classification": "exclude",
+        "relevanceScore": 0,
+        "relevanceReasons": [
+          "Missing required keywords",
+          "Study design may not meet criteria: Unknown"
+        ],
+        "pico": null,
+        "needsReview": false,
+        "processedAt": "2026-02-24T08:40:18.860Z"
+      },
+      {
+        "nctId": "NCT00081731",
+        "title": "Benefits of Medical Therapy Plus Stenting for Renal Atherosclerotic Lesions",
+        "briefSummary": null,
+        "status": "COMPLETED",
+        "startDate": "2004-04-30",
+        "completionDate": "2013-09-30",
+        "studyType": "INTERVENTIONAL",
+        "phases": [
+          "PHASE3"
+        ],
+        "enrollment": 947,
+        "allocation": "RANDOMIZED",
+        "primaryPurpose": "TREATMENT",
+        "source": "aact",
+        "retrievedAt": "2026-02-24T08:40:15.048Z",
+        "isDuplicate": false,
+        "classification": "exclude",
+        "relevanceScore": 0,
+        "relevanceReasons": [
+          "Missing required keywords",
+          "Study design may not meet criteria: Unknown"
+        ],
+        "pico": null,
+        "needsReview": false,
+        "processedAt": "2026-02-24T08:40:19.133Z"
+      },
+      {
+        "nctId": "NCT00089752",
+        "title": "Continuous Positive Airway Pressure to Improve Milder Obstructive Sleep Apnea",
+        "briefSummary": null,
+        "status": "COMPLETED",
+        "startDate": "2003-09-30",
+        "completionDate": "2008-11-30",
+        "studyType": "INTERVENTIONAL",
+        "phases": [
+          "NA"
+        ],
+        "enrollment": 281,
+        "allocation": "RANDOMIZED",
+        "primaryPurpose": "TREATMENT",
+        "source": "aact",
+        "retrievedAt": "2026-02-24T08:40:15.048Z",
+        "isDuplicate": false,
+        "classification": "exclude",
+        "relevanceScore": 0,
+        "relevanceReasons": [
+          "Missing required keywords",
+          "Study design may not meet criteria: Unknown"
+        ],
+        "pico": null,
+        "needsReview": false,
+        "processedAt": "2026-02-24T08:40:19.332Z"
+      },
+      {
+        "nctId": "NCT00093249",
+        "title": "Study of Clevidipine Assessing Its Preoperative Antihypertensive Effect in Cardiac Surgery (ESCAPE-1)",
+        "briefSummary": null,
+        "status": "COMPLETED",
+        "startDate": "2004-01-31",
+        "completionDate": "2004-11-30",
+        "studyType": "INTERVENTIONAL",
+        "phases": [
+          "PHASE3"
+        ],
+        "enrollment": 105,
+        "allocation": "RANDOMIZED",
+        "primaryPurpose": "TREATMENT",
+        "source": "aact",
+        "retrievedAt": "2026-02-24T08:40:15.048Z",
+        "isDuplicate": false,
+        "classification": "exclude",
+        "relevanceScore": 0,
+        "relevanceReasons": [
+          "Missing required keywords",
+          "Study design may not meet criteria: Unknown"
+        ],
+        "pico": null,
+        "needsReview": false,
+        "processedAt": "2026-02-24T08:40:19.981Z"
+      },
+      {
+        "nctId": "NCT00206882",
+        "title": "The Sun Protection Effect and Efficacy in Treatment of Sunburn Using Topical Corticosteroids.",
+        "briefSummary": null,
+        "status": "UNKNOWN",
+        "startDate": "2005-09-30",
+        "completionDate": null,
+        "studyType": "INTERVENTIONAL",
+        "phases": [
+          "NA"
+        ],
+        "enrollment": 20,
+        "allocation": "RANDOMIZED",
+        "primaryPurpose": "TREATMENT",
+        "source": "aact",
+        "retrievedAt": "2026-02-24T08:40:15.968Z",
+        "isDuplicate": false,
+        "classification": "exclude",
+        "relevanceScore": 0,
+        "relevanceReasons": [
+          "Missing required keywords",
+          "Study design may not meet criteria: Unknown"
+        ],
+        "pico": null,
+        "needsReview": false,
+        "processedAt": "2026-02-24T08:40:20.669Z"
+      },
+      {
+        "nctId": "NCT00968708",
+        "title": "Cardiovascular Outcomes Study of Alogliptin in Patients With Type 2 Diabetes and Acute Coronary Syndrome",
+        "briefSummary": null,
+        "status": "COMPLETED",
+        "startDate": "2009-09-30",
+        "completionDate": "2013-06-30",
+        "studyType": "INTERVENTIONAL",
+        "phases": [
+          "PHASE3"
+        ],
+        "enrollment": 5380,
+        "allocation": "RANDOMIZED",
+        "primaryPurpose": "TREATMENT",
+        "source": "aact",
+        "retrievedAt": "2026-02-24T08:40:15.968Z",
+        "isDuplicate": false,
+        "classification": "exclude",
+        "relevanceScore": 0,
+        "relevanceReasons": [
+          "Missing required keywords",
+          "Study design may not meet criteria: Unknown"
+        ],
+        "pico": null,
+        "needsReview": false,
+        "processedAt": "2026-02-24T08:40:20.850Z"
+      }
+    ],
+    "summary": {
+      "totalFound": 82,
+      "newPotentialInclusions": 1,
+      "newMaybes": 32,
+      "duplicatesDetected": 16,
+      "autoExcluded": 33,
+      "trialUniverseWithoutPICO": 82,
+      "trialUniverseWithPICO": 46,
+      "trialUniverseRetainedPct": 56.1
+    },
+    "trialUniverse": {
+      "decision": "PASS",
+      "withoutPICO": {
+        "totalStudies": 82,
+        "uniqueNctCount": 82,
+        "studyIds": [
+          "NCT00000125",
+          "NCT00000466",
+          "NCT00000471",
+          "NCT00000474",
+          "NCT00000484",
+          "NCT00000485",
+          "NCT00000495",
+          "NCT00000497",
+          "NCT00000498",
+          "NCT00000499",
+          "NCT00000501",
+          "NCT00000509",
+          "NCT00000511",
+          "NCT00000513",
+          "NCT00000514",
+          "NCT00000515",
+          "NCT00000516",
+          "NCT00000519",
+          "NCT00000521",
+          "NCT00000522",
+          "NCT00000525",
+          "NCT00000529",
+          "NCT00000532",
+          "NCT00000535",
+          "NCT00000536",
+          "NCT00000537",
+          "NCT00000542",
+          "NCT00000543",
+          "NCT00000544",
+          "NCT00000546",
+          "NCT00000616",
+          "NCT00000620",
+          "NCT00001723",
+          "NCT00004497",
+          "NCT00004561",
+          "NCT00006398",
+          "NCT00010478",
+          "NCT00012636",
+          "NCT00018759",
+          "NCT00034840",
+          "NCT00044265",
+          "NCT00045981",
+          "NCT00045994",
+          "NCT00046319",
+          "NCT00046566",
+          "NCT00047515",
+          "NCT00047528",
+          "NCT00047541",
+          "NCT00047593",
+          "NCT00051142",
+          "NCT00051155",
+          "NCT00051181",
+          "NCT00051194",
+          "NCT00051350",
+          "NCT00051389",
+          "NCT00054925",
+          "NCT00058929",
+          "NCT00059306",
+          "NCT00060918",
+          "NCT00060931",
+          "NCT00061503",
+          "NCT00061516",
+          "NCT00061529",
+          "NCT00061542",
+          "NCT00067665",
+          "NCT00069706",
+          "NCT00069719",
+          "NCT00072891",
+          "NCT00074633",
+          "NCT00080457",
+          "NCT00081731",
+          "NCT00086463",
+          "NCT00089752",
+          "NCT00091598",
+          "NCT00091715",
+          "NCT00092209",
+          "NCT00093249",
+          "NCT00093262",
+          "NCT00093886",
+          "NCT00093912",
+          "NCT00206882",
+          "NCT00968708"
+        ],
+        "duplicateCount": 0,
+        "duplicateStudyIds": []
+      },
+      "withPICO": {
+        "totalStudies": 46,
+        "includeCount": 2,
+        "maybeCount": 44,
+        "excludeCount": 36,
+        "studyIds": [
+          "NCT00000125",
+          "NCT00000474",
+          "NCT00000484",
+          "NCT00000485",
+          "NCT00000495",
+          "NCT00000497",
+          "NCT00000498",
+          "NCT00000499",
+          "NCT00000501",
+          "NCT00000511",
+          "NCT00000514",
+          "NCT00000522",
+          "NCT00000525",
+          "NCT00000543",
+          "NCT00000544",
+          "NCT00004497",
+          "NCT00004561",
+          "NCT00010478",
+          "NCT00012636",
+          "NCT00034840",
+          "NCT00044265",
+          "NCT00045994",
+          "NCT00046319",
+          "NCT00047515",
+          "NCT00047528",
+          "NCT00047541",
+          "NCT00051142",
+          "NCT00051155",
+          "NCT00051194",
+          "NCT00058929",
+          "NCT00060918",
+          "NCT00060931",
+          "NCT00061503",
+          "NCT00061516",
+          "NCT00061529",
+          "NCT00061542",
+          "NCT00067665",
+          "NCT00069706",
+          "NCT00069719",
+          "NCT00080457",
+          "NCT00086463",
+          "NCT00091598",
+          "NCT00091715",
+          "NCT00092209",
+          "NCT00093886",
+          "NCT00093912"
+        ],
+        "includeStudyIds": [
+          "NCT00000495",
+          "NCT00004497"
+        ],
+        "maybeStudyIds": [
+          "NCT00000125",
+          "NCT00000474",
+          "NCT00000484",
+          "NCT00000485",
+          "NCT00000497",
+          "NCT00000498",
+          "NCT00000499",
+          "NCT00000501",
+          "NCT00000511",
+          "NCT00000514",
+          "NCT00000522",
+          "NCT00000525",
+          "NCT00000543",
+          "NCT00000544",
+          "NCT00004561",
+          "NCT00010478",
+          "NCT00012636",
+          "NCT00034840",
+          "NCT00044265",
+          "NCT00045994",
+          "NCT00046319",
+          "NCT00047515",
+          "NCT00047528",
+          "NCT00047541",
+          "NCT00051142",
+          "NCT00051155",
+          "NCT00051194",
+          "NCT00058929",
+          "NCT00060918",
+          "NCT00060931",
+          "NCT00061503",
+          "NCT00061516",
+          "NCT00061529",
+          "NCT00061542",
+          "NCT00067665",
+          "NCT00069706",
+          "NCT00069719",
+          "NCT00080457",
+          "NCT00086463",
+          "NCT00091598",
+          "NCT00091715",
+          "NCT00092209",
+          "NCT00093886",
+          "NCT00093912"
+        ],
+        "excludeStudyIds": [
+          "NCT00000466",
+          "NCT00000471",
+          "NCT00000509",
+          "NCT00000513",
+          "NCT00000515",
+          "NCT00000516",
+          "NCT00000519",
+          "NCT00000521",
+          "NCT00000529",
+          "NCT00000532",
+          "NCT00000535",
+          "NCT00000536",
+          "NCT00000537",
+          "NCT00000542",
+          "NCT00000546",
+          "NCT00000616",
+          "NCT00000620",
+          "NCT00001723",
+          "NCT00006398",
+          "NCT00018759",
+          "NCT00045981",
+          "NCT00046566",
+          "NCT00047593",
+          "NCT00051181",
+          "NCT00051350",
+          "NCT00051389",
+          "NCT00054925",
+          "NCT00059306",
+          "NCT00072891",
+          "NCT00074633",
+          "NCT00081731",
+          "NCT00089752",
+          "NCT00093249",
+          "NCT00093262",
+          "NCT00206882",
+          "NCT00968708"
+        ]
+      },
+      "comparison": {
+        "removedByPICO": 36,
+        "retainedPct": 56.1,
+        "excludedPct": 43.9
+      }
+    },
+    "landmarkCoverage": {
+      "decision": "PASS",
+      "guidelineProfile": "cardiology",
+      "overallCoveragePct": 100,
+      "totalExpected": 3,
+      "totalFound": 3,
+      "minCoveragePct": 70,
+      "areas": {
+        "hypertension": {
+          "expected": 3,
+          "found": 3,
+          "missing": 0,
+          "coveragePct": 100,
+          "foundNctIds": [
+            "NCT00000542",
+            "NCT00206882",
+            "NCT00968708"
+          ],
+          "missingNctIds": []
+        }
+      }
+    },
+    "robustness": {
+      "decision": "PASS",
+      "score": 100,
+      "metrics": {
+        "aactIncrementalNctCount": 82,
+        "knownGapRecovered": 0,
+        "knownGapRecoveryPct": 0,
+        "landmarkCoveragePct": 100,
+        "picoRetentionPct": 56.1,
+        "trialUniverseCount": 82
+      },
+      "checks": [
+        {
+          "id": "source_coverage",
+          "label": "Required source coverage",
+          "pass": true,
+          "value": 1
+        },
+        {
+          "id": "ctgov_strategy_depth",
+          "label": "CT.gov strategy depth",
+          "pass": true,
+          "value": 0
+        },
+        {
+          "id": "ctgov_error_free",
+          "label": "CT.gov execution without errors",
+          "pass": true,
+          "value": 1
+        },
+        {
+          "id": "aact_available",
+          "label": "AACT availability",
+          "pass": true,
+          "value": 1
+        },
+        {
+          "id": "aact_incremental_capture",
+          "label": "AACT incremental capture over CT.gov",
+          "pass": true,
+          "value": 82
+        },
+        {
+          "id": "landmark_coverage",
+          "label": "ESC landmark coverage",
+          "pass": true,
+          "value": 100
+        },
+        {
+          "id": "trial_universe_pico",
+          "label": "Trial universe with and without PICO",
+          "pass": true,
+          "value": 56.1
+        }
+      ],
+      "actionItems": []
+    }
+  }
+}

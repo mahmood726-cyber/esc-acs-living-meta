@@ -1,0 +1,5198 @@
+{
+  "generatedAt": "2026-02-24T08:34:26.089Z",
+  "areaKey": "heart_failure",
+  "guidelineProfile": "cardiology",
+  "strategy": {
+    "id": "strat_1771922044255_aw7bt17mv",
+    "name": "ESC heart_failure surveillance",
+    "created": "2026-02-24T08:34:04.256Z",
+    "lastRun": null,
+    "guidelineProfile": "cardiology",
+    "sources": [
+      "aact"
+    ],
+    "searchObjective": "balanced",
+    "queries": {
+      "pubmed": null,
+      "ctgov": null,
+      "embase": null,
+      "cochrane": null,
+      "aact": {
+        "guidelineProfile": "cardiology",
+        "guidelineArea": "heart_failure",
+        "condition": "heart failure",
+        "useAreaTerms": false,
+        "completedOnly": true,
+        "status": [
+          "COMPLETED"
+        ],
+        "maxResults": 80
+      }
+    },
+    "ctgovStrategy": {
+      "mode": "single",
+      "primaryStrategyId": "S3",
+      "strategyIds": [
+        "S3"
+      ],
+      "strategyEvidence": [
+        {
+          "strategyId": "S3",
+          "preset": "Randomized Allocation Only",
+          "meanRecallPct": 99,
+          "minRecallPct": 85.7,
+          "retentionPct": 54
+        },
+        {
+          "strategyId": "S6",
+          "preset": "Completed Status",
+          "meanRecallPct": 85.4,
+          "minRecallPct": 50,
+          "retentionPct": 55
+        },
+        {
+          "strategyId": "S10",
+          "preset": "Treatment RCTs Only",
+          "meanRecallPct": 84.8,
+          "minRecallPct": 0,
+          "retentionPct": 36
+        }
+      ],
+      "strategyRationale": [
+        "Objective \"balanced\" selected default strategy bundle."
+      ],
+      "includeStatusFilter": true
+    },
+    "infrastructure": {
+      "aactGatewayUrl": "http://127.0.0.1:8787/aact/query",
+      "embaseApiKey": null
+    },
+    "filters": {
+      "dateRange": {
+        "from": null,
+        "to": null
+      },
+      "studyTypes": [
+        "RCT"
+      ],
+      "languages": [
+        "en"
+      ],
+      "humans": true,
+      "ctgovStatuses": [
+        "COMPLETED",
+        "ACTIVE_NOT_RECRUITING",
+        "RECRUITING"
+      ]
+    },
+    "inclusionCriteria": {
+      "requiredKeywords": [
+        "heart failure",
+        "cardiac failure"
+      ],
+      "preferredKeywords": [
+        "left ventricular dysfunction",
+        "congestive heart failure",
+        "hfref",
+        "hfpef",
+        "cardiomyopathy",
+        "randomized",
+        "trial",
+        "double blind"
+      ],
+      "exclusionKeywords": [
+        "protocol",
+        "retrospective",
+        "animal",
+        "in vitro"
+      ],
+      "acceptedDesigns": [
+        "RCT",
+        "Observational"
+      ]
+    },
+    "qualityTargets": {
+      "minCtgovRecallPct": 90,
+      "requireAACTForFinalReview": true,
+      "requireAACTIncrementalCapture": false,
+      "minAACTIncrementalNcts": 1,
+      "enforceLandmarkCoverage": true,
+      "minLandmarkCoveragePct": 70,
+      "landmarkGuidelineAreas": [
+        "heart_failure"
+      ],
+      "minSourcesForHighConfidence": 2
+    },
+    "schedule": {
+      "enabled": false,
+      "interval": "weekly",
+      "lastCheck": null,
+      "nextCheck": null
+    },
+    "stats": {
+      "totalRuns": 0,
+      "totalFound": 0,
+      "totalIncluded": 0,
+      "totalExcluded": 0
+    }
+  },
+  "results": {
+    "timestamp": "2026-02-24T08:34:04.257Z",
+    "strategyId": "strat_1771922044255_aw7bt17mv",
+    "guidelineProfile": "cardiology",
+    "sources": {
+      "aact": {
+        "count": 92,
+        "retrieved": 92,
+        "requiresGateway": false,
+        "error": null,
+        "guidelineProfile": "cardiology",
+        "termsUsed": [
+          "heart failure"
+        ],
+        "nctIds": [
+          "NCT00000475",
+          "NCT00000476",
+          "NCT00000516",
+          "NCT00000542",
+          "NCT00000547",
+          "NCT00000560",
+          "NCT00000607",
+          "NCT00000609",
+          "NCT00000619",
+          "NCT00004562",
+          "NCT00007683",
+          "NCT00012818",
+          "NCT00012870",
+          "NCT00012883",
+          "NCT00012974",
+          "NCT00013026",
+          "NCT00013039",
+          "NCT00013221",
+          "NCT00018005",
+          "NCT00023595",
+          "NCT00032422",
+          "NCT00032747",
+          "NCT00038077",
+          "NCT00041431",
+          "NCT00043758",
+          "NCT00043771",
+          "NCT00047437",
+          "NCT00047775",
+          "NCT00048425",
+          "NCT00049985",
+          "NCT00050076",
+          "NCT00052026",
+          "NCT00057057",
+          "NCT00057200",
+          "NCT00057356",
+          "NCT00060840",
+          "NCT00063687",
+          "NCT00067236",
+          "NCT00071331",
+          "NCT00074724",
+          "NCT00078286",
+          "NCT00082589",
+          "NCT00086086",
+          "NCT00090259",
+          "NCT00091507",
+          "NCT00091520",
+          "NCT00094302",
+          "NCT00094562",
+          "NCT00095238",
+          "NCT00099580",
+          "NCT00105846",
+          "NCT00108147",
+          "NCT00108251",
+          "NCT00110227",
+          "NCT00111527",
+          "NCT00111969",
+          "NCT00112125",
+          "NCT00113087",
+          "NCT00115726",
+          "NCT00117234",
+          "NCT00117247",
+          "NCT00119691",
+          "NCT00120276",
+          "NCT00121485",
+          "NCT00122135",
+          "NCT00123955",
+          "NCT00124137",
+          "NCT00125476",
+          "NCT00130884",
+          "NCT00132886",
+          "NCT00132977",
+          "NCT00141856",
+          "NCT00146679",
+          "NCT00146848",
+          "NCT00147706",
+          "NCT00149227",
+          "NCT00149409",
+          "NCT00149422",
+          "NCT00154115",
+          "NCT00156390",
+          "NCT00271154",
+          "NCT00407446",
+          "NCT01035255",
+          "NCT02861534",
+          "NCT02924727",
+          "NCT03036124",
+          "NCT03036462",
+          "NCT03037931",
+          "NCT03057951",
+          "NCT03057977",
+          "NCT03521934",
+          "NCT03619213"
+        ],
+        "landmarkVerification": {
+          "requested": 17,
+          "found": 16,
+          "coveragePct": 94.1,
+          "missingNctIds": [
+            "NCT00232180"
+          ]
+        },
+        "gatewayUrl": "http://127.0.0.1:8787/aact/query"
+      }
+    },
+    "newStudies": [
+      {
+        "nctId": "NCT00000475",
+        "title": "Prevention of Early Readmission in Elderly Congestive Heart Failure Patients",
+        "briefSummary": null,
+        "status": "COMPLETED",
+        "startDate": "1990-04-30",
+        "completionDate": "1995-03-31",
+        "studyType": "INTERVENTIONAL",
+        "phases": [
+          "PHASE2"
+        ],
+        "enrollment": null,
+        "allocation": "RANDOMIZED",
+        "primaryPurpose": "PREVENTION",
+        "source": "aact",
+        "retrievedAt": "2026-02-24T08:34:16.238Z",
+        "isDuplicate": false,
+        "classification": "maybe",
+        "relevanceScore": 50,
+        "relevanceReasons": [
+          "Contains 1 required keywords",
+          "Contains 1 preferred keywords",
+          "Study design may not meet criteria: Unknown"
+        ],
+        "pico": {
+          "population": {
+            "text": "HEART FAILURE",
+            "confidence": 0.9,
+            "type": "condition",
+            "details": [
+              {
+                "text": "HEART FAILURE",
+                "type": "condition",
+                "confidence": 0.9
+              }
+            ]
+          },
+          "intervention": {
+            "text": null,
+            "confidence": 0,
+            "details": []
+          },
+          "comparator": {
+            "text": null,
+            "confidence": 0,
+            "details": []
+          },
+          "outcomes": [],
+          "studyDesign": {
+            "type": "Unknown",
+            "confidence": 0.3
+          },
+          "sampleSize": null,
+          "followUp": null,
+          "setting": []
+        },
+        "needsReview": true,
+        "processedAt": "2026-02-24T08:34:17.160Z"
+      },
+      {
+        "nctId": "NCT00000607",
+        "title": "Randomized Evaluation of Mechanical Assistance for the Treatment of Congestive Heart Failure (REMATCH)",
+        "briefSummary": null,
+        "status": "COMPLETED",
+        "startDate": "1997-10-31",
+        "completionDate": "1999-03-31",
+        "studyType": "INTERVENTIONAL",
+        "phases": [
+          "PHASE3"
+        ],
+        "enrollment": 129,
+        "allocation": "RANDOMIZED",
+        "primaryPurpose": "TREATMENT",
+        "source": "aact",
+        "retrievedAt": "2026-02-24T08:34:16.238Z",
+        "isDuplicate": false,
+        "classification": "include",
+        "relevanceScore": 90,
+        "relevanceReasons": [
+          "Contains 1 required keywords",
+          "Contains 2 preferred keywords",
+          "Accepted study design: RCT"
+        ],
+        "pico": {
+          "population": {
+            "text": "HEART FAILURE",
+            "confidence": 0.9,
+            "type": "condition",
+            "details": [
+              {
+                "text": "HEART FAILURE",
+                "type": "condition",
+                "confidence": 0.9
+              }
+            ]
+          },
+          "intervention": {
+            "text": "Treatment of Congestive Heart Failure (REMATCH)",
+            "confidence": 0.85,
+            "type": "drug_with_dose",
+            "details": [
+              {
+                "text": "Treatment of Congestive Heart Failure (REMATCH)",
+                "type": "drug_with_dose",
+                "confidence": 0.85
+              }
+            ]
+          },
+          "comparator": {
+            "text": null,
+            "confidence": 0,
+            "details": []
+          },
+          "outcomes": [],
+          "studyDesign": {
+            "type": "RCT",
+            "confidence": 0.75
+          },
+          "sampleSize": null,
+          "followUp": null,
+          "setting": []
+        },
+        "needsReview": false,
+        "processedAt": "2026-02-24T08:34:17.191Z"
+      },
+      {
+        "nctId": "NCT00000609",
+        "title": "Sudden Cardiac Death in Heart Failure Trial (SCD-HeFT)",
+        "briefSummary": null,
+        "status": "COMPLETED",
+        "startDate": "1997-05-31",
+        "completionDate": "2005-04-30",
+        "studyType": "INTERVENTIONAL",
+        "phases": [
+          "PHASE3"
+        ],
+        "enrollment": null,
+        "allocation": "RANDOMIZED",
+        "primaryPurpose": "TREATMENT",
+        "source": "aact",
+        "retrievedAt": "2026-02-24T08:34:16.238Z",
+        "isDuplicate": false,
+        "classification": "maybe",
+        "relevanceScore": 50,
+        "relevanceReasons": [
+          "Contains 1 required keywords",
+          "Contains 1 preferred keywords",
+          "Study design may not meet criteria: Unknown"
+        ],
+        "pico": {
+          "population": {
+            "text": "HEART FAILURE",
+            "confidence": 0.9,
+            "type": "condition",
+            "details": [
+              {
+                "text": "HEART FAILURE",
+                "type": "condition",
+                "confidence": 0.9
+              }
+            ]
+          },
+          "intervention": {
+            "text": null,
+            "confidence": 0,
+            "details": []
+          },
+          "comparator": {
+            "text": null,
+            "confidence": 0,
+            "details": []
+          },
+          "outcomes": [],
+          "studyDesign": {
+            "type": "Unknown",
+            "confidence": 0.3
+          },
+          "sampleSize": null,
+          "followUp": null,
+          "setting": []
+        },
+        "needsReview": true,
+        "processedAt": "2026-02-24T08:34:17.199Z"
+      },
+      {
+        "nctId": "NCT00000619",
+        "title": "Evaluation Study of Congestive Heart Failure and Pulmonary Artery Catheterization Effectiveness (ESCAPE)",
+        "briefSummary": null,
+        "status": "COMPLETED",
+        "startDate": "2001-04-30",
+        "completionDate": "2006-03-31",
+        "studyType": "INTERVENTIONAL",
+        "phases": [
+          "PHASE3"
+        ],
+        "enrollment": null,
+        "allocation": "RANDOMIZED",
+        "primaryPurpose": "TREATMENT",
+        "source": "aact",
+        "retrievedAt": "2026-02-24T08:34:16.238Z",
+        "isDuplicate": false,
+        "classification": "maybe",
+        "relevanceScore": 50,
+        "relevanceReasons": [
+          "Contains 1 required keywords",
+          "Contains 1 preferred keywords",
+          "Study design may not meet criteria: Unknown"
+        ],
+        "pico": {
+          "population": {
+            "text": "HEART FAILURE",
+            "confidence": 0.9,
+            "type": "condition",
+            "details": [
+              {
+                "text": "HEART FAILURE",
+                "type": "condition",
+                "confidence": 0.9
+              }
+            ]
+          },
+          "intervention": {
+            "text": null,
+            "confidence": 0,
+            "details": []
+          },
+          "comparator": {
+            "text": null,
+            "confidence": 0,
+            "details": []
+          },
+          "outcomes": [],
+          "studyDesign": {
+            "type": "Unknown",
+            "confidence": 0.3
+          },
+          "sampleSize": null,
+          "followUp": null,
+          "setting": []
+        },
+        "needsReview": true,
+        "processedAt": "2026-02-24T08:34:17.204Z"
+      },
+      {
+        "nctId": "NCT00007683",
+        "title": "Warfarin and Antiplatelet Therapy in Chronic Heart Failure",
+        "briefSummary": null,
+        "status": "COMPLETED",
+        "startDate": "1998-10-31",
+        "completionDate": "2004-12-31",
+        "studyType": "INTERVENTIONAL",
+        "phases": [
+          "PHASE3"
+        ],
+        "enrollment": 1587,
+        "allocation": "RANDOMIZED",
+        "primaryPurpose": "TREATMENT",
+        "source": "aact",
+        "retrievedAt": "2026-02-24T08:34:16.238Z",
+        "isDuplicate": false,
+        "classification": "maybe",
+        "relevanceScore": 45,
+        "relevanceReasons": [
+          "Contains 1 required keywords",
+          "Study design may not meet criteria: Unknown"
+        ],
+        "pico": {
+          "population": {
+            "text": "HEART FAILURE",
+            "confidence": 0.9,
+            "type": "condition",
+            "details": [
+              {
+                "text": "HEART FAILURE",
+                "type": "condition",
+                "confidence": 0.9
+              }
+            ]
+          },
+          "intervention": {
+            "text": "Warfarin",
+            "confidence": 0.9,
+            "type": "known_drug",
+            "details": [
+              {
+                "text": "Warfarin",
+                "context": "Warfarin and Antiplatelet Therapy in Chronic Heart Failure",
+                "type": "known_drug",
+                "confidence": 0.9
+              }
+            ]
+          },
+          "comparator": {
+            "text": null,
+            "confidence": 0,
+            "details": []
+          },
+          "outcomes": [],
+          "studyDesign": {
+            "type": "Unknown",
+            "confidence": 0.3
+          },
+          "sampleSize": null,
+          "followUp": null,
+          "setting": []
+        },
+        "needsReview": true,
+        "processedAt": "2026-02-24T08:34:17.226Z"
+      },
+      {
+        "nctId": "NCT00012870",
+        "title": "Effect of Behavioral Management on Quality of Life in Heart Failure",
+        "briefSummary": null,
+        "status": "COMPLETED",
+        "startDate": null,
+        "completionDate": "2002-03-31",
+        "studyType": "INTERVENTIONAL",
+        "phases": [
+          "NA"
+        ],
+        "enrollment": 116,
+        "allocation": "RANDOMIZED",
+        "primaryPurpose": null,
+        "source": "aact",
+        "retrievedAt": "2026-02-24T08:34:16.238Z",
+        "isDuplicate": false,
+        "classification": "maybe",
+        "relevanceScore": 45,
+        "relevanceReasons": [
+          "Contains 1 required keywords",
+          "Study design may not meet criteria: Unknown"
+        ],
+        "pico": {
+          "population": {
+            "text": "HEART FAILURE",
+            "confidence": 0.9,
+            "type": "condition",
+            "details": [
+              {
+                "text": "HEART FAILURE",
+                "type": "condition",
+                "confidence": 0.9
+              }
+            ]
+          },
+          "intervention": {
+            "text": null,
+            "confidence": 0,
+            "details": []
+          },
+          "comparator": {
+            "text": null,
+            "confidence": 0,
+            "details": []
+          },
+          "outcomes": [],
+          "studyDesign": {
+            "type": "Unknown",
+            "confidence": 0.3
+          },
+          "sampleSize": null,
+          "followUp": null,
+          "setting": []
+        },
+        "needsReview": true,
+        "processedAt": "2026-02-24T08:34:17.234Z"
+      },
+      {
+        "nctId": "NCT00012883",
+        "title": "Home Walking Exercise Training in Advanced Heart Failure",
+        "briefSummary": null,
+        "status": "COMPLETED",
+        "startDate": null,
+        "completionDate": "2001-12-31",
+        "studyType": "INTERVENTIONAL",
+        "phases": [
+          "NA"
+        ],
+        "enrollment": 110,
+        "allocation": "RANDOMIZED",
+        "primaryPurpose": "TREATMENT",
+        "source": "aact",
+        "retrievedAt": "2026-02-24T08:34:16.238Z",
+        "isDuplicate": false,
+        "classification": "maybe",
+        "relevanceScore": 45,
+        "relevanceReasons": [
+          "Contains 1 required keywords",
+          "Study design may not meet criteria: Unknown"
+        ],
+        "pico": {
+          "population": {
+            "text": "HEART FAILURE",
+            "confidence": 0.9,
+            "type": "condition",
+            "details": [
+              {
+                "text": "HEART FAILURE",
+                "type": "condition",
+                "confidence": 0.9
+              }
+            ]
+          },
+          "intervention": {
+            "text": null,
+            "confidence": 0,
+            "details": []
+          },
+          "comparator": {
+            "text": null,
+            "confidence": 0,
+            "details": []
+          },
+          "outcomes": [],
+          "studyDesign": {
+            "type": "Unknown",
+            "confidence": 0.3
+          },
+          "sampleSize": null,
+          "followUp": null,
+          "setting": []
+        },
+        "needsReview": true,
+        "processedAt": "2026-02-24T08:34:17.239Z"
+      },
+      {
+        "nctId": "NCT00013221",
+        "title": "Exercise Effect on Aerobic Capacity and QOL in Heart Failure",
+        "briefSummary": null,
+        "status": "COMPLETED",
+        "startDate": null,
+        "completionDate": "2000-03-31",
+        "studyType": "INTERVENTIONAL",
+        "phases": [
+          "PHASE4"
+        ],
+        "enrollment": 84,
+        "allocation": "RANDOMIZED",
+        "primaryPurpose": "TREATMENT",
+        "source": "aact",
+        "retrievedAt": "2026-02-24T08:34:16.238Z",
+        "isDuplicate": false,
+        "classification": "maybe",
+        "relevanceScore": 45,
+        "relevanceReasons": [
+          "Contains 1 required keywords",
+          "Study design may not meet criteria: Unknown"
+        ],
+        "pico": {
+          "population": {
+            "text": "HEART FAILURE",
+            "confidence": 0.9,
+            "type": "condition",
+            "details": [
+              {
+                "text": "HEART FAILURE",
+                "type": "condition",
+                "confidence": 0.9
+              }
+            ]
+          },
+          "intervention": {
+            "text": null,
+            "confidence": 0,
+            "details": []
+          },
+          "comparator": {
+            "text": null,
+            "confidence": 0,
+            "details": []
+          },
+          "outcomes": [],
+          "studyDesign": {
+            "type": "Unknown",
+            "confidence": 0.3
+          },
+          "sampleSize": null,
+          "followUp": null,
+          "setting": []
+        },
+        "needsReview": true,
+        "processedAt": "2026-02-24T08:34:17.273Z"
+      },
+      {
+        "nctId": "NCT00018005",
+        "title": "A Self-Management Intervention for Mild to Moderate Heart Failure",
+        "briefSummary": null,
+        "status": "COMPLETED",
+        "startDate": "2001-06-30",
+        "completionDate": "2007-06-30",
+        "studyType": "INTERVENTIONAL",
+        "phases": [
+          "PHASE3"
+        ],
+        "enrollment": 902,
+        "allocation": "RANDOMIZED",
+        "primaryPurpose": "TREATMENT",
+        "source": "aact",
+        "retrievedAt": "2026-02-24T08:34:16.238Z",
+        "isDuplicate": false,
+        "classification": "maybe",
+        "relevanceScore": 45,
+        "relevanceReasons": [
+          "Contains 1 required keywords",
+          "Study design may not meet criteria: Unknown"
+        ],
+        "pico": {
+          "population": {
+            "text": "HEART FAILURE",
+            "confidence": 0.9,
+            "type": "condition",
+            "details": [
+              {
+                "text": "HEART FAILURE",
+                "type": "condition",
+                "confidence": 0.9
+              }
+            ]
+          },
+          "intervention": {
+            "text": "Intervention for Mild to Moderate Heart Failure",
+            "confidence": 0.85,
+            "type": "drug_with_dose",
+            "details": [
+              {
+                "text": "Intervention for Mild to Moderate Heart Failure",
+                "type": "drug_with_dose",
+                "confidence": 0.85
+              }
+            ]
+          },
+          "comparator": {
+            "text": null,
+            "confidence": 0,
+            "details": []
+          },
+          "outcomes": [],
+          "studyDesign": {
+            "type": "Unknown",
+            "confidence": 0.3
+          },
+          "sampleSize": null,
+          "followUp": null,
+          "setting": []
+        },
+        "needsReview": true,
+        "processedAt": "2026-02-24T08:34:17.284Z"
+      },
+      {
+        "nctId": "NCT00023595",
+        "title": "Comparison of Surgical and Medical Treatment for Congestive Heart Failure and Coronary Artery Disease",
+        "briefSummary": null,
+        "status": "COMPLETED",
+        "startDate": "2002-01-31",
+        "completionDate": "2015-11-30",
+        "studyType": "INTERVENTIONAL",
+        "phases": [
+          "PHASE3"
+        ],
+        "enrollment": 2136,
+        "allocation": "RANDOMIZED",
+        "primaryPurpose": "TREATMENT",
+        "source": "aact",
+        "retrievedAt": "2026-02-24T08:34:16.238Z",
+        "isDuplicate": false,
+        "classification": "maybe",
+        "relevanceScore": 50,
+        "relevanceReasons": [
+          "Contains 1 required keywords",
+          "Contains 1 preferred keywords",
+          "Study design may not meet criteria: Unknown"
+        ],
+        "pico": {
+          "population": {
+            "text": "CORONARY ARTERY DISEASE",
+            "confidence": 0.9,
+            "type": "condition",
+            "details": [
+              {
+                "text": "CORONARY ARTERY DISEASE",
+                "type": "condition",
+                "confidence": 0.9
+              },
+              {
+                "text": "HEART FAILURE",
+                "type": "condition",
+                "confidence": 0.9
+              }
+            ]
+          },
+          "intervention": {
+            "text": "Treatment for Congestive Heart Failure and Coronary Artery Disease",
+            "confidence": 0.85,
+            "type": "drug_with_dose",
+            "details": [
+              {
+                "text": "Treatment for Congestive Heart Failure and Coronary Artery Disease",
+                "type": "drug_with_dose",
+                "confidence": 0.85
+              }
+            ]
+          },
+          "comparator": {
+            "text": "of Surgical and Medical Treatment for Congestive Heart Failure and Coronary Artery Disease",
+            "confidence": 0.8,
+            "type": "comparator",
+            "details": [
+              {
+                "text": "of Surgical and Medical Treatment for Congestive Heart Failure and Coronary Artery Disease",
+                "type": "comparator",
+                "confidence": 0.8
+              }
+            ]
+          },
+          "outcomes": [],
+          "studyDesign": {
+            "type": "Unknown",
+            "confidence": 0.3
+          },
+          "sampleSize": null,
+          "followUp": null,
+          "setting": []
+        },
+        "needsReview": true,
+        "processedAt": "2026-02-24T08:34:17.300Z"
+      },
+      {
+        "nctId": "NCT00032747",
+        "title": "Safety Study of Vasopressin V2 Receptor Antagonist on Patients With Severe Chronic Heart Failure (AQUAVIT).",
+        "briefSummary": null,
+        "status": "COMPLETED",
+        "startDate": "2001-08-31",
+        "completionDate": "2003-02-28",
+        "studyType": "INTERVENTIONAL",
+        "phases": [
+          "PHASE2"
+        ],
+        "enrollment": 338,
+        "allocation": "RANDOMIZED",
+        "primaryPurpose": "TREATMENT",
+        "source": "aact",
+        "retrievedAt": "2026-02-24T08:34:16.238Z",
+        "isDuplicate": false,
+        "classification": "maybe",
+        "relevanceScore": 45,
+        "relevanceReasons": [
+          "Contains 1 required keywords",
+          "Study design may not meet criteria: Unknown"
+        ],
+        "pico": {
+          "population": {
+            "text": "HEART FAILURE",
+            "confidence": 0.9,
+            "type": "condition",
+            "details": [
+              {
+                "text": "HEART FAILURE",
+                "type": "condition",
+                "confidence": 0.9
+              }
+            ]
+          },
+          "intervention": {
+            "text": null,
+            "confidence": 0,
+            "details": []
+          },
+          "comparator": {
+            "text": "Antagonist on Patients",
+            "confidence": 0.8,
+            "type": "comparator",
+            "details": [
+              {
+                "text": "Antagonist on Patients",
+                "type": "comparator",
+                "confidence": 0.8
+              }
+            ]
+          },
+          "outcomes": [],
+          "studyDesign": {
+            "type": "Unknown",
+            "confidence": 0.3
+          },
+          "sampleSize": null,
+          "followUp": null,
+          "setting": []
+        },
+        "needsReview": true,
+        "processedAt": "2026-02-24T08:34:17.339Z"
+      },
+      {
+        "nctId": "NCT00041431",
+        "title": "Estrogen, Cytokines and Heart Failure in Women",
+        "briefSummary": null,
+        "status": "COMPLETED",
+        "startDate": "2001-12-31",
+        "completionDate": "2003-12-31",
+        "studyType": "INTERVENTIONAL",
+        "phases": [
+          "NA"
+        ],
+        "enrollment": null,
+        "allocation": "RANDOMIZED",
+        "primaryPurpose": null,
+        "source": "aact",
+        "retrievedAt": "2026-02-24T08:34:16.238Z",
+        "isDuplicate": false,
+        "classification": "maybe",
+        "relevanceScore": 45,
+        "relevanceReasons": [
+          "Contains 1 required keywords",
+          "Study design may not meet criteria: Unknown"
+        ],
+        "pico": {
+          "population": {
+            "text": "HEART FAILURE",
+            "confidence": 0.9,
+            "type": "condition",
+            "details": [
+              {
+                "text": "HEART FAILURE",
+                "type": "condition",
+                "confidence": 0.9
+              }
+            ]
+          },
+          "intervention": {
+            "text": null,
+            "confidence": 0,
+            "details": []
+          },
+          "comparator": {
+            "text": null,
+            "confidence": 0,
+            "details": []
+          },
+          "outcomes": [],
+          "studyDesign": {
+            "type": "Unknown",
+            "confidence": 0.3
+          },
+          "sampleSize": null,
+          "followUp": null,
+          "setting": []
+        },
+        "needsReview": true,
+        "processedAt": "2026-02-24T08:34:17.372Z"
+      },
+      {
+        "nctId": "NCT00043758",
+        "title": "Multicenter, Randomized, Double-Blind, Placebo Controlled, Efficacy Study on the Effects of Tolvaptan on Left Ventricular Dilatation in Congestive Heart Failure Patients",
+        "briefSummary": null,
+        "status": "COMPLETED",
+        "startDate": "2002-07-31",
+        "completionDate": "2004-07-31",
+        "studyType": "INTERVENTIONAL",
+        "phases": [
+          "PHASE2"
+        ],
+        "enrollment": 170,
+        "allocation": "RANDOMIZED",
+        "primaryPurpose": "TREATMENT",
+        "source": "aact",
+        "retrievedAt": "2026-02-24T08:34:16.238Z",
+        "isDuplicate": false,
+        "classification": "maybe",
+        "relevanceScore": 55,
+        "relevanceReasons": [
+          "Contains 1 required keywords",
+          "Contains 2 preferred keywords",
+          "Study design may not meet criteria: RCT (double-blind)"
+        ],
+        "pico": {
+          "population": {
+            "text": "HEART FAILURE",
+            "confidence": 0.9,
+            "type": "condition",
+            "details": [
+              {
+                "text": "HEART FAILURE",
+                "type": "condition",
+                "confidence": 0.9
+              }
+            ]
+          },
+          "intervention": {
+            "text": null,
+            "confidence": 0,
+            "details": []
+          },
+          "comparator": {
+            "text": "Placebo",
+            "confidence": 0.95,
+            "type": "placebo",
+            "details": [
+              {
+                "text": "Placebo",
+                "type": "placebo",
+                "confidence": 0.95
+              },
+              {
+                "text": "Placebo",
+                "type": "comparator",
+                "confidence": 0.8
+              },
+              {
+                "text": "Control",
+                "type": "comparator",
+                "confidence": 0.8
+              }
+            ]
+          },
+          "outcomes": [],
+          "studyDesign": {
+            "type": "RCT (double-blind)",
+            "confidence": 0.95
+          },
+          "sampleSize": null,
+          "followUp": null,
+          "setting": [
+            {
+              "type": "design",
+              "value": "Multicenter"
+            }
+          ]
+        },
+        "needsReview": true,
+        "processedAt": "2026-02-24T08:34:17.389Z"
+      },
+      {
+        "nctId": "NCT00043771",
+        "title": "Study to Compare the Effects of Two Dosages of Tolvaptan in Congestive Heart Failure Patients",
+        "briefSummary": null,
+        "status": "COMPLETED",
+        "startDate": "2002-05-31",
+        "completionDate": "2002-09-30",
+        "studyType": "INTERVENTIONAL",
+        "phases": [
+          "PHASE2"
+        ],
+        "enrollment": 40,
+        "allocation": "RANDOMIZED",
+        "primaryPurpose": "TREATMENT",
+        "source": "aact",
+        "retrievedAt": "2026-02-24T08:34:16.238Z",
+        "isDuplicate": false,
+        "classification": "maybe",
+        "relevanceScore": 50,
+        "relevanceReasons": [
+          "Contains 1 required keywords",
+          "Contains 1 preferred keywords",
+          "Study design may not meet criteria: Unknown"
+        ],
+        "pico": {
+          "population": {
+            "text": "HEART FAILURE",
+            "confidence": 0.9,
+            "type": "condition",
+            "details": [
+              {
+                "text": "HEART FAILURE",
+                "type": "condition",
+                "confidence": 0.9
+              }
+            ]
+          },
+          "intervention": {
+            "text": null,
+            "confidence": 0,
+            "details": []
+          },
+          "comparator": {
+            "text": null,
+            "confidence": 0,
+            "details": []
+          },
+          "outcomes": [],
+          "studyDesign": {
+            "type": "Unknown",
+            "confidence": 0.3
+          },
+          "sampleSize": null,
+          "followUp": null,
+          "setting": []
+        },
+        "needsReview": true,
+        "processedAt": "2026-02-24T08:34:17.407Z"
+      },
+      {
+        "nctId": "NCT00047437",
+        "title": "Exercise Training Program to Improve Clinical Outcomes in Individuals With Congestive Heart Failure",
+        "briefSummary": null,
+        "status": "COMPLETED",
+        "startDate": "2003-04-30",
+        "completionDate": "2008-07-31",
+        "studyType": "INTERVENTIONAL",
+        "phases": [
+          "PHASE3"
+        ],
+        "enrollment": 2331,
+        "allocation": "RANDOMIZED",
+        "primaryPurpose": "PREVENTION",
+        "source": "aact",
+        "retrievedAt": "2026-02-24T08:34:16.238Z",
+        "isDuplicate": false,
+        "classification": "maybe",
+        "relevanceScore": 50,
+        "relevanceReasons": [
+          "Contains 1 required keywords",
+          "Contains 1 preferred keywords",
+          "Study design may not meet criteria: Unknown"
+        ],
+        "pico": {
+          "population": {
+            "text": "HEART FAILURE",
+            "confidence": 0.9,
+            "type": "condition",
+            "details": [
+              {
+                "text": "HEART FAILURE",
+                "type": "condition",
+                "confidence": 0.9
+              }
+            ]
+          },
+          "intervention": {
+            "text": null,
+            "confidence": 0,
+            "details": []
+          },
+          "comparator": {
+            "text": null,
+            "confidence": 0,
+            "details": []
+          },
+          "outcomes": [],
+          "studyDesign": {
+            "type": "Unknown",
+            "confidence": 0.3
+          },
+          "sampleSize": null,
+          "followUp": null,
+          "setting": []
+        },
+        "needsReview": true,
+        "processedAt": "2026-02-24T08:34:17.424Z"
+      },
+      {
+        "nctId": "NCT00047775",
+        "title": "African-American Heart Failure Trial",
+        "briefSummary": null,
+        "status": "COMPLETED",
+        "startDate": "2001-05-31",
+        "completionDate": "2004-08-31",
+        "studyType": "INTERVENTIONAL",
+        "phases": [
+          "PHASE4"
+        ],
+        "enrollment": 1100,
+        "allocation": "RANDOMIZED",
+        "primaryPurpose": "TREATMENT",
+        "source": "aact",
+        "retrievedAt": "2026-02-24T08:34:16.238Z",
+        "isDuplicate": false,
+        "classification": "maybe",
+        "relevanceScore": 50,
+        "relevanceReasons": [
+          "Contains 1 required keywords",
+          "Contains 1 preferred keywords",
+          "Study design may not meet criteria: Unknown"
+        ],
+        "pico": {
+          "population": {
+            "text": "HEART FAILURE",
+            "confidence": 0.9,
+            "type": "condition",
+            "details": [
+              {
+                "text": "HEART FAILURE",
+                "type": "condition",
+                "confidence": 0.9
+              }
+            ]
+          },
+          "intervention": {
+            "text": null,
+            "confidence": 0,
+            "details": []
+          },
+          "comparator": {
+            "text": null,
+            "confidence": 0,
+            "details": []
+          },
+          "outcomes": [],
+          "studyDesign": {
+            "type": "Unknown",
+            "confidence": 0.3
+          },
+          "sampleSize": null,
+          "followUp": null,
+          "setting": [
+            {
+              "type": "country",
+              "value": "america"
+            }
+          ]
+        },
+        "needsReview": true,
+        "processedAt": "2026-02-24T08:34:17.450Z"
+      },
+      {
+        "nctId": "NCT00049985",
+        "title": "Heart Failure and Anemia",
+        "briefSummary": null,
+        "status": "COMPLETED",
+        "startDate": "2002-07-31",
+        "completionDate": null,
+        "studyType": "INTERVENTIONAL",
+        "phases": [
+          "PHASE2"
+        ],
+        "enrollment": 300,
+        "allocation": "RANDOMIZED",
+        "primaryPurpose": "TREATMENT",
+        "source": "aact",
+        "retrievedAt": "2026-02-24T08:34:16.238Z",
+        "isDuplicate": false,
+        "classification": "maybe",
+        "relevanceScore": 45,
+        "relevanceReasons": [
+          "Contains 1 required keywords",
+          "Study design may not meet criteria: Unknown"
+        ],
+        "pico": {
+          "population": {
+            "text": "HEART FAILURE",
+            "confidence": 0.9,
+            "type": "condition",
+            "details": [
+              {
+                "text": "HEART FAILURE",
+                "type": "condition",
+                "confidence": 0.9
+              }
+            ]
+          },
+          "intervention": {
+            "text": null,
+            "confidence": 0,
+            "details": []
+          },
+          "comparator": {
+            "text": null,
+            "confidence": 0,
+            "details": []
+          },
+          "outcomes": [],
+          "studyDesign": {
+            "type": "Unknown",
+            "confidence": 0.3
+          },
+          "sampleSize": null,
+          "followUp": null,
+          "setting": []
+        },
+        "needsReview": true,
+        "processedAt": "2026-02-24T08:34:17.500Z"
+      },
+      {
+        "nctId": "NCT00050076",
+        "title": "Safety and Efficacy Study of Once and Twice Daily Doses of MCC-135 in Subjects With Congestive Heart Failure.",
+        "briefSummary": null,
+        "status": "COMPLETED",
+        "startDate": "2002-08-31",
+        "completionDate": "2003-08-31",
+        "studyType": "INTERVENTIONAL",
+        "phases": [
+          "PHASE2"
+        ],
+        "enrollment": 204,
+        "allocation": "RANDOMIZED",
+        "primaryPurpose": "TREATMENT",
+        "source": "aact",
+        "retrievedAt": "2026-02-24T08:34:16.238Z",
+        "isDuplicate": false,
+        "classification": "maybe",
+        "relevanceScore": 50,
+        "relevanceReasons": [
+          "Contains 1 required keywords",
+          "Contains 1 preferred keywords",
+          "Study design may not meet criteria: Unknown"
+        ],
+        "pico": {
+          "population": {
+            "text": "HEART FAILURE",
+            "confidence": 0.9,
+            "type": "condition",
+            "details": [
+              {
+                "text": "HEART FAILURE",
+                "type": "condition",
+                "confidence": 0.9
+              }
+            ]
+          },
+          "intervention": {
+            "text": null,
+            "confidence": 0,
+            "details": []
+          },
+          "comparator": {
+            "text": null,
+            "confidence": 0,
+            "details": []
+          },
+          "outcomes": [],
+          "studyDesign": {
+            "type": "Unknown",
+            "confidence": 0.3
+          },
+          "sampleSize": null,
+          "followUp": null,
+          "setting": []
+        },
+        "needsReview": true,
+        "processedAt": "2026-02-24T08:34:17.524Z"
+      },
+      {
+        "nctId": "NCT00057057",
+        "title": "Telephone Intervention in Heart Failure Patients",
+        "briefSummary": null,
+        "status": "COMPLETED",
+        "startDate": null,
+        "completionDate": "2005-03-31",
+        "studyType": "INTERVENTIONAL",
+        "phases": [
+          "NA"
+        ],
+        "enrollment": 438,
+        "allocation": "RANDOMIZED",
+        "primaryPurpose": "TREATMENT",
+        "source": "aact",
+        "retrievedAt": "2026-02-24T08:34:16.238Z",
+        "isDuplicate": false,
+        "classification": "maybe",
+        "relevanceScore": 45,
+        "relevanceReasons": [
+          "Contains 1 required keywords",
+          "Study design may not meet criteria: Unknown"
+        ],
+        "pico": {
+          "population": {
+            "text": "HEART FAILURE",
+            "confidence": 0.9,
+            "type": "condition",
+            "details": [
+              {
+                "text": "HEART FAILURE",
+                "type": "condition",
+                "confidence": 0.9
+              }
+            ]
+          },
+          "intervention": {
+            "text": "Intervention in Heart Failure Patients",
+            "confidence": 0.85,
+            "type": "drug_with_dose",
+            "details": [
+              {
+                "text": "Intervention in Heart Failure Patients",
+                "type": "drug_with_dose",
+                "confidence": 0.85
+              }
+            ]
+          },
+          "comparator": {
+            "text": null,
+            "confidence": 0,
+            "details": []
+          },
+          "outcomes": [],
+          "studyDesign": {
+            "type": "Unknown",
+            "confidence": 0.3
+          },
+          "sampleSize": null,
+          "followUp": null,
+          "setting": []
+        },
+        "needsReview": true,
+        "processedAt": "2026-02-24T08:34:17.590Z"
+      },
+      {
+        "nctId": "NCT00057200",
+        "title": "Evaluating Telehealth Home Care for Elderly Veterans With Congestive Heart Failure",
+        "briefSummary": null,
+        "status": "COMPLETED",
+        "startDate": null,
+        "completionDate": "2005-01-31",
+        "studyType": "INTERVENTIONAL",
+        "phases": [
+          "NA"
+        ],
+        "enrollment": 198,
+        "allocation": "RANDOMIZED",
+        "primaryPurpose": "TREATMENT",
+        "source": "aact",
+        "retrievedAt": "2026-02-24T08:34:16.238Z",
+        "isDuplicate": false,
+        "classification": "maybe",
+        "relevanceScore": 50,
+        "relevanceReasons": [
+          "Contains 1 required keywords",
+          "Contains 1 preferred keywords",
+          "Study design may not meet criteria: Unknown"
+        ],
+        "pico": {
+          "population": {
+            "text": "HEART FAILURE",
+            "confidence": 0.9,
+            "type": "condition",
+            "details": [
+              {
+                "text": "HEART FAILURE",
+                "type": "condition",
+                "confidence": 0.9
+              }
+            ]
+          },
+          "intervention": {
+            "text": null,
+            "confidence": 0,
+            "details": []
+          },
+          "comparator": {
+            "text": "Elderly Veterans",
+            "confidence": 0.8,
+            "type": "comparator",
+            "details": [
+              {
+                "text": "Elderly Veterans",
+                "type": "comparator",
+                "confidence": 0.8
+              }
+            ]
+          },
+          "outcomes": [],
+          "studyDesign": {
+            "type": "Unknown",
+            "confidence": 0.3
+          },
+          "sampleSize": null,
+          "followUp": null,
+          "setting": []
+        },
+        "needsReview": true,
+        "processedAt": "2026-02-24T08:34:17.623Z"
+      },
+      {
+        "nctId": "NCT00063687",
+        "title": "Oxypurinol Compared With Placebo for Class III-IV NYHA Congestive Heart Failure",
+        "briefSummary": null,
+        "status": "COMPLETED",
+        "startDate": "2003-03-31",
+        "completionDate": "2005-06-30",
+        "studyType": "INTERVENTIONAL",
+        "phases": [
+          "PHASE2/PHASE3"
+        ],
+        "enrollment": 400,
+        "allocation": "RANDOMIZED",
+        "primaryPurpose": "TREATMENT",
+        "source": "aact",
+        "retrievedAt": "2026-02-24T08:34:16.238Z",
+        "isDuplicate": false,
+        "classification": "maybe",
+        "relevanceScore": 50,
+        "relevanceReasons": [
+          "Contains 1 required keywords",
+          "Contains 1 preferred keywords",
+          "Study design may not meet criteria: Unknown"
+        ],
+        "pico": {
+          "population": {
+            "text": "HEART FAILURE",
+            "confidence": 0.9,
+            "type": "condition",
+            "details": [
+              {
+                "text": "HEART FAILURE",
+                "type": "condition",
+                "confidence": 0.9
+              }
+            ]
+          },
+          "intervention": {
+            "text": null,
+            "confidence": 0,
+            "details": []
+          },
+          "comparator": {
+            "text": "Placebo",
+            "confidence": 0.8,
+            "type": "comparator",
+            "details": [
+              {
+                "text": "Placebo",
+                "type": "comparator",
+                "confidence": 0.8
+              },
+              {
+                "text": "Placebo",
+                "type": "comparator",
+                "confidence": 0.8
+              }
+            ]
+          },
+          "outcomes": [],
+          "studyDesign": {
+            "type": "Unknown",
+            "confidence": 0.3
+          },
+          "sampleSize": null,
+          "followUp": null,
+          "setting": []
+        },
+        "needsReview": true,
+        "processedAt": "2026-02-24T08:34:17.754Z"
+      },
+      {
+        "nctId": "NCT00071331",
+        "title": "EVEREST: Efficacy of Vasopressin Antagonism in hEart failuRE: Outcome Study With Tolvaptan",
+        "briefSummary": null,
+        "status": "COMPLETED",
+        "startDate": "2003-09-30",
+        "completionDate": "2006-07-31",
+        "studyType": "INTERVENTIONAL",
+        "phases": [
+          "PHASE3"
+        ],
+        "enrollment": 3600,
+        "allocation": "RANDOMIZED",
+        "primaryPurpose": "TREATMENT",
+        "source": "aact",
+        "retrievedAt": "2026-02-24T08:34:16.238Z",
+        "isDuplicate": false,
+        "classification": "maybe",
+        "relevanceScore": 45,
+        "relevanceReasons": [
+          "Contains 1 required keywords",
+          "Study design may not meet criteria: Unknown"
+        ],
+        "pico": {
+          "population": {
+            "text": "HEART FAILURE",
+            "confidence": 0.9,
+            "type": "condition",
+            "details": [
+              {
+                "text": "HEART FAILURE",
+                "type": "condition",
+                "confidence": 0.9
+              }
+            ]
+          },
+          "intervention": {
+            "text": null,
+            "confidence": 0,
+            "details": []
+          },
+          "comparator": {
+            "text": null,
+            "confidence": 0,
+            "details": []
+          },
+          "outcomes": [],
+          "studyDesign": {
+            "type": "Unknown",
+            "confidence": 0.3
+          },
+          "sampleSize": null,
+          "followUp": null,
+          "setting": []
+        },
+        "needsReview": true,
+        "processedAt": "2026-02-24T08:34:17.840Z"
+      },
+      {
+        "nctId": "NCT00074724",
+        "title": "Dobutamine Echocardiography In Patients With Ischemic Heart Failure Evaluated for Revascularization",
+        "briefSummary": null,
+        "status": "COMPLETED",
+        "startDate": "2003-05-31",
+        "completionDate": "2017-04-30",
+        "studyType": "INTERVENTIONAL",
+        "phases": [
+          "NA"
+        ],
+        "enrollment": 319,
+        "allocation": "RANDOMIZED",
+        "primaryPurpose": "DIAGNOSTIC",
+        "source": "aact",
+        "retrievedAt": "2026-02-24T08:34:16.238Z",
+        "isDuplicate": false,
+        "classification": "maybe",
+        "relevanceScore": 45,
+        "relevanceReasons": [
+          "Contains 1 required keywords",
+          "Study design may not meet criteria: Unknown"
+        ],
+        "pico": {
+          "population": {
+            "text": "HEART FAILURE",
+            "confidence": 0.9,
+            "type": "condition",
+            "details": [
+              {
+                "text": "HEART FAILURE",
+                "type": "condition",
+                "confidence": 0.9
+              }
+            ]
+          },
+          "intervention": {
+            "text": null,
+            "confidence": 0,
+            "details": []
+          },
+          "comparator": {
+            "text": null,
+            "confidence": 0,
+            "details": []
+          },
+          "outcomes": [],
+          "studyDesign": {
+            "type": "Unknown",
+            "confidence": 0.3
+          },
+          "sampleSize": null,
+          "followUp": null,
+          "setting": []
+        },
+        "needsReview": true,
+        "processedAt": "2026-02-24T08:34:17.885Z"
+      },
+      {
+        "nctId": "NCT00078286",
+        "title": "Antidepressant Medication Treatment for Depression in Individuals With Chronic Heart Failure",
+        "briefSummary": null,
+        "status": "COMPLETED",
+        "startDate": "2003-11-30",
+        "completionDate": "2008-09-30",
+        "studyType": "INTERVENTIONAL",
+        "phases": [
+          "PHASE2/PHASE3"
+        ],
+        "enrollment": 469,
+        "allocation": "RANDOMIZED",
+        "primaryPurpose": "TREATMENT",
+        "source": "aact",
+        "retrievedAt": "2026-02-24T08:34:16.238Z",
+        "isDuplicate": false,
+        "classification": "maybe",
+        "relevanceScore": 45,
+        "relevanceReasons": [
+          "Contains 1 required keywords",
+          "Study design may not meet criteria: Unknown"
+        ],
+        "pico": {
+          "population": {
+            "text": "HEART FAILURE",
+            "confidence": 0.9,
+            "type": "condition",
+            "details": [
+              {
+                "text": "HEART FAILURE",
+                "type": "condition",
+                "confidence": 0.9
+              },
+              {
+                "text": "DEPRESSION",
+                "type": "condition",
+                "confidence": 0.9
+              }
+            ]
+          },
+          "intervention": {
+            "text": "Treatment for Depression in Individuals With Chronic Heart Failure",
+            "confidence": 0.85,
+            "type": "drug_with_dose",
+            "details": [
+              {
+                "text": "Treatment for Depression in Individuals With Chronic Heart Failure",
+                "type": "drug_with_dose",
+                "confidence": 0.85
+              }
+            ]
+          },
+          "comparator": {
+            "text": "Depression",
+            "confidence": 0.8,
+            "type": "comparator",
+            "details": [
+              {
+                "text": "Depression",
+                "type": "comparator",
+                "confidence": 0.8
+              }
+            ]
+          },
+          "outcomes": [],
+          "studyDesign": {
+            "type": "Unknown",
+            "confidence": 0.3
+          },
+          "sampleSize": null,
+          "followUp": null,
+          "setting": []
+        },
+        "needsReview": true,
+        "processedAt": "2026-02-24T08:34:17.922Z"
+      },
+      {
+        "nctId": "NCT00082589",
+        "title": "The Purpose of This Study is to Determine if Eplerenone is Effective in Treatment of Mild to Moderate Heart Failure",
+        "briefSummary": null,
+        "status": "COMPLETED",
+        "startDate": "2004-04-30",
+        "completionDate": "2006-03-31",
+        "studyType": "INTERVENTIONAL",
+        "phases": [
+          "PHASE4"
+        ],
+        "enrollment": 250,
+        "allocation": "RANDOMIZED",
+        "primaryPurpose": "TREATMENT",
+        "source": "aact",
+        "retrievedAt": "2026-02-24T08:34:16.238Z",
+        "isDuplicate": false,
+        "classification": "maybe",
+        "relevanceScore": 45,
+        "relevanceReasons": [
+          "Contains 1 required keywords",
+          "Study design may not meet criteria: Unknown"
+        ],
+        "pico": {
+          "population": {
+            "text": "HEART FAILURE",
+            "confidence": 0.9,
+            "type": "condition",
+            "details": [
+              {
+                "text": "HEART FAILURE",
+                "type": "condition",
+                "confidence": 0.9
+              }
+            ]
+          },
+          "intervention": {
+            "text": "Treatment of Mild to Moderate Heart Failure",
+            "confidence": 0.85,
+            "type": "drug_with_dose",
+            "details": [
+              {
+                "text": "Treatment of Mild to Moderate Heart Failure",
+                "type": "drug_with_dose",
+                "confidence": 0.85
+              }
+            ]
+          },
+          "comparator": {
+            "text": null,
+            "confidence": 0,
+            "details": []
+          },
+          "outcomes": [],
+          "studyDesign": {
+            "type": "Unknown",
+            "confidence": 0.3
+          },
+          "sampleSize": null,
+          "followUp": null,
+          "setting": []
+        },
+        "needsReview": true,
+        "processedAt": "2026-02-24T08:34:17.965Z"
+      },
+      {
+        "nctId": "NCT00086086",
+        "title": "Subcutaneous (SC) Darbepoetin Alfa in Subjects With Symptomatic Congestive Heart Failure (CHF) & Anemia",
+        "briefSummary": null,
+        "status": "COMPLETED",
+        "startDate": "2003-08-31",
+        "completionDate": null,
+        "studyType": "INTERVENTIONAL",
+        "phases": [
+          "PHASE2"
+        ],
+        "enrollment": 150,
+        "allocation": "RANDOMIZED",
+        "primaryPurpose": "TREATMENT",
+        "source": "aact",
+        "retrievedAt": "2026-02-24T08:34:16.238Z",
+        "isDuplicate": false,
+        "classification": "maybe",
+        "relevanceScore": 50,
+        "relevanceReasons": [
+          "Contains 1 required keywords",
+          "Contains 1 preferred keywords",
+          "Study design may not meet criteria: Unknown"
+        ],
+        "pico": {
+          "population": {
+            "text": "HEART FAILURE",
+            "confidence": 0.9,
+            "type": "condition",
+            "details": [
+              {
+                "text": "HEART FAILURE",
+                "type": "condition",
+                "confidence": 0.9
+              }
+            ]
+          },
+          "intervention": {
+            "text": null,
+            "confidence": 0,
+            "details": []
+          },
+          "comparator": {
+            "text": null,
+            "confidence": 0,
+            "details": []
+          },
+          "outcomes": [],
+          "studyDesign": {
+            "type": "Unknown",
+            "confidence": 0.3
+          },
+          "sampleSize": null,
+          "followUp": null,
+          "setting": [
+            {
+              "type": "country",
+              "value": "us"
+            }
+          ]
+        },
+        "needsReview": true,
+        "processedAt": "2026-02-24T08:34:18.047Z"
+      },
+      {
+        "nctId": "NCT00090259",
+        "title": "Study to Evaluate Potential Decrease in Hospitalization Events, Time Between Events, and Increasing Longevity in Patients With Symptomatic Heart Failure (0954-948)",
+        "briefSummary": null,
+        "status": "COMPLETED",
+        "startDate": "2001-12-19",
+        "completionDate": "2009-05-13",
+        "studyType": "INTERVENTIONAL",
+        "phases": [
+          "PHASE3"
+        ],
+        "enrollment": 3834,
+        "allocation": "RANDOMIZED",
+        "primaryPurpose": "TREATMENT",
+        "source": "aact",
+        "retrievedAt": "2026-02-24T08:34:16.238Z",
+        "isDuplicate": false,
+        "classification": "maybe",
+        "relevanceScore": 45,
+        "relevanceReasons": [
+          "Contains 1 required keywords",
+          "Study design may not meet criteria: Unknown"
+        ],
+        "pico": {
+          "population": {
+            "text": "HEART FAILURE",
+            "confidence": 0.9,
+            "type": "condition",
+            "details": [
+              {
+                "text": "HEART FAILURE",
+                "type": "condition",
+                "confidence": 0.9
+              }
+            ]
+          },
+          "intervention": {
+            "text": null,
+            "confidence": 0,
+            "details": []
+          },
+          "comparator": {
+            "text": null,
+            "confidence": 0,
+            "details": []
+          },
+          "outcomes": [],
+          "studyDesign": {
+            "type": "Unknown",
+            "confidence": 0.3
+          },
+          "sampleSize": null,
+          "followUp": null,
+          "setting": []
+        },
+        "needsReview": true,
+        "processedAt": "2026-02-24T08:34:18.097Z"
+      },
+      {
+        "nctId": "NCT00091520",
+        "title": "A Study of the Safety and Efficacy of Follow-up Serial Infusions of Natrecor(Nesiritide) for the Management of Patients With Heart Failure",
+        "briefSummary": null,
+        "status": "COMPLETED",
+        "startDate": "2004-04-30",
+        "completionDate": "2006-12-31",
+        "studyType": "INTERVENTIONAL",
+        "phases": [
+          "PHASE2"
+        ],
+        "enrollment": 920,
+        "allocation": "RANDOMIZED",
+        "primaryPurpose": "TREATMENT",
+        "source": "aact",
+        "retrievedAt": "2026-02-24T08:34:16.238Z",
+        "isDuplicate": false,
+        "classification": "maybe",
+        "relevanceScore": 45,
+        "relevanceReasons": [
+          "Contains 1 required keywords",
+          "Study design may not meet criteria: Unknown"
+        ],
+        "pico": {
+          "population": {
+            "text": "HEART FAILURE",
+            "confidence": 0.9,
+            "type": "condition",
+            "details": [
+              {
+                "text": "HEART FAILURE",
+                "type": "condition",
+                "confidence": 0.9
+              }
+            ]
+          },
+          "intervention": {
+            "text": null,
+            "confidence": 0,
+            "details": []
+          },
+          "comparator": {
+            "text": "the Management of Patients",
+            "confidence": 0.8,
+            "type": "comparator",
+            "details": [
+              {
+                "text": "the Management of Patients",
+                "type": "comparator",
+                "confidence": 0.8
+              }
+            ]
+          },
+          "outcomes": [],
+          "studyDesign": {
+            "type": "Unknown",
+            "confidence": 0.3
+          },
+          "sampleSize": null,
+          "followUp": null,
+          "setting": [
+            {
+              "type": "country",
+              "value": "us"
+            }
+          ]
+        },
+        "needsReview": true,
+        "processedAt": "2026-02-24T08:34:18.281Z"
+      },
+      {
+        "nctId": "NCT00094302",
+        "title": "Aldosterone Antagonist Therapy for Adults With Heart Failure and Preserved Systolic Function",
+        "briefSummary": null,
+        "status": "COMPLETED",
+        "startDate": "2006-08-31",
+        "completionDate": "2013-06-30",
+        "studyType": "INTERVENTIONAL",
+        "phases": [
+          "PHASE3"
+        ],
+        "enrollment": 3445,
+        "allocation": "RANDOMIZED",
+        "primaryPurpose": "TREATMENT",
+        "source": "aact",
+        "retrievedAt": "2026-02-24T08:34:16.238Z",
+        "isDuplicate": false,
+        "classification": "maybe",
+        "relevanceScore": 45,
+        "relevanceReasons": [
+          "Contains 1 required keywords",
+          "Study design may not meet criteria: Unknown"
+        ],
+        "pico": {
+          "population": {
+            "text": "HEART FAILURE",
+            "confidence": 0.9,
+            "type": "condition",
+            "details": [
+              {
+                "text": "HEART FAILURE",
+                "type": "condition",
+                "confidence": 0.9
+              }
+            ]
+          },
+          "intervention": {
+            "text": null,
+            "confidence": 0,
+            "details": []
+          },
+          "comparator": {
+            "text": "Adults",
+            "confidence": 0.8,
+            "type": "comparator",
+            "details": [
+              {
+                "text": "Adults",
+                "type": "comparator",
+                "confidence": 0.8
+              }
+            ]
+          },
+          "outcomes": [],
+          "studyDesign": {
+            "type": "Unknown",
+            "confidence": 0.3
+          },
+          "sampleSize": null,
+          "followUp": null,
+          "setting": []
+        },
+        "needsReview": true,
+        "processedAt": "2026-02-24T08:34:18.339Z"
+      },
+      {
+        "nctId": "NCT00095238",
+        "title": "Irbesartan in Heart Failure With Preserved Systolic Function (I-Preserve)",
+        "briefSummary": null,
+        "status": "COMPLETED",
+        "startDate": "2002-06-30",
+        "completionDate": "2008-07-31",
+        "studyType": "INTERVENTIONAL",
+        "phases": [
+          "PHASE3"
+        ],
+        "enrollment": 4128,
+        "allocation": "RANDOMIZED",
+        "primaryPurpose": "TREATMENT",
+        "source": "aact",
+        "retrievedAt": "2026-02-24T08:34:16.238Z",
+        "isDuplicate": false,
+        "classification": "maybe",
+        "relevanceScore": 45,
+        "relevanceReasons": [
+          "Contains 1 required keywords",
+          "Study design may not meet criteria: Unknown"
+        ],
+        "pico": {
+          "population": {
+            "text": "HEART FAILURE",
+            "confidence": 0.9,
+            "type": "condition",
+            "details": [
+              {
+                "text": "HEART FAILURE",
+                "type": "condition",
+                "confidence": 0.9
+              }
+            ]
+          },
+          "intervention": {
+            "text": "Irbesartan",
+            "confidence": 0.9,
+            "type": "known_drug",
+            "details": [
+              {
+                "text": "Irbesartan",
+                "context": "Irbesartan in Heart Failure With Preserved Systolic Function (I-Preserve)",
+                "type": "known_drug",
+                "confidence": 0.9
+              }
+            ]
+          },
+          "comparator": {
+            "text": null,
+            "confidence": 0,
+            "details": []
+          },
+          "outcomes": [],
+          "studyDesign": {
+            "type": "Unknown",
+            "confidence": 0.3
+          },
+          "sampleSize": null,
+          "followUp": null,
+          "setting": []
+        },
+        "needsReview": true,
+        "processedAt": "2026-02-24T08:34:18.539Z"
+      },
+      {
+        "nctId": "NCT00099580",
+        "title": "PROCLAIM: Effect of AC2592 Administered by Continuous Subcutaneous Infusion in Subjects With Advanced Chronic Congestive Heart Failure",
+        "briefSummary": null,
+        "status": "COMPLETED",
+        "startDate": "2005-03-31",
+        "completionDate": "2006-09-30",
+        "studyType": "INTERVENTIONAL",
+        "phases": [
+          "PHASE2"
+        ],
+        "enrollment": 61,
+        "allocation": "RANDOMIZED",
+        "primaryPurpose": "TREATMENT",
+        "source": "aact",
+        "retrievedAt": "2026-02-24T08:34:16.238Z",
+        "isDuplicate": false,
+        "classification": "maybe",
+        "relevanceScore": 50,
+        "relevanceReasons": [
+          "Contains 1 required keywords",
+          "Contains 1 preferred keywords",
+          "Study design may not meet criteria: Unknown"
+        ],
+        "pico": {
+          "population": {
+            "text": "HEART FAILURE",
+            "confidence": 0.9,
+            "type": "condition",
+            "details": [
+              {
+                "text": "HEART FAILURE",
+                "type": "condition",
+                "confidence": 0.9
+              }
+            ]
+          },
+          "intervention": {
+            "text": null,
+            "confidence": 0,
+            "details": []
+          },
+          "comparator": {
+            "text": null,
+            "confidence": 0,
+            "details": []
+          },
+          "outcomes": [],
+          "studyDesign": {
+            "type": "Unknown",
+            "confidence": 0.3
+          },
+          "sampleSize": null,
+          "followUp": null,
+          "setting": [
+            {
+              "type": "country",
+              "value": "us"
+            }
+          ]
+        },
+        "needsReview": true,
+        "processedAt": "2026-02-24T08:34:18.632Z"
+      },
+      {
+        "nctId": "NCT00108147",
+        "title": "Functional Circuit Training in Older Adults With Congestive Heart Failure",
+        "briefSummary": null,
+        "status": "COMPLETED",
+        "startDate": "2003-10-31",
+        "completionDate": null,
+        "studyType": "INTERVENTIONAL",
+        "phases": [
+          "NA"
+        ],
+        "enrollment": null,
+        "allocation": "RANDOMIZED",
+        "primaryPurpose": null,
+        "source": "aact",
+        "retrievedAt": "2026-02-24T08:34:16.238Z",
+        "isDuplicate": false,
+        "classification": "maybe",
+        "relevanceScore": 50,
+        "relevanceReasons": [
+          "Contains 1 required keywords",
+          "Contains 1 preferred keywords",
+          "Study design may not meet criteria: Unknown"
+        ],
+        "pico": {
+          "population": {
+            "text": "HEART FAILURE",
+            "confidence": 0.9,
+            "type": "condition",
+            "details": [
+              {
+                "text": "HEART FAILURE",
+                "type": "condition",
+                "confidence": 0.9
+              }
+            ]
+          },
+          "intervention": {
+            "text": null,
+            "confidence": 0,
+            "details": []
+          },
+          "comparator": {
+            "text": null,
+            "confidence": 0,
+            "details": []
+          },
+          "outcomes": [],
+          "studyDesign": {
+            "type": "Unknown",
+            "confidence": 0.3
+          },
+          "sampleSize": null,
+          "followUp": null,
+          "setting": []
+        },
+        "needsReview": true,
+        "processedAt": "2026-02-24T08:34:18.890Z"
+      },
+      {
+        "nctId": "NCT00108251",
+        "title": "Aldosterone Antagonism in Diastolic Heart Failure",
+        "briefSummary": null,
+        "status": "COMPLETED",
+        "startDate": "2004-08-31",
+        "completionDate": "2007-10-31",
+        "studyType": "INTERVENTIONAL",
+        "phases": [
+          "PHASE4"
+        ],
+        "enrollment": 48,
+        "allocation": "RANDOMIZED",
+        "primaryPurpose": "TREATMENT",
+        "source": "aact",
+        "retrievedAt": "2026-02-24T08:34:16.238Z",
+        "isDuplicate": false,
+        "classification": "maybe",
+        "relevanceScore": 45,
+        "relevanceReasons": [
+          "Contains 1 required keywords",
+          "Study design may not meet criteria: Unknown"
+        ],
+        "pico": {
+          "population": {
+            "text": "HEART FAILURE",
+            "confidence": 0.9,
+            "type": "condition",
+            "details": [
+              {
+                "text": "HEART FAILURE",
+                "type": "condition",
+                "confidence": 0.9
+              }
+            ]
+          },
+          "intervention": {
+            "text": null,
+            "confidence": 0,
+            "details": []
+          },
+          "comparator": {
+            "text": null,
+            "confidence": 0,
+            "details": []
+          },
+          "outcomes": [],
+          "studyDesign": {
+            "type": "Unknown",
+            "confidence": 0.3
+          },
+          "sampleSize": null,
+          "followUp": null,
+          "setting": []
+        },
+        "needsReview": true,
+        "processedAt": "2026-02-24T08:34:18.973Z"
+      },
+      {
+        "nctId": "NCT00110227",
+        "title": "Tai Chi Mind-Body Therapy for Chronic Heart Failure",
+        "briefSummary": null,
+        "status": "COMPLETED",
+        "startDate": "2005-09-30",
+        "completionDate": "2009-07-31",
+        "studyType": "INTERVENTIONAL",
+        "phases": [
+          "PHASE3"
+        ],
+        "enrollment": 100,
+        "allocation": "RANDOMIZED",
+        "primaryPurpose": "TREATMENT",
+        "source": "aact",
+        "retrievedAt": "2026-02-24T08:34:16.238Z",
+        "isDuplicate": false,
+        "classification": "maybe",
+        "relevanceScore": 45,
+        "relevanceReasons": [
+          "Contains 1 required keywords",
+          "Study design may not meet criteria: Unknown"
+        ],
+        "pico": {
+          "population": {
+            "text": "HEART FAILURE",
+            "confidence": 0.9,
+            "type": "condition",
+            "details": [
+              {
+                "text": "HEART FAILURE",
+                "type": "condition",
+                "confidence": 0.9
+              }
+            ]
+          },
+          "intervention": {
+            "text": null,
+            "confidence": 0,
+            "details": []
+          },
+          "comparator": {
+            "text": null,
+            "confidence": 0,
+            "details": []
+          },
+          "outcomes": [],
+          "studyDesign": {
+            "type": "Unknown",
+            "confidence": 0.3
+          },
+          "sampleSize": null,
+          "followUp": null,
+          "setting": []
+        },
+        "needsReview": true,
+        "processedAt": "2026-02-24T08:34:19.066Z"
+      },
+      {
+        "nctId": "NCT00111969",
+        "title": "ACCLAIM - Advanced Chronic Heart Failure CLinical Assessment of Immune Modulation Therapy",
+        "briefSummary": null,
+        "status": "COMPLETED",
+        "startDate": "2003-06-30",
+        "completionDate": "2005-11-30",
+        "studyType": "INTERVENTIONAL",
+        "phases": [
+          "PHASE3"
+        ],
+        "enrollment": 2016,
+        "allocation": "RANDOMIZED",
+        "primaryPurpose": "TREATMENT",
+        "source": "aact",
+        "retrievedAt": "2026-02-24T08:34:16.238Z",
+        "isDuplicate": false,
+        "classification": "maybe",
+        "relevanceScore": 45,
+        "relevanceReasons": [
+          "Contains 1 required keywords",
+          "Study design may not meet criteria: Unknown"
+        ],
+        "pico": {
+          "population": {
+            "text": "HEART FAILURE",
+            "confidence": 0.9,
+            "type": "condition",
+            "details": [
+              {
+                "text": "HEART FAILURE",
+                "type": "condition",
+                "confidence": 0.9
+              }
+            ]
+          },
+          "intervention": {
+            "text": null,
+            "confidence": 0,
+            "details": []
+          },
+          "comparator": {
+            "text": null,
+            "confidence": 0,
+            "details": []
+          },
+          "outcomes": [],
+          "studyDesign": {
+            "type": "Unknown",
+            "confidence": 0.3
+          },
+          "sampleSize": null,
+          "followUp": null,
+          "setting": []
+        },
+        "needsReview": true,
+        "processedAt": "2026-02-24T08:34:19.212Z"
+      },
+      {
+        "nctId": "NCT00112125",
+        "title": "Evaluation of the Safety and Effectiveness of the OPTIMIZER System in Subjects With Heart Failure: FIX-HF-5",
+        "briefSummary": null,
+        "status": "COMPLETED",
+        "startDate": "2005-02-28",
+        "completionDate": "2019-03-19",
+        "studyType": "INTERVENTIONAL",
+        "phases": [
+          "NA"
+        ],
+        "enrollment": 428,
+        "allocation": "RANDOMIZED",
+        "primaryPurpose": "TREATMENT",
+        "source": "aact",
+        "retrievedAt": "2026-02-24T08:34:16.238Z",
+        "isDuplicate": false,
+        "classification": "maybe",
+        "relevanceScore": 45,
+        "relevanceReasons": [
+          "Contains 1 required keywords",
+          "Study design may not meet criteria: Unknown"
+        ],
+        "pico": {
+          "population": {
+            "text": "HEART FAILURE",
+            "confidence": 0.9,
+            "type": "condition",
+            "details": [
+              {
+                "text": "HEART FAILURE",
+                "type": "condition",
+                "confidence": 0.9
+              }
+            ]
+          },
+          "intervention": {
+            "text": null,
+            "confidence": 0,
+            "details": []
+          },
+          "comparator": {
+            "text": null,
+            "confidence": 0,
+            "details": []
+          },
+          "outcomes": [],
+          "studyDesign": {
+            "type": "Unknown",
+            "confidence": 0.3
+          },
+          "sampleSize": null,
+          "followUp": null,
+          "setting": []
+        },
+        "needsReview": true,
+        "processedAt": "2026-02-24T08:34:19.269Z"
+      },
+      {
+        "nctId": "NCT00117234",
+        "title": "Impact of Darbepoetin Alfa on Exercise Tolerance and Left Ventricular Structure in Subjects With Symptomatic Congestive Heart Failure (CHF) and Anemia",
+        "briefSummary": null,
+        "status": "COMPLETED",
+        "startDate": "2002-09-30",
+        "completionDate": "2004-07-31",
+        "studyType": "INTERVENTIONAL",
+        "phases": [
+          "NA"
+        ],
+        "enrollment": null,
+        "allocation": "RANDOMIZED",
+        "primaryPurpose": "TREATMENT",
+        "source": "aact",
+        "retrievedAt": "2026-02-24T08:34:16.238Z",
+        "isDuplicate": false,
+        "classification": "maybe",
+        "relevanceScore": 50,
+        "relevanceReasons": [
+          "Contains 1 required keywords",
+          "Contains 1 preferred keywords",
+          "Study design may not meet criteria: Unknown"
+        ],
+        "pico": {
+          "population": {
+            "text": "HEART FAILURE",
+            "confidence": 0.9,
+            "type": "condition",
+            "details": [
+              {
+                "text": "HEART FAILURE",
+                "type": "condition",
+                "confidence": 0.9
+              }
+            ]
+          },
+          "intervention": {
+            "text": null,
+            "confidence": 0,
+            "details": []
+          },
+          "comparator": {
+            "text": null,
+            "confidence": 0,
+            "details": []
+          },
+          "outcomes": [],
+          "studyDesign": {
+            "type": "Unknown",
+            "confidence": 0.3
+          },
+          "sampleSize": null,
+          "followUp": null,
+          "setting": []
+        },
+        "needsReview": true,
+        "processedAt": "2026-02-24T08:34:19.453Z"
+      },
+      {
+        "nctId": "NCT00117247",
+        "title": "A Study of Repeat-Dose Subcutaneous Darbepoetin Alfa in Subjects With Congestive Heart Failure and Anemia, and a Single Dose in Healthy Age- and Sex-Matched Control Subjects",
+        "briefSummary": null,
+        "status": "COMPLETED",
+        "startDate": "2002-06-30",
+        "completionDate": "2004-07-31",
+        "studyType": "INTERVENTIONAL",
+        "phases": [
+          "PHASE1/PHASE2"
+        ],
+        "enrollment": null,
+        "allocation": "RANDOMIZED",
+        "primaryPurpose": "TREATMENT",
+        "source": "aact",
+        "retrievedAt": "2026-02-24T08:34:16.238Z",
+        "isDuplicate": false,
+        "classification": "maybe",
+        "relevanceScore": 50,
+        "relevanceReasons": [
+          "Contains 1 required keywords",
+          "Contains 1 preferred keywords",
+          "Study design may not meet criteria: Unknown"
+        ],
+        "pico": {
+          "population": {
+            "text": "HEART FAILURE",
+            "confidence": 0.9,
+            "type": "condition",
+            "details": [
+              {
+                "text": "HEART FAILURE",
+                "type": "condition",
+                "confidence": 0.9
+              }
+            ]
+          },
+          "intervention": {
+            "text": null,
+            "confidence": 0,
+            "details": []
+          },
+          "comparator": {
+            "text": "Control",
+            "confidence": 0.8,
+            "type": "comparator",
+            "details": [
+              {
+                "text": "Control",
+                "type": "comparator",
+                "confidence": 0.8
+              }
+            ]
+          },
+          "outcomes": [],
+          "studyDesign": {
+            "type": "Unknown",
+            "confidence": 0.3
+          },
+          "sampleSize": null,
+          "followUp": null,
+          "setting": [
+            {
+              "type": "country",
+              "value": "us"
+            }
+          ]
+        },
+        "needsReview": true,
+        "processedAt": "2026-02-24T08:34:19.523Z"
+      },
+      {
+        "nctId": "NCT00119691",
+        "title": "Nesiritide Infusion for the Treatment of Decompensated Heart Failure and Renal Dysfunction",
+        "briefSummary": null,
+        "status": "COMPLETED",
+        "startDate": "2003-04-30",
+        "completionDate": "2005-11-30",
+        "studyType": "INTERVENTIONAL",
+        "phases": [
+          "PHASE2"
+        ],
+        "enrollment": 34,
+        "allocation": "RANDOMIZED",
+        "primaryPurpose": "TREATMENT",
+        "source": "aact",
+        "retrievedAt": "2026-02-24T08:34:16.238Z",
+        "isDuplicate": false,
+        "classification": "maybe",
+        "relevanceScore": 45,
+        "relevanceReasons": [
+          "Contains 1 required keywords",
+          "Study design may not meet criteria: Unknown"
+        ],
+        "pico": {
+          "population": {
+            "text": "HEART FAILURE",
+            "confidence": 0.9,
+            "type": "condition",
+            "details": [
+              {
+                "text": "HEART FAILURE",
+                "type": "condition",
+                "confidence": 0.9
+              }
+            ]
+          },
+          "intervention": {
+            "text": "Treatment of Decompensated Heart Failure and Renal Dysfunction",
+            "confidence": 0.85,
+            "type": "drug_with_dose",
+            "details": [
+              {
+                "text": "Treatment of Decompensated Heart Failure and Renal Dysfunction",
+                "type": "drug_with_dose",
+                "confidence": 0.85
+              }
+            ]
+          },
+          "comparator": {
+            "text": null,
+            "confidence": 0,
+            "details": []
+          },
+          "outcomes": [],
+          "studyDesign": {
+            "type": "Unknown",
+            "confidence": 0.3
+          },
+          "sampleSize": null,
+          "followUp": null,
+          "setting": [
+            {
+              "type": "country",
+              "value": "us"
+            }
+          ]
+        },
+        "needsReview": true,
+        "processedAt": "2026-02-24T08:34:19.591Z"
+      },
+      {
+        "nctId": "NCT00124137",
+        "title": "Ultrafiltration Versus Intravenous (IV) Diuretics for Patients Hospitalized for Acute Decompensated Heart Failure: (UNLOAD)",
+        "briefSummary": null,
+        "status": "COMPLETED",
+        "startDate": "2004-04-30",
+        "completionDate": "2005-10-31",
+        "studyType": "INTERVENTIONAL",
+        "phases": [
+          "NA"
+        ],
+        "enrollment": 200,
+        "allocation": "RANDOMIZED",
+        "primaryPurpose": "TREATMENT",
+        "source": "aact",
+        "retrievedAt": "2026-02-24T08:34:16.238Z",
+        "isDuplicate": false,
+        "classification": "maybe",
+        "relevanceScore": 45,
+        "relevanceReasons": [
+          "Contains 1 required keywords",
+          "Study design may not meet criteria: Unknown"
+        ],
+        "pico": {
+          "population": {
+            "text": "HEART FAILURE",
+            "confidence": 0.9,
+            "type": "condition",
+            "details": [
+              {
+                "text": "HEART FAILURE",
+                "type": "condition",
+                "confidence": 0.9
+              }
+            ]
+          },
+          "intervention": {
+            "text": null,
+            "confidence": 0,
+            "details": []
+          },
+          "comparator": {
+            "text": "Intravenous (IV) Diuretics",
+            "confidence": 0.8,
+            "type": "comparator",
+            "details": [
+              {
+                "text": "Intravenous (IV) Diuretics",
+                "type": "comparator",
+                "confidence": 0.8
+              }
+            ]
+          },
+          "outcomes": [],
+          "studyDesign": {
+            "type": "Unknown",
+            "confidence": 0.3
+          },
+          "sampleSize": null,
+          "followUp": null,
+          "setting": [
+            {
+              "type": "country",
+              "value": "us"
+            }
+          ]
+        },
+        "needsReview": true,
+        "processedAt": "2026-02-24T08:34:20.069Z"
+      },
+      {
+        "nctId": "NCT00130884",
+        "title": "Peroral Levosimendan in Chronic Heart Failure",
+        "briefSummary": null,
+        "status": "COMPLETED",
+        "startDate": "2005-03-31",
+        "completionDate": "2006-03-31",
+        "studyType": "INTERVENTIONAL",
+        "phases": [
+          "PHASE2"
+        ],
+        "enrollment": 300,
+        "allocation": "RANDOMIZED",
+        "primaryPurpose": "TREATMENT",
+        "source": "aact",
+        "retrievedAt": "2026-02-24T08:34:16.238Z",
+        "isDuplicate": false,
+        "classification": "maybe",
+        "relevanceScore": 45,
+        "relevanceReasons": [
+          "Contains 1 required keywords",
+          "Study design may not meet criteria: Unknown"
+        ],
+        "pico": {
+          "population": {
+            "text": "HEART FAILURE",
+            "confidence": 0.9,
+            "type": "condition",
+            "details": [
+              {
+                "text": "HEART FAILURE",
+                "type": "condition",
+                "confidence": 0.9
+              }
+            ]
+          },
+          "intervention": {
+            "text": null,
+            "confidence": 0,
+            "details": []
+          },
+          "comparator": {
+            "text": null,
+            "confidence": 0,
+            "details": []
+          },
+          "outcomes": [],
+          "studyDesign": {
+            "type": "Unknown",
+            "confidence": 0.3
+          },
+          "sampleSize": null,
+          "followUp": null,
+          "setting": []
+        },
+        "needsReview": true,
+        "processedAt": "2026-02-24T08:34:20.285Z"
+      },
+      {
+        "nctId": "NCT00132886",
+        "title": "Heart Pressure Assessment Study With Tolvaptan to Treat Congestive Heart Failure",
+        "briefSummary": null,
+        "status": "COMPLETED",
+        "startDate": "2004-12-31",
+        "completionDate": "2006-12-31",
+        "studyType": "INTERVENTIONAL",
+        "phases": [
+          "PHASE2"
+        ],
+        "enrollment": 140,
+        "allocation": "RANDOMIZED",
+        "primaryPurpose": "TREATMENT",
+        "source": "aact",
+        "retrievedAt": "2026-02-24T08:34:16.238Z",
+        "isDuplicate": false,
+        "classification": "maybe",
+        "relevanceScore": 50,
+        "relevanceReasons": [
+          "Contains 1 required keywords",
+          "Contains 1 preferred keywords",
+          "Study design may not meet criteria: Unknown"
+        ],
+        "pico": {
+          "population": {
+            "text": "HEART FAILURE",
+            "confidence": 0.9,
+            "type": "condition",
+            "details": [
+              {
+                "text": "HEART FAILURE",
+                "type": "condition",
+                "confidence": 0.9
+              }
+            ]
+          },
+          "intervention": {
+            "text": null,
+            "confidence": 0,
+            "details": []
+          },
+          "comparator": {
+            "text": null,
+            "confidence": 0,
+            "details": []
+          },
+          "outcomes": [],
+          "studyDesign": {
+            "type": "Unknown",
+            "confidence": 0.3
+          },
+          "sampleSize": null,
+          "followUp": null,
+          "setting": []
+        },
+        "needsReview": true,
+        "processedAt": "2026-02-24T08:34:20.483Z"
+      },
+      {
+        "nctId": "NCT00132977",
+        "title": "RethinQ Study - Evaluating Pacing in Heart Failure Patients",
+        "briefSummary": null,
+        "status": "COMPLETED",
+        "startDate": "2005-07-31",
+        "completionDate": "2007-07-31",
+        "studyType": "INTERVENTIONAL",
+        "phases": [
+          "PHASE3"
+        ],
+        "enrollment": 250,
+        "allocation": "RANDOMIZED",
+        "primaryPurpose": "TREATMENT",
+        "source": "aact",
+        "retrievedAt": "2026-02-24T08:34:16.238Z",
+        "isDuplicate": false,
+        "classification": "maybe",
+        "relevanceScore": 45,
+        "relevanceReasons": [
+          "Contains 1 required keywords",
+          "Study design may not meet criteria: Unknown"
+        ],
+        "pico": {
+          "population": {
+            "text": "HEART FAILURE",
+            "confidence": 0.9,
+            "type": "condition",
+            "details": [
+              {
+                "text": "HEART FAILURE",
+                "type": "condition",
+                "confidence": 0.9
+              }
+            ]
+          },
+          "intervention": {
+            "text": null,
+            "confidence": 0,
+            "details": []
+          },
+          "comparator": {
+            "text": null,
+            "confidence": 0,
+            "details": []
+          },
+          "outcomes": [],
+          "studyDesign": {
+            "type": "Unknown",
+            "confidence": 0.3
+          },
+          "sampleSize": null,
+          "followUp": null,
+          "setting": []
+        },
+        "needsReview": true,
+        "processedAt": "2026-02-24T08:34:20.706Z"
+      },
+      {
+        "nctId": "NCT00141856",
+        "title": "Health E Heart Study (South Texas Veterans Health Care System Heart Failure Disease Management Program/Study)",
+        "briefSummary": null,
+        "status": "COMPLETED",
+        "startDate": "2005-06-30",
+        "completionDate": "2008-06-30",
+        "studyType": "INTERVENTIONAL",
+        "phases": [
+          "PHASE4"
+        ],
+        "enrollment": 420,
+        "allocation": "RANDOMIZED",
+        "primaryPurpose": null,
+        "source": "aact",
+        "retrievedAt": "2026-02-24T08:34:16.238Z",
+        "isDuplicate": false,
+        "classification": "maybe",
+        "relevanceScore": 45,
+        "relevanceReasons": [
+          "Contains 1 required keywords",
+          "Study design may not meet criteria: Unknown"
+        ],
+        "pico": {
+          "population": {
+            "text": "HEART FAILURE",
+            "confidence": 0.9,
+            "type": "condition",
+            "details": [
+              {
+                "text": "HEART FAILURE",
+                "type": "condition",
+                "confidence": 0.9
+              }
+            ]
+          },
+          "intervention": {
+            "text": null,
+            "confidence": 0,
+            "details": []
+          },
+          "comparator": {
+            "text": null,
+            "confidence": 0,
+            "details": []
+          },
+          "outcomes": [],
+          "studyDesign": {
+            "type": "Unknown",
+            "confidence": 0.3
+          },
+          "sampleSize": null,
+          "followUp": null,
+          "setting": []
+        },
+        "needsReview": true,
+        "processedAt": "2026-02-24T08:34:20.921Z"
+      },
+      {
+        "nctId": "NCT00149409",
+        "title": "Omega-3-Polyunsaturated Fatty-Acids (N3-Pufa) In Patients With Severe Chronic Heart Failure",
+        "briefSummary": null,
+        "status": "COMPLETED",
+        "startDate": "2005-09-30",
+        "completionDate": "2008-02-29",
+        "studyType": "INTERVENTIONAL",
+        "phases": [
+          "PHASE2/PHASE3"
+        ],
+        "enrollment": null,
+        "allocation": "RANDOMIZED",
+        "primaryPurpose": "TREATMENT",
+        "source": "aact",
+        "retrievedAt": "2026-02-24T08:34:16.238Z",
+        "isDuplicate": false,
+        "classification": "maybe",
+        "relevanceScore": 45,
+        "relevanceReasons": [
+          "Contains 1 required keywords",
+          "Study design may not meet criteria: Unknown"
+        ],
+        "pico": {
+          "population": {
+            "text": "HEART FAILURE",
+            "confidence": 0.9,
+            "type": "condition",
+            "details": [
+              {
+                "text": "HEART FAILURE",
+                "type": "condition",
+                "confidence": 0.9
+              }
+            ]
+          },
+          "intervention": {
+            "text": null,
+            "confidence": 0,
+            "details": []
+          },
+          "comparator": {
+            "text": null,
+            "confidence": 0,
+            "details": []
+          },
+          "outcomes": [],
+          "studyDesign": {
+            "type": "Unknown",
+            "confidence": 0.3
+          },
+          "sampleSize": null,
+          "followUp": null,
+          "setting": []
+        },
+        "needsReview": true,
+        "processedAt": "2026-02-24T08:34:22.102Z"
+      },
+      {
+        "nctId": "NCT00149422",
+        "title": "Effect of NT-proBNP Guided Treatment of Chronic Heart Failure",
+        "briefSummary": null,
+        "status": "COMPLETED",
+        "startDate": "2004-06-30",
+        "completionDate": "2009-04-30",
+        "studyType": "INTERVENTIONAL",
+        "phases": [
+          "NA"
+        ],
+        "enrollment": null,
+        "allocation": "RANDOMIZED",
+        "primaryPurpose": "DIAGNOSTIC",
+        "source": "aact",
+        "retrievedAt": "2026-02-24T08:34:16.238Z",
+        "isDuplicate": false,
+        "classification": "maybe",
+        "relevanceScore": 45,
+        "relevanceReasons": [
+          "Contains 1 required keywords",
+          "Study design may not meet criteria: Unknown"
+        ],
+        "pico": {
+          "population": {
+            "text": "HEART FAILURE",
+            "confidence": 0.9,
+            "type": "condition",
+            "details": [
+              {
+                "text": "HEART FAILURE",
+                "type": "condition",
+                "confidence": 0.9
+              }
+            ]
+          },
+          "intervention": {
+            "text": "Treatment of Chronic Heart Failure",
+            "confidence": 0.85,
+            "type": "drug_with_dose",
+            "details": [
+              {
+                "text": "Treatment of Chronic Heart Failure",
+                "type": "drug_with_dose",
+                "confidence": 0.85
+              }
+            ]
+          },
+          "comparator": {
+            "text": null,
+            "confidence": 0,
+            "details": []
+          },
+          "outcomes": [],
+          "studyDesign": {
+            "type": "Unknown",
+            "confidence": 0.3
+          },
+          "sampleSize": null,
+          "followUp": null,
+          "setting": []
+        },
+        "needsReview": true,
+        "processedAt": "2026-02-24T08:34:22.258Z"
+      },
+      {
+        "nctId": "NCT00156390",
+        "title": "Predictors of Response to Biventricular Pacing in Heart Failure",
+        "briefSummary": null,
+        "status": "COMPLETED",
+        "startDate": "2005-06-30",
+        "completionDate": "2012-06-30",
+        "studyType": "INTERVENTIONAL",
+        "phases": [
+          "NA"
+        ],
+        "enrollment": 187,
+        "allocation": "RANDOMIZED",
+        "primaryPurpose": "TREATMENT",
+        "source": "aact",
+        "retrievedAt": "2026-02-24T08:34:16.238Z",
+        "isDuplicate": false,
+        "classification": "maybe",
+        "relevanceScore": 45,
+        "relevanceReasons": [
+          "Contains 1 required keywords",
+          "Study design may not meet criteria: Unknown"
+        ],
+        "pico": {
+          "population": {
+            "text": "HEART FAILURE",
+            "confidence": 0.9,
+            "type": "condition",
+            "details": [
+              {
+                "text": "HEART FAILURE",
+                "type": "condition",
+                "confidence": 0.9
+              }
+            ]
+          },
+          "intervention": {
+            "text": null,
+            "confidence": 0,
+            "details": []
+          },
+          "comparator": {
+            "text": null,
+            "confidence": 0,
+            "details": []
+          },
+          "outcomes": [],
+          "studyDesign": {
+            "type": "Unknown",
+            "confidence": 0.3
+          },
+          "sampleSize": null,
+          "followUp": null,
+          "setting": []
+        },
+        "needsReview": true,
+        "processedAt": "2026-02-24T08:34:22.550Z"
+      },
+      {
+        "nctId": "NCT00407446",
+        "title": "PDE5-Inhibition With Sildenafil in Chronic Heart Failure",
+        "briefSummary": null,
+        "status": "COMPLETED",
+        "startDate": "2004-01-31",
+        "completionDate": "2005-02-28",
+        "studyType": "INTERVENTIONAL",
+        "phases": [
+          "PHASE3"
+        ],
+        "enrollment": 40,
+        "allocation": "RANDOMIZED",
+        "primaryPurpose": "TREATMENT",
+        "source": "aact",
+        "retrievedAt": "2026-02-24T08:34:17.138Z",
+        "isDuplicate": false,
+        "classification": "maybe",
+        "relevanceScore": 45,
+        "relevanceReasons": [
+          "Contains 1 required keywords",
+          "Study design may not meet criteria: Unknown"
+        ],
+        "pico": {
+          "population": {
+            "text": "HEART FAILURE",
+            "confidence": 0.9,
+            "type": "condition",
+            "details": [
+              {
+                "text": "HEART FAILURE",
+                "type": "condition",
+                "confidence": 0.9
+              }
+            ]
+          },
+          "intervention": {
+            "text": null,
+            "confidence": 0,
+            "details": []
+          },
+          "comparator": {
+            "text": null,
+            "confidence": 0,
+            "details": []
+          },
+          "outcomes": [],
+          "studyDesign": {
+            "type": "Unknown",
+            "confidence": 0.3
+          },
+          "sampleSize": null,
+          "followUp": null,
+          "setting": []
+        },
+        "needsReview": true,
+        "processedAt": "2026-02-24T08:34:23.041Z"
+      },
+      {
+        "nctId": "NCT01035255",
+        "title": "This Study Will Evaluate the Efficacy and Safety of LCZ696 Compared to Enalapril on Morbidity and Mortality of Patients With Chronic Heart Failure",
+        "briefSummary": null,
+        "status": "TERMINATED",
+        "startDate": "2009-12-31",
+        "completionDate": "2014-05-31",
+        "studyType": "INTERVENTIONAL",
+        "phases": [
+          "PHASE3"
+        ],
+        "enrollment": 8442,
+        "allocation": "RANDOMIZED",
+        "primaryPurpose": "TREATMENT",
+        "source": "aact",
+        "retrievedAt": "2026-02-24T08:34:17.138Z",
+        "isDuplicate": false,
+        "classification": "maybe",
+        "relevanceScore": 45,
+        "relevanceReasons": [
+          "Contains 1 required keywords",
+          "Study design may not meet criteria: Unknown"
+        ],
+        "pico": {
+          "population": {
+            "text": "HEART FAILURE",
+            "confidence": 0.9,
+            "type": "condition",
+            "details": [
+              {
+                "text": "HEART FAILURE",
+                "type": "condition",
+                "confidence": 0.9
+              }
+            ]
+          },
+          "intervention": {
+            "text": "Enalapril",
+            "confidence": 0.9,
+            "type": "known_drug",
+            "details": [
+              {
+                "text": "Enalapril",
+                "context": "This Study Will Evaluate the Efficacy and Safety of LCZ696 Compared to Enalapril on Morbidity and Mortality of Patients With Chronic Heart Failure",
+                "type": "known_drug",
+                "confidence": 0.9
+              }
+            ]
+          },
+          "comparator": {
+            "text": "Enalapril on Morbidity and Mortality of Patients",
+            "confidence": 0.8,
+            "type": "comparator",
+            "details": [
+              {
+                "text": "Enalapril on Morbidity and Mortality of Patients",
+                "type": "comparator",
+                "confidence": 0.8
+              }
+            ]
+          },
+          "outcomes": [],
+          "studyDesign": {
+            "type": "Unknown",
+            "confidence": 0.3
+          },
+          "sampleSize": null,
+          "followUp": null,
+          "setting": []
+        },
+        "needsReview": true,
+        "processedAt": "2026-02-24T08:34:23.360Z"
+      },
+      {
+        "nctId": "NCT02861534",
+        "title": "A Study of Vericiguat in Participants With Heart Failure With Reduced Ejection Fraction (HFrEF) (MK-1242-001)",
+        "briefSummary": null,
+        "status": "COMPLETED",
+        "startDate": "2016-09-20",
+        "completionDate": "2019-09-02",
+        "studyType": "INTERVENTIONAL",
+        "phases": [
+          "PHASE3"
+        ],
+        "enrollment": 5050,
+        "allocation": "RANDOMIZED",
+        "primaryPurpose": "TREATMENT",
+        "source": "aact",
+        "retrievedAt": "2026-02-24T08:34:17.138Z",
+        "isDuplicate": false,
+        "classification": "maybe",
+        "relevanceScore": 50,
+        "relevanceReasons": [
+          "Contains 1 required keywords",
+          "Contains 1 preferred keywords",
+          "Study design may not meet criteria: Unknown"
+        ],
+        "pico": {
+          "population": {
+            "text": "HEART FAILURE",
+            "confidence": 0.9,
+            "type": "condition",
+            "details": [
+              {
+                "text": "HEART FAILURE",
+                "type": "condition",
+                "confidence": 0.9
+              }
+            ]
+          },
+          "intervention": {
+            "text": null,
+            "confidence": 0,
+            "details": []
+          },
+          "comparator": {
+            "text": null,
+            "confidence": 0,
+            "details": []
+          },
+          "outcomes": [],
+          "studyDesign": {
+            "type": "Unknown",
+            "confidence": 0.3
+          },
+          "sampleSize": null,
+          "followUp": null,
+          "setting": []
+        },
+        "needsReview": true,
+        "processedAt": "2026-02-24T08:34:23.661Z"
+      },
+      {
+        "nctId": "NCT02924727",
+        "title": "Prospective ARNI vs ACE Inhibitor Trial to DetermIne Superiority in Reducing Heart Failure Events After MI",
+        "briefSummary": null,
+        "status": "COMPLETED",
+        "startDate": "2016-12-09",
+        "completionDate": "2021-02-26",
+        "studyType": "INTERVENTIONAL",
+        "phases": [
+          "PHASE3"
+        ],
+        "enrollment": 5669,
+        "allocation": "RANDOMIZED",
+        "primaryPurpose": "TREATMENT",
+        "source": "aact",
+        "retrievedAt": "2026-02-24T08:34:17.138Z",
+        "isDuplicate": false,
+        "classification": "maybe",
+        "relevanceScore": 50,
+        "relevanceReasons": [
+          "Contains 1 required keywords",
+          "Contains 1 preferred keywords",
+          "Study design may not meet criteria: Unknown"
+        ],
+        "pico": {
+          "population": {
+            "text": "HEART FAILURE",
+            "confidence": 0.9,
+            "type": "condition",
+            "details": [
+              {
+                "text": "HEART FAILURE",
+                "type": "condition",
+                "confidence": 0.9
+              }
+            ]
+          },
+          "intervention": {
+            "text": null,
+            "confidence": 0,
+            "details": []
+          },
+          "comparator": {
+            "text": "ACE",
+            "confidence": 0.8,
+            "type": "comparator",
+            "details": [
+              {
+                "text": "ACE",
+                "type": "comparator",
+                "confidence": 0.8
+              },
+              {
+                "text": "Trial to DetermIne Superiority",
+                "type": "comparator",
+                "confidence": 0.8
+              }
+            ]
+          },
+          "outcomes": [],
+          "studyDesign": {
+            "type": "Unknown",
+            "confidence": 0.3
+          },
+          "sampleSize": null,
+          "followUp": null,
+          "setting": []
+        },
+        "needsReview": true,
+        "processedAt": "2026-02-24T08:34:23.958Z"
+      },
+      {
+        "nctId": "NCT03036124",
+        "title": "Study to Evaluate the Effect of Dapagliflozin on the Incidence of Worsening Heart Failure or Cardiovascular Death in Patients With Chronic Heart Failure",
+        "briefSummary": null,
+        "status": "COMPLETED",
+        "startDate": "2017-02-08",
+        "completionDate": "2019-07-17",
+        "studyType": "INTERVENTIONAL",
+        "phases": [
+          "PHASE3"
+        ],
+        "enrollment": 4744,
+        "allocation": "RANDOMIZED",
+        "primaryPurpose": "TREATMENT",
+        "source": "aact",
+        "retrievedAt": "2026-02-24T08:34:17.138Z",
+        "isDuplicate": false,
+        "classification": "maybe",
+        "relevanceScore": 45,
+        "relevanceReasons": [
+          "Contains 1 required keywords",
+          "Study design may not meet criteria: Unknown"
+        ],
+        "pico": {
+          "population": {
+            "text": "HEART FAILURE",
+            "confidence": 0.9,
+            "type": "condition",
+            "details": [
+              {
+                "text": "HEART FAILURE",
+                "type": "condition",
+                "confidence": 0.9
+              }
+            ]
+          },
+          "intervention": {
+            "text": null,
+            "confidence": 0,
+            "details": []
+          },
+          "comparator": {
+            "text": "Cardiovascular Death",
+            "confidence": 0.8,
+            "type": "comparator",
+            "details": [
+              {
+                "text": "Cardiovascular Death",
+                "type": "comparator",
+                "confidence": 0.8
+              }
+            ]
+          },
+          "outcomes": [
+            {
+              "text": "Cardiovascular death",
+              "type": "clinical_outcome",
+              "confidence": 0.85
+            }
+          ],
+          "studyDesign": {
+            "type": "Unknown",
+            "confidence": 0.3
+          },
+          "sampleSize": null,
+          "followUp": null,
+          "setting": []
+        },
+        "needsReview": true,
+        "processedAt": "2026-02-24T08:34:24.281Z"
+      },
+      {
+        "nctId": "NCT03036462",
+        "title": "Intravenous Iron in Patients With Systolic Heart Failure and Iron Deficiency to Improve Morbidity & Mortality",
+        "briefSummary": null,
+        "status": "COMPLETED",
+        "startDate": "2017-03-07",
+        "completionDate": "2024-05-02",
+        "studyType": "INTERVENTIONAL",
+        "phases": [
+          "PHASE4"
+        ],
+        "enrollment": 1105,
+        "allocation": "RANDOMIZED",
+        "primaryPurpose": "TREATMENT",
+        "source": "aact",
+        "retrievedAt": "2026-02-24T08:34:17.138Z",
+        "isDuplicate": false,
+        "classification": "maybe",
+        "relevanceScore": 45,
+        "relevanceReasons": [
+          "Contains 1 required keywords",
+          "Study design may not meet criteria: Unknown"
+        ],
+        "pico": {
+          "population": {
+            "text": "HEART FAILURE",
+            "confidence": 0.9,
+            "type": "condition",
+            "details": [
+              {
+                "text": "HEART FAILURE",
+                "type": "condition",
+                "confidence": 0.9
+              }
+            ]
+          },
+          "intervention": {
+            "text": null,
+            "confidence": 0,
+            "details": []
+          },
+          "comparator": {
+            "text": null,
+            "confidence": 0,
+            "details": []
+          },
+          "outcomes": [],
+          "studyDesign": {
+            "type": "Unknown",
+            "confidence": 0.3
+          },
+          "sampleSize": null,
+          "followUp": null,
+          "setting": [
+            {
+              "type": "country",
+              "value": "us"
+            }
+          ]
+        },
+        "needsReview": true,
+        "processedAt": "2026-02-24T08:34:24.637Z"
+      },
+      {
+        "nctId": "NCT03037931",
+        "title": "Randomized Placebo-controlled Trial of FCM as Treatment for Heart Failure With Iron Deficiency / and Sub-Study",
+        "briefSummary": null,
+        "status": "COMPLETED",
+        "startDate": "2017-03-15",
+        "completionDate": "2023-02-02",
+        "studyType": "INTERVENTIONAL",
+        "phases": [
+          "PHASE3"
+        ],
+        "enrollment": 3065,
+        "allocation": "RANDOMIZED",
+        "primaryPurpose": "TREATMENT",
+        "source": "aact",
+        "retrievedAt": "2026-02-24T08:34:17.138Z",
+        "isDuplicate": false,
+        "classification": "include",
+        "relevanceScore": 90,
+        "relevanceReasons": [
+          "Contains 1 required keywords",
+          "Contains 2 preferred keywords",
+          "Accepted study design: RCT"
+        ],
+        "pico": {
+          "population": {
+            "text": "HEART FAILURE",
+            "confidence": 0.9,
+            "type": "condition",
+            "details": [
+              {
+                "text": "HEART FAILURE",
+                "type": "condition",
+                "confidence": 0.9
+              }
+            ]
+          },
+          "intervention": {
+            "text": "Treatment for Heart Failure With Iron Deficiency / and Sub-Study",
+            "confidence": 0.85,
+            "type": "drug_with_dose",
+            "details": [
+              {
+                "text": "Treatment for Heart Failure With Iron Deficiency / and Sub-Study",
+                "type": "drug_with_dose",
+                "confidence": 0.85
+              }
+            ]
+          },
+          "comparator": {
+            "text": "Placebo",
+            "confidence": 0.95,
+            "type": "placebo",
+            "details": [
+              {
+                "text": "Placebo",
+                "type": "placebo",
+                "confidence": 0.95
+              },
+              {
+                "text": "Heart Failure",
+                "type": "comparator",
+                "confidence": 0.8
+              },
+              {
+                "text": "Placebo",
+                "type": "comparator",
+                "confidence": 0.8
+              },
+              {
+                "text": "control",
+                "type": "comparator",
+                "confidence": 0.8
+              }
+            ]
+          },
+          "outcomes": [],
+          "studyDesign": {
+            "type": "RCT",
+            "confidence": 0.75
+          },
+          "sampleSize": null,
+          "followUp": null,
+          "setting": []
+        },
+        "needsReview": false,
+        "processedAt": "2026-02-24T08:34:24.986Z"
+      },
+      {
+        "nctId": "NCT03057951",
+        "title": "EMPagliflozin outcomE tRial in Patients With chrOnic heaRt Failure With Preserved Ejection Fraction (EMPEROR-Preserved)",
+        "briefSummary": null,
+        "status": "COMPLETED",
+        "startDate": "2017-03-02",
+        "completionDate": "2021-04-26",
+        "studyType": "INTERVENTIONAL",
+        "phases": [
+          "PHASE3"
+        ],
+        "enrollment": 5988,
+        "allocation": "RANDOMIZED",
+        "primaryPurpose": "TREATMENT",
+        "source": "aact",
+        "retrievedAt": "2026-02-24T08:34:17.138Z",
+        "isDuplicate": false,
+        "classification": "maybe",
+        "relevanceScore": 50,
+        "relevanceReasons": [
+          "Contains 1 required keywords",
+          "Contains 1 preferred keywords",
+          "Study design may not meet criteria: Unknown"
+        ],
+        "pico": {
+          "population": {
+            "text": "HEART FAILURE",
+            "confidence": 0.9,
+            "type": "condition",
+            "details": [
+              {
+                "text": "HEART FAILURE",
+                "type": "condition",
+                "confidence": 0.9
+              }
+            ]
+          },
+          "intervention": {
+            "text": null,
+            "confidence": 0,
+            "details": []
+          },
+          "comparator": {
+            "text": null,
+            "confidence": 0,
+            "details": []
+          },
+          "outcomes": [],
+          "studyDesign": {
+            "type": "Unknown",
+            "confidence": 0.3
+          },
+          "sampleSize": null,
+          "followUp": null,
+          "setting": []
+        },
+        "needsReview": true,
+        "processedAt": "2026-02-24T08:34:25.280Z"
+      },
+      {
+        "nctId": "NCT03521934",
+        "title": "Effect of Sotagliflozin on Cardiovascular Events in Participants With Type 2 Diabetes Post Worsening Heart Failure (SOLOIST-WHF Trial)",
+        "briefSummary": null,
+        "status": "TERMINATED",
+        "startDate": "2018-06-15",
+        "completionDate": "2020-06-05",
+        "studyType": "INTERVENTIONAL",
+        "phases": [
+          "PHASE3"
+        ],
+        "enrollment": 1222,
+        "allocation": "RANDOMIZED",
+        "primaryPurpose": "TREATMENT",
+        "source": "aact",
+        "retrievedAt": "2026-02-24T08:34:17.138Z",
+        "isDuplicate": false,
+        "classification": "maybe",
+        "relevanceScore": 50,
+        "relevanceReasons": [
+          "Contains 1 required keywords",
+          "Contains 1 preferred keywords",
+          "Study design may not meet criteria: Unknown"
+        ],
+        "pico": {
+          "population": {
+            "text": "HEART FAILURE",
+            "confidence": 0.9,
+            "type": "condition",
+            "details": [
+              {
+                "text": "HEART FAILURE",
+                "type": "condition",
+                "confidence": 0.9
+              },
+              {
+                "text": "DIABETES",
+                "type": "condition",
+                "confidence": 0.9
+              }
+            ]
+          },
+          "intervention": {
+            "text": null,
+            "confidence": 0,
+            "details": []
+          },
+          "comparator": {
+            "text": null,
+            "confidence": 0,
+            "details": []
+          },
+          "outcomes": [],
+          "studyDesign": {
+            "type": "Unknown",
+            "confidence": 0.3
+          },
+          "sampleSize": null,
+          "followUp": null,
+          "setting": []
+        },
+        "needsReview": true,
+        "processedAt": "2026-02-24T08:34:25.838Z"
+      },
+      {
+        "nctId": "NCT03619213",
+        "title": "Dapagliflozin Evaluation to Improve the LIVEs of Patients With PReserved Ejection Fraction Heart Failure.",
+        "briefSummary": null,
+        "status": "COMPLETED",
+        "startDate": "2018-08-27",
+        "completionDate": "2022-03-27",
+        "studyType": "INTERVENTIONAL",
+        "phases": [
+          "PHASE3"
+        ],
+        "enrollment": 6263,
+        "allocation": "RANDOMIZED",
+        "primaryPurpose": "TREATMENT",
+        "source": "aact",
+        "retrievedAt": "2026-02-24T08:34:17.138Z",
+        "isDuplicate": false,
+        "classification": "maybe",
+        "relevanceScore": 45,
+        "relevanceReasons": [
+          "Contains 1 required keywords",
+          "Study design may not meet criteria: Unknown"
+        ],
+        "pico": {
+          "population": {
+            "text": "HEART FAILURE",
+            "confidence": 0.9,
+            "type": "condition",
+            "details": [
+              {
+                "text": "HEART FAILURE",
+                "type": "condition",
+                "confidence": 0.9
+              }
+            ]
+          },
+          "intervention": {
+            "text": null,
+            "confidence": 0,
+            "details": []
+          },
+          "comparator": {
+            "text": null,
+            "confidence": 0,
+            "details": []
+          },
+          "outcomes": [],
+          "studyDesign": {
+            "type": "Unknown",
+            "confidence": 0.3
+          },
+          "sampleSize": null,
+          "followUp": null,
+          "setting": []
+        },
+        "needsReview": true,
+        "processedAt": "2026-02-24T08:34:26.084Z"
+      }
+    ],
+    "duplicates": [
+      {
+        "nctId": "NCT00048425",
+        "title": "Evaluation of Intravenous Levosimendan Efficacy in the Short Term Treatment of Decompensated Chronic Heart Failure.",
+        "briefSummary": null,
+        "status": "COMPLETED",
+        "startDate": "2002-09-30",
+        "completionDate": "2004-12-31",
+        "studyType": "INTERVENTIONAL",
+        "phases": [
+          "PHASE3"
+        ],
+        "enrollment": 600,
+        "allocation": "RANDOMIZED",
+        "primaryPurpose": "TREATMENT",
+        "source": "aact",
+        "retrievedAt": "2026-02-24T08:34:16.238Z",
+        "isDuplicate": true,
+        "duplicateOf": {
+          "index": 8,
+          "title": "Evaluation Study of Congestive Heart Failure and Pulmonary Artery Catheterization Effectiveness (ESCAPE)"
+        }
+      },
+      {
+        "nctId": "NCT00052026",
+        "title": "Safety and Efficacy Study of Carvedilol to Treat Children With Congestive Heart Failure",
+        "briefSummary": null,
+        "status": "COMPLETED",
+        "startDate": "2000-05-31",
+        "completionDate": "2006-07-31",
+        "studyType": "INTERVENTIONAL",
+        "phases": [
+          "PHASE3"
+        ],
+        "enrollment": 161,
+        "allocation": "RANDOMIZED",
+        "primaryPurpose": "TREATMENT",
+        "source": "aact",
+        "retrievedAt": "2026-02-24T08:34:16.238Z",
+        "isDuplicate": true,
+        "duplicateOf": {
+          "index": 30,
+          "title": "Safety and Efficacy Study of Once and Twice Daily Doses of MCC-135 in Subjects With Congestive Heart Failure."
+        }
+      },
+      {
+        "nctId": "NCT00057356",
+        "title": "Safety and Efficacy Study of YM087 (Conivaptan) in Patients With Acute Decompensated Heart Failure",
+        "briefSummary": null,
+        "status": "COMPLETED",
+        "startDate": "2002-11-30",
+        "completionDate": "2004-03-31",
+        "studyType": "INTERVENTIONAL",
+        "phases": [
+          "PHASE2"
+        ],
+        "enrollment": 170,
+        "allocation": "RANDOMIZED",
+        "primaryPurpose": "TREATMENT",
+        "source": "aact",
+        "retrievedAt": "2026-02-24T08:34:16.238Z",
+        "isDuplicate": true,
+        "duplicateOf": {
+          "index": 30,
+          "title": "Safety and Efficacy Study of Once and Twice Daily Doses of MCC-135 in Subjects With Congestive Heart Failure."
+        }
+      },
+      {
+        "nctId": "NCT03057977",
+        "title": "EMPagliflozin outcomE tRial in Patients With chrOnic heaRt Failure With Reduced Ejection Fraction (EMPEROR-Reduced)",
+        "briefSummary": null,
+        "status": "COMPLETED",
+        "startDate": "2017-03-06",
+        "completionDate": "2020-05-28",
+        "studyType": "INTERVENTIONAL",
+        "phases": [
+          "PHASE3"
+        ],
+        "enrollment": 3730,
+        "allocation": "RANDOMIZED",
+        "primaryPurpose": "TREATMENT",
+        "source": "aact",
+        "retrievedAt": "2026-02-24T08:34:17.138Z",
+        "isDuplicate": true,
+        "duplicateOf": {
+          "index": 88,
+          "title": "EMPagliflozin outcomE tRial in Patients With chrOnic heaRt Failure With Preserved Ejection Fraction (EMPEROR-Preserved)"
+        }
+      }
+    ],
+    "excluded": [
+      {
+        "nctId": "NCT00000476",
+        "title": "Digitalis Investigation Group (DIG)",
+        "briefSummary": null,
+        "status": "COMPLETED",
+        "startDate": "1990-06-30",
+        "completionDate": "1998-06-30",
+        "studyType": "INTERVENTIONAL",
+        "phases": [
+          "PHASE3"
+        ],
+        "enrollment": null,
+        "allocation": "RANDOMIZED",
+        "primaryPurpose": "TREATMENT",
+        "source": "aact",
+        "retrievedAt": "2026-02-24T08:34:16.238Z",
+        "isDuplicate": false,
+        "classification": "exclude",
+        "relevanceScore": 0,
+        "relevanceReasons": [
+          "Missing required keywords",
+          "Study design may not meet criteria: Unknown"
+        ],
+        "pico": null,
+        "needsReview": false,
+        "processedAt": "2026-02-24T08:34:17.162Z"
+      },
+      {
+        "nctId": "NCT00000516",
+        "title": "Studies of Left Ventricular Dysfunction (SOLVD)",
+        "briefSummary": null,
+        "status": "COMPLETED",
+        "startDate": "1985-07-31",
+        "completionDate": "1990-05-31",
+        "studyType": "INTERVENTIONAL",
+        "phases": [
+          "PHASE3"
+        ],
+        "enrollment": null,
+        "allocation": "RANDOMIZED",
+        "primaryPurpose": "PREVENTION",
+        "source": "aact",
+        "retrievedAt": "2026-02-24T08:34:16.238Z",
+        "isDuplicate": false,
+        "classification": "exclude",
+        "relevanceScore": 0,
+        "relevanceReasons": [
+          "Missing required keywords",
+          "Contains 1 preferred keywords",
+          "Study design may not meet criteria: Unknown"
+        ],
+        "pico": null,
+        "needsReview": false,
+        "processedAt": "2026-02-24T08:34:17.164Z"
+      },
+      {
+        "nctId": "NCT00000542",
+        "title": "Antihypertensive and Lipid-Lowering Treatment to Prevent Heart Attack Trial (ALLHAT)",
+        "briefSummary": null,
+        "status": "COMPLETED",
+        "startDate": "1993-08-31",
+        "completionDate": "2002-03-31",
+        "studyType": "INTERVENTIONAL",
+        "phases": [
+          "PHASE3"
+        ],
+        "enrollment": null,
+        "allocation": "RANDOMIZED",
+        "primaryPurpose": "PREVENTION",
+        "source": "aact",
+        "retrievedAt": "2026-02-24T08:34:16.238Z",
+        "isDuplicate": false,
+        "classification": "exclude",
+        "relevanceScore": 0,
+        "relevanceReasons": [
+          "Missing required keywords",
+          "Contains 1 preferred keywords",
+          "Study design may not meet criteria: Unknown"
+        ],
+        "pico": null,
+        "needsReview": false,
+        "processedAt": "2026-02-24T08:34:17.166Z"
+      },
+      {
+        "nctId": "NCT00000547",
+        "title": "Enalapril After Anthracycline Cardiotoxicity",
+        "briefSummary": null,
+        "status": "COMPLETED",
+        "startDate": "1994-04-30",
+        "completionDate": "2001-02-28",
+        "studyType": "INTERVENTIONAL",
+        "phases": [
+          "PHASE3"
+        ],
+        "enrollment": null,
+        "allocation": "RANDOMIZED",
+        "primaryPurpose": "TREATMENT",
+        "source": "aact",
+        "retrievedAt": "2026-02-24T08:34:16.238Z",
+        "isDuplicate": false,
+        "classification": "exclude",
+        "relevanceScore": 0,
+        "relevanceReasons": [
+          "Missing required keywords",
+          "Study design may not meet criteria: Unknown"
+        ],
+        "pico": null,
+        "needsReview": false,
+        "processedAt": "2026-02-24T08:34:17.168Z"
+      },
+      {
+        "nctId": "NCT00000560",
+        "title": "Beta-Blocker Evaluation in Survival Trial (BEST)",
+        "briefSummary": null,
+        "status": "COMPLETED",
+        "startDate": "1994-06-30",
+        "completionDate": "1999-09-30",
+        "studyType": "INTERVENTIONAL",
+        "phases": [
+          "PHASE3"
+        ],
+        "enrollment": null,
+        "allocation": "RANDOMIZED",
+        "primaryPurpose": null,
+        "source": "aact",
+        "retrievedAt": "2026-02-24T08:34:16.238Z",
+        "isDuplicate": false,
+        "classification": "exclude",
+        "relevanceScore": 0,
+        "relevanceReasons": [
+          "Missing required keywords",
+          "Contains 1 preferred keywords",
+          "Study design may not meet criteria: Unknown"
+        ],
+        "pico": null,
+        "needsReview": false,
+        "processedAt": "2026-02-24T08:34:17.172Z"
+      },
+      {
+        "nctId": "NCT00004562",
+        "title": "Occluded Artery Trial (OAT)",
+        "briefSummary": null,
+        "status": "COMPLETED",
+        "startDate": "1999-09-30",
+        "completionDate": "2011-06-30",
+        "studyType": "INTERVENTIONAL",
+        "phases": [
+          "PHASE3"
+        ],
+        "enrollment": 2201,
+        "allocation": "RANDOMIZED",
+        "primaryPurpose": "TREATMENT",
+        "source": "aact",
+        "retrievedAt": "2026-02-24T08:34:16.238Z",
+        "isDuplicate": false,
+        "classification": "exclude",
+        "relevanceScore": 0,
+        "relevanceReasons": [
+          "Missing required keywords",
+          "Contains 1 preferred keywords",
+          "Study design may not meet criteria: Unknown"
+        ],
+        "pico": null,
+        "needsReview": false,
+        "processedAt": "2026-02-24T08:34:17.217Z"
+      },
+      {
+        "nctId": "NCT00012818",
+        "title": "Efficacy and Cost Effectiveness of Relaxation and Response to CHF",
+        "briefSummary": null,
+        "status": "COMPLETED",
+        "startDate": null,
+        "completionDate": "2003-09-30",
+        "studyType": "INTERVENTIONAL",
+        "phases": [
+          "NA"
+        ],
+        "enrollment": 90,
+        "allocation": "RANDOMIZED",
+        "primaryPurpose": null,
+        "source": "aact",
+        "retrievedAt": "2026-02-24T08:34:16.238Z",
+        "isDuplicate": false,
+        "classification": "exclude",
+        "relevanceScore": 0,
+        "relevanceReasons": [
+          "Missing required keywords",
+          "Study design may not meet criteria: Unknown"
+        ],
+        "pico": null,
+        "needsReview": false,
+        "processedAt": "2026-02-24T08:34:17.230Z"
+      },
+      {
+        "nctId": "NCT00012974",
+        "title": "Telephone Administered Psychotherapy for the Treatment of Depression for Veterans in Rural Areas",
+        "briefSummary": null,
+        "status": "COMPLETED",
+        "startDate": "2005-11-30",
+        "completionDate": "2007-05-31",
+        "studyType": "INTERVENTIONAL",
+        "phases": [
+          "PHASE1/PHASE2"
+        ],
+        "enrollment": 60,
+        "allocation": "RANDOMIZED",
+        "primaryPurpose": "TREATMENT",
+        "source": "aact",
+        "retrievedAt": "2026-02-24T08:34:16.238Z",
+        "isDuplicate": false,
+        "classification": "exclude",
+        "relevanceScore": 0,
+        "relevanceReasons": [
+          "Missing required keywords",
+          "Study design may not meet criteria: Unknown"
+        ],
+        "pico": null,
+        "needsReview": false,
+        "processedAt": "2026-02-24T08:34:17.244Z"
+      },
+      {
+        "nctId": "NCT00013026",
+        "title": "Trial of a Tailored Message Program to Implement CHF Guidelines",
+        "briefSummary": null,
+        "status": "COMPLETED",
+        "startDate": null,
+        "completionDate": "2004-03-31",
+        "studyType": "INTERVENTIONAL",
+        "phases": [
+          "NA"
+        ],
+        "enrollment": 700,
+        "allocation": "RANDOMIZED",
+        "primaryPurpose": null,
+        "source": "aact",
+        "retrievedAt": "2026-02-24T08:34:16.238Z",
+        "isDuplicate": false,
+        "classification": "exclude",
+        "relevanceScore": 0,
+        "relevanceReasons": [
+          "Missing required keywords",
+          "Contains 1 preferred keywords",
+          "Study design may not meet criteria: Unknown"
+        ],
+        "pico": null,
+        "needsReview": false,
+        "processedAt": "2026-02-24T08:34:17.252Z"
+      },
+      {
+        "nctId": "NCT00013039",
+        "title": "Computerized Guidelines Enhanced by Symptoms and History: Clinical Effects",
+        "briefSummary": null,
+        "status": "COMPLETED",
+        "startDate": null,
+        "completionDate": "2001-02-28",
+        "studyType": "INTERVENTIONAL",
+        "phases": [
+          "NA"
+        ],
+        "enrollment": 1000,
+        "allocation": "RANDOMIZED",
+        "primaryPurpose": null,
+        "source": "aact",
+        "retrievedAt": "2026-02-24T08:34:16.238Z",
+        "isDuplicate": false,
+        "classification": "exclude",
+        "relevanceScore": 0,
+        "relevanceReasons": [
+          "Missing required keywords",
+          "Study design may not meet criteria: Unknown"
+        ],
+        "pico": null,
+        "needsReview": false,
+        "processedAt": "2026-02-24T08:34:17.261Z"
+      },
+      {
+        "nctId": "NCT00032422",
+        "title": "Acupuncture in Cardiovascular Disease",
+        "briefSummary": null,
+        "status": "COMPLETED",
+        "startDate": "2001-07-31",
+        "completionDate": "2003-06-30",
+        "studyType": "INTERVENTIONAL",
+        "phases": [
+          "PHASE2"
+        ],
+        "enrollment": 200,
+        "allocation": "RANDOMIZED",
+        "primaryPurpose": "TREATMENT",
+        "source": "aact",
+        "retrievedAt": "2026-02-24T08:34:16.238Z",
+        "isDuplicate": false,
+        "classification": "exclude",
+        "relevanceScore": 0,
+        "relevanceReasons": [
+          "Missing required keywords",
+          "Study design may not meet criteria: Unknown"
+        ],
+        "pico": null,
+        "needsReview": false,
+        "processedAt": "2026-02-24T08:34:17.322Z"
+      },
+      {
+        "nctId": "NCT00038077",
+        "title": "Reversal of Ventricular Remodeling With Toprol-XL",
+        "briefSummary": null,
+        "status": "COMPLETED",
+        "startDate": "2001-08-31",
+        "completionDate": "2003-09-30",
+        "studyType": "INTERVENTIONAL",
+        "phases": [
+          "PHASE3"
+        ],
+        "enrollment": 300,
+        "allocation": "RANDOMIZED",
+        "primaryPurpose": "TREATMENT",
+        "source": "aact",
+        "retrievedAt": "2026-02-24T08:34:16.238Z",
+        "isDuplicate": false,
+        "classification": "exclude",
+        "relevanceScore": 0,
+        "relevanceReasons": [
+          "Missing required keywords",
+          "Study design may not meet criteria: Unknown"
+        ],
+        "pico": null,
+        "needsReview": false,
+        "processedAt": "2026-02-24T08:34:17.356Z"
+      },
+      {
+        "nctId": "NCT00060840",
+        "title": "The Effects of Nitric Oxide for Inhalation During Left Ventricular Assists Device (LVAD) Implantation",
+        "briefSummary": null,
+        "status": "COMPLETED",
+        "startDate": "2003-07-31",
+        "completionDate": "2008-07-31",
+        "studyType": "INTERVENTIONAL",
+        "phases": [
+          "PHASE2"
+        ],
+        "enrollment": 150,
+        "allocation": "RANDOMIZED",
+        "primaryPurpose": "TREATMENT",
+        "source": "aact",
+        "retrievedAt": "2026-02-24T08:34:16.238Z",
+        "isDuplicate": false,
+        "classification": "exclude",
+        "relevanceScore": 0,
+        "relevanceReasons": [
+          "Missing required keywords",
+          "Study design may not meet criteria: Unknown"
+        ],
+        "pico": null,
+        "needsReview": false,
+        "processedAt": "2026-02-24T08:34:17.704Z"
+      },
+      {
+        "nctId": "NCT00067236",
+        "title": "Study of Oral PG-116800 Following a Heart Attack",
+        "briefSummary": null,
+        "status": "COMPLETED",
+        "startDate": "2003-09-30",
+        "completionDate": "2004-12-31",
+        "studyType": "INTERVENTIONAL",
+        "phases": [
+          "PHASE2"
+        ],
+        "enrollment": 253,
+        "allocation": "RANDOMIZED",
+        "primaryPurpose": "TREATMENT",
+        "source": "aact",
+        "retrievedAt": "2026-02-24T08:34:16.238Z",
+        "isDuplicate": false,
+        "classification": "exclude",
+        "relevanceScore": 0,
+        "relevanceReasons": [
+          "Missing required keywords",
+          "Study design may not meet criteria: Unknown"
+        ],
+        "pico": null,
+        "needsReview": false,
+        "processedAt": "2026-02-24T08:34:17.797Z"
+      },
+      {
+        "nctId": "NCT00091507",
+        "title": "IMMEDIATE Trial - Out of Hospital Administration of Glucose, Insulin and Potassium.",
+        "briefSummary": null,
+        "status": "COMPLETED",
+        "startDate": "2006-11-30",
+        "completionDate": "2012-08-31",
+        "studyType": "INTERVENTIONAL",
+        "phases": [
+          "PHASE3"
+        ],
+        "enrollment": 911,
+        "allocation": "RANDOMIZED",
+        "primaryPurpose": "TREATMENT",
+        "source": "aact",
+        "retrievedAt": "2026-02-24T08:34:16.238Z",
+        "isDuplicate": false,
+        "classification": "exclude",
+        "relevanceScore": 0,
+        "relevanceReasons": [
+          "Missing required keywords",
+          "Contains 1 preferred keywords",
+          "Study design may not meet criteria: Unknown"
+        ],
+        "pico": null,
+        "needsReview": false,
+        "processedAt": "2026-02-24T08:34:18.179Z"
+      },
+      {
+        "nctId": "NCT00094562",
+        "title": "A Fish Oil Supplement to Maintain Body Weight in Patients With Disease-Related Weight Loss",
+        "briefSummary": null,
+        "status": "COMPLETED",
+        "startDate": "2004-06-30",
+        "completionDate": "2007-09-30",
+        "studyType": "INTERVENTIONAL",
+        "phases": [
+          "PHASE2"
+        ],
+        "enrollment": 25,
+        "allocation": "RANDOMIZED",
+        "primaryPurpose": "TREATMENT",
+        "source": "aact",
+        "retrievedAt": "2026-02-24T08:34:16.238Z",
+        "isDuplicate": false,
+        "classification": "exclude",
+        "relevanceScore": 0,
+        "relevanceReasons": [
+          "Missing required keywords",
+          "Study design may not meet criteria: Unknown"
+        ],
+        "pico": null,
+        "needsReview": false,
+        "processedAt": "2026-02-24T08:34:18.431Z"
+      },
+      {
+        "nctId": "NCT00105846",
+        "title": "An Evaluation of Home-Based Telemedicine Services",
+        "briefSummary": null,
+        "status": "COMPLETED",
+        "startDate": null,
+        "completionDate": "2004-06-30",
+        "studyType": "INTERVENTIONAL",
+        "phases": [
+          "PHASE2"
+        ],
+        "enrollment": 200,
+        "allocation": "RANDOMIZED",
+        "primaryPurpose": "TREATMENT",
+        "source": "aact",
+        "retrievedAt": "2026-02-24T08:34:16.238Z",
+        "isDuplicate": false,
+        "classification": "exclude",
+        "relevanceScore": 0,
+        "relevanceReasons": [
+          "Missing required keywords",
+          "Study design may not meet criteria: Unknown"
+        ],
+        "pico": null,
+        "needsReview": false,
+        "processedAt": "2026-02-24T08:34:18.731Z"
+      },
+      {
+        "nctId": "NCT00111527",
+        "title": "APAF: Assessment of Cardiac Resynchronization Therapy in Patients With Permanent Atrial Fibrillation",
+        "briefSummary": null,
+        "status": "COMPLETED",
+        "startDate": "2005-05-31",
+        "completionDate": "2010-03-31",
+        "studyType": "INTERVENTIONAL",
+        "phases": [
+          "PHASE3"
+        ],
+        "enrollment": 458,
+        "allocation": "RANDOMIZED",
+        "primaryPurpose": "TREATMENT",
+        "source": "aact",
+        "retrievedAt": "2026-02-24T08:34:16.238Z",
+        "isDuplicate": false,
+        "classification": "exclude",
+        "relevanceScore": 0,
+        "relevanceReasons": [
+          "Missing required keywords",
+          "Contains 1 preferred keywords",
+          "Study design may not meet criteria: Unknown"
+        ],
+        "pico": null,
+        "needsReview": false,
+        "processedAt": "2026-02-24T08:34:19.142Z"
+      },
+      {
+        "nctId": "NCT00113087",
+        "title": "Trial of Angiotensin Converting Enzyme Inhibition in Infants With Single Ventricle--Pediatric Heart Network",
+        "briefSummary": null,
+        "status": "COMPLETED",
+        "startDate": "2003-08-31",
+        "completionDate": "2008-07-31",
+        "studyType": "INTERVENTIONAL",
+        "phases": [
+          "PHASE3"
+        ],
+        "enrollment": 230,
+        "allocation": "RANDOMIZED",
+        "primaryPurpose": "TREATMENT",
+        "source": "aact",
+        "retrievedAt": "2026-02-24T08:34:16.238Z",
+        "isDuplicate": false,
+        "classification": "exclude",
+        "relevanceScore": 0,
+        "relevanceReasons": [
+          "Missing required keywords",
+          "Contains 1 preferred keywords",
+          "Study design may not meet criteria: Unknown"
+        ],
+        "pico": null,
+        "needsReview": false,
+        "processedAt": "2026-02-24T08:34:19.326Z"
+      },
+      {
+        "nctId": "NCT00115726",
+        "title": "Trial Assessing the Effect of Preoperative Furosemide on Intraoperative Blood Pressure",
+        "briefSummary": null,
+        "status": "COMPLETED",
+        "startDate": "2000-09-30",
+        "completionDate": "2007-04-30",
+        "studyType": "INTERVENTIONAL",
+        "phases": [
+          "PHASE4"
+        ],
+        "enrollment": 198,
+        "allocation": "RANDOMIZED",
+        "primaryPurpose": "PREVENTION",
+        "source": "aact",
+        "retrievedAt": "2026-02-24T08:34:16.238Z",
+        "isDuplicate": false,
+        "classification": "exclude",
+        "relevanceScore": 0,
+        "relevanceReasons": [
+          "Missing required keywords",
+          "Contains 1 preferred keywords",
+          "Study design may not meet criteria: Unknown"
+        ],
+        "pico": null,
+        "needsReview": false,
+        "processedAt": "2026-02-24T08:34:19.390Z"
+      },
+      {
+        "nctId": "NCT00120276",
+        "title": "RESTOR-MV: Randomized Evaluation of a Surgical Treatment for Off-Pump Repair of the Mitral Valve",
+        "briefSummary": null,
+        "status": "COMPLETED",
+        "startDate": "2004-06-30",
+        "completionDate": null,
+        "studyType": "INTERVENTIONAL",
+        "phases": [
+          "PHASE2"
+        ],
+        "enrollment": 250,
+        "allocation": "RANDOMIZED",
+        "primaryPurpose": "TREATMENT",
+        "source": "aact",
+        "retrievedAt": "2026-02-24T08:34:16.238Z",
+        "isDuplicate": false,
+        "classification": "exclude",
+        "relevanceScore": 30,
+        "relevanceReasons": [
+          "Missing required keywords",
+          "Contains 1 preferred keywords",
+          "Accepted study design: RCT"
+        ],
+        "pico": null,
+        "needsReview": true,
+        "processedAt": "2026-02-24T08:34:19.662Z"
+      },
+      {
+        "nctId": "NCT00121485",
+        "title": "Thoratec HeartMate II Left Ventricular Assist System (LVAS) for Destination Therapy",
+        "briefSummary": null,
+        "status": "COMPLETED",
+        "startDate": "2005-02-28",
+        "completionDate": "2012-01-31",
+        "studyType": "INTERVENTIONAL",
+        "phases": [
+          "NA"
+        ],
+        "enrollment": 200,
+        "allocation": "RANDOMIZED",
+        "primaryPurpose": "TREATMENT",
+        "source": "aact",
+        "retrievedAt": "2026-02-24T08:34:16.238Z",
+        "isDuplicate": false,
+        "classification": "exclude",
+        "relevanceScore": 0,
+        "relevanceReasons": [
+          "Missing required keywords",
+          "Study design may not meet criteria: Unknown"
+        ],
+        "pico": null,
+        "needsReview": false,
+        "processedAt": "2026-02-24T08:34:19.752Z"
+      },
+      {
+        "nctId": "NCT00122135",
+        "title": "A Culturally Sensitive Values-Guided Aid for End of Life Decision-Making",
+        "briefSummary": null,
+        "status": "COMPLETED",
+        "startDate": "2004-12-31",
+        "completionDate": "2009-09-30",
+        "studyType": "INTERVENTIONAL",
+        "phases": [
+          "NA"
+        ],
+        "enrollment": 120,
+        "allocation": "RANDOMIZED",
+        "primaryPurpose": "HEALTH_SERVICES_RESEARCH",
+        "source": "aact",
+        "retrievedAt": "2026-02-24T08:34:16.238Z",
+        "isDuplicate": false,
+        "classification": "exclude",
+        "relevanceScore": 0,
+        "relevanceReasons": [
+          "Missing required keywords",
+          "Study design may not meet criteria: Unknown"
+        ],
+        "pico": null,
+        "needsReview": false,
+        "processedAt": "2026-02-24T08:34:19.863Z"
+      },
+      {
+        "nctId": "NCT00123955",
+        "title": "PIE II: Pharmacological Intervention in the Elderly II",
+        "briefSummary": null,
+        "status": "COMPLETED",
+        "startDate": "2005-04-30",
+        "completionDate": "2012-12-31",
+        "studyType": "INTERVENTIONAL",
+        "phases": [
+          "PHASE3"
+        ],
+        "enrollment": 80,
+        "allocation": "RANDOMIZED",
+        "primaryPurpose": "TREATMENT",
+        "source": "aact",
+        "retrievedAt": "2026-02-24T08:34:16.238Z",
+        "isDuplicate": false,
+        "classification": "exclude",
+        "relevanceScore": 0,
+        "relevanceReasons": [
+          "Missing required keywords",
+          "Study design may not meet criteria: Unknown"
+        ],
+        "pico": null,
+        "needsReview": false,
+        "processedAt": "2026-02-24T08:34:19.969Z"
+      },
+      {
+        "nctId": "NCT00125476",
+        "title": "Effects of Exercise Training on Diastolic Heart Function in Postmenopausal Women",
+        "briefSummary": null,
+        "status": "COMPLETED",
+        "startDate": "2004-07-31",
+        "completionDate": null,
+        "studyType": "INTERVENTIONAL",
+        "phases": [
+          "NA"
+        ],
+        "enrollment": 215,
+        "allocation": "RANDOMIZED",
+        "primaryPurpose": null,
+        "source": "aact",
+        "retrievedAt": "2026-02-24T08:34:16.238Z",
+        "isDuplicate": false,
+        "classification": "exclude",
+        "relevanceScore": 0,
+        "relevanceReasons": [
+          "Missing required keywords",
+          "Study design may not meet criteria: Unknown"
+        ],
+        "pico": null,
+        "needsReview": false,
+        "processedAt": "2026-02-24T08:34:20.162Z"
+      },
+      {
+        "nctId": "NCT00146679",
+        "title": "Psychoeducational Intervention for ICD Patients (PEACE)",
+        "briefSummary": null,
+        "status": "COMPLETED",
+        "startDate": "2001-03-31",
+        "completionDate": "2006-02-28",
+        "studyType": "INTERVENTIONAL",
+        "phases": [
+          "NA"
+        ],
+        "enrollment": 246,
+        "allocation": "RANDOMIZED",
+        "primaryPurpose": "SUPPORTIVE_CARE",
+        "source": "aact",
+        "retrievedAt": "2026-02-24T08:34:16.238Z",
+        "isDuplicate": false,
+        "classification": "exclude",
+        "relevanceScore": 0,
+        "relevanceReasons": [
+          "Missing required keywords",
+          "Study design may not meet criteria: Unknown"
+        ],
+        "pico": null,
+        "needsReview": false,
+        "processedAt": "2026-02-24T08:34:21.131Z"
+      },
+      {
+        "nctId": "NCT00146848",
+        "title": "PEGASUS CRT Study: Atrial Support Study in Cardiac Resynchronization Therapy",
+        "briefSummary": null,
+        "status": "COMPLETED",
+        "startDate": "2004-12-31",
+        "completionDate": "2009-02-28",
+        "studyType": "INTERVENTIONAL",
+        "phases": [
+          "PHASE4"
+        ],
+        "enrollment": 1742,
+        "allocation": "RANDOMIZED",
+        "primaryPurpose": "TREATMENT",
+        "source": "aact",
+        "retrievedAt": "2026-02-24T08:34:16.238Z",
+        "isDuplicate": false,
+        "classification": "exclude",
+        "relevanceScore": 0,
+        "relevanceReasons": [
+          "Missing required keywords",
+          "Contains 1 preferred keywords",
+          "Study design may not meet criteria: Unknown"
+        ],
+        "pico": null,
+        "needsReview": false,
+        "processedAt": "2026-02-24T08:34:21.376Z"
+      },
+      {
+        "nctId": "NCT00147706",
+        "title": "Does Access to an EHR Patient Portal Influence Chronic Disease Outcomes?",
+        "briefSummary": null,
+        "status": "COMPLETED",
+        "startDate": "2004-09-30",
+        "completionDate": "2006-08-31",
+        "studyType": "INTERVENTIONAL",
+        "phases": [
+          "NA"
+        ],
+        "enrollment": 6000,
+        "allocation": "RANDOMIZED",
+        "primaryPurpose": null,
+        "source": "aact",
+        "retrievedAt": "2026-02-24T08:34:16.238Z",
+        "isDuplicate": false,
+        "classification": "exclude",
+        "relevanceScore": 0,
+        "relevanceReasons": [
+          "Missing required keywords",
+          "Study design may not meet criteria: Unknown"
+        ],
+        "pico": null,
+        "needsReview": false,
+        "processedAt": "2026-02-24T08:34:21.614Z"
+      },
+      {
+        "nctId": "NCT00149227",
+        "title": "Add-on Effects of Valsartan on Morbi- Mortality (KYOTO HEART Study)",
+        "briefSummary": null,
+        "status": "COMPLETED",
+        "startDate": "2004-01-31",
+        "completionDate": "2009-01-31",
+        "studyType": "INTERVENTIONAL",
+        "phases": [
+          "PHASE4"
+        ],
+        "enrollment": 3031,
+        "allocation": "RANDOMIZED",
+        "primaryPurpose": "DIAGNOSTIC",
+        "source": "aact",
+        "retrievedAt": "2026-02-24T08:34:16.238Z",
+        "isDuplicate": false,
+        "classification": "exclude",
+        "relevanceScore": 0,
+        "relevanceReasons": [
+          "Missing required keywords",
+          "Study design may not meet criteria: Unknown"
+        ],
+        "pico": null,
+        "needsReview": false,
+        "processedAt": "2026-02-24T08:34:21.858Z"
+      },
+      {
+        "nctId": "NCT00154115",
+        "title": "Levosimendan in High Risk Heart Valve Surgery",
+        "briefSummary": null,
+        "status": "COMPLETED",
+        "startDate": "2005-03-31",
+        "completionDate": "2008-12-31",
+        "studyType": "INTERVENTIONAL",
+        "phases": [
+          "PHASE4"
+        ],
+        "enrollment": 200,
+        "allocation": "RANDOMIZED",
+        "primaryPurpose": "TREATMENT",
+        "source": "aact",
+        "retrievedAt": "2026-02-24T08:34:16.238Z",
+        "isDuplicate": false,
+        "classification": "exclude",
+        "relevanceScore": 0,
+        "relevanceReasons": [
+          "Missing required keywords",
+          "Study design may not meet criteria: Unknown"
+        ],
+        "pico": null,
+        "needsReview": false,
+        "processedAt": "2026-02-24T08:34:22.403Z"
+      },
+      {
+        "nctId": "NCT00271154",
+        "title": "REsynchronization reVErses Remodeling in Systolic Left vEntricular Dysfunction (REVERSE)",
+        "briefSummary": null,
+        "status": "COMPLETED",
+        "startDate": "2004-09-30",
+        "completionDate": "2011-11-30",
+        "studyType": "INTERVENTIONAL",
+        "phases": [
+          "NA"
+        ],
+        "enrollment": 684,
+        "allocation": "RANDOMIZED",
+        "primaryPurpose": "TREATMENT",
+        "source": "aact",
+        "retrievedAt": "2026-02-24T08:34:17.138Z",
+        "isDuplicate": false,
+        "classification": "exclude",
+        "relevanceScore": 0,
+        "relevanceReasons": [
+          "Missing required keywords",
+          "Contains 1 preferred keywords",
+          "Study design may not meet criteria: Unknown"
+        ],
+        "pico": null,
+        "needsReview": false,
+        "processedAt": "2026-02-24T08:34:22.764Z"
+      }
+    ],
+    "summary": {
+      "totalFound": 92,
+      "newPotentialInclusions": 2,
+      "newMaybes": 55,
+      "duplicatesDetected": 4,
+      "autoExcluded": 31,
+      "trialUniverseWithoutPICO": 92,
+      "trialUniverseWithPICO": 61,
+      "trialUniverseRetainedPct": 66.3
+    },
+    "trialUniverse": {
+      "decision": "PASS",
+      "withoutPICO": {
+        "totalStudies": 92,
+        "uniqueNctCount": 92,
+        "studyIds": [
+          "NCT00000475",
+          "NCT00000476",
+          "NCT00000516",
+          "NCT00000542",
+          "NCT00000547",
+          "NCT00000560",
+          "NCT00000607",
+          "NCT00000609",
+          "NCT00000619",
+          "NCT00004562",
+          "NCT00007683",
+          "NCT00012818",
+          "NCT00012870",
+          "NCT00012883",
+          "NCT00012974",
+          "NCT00013026",
+          "NCT00013039",
+          "NCT00013221",
+          "NCT00018005",
+          "NCT00023595",
+          "NCT00032422",
+          "NCT00032747",
+          "NCT00038077",
+          "NCT00041431",
+          "NCT00043758",
+          "NCT00043771",
+          "NCT00047437",
+          "NCT00047775",
+          "NCT00048425",
+          "NCT00049985",
+          "NCT00050076",
+          "NCT00052026",
+          "NCT00057057",
+          "NCT00057200",
+          "NCT00057356",
+          "NCT00060840",
+          "NCT00063687",
+          "NCT00067236",
+          "NCT00071331",
+          "NCT00074724",
+          "NCT00078286",
+          "NCT00082589",
+          "NCT00086086",
+          "NCT00090259",
+          "NCT00091507",
+          "NCT00091520",
+          "NCT00094302",
+          "NCT00094562",
+          "NCT00095238",
+          "NCT00099580",
+          "NCT00105846",
+          "NCT00108147",
+          "NCT00108251",
+          "NCT00110227",
+          "NCT00111527",
+          "NCT00111969",
+          "NCT00112125",
+          "NCT00113087",
+          "NCT00115726",
+          "NCT00117234",
+          "NCT00117247",
+          "NCT00119691",
+          "NCT00120276",
+          "NCT00121485",
+          "NCT00122135",
+          "NCT00123955",
+          "NCT00124137",
+          "NCT00125476",
+          "NCT00130884",
+          "NCT00132886",
+          "NCT00132977",
+          "NCT00141856",
+          "NCT00146679",
+          "NCT00146848",
+          "NCT00147706",
+          "NCT00149227",
+          "NCT00149409",
+          "NCT00149422",
+          "NCT00154115",
+          "NCT00156390",
+          "NCT00271154",
+          "NCT00407446",
+          "NCT01035255",
+          "NCT02861534",
+          "NCT02924727",
+          "NCT03036124",
+          "NCT03036462",
+          "NCT03037931",
+          "NCT03057951",
+          "NCT03057977",
+          "NCT03521934",
+          "NCT03619213"
+        ],
+        "duplicateCount": 0,
+        "duplicateStudyIds": []
+      },
+      "withPICO": {
+        "totalStudies": 61,
+        "includeCount": 2,
+        "maybeCount": 59,
+        "excludeCount": 31,
+        "studyIds": [
+          "NCT00000475",
+          "NCT00000607",
+          "NCT00000609",
+          "NCT00000619",
+          "NCT00007683",
+          "NCT00012870",
+          "NCT00012883",
+          "NCT00013221",
+          "NCT00018005",
+          "NCT00023595",
+          "NCT00032747",
+          "NCT00041431",
+          "NCT00043758",
+          "NCT00043771",
+          "NCT00047437",
+          "NCT00047775",
+          "NCT00048425",
+          "NCT00049985",
+          "NCT00050076",
+          "NCT00052026",
+          "NCT00057057",
+          "NCT00057200",
+          "NCT00057356",
+          "NCT00063687",
+          "NCT00071331",
+          "NCT00074724",
+          "NCT00078286",
+          "NCT00082589",
+          "NCT00086086",
+          "NCT00090259",
+          "NCT00091520",
+          "NCT00094302",
+          "NCT00095238",
+          "NCT00099580",
+          "NCT00108147",
+          "NCT00108251",
+          "NCT00110227",
+          "NCT00111969",
+          "NCT00112125",
+          "NCT00117234",
+          "NCT00117247",
+          "NCT00119691",
+          "NCT00124137",
+          "NCT00130884",
+          "NCT00132886",
+          "NCT00132977",
+          "NCT00141856",
+          "NCT00149409",
+          "NCT00149422",
+          "NCT00156390",
+          "NCT00407446",
+          "NCT01035255",
+          "NCT02861534",
+          "NCT02924727",
+          "NCT03036124",
+          "NCT03036462",
+          "NCT03037931",
+          "NCT03057951",
+          "NCT03057977",
+          "NCT03521934",
+          "NCT03619213"
+        ],
+        "includeStudyIds": [
+          "NCT00000607",
+          "NCT03037931"
+        ],
+        "maybeStudyIds": [
+          "NCT00000475",
+          "NCT00000609",
+          "NCT00000619",
+          "NCT00007683",
+          "NCT00012870",
+          "NCT00012883",
+          "NCT00013221",
+          "NCT00018005",
+          "NCT00023595",
+          "NCT00032747",
+          "NCT00041431",
+          "NCT00043758",
+          "NCT00043771",
+          "NCT00047437",
+          "NCT00047775",
+          "NCT00048425",
+          "NCT00049985",
+          "NCT00050076",
+          "NCT00052026",
+          "NCT00057057",
+          "NCT00057200",
+          "NCT00057356",
+          "NCT00063687",
+          "NCT00071331",
+          "NCT00074724",
+          "NCT00078286",
+          "NCT00082589",
+          "NCT00086086",
+          "NCT00090259",
+          "NCT00091520",
+          "NCT00094302",
+          "NCT00095238",
+          "NCT00099580",
+          "NCT00108147",
+          "NCT00108251",
+          "NCT00110227",
+          "NCT00111969",
+          "NCT00112125",
+          "NCT00117234",
+          "NCT00117247",
+          "NCT00119691",
+          "NCT00124137",
+          "NCT00130884",
+          "NCT00132886",
+          "NCT00132977",
+          "NCT00141856",
+          "NCT00149409",
+          "NCT00149422",
+          "NCT00156390",
+          "NCT00407446",
+          "NCT01035255",
+          "NCT02861534",
+          "NCT02924727",
+          "NCT03036124",
+          "NCT03036462",
+          "NCT03057951",
+          "NCT03057977",
+          "NCT03521934",
+          "NCT03619213"
+        ],
+        "excludeStudyIds": [
+          "NCT00000476",
+          "NCT00000516",
+          "NCT00000542",
+          "NCT00000547",
+          "NCT00000560",
+          "NCT00004562",
+          "NCT00012818",
+          "NCT00012974",
+          "NCT00013026",
+          "NCT00013039",
+          "NCT00032422",
+          "NCT00038077",
+          "NCT00060840",
+          "NCT00067236",
+          "NCT00091507",
+          "NCT00094562",
+          "NCT00105846",
+          "NCT00111527",
+          "NCT00113087",
+          "NCT00115726",
+          "NCT00120276",
+          "NCT00121485",
+          "NCT00122135",
+          "NCT00123955",
+          "NCT00125476",
+          "NCT00146679",
+          "NCT00146848",
+          "NCT00147706",
+          "NCT00149227",
+          "NCT00154115",
+          "NCT00271154"
+        ]
+      },
+      "comparison": {
+        "removedByPICO": 31,
+        "retainedPct": 66.3,
+        "excludedPct": 33.7
+      }
+    },
+    "landmarkCoverage": {
+      "decision": "PASS",
+      "guidelineProfile": "cardiology",
+      "overallCoveragePct": 94.1,
+      "totalExpected": 17,
+      "totalFound": 16,
+      "minCoveragePct": 70,
+      "areas": {
+        "heart_failure": {
+          "expected": 17,
+          "found": 16,
+          "missing": 1,
+          "coveragePct": 94.1,
+          "foundNctIds": [
+            "NCT03036124",
+            "NCT03057977",
+            "NCT03619213",
+            "NCT03521934",
+            "NCT03057951",
+            "NCT01035255",
+            "NCT02924727",
+            "NCT00000560",
+            "NCT00000516",
+            "NCT00407446",
+            "NCT02861534",
+            "NCT00000609",
+            "NCT00000607",
+            "NCT00271154",
+            "NCT03037931",
+            "NCT03036462"
+          ],
+          "missingNctIds": [
+            "NCT00232180"
+          ]
+        }
+      }
+    },
+    "robustness": {
+      "decision": "FLAG",
+      "score": 85.7,
+      "metrics": {
+        "aactIncrementalNctCount": 92,
+        "knownGapRecovered": 0,
+        "knownGapRecoveryPct": 0,
+        "landmarkCoveragePct": 94.1,
+        "picoRetentionPct": 66.3,
+        "trialUniverseCount": 92
+      },
+      "checks": [
+        {
+          "id": "source_coverage",
+          "label": "Required source coverage",
+          "pass": true,
+          "value": 1
+        },
+        {
+          "id": "ctgov_strategy_depth",
+          "label": "CT.gov strategy depth",
+          "pass": false,
+          "value": 0
+        },
+        {
+          "id": "ctgov_error_free",
+          "label": "CT.gov execution without errors",
+          "pass": true,
+          "value": 1
+        },
+        {
+          "id": "aact_available",
+          "label": "AACT availability",
+          "pass": true,
+          "value": 1
+        },
+        {
+          "id": "aact_incremental_capture",
+          "label": "AACT incremental capture over CT.gov",
+          "pass": true,
+          "value": 92
+        },
+        {
+          "id": "landmark_coverage",
+          "label": "ESC landmark coverage",
+          "pass": true,
+          "value": 94.1
+        },
+        {
+          "id": "trial_universe_pico",
+          "label": "Trial universe with and without PICO",
+          "pass": true,
+          "value": 66.3
+        }
+      ],
+      "actionItems": [
+        "Increase CT.gov strategy set to at least 1 presets (recommended: S1+S3+S10)."
+      ]
+    }
+  }
+}

@@ -1,0 +1,3223 @@
+{
+  "generatedAt": "2026-02-24T08:40:29.958Z",
+  "areaKey": "dyslipidaemias",
+  "guidelineProfile": "cardiology",
+  "strategy": {
+    "id": "strat_1771922420862_z4wqd403j",
+    "name": "ESC dyslipidaemias surveillance",
+    "created": "2026-02-24T08:40:20.862Z",
+    "lastRun": null,
+    "guidelineProfile": "cardiology",
+    "sources": [
+      "aact"
+    ],
+    "searchObjective": "balanced",
+    "queries": {
+      "pubmed": null,
+      "ctgov": null,
+      "embase": null,
+      "cochrane": null,
+      "aact": {
+        "guidelineProfile": "cardiology",
+        "guidelineArea": "dyslipidaemias",
+        "condition": "dyslipidemia",
+        "useAreaTerms": false,
+        "completedOnly": true,
+        "status": [
+          "COMPLETED"
+        ],
+        "maxResults": 80
+      }
+    },
+    "ctgovStrategy": {
+      "mode": "single",
+      "primaryStrategyId": "S3",
+      "strategyIds": [
+        "S3"
+      ],
+      "strategyEvidence": [
+        {
+          "strategyId": "S3",
+          "preset": "Randomized Allocation Only",
+          "meanRecallPct": 99,
+          "minRecallPct": 85.7,
+          "retentionPct": 54
+        },
+        {
+          "strategyId": "S6",
+          "preset": "Completed Status",
+          "meanRecallPct": 85.4,
+          "minRecallPct": 50,
+          "retentionPct": 55
+        },
+        {
+          "strategyId": "S10",
+          "preset": "Treatment RCTs Only",
+          "meanRecallPct": 84.8,
+          "minRecallPct": 0,
+          "retentionPct": 36
+        }
+      ],
+      "strategyRationale": [
+        "Objective \"balanced\" selected default strategy bundle."
+      ],
+      "includeStatusFilter": true
+    },
+    "infrastructure": {
+      "aactGatewayUrl": "http://127.0.0.1:8787/aact/query",
+      "embaseApiKey": null
+    },
+    "filters": {
+      "dateRange": {
+        "from": null,
+        "to": null
+      },
+      "studyTypes": [
+        "RCT"
+      ],
+      "languages": [
+        "en"
+      ],
+      "humans": true,
+      "ctgovStatuses": [
+        "COMPLETED",
+        "ACTIVE_NOT_RECRUITING",
+        "RECRUITING"
+      ]
+    },
+    "inclusionCriteria": {
+      "requiredKeywords": [
+        "dyslipidemia",
+        "dyslipidaemia"
+      ],
+      "preferredKeywords": [
+        "hypercholesterolemia",
+        "hyperlipidemia",
+        "lipoprotein(a)",
+        "apob",
+        "randomized",
+        "trial",
+        "double blind"
+      ],
+      "exclusionKeywords": [
+        "protocol",
+        "retrospective",
+        "animal",
+        "in vitro"
+      ],
+      "acceptedDesigns": [
+        "RCT",
+        "Observational"
+      ]
+    },
+    "qualityTargets": {
+      "minCtgovRecallPct": 90,
+      "requireAACTForFinalReview": true,
+      "requireAACTIncrementalCapture": false,
+      "minAACTIncrementalNcts": 1,
+      "enforceLandmarkCoverage": true,
+      "minLandmarkCoveragePct": 70,
+      "landmarkGuidelineAreas": [
+        "dyslipidaemias"
+      ],
+      "minSourcesForHighConfidence": 2
+    },
+    "schedule": {
+      "enabled": false,
+      "interval": "weekly",
+      "lastCheck": null,
+      "nextCheck": null
+    },
+    "stats": {
+      "totalRuns": 0,
+      "totalFound": 0,
+      "totalIncluded": 0,
+      "totalExcluded": 0
+    }
+  },
+  "results": {
+    "timestamp": "2026-02-24T08:40:20.862Z",
+    "strategyId": "strat_1771922420862_z4wqd403j",
+    "guidelineProfile": "cardiology",
+    "sources": {
+      "aact": {
+        "count": 85,
+        "retrieved": 85,
+        "requiresGateway": false,
+        "error": null,
+        "guidelineProfile": "cardiology",
+        "termsUsed": [
+          "dyslipidemia"
+        ],
+        "nctIds": [
+          "NCT00017953",
+          "NCT00029835",
+          "NCT00079638",
+          "NCT00108212",
+          "NCT00109603",
+          "NCT00111891",
+          "NCT00116519",
+          "NCT00125125",
+          "NCT00136799",
+          "NCT00143663",
+          "NCT00171262",
+          "NCT00171288",
+          "NCT00171327",
+          "NCT00194402",
+          "NCT00217061",
+          "NCT00218998",
+          "NCT00239967",
+          "NCT00240266",
+          "NCT00240305",
+          "NCT00245388",
+          "NCT00249249",
+          "NCT00249938",
+          "NCT00257686",
+          "NCT00264394",
+          "NCT00267254",
+          "NCT00282659",
+          "NCT00300430",
+          "NCT00300456",
+          "NCT00300469",
+          "NCT00300482",
+          "NCT00309712",
+          "NCT00309738",
+          "NCT00309751",
+          "NCT00309777",
+          "NCT00312923",
+          "NCT00316095",
+          "NCT00326326",
+          "NCT00330980",
+          "NCT00332761",
+          "NCT00344175",
+          "NCT00344370",
+          "NCT00345410",
+          "NCT00346697",
+          "NCT00349128",
+          "NCT00350038",
+          "NCT00357955",
+          "NCT00358033",
+          "NCT00362180",
+          "NCT00362323",
+          "NCT00362908",
+          "NCT00385658",
+          "NCT00385931",
+          "NCT00392717",
+          "NCT00405197",
+          "NCT00409240",
+          "NCT00412113",
+          "NCT00422266",
+          "NCT00438061",
+          "NCT00441480",
+          "NCT00447070",
+          "NCT00455403",
+          "NCT00463606",
+          "NCT00465088",
+          "NCT00477204",
+          "NCT00477594",
+          "NCT00479388",
+          "NCT00479882",
+          "NCT00481364",
+          "NCT00486941",
+          "NCT00487994",
+          "NCT00491530",
+          "NCT00504829",
+          "NCT00506961",
+          "NCT00508937",
+          "NCT00526682",
+          "NCT00535886",
+          "NCT00542386",
+          "NCT00574808",
+          "NCT00585143",
+          "NCT00593047",
+          "NCT00000479",
+          "NCT00000500",
+          "NCT00000506",
+          "NCT01663402",
+          "NCT01764633"
+        ],
+        "landmarkVerification": {
+          "requested": 5,
+          "found": 5,
+          "coveragePct": 100,
+          "missingNctIds": []
+        },
+        "gatewayUrl": "http://127.0.0.1:8787/aact/query"
+      }
+    },
+    "newStudies": [
+      {
+        "nctId": "NCT00029835",
+        "title": "Obese Patients With Untreated Dyslipidemias",
+        "briefSummary": null,
+        "status": "COMPLETED",
+        "startDate": "2001-09-30",
+        "completionDate": "2003-11-30",
+        "studyType": "INTERVENTIONAL",
+        "phases": [
+          "PHASE3"
+        ],
+        "enrollment": 1033,
+        "allocation": "RANDOMIZED",
+        "primaryPurpose": "TREATMENT",
+        "source": "aact",
+        "retrievedAt": "2026-02-24T08:40:22.450Z",
+        "isDuplicate": false,
+        "classification": "maybe",
+        "relevanceScore": 45,
+        "relevanceReasons": [
+          "Contains 1 required keywords",
+          "Study design may not meet criteria: Unknown"
+        ],
+        "pico": {
+          "population": {
+            "text": null,
+            "confidence": 0,
+            "details": []
+          },
+          "intervention": {
+            "text": null,
+            "confidence": 0,
+            "details": []
+          },
+          "comparator": {
+            "text": null,
+            "confidence": 0,
+            "details": []
+          },
+          "outcomes": [],
+          "studyDesign": {
+            "type": "Unknown",
+            "confidence": 0.3
+          },
+          "sampleSize": null,
+          "followUp": null,
+          "setting": []
+        },
+        "needsReview": true,
+        "processedAt": "2026-02-24T08:40:23.294Z"
+      },
+      {
+        "nctId": "NCT00111891",
+        "title": "An Investigational Drug Study Evaluating a Novel Approach to Treat Dyslipidemia (0524A-032)",
+        "briefSummary": null,
+        "status": "COMPLETED",
+        "startDate": "2005-06-30",
+        "completionDate": "2005-08-31",
+        "studyType": "INTERVENTIONAL",
+        "phases": [
+          "PHASE2"
+        ],
+        "enrollment": 575,
+        "allocation": "RANDOMIZED",
+        "primaryPurpose": "TREATMENT",
+        "source": "aact",
+        "retrievedAt": "2026-02-24T08:40:22.450Z",
+        "isDuplicate": false,
+        "classification": "maybe",
+        "relevanceScore": 45,
+        "relevanceReasons": [
+          "Contains 1 required keywords",
+          "Study design may not meet criteria: Unknown"
+        ],
+        "pico": {
+          "population": {
+            "text": null,
+            "confidence": 0,
+            "details": []
+          },
+          "intervention": {
+            "text": null,
+            "confidence": 0,
+            "details": []
+          },
+          "comparator": {
+            "text": null,
+            "confidence": 0,
+            "details": []
+          },
+          "outcomes": [],
+          "studyDesign": {
+            "type": "Unknown",
+            "confidence": 0.3
+          },
+          "sampleSize": null,
+          "followUp": null,
+          "setting": []
+        },
+        "needsReview": true,
+        "processedAt": "2026-02-24T08:40:23.300Z"
+      },
+      {
+        "nctId": "NCT00136799",
+        "title": "Efficacy and Safety of Fluvastatin in Different Doses in Adults With Mixed Dyslipidemia or Primary Hypercholesterolemia",
+        "briefSummary": null,
+        "status": "COMPLETED",
+        "startDate": "2005-06-30",
+        "completionDate": "2006-04-30",
+        "studyType": "INTERVENTIONAL",
+        "phases": [
+          "PHASE3"
+        ],
+        "enrollment": 325,
+        "allocation": "RANDOMIZED",
+        "primaryPurpose": "TREATMENT",
+        "source": "aact",
+        "retrievedAt": "2026-02-24T08:40:22.450Z",
+        "isDuplicate": false,
+        "classification": "maybe",
+        "relevanceScore": 50,
+        "relevanceReasons": [
+          "Contains 1 required keywords",
+          "Contains 1 preferred keywords",
+          "Study design may not meet criteria: Unknown"
+        ],
+        "pico": {
+          "population": {
+            "text": null,
+            "confidence": 0,
+            "details": []
+          },
+          "intervention": {
+            "text": null,
+            "confidence": 0,
+            "details": []
+          },
+          "comparator": {
+            "text": null,
+            "confidence": 0,
+            "details": []
+          },
+          "outcomes": [],
+          "studyDesign": {
+            "type": "Unknown",
+            "confidence": 0.3
+          },
+          "sampleSize": null,
+          "followUp": null,
+          "setting": []
+        },
+        "needsReview": true,
+        "processedAt": "2026-02-24T08:40:23.313Z"
+      },
+      {
+        "nctId": "NCT00239967",
+        "title": "An International Study of Rimonabant in Dyslipidemia With AtheroGenic Risk In Abdominally Obese Patients",
+        "briefSummary": null,
+        "status": "COMPLETED",
+        "startDate": "2005-05-31",
+        "completionDate": "2007-02-28",
+        "studyType": "INTERVENTIONAL",
+        "phases": [
+          "PHASE3"
+        ],
+        "enrollment": 803,
+        "allocation": "RANDOMIZED",
+        "primaryPurpose": "TREATMENT",
+        "source": "aact",
+        "retrievedAt": "2026-02-24T08:40:22.450Z",
+        "isDuplicate": false,
+        "classification": "maybe",
+        "relevanceScore": 45,
+        "relevanceReasons": [
+          "Contains 1 required keywords",
+          "Study design may not meet criteria: Unknown"
+        ],
+        "pico": {
+          "population": {
+            "text": null,
+            "confidence": 0,
+            "details": []
+          },
+          "intervention": {
+            "text": null,
+            "confidence": 0,
+            "details": []
+          },
+          "comparator": {
+            "text": null,
+            "confidence": 0,
+            "details": []
+          },
+          "outcomes": [],
+          "studyDesign": {
+            "type": "Unknown",
+            "confidence": 0.3
+          },
+          "sampleSize": null,
+          "followUp": null,
+          "setting": [
+            {
+              "type": "scope",
+              "value": "International"
+            }
+          ]
+        },
+        "needsReview": true,
+        "processedAt": "2026-02-24T08:40:23.391Z"
+      },
+      {
+        "nctId": "NCT00300430",
+        "title": "Study to Evaluate the Long-Term Safety and Efficacy of ABT-335, in Combination With Three Different Statins in Subjects With Mixed Dyslipidemia.",
+        "briefSummary": null,
+        "status": "COMPLETED",
+        "startDate": "2006-09-30",
+        "completionDate": null,
+        "studyType": "INTERVENTIONAL",
+        "phases": [
+          "PHASE3"
+        ],
+        "enrollment": 1911,
+        "allocation": "RANDOMIZED",
+        "primaryPurpose": "TREATMENT",
+        "source": "aact",
+        "retrievedAt": "2026-02-24T08:40:22.450Z",
+        "isDuplicate": false,
+        "classification": "maybe",
+        "relevanceScore": 45,
+        "relevanceReasons": [
+          "Contains 1 required keywords",
+          "Study design may not meet criteria: Unknown"
+        ],
+        "pico": {
+          "population": {
+            "text": null,
+            "confidence": 0,
+            "details": []
+          },
+          "intervention": {
+            "text": null,
+            "confidence": 0,
+            "details": []
+          },
+          "comparator": {
+            "text": null,
+            "confidence": 0,
+            "details": []
+          },
+          "outcomes": [],
+          "studyDesign": {
+            "type": "Unknown",
+            "confidence": 0.3
+          },
+          "sampleSize": null,
+          "followUp": null,
+          "setting": []
+        },
+        "needsReview": true,
+        "processedAt": "2026-02-24T08:40:23.594Z"
+      },
+      {
+        "nctId": "NCT00309751",
+        "title": "Study Comparing Pitavastatin and Atorvastatin in Patients With Type II Diabetes Mellitus and Combined Dyslipidemia",
+        "briefSummary": null,
+        "status": "COMPLETED",
+        "startDate": "2005-12-31",
+        "completionDate": "2007-06-30",
+        "studyType": "INTERVENTIONAL",
+        "phases": [
+          "PHASE3"
+        ],
+        "enrollment": 418,
+        "allocation": "RANDOMIZED",
+        "primaryPurpose": "TREATMENT",
+        "source": "aact",
+        "retrievedAt": "2026-02-24T08:40:22.450Z",
+        "isDuplicate": false,
+        "classification": "maybe",
+        "relevanceScore": 45,
+        "relevanceReasons": [
+          "Contains 1 required keywords",
+          "Study design may not meet criteria: Unknown"
+        ],
+        "pico": {
+          "population": {
+            "text": "DIABETES",
+            "confidence": 0.9,
+            "type": "condition",
+            "details": [
+              {
+                "text": "DIABETES",
+                "type": "condition",
+                "confidence": 0.9
+              }
+            ]
+          },
+          "intervention": {
+            "text": "Atorvastatin",
+            "confidence": 0.9,
+            "type": "known_drug",
+            "details": [
+              {
+                "text": "Atorvastatin",
+                "context": "Study Comparing Pitavastatin and Atorvastatin in Patients With Type II Diabetes Mellitus and Combined Dyslipidemia",
+                "type": "known_drug",
+                "confidence": 0.9
+              }
+            ]
+          },
+          "comparator": {
+            "text": null,
+            "confidence": 0,
+            "details": []
+          },
+          "outcomes": [],
+          "studyDesign": {
+            "type": "Unknown",
+            "confidence": 0.3
+          },
+          "sampleSize": null,
+          "followUp": null,
+          "setting": [
+            {
+              "type": "country",
+              "value": "us"
+            }
+          ]
+        },
+        "needsReview": true,
+        "processedAt": "2026-02-24T08:40:23.760Z"
+      },
+      {
+        "nctId": "NCT00345410",
+        "title": "Dose-Ranging Study Evaluating AVE1625 in Abdominally Obese Patients With Atherogenic Dyslipidemia",
+        "briefSummary": null,
+        "status": "COMPLETED",
+        "startDate": "2006-06-30",
+        "completionDate": "2007-06-30",
+        "studyType": "INTERVENTIONAL",
+        "phases": [
+          "PHASE2"
+        ],
+        "enrollment": 345,
+        "allocation": "RANDOMIZED",
+        "primaryPurpose": "TREATMENT",
+        "source": "aact",
+        "retrievedAt": "2026-02-24T08:40:22.450Z",
+        "isDuplicate": false,
+        "classification": "maybe",
+        "relevanceScore": 45,
+        "relevanceReasons": [
+          "Contains 1 required keywords",
+          "Study design may not meet criteria: Unknown"
+        ],
+        "pico": {
+          "population": {
+            "text": null,
+            "confidence": 0,
+            "details": []
+          },
+          "intervention": {
+            "text": null,
+            "confidence": 0,
+            "details": []
+          },
+          "comparator": {
+            "text": null,
+            "confidence": 0,
+            "details": []
+          },
+          "outcomes": [],
+          "studyDesign": {
+            "type": "Unknown",
+            "confidence": 0.3
+          },
+          "sampleSize": null,
+          "followUp": null,
+          "setting": []
+        },
+        "needsReview": true,
+        "processedAt": "2026-02-24T08:40:24.120Z"
+      },
+      {
+        "nctId": "NCT00349128",
+        "title": "Fenofibrate in Dyslipidemia and Metformin-Controlled Diabetes",
+        "briefSummary": null,
+        "status": "COMPLETED",
+        "startDate": "2004-01-31",
+        "completionDate": null,
+        "studyType": "INTERVENTIONAL",
+        "phases": [
+          "PHASE2/PHASE3"
+        ],
+        "enrollment": 382,
+        "allocation": "RANDOMIZED",
+        "primaryPurpose": "TREATMENT",
+        "source": "aact",
+        "retrievedAt": "2026-02-24T08:40:22.450Z",
+        "isDuplicate": false,
+        "classification": "maybe",
+        "relevanceScore": 45,
+        "relevanceReasons": [
+          "Contains 1 required keywords",
+          "Study design may not meet criteria: Unknown"
+        ],
+        "pico": {
+          "population": {
+            "text": "DIABETES",
+            "confidence": 0.9,
+            "type": "condition",
+            "details": [
+              {
+                "text": "DIABETES",
+                "type": "condition",
+                "confidence": 0.9
+              }
+            ]
+          },
+          "intervention": {
+            "text": null,
+            "confidence": 0,
+            "details": []
+          },
+          "comparator": {
+            "text": "Control",
+            "confidence": 0.8,
+            "type": "comparator",
+            "details": [
+              {
+                "text": "Control",
+                "type": "comparator",
+                "confidence": 0.8
+              }
+            ]
+          },
+          "outcomes": [],
+          "studyDesign": {
+            "type": "Unknown",
+            "confidence": 0.3
+          },
+          "sampleSize": null,
+          "followUp": null,
+          "setting": []
+        },
+        "needsReview": true,
+        "processedAt": "2026-02-24T08:40:24.206Z"
+      },
+      {
+        "nctId": "NCT00463606",
+        "title": "A Multicenter Study Comparing the Safety and Efficacy of ABT-335 and Rosuvastatin Calcium Combination Therapy to Monotherapy in Subjects With Dyslipidemia",
+        "briefSummary": null,
+        "status": "COMPLETED",
+        "startDate": "2007-04-30",
+        "completionDate": "2008-02-29",
+        "studyType": "INTERVENTIONAL",
+        "phases": [
+          "PHASE3"
+        ],
+        "enrollment": 760,
+        "allocation": "RANDOMIZED",
+        "primaryPurpose": "TREATMENT",
+        "source": "aact",
+        "retrievedAt": "2026-02-24T08:40:22.450Z",
+        "isDuplicate": false,
+        "classification": "maybe",
+        "relevanceScore": 45,
+        "relevanceReasons": [
+          "Contains 1 required keywords",
+          "Study design may not meet criteria: Unknown"
+        ],
+        "pico": {
+          "population": {
+            "text": null,
+            "confidence": 0,
+            "details": []
+          },
+          "intervention": {
+            "text": "Rosuvastatin",
+            "confidence": 0.9,
+            "type": "known_drug",
+            "details": [
+              {
+                "text": "Rosuvastatin",
+                "context": "A Multicenter Study Comparing the Safety and Efficacy of ABT-335 and Rosuvastatin Calcium Combination Therapy to Monotherapy in Subjects With Dyslipidemia",
+                "type": "known_drug",
+                "confidence": 0.9
+              }
+            ]
+          },
+          "comparator": {
+            "text": null,
+            "confidence": 0,
+            "details": []
+          },
+          "outcomes": [],
+          "studyDesign": {
+            "type": "Unknown",
+            "confidence": 0.3
+          },
+          "sampleSize": null,
+          "followUp": null,
+          "setting": [
+            {
+              "type": "design",
+              "value": "Multicenter"
+            }
+          ]
+        },
+        "needsReview": true,
+        "processedAt": "2026-02-24T08:40:26.024Z"
+      },
+      {
+        "nctId": "NCT00465088",
+        "title": "An Open-Label Study to Compare the Lipid Effects of Niacin ER and Simvastatin (NS) to Atorvastatin in Subjects With Hyperlipidemia or Mixed Dyslipidemia (SUPREME)",
+        "briefSummary": null,
+        "status": "COMPLETED",
+        "startDate": "2007-04-30",
+        "completionDate": null,
+        "studyType": "INTERVENTIONAL",
+        "phases": [
+          "PHASE3"
+        ],
+        "enrollment": 199,
+        "allocation": "RANDOMIZED",
+        "primaryPurpose": "TREATMENT",
+        "source": "aact",
+        "retrievedAt": "2026-02-24T08:40:22.450Z",
+        "isDuplicate": false,
+        "classification": "maybe",
+        "relevanceScore": 50,
+        "relevanceReasons": [
+          "Contains 1 required keywords",
+          "Contains 1 preferred keywords",
+          "Study design may not meet criteria: Unknown"
+        ],
+        "pico": {
+          "population": {
+            "text": null,
+            "confidence": 0,
+            "details": []
+          },
+          "intervention": {
+            "text": "Atorvastatin",
+            "confidence": 0.9,
+            "type": "known_drug",
+            "details": [
+              {
+                "text": "Atorvastatin",
+                "context": "An Open-Label Study to Compare the Lipid Effects of Niacin ER and Simvastatin (NS) to Atorvastatin in Subjects With Hyperlipidemia or Mixed Dyslipidemia (SUPREME)",
+                "type": "known_drug",
+                "confidence": 0.9
+              },
+              {
+                "text": "Simvastatin",
+                "context": "An Open-Label Study to Compare the Lipid Effects of Niacin ER and Simvastatin (NS) to Atorvastatin in Subjects With Hyperlipidemia or Mixed Dyslipidemia (SUPREME)",
+                "type": "known_drug",
+                "confidence": 0.9
+              }
+            ]
+          },
+          "comparator": {
+            "text": null,
+            "confidence": 0,
+            "details": []
+          },
+          "outcomes": [],
+          "studyDesign": {
+            "type": "Unknown",
+            "confidence": 0.3
+          },
+          "sampleSize": null,
+          "followUp": null,
+          "setting": []
+        },
+        "needsReview": true,
+        "processedAt": "2026-02-24T08:40:26.187Z"
+      },
+      {
+        "nctId": "NCT00487994",
+        "title": "Safety and Efficacy of Lapaquistat Acetate Taken Alone and With Atorvastatin in Subjects With Primary Dyslipidemia",
+        "briefSummary": null,
+        "status": "COMPLETED",
+        "startDate": "2004-11-30",
+        "completionDate": "2007-05-31",
+        "studyType": "INTERVENTIONAL",
+        "phases": [
+          "PHASE3"
+        ],
+        "enrollment": 2130,
+        "allocation": "RANDOMIZED",
+        "primaryPurpose": "TREATMENT",
+        "source": "aact",
+        "retrievedAt": "2026-02-24T08:40:22.450Z",
+        "isDuplicate": false,
+        "classification": "maybe",
+        "relevanceScore": 45,
+        "relevanceReasons": [
+          "Contains 1 required keywords",
+          "Study design may not meet criteria: Unknown"
+        ],
+        "pico": {
+          "population": {
+            "text": null,
+            "confidence": 0,
+            "details": []
+          },
+          "intervention": {
+            "text": "Atorvastatin",
+            "confidence": 0.9,
+            "type": "known_drug",
+            "details": [
+              {
+                "text": "Atorvastatin",
+                "context": "Safety and Efficacy of Lapaquistat Acetate Taken Alone and With Atorvastatin in Subjects With Primary Dyslipidemia",
+                "type": "known_drug",
+                "confidence": 0.9
+              }
+            ]
+          },
+          "comparator": {
+            "text": null,
+            "confidence": 0,
+            "details": []
+          },
+          "outcomes": [],
+          "studyDesign": {
+            "type": "Unknown",
+            "confidence": 0.3
+          },
+          "sampleSize": null,
+          "followUp": null,
+          "setting": []
+        },
+        "needsReview": true,
+        "processedAt": "2026-02-24T08:40:27.225Z"
+      },
+      {
+        "nctId": "NCT00491530",
+        "title": "A Year 2, Safety Extension Study of the Combination of ABT-335 and Statin Therapy for Subjects With Mixed Dyslipidemia",
+        "briefSummary": null,
+        "status": "COMPLETED",
+        "startDate": "2007-06-30",
+        "completionDate": "2008-11-30",
+        "studyType": "INTERVENTIONAL",
+        "phases": [
+          "PHASE3"
+        ],
+        "enrollment": 310,
+        "allocation": "RANDOMIZED",
+        "primaryPurpose": "TREATMENT",
+        "source": "aact",
+        "retrievedAt": "2026-02-24T08:40:22.450Z",
+        "isDuplicate": false,
+        "classification": "maybe",
+        "relevanceScore": 45,
+        "relevanceReasons": [
+          "Contains 1 required keywords",
+          "Study design may not meet criteria: Unknown"
+        ],
+        "pico": {
+          "population": {
+            "text": null,
+            "confidence": 0,
+            "details": []
+          },
+          "intervention": {
+            "text": null,
+            "confidence": 0,
+            "details": []
+          },
+          "comparator": {
+            "text": "Subjects",
+            "confidence": 0.8,
+            "type": "comparator",
+            "details": [
+              {
+                "text": "Subjects",
+                "type": "comparator",
+                "confidence": 0.8
+              }
+            ]
+          },
+          "outcomes": [],
+          "studyDesign": {
+            "type": "Unknown",
+            "confidence": 0.3
+          },
+          "sampleSize": null,
+          "followUp": null,
+          "setting": []
+        },
+        "needsReview": true,
+        "processedAt": "2026-02-24T08:40:27.318Z"
+      },
+      {
+        "nctId": "NCT00504829",
+        "title": "Study of Atorvastatin/Fenofibrate (LCP-AtorFen) Combination Therapy in Dyslipidemia",
+        "briefSummary": null,
+        "status": "COMPLETED",
+        "startDate": "2007-07-31",
+        "completionDate": "2008-07-31",
+        "studyType": "INTERVENTIONAL",
+        "phases": [
+          "PHASE2"
+        ],
+        "enrollment": 220,
+        "allocation": "RANDOMIZED",
+        "primaryPurpose": "TREATMENT",
+        "source": "aact",
+        "retrievedAt": "2026-02-24T08:40:22.450Z",
+        "isDuplicate": false,
+        "classification": "maybe",
+        "relevanceScore": 45,
+        "relevanceReasons": [
+          "Contains 1 required keywords",
+          "Study design may not meet criteria: Unknown"
+        ],
+        "pico": {
+          "population": {
+            "text": null,
+            "confidence": 0,
+            "details": []
+          },
+          "intervention": {
+            "text": "Atorvastatin",
+            "confidence": 0.9,
+            "type": "known_drug",
+            "details": [
+              {
+                "text": "Atorvastatin",
+                "context": "Study of Atorvastatin/Fenofibrate (LCP-AtorFen) Combination Therapy in Dyslipidemia",
+                "type": "known_drug",
+                "confidence": 0.9
+              }
+            ]
+          },
+          "comparator": {
+            "text": null,
+            "confidence": 0,
+            "details": []
+          },
+          "outcomes": [],
+          "studyDesign": {
+            "type": "Unknown",
+            "confidence": 0.3
+          },
+          "sampleSize": null,
+          "followUp": null,
+          "setting": []
+        },
+        "needsReview": true,
+        "processedAt": "2026-02-24T08:40:27.427Z"
+      },
+      {
+        "nctId": "NCT00542386",
+        "title": "A Study of MCI-196 in Chronic Kidney Disease Subjects on Dialysis With Hyperphosphatemia and Dyslipidaemia",
+        "briefSummary": null,
+        "status": "COMPLETED",
+        "startDate": "2007-12-31",
+        "completionDate": "2009-11-30",
+        "studyType": "INTERVENTIONAL",
+        "phases": [
+          "PHASE3"
+        ],
+        "enrollment": 642,
+        "allocation": "RANDOMIZED",
+        "primaryPurpose": "TREATMENT",
+        "source": "aact",
+        "retrievedAt": "2026-02-24T08:40:22.451Z",
+        "isDuplicate": false,
+        "classification": "maybe",
+        "relevanceScore": 45,
+        "relevanceReasons": [
+          "Contains 1 required keywords",
+          "Study design may not meet criteria: Unknown"
+        ],
+        "pico": {
+          "population": {
+            "text": null,
+            "confidence": 0,
+            "details": []
+          },
+          "intervention": {
+            "text": null,
+            "confidence": 0,
+            "details": []
+          },
+          "comparator": {
+            "text": null,
+            "confidence": 0,
+            "details": []
+          },
+          "outcomes": [],
+          "studyDesign": {
+            "type": "Unknown",
+            "confidence": 0.3
+          },
+          "sampleSize": null,
+          "followUp": null,
+          "setting": []
+        },
+        "needsReview": true,
+        "processedAt": "2026-02-24T08:40:28.165Z"
+      }
+    ],
+    "duplicates": [
+      {
+        "nctId": "NCT00171327",
+        "title": "Efficacy and Safety of Fluvastatin or Valsartan and Their Combination in Dyslipidemic Patients With Hypertension and Endothelial Dysfunction",
+        "briefSummary": null,
+        "status": "COMPLETED",
+        "startDate": "2004-07-31",
+        "completionDate": "2005-09-30",
+        "studyType": "INTERVENTIONAL",
+        "phases": [
+          "PHASE4"
+        ],
+        "enrollment": 213,
+        "allocation": "RANDOMIZED",
+        "primaryPurpose": "TREATMENT",
+        "source": "aact",
+        "retrievedAt": "2026-02-24T08:40:22.450Z",
+        "isDuplicate": true,
+        "duplicateOf": {
+          "index": 8,
+          "title": "Efficacy and Safety of Fluvastatin in Different Doses in Adults With Mixed Dyslipidemia or Primary Hypercholesterolemia"
+        }
+      },
+      {
+        "nctId": "NCT00217061",
+        "title": "Effect of a Decision Aid About Statin Use in Patients With Type 2 Diabetes Mellitus",
+        "briefSummary": null,
+        "status": "COMPLETED",
+        "startDate": "2005-04-30",
+        "completionDate": "2005-10-31",
+        "studyType": "INTERVENTIONAL",
+        "phases": [
+          "PHASE3"
+        ],
+        "enrollment": 98,
+        "allocation": "RANDOMIZED",
+        "primaryPurpose": null,
+        "source": "aact",
+        "retrievedAt": "2026-02-24T08:40:22.450Z",
+        "isDuplicate": true,
+        "duplicateOf": {
+          "index": 3,
+          "title": "Effect of Diet on Men and Women With Genetic Alterations Associated With Abnormal Blood Tests"
+        }
+      },
+      {
+        "nctId": "NCT00245388",
+        "title": "Efficacy and Safety of BMS-298585 Alone or in Combination With Pravastatin in Subjects With Mixed Dyslipidemia",
+        "briefSummary": null,
+        "status": "COMPLETED",
+        "startDate": "2002-04-30",
+        "completionDate": "2002-07-31",
+        "studyType": "INTERVENTIONAL",
+        "phases": [
+          "PHASE2/PHASE3"
+        ],
+        "enrollment": 330,
+        "allocation": "RANDOMIZED",
+        "primaryPurpose": "TREATMENT",
+        "source": "aact",
+        "retrievedAt": "2026-02-24T08:40:22.450Z",
+        "isDuplicate": true,
+        "duplicateOf": {
+          "index": 8,
+          "title": "Efficacy and Safety of Fluvastatin in Different Doses in Adults With Mixed Dyslipidemia or Primary Hypercholesterolemia"
+        }
+      },
+      {
+        "nctId": "NCT00257686",
+        "title": "Study to Compare the Efficacy and Safety of Pitavastatin and Pravastatin in Elderly Patients",
+        "briefSummary": null,
+        "status": "COMPLETED",
+        "startDate": "2005-09-30",
+        "completionDate": "2006-05-31",
+        "studyType": "INTERVENTIONAL",
+        "phases": [
+          "PHASE3"
+        ],
+        "enrollment": 962,
+        "allocation": "RANDOMIZED",
+        "primaryPurpose": "TREATMENT",
+        "source": "aact",
+        "retrievedAt": "2026-02-24T08:40:22.450Z",
+        "isDuplicate": true,
+        "duplicateOf": {
+          "index": 20,
+          "title": "Study to Compare the Efficacy of Pitavastatin With That of Atorvastatin in Lowering Cholesterol Levels"
+        }
+      },
+      {
+        "nctId": "NCT00300469",
+        "title": "Evaluate Safety and Efficacy of ABT-335 in Combination With Atorvastatin in Subjects With Multiple Abnormal Lipid Levels in the Blood",
+        "briefSummary": null,
+        "status": "COMPLETED",
+        "startDate": "2006-03-31",
+        "completionDate": null,
+        "studyType": "INTERVENTIONAL",
+        "phases": [
+          "PHASE3"
+        ],
+        "enrollment": 613,
+        "allocation": "RANDOMIZED",
+        "primaryPurpose": "TREATMENT",
+        "source": "aact",
+        "retrievedAt": "2026-02-24T08:40:22.450Z",
+        "isDuplicate": true,
+        "duplicateOf": {
+          "index": 27,
+          "title": "Evaluate Safety and Efficacy of ABT-335 in Combination With Simvastatin in Subjects With Multiple Abnormal Lipid Levels in the Blood"
+        }
+      },
+      {
+        "nctId": "NCT00300482",
+        "title": "Evaluate Safety and Efficacy of ABT-335 in Combination With Rosuvastatin Calcium in Subjects With Multiple Abnormal Lipid Levels in the Blood",
+        "briefSummary": null,
+        "status": "COMPLETED",
+        "startDate": "2006-03-31",
+        "completionDate": null,
+        "studyType": "INTERVENTIONAL",
+        "phases": [
+          "PHASE3"
+        ],
+        "enrollment": 1445,
+        "allocation": "RANDOMIZED",
+        "primaryPurpose": "TREATMENT",
+        "source": "aact",
+        "retrievedAt": "2026-02-24T08:40:22.450Z",
+        "isDuplicate": true,
+        "duplicateOf": {
+          "index": 27,
+          "title": "Evaluate Safety and Efficacy of ABT-335 in Combination With Simvastatin in Subjects With Multiple Abnormal Lipid Levels in the Blood"
+        }
+      },
+      {
+        "nctId": "NCT00309738",
+        "title": "Study to Compare the Efficacy and Safety of Pitavastatin and Simvastatin",
+        "briefSummary": null,
+        "status": "COMPLETED",
+        "startDate": "2005-09-30",
+        "completionDate": "2006-10-31",
+        "studyType": "INTERVENTIONAL",
+        "phases": [
+          "PHASE3"
+        ],
+        "enrollment": 355,
+        "allocation": "RANDOMIZED",
+        "primaryPurpose": "TREATMENT",
+        "source": "aact",
+        "retrievedAt": "2026-02-24T08:40:22.450Z",
+        "isDuplicate": true,
+        "duplicateOf": {
+          "index": 20,
+          "title": "Study to Compare the Efficacy of Pitavastatin With That of Atorvastatin in Lowering Cholesterol Levels"
+        }
+      },
+      {
+        "nctId": "NCT00309777",
+        "title": "Study to Compare the Efficacy and Safety of Pitavastatin and Simvastatin",
+        "briefSummary": null,
+        "status": "COMPLETED",
+        "startDate": "2005-09-30",
+        "completionDate": "2006-10-31",
+        "studyType": "INTERVENTIONAL",
+        "phases": [
+          "PHASE3"
+        ],
+        "enrollment": 857,
+        "allocation": "RANDOMIZED",
+        "primaryPurpose": "TREATMENT",
+        "source": "aact",
+        "retrievedAt": "2026-02-24T08:40:22.450Z",
+        "isDuplicate": true,
+        "duplicateOf": {
+          "index": 20,
+          "title": "Study to Compare the Efficacy of Pitavastatin With That of Atorvastatin in Lowering Cholesterol Levels"
+        }
+      },
+      {
+        "nctId": "NCT00330980",
+        "title": "Effects of Statin Medications on Mental Processes, Behavior, and Serotonin Levels",
+        "briefSummary": null,
+        "status": "COMPLETED",
+        "startDate": "2000-04-30",
+        "completionDate": "2004-03-31",
+        "studyType": "INTERVENTIONAL",
+        "phases": [
+          "PHASE4"
+        ],
+        "enrollment": 1000,
+        "allocation": "RANDOMIZED",
+        "primaryPurpose": "TREATMENT",
+        "source": "aact",
+        "retrievedAt": "2026-02-24T08:40:22.450Z",
+        "isDuplicate": true,
+        "duplicateOf": {
+          "index": 3,
+          "title": "Effect of Diet on Men and Women With Genetic Alterations Associated With Abnormal Blood Tests"
+        }
+      },
+      {
+        "nctId": "NCT00344370",
+        "title": "Follow-On Study of Pitavastatin Versus Atorvastatin in Patients With Type II Diabetes Mellitus and Combined Dyslipidemia",
+        "briefSummary": null,
+        "status": "COMPLETED",
+        "startDate": "2006-08-31",
+        "completionDate": "2008-04-30",
+        "studyType": "INTERVENTIONAL",
+        "phases": [
+          "PHASE3"
+        ],
+        "enrollment": 214,
+        "allocation": "RANDOMIZED",
+        "primaryPurpose": "TREATMENT",
+        "source": "aact",
+        "retrievedAt": "2026-02-24T08:40:22.450Z",
+        "isDuplicate": true,
+        "duplicateOf": {
+          "index": 39,
+          "title": "Follow-on Protocol of Pitavastatin Versus Simvastatin in Patients With Hypercholesterolemia or Dyslipidemia and Coronary Heart Disease Risk Factors"
+        }
+      },
+      {
+        "nctId": "NCT00362908",
+        "title": "Effects of Low and Moderate Fat Diets on Lipids, Inflammation and Vascular Reactivity in the Metabolic Syndrome",
+        "briefSummary": null,
+        "status": "COMPLETED",
+        "startDate": "2006-09-30",
+        "completionDate": "2010-06-30",
+        "studyType": "INTERVENTIONAL",
+        "phases": [
+          "NA"
+        ],
+        "enrollment": 71,
+        "allocation": "RANDOMIZED",
+        "primaryPurpose": "TREATMENT",
+        "source": "aact",
+        "retrievedAt": "2026-02-24T08:40:22.450Z",
+        "isDuplicate": true,
+        "duplicateOf": {
+          "index": 3,
+          "title": "Effect of Diet on Men and Women With Genetic Alterations Associated With Abnormal Blood Tests"
+        }
+      },
+      {
+        "nctId": "NCT00385931",
+        "title": "Efficacy and Safety of Valsartan and the Combination of Valsartan and Simvastatin",
+        "briefSummary": null,
+        "status": "COMPLETED",
+        "startDate": "2002-01-31",
+        "completionDate": "2003-04-30",
+        "studyType": "INTERVENTIONAL",
+        "phases": [
+          "PHASE3"
+        ],
+        "enrollment": 412,
+        "allocation": "RANDOMIZED",
+        "primaryPurpose": "TREATMENT",
+        "source": "aact",
+        "retrievedAt": "2026-02-24T08:40:22.450Z",
+        "isDuplicate": true,
+        "duplicateOf": {
+          "index": 11,
+          "title": "Efficacy and Safety Study of Fluvastatin and Ezetimibe Combined Versus Fluvastatin Alone"
+        }
+      },
+      {
+        "nctId": "NCT00441480",
+        "title": "Effect of Plant Sterols Esterified to Fish Oil Fatty Acids on Plasma Lipid Levels",
+        "briefSummary": null,
+        "status": "COMPLETED",
+        "startDate": "2007-03-31",
+        "completionDate": "2008-06-30",
+        "studyType": "INTERVENTIONAL",
+        "phases": [
+          "PHASE4"
+        ],
+        "enrollment": 91,
+        "allocation": "RANDOMIZED",
+        "primaryPurpose": "TREATMENT",
+        "source": "aact",
+        "retrievedAt": "2026-02-24T08:40:22.450Z",
+        "isDuplicate": true,
+        "duplicateOf": {
+          "index": 56,
+          "title": "Effect of Omega -3 Fatty Acids Supplements and Plant Sterol Enriched Food in Dyslipidemic Adults"
+        }
+      },
+      {
+        "nctId": "NCT00506961",
+        "title": "Evaluate the Efficacy and Safety of Rosuvastatin Versus Simvastatin in Type 2 Diabetic Patients With Dyslipidemia",
+        "briefSummary": null,
+        "status": "COMPLETED",
+        "startDate": "2006-06-30",
+        "completionDate": "2007-07-31",
+        "studyType": "INTERVENTIONAL",
+        "phases": [
+          "PHASE4"
+        ],
+        "enrollment": 90,
+        "allocation": "RANDOMIZED",
+        "primaryPurpose": "HEALTH_SERVICES_RESEARCH",
+        "source": "aact",
+        "retrievedAt": "2026-02-24T08:40:22.450Z",
+        "isDuplicate": true,
+        "duplicateOf": {
+          "index": 27,
+          "title": "Evaluate Safety and Efficacy of ABT-335 in Combination With Simvastatin in Subjects With Multiple Abnormal Lipid Levels in the Blood"
+        }
+      }
+    ],
+    "excluded": [
+      {
+        "nctId": "NCT00017953",
+        "title": "Look AHEAD: Action for Health in Diabetes",
+        "briefSummary": null,
+        "status": "COMPLETED",
+        "startDate": "2001-06-30",
+        "completionDate": "2020-06-30",
+        "studyType": "INTERVENTIONAL",
+        "phases": [
+          "NA"
+        ],
+        "enrollment": 5145,
+        "allocation": "RANDOMIZED",
+        "primaryPurpose": "TREATMENT",
+        "source": "aact",
+        "retrievedAt": "2026-02-24T08:40:22.450Z",
+        "isDuplicate": false,
+        "classification": "exclude",
+        "relevanceScore": 0,
+        "relevanceReasons": [
+          "Missing required keywords",
+          "Study design may not meet criteria: Unknown"
+        ],
+        "pico": null,
+        "needsReview": false,
+        "processedAt": "2026-02-24T08:40:23.293Z"
+      },
+      {
+        "nctId": "NCT00079638",
+        "title": "Comparative Efficacy Evaluation of Lipids When Treated With Niaspan & Statin or Other Lipid-Modifying Therapies-COMPELL",
+        "briefSummary": null,
+        "status": "COMPLETED",
+        "startDate": "2004-04-30",
+        "completionDate": "2005-05-31",
+        "studyType": "INTERVENTIONAL",
+        "phases": [
+          "PHASE4"
+        ],
+        "enrollment": 300,
+        "allocation": "RANDOMIZED",
+        "primaryPurpose": "TREATMENT",
+        "source": "aact",
+        "retrievedAt": "2026-02-24T08:40:22.450Z",
+        "isDuplicate": false,
+        "classification": "exclude",
+        "relevanceScore": 0,
+        "relevanceReasons": [
+          "Missing required keywords",
+          "Study design may not meet criteria: Unknown"
+        ],
+        "pico": null,
+        "needsReview": false,
+        "processedAt": "2026-02-24T08:40:23.294Z"
+      },
+      {
+        "nctId": "NCT00108212",
+        "title": "Effect of Diet on Men and Women With Genetic Alterations Associated With Abnormal Blood Tests",
+        "briefSummary": null,
+        "status": "COMPLETED",
+        "startDate": "2005-01-31",
+        "completionDate": "2007-12-31",
+        "studyType": "INTERVENTIONAL",
+        "phases": [
+          "NA"
+        ],
+        "enrollment": null,
+        "allocation": "RANDOMIZED",
+        "primaryPurpose": "TREATMENT",
+        "source": "aact",
+        "retrievedAt": "2026-02-24T08:40:22.450Z",
+        "isDuplicate": false,
+        "classification": "exclude",
+        "relevanceScore": 0,
+        "relevanceReasons": [
+          "Missing required keywords",
+          "Study design may not meet criteria: Unknown"
+        ],
+        "pico": null,
+        "needsReview": false,
+        "processedAt": "2026-02-24T08:40:23.296Z"
+      },
+      {
+        "nctId": "NCT00109603",
+        "title": "Effect of Tenofovir Disoproxil Fumarate on Lipid Levels in HIV Infected Adults on Stable Anti-HIV Drug Therapy",
+        "briefSummary": null,
+        "status": "COMPLETED",
+        "startDate": "2005-05-31",
+        "completionDate": "2007-11-30",
+        "studyType": "INTERVENTIONAL",
+        "phases": [
+          "NA"
+        ],
+        "enrollment": 17,
+        "allocation": "RANDOMIZED",
+        "primaryPurpose": "TREATMENT",
+        "source": "aact",
+        "retrievedAt": "2026-02-24T08:40:22.450Z",
+        "isDuplicate": false,
+        "classification": "exclude",
+        "relevanceScore": 0,
+        "relevanceReasons": [
+          "Missing required keywords",
+          "Study design may not meet criteria: Unknown"
+        ],
+        "pico": null,
+        "needsReview": false,
+        "processedAt": "2026-02-24T08:40:23.297Z"
+      },
+      {
+        "nctId": "NCT00116519",
+        "title": "A Study in People With Abnormal Fat Levels in the Blood",
+        "briefSummary": null,
+        "status": "COMPLETED",
+        "startDate": "2005-07-31",
+        "completionDate": "2006-10-31",
+        "studyType": "INTERVENTIONAL",
+        "phases": [
+          "PHASE2"
+        ],
+        "enrollment": 300,
+        "allocation": "RANDOMIZED",
+        "primaryPurpose": "TREATMENT",
+        "source": "aact",
+        "retrievedAt": "2026-02-24T08:40:22.450Z",
+        "isDuplicate": false,
+        "classification": "exclude",
+        "relevanceScore": 0,
+        "relevanceReasons": [
+          "Missing required keywords",
+          "Study design may not meet criteria: Unknown"
+        ],
+        "pico": null,
+        "needsReview": false,
+        "processedAt": "2026-02-24T08:40:23.302Z"
+      },
+      {
+        "nctId": "NCT00125125",
+        "title": "Fluvastatin in Adults With Dislipidemia With History of Muscle Problems",
+        "briefSummary": null,
+        "status": "COMPLETED",
+        "startDate": "2005-05-31",
+        "completionDate": "2005-12-31",
+        "studyType": "INTERVENTIONAL",
+        "phases": [
+          "PHASE4"
+        ],
+        "enrollment": 218,
+        "allocation": "RANDOMIZED",
+        "primaryPurpose": "TREATMENT",
+        "source": "aact",
+        "retrievedAt": "2026-02-24T08:40:22.450Z",
+        "isDuplicate": false,
+        "classification": "exclude",
+        "relevanceScore": 0,
+        "relevanceReasons": [
+          "Missing required keywords",
+          "Study design may not meet criteria: Unknown"
+        ],
+        "pico": null,
+        "needsReview": false,
+        "processedAt": "2026-02-24T08:40:23.306Z"
+      },
+      {
+        "nctId": "NCT00143663",
+        "title": "Effect of Lapaquistat Acetate on Blood Cholesterol Levels in Subjects With Elevated Cholesterol",
+        "briefSummary": null,
+        "status": "COMPLETED",
+        "startDate": "2005-09-30",
+        "completionDate": "2006-04-30",
+        "studyType": "INTERVENTIONAL",
+        "phases": [
+          "PHASE3"
+        ],
+        "enrollment": 361,
+        "allocation": "RANDOMIZED",
+        "primaryPurpose": "TREATMENT",
+        "source": "aact",
+        "retrievedAt": "2026-02-24T08:40:22.450Z",
+        "isDuplicate": false,
+        "classification": "exclude",
+        "relevanceScore": 0,
+        "relevanceReasons": [
+          "Missing required keywords",
+          "Study design may not meet criteria: Unknown"
+        ],
+        "pico": null,
+        "needsReview": false,
+        "processedAt": "2026-02-24T08:40:23.317Z"
+      },
+      {
+        "nctId": "NCT00171262",
+        "title": "Trial to Evaluate the Efficacy of Fluvastatin on Certain Markers",
+        "briefSummary": null,
+        "status": "COMPLETED",
+        "startDate": "2004-08-31",
+        "completionDate": "2007-06-30",
+        "studyType": "INTERVENTIONAL",
+        "phases": [
+          "PHASE4"
+        ],
+        "enrollment": 120,
+        "allocation": "RANDOMIZED",
+        "primaryPurpose": "TREATMENT",
+        "source": "aact",
+        "retrievedAt": "2026-02-24T08:40:22.450Z",
+        "isDuplicate": false,
+        "classification": "exclude",
+        "relevanceScore": 0,
+        "relevanceReasons": [
+          "Missing required keywords",
+          "Contains 1 preferred keywords",
+          "Study design may not meet criteria: Unknown"
+        ],
+        "pico": null,
+        "needsReview": false,
+        "processedAt": "2026-02-24T08:40:23.326Z"
+      },
+      {
+        "nctId": "NCT00171288",
+        "title": "Efficacy and Safety Study of Fluvastatin and Ezetimibe Combined Versus Fluvastatin Alone",
+        "briefSummary": null,
+        "status": "COMPLETED",
+        "startDate": "2003-08-31",
+        "completionDate": "2005-08-31",
+        "studyType": "INTERVENTIONAL",
+        "phases": [
+          "PHASE3"
+        ],
+        "enrollment": 83,
+        "allocation": "RANDOMIZED",
+        "primaryPurpose": "TREATMENT",
+        "source": "aact",
+        "retrievedAt": "2026-02-24T08:40:22.450Z",
+        "isDuplicate": false,
+        "classification": "exclude",
+        "relevanceScore": 0,
+        "relevanceReasons": [
+          "Missing required keywords",
+          "Study design may not meet criteria: Unknown"
+        ],
+        "pico": null,
+        "needsReview": false,
+        "processedAt": "2026-02-24T08:40:23.333Z"
+      },
+      {
+        "nctId": "NCT00194402",
+        "title": "SLIM: Combined Effects of Slo-Niacin and Atorvastatin on Lipoproteins and Inflammatory Markers in Hyperlipidemia",
+        "briefSummary": null,
+        "status": "COMPLETED",
+        "startDate": "2003-08-31",
+        "completionDate": "2006-01-31",
+        "studyType": "INTERVENTIONAL",
+        "phases": [
+          "PHASE4"
+        ],
+        "enrollment": 64,
+        "allocation": "RANDOMIZED",
+        "primaryPurpose": "TREATMENT",
+        "source": "aact",
+        "retrievedAt": "2026-02-24T08:40:22.450Z",
+        "isDuplicate": false,
+        "classification": "exclude",
+        "relevanceScore": 0,
+        "relevanceReasons": [
+          "Missing required keywords",
+          "Contains 1 preferred keywords",
+          "Study design may not meet criteria: Unknown"
+        ],
+        "pico": null,
+        "needsReview": false,
+        "processedAt": "2026-02-24T08:40:23.357Z"
+      },
+      {
+        "nctId": "NCT00218998",
+        "title": "Effective Endurance Training in Metabolic Syndrome",
+        "briefSummary": null,
+        "status": "COMPLETED",
+        "startDate": "2004-01-31",
+        "completionDate": null,
+        "studyType": "INTERVENTIONAL",
+        "phases": [
+          "NA"
+        ],
+        "enrollment": 30,
+        "allocation": "RANDOMIZED",
+        "primaryPurpose": "PREVENTION",
+        "source": "aact",
+        "retrievedAt": "2026-02-24T08:40:22.450Z",
+        "isDuplicate": false,
+        "classification": "exclude",
+        "relevanceScore": 0,
+        "relevanceReasons": [
+          "Missing required keywords",
+          "Study design may not meet criteria: Unknown"
+        ],
+        "pico": null,
+        "needsReview": false,
+        "processedAt": "2026-02-24T08:40:23.378Z"
+      },
+      {
+        "nctId": "NCT00240266",
+        "title": "Study of High Density Lipoprotein Cholesterol (HDL-C)-Raising Mechanism of Rosuvastatin (CRESTOR™) by Quantifying the Key Steps of Reverse Cholesterol Transport (RCT)",
+        "briefSummary": null,
+        "status": "COMPLETED",
+        "startDate": "2003-08-31",
+        "completionDate": "2004-12-31",
+        "studyType": "INTERVENTIONAL",
+        "phases": [
+          "PHASE3"
+        ],
+        "enrollment": 15,
+        "allocation": "RANDOMIZED",
+        "primaryPurpose": "TREATMENT",
+        "source": "aact",
+        "retrievedAt": "2026-02-24T08:40:22.450Z",
+        "isDuplicate": false,
+        "classification": "exclude",
+        "relevanceScore": 25,
+        "relevanceReasons": [
+          "Missing required keywords",
+          "Accepted study design: RCT"
+        ],
+        "pico": null,
+        "needsReview": true,
+        "processedAt": "2026-02-24T08:40:23.405Z"
+      },
+      {
+        "nctId": "NCT00240305",
+        "title": "A Study to Investigate the Effect of Rosuvastatin (CRESTOR®) on High Density Lipoprotein Kinetics in Patients With the Metabolic Syndrome",
+        "briefSummary": null,
+        "status": "COMPLETED",
+        "startDate": "2004-04-30",
+        "completionDate": "2006-05-31",
+        "studyType": "INTERVENTIONAL",
+        "phases": [
+          "PHASE3"
+        ],
+        "enrollment": 15,
+        "allocation": "RANDOMIZED",
+        "primaryPurpose": "TREATMENT",
+        "source": "aact",
+        "retrievedAt": "2026-02-24T08:40:22.450Z",
+        "isDuplicate": false,
+        "classification": "exclude",
+        "relevanceScore": 0,
+        "relevanceReasons": [
+          "Missing required keywords",
+          "Study design may not meet criteria: Unknown"
+        ],
+        "pico": null,
+        "needsReview": false,
+        "processedAt": "2026-02-24T08:40:23.419Z"
+      },
+      {
+        "nctId": "NCT00249249",
+        "title": "Study to Compare the Efficacy of Pitavastatin With That of Atorvastatin in Lowering Cholesterol Levels",
+        "briefSummary": null,
+        "status": "COMPLETED",
+        "startDate": "2005-10-31",
+        "completionDate": "2006-11-30",
+        "studyType": "INTERVENTIONAL",
+        "phases": [
+          "PHASE3"
+        ],
+        "enrollment": 830,
+        "allocation": "RANDOMIZED",
+        "primaryPurpose": "TREATMENT",
+        "source": "aact",
+        "retrievedAt": "2026-02-24T08:40:22.450Z",
+        "isDuplicate": false,
+        "classification": "exclude",
+        "relevanceScore": 0,
+        "relevanceReasons": [
+          "Missing required keywords",
+          "Study design may not meet criteria: Unknown"
+        ],
+        "pico": null,
+        "needsReview": false,
+        "processedAt": "2026-02-24T08:40:23.460Z"
+      },
+      {
+        "nctId": "NCT00249938",
+        "title": "Evaluation of Combination Cholesterol Treatments in Patients With High Cholesterol.",
+        "briefSummary": null,
+        "status": "COMPLETED",
+        "startDate": "2005-03-31",
+        "completionDate": "2006-08-31",
+        "studyType": "INTERVENTIONAL",
+        "phases": [
+          "PHASE4"
+        ],
+        "enrollment": 60,
+        "allocation": "RANDOMIZED",
+        "primaryPurpose": "TREATMENT",
+        "source": "aact",
+        "retrievedAt": "2026-02-24T08:40:22.450Z",
+        "isDuplicate": false,
+        "classification": "exclude",
+        "relevanceScore": 0,
+        "relevanceReasons": [
+          "Missing required keywords",
+          "Study design may not meet criteria: Unknown"
+        ],
+        "pico": null,
+        "needsReview": false,
+        "processedAt": "2026-02-24T08:40:23.477Z"
+      },
+      {
+        "nctId": "NCT00264394",
+        "title": "Cardiovascular Risk Factor Management in HIV Infection",
+        "briefSummary": null,
+        "status": "COMPLETED",
+        "startDate": "2006-07-31",
+        "completionDate": "2010-02-28",
+        "studyType": "INTERVENTIONAL",
+        "phases": [
+          "PHASE4"
+        ],
+        "enrollment": 4097,
+        "allocation": "RANDOMIZED",
+        "primaryPurpose": "PREVENTION",
+        "source": "aact",
+        "retrievedAt": "2026-02-24T08:40:22.450Z",
+        "isDuplicate": false,
+        "classification": "exclude",
+        "relevanceScore": 0,
+        "relevanceReasons": [
+          "Missing required keywords",
+          "Study design may not meet criteria: Unknown"
+        ],
+        "pico": null,
+        "needsReview": false,
+        "processedAt": "2026-02-24T08:40:23.513Z"
+      },
+      {
+        "nctId": "NCT00267254",
+        "title": "A Clinical Trial Comparing Torcetrapib/Atorvastatin To Simvastatin In Subjects With High Cholesterol.",
+        "briefSummary": null,
+        "status": "COMPLETED",
+        "startDate": "2006-01-31",
+        "completionDate": "2006-08-31",
+        "studyType": "INTERVENTIONAL",
+        "phases": [
+          "PHASE3"
+        ],
+        "enrollment": 640,
+        "allocation": "RANDOMIZED",
+        "primaryPurpose": "TREATMENT",
+        "source": "aact",
+        "retrievedAt": "2026-02-24T08:40:22.450Z",
+        "isDuplicate": false,
+        "classification": "exclude",
+        "relevanceScore": 0,
+        "relevanceReasons": [
+          "Missing required keywords",
+          "Contains 1 preferred keywords",
+          "Study design may not meet criteria: Unknown"
+        ],
+        "pico": null,
+        "needsReview": false,
+        "processedAt": "2026-02-24T08:40:23.540Z"
+      },
+      {
+        "nctId": "NCT00282659",
+        "title": "The Use of Magnesium to Improve Blood Pressure, Cholesterol, and Glucose Control",
+        "briefSummary": null,
+        "status": "COMPLETED",
+        "startDate": "2006-01-31",
+        "completionDate": "2008-06-30",
+        "studyType": "INTERVENTIONAL",
+        "phases": [
+          "PHASE4"
+        ],
+        "enrollment": 240,
+        "allocation": "RANDOMIZED",
+        "primaryPurpose": "TREATMENT",
+        "source": "aact",
+        "retrievedAt": "2026-02-24T08:40:22.450Z",
+        "isDuplicate": false,
+        "classification": "exclude",
+        "relevanceScore": 0,
+        "relevanceReasons": [
+          "Missing required keywords",
+          "Study design may not meet criteria: Unknown"
+        ],
+        "pico": null,
+        "needsReview": false,
+        "processedAt": "2026-02-24T08:40:23.563Z"
+      },
+      {
+        "nctId": "NCT00300456",
+        "title": "Evaluate Safety and Efficacy of ABT-335 in Combination With Simvastatin in Subjects With Multiple Abnormal Lipid Levels in the Blood",
+        "briefSummary": null,
+        "status": "COMPLETED",
+        "startDate": "2006-03-31",
+        "completionDate": null,
+        "studyType": "INTERVENTIONAL",
+        "phases": [
+          "PHASE3"
+        ],
+        "enrollment": 657,
+        "allocation": "RANDOMIZED",
+        "primaryPurpose": "TREATMENT",
+        "source": "aact",
+        "retrievedAt": "2026-02-24T08:40:22.450Z",
+        "isDuplicate": false,
+        "classification": "exclude",
+        "relevanceScore": 0,
+        "relevanceReasons": [
+          "Missing required keywords",
+          "Study design may not meet criteria: Unknown"
+        ],
+        "pico": null,
+        "needsReview": false,
+        "processedAt": "2026-02-24T08:40:23.618Z"
+      },
+      {
+        "nctId": "NCT00309712",
+        "title": "Diabetes and Combined Lipid Therapy Regimen (DIACOR) Study",
+        "briefSummary": null,
+        "status": "COMPLETED",
+        "startDate": "2002-08-31",
+        "completionDate": "2006-09-30",
+        "studyType": "INTERVENTIONAL",
+        "phases": [
+          "NA"
+        ],
+        "enrollment": 300,
+        "allocation": "RANDOMIZED",
+        "primaryPurpose": "TREATMENT",
+        "source": "aact",
+        "retrievedAt": "2026-02-24T08:40:22.450Z",
+        "isDuplicate": false,
+        "classification": "exclude",
+        "relevanceScore": 0,
+        "relevanceReasons": [
+          "Missing required keywords",
+          "Study design may not meet criteria: Unknown"
+        ],
+        "pico": null,
+        "needsReview": false,
+        "processedAt": "2026-02-24T08:40:23.706Z"
+      },
+      {
+        "nctId": "NCT00312923",
+        "title": "Preliminary Study of Safety and Efficacy of Policosanol",
+        "briefSummary": null,
+        "status": "COMPLETED",
+        "startDate": "2005-09-30",
+        "completionDate": "2009-09-30",
+        "studyType": "INTERVENTIONAL",
+        "phases": [
+          "PHASE2"
+        ],
+        "enrollment": 54,
+        "allocation": "RANDOMIZED",
+        "primaryPurpose": "TREATMENT",
+        "source": "aact",
+        "retrievedAt": "2026-02-24T08:40:22.450Z",
+        "isDuplicate": false,
+        "classification": "exclude",
+        "relevanceScore": 0,
+        "relevanceReasons": [
+          "Missing required keywords",
+          "Study design may not meet criteria: Unknown"
+        ],
+        "pico": null,
+        "needsReview": false,
+        "processedAt": "2026-02-24T08:40:23.878Z"
+      },
+      {
+        "nctId": "NCT00316095",
+        "title": "Combination of Telmisartan and Simvastatin in the Treatment of Hypertension and Hypercholesterolemia",
+        "briefSummary": null,
+        "status": "COMPLETED",
+        "startDate": "2006-04-30",
+        "completionDate": "2007-08-31",
+        "studyType": "INTERVENTIONAL",
+        "phases": [
+          "PHASE3"
+        ],
+        "enrollment": 1695,
+        "allocation": "RANDOMIZED",
+        "primaryPurpose": "TREATMENT",
+        "source": "aact",
+        "retrievedAt": "2026-02-24T08:40:22.450Z",
+        "isDuplicate": false,
+        "classification": "exclude",
+        "relevanceScore": 0,
+        "relevanceReasons": [
+          "Missing required keywords",
+          "Contains 1 preferred keywords",
+          "Study design may not meet criteria: Unknown"
+        ],
+        "pico": null,
+        "needsReview": false,
+        "processedAt": "2026-02-24T08:40:23.918Z"
+      },
+      {
+        "nctId": "NCT00326326",
+        "title": "Effect of CP-778,875 on HDL-C in Subjects With Abnormal Lipid Levels and Type 2 Diabetes.",
+        "briefSummary": null,
+        "status": "COMPLETED",
+        "startDate": "2006-07-31",
+        "completionDate": "2007-06-30",
+        "studyType": "INTERVENTIONAL",
+        "phases": [
+          "PHASE2"
+        ],
+        "enrollment": 84,
+        "allocation": "RANDOMIZED",
+        "primaryPurpose": "TREATMENT",
+        "source": "aact",
+        "retrievedAt": "2026-02-24T08:40:22.450Z",
+        "isDuplicate": false,
+        "classification": "exclude",
+        "relevanceScore": 0,
+        "relevanceReasons": [
+          "Missing required keywords",
+          "Study design may not meet criteria: Unknown"
+        ],
+        "pico": null,
+        "needsReview": false,
+        "processedAt": "2026-02-24T08:40:23.951Z"
+      },
+      {
+        "nctId": "NCT00332761",
+        "title": "Caduet in an Untreated Subject Population",
+        "briefSummary": null,
+        "status": "COMPLETED",
+        "startDate": "2006-06-30",
+        "completionDate": "2007-09-30",
+        "studyType": "INTERVENTIONAL",
+        "phases": [
+          "PHASE4"
+        ],
+        "enrollment": 220,
+        "allocation": "RANDOMIZED",
+        "primaryPurpose": "TREATMENT",
+        "source": "aact",
+        "retrievedAt": "2026-02-24T08:40:22.450Z",
+        "isDuplicate": false,
+        "classification": "exclude",
+        "relevanceScore": 0,
+        "relevanceReasons": [
+          "Missing required keywords",
+          "Study design may not meet criteria: Unknown"
+        ],
+        "pico": null,
+        "needsReview": false,
+        "processedAt": "2026-02-24T08:40:24.011Z"
+      },
+      {
+        "nctId": "NCT00344175",
+        "title": "Follow-on Protocol of Pitavastatin Versus Simvastatin in Patients With Hypercholesterolemia or Dyslipidemia and Coronary Heart Disease Risk Factors",
+        "briefSummary": null,
+        "status": "COMPLETED",
+        "startDate": "2006-06-30",
+        "completionDate": "2007-08-31",
+        "studyType": "INTERVENTIONAL",
+        "phases": [
+          "PHASE3"
+        ],
+        "enrollment": 178,
+        "allocation": "RANDOMIZED",
+        "primaryPurpose": "TREATMENT",
+        "source": "aact",
+        "retrievedAt": "2026-02-24T08:40:22.450Z",
+        "isDuplicate": false,
+        "classification": "exclude",
+        "relevanceScore": 30,
+        "relevanceReasons": [
+          "Contains 1 required keywords",
+          "Contains 1 preferred keywords",
+          "Contains exclusion terms: protocol",
+          "Study design may not meet criteria: Unknown"
+        ],
+        "pico": null,
+        "needsReview": true,
+        "processedAt": "2026-02-24T08:40:24.043Z"
+      },
+      {
+        "nctId": "NCT00346697",
+        "title": "Omega-3 Fatty Acids for High Triglycerides in HIV-infected Patients",
+        "briefSummary": null,
+        "status": "COMPLETED",
+        "startDate": "2006-10-31",
+        "completionDate": "2010-04-30",
+        "studyType": "INTERVENTIONAL",
+        "phases": [
+          "PHASE4"
+        ],
+        "enrollment": 48,
+        "allocation": "RANDOMIZED",
+        "primaryPurpose": "TREATMENT",
+        "source": "aact",
+        "retrievedAt": "2026-02-24T08:40:22.450Z",
+        "isDuplicate": false,
+        "classification": "exclude",
+        "relevanceScore": 0,
+        "relevanceReasons": [
+          "Missing required keywords",
+          "Study design may not meet criteria: Unknown"
+        ],
+        "pico": null,
+        "needsReview": false,
+        "processedAt": "2026-02-24T08:40:24.151Z"
+      },
+      {
+        "nctId": "NCT00350038",
+        "title": "Irbesartan, Ciprofibrate and Their Combination Onto the Endothelial Functions",
+        "briefSummary": null,
+        "status": "COMPLETED",
+        "startDate": "2005-02-28",
+        "completionDate": "2007-08-31",
+        "studyType": "INTERVENTIONAL",
+        "phases": [
+          "PHASE4"
+        ],
+        "enrollment": 60,
+        "allocation": "RANDOMIZED",
+        "primaryPurpose": "TREATMENT",
+        "source": "aact",
+        "retrievedAt": "2026-02-24T08:40:22.450Z",
+        "isDuplicate": false,
+        "classification": "exclude",
+        "relevanceScore": 0,
+        "relevanceReasons": [
+          "Missing required keywords",
+          "Study design may not meet criteria: Unknown"
+        ],
+        "pico": null,
+        "needsReview": false,
+        "processedAt": "2026-02-24T08:40:24.249Z"
+      },
+      {
+        "nctId": "NCT00357955",
+        "title": "Combined Behavioral and Pharmacological Intervention for Cardiovascular Risk Reduction in Diabetic Patients",
+        "briefSummary": null,
+        "status": "COMPLETED",
+        "startDate": "2004-08-31",
+        "completionDate": "2008-05-31",
+        "studyType": "INTERVENTIONAL",
+        "phases": [
+          "NA"
+        ],
+        "enrollment": 118,
+        "allocation": "RANDOMIZED",
+        "primaryPurpose": "TREATMENT",
+        "source": "aact",
+        "retrievedAt": "2026-02-24T08:40:22.450Z",
+        "isDuplicate": false,
+        "classification": "exclude",
+        "relevanceScore": 0,
+        "relevanceReasons": [
+          "Missing required keywords",
+          "Study design may not meet criteria: Unknown"
+        ],
+        "pico": null,
+        "needsReview": false,
+        "processedAt": "2026-02-24T08:40:24.290Z"
+      },
+      {
+        "nctId": "NCT00358033",
+        "title": "Strategies to Maintain Cardiac Risk Control After Discharge From Cardiovascular Risk Reduction Clinic",
+        "briefSummary": null,
+        "status": "COMPLETED",
+        "startDate": "2003-07-31",
+        "completionDate": "2008-05-31",
+        "studyType": "INTERVENTIONAL",
+        "phases": [
+          "PHASE3"
+        ],
+        "enrollment": 200,
+        "allocation": "RANDOMIZED",
+        "primaryPurpose": "TREATMENT",
+        "source": "aact",
+        "retrievedAt": "2026-02-24T08:40:22.450Z",
+        "isDuplicate": false,
+        "classification": "exclude",
+        "relevanceScore": 0,
+        "relevanceReasons": [
+          "Missing required keywords",
+          "Study design may not meet criteria: Unknown"
+        ],
+        "pico": null,
+        "needsReview": false,
+        "processedAt": "2026-02-24T08:40:24.347Z"
+      },
+      {
+        "nctId": "NCT00362180",
+        "title": "Measure Liver Fat Content After ISIS 301012 (Mipomersen) Administration",
+        "briefSummary": null,
+        "status": "COMPLETED",
+        "startDate": "2006-07-31",
+        "completionDate": "2010-09-30",
+        "studyType": "INTERVENTIONAL",
+        "phases": [
+          "PHASE2"
+        ],
+        "enrollment": 38,
+        "allocation": "RANDOMIZED",
+        "primaryPurpose": "TREATMENT",
+        "source": "aact",
+        "retrievedAt": "2026-02-24T08:40:22.450Z",
+        "isDuplicate": false,
+        "classification": "exclude",
+        "relevanceScore": 0,
+        "relevanceReasons": [
+          "Missing required keywords",
+          "Study design may not meet criteria: Unknown"
+        ],
+        "pico": null,
+        "needsReview": false,
+        "processedAt": "2026-02-24T08:40:24.449Z"
+      },
+      {
+        "nctId": "NCT00362323",
+        "title": "Fenofibrate and Metformin Fixed Combination vs Metformin - FAME METFO",
+        "briefSummary": null,
+        "status": "COMPLETED",
+        "startDate": "2006-10-31",
+        "completionDate": "2009-03-31",
+        "studyType": "INTERVENTIONAL",
+        "phases": [
+          "PHASE3"
+        ],
+        "enrollment": 482,
+        "allocation": "RANDOMIZED",
+        "primaryPurpose": "TREATMENT",
+        "source": "aact",
+        "retrievedAt": "2026-02-24T08:40:22.450Z",
+        "isDuplicate": false,
+        "classification": "exclude",
+        "relevanceScore": 0,
+        "relevanceReasons": [
+          "Missing required keywords",
+          "Study design may not meet criteria: Unknown"
+        ],
+        "pico": null,
+        "needsReview": false,
+        "processedAt": "2026-02-24T08:40:24.543Z"
+      },
+      {
+        "nctId": "NCT00385658",
+        "title": "Efficacy of Fluvastatin and Fenofibrate in Comparison to Simvastatin and Ezetimibe in Patients With Metabolic Syndrome",
+        "briefSummary": null,
+        "status": "COMPLETED",
+        "startDate": "2006-08-31",
+        "completionDate": "2007-03-31",
+        "studyType": "INTERVENTIONAL",
+        "phases": [
+          "PHASE4"
+        ],
+        "enrollment": 75,
+        "allocation": "RANDOMIZED",
+        "primaryPurpose": "TREATMENT",
+        "source": "aact",
+        "retrievedAt": "2026-02-24T08:40:22.450Z",
+        "isDuplicate": false,
+        "classification": "exclude",
+        "relevanceScore": 0,
+        "relevanceReasons": [
+          "Missing required keywords",
+          "Study design may not meet criteria: Unknown"
+        ],
+        "pico": null,
+        "needsReview": false,
+        "processedAt": "2026-02-24T08:40:24.749Z"
+      },
+      {
+        "nctId": "NCT00392717",
+        "title": "Regulation of Lipoprotein Metabolism in Obese Men",
+        "briefSummary": null,
+        "status": "COMPLETED",
+        "startDate": "1998-02-28",
+        "completionDate": "2002-03-31",
+        "studyType": "INTERVENTIONAL",
+        "phases": [
+          "PHASE3"
+        ],
+        "enrollment": 48,
+        "allocation": "RANDOMIZED",
+        "primaryPurpose": "TREATMENT",
+        "source": "aact",
+        "retrievedAt": "2026-02-24T08:40:22.450Z",
+        "isDuplicate": false,
+        "classification": "exclude",
+        "relevanceScore": 0,
+        "relevanceReasons": [
+          "Missing required keywords",
+          "Study design may not meet criteria: Unknown"
+        ],
+        "pico": null,
+        "needsReview": false,
+        "processedAt": "2026-02-24T08:40:24.940Z"
+      },
+      {
+        "nctId": "NCT00405197",
+        "title": "MARIS Study; Mediterranean Approach to Reduce Insulin-Resistance Study",
+        "briefSummary": null,
+        "status": "COMPLETED",
+        "startDate": "2006-11-30",
+        "completionDate": "2007-04-30",
+        "studyType": "INTERVENTIONAL",
+        "phases": [
+          "NA"
+        ],
+        "enrollment": 60,
+        "allocation": "RANDOMIZED",
+        "primaryPurpose": "PREVENTION",
+        "source": "aact",
+        "retrievedAt": "2026-02-24T08:40:22.450Z",
+        "isDuplicate": false,
+        "classification": "exclude",
+        "relevanceScore": 0,
+        "relevanceReasons": [
+          "Missing required keywords",
+          "Study design may not meet criteria: Unknown"
+        ],
+        "pico": null,
+        "needsReview": false,
+        "processedAt": "2026-02-24T08:40:25.048Z"
+      },
+      {
+        "nctId": "NCT00409240",
+        "title": "Multi-Targeted Cardiac Risk Intervention in Type 2 Diabetes",
+        "briefSummary": null,
+        "status": "COMPLETED",
+        "startDate": "2006-10-31",
+        "completionDate": "2008-06-30",
+        "studyType": "INTERVENTIONAL",
+        "phases": [
+          "PHASE3"
+        ],
+        "enrollment": 103,
+        "allocation": "RANDOMIZED",
+        "primaryPurpose": "TREATMENT",
+        "source": "aact",
+        "retrievedAt": "2026-02-24T08:40:22.450Z",
+        "isDuplicate": false,
+        "classification": "exclude",
+        "relevanceScore": 0,
+        "relevanceReasons": [
+          "Missing required keywords",
+          "Study design may not meet criteria: Unknown"
+        ],
+        "pico": null,
+        "needsReview": false,
+        "processedAt": "2026-02-24T08:40:25.122Z"
+      },
+      {
+        "nctId": "NCT00412113",
+        "title": "A Multi-Risk Factor Strategy vs a Guideline-Based Approach in Achieving Blood Pressure and Lipid Goals in Hypertensives at Extra Risk",
+        "briefSummary": null,
+        "status": "COMPLETED",
+        "startDate": "2007-01-31",
+        "completionDate": "2008-04-30",
+        "studyType": "INTERVENTIONAL",
+        "phases": [
+          "PHASE4"
+        ],
+        "enrollment": 245,
+        "allocation": "RANDOMIZED",
+        "primaryPurpose": "TREATMENT",
+        "source": "aact",
+        "retrievedAt": "2026-02-24T08:40:22.450Z",
+        "isDuplicate": false,
+        "classification": "exclude",
+        "relevanceScore": 0,
+        "relevanceReasons": [
+          "Missing required keywords",
+          "Study design may not meet criteria: Unknown"
+        ],
+        "pico": null,
+        "needsReview": false,
+        "processedAt": "2026-02-24T08:40:25.217Z"
+      },
+      {
+        "nctId": "NCT00422266",
+        "title": "Effect of Omega -3 Fatty Acids Supplements and Plant Sterol Enriched Food in Dyslipidemic Adults",
+        "briefSummary": null,
+        "status": "COMPLETED",
+        "startDate": "2006-12-31",
+        "completionDate": "2007-03-31",
+        "studyType": "INTERVENTIONAL",
+        "phases": [
+          "PHASE3"
+        ],
+        "enrollment": 178,
+        "allocation": "RANDOMIZED",
+        "primaryPurpose": "PREVENTION",
+        "source": "aact",
+        "retrievedAt": "2026-02-24T08:40:22.450Z",
+        "isDuplicate": false,
+        "classification": "exclude",
+        "relevanceScore": 0,
+        "relevanceReasons": [
+          "Missing required keywords",
+          "Study design may not meet criteria: Unknown"
+        ],
+        "pico": null,
+        "needsReview": false,
+        "processedAt": "2026-02-24T08:40:25.382Z"
+      },
+      {
+        "nctId": "NCT00438061",
+        "title": "Effect of Abdominal Obesity on Lipoprotein Metabolism",
+        "briefSummary": null,
+        "status": "COMPLETED",
+        "startDate": "1995-01-31",
+        "completionDate": "1998-12-31",
+        "studyType": "INTERVENTIONAL",
+        "phases": [
+          "PHASE3"
+        ],
+        "enrollment": 40,
+        "allocation": "RANDOMIZED",
+        "primaryPurpose": "TREATMENT",
+        "source": "aact",
+        "retrievedAt": "2026-02-24T08:40:22.450Z",
+        "isDuplicate": false,
+        "classification": "exclude",
+        "relevanceScore": 0,
+        "relevanceReasons": [
+          "Missing required keywords",
+          "Study design may not meet criteria: Unknown"
+        ],
+        "pico": null,
+        "needsReview": false,
+        "processedAt": "2026-02-24T08:40:25.520Z"
+      },
+      {
+        "nctId": "NCT00447070",
+        "title": "Effect of Atazanavir on Endothelial Function in HIV-Infected Patients",
+        "briefSummary": null,
+        "status": "COMPLETED",
+        "startDate": "2004-08-31",
+        "completionDate": "2006-05-31",
+        "studyType": "INTERVENTIONAL",
+        "phases": [
+          "PHASE4"
+        ],
+        "enrollment": 50,
+        "allocation": "RANDOMIZED",
+        "primaryPurpose": "TREATMENT",
+        "source": "aact",
+        "retrievedAt": "2026-02-24T08:40:22.450Z",
+        "isDuplicate": false,
+        "classification": "exclude",
+        "relevanceScore": 0,
+        "relevanceReasons": [
+          "Missing required keywords",
+          "Study design may not meet criteria: Unknown"
+        ],
+        "pico": null,
+        "needsReview": false,
+        "processedAt": "2026-02-24T08:40:25.759Z"
+      },
+      {
+        "nctId": "NCT00455403",
+        "title": "Atheroma Reduction With Chloroquine in Patients With the Metabolic Syndrome (ARCH-MS)",
+        "briefSummary": null,
+        "status": "COMPLETED",
+        "startDate": "2006-04-30",
+        "completionDate": "2009-12-31",
+        "studyType": "INTERVENTIONAL",
+        "phases": [
+          "NA"
+        ],
+        "enrollment": 357,
+        "allocation": "RANDOMIZED",
+        "primaryPurpose": "TREATMENT",
+        "source": "aact",
+        "retrievedAt": "2026-02-24T08:40:22.450Z",
+        "isDuplicate": false,
+        "classification": "exclude",
+        "relevanceScore": 0,
+        "relevanceReasons": [
+          "Missing required keywords",
+          "Study design may not meet criteria: Unknown"
+        ],
+        "pico": null,
+        "needsReview": false,
+        "processedAt": "2026-02-24T08:40:25.914Z"
+      },
+      {
+        "nctId": "NCT00477204",
+        "title": "Clinical Trial of Zocor (Simvastatin) and Vytorin (Ezetimibe/Simvastatin) in Adolescents With Type 1 Diabetes",
+        "briefSummary": null,
+        "status": "COMPLETED",
+        "startDate": "2007-05-31",
+        "completionDate": "2010-08-31",
+        "studyType": "INTERVENTIONAL",
+        "phases": [
+          "PHASE2"
+        ],
+        "enrollment": 9,
+        "allocation": "RANDOMIZED",
+        "primaryPurpose": "TREATMENT",
+        "source": "aact",
+        "retrievedAt": "2026-02-24T08:40:22.450Z",
+        "isDuplicate": false,
+        "classification": "exclude",
+        "relevanceScore": 0,
+        "relevanceReasons": [
+          "Missing required keywords",
+          "Contains 1 preferred keywords",
+          "Study design may not meet criteria: Unknown"
+        ],
+        "pico": null,
+        "needsReview": false,
+        "processedAt": "2026-02-24T08:40:26.315Z"
+      },
+      {
+        "nctId": "NCT00477594",
+        "title": "Open Label Extension of ISIS 301012 (Mipomersen) to Treat Familial Hypercholesterolemia",
+        "briefSummary": null,
+        "status": "COMPLETED",
+        "startDate": "2007-05-31",
+        "completionDate": "2011-07-31",
+        "studyType": "INTERVENTIONAL",
+        "phases": [
+          "PHASE2"
+        ],
+        "enrollment": 21,
+        "allocation": "RANDOMIZED",
+        "primaryPurpose": "TREATMENT",
+        "source": "aact",
+        "retrievedAt": "2026-02-24T08:40:22.450Z",
+        "isDuplicate": false,
+        "classification": "exclude",
+        "relevanceScore": 0,
+        "relevanceReasons": [
+          "Missing required keywords",
+          "Contains 1 preferred keywords",
+          "Study design may not meet criteria: Unknown"
+        ],
+        "pico": null,
+        "needsReview": false,
+        "processedAt": "2026-02-24T08:40:26.471Z"
+      },
+      {
+        "nctId": "NCT00479388",
+        "title": "Study of Extended Release Niacin/Laropiprant on Lipids (0524A-067)",
+        "briefSummary": null,
+        "status": "COMPLETED",
+        "startDate": "2007-07-31",
+        "completionDate": "2008-10-31",
+        "studyType": "INTERVENTIONAL",
+        "phases": [
+          "PHASE3"
+        ],
+        "enrollment": 1216,
+        "allocation": "RANDOMIZED",
+        "primaryPurpose": "TREATMENT",
+        "source": "aact",
+        "retrievedAt": "2026-02-24T08:40:22.450Z",
+        "isDuplicate": false,
+        "classification": "exclude",
+        "relevanceScore": 0,
+        "relevanceReasons": [
+          "Missing required keywords",
+          "Study design may not meet criteria: Unknown"
+        ],
+        "pico": null,
+        "needsReview": false,
+        "processedAt": "2026-02-24T08:40:26.596Z"
+      },
+      {
+        "nctId": "NCT00479882",
+        "title": "MK-0524B Lipid Study (MK-0524B-063)",
+        "briefSummary": null,
+        "status": "COMPLETED",
+        "startDate": "2007-06-15",
+        "completionDate": "2008-06-16",
+        "studyType": "INTERVENTIONAL",
+        "phases": [
+          "PHASE3"
+        ],
+        "enrollment": 2414,
+        "allocation": "RANDOMIZED",
+        "primaryPurpose": "TREATMENT",
+        "source": "aact",
+        "retrievedAt": "2026-02-24T08:40:22.450Z",
+        "isDuplicate": false,
+        "classification": "exclude",
+        "relevanceScore": 0,
+        "relevanceReasons": [
+          "Missing required keywords",
+          "Study design may not meet criteria: Unknown"
+        ],
+        "pico": null,
+        "needsReview": false,
+        "processedAt": "2026-02-24T08:40:26.797Z"
+      },
+      {
+        "nctId": "NCT00481364",
+        "title": "Atorvastatin Treatment to Attenuate the Progression of Cardiovascular Disease in Hemodialysis Patients",
+        "briefSummary": null,
+        "status": "COMPLETED",
+        "startDate": "2006-11-30",
+        "completionDate": "2008-12-31",
+        "studyType": "INTERVENTIONAL",
+        "phases": [
+          "PHASE3"
+        ],
+        "enrollment": 446,
+        "allocation": "RANDOMIZED",
+        "primaryPurpose": "TREATMENT",
+        "source": "aact",
+        "retrievedAt": "2026-02-24T08:40:22.450Z",
+        "isDuplicate": false,
+        "classification": "exclude",
+        "relevanceScore": 0,
+        "relevanceReasons": [
+          "Missing required keywords",
+          "Study design may not meet criteria: Unknown"
+        ],
+        "pico": null,
+        "needsReview": false,
+        "processedAt": "2026-02-24T08:40:26.922Z"
+      },
+      {
+        "nctId": "NCT00486941",
+        "title": "Lifestyle Intervention in Primary Health Care - the Björknäs Study",
+        "briefSummary": null,
+        "status": "COMPLETED",
+        "startDate": "2003-02-28",
+        "completionDate": "2006-03-31",
+        "studyType": "INTERVENTIONAL",
+        "phases": [
+          "PHASE3"
+        ],
+        "enrollment": 151,
+        "allocation": "RANDOMIZED",
+        "primaryPurpose": "PREVENTION",
+        "source": "aact",
+        "retrievedAt": "2026-02-24T08:40:22.450Z",
+        "isDuplicate": false,
+        "classification": "exclude",
+        "relevanceScore": 0,
+        "relevanceReasons": [
+          "Missing required keywords",
+          "Study design may not meet criteria: Unknown"
+        ],
+        "pico": null,
+        "needsReview": false,
+        "processedAt": "2026-02-24T08:40:27.112Z"
+      },
+      {
+        "nctId": "NCT00508937",
+        "title": "Dietary Protein and Insulin Sensitivity Study",
+        "briefSummary": null,
+        "status": "COMPLETED",
+        "startDate": "2007-02-28",
+        "completionDate": "2009-12-31",
+        "studyType": "INTERVENTIONAL",
+        "phases": [
+          "NA"
+        ],
+        "enrollment": 660,
+        "allocation": "RANDOMIZED",
+        "primaryPurpose": "PREVENTION",
+        "source": "aact",
+        "retrievedAt": "2026-02-24T08:40:22.450Z",
+        "isDuplicate": false,
+        "classification": "exclude",
+        "relevanceScore": 0,
+        "relevanceReasons": [
+          "Missing required keywords",
+          "Study design may not meet criteria: Unknown"
+        ],
+        "pico": null,
+        "needsReview": false,
+        "processedAt": "2026-02-24T08:40:27.662Z"
+      },
+      {
+        "nctId": "NCT00526682",
+        "title": "The Use of Irvingia Gabonensis (Bush Mango)and Cissus Quadrangularis to Reduce Weight and Blood Lipids",
+        "briefSummary": null,
+        "status": "COMPLETED",
+        "startDate": "2007-01-31",
+        "completionDate": "2007-04-30",
+        "studyType": "INTERVENTIONAL",
+        "phases": [
+          "NA"
+        ],
+        "enrollment": 72,
+        "allocation": "RANDOMIZED",
+        "primaryPurpose": "TREATMENT",
+        "source": "aact",
+        "retrievedAt": "2026-02-24T08:40:22.450Z",
+        "isDuplicate": false,
+        "classification": "exclude",
+        "relevanceScore": 0,
+        "relevanceReasons": [
+          "Missing required keywords",
+          "Study design may not meet criteria: Unknown"
+        ],
+        "pico": null,
+        "needsReview": false,
+        "processedAt": "2026-02-24T08:40:27.828Z"
+      },
+      {
+        "nctId": "NCT00535886",
+        "title": "The Effects of Natural Versus Man-Made Trans Fatty Acids on Lipoprotein Profiles: A Pilot Study",
+        "briefSummary": null,
+        "status": "COMPLETED",
+        "startDate": "2005-11-30",
+        "completionDate": "2006-04-30",
+        "studyType": "INTERVENTIONAL",
+        "phases": [
+          "NA"
+        ],
+        "enrollment": 15,
+        "allocation": "RANDOMIZED",
+        "primaryPurpose": "PREVENTION",
+        "source": "aact",
+        "retrievedAt": "2026-02-24T08:40:22.451Z",
+        "isDuplicate": false,
+        "classification": "exclude",
+        "relevanceScore": 0,
+        "relevanceReasons": [
+          "Missing required keywords",
+          "Study design may not meet criteria: Unknown"
+        ],
+        "pico": null,
+        "needsReview": false,
+        "processedAt": "2026-02-24T08:40:28.032Z"
+      },
+      {
+        "nctId": "NCT00574808",
+        "title": "Improved Delivery of Cardiovascular Care Through Outreach Facilitation",
+        "briefSummary": null,
+        "status": "COMPLETED",
+        "startDate": "2007-04-30",
+        "completionDate": "2013-02-28",
+        "studyType": "INTERVENTIONAL",
+        "phases": [
+          "PHASE1"
+        ],
+        "enrollment": 194,
+        "allocation": "RANDOMIZED",
+        "primaryPurpose": "HEALTH_SERVICES_RESEARCH",
+        "source": "aact",
+        "retrievedAt": "2026-02-24T08:40:22.451Z",
+        "isDuplicate": false,
+        "classification": "exclude",
+        "relevanceScore": 0,
+        "relevanceReasons": [
+          "Missing required keywords",
+          "Study design may not meet criteria: Unknown"
+        ],
+        "pico": null,
+        "needsReview": false,
+        "processedAt": "2026-02-24T08:40:28.297Z"
+      },
+      {
+        "nctId": "NCT00585143",
+        "title": "Safety Study to Evaluate the Effects of Mild and Moderate Renal Impairment on the Pharmacokinetics of ABT-335 and Rosuvastatin When Administered Concomitantly",
+        "briefSummary": null,
+        "status": "COMPLETED",
+        "startDate": "2008-01-31",
+        "completionDate": "2008-10-31",
+        "studyType": "INTERVENTIONAL",
+        "phases": [
+          "PHASE1"
+        ],
+        "enrollment": 37,
+        "allocation": "RANDOMIZED",
+        "primaryPurpose": "TREATMENT",
+        "source": "aact",
+        "retrievedAt": "2026-02-24T08:40:22.451Z",
+        "isDuplicate": false,
+        "classification": "exclude",
+        "relevanceScore": 0,
+        "relevanceReasons": [
+          "Missing required keywords",
+          "Study design may not meet criteria: Unknown"
+        ],
+        "pico": null,
+        "needsReview": false,
+        "processedAt": "2026-02-24T08:40:28.470Z"
+      },
+      {
+        "nctId": "NCT00593047",
+        "title": "LDL-Cholesterol Lowering Effect of KB2115 as Add on to Statin",
+        "briefSummary": null,
+        "status": "COMPLETED",
+        "startDate": "2007-11-30",
+        "completionDate": "2008-09-30",
+        "studyType": "INTERVENTIONAL",
+        "phases": [
+          "PHASE2"
+        ],
+        "enrollment": 180,
+        "allocation": "RANDOMIZED",
+        "primaryPurpose": "TREATMENT",
+        "source": "aact",
+        "retrievedAt": "2026-02-24T08:40:22.451Z",
+        "isDuplicate": false,
+        "classification": "exclude",
+        "relevanceScore": 0,
+        "relevanceReasons": [
+          "Missing required keywords",
+          "Study design may not meet criteria: Unknown"
+        ],
+        "pico": null,
+        "needsReview": false,
+        "processedAt": "2026-02-24T08:40:28.583Z"
+      },
+      {
+        "nctId": "NCT00000479",
+        "title": "Women's Health Study (WHS): A Randomized Trial of Low-dose Aspirin and Vitamin E in the Primary Prevention of Cardiovascular Disease and Cancer",
+        "briefSummary": null,
+        "status": "COMPLETED",
+        "startDate": "1992-09-30",
+        "completionDate": "2005-02-28",
+        "studyType": "INTERVENTIONAL",
+        "phases": [
+          "PHASE3"
+        ],
+        "enrollment": 39876,
+        "allocation": "RANDOMIZED",
+        "primaryPurpose": "PREVENTION",
+        "source": "aact",
+        "retrievedAt": "2026-02-24T08:40:23.293Z",
+        "isDuplicate": false,
+        "classification": "exclude",
+        "relevanceScore": 35,
+        "relevanceReasons": [
+          "Missing required keywords",
+          "Contains 2 preferred keywords",
+          "Accepted study design: RCT"
+        ],
+        "pico": null,
+        "needsReview": true,
+        "processedAt": "2026-02-24T08:40:28.760Z"
+      },
+      {
+        "nctId": "NCT00000500",
+        "title": "Physicians' Health Study",
+        "briefSummary": null,
+        "status": "COMPLETED",
+        "startDate": "1981-09-30",
+        "completionDate": "1996-12-31",
+        "studyType": "INTERVENTIONAL",
+        "phases": [
+          "PHASE3"
+        ],
+        "enrollment": null,
+        "allocation": "RANDOMIZED",
+        "primaryPurpose": "PREVENTION",
+        "source": "aact",
+        "retrievedAt": "2026-02-24T08:40:23.293Z",
+        "isDuplicate": false,
+        "classification": "exclude",
+        "relevanceScore": 0,
+        "relevanceReasons": [
+          "Missing required keywords",
+          "Study design may not meet criteria: Unknown"
+        ],
+        "pico": null,
+        "needsReview": false,
+        "processedAt": "2026-02-24T08:40:29.044Z"
+      },
+      {
+        "nctId": "NCT00000506",
+        "title": "Cardiovascular System in Obesity: Effect of Treatment",
+        "briefSummary": null,
+        "status": "COMPLETED",
+        "startDate": "1983-05-31",
+        "completionDate": "1988-04-30",
+        "studyType": "INTERVENTIONAL",
+        "phases": [
+          "PHASE2"
+        ],
+        "enrollment": null,
+        "allocation": "RANDOMIZED",
+        "primaryPurpose": "TREATMENT",
+        "source": "aact",
+        "retrievedAt": "2026-02-24T08:40:23.293Z",
+        "isDuplicate": false,
+        "classification": "exclude",
+        "relevanceScore": 0,
+        "relevanceReasons": [
+          "Missing required keywords",
+          "Study design may not meet criteria: Unknown"
+        ],
+        "pico": null,
+        "needsReview": false,
+        "processedAt": "2026-02-24T08:40:29.352Z"
+      },
+      {
+        "nctId": "NCT01663402",
+        "title": "ODYSSEY Outcomes: Evaluation of Cardiovascular Outcomes After an Acute Coronary Syndrome During Treatment With Alirocumab",
+        "briefSummary": null,
+        "status": "COMPLETED",
+        "startDate": "2012-10-31",
+        "completionDate": "2018-01-23",
+        "studyType": "INTERVENTIONAL",
+        "phases": [
+          "PHASE3"
+        ],
+        "enrollment": 18924,
+        "allocation": "RANDOMIZED",
+        "primaryPurpose": "PREVENTION",
+        "source": "aact",
+        "retrievedAt": "2026-02-24T08:40:23.293Z",
+        "isDuplicate": false,
+        "classification": "exclude",
+        "relevanceScore": 0,
+        "relevanceReasons": [
+          "Missing required keywords",
+          "Study design may not meet criteria: Unknown"
+        ],
+        "pico": null,
+        "needsReview": false,
+        "processedAt": "2026-02-24T08:40:29.609Z"
+      },
+      {
+        "nctId": "NCT01764633",
+        "title": "Further Cardiovascular Outcomes Research With PCSK9 Inhibition in Subjects With Elevated Risk",
+        "briefSummary": null,
+        "status": "COMPLETED",
+        "startDate": "2013-02-08",
+        "completionDate": "2016-11-11",
+        "studyType": "INTERVENTIONAL",
+        "phases": [
+          "PHASE3"
+        ],
+        "enrollment": 27564,
+        "allocation": "RANDOMIZED",
+        "primaryPurpose": "TREATMENT",
+        "source": "aact",
+        "retrievedAt": "2026-02-24T08:40:23.293Z",
+        "isDuplicate": false,
+        "classification": "exclude",
+        "relevanceScore": 0,
+        "relevanceReasons": [
+          "Missing required keywords",
+          "Study design may not meet criteria: Unknown"
+        ],
+        "pico": null,
+        "needsReview": false,
+        "processedAt": "2026-02-24T08:40:29.953Z"
+      }
+    ],
+    "summary": {
+      "totalFound": 85,
+      "newPotentialInclusions": 0,
+      "newMaybes": 14,
+      "duplicatesDetected": 14,
+      "autoExcluded": 57,
+      "trialUniverseWithoutPICO": 85,
+      "trialUniverseWithPICO": 17,
+      "trialUniverseRetainedPct": 20
+    },
+    "trialUniverse": {
+      "decision": "PASS",
+      "withoutPICO": {
+        "totalStudies": 85,
+        "uniqueNctCount": 85,
+        "studyIds": [
+          "NCT00017953",
+          "NCT00029835",
+          "NCT00079638",
+          "NCT00108212",
+          "NCT00109603",
+          "NCT00111891",
+          "NCT00116519",
+          "NCT00125125",
+          "NCT00136799",
+          "NCT00143663",
+          "NCT00171262",
+          "NCT00171288",
+          "NCT00171327",
+          "NCT00194402",
+          "NCT00217061",
+          "NCT00218998",
+          "NCT00239967",
+          "NCT00240266",
+          "NCT00240305",
+          "NCT00245388",
+          "NCT00249249",
+          "NCT00249938",
+          "NCT00257686",
+          "NCT00264394",
+          "NCT00267254",
+          "NCT00282659",
+          "NCT00300430",
+          "NCT00300456",
+          "NCT00300469",
+          "NCT00300482",
+          "NCT00309712",
+          "NCT00309738",
+          "NCT00309751",
+          "NCT00309777",
+          "NCT00312923",
+          "NCT00316095",
+          "NCT00326326",
+          "NCT00330980",
+          "NCT00332761",
+          "NCT00344175",
+          "NCT00344370",
+          "NCT00345410",
+          "NCT00346697",
+          "NCT00349128",
+          "NCT00350038",
+          "NCT00357955",
+          "NCT00358033",
+          "NCT00362180",
+          "NCT00362323",
+          "NCT00362908",
+          "NCT00385658",
+          "NCT00385931",
+          "NCT00392717",
+          "NCT00405197",
+          "NCT00409240",
+          "NCT00412113",
+          "NCT00422266",
+          "NCT00438061",
+          "NCT00441480",
+          "NCT00447070",
+          "NCT00455403",
+          "NCT00463606",
+          "NCT00465088",
+          "NCT00477204",
+          "NCT00477594",
+          "NCT00479388",
+          "NCT00479882",
+          "NCT00481364",
+          "NCT00486941",
+          "NCT00487994",
+          "NCT00491530",
+          "NCT00504829",
+          "NCT00506961",
+          "NCT00508937",
+          "NCT00526682",
+          "NCT00535886",
+          "NCT00542386",
+          "NCT00574808",
+          "NCT00585143",
+          "NCT00593047",
+          "NCT00000479",
+          "NCT00000500",
+          "NCT00000506",
+          "NCT01663402",
+          "NCT01764633"
+        ],
+        "duplicateCount": 0,
+        "duplicateStudyIds": []
+      },
+      "withPICO": {
+        "totalStudies": 17,
+        "includeCount": 0,
+        "maybeCount": 17,
+        "excludeCount": 68,
+        "studyIds": [
+          "NCT00029835",
+          "NCT00111891",
+          "NCT00136799",
+          "NCT00239967",
+          "NCT00245388",
+          "NCT00300430",
+          "NCT00309751",
+          "NCT00344370",
+          "NCT00345410",
+          "NCT00349128",
+          "NCT00463606",
+          "NCT00465088",
+          "NCT00487994",
+          "NCT00491530",
+          "NCT00504829",
+          "NCT00506961",
+          "NCT00542386"
+        ],
+        "includeStudyIds": [],
+        "maybeStudyIds": [
+          "NCT00029835",
+          "NCT00111891",
+          "NCT00136799",
+          "NCT00239967",
+          "NCT00245388",
+          "NCT00300430",
+          "NCT00309751",
+          "NCT00344370",
+          "NCT00345410",
+          "NCT00349128",
+          "NCT00463606",
+          "NCT00465088",
+          "NCT00487994",
+          "NCT00491530",
+          "NCT00504829",
+          "NCT00506961",
+          "NCT00542386"
+        ],
+        "excludeStudyIds": [
+          "NCT00017953",
+          "NCT00079638",
+          "NCT00108212",
+          "NCT00109603",
+          "NCT00116519",
+          "NCT00125125",
+          "NCT00143663",
+          "NCT00171262",
+          "NCT00171288",
+          "NCT00171327",
+          "NCT00194402",
+          "NCT00217061",
+          "NCT00218998",
+          "NCT00240266",
+          "NCT00240305",
+          "NCT00249249",
+          "NCT00249938",
+          "NCT00257686",
+          "NCT00264394",
+          "NCT00267254",
+          "NCT00282659",
+          "NCT00300456",
+          "NCT00300469",
+          "NCT00300482",
+          "NCT00309712",
+          "NCT00309738",
+          "NCT00309777",
+          "NCT00312923",
+          "NCT00316095",
+          "NCT00326326",
+          "NCT00330980",
+          "NCT00332761",
+          "NCT00344175",
+          "NCT00346697",
+          "NCT00350038",
+          "NCT00357955",
+          "NCT00358033",
+          "NCT00362180",
+          "NCT00362323",
+          "NCT00362908",
+          "NCT00385658",
+          "NCT00385931",
+          "NCT00392717",
+          "NCT00405197",
+          "NCT00409240",
+          "NCT00412113",
+          "NCT00422266",
+          "NCT00438061",
+          "NCT00441480",
+          "NCT00447070",
+          "NCT00455403",
+          "NCT00477204",
+          "NCT00477594",
+          "NCT00479388",
+          "NCT00479882",
+          "NCT00481364",
+          "NCT00486941",
+          "NCT00508937",
+          "NCT00526682",
+          "NCT00535886",
+          "NCT00574808",
+          "NCT00585143",
+          "NCT00593047",
+          "NCT00000479",
+          "NCT00000500",
+          "NCT00000506",
+          "NCT01663402",
+          "NCT01764633"
+        ]
+      },
+      "comparison": {
+        "removedByPICO": 68,
+        "retainedPct": 20,
+        "excludedPct": 80
+      }
+    },
+    "landmarkCoverage": {
+      "decision": "PASS",
+      "guidelineProfile": "cardiology",
+      "overallCoveragePct": 100,
+      "totalExpected": 5,
+      "totalFound": 5,
+      "minCoveragePct": 70,
+      "areas": {
+        "dyslipidaemias": {
+          "expected": 5,
+          "found": 5,
+          "missing": 0,
+          "coveragePct": 100,
+          "foundNctIds": [
+            "NCT00000479",
+            "NCT00000500",
+            "NCT00000506",
+            "NCT01764633",
+            "NCT01663402"
+          ],
+          "missingNctIds": []
+        }
+      }
+    },
+    "robustness": {
+      "decision": "PASS",
+      "score": 100,
+      "metrics": {
+        "aactIncrementalNctCount": 85,
+        "knownGapRecovered": 0,
+        "knownGapRecoveryPct": 0,
+        "landmarkCoveragePct": 100,
+        "picoRetentionPct": 20,
+        "trialUniverseCount": 85
+      },
+      "checks": [
+        {
+          "id": "source_coverage",
+          "label": "Required source coverage",
+          "pass": true,
+          "value": 1
+        },
+        {
+          "id": "ctgov_strategy_depth",
+          "label": "CT.gov strategy depth",
+          "pass": true,
+          "value": 0
+        },
+        {
+          "id": "ctgov_error_free",
+          "label": "CT.gov execution without errors",
+          "pass": true,
+          "value": 1
+        },
+        {
+          "id": "aact_available",
+          "label": "AACT availability",
+          "pass": true,
+          "value": 1
+        },
+        {
+          "id": "aact_incremental_capture",
+          "label": "AACT incremental capture over CT.gov",
+          "pass": true,
+          "value": 85
+        },
+        {
+          "id": "landmark_coverage",
+          "label": "ESC landmark coverage",
+          "pass": true,
+          "value": 100
+        },
+        {
+          "id": "trial_universe_pico",
+          "label": "Trial universe with and without PICO",
+          "pass": true,
+          "value": 20
+        }
+      ],
+      "actionItems": []
+    }
+  }
+}

@@ -1,0 +1,135 @@
+{
+  "generatedAt": "2026-02-24T08:25:29.540Z",
+  "guidelineProfile": "cardiology",
+  "gatewayUrl": "http://127.0.0.1:8787/aact/query",
+  "maxResultsPerArea": 300,
+  "areaCount": 10,
+  "totals": {
+    "aactRetrieved": 0,
+    "withoutPICO": 0,
+    "withPICO": 0,
+    "robustPassCount": 0
+  },
+  "perArea": [
+    {
+      "areaKey": "heart_failure",
+      "aactCount": 0,
+      "aactRetrieved": 0,
+      "aactError": "AACT gateway request failed: 500",
+      "landmarkCoveragePct": 0,
+      "trialUniverseWithoutPICO": 0,
+      "trialUniverseWithPICO": 0,
+      "picoRetainedPct": 0,
+      "robustnessDecision": "FLAG",
+      "robustnessScore": 42.9
+    },
+    {
+      "areaKey": "atrial_fibrillation",
+      "aactCount": 0,
+      "aactRetrieved": 0,
+      "aactError": "AACT gateway request failed: 500",
+      "landmarkCoveragePct": 0,
+      "trialUniverseWithoutPICO": 0,
+      "trialUniverseWithPICO": 0,
+      "picoRetainedPct": 0,
+      "robustnessDecision": "FLAG",
+      "robustnessScore": 42.9
+    },
+    {
+      "areaKey": "acute_coronary_syndromes",
+      "aactCount": 0,
+      "aactRetrieved": 0,
+      "aactError": "AACT gateway request failed: 500",
+      "landmarkCoveragePct": 0,
+      "trialUniverseWithoutPICO": 0,
+      "trialUniverseWithPICO": 0,
+      "picoRetainedPct": 0,
+      "robustnessDecision": "FLAG",
+      "robustnessScore": 42.9
+    },
+    {
+      "areaKey": "chronic_coronary_syndromes",
+      "aactCount": 0,
+      "aactRetrieved": 0,
+      "aactError": "AACT gateway request failed: 500",
+      "landmarkCoveragePct": 0,
+      "trialUniverseWithoutPICO": 0,
+      "trialUniverseWithPICO": 0,
+      "picoRetainedPct": 0,
+      "robustnessDecision": "FLAG",
+      "robustnessScore": 42.9
+    },
+    {
+      "areaKey": "cardiovascular_prevention",
+      "aactCount": 0,
+      "aactRetrieved": 0,
+      "aactError": "AACT gateway request failed: 500",
+      "landmarkCoveragePct": 0,
+      "trialUniverseWithoutPICO": 0,
+      "trialUniverseWithPICO": 0,
+      "picoRetainedPct": 0,
+      "robustnessDecision": "FLAG",
+      "robustnessScore": 42.9
+    },
+    {
+      "areaKey": "valvular_heart_disease",
+      "aactCount": 0,
+      "aactRetrieved": 0,
+      "aactError": "AACT gateway request failed: 500",
+      "landmarkCoveragePct": 0,
+      "trialUniverseWithoutPICO": 0,
+      "trialUniverseWithPICO": 0,
+      "picoRetainedPct": 0,
+      "robustnessDecision": "FLAG",
+      "robustnessScore": 42.9
+    },
+    {
+      "areaKey": "ventricular_arrhythmias",
+      "aactCount": 0,
+      "aactRetrieved": 0,
+      "aactError": "AACT gateway request failed: 500",
+      "landmarkCoveragePct": 0,
+      "trialUniverseWithoutPICO": 0,
+      "trialUniverseWithPICO": 0,
+      "picoRetainedPct": 0,
+      "robustnessDecision": "FLAG",
+      "robustnessScore": 42.9
+    },
+    {
+      "areaKey": "pulmonary_hypertension",
+      "aactCount": 0,
+      "aactRetrieved": 0,
+      "aactError": "AACT gateway request failed: 500",
+      "landmarkCoveragePct": 0,
+      "trialUniverseWithoutPICO": 0,
+      "trialUniverseWithPICO": 0,
+      "picoRetainedPct": 0,
+      "robustnessDecision": "FLAG",
+      "robustnessScore": 42.9
+    },
+    {
+      "areaKey": "cardiomyopathies",
+      "aactCount": 0,
+      "aactRetrieved": 0,
+      "aactError": "AACT gateway request failed: 500",
+      "landmarkCoveragePct": 0,
+      "trialUniverseWithoutPICO": 0,
+      "trialUniverseWithPICO": 0,
+      "picoRetainedPct": 0,
+      "robustnessDecision": "FLAG",
+      "robustnessScore": 42.9
+    },
+    {
+      "areaKey": "peripheral_arterial_disease",
+      "aactCount": 0,
+      "aactRetrieved": 0,
+      "aactError": "AACT gateway request failed: 500",
+      "landmarkCoveragePct": 0,
+      "trialUniverseWithoutPICO": 0,
+      "trialUniverseWithPICO": 0,
+      "picoRetainedPct": 0,
+      "robustnessDecision": "FLAG",
+      "robustnessScore": 42.9
+    }
+  ]
+}
