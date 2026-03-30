@@ -1,0 +1,8 @@
+{
+  "name": "esc-acs-living-meta",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "test:cli": "node test-runner-cli.js --all --json"
+  }
+}
