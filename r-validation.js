@@ -1258,8 +1258,7 @@ export function validateTopicReviewContext(input) {
 // ============================================================================
 
 export function runRValidation(options = {}) {
-  console.log("
-" + "═".repeat(70));
+  console.log(`\n${"═".repeat(70)}`);
   console.log("ESC ACS LIVING META-ANALYSIS - R PACKAGE VALIDATION SUITE");
   console.log("═".repeat(70));
   console.log("Validating against: metafor v4.6, meta v7.0, netmeta v2.9, mada v0.5.11");
@@ -1292,16 +1291,14 @@ export function runRValidation(options = {}) {
       validateTopicReviewContext(options.topicContext);
     }
   } catch (error) {
-    console.error("
-⚠ Validation suite error:", error.message);
+    console.error("\n⚠ Validation suite error:", error.message);
     console.error(error.stack);
   }
 
   validationResults.endTime = Date.now();
   const duration = validationResults.endTime - validationResults.startTime;
 
-  console.log("
-" + "═".repeat(70));
+  console.log(`\n${"═".repeat(70)}`);
   console.log("VALIDATION SUMMARY");
   console.log("═".repeat(70));
   console.log(`Total Suites: ${validationResults.suites.length}`);
@@ -1314,8 +1311,7 @@ export function runRValidation(options = {}) {
   console.log(`Pass Rate: ${passRate}%`);
 
   if (validationResults.failed === 0) {
-    console.log("
-✓ ALL VALIDATION TESTS PASSED");
+    console.log("\n✓ ALL VALIDATION TESTS PASSED");
   } else {
     console.log(`
 ✗ ${validationResults.failed} TESTS FAILED`);
@@ -1339,8 +1335,7 @@ export {
   validateEffectSizeCalculations,
   validateCumulativeMetaAnalysis,
   validateStandardErrors,
-  validateNMAStandardErrors,
-  validateTopicReviewContext
+  validateNMAStandardErrors
 };
 
 // Auto-run if executed directly
