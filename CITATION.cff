@@ -1,0 +1,23 @@
+cff-version: 1.2.0
+message: "If you use this project, please cite it as below."
+type: software
+title: "ESC ACS Living Meta"
+license: MIT
+abstract: >-
+  Shared browser-based analysis and reviewer application for the cardiovascular
+  living meta workflow.
+keywords:
+  - living meta-analysis
+  - cardiology
+  - reviewer workflow
+  - evidence synthesis
+authors:
+  - family-names: Ahmad
+    given-names: Mahmood
+preferred-citation:
+  type: software
+  title: "ESC ACS Living Meta"
+  authors:
+    - family-names: Ahmad
+      given-names: Mahmood
+  year: 2026
