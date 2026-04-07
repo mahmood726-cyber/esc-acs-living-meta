@@ -1,6 +1,6 @@
 Mahmood Ahmad
 Tahir Heart Institute
-author@example.com
+mahmood.ahmad2@nhs.net
 
 ESC ACS Living Meta: Reproducibility Capsule for Guideline-Aware Cardiovascular Surveillance
 

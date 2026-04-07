@@ -594,11 +594,12 @@
     </div>
 
     <!-- Quick Start Wizard Modal -->
-    <div id="quickStartModal" class="modal">
+    <div id="quickStartModal" class="modal hidden" aria-hidden="true">
       <div class="modal-content modal-content--wizard">
         <div class="wizard-header">
           <h2 id="welcomeTitle">Welcome to ESC ACS Living Meta-Analysis Studio</h2>
           <p class="wizard-subtitle">Quick Start Guide (2 minutes)</p>
+          <button id="wizardCloseBtn" class="modal-close" type="button" aria-label="Close quick start guide">&times;</button>
         </div>
         <div class="wizard-body">
           <div class="wizard-step active" data-step="1">
@@ -649,6 +650,7 @@
             <span class="wizard-dot" data-step="4"></span>
           </div>
           <div class="wizard-buttons">
+            <button id="wizardSkipBtn" class="btn btn--outline">Skip Guide</button>
             <button id="wizardPrevBtn" class="btn btn--outline" disabled>Previous</button>
             <button id="wizardNextBtn" class="btn btn--primary">Next</button>
             <button id="wizardFinishBtn" class="btn btn--accent hidden">Get Started</button>
