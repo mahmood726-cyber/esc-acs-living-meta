@@ -1,27 +1,21 @@
 Mahmood Ahmad
 Tahir Heart Institute
-author@example.com
+mahmood.ahmad2@nhs.net
 
-Protocol: ESC ACS Living Meta: Reproducibility Capsule for Guideline-Aware Cardiovascular Surveillance
+Protocol: ESC ACS Living Meta: Shared Cardiovascular Living Meta-Analysis Engine with GRADE Assessment and Topic-Context Validation
 
-This protocol describes the planned evidence synthesis for ESC ACS Living Meta: Reproducibility Capsule for Guideline-Aware, targeting transparent, reproducible estimation of documentation proportion in a versioned analytical workflow. Eligible inputs include published studies and validated computational outputs addressing the target estimand, with no restrictions on publication year, language, or clinical domain. Searches will cover PubMed, Embase, and the Cochrane Central Register using structured strategies, reference-list screening, and duplicate full-text review before extraction. The primary analysis will estimate documentation proportion using restricted maximum likelihood random-effects meta-analysis, reporting 95 percent confidence intervals, prediction intervals, and prespecified model checks. Heterogeneity will be summarised using I-squared and tau-squared, with sensitivity analyses across variance estimators, exclusion scenarios, and leave-one-out patterns. Analysis code will be versioned and archived at https://github.com/mahmood726-cyber/esc-acs-living-meta, and reporting will follow PRISMA 2020 guidance to support independent verification and reuse. Anticipated limitations include publication bias, clinical heterogeneity, sparse data in some settings, and the constraints of aggregate-level evidence synthesis.
+This protocol describes the planned methods submission for ESC ACS Living Meta, a shared JavaScript engine for cardiovascular living meta-analysis with automated validation and GRADE support. The evaluation treats the repository inventory as the evidence base and audits documented analysis capabilities rather than pooling a clinical treatment effect. Eligible materials are the committed source files, tests, topic definitions, guides, and static assets that define or validate the shared engine. Primary reporting will describe the documented meta-analysis, Bayesian, network, GRADE, and topic-context validation capabilities, with documentation proportion and explicit reviewer findings reported from the frozen repository state. Robustness checks will emphasize observed-denominator GRADE handling and the prediction-interval guard that disables invalid outputs when two or fewer studies are available. All release artifacts, validation scripts, and the static E156 bundle are archived repo-relatively for reviewer inspection. The protocol cannot incorporate unpublished trial results or individual patient data and remains dependent on the committed project state.
 
 Outside Notes
 
 Type: protocol
 Primary estimand: documentation proportion
-App: esc-acs-living-meta E156 Capsule v1.0
+App: ESC ACS Living Meta Platform v1.0
 Code: https://github.com/mahmood726-cyber/esc-acs-living-meta
 Date: 2026-03-28
 Validation: DRAFT
 
 References
 
-1. Borenstein M, Hedges LV, Higgins JPT, Rothstein HR. Introduction to Meta-Analysis. 2nd ed. Wiley; 2021.
-2. Higgins JPT, Thompson SG, Deeks JJ, Altman DG. Measuring inconsistency in meta-analyses. BMJ. 2003;327(7414):557-560.
-3. Cochrane Handbook for Systematic Reviews of Interventions. Version 6.4. Cochrane; 2023.
-
-AI Disclosure
-
-This work represents a compiler-generated evidence micro-publication (i.e., a structured, pipeline-based synthesis output). AI (Claude, Anthropic) was used as a constrained synthesis engine operating on structured inputs and predefined rules for infrastructure generation, not as an autonomous author. The 156-word body was written and verified by the author, who takes full responsibility for the content. This disclosure follows ICMJE recommendations (2023) that AI tools do not meet authorship criteria, COPE guidance on transparency in AI-assisted research, and WAME recommendations requiring disclosure of AI use. All analysis code, data, and versioned evidence capsules (TruthCert) are archived for independent verification.
-
+1. Rucker G. Network meta-analysis, electrical networks and graph theory. Res Synth Methods. 2012;3(4):312-324. doi:10.1002/jrsm.1058.
+2. Lu G, Ades AE. Assessing evidence inconsistency in mixed treatment comparisons. J Am Stat Assoc. 2006;101(474):447-459. doi:10.1198/016214505000001302.
