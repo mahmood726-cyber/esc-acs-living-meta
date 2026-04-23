@@ -3,6 +3,8 @@
   "private": true,
   "type": "module",
   "scripts": {
-    "test:cli": "node test-runner-cli.js --all --json"
+    "test:cli": "node test-runner-cli.js --all --json",
+    "test:smoke": "python tests/test_smoke.py",
+    "validate": "npm run test:cli && npm run test:smoke"
   }
 }

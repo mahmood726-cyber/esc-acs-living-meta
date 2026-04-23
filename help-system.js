@@ -330,6 +330,7 @@ const KEYBOARD_SHORTCUTS = [
 class HelpSystem {
   constructor() {
     this.prefs = this.loadPrefs();
+    this.currentWizardStep = 1;
     this.currentTourStep = 0;
     this.tooltipTimeout = null;
 
@@ -388,10 +389,22 @@ class HelpSystem {
     const nextBtn = document.getElementById('wizardNextBtn');
     const prevBtn = document.getElementById('wizardPrevBtn');
     const finishBtn = document.getElementById('wizardFinishBtn');
+    const skipBtn = document.getElementById('wizardSkipBtn');
+    const wizardCloseBtn = document.getElementById('wizardCloseBtn');
+    const quickStartModal = document.getElementById('quickStartModal');
 
     if (nextBtn) nextBtn.addEventListener('click', () => this.wizardNext());
     if (prevBtn) prevBtn.addEventListener('click', () => this.wizardPrev());
     if (finishBtn) finishBtn.addEventListener('click', () => this.finishQuickStart());
+    if (skipBtn) skipBtn.addEventListener('click', () => this.hideQuickStart());
+    if (wizardCloseBtn) wizardCloseBtn.addEventListener('click', () => this.hideQuickStart());
+    if (quickStartModal) {
+      quickStartModal.addEventListener('click', event => {
+        if (event.target === quickStartModal) {
+          this.hideQuickStart();
+        }
+      });
+    }
 
     // Wizard dots
     document.querySelectorAll('.wizard-dot').forEach(dot => {
@@ -556,9 +569,10 @@ class HelpSystem {
   showQuickStart() {
     const modal = document.getElementById('quickStartModal');
     if (modal) {
-      modal.classList.remove('hidden');
       this.currentWizardStep = 1;
       this.updateWizardUI();
+      modal.classList.remove('hidden');
+      modal.setAttribute('aria-hidden', 'false');
     }
   }
 
@@ -566,6 +580,7 @@ class HelpSystem {
     const modal = document.getElementById('quickStartModal');
     if (modal) {
       modal.classList.add('hidden');
+      modal.setAttribute('aria-hidden', 'true');
     }
   }
 

@@ -1,5 +1,13 @@
 ESC ACS Living Meta-Analysis Validation
 
+Commands
+- Run `powershell -ExecutionPolicy Bypass -File .\open_app.ps1 -NoBrowser` to start or reuse the local app server without opening a browser window.
+- Run `powershell -ExecutionPolicy Bypass -File .\run_validation.ps1` for the standard local validation entry point.
+- Run `npm run validate` for the default local validation sequence.
+- Run `npm run test:cli` for the existing CLI validation suite.
+- Run `python tests/test_smoke.py` to confirm the repository or packaged submission structure is intact.
+- Run `powershell -ExecutionPolicy Bypass -File .\generate_release_notes.ps1 -Summary 'Describe the release scope.'` when you need standalone release notes without creating a zip.
+
 Offline rendering
 - Serve the folder (example: `python -m http.server`) and open `esc-acs-living-meta/index.html`.
 - Click "Load Offline Fixture".
@@ -13,6 +21,7 @@ Live update (requires network access)
 Notes
 - The worker stores full ClinicalTrials.gov records in memory and caches smaller payloads in localStorage.
 - Tabs render lazily; plots are drawn only when a tab is active.
+- Run `powershell -ExecutionPolicy Bypass -File .\package_release.ps1` when you need a packaged release snapshot and matching release notes under `release/`.
 
 Recent validation runs
 - Offline fixture (lastUpdate: 2026-01-02T16:00:00Z): topicCount 3, trialCount 15, pairwise 5 rows, network 4 rows, dose 0 rows (empty-state), diagnostics 5 rows.
