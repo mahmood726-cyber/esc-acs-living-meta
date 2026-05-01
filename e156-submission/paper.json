@@ -3,8 +3,8 @@
   "slug": "esc-acs-living-meta",
   "author": "Mahmood Ahmad",
   "date": "2026-03-28",
-  "body": "Can a shared analysis engine support living meta-analysis across multiple cardiovascular topics with automated validation and GRADE assessment? We built the ESC ACS Living Meta platform providing random-effects meta-analysis, Bayesian inference with grid approximation and MCMC sampling, network meta-analysis with REML heterogeneity estimation, and automated GRADE certainty assessment. The engine supports topic-context validation ensuring each analysis correctly handles observed-denominator GRADE calculations and prediction interval computation with appropriate warnings for small study counts. Editorial review across four rounds achieved a perfect score of 100 out of 100 across six criteria including statistical rigour, methodological correctness, validation, innovation, documentation, and usability. Prediction intervals are disabled for analyses with two or fewer studies where the degrees of freedom equal zero, preventing mathematically invalid outputs. A shared living meta-analysis engine could standardise cardiovascular evidence synthesis across therapeutic topics. The platform relies on ClinicalTrials.gov metadata and cannot incorporate unpublished trial results or individual patient data.",
-  "word_count": 150,
+  "body": "Can a shared analysis engine support living meta-analysis across multiple cardiovascular topics with automated validation and GRADE assessment? We built the ESC ACS Living Meta platform providing random-effects meta-analysis, Bayesian inference with grid approximation and MCMC sampling, network meta-analysis with REML heterogeneity estimation, and automated GRADE certainty assessment. The engine supports topic-context validation ensuring each analysis correctly handles observed-denominator GRADE calculations and prediction interval computation with appropriate warnings for small study counts. Editorial review across four rounds achieved a perfect score of 100 out of 100 across six criteria including statistical rigour, methodological correctness, validation, innovation, documentation, and usability. Prediction intervals are disabled for analyses with two or fewer studies where the degrees of freedom equal zero, preventing mathematically invalid outputs. A shared living meta-analysis engine could standardise cardiovascular evidence synthesis across therapeutic topics for transparent, repeatable topic-level review governance. The platform relies on ClinicalTrials.gov metadata and cannot incorporate unpublished trial results or individual patient data.",
+  "word_count": 156,
   "sentence_count": 7,
   "sentences": [
     {
@@ -29,7 +29,7 @@
     },
     {
       "role": "Interpretation",
-      "text": "A shared living meta-analysis engine could standardise cardiovascular evidence synthesis across therapeutic topics."
+      "text": "A shared living meta-analysis engine could standardise cardiovascular evidence synthesis across therapeutic topics for transparent, repeatable topic-level review governance."
     },
     {
       "role": "Boundary",
@@ -66,7 +66,7 @@
       {
         "name": "word count",
         "ok": true,
-        "detail": "Found 150 words."
+        "detail": "Found 156 words."
       },
       {
         "name": "no headings",
