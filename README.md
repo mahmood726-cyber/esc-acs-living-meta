@@ -9,10 +9,10 @@ Shared analysis and reviewer app for the cardiovascular living meta workflow.
 - `r-validation.js`: validation suites, including topic-context validation
 - `r-validation-runner.html`: embedded and standalone validation runner
 - `topics.js`: topic configuration consumed by the shared app
-- `open_app.ps1`: local browser launcher with static-server support
-- `stop_local_server.ps1`: stops the local launcher server
-- `package_release.ps1`: creates a timestamped release zip under `release/`
-- `generate_release_notes.ps1`: writes timestamped release notes under `release/`
+- `index.html`: the in-browser reviewer + analysis app entry point
+- `test-runner-cli.js`: Node CLI test runner for the analysis engine (`npm run test:cli`)
+- `tests/test_smoke.py`: Python smoke test for the local AACT SQL gateway (`npm run test:smoke`)
+- `aact_local_gateway.py`: local SELECT-only AACT SQL gateway (keeps credentials server-side)
 
 ## Current State
 
@@ -24,9 +24,9 @@ This repo now includes:
 
 ## Quick Start
 
-1. Run `powershell -ExecutionPolicy Bypass -File .\open_app.ps1` to start the local launcher and open the app.
-2. Run `powershell -ExecutionPolicy Bypass -File .\run_validation.ps1` for the standard validation path.
-3. Run `powershell -ExecutionPolicy Bypass -File .\package_release.ps1` when you need a release snapshot and matching release notes.
+1. Open `index.html` in a browser (serve the directory over a static localhost server so module scripts load).
+2. Run `npm run test:cli` to execute the analysis-engine test suite via Node.
+3. Run `npm run validate` to run the engine tests plus the Python gateway smoke test (`npm run test:smoke`).
 
 ## Related Repo
 
