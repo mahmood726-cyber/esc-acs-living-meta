@@ -268,10 +268,45 @@ import('./analysis.js').then(analysis => {
         expect(result.pi[1]).toBeGreaterThan(result.random.ci[1]);
       });
 
+      it('prediction interval matches mu +/- t_{k-2}*sqrt(tau2 + se^2) (metafor/IntHout)', () => {
+        // Anchored regression test for the PI variance term.
+        // Dataset chosen so DL tau2 = 0 (Q < df), making se(mu)^2 the whole
+        // variance term. Expected values derived from the IntHout 2014 formula
+        // PI = mu +/- t_{k-2} * sqrt(tau2 + SE(mu)^2), independent of the code.
+        // The prior (buggy) median-within-study-variance formula gives
+        // PI = [-1.083, 0.181] which would FAIL both bounds below.
+        const anchorStudies = [
+          { effect: -0.5, se: 0.2 },
+          { effect: -0.3, se: 0.15 },
+          { effect: -0.7, se: 0.25 },
+          { effect: -0.4, se: 0.18 },
+          { effect: -0.6, se: 0.22 }
+        ];
+        const r = metaAnalysisAdvanced(anchorStudies, { tau2Method: 'DL' });
+        expect(r.tau2).toBeCloseTo(0, 1e-9);
+        expect(r.pi[0]).toBeCloseTo(-0.72093774, 1e-3);
+        expect(r.pi[1]).toBeCloseTo(-0.18109624, 1e-3);
+        // The correct (narrower) PI excludes 0; the buggy PI (upper ~0.181) would not.
+        expect(r.pi[1]).toBeLessThan(0);
+      });
+
       it('provides I² confidence interval', () => {
         const result = metaAnalysisAdvanced(studies);
         expect(result.i2CI).toBeTruthy();
         expect(result.i2CI.lower).toBeLessThan(result.i2CI.upper);
+      });
+
+      it('metaAnalysis returns null on empty input (fails closed, no NaN/Infinity)', () => {
+        // Regression: empty input previously returned a schema-valid object with
+        // NaN tau2 and Infinity se instead of failing closed.
+        expect(metaAnalysis([])).toBeNull();
+      });
+
+      it('metaAnalysis produces finite fields for a single study (k=1)', () => {
+        const result = metaAnalysis([{ effect: -0.4, se: 0.18 }]);
+        expect(result).toBeTruthy();
+        expect(Number.isFinite(result.mu)).toBeTruthy();
+        expect(Number.isFinite(result.se)).toBeTruthy();
       });
     });
 

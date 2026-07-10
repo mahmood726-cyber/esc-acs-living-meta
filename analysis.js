@@ -607,6 +607,7 @@ function erf(x) {
 }
 
 export function metaAnalysis(studies, options = {}) {
+  if (!studies || studies.length === 0) return null;
   const yi = studies.map(s => s.effect);
   const vi = studies.map(s => s.se * s.se);
   const method = options.tau2Method || "REML";
@@ -659,12 +660,12 @@ export function metaAnalysisAdvanced(studies, options = {}) {
   } else {
     const dfPi = k - 2;
     const tPi = tCritical(dfPi, options.alpha || 0.05);
-    // Uses typical within-study variance (median), not pooled SE
-    const sortedVi = [...vi].sort((a, b) => a - b);
-    const medianVi = k % 2 === 0
-      ? (sortedVi[k / 2 - 1] + sortedVi[k / 2]) / 2
-      : sortedVi[Math.floor(k / 2)];
-    pi = [mu - tPi * Math.sqrt(tau2 + medianVi), mu + tPi * Math.sqrt(tau2 + medianVi)];
+    // PI variance term = tau2 + SE(mu)^2, where SE(mu) is the standard error of
+    // the random-effects summary estimate (seMu2 = 1 / sum(wi) = se*se here).
+    // Ref: IntHout 2014 (cited above); Higgins-Thompson 2009; Borenstein 2009.
+    // NOT the median within-study variance (which over-inflates the interval).
+    const seMu2 = se * se;
+    pi = [mu - tPi * Math.sqrt(tau2 + seMu2), mu + tPi * Math.sqrt(tau2 + seMu2)];
 
     // Warning for small k - prediction intervals unreliable with k < 5
     if (k < 5) {
